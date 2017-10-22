@@ -1,0 +1,58 @@
+# Site settings
+title: "Shunsuke KITADA | Resume"
+description: "This is my resume page"
+
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Resume settings
+resume_avatar:                  "true"
+resume_name:                    "Shunsuke KITADA"
+resume_title:                   "May the Neural Networks be with you"
+resume_contact_email:           "septemtrio.ager@gmail.com"
+# resume_contact_telephone:       "555-7334"
+resume_contact_address:         "W603, Intelligent information processing laboratory, Hosei University, 3-7-2 kajino-cho, Koganei-si, Tokyo 184-8584"
+resume_header_contact_info: "septemtrio.ager@gmail.com"
+resume_header_intro: "<p>I am a undergraduate student at Dept. of Applied Informatics Faculty of Science and Engineering, Hosei University. I am majoring computer science, and my research interests are in natural language processing, especially Deep Learning.</p>"
+
+
+
+# use "yes" to display the email contact button,
+# "no" to display an "I'm not looking for work" message,
+# or remove the resume_looking_for_work option entirely
+# to leave blank
+resume_looking_for_work:        "yes"
+
+# Decide which sections to use
+# comment out to hide
+resume_section_education:       true
+resume_section_experience:      true
+resume_section_projects:        true
+resume_section_skills:          true
+# resume_section_links:           true
+resume_section_interests:       true
+resume_section_publications:    true
+resume_section_recognition:     true
+resume_section_associations:    true
+
+# Resume social links
+# uncomment the options you wish to display, and add your own URL
+resume_social_links:
+  resume_github_url:            "https://github.com/shunk031"
+  resume_twitter_url:           "http://twitter.com/shunk031"
+  # resume_dribbble_url:          "https://dribbble.com/jag"
+  # resume_facebook_url:          "insert Facebook URL here"
+  resume_linkedin_url:          "https://www.linkedin.com/in/shunsuke-kitada/"
+  # resume_instagram_url:         "insert your Instagram URL here"
+  resume_website_url:           "http://shunk031.hatenablog.com/"
+resume_print_social_links:      true
+
+# Design settings
+resume_theme:                   default
+
+# Note: when editing locally, remember to restart
+# your Jekyll server when you edit this file. Changes
+# to _config.yml are only recognized when the server starts
