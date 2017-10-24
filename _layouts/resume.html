@@ -117,13 +117,9 @@
         <div class="resume-item">
 	  <ul>
 	    <li>
-              <h4 class="resume-item-details">{{ publication.title }}</h4>
-	      <ul>
-		<li>
-		  <p class="resume-item-copy">{{ publication.url }}</p>
-		</li>
-		
-	      </ul>
+              <h4 class="resume-item-details">
+		<a href="{{ publication.url }}">{{ publication.title }}</a>
+	      </h4>
 	    </li>
 	  </ul>
         </div>
