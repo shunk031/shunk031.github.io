@@ -6,12 +6,21 @@
 
 ### Running locally
 
+#### Setup rbenv for this repo
+
+``` shell
+$ ruby-build 2.4.0 ~/.rbenv/versions/2.4.0-resume-template
+$ cd this-resume-template-repo
+$ rbenv local 2.4.0-resume-template
+$ gem install bundle
+```
+
 To test locally, run the following in your terminal:
 
 1. Clone repo locally
-1. `bundle install`
-2. `bundle exec jekyll serve`
-3. Open your browser to `localhost:4000`
+2. `bundle install`
+3. `bundle exec jekyll serve`
+4. Open your browser to `localhost:4000`
 
 ### Customizing
 
