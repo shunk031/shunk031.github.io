@@ -15,5 +15,11 @@
 - project: chainer-center-loss
   role: Maintainer
   duration: 2017
-  description: Implementation of Center Loss in Chainer
+  description: 'Implementation of <a href="https://link.springer.com/chapter/10.1007/978-3-319-46478-7_31">Center Loss</a> in Chainer'
   url: https://github.com/shunk031/chainer-center-loss
+
+- project: chainer-IMSAT
+  role: Maintainer
+  duration: 2018
+  description: 'Implementation of <a href="https://arxiv.org/abs/1702.08720">IMSAT</a> in Chainer'
+  url: https://github.com/shunk031/chainer-IMSAT
