@@ -1,5 +1,7 @@
 # resume-template
 
+[![Build Status](https://travis-ci.org/shunk031/shunk031.github.io.svg?branch=master)](https://travis-ci.org/shunk031/shunk031.github.io)
+
 *A simple Jekyll + GitHub Pages powered resume template.*
 
 ## Docs

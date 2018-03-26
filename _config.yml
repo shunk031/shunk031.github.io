@@ -56,3 +56,8 @@ resume_theme:                   default
 # Note: when editing locally, remember to restart
 # your Jekyll server when you edit this file. Changes
 # to _config.yml are only recognized when the server starts
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
