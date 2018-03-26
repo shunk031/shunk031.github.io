@@ -1,6 +1,6 @@
 # Recognitions
 # Uniqlo
-- award: 'Special award of <a href="https://deepanalytics.jp/compe/36">FR FRONTIER: Classification of "color" of clothes in fashion images</a>'
-  organization: <a href="https://deepanalytics.jp/">opt DSL DeepAnalysis</a>
+- award: 'Special award of FR FRONTIER: Classification of "color" of clothes in fashion images'
+  organization: <a href="https://deepanalytics.jp/compe/36">opt DSL DeepAnalysis</a>
   year: Sep, 2017
   summary: Got student award using state of the art deep models.
