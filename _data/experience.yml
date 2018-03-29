@@ -1,9 +1,24 @@
 # Jobs
+# Faber company Inc.
+- company: Faber Company Inc.
+  position: Internship
+  duration: Mar 27 &mdash; Mar 29, 2018
+  summary: '
+  <ul>
+    <li>
+      <a href="https://mieru-ca.com/recruit/2018internship-spring/">Engineer internship 3days / ¥100,000</a>
+    </li>
+  </ul>' 
+  
 # Gunosy Inc.
 - company: Gunosy Inc.
   position: Part-time job at Dept. of Data Analysis
   duration: Mar, 2017 &mdash; Present
-  summary: '<ul><li>Improving article distribution logic</li><li>KPI analysis and visualization for service improvement</li></ul>'
+  summary: '
+  <ul>
+    <li>Improving article distribution logic</li>
+    <li>KPI analysis and visualization for service improvement</li>
+  </ul>'
 
 # NVIDIA Japan
 - company: NVIDIA Japan
