@@ -113,18 +113,20 @@
         <header class="section-header">
           <h2>Publications</h2>
         </header>
-        {% for publication in site.data.publications %}
+        
         <div class="resume-item">
 	  <ul>
+	    {% for publication in site.data.publications %}
 	    <li>
               <h4 class="resume-item-details">
-		{{ publication.title }}
+		[{{ forloop.index}}] {{ publication.title }}
 		<a href="{{ publication.url }}">[{{ publication.category }}]</a>
 	      </h4>
 	    </li>
+	    {% endfor %}
 	  </ul>
         </div>
-        {% endfor %}
+        
 
       </section>
       <!-- end Publications -->
