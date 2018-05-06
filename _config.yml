@@ -1,6 +1,7 @@
 # Site settings
 title: "Shunsuke KITADA | Resume"
 description: "This is my resume page"
+google_analytics: UA-114287158-2
 
 # Build settings
 markdown: kramdown
