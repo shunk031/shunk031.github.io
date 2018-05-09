@@ -17,7 +17,12 @@
   summary: '
   <ul>
     <li>Improving article distribution logic</li>
-    <li>KPI analysis and visualization for service improvement</li>
+    <li>Analysing KPI and visualizing for service improvement</li>
+    <li>Writing blog articles
+      <ul>
+        <li><a href="http://data.gunosy.io/entry/ocr-tesseract-deeplearninghoge">サムネイル画像に対するテキスト認識の性能比較について (Pytesseract / Google Cloud Vision API / Amazon Rekognition) - Gunosyデータ分析ブログ</a></li>
+      </ul>
+    </li>
   </ul>'
 
 # NVIDIA Japan
