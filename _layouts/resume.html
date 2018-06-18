@@ -168,8 +168,9 @@
 	    {% else %}{{ project.project }}{% endif %}
 	  </h3>
 	  <div class="no-print">
-	    {% if project.starbadge %}
-	    <a href="https://github.com/{{ project.starbadge }}/stargazers"><img src="https://img.shields.io/github/stars/{{ project.starbadge }}.svg" alt="GitHub Stars"></a>
+	    {% if project.github_repository %}
+	    <a href="https://github.com/{{ project.github_repository }}/stargazers"><img src="https://img.shields.io/github/stars/{{ project.github_repository }}.svg" alt="GitHub Stars"></a>
+	    <a href="https://github.com/{{ project.github_repository }}"><img src="https://img.shields.io/github/last-commit/{{ project.github_repository }}.svg" alt="GitHub Last Commit"></a>
 	    {% endif %}
 	  </div>
           <h4 class="resume-item-details" itemprop="description">{{ project.role }}  &bull; {{ project.duration }}</h4>

@@ -1,28 +1,28 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 - project: paper-survey
-  starbadge: shunk031/paper-survey
+  github_repository: shunk031/paper-survey
   role: Maintainer
   duration: 2017 &mdash; Present
   description: Survey of previous research and related works on machine learning (especially Deep Learning) in Japanese.
   url: https://shunk031.github.io/paper-survey/
   
 - project: TedScraper
-  starbadge: shunk031/TedScraper
+  github_repository: shunk031/TedScraper
   role: Maintainer
   duration: 2016
   description: Scraper for TED Talks in Python. Get talk title, transcript, talk topics and so on.
   url: https://github.com/shunk031/TedScraper
 
 - project: chainer-center-loss
-  starbadge: shunk031/chainer-center-loss
+  github_repository: shunk031/chainer-center-loss
   role: Maintainer
   duration: 2017
   description: 'Implementation of <a href="https://link.springer.com/chapter/10.1007/978-3-319-46478-7_31">Center Loss</a> in Chainer'
   url: https://github.com/shunk031/chainer-center-loss
 
 - project: chainer-IMSAT
-  starbadge: shunk031/chainer-IMSAT
+  github_repository: shunk031/chainer-IMSAT
   role: Maintainer
   duration: 2018
   description: 'Implementation of <a href="https://arxiv.org/abs/1702.08720">IMSAT</a> in Chainer'
