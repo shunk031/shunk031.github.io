@@ -46,7 +46,7 @@
 
       </header>
 
-      
+
 
 
       {% if site.resume_section_education %}
@@ -113,7 +113,7 @@
         <header class="section-header">
           <h2>Publications</h2>
         </header>
-        
+
         <div class="resume-item">
 	  <ul>
 	    {% for publication in site.data.publications %}
@@ -126,12 +126,12 @@
 	    {% endfor %}
 	  </ul>
         </div>
-        
+
 
       </section>
       <!-- end Publications -->
       {% endif %}
-      
+
       {% if site.resume_section_recognition %}
       <!-- begin Recognition -->
       <section class="content-section">
@@ -162,7 +162,16 @@
         {% for project in site.data.projects %}
         <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
           <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
-          <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
+          <h3 class="resume-item-title" itemprop="name">
+	    {% if project.url %}
+	    <a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>
+	    {% else %}{{ project.project }}{% endif %}
+	  </h3>
+	  <div class="no-print">
+	    {% if project.starbadge %}
+	    <a href="https://github.com/{{ project.starbadge }}/stargazers"><img src="https://img.shields.io/github/stars/{{ project.starbadge }}.svg" alt="GitHub Stars"></a>
+	    {% endif %}
+	  </div>
           <h4 class="resume-item-details" itemprop="description">{{ project.role }}  &bull; {{ project.duration }}</h4>
           <p class="resume-item-copy">{{ project.description }}</p>
         </div>
@@ -171,7 +180,7 @@
       </section>
       <!-- end Projects -->
       {% endif %}
-      
+
       {% if site.resume_section_associations %}
       <!-- begin Associations -->
       <section class="content-section">
@@ -241,7 +250,7 @@
         </header>
 
         <div class="resume-item">
-        {% include print-social-links.html %}
+          {% include print-social-links.html %}
         </div>
 
       </section>
