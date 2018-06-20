@@ -182,6 +182,36 @@
       <!-- end Projects -->
       {% endif %}
 
+      {% if site.resume_section_implementations %}
+      <!-- begin Implementations -->
+      <section class="content-section no-print">
+	<header class="section-header">
+	  <h2>Implementations</h2>
+	</header>
+
+	{% for implementation in site.data.implementations %}
+	<div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
+	  <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
+	  <h3 class="resume-item-title" itemprop="name">
+	    {% if implementation.url %}
+	    <a href="{{ implementation.url }}" itemprop="url">{{ implementation.project }}</a>
+	    {% else %}{{ implementation.project }}{% endif %}
+	  </h3>
+	  <div class="no-print">
+	    {% if implementation.github_repository %}
+	    <a href="https://github.com/{{ implementation.github_repository }}/stargazers"><img src="https://img.shields.io/github/stars/{{ implementation.github_repository }}.svg" alt="GitHub Stars"></a>
+	    <a href="https://github.com/{{ implementation.github_repository }}"><img src="https://img.shields.io/github/last-commit/{{ implementation.github_repository }}.svg" alt="GitHub Last Commit"></a>
+	    {% endif %}
+	    <h4 class="resume-item-details" itemprop="description">{{ implementation.role }}  &bull; {{ implementation.duration }}</h4>
+            <p class="resume-item-copy">{{ implementation.description }}</p>
+	  </div>
+	</div>
+	{% endfor %}
+
+      </section>
+      <!-- end Implementations -->
+      {% endif %}
+
       {% if site.resume_section_associations %}
       <!-- begin Associations -->
       <section class="content-section">
