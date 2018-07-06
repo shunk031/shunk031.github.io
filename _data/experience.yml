@@ -1,4 +1,10 @@
 # Jobs
+# Piascore, Inc
+- company: Piascore, Inc.
+  position: Deep Learning Adviser
+  duration: Jun, 2018 &mdash; Aug, 2018
+  summary: Advising mainly deep learning technology
+
 # Faber company Inc.
 - company: Faber Company Inc.
   position: Internship
@@ -45,13 +51,13 @@
   </ul>'
   
 # VALUENEX Inc.
-- company: VALUENEX Inc.
+- company: VALUENEX Japan Inc.
   position: Part-time job
   duration: Feb, 2016 &mdash; Present
   summary: Dealing with large patent data; preprocessing, crawling, scraping, etc.
 
-# Works Applications Inc.
-- company: Works Applications Inc.
+# Works Applications Co., Ltd.
+- company: Works Applications Co., Ltd.
   position: Internship
   duration: Aug 2015
   summary: Planning and implementation of Enterprise Resources Planning (ERP) packages.
