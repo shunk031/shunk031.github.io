@@ -1,8 +1,8 @@
 # Publications
-- title: 北田俊輔, 彌冨仁, "Character-level Convolutional Neural NetworksにおけるWildcard Trainingの基礎検討", NLP 若手の会 (YANS) 第 12 回シンポジウム, 2017.
+- title: 北田俊輔, 彌冨仁, "Character-level Convolutional Neural Networks における Wildcard Training の基礎検討", NLP 若手の会 (YANS) 第 12 回シンポジウム, 2017.
   category: Program
   url: http://yans.anlp.jp/entry/yans2017program
-- title: 北田俊輔, 彌冨仁, "CE-CLCNN&#58; Character Encoderを用いたCharacter-level Convolutional Neural Networksによるテキスト分類", 言語処理学会第24回年次大会, 2018.
+- title: 北田俊輔, 彌冨仁, "CE-CLCNN&#58; Character Encoder を用いた Character-level Convolutional Neural Networks によるテキスト分類", 言語処理学会第 24 回年次大会, 2018.
   category: PDF
   url: http://anlp.jp/proceedings/annual_meeting/2018/pdf_dir/B6-5.pdf
 - title: 北田俊輔, 関喜史, 彌冨仁, "広告クリエイティブ自動生成に向けた単語レベルでの評価手法の検討", NLP 若手の会 (YANS) 第 13 回シンポジウム, 2018.
@@ -11,3 +11,6 @@
 - title: Kitada, Shunsuke, and Hitoshi Iyatomi. "Skin lesion classification with ensemble of squeeze-and-excitation networks and semi-supervised learning." arXiv preprint arXiv:1809.02568 (2018).
   category: arXiv
   url: https://arxiv.org/abs/1809.02568
+- title: Kitada, Shunsuke, Ryunosuke Kotani, and Hitoshi Iyatomi. "End-to-End Text Classification via Image-based Embedding using Character-level Networks." arXiv preprint arXiv:1810.03595 (2018).
+  category: arXiv
+  url: https://arxiv.org/abs/1810.03595
