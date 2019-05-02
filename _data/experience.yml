@@ -3,31 +3,26 @@
 - company: Piascore, Inc.
   position: Deep Learning Adviser
   duration: Jun, 2018 &mdash; Aug, 2018
-  summary: Advising mainly deep learning technology
+  summary: I have advised how to solve practical problems of existing services that use machine learning algorithms and deep learning models. Additionally I have shown examples of the kind of problems recent deep learning models are capable of solving.
 
 # Faber company Inc.
 - company: Faber Company Inc.
   position: Internship
   duration: Mar 27 &mdash; Mar 29, 2018
-  summary: '
-  <ul>
-    <li>
-      <a href="https://mieru-ca.com/recruit/2018internship-spring/">Engineer internship 3days / ¥100,000</a>
-    </li>
-  </ul>' 
+  summary: '<a href="https://mieru-ca.com/recruit/2018internship-spring/">Engineer internship 3days / ¥100,000.</a> I implemented machine learning models that accurately capture semantic features of a document in a document similarity.'
   
 # Gunosy Inc.
 - company: Gunosy Inc.
-  position: Part-time job at Dept. of Data Analysis
+  position: Internship at Dept. of Data Analysis
   duration: Mar, 2017 &mdash; Present
   summary: '
   <ul>
-    <li>Improving article distribution logic</li>
-    <li>Analysing KPI and visualizing for service improvement</li>
-    <li>Writing blog articles
+    <li>Conducted fundamental research to generate advertisement automatically. I have written a paper and prepared for a presentation for an international conference based on the results during my internship.</li>
+    <li>I have worked on improving the user experience and participated in improving the logic of the article distribution. Also visualized multiple KPIs and contributed to service growth through data analysis.</li>
+    <li>Wrote the following blog articles in Japanese:
       <ul>
-        <li><a href="http://data.gunosy.io/entry/ocr-tesseract-deeplearning">サムネイル画像に対するテキスト認識の性能比較について (Pytesseract / Google Cloud Vision API / Amazon Rekognition) - Gunosyデータ分析ブログ</a></li>
-        <li><a href="https://data.gunosy.io/entry/yans2018">NLP若手の会 (YANS 2018) で発表 & スポンサーしました - Gunosyデータ分析ブログ</a></li>
+        <li><a href="http://data.gunosy.io/entry/ocr-tesseract-deeplearning">サムネイル画像に対するテキスト認識の性能比較について (Pytesseract / Google Cloud Vision API / Amazon Rekognition) - Gunosy データ分析ブログ</a></li>
+        <li><a href="https://data.gunosy.io/entry/yans2018">NLP 若手の会 (YANS 2018) で発表 & スポンサーしました - Gunosy データ分析ブログ</a></li>
       </ul>
     </li>
   </ul>'
@@ -36,6 +31,7 @@
 - company: NVIDIA Japan
   position: Teaching Assistant of hands-on training
   summary: '
+  Taught following hands-on courses as teaching assistant:
   <ul>
     <li>
       <a href="https://www.gputechconf.jp/">GTC Japan 2016 DLI</a>
@@ -55,10 +51,10 @@
 - company: VALUENEX Japan Inc.
   position: Part-time job
   duration: Feb, 2016 &mdash; Present
-  summary: Dealing with large patent data; preprocessing, crawling, scraping, etc.
+  summary: Dealt with large-scale nonstructural patent information in various forms, e.g., pre-processing, crawling, scraping, and analyzing these data.
 
 # Works Applications Co., Ltd.
 - company: Works Applications Co., Ltd.
   position: Internship
   duration: Aug 2015
-  summary: Planning and implementation of Enterprise Resources Planning (ERP) packages.
+  summary: Planned and implemented enterprise resource planning (ERP) packages.

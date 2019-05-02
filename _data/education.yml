@@ -1,15 +1,15 @@
 # Degree
-- degree: Dept. of Applied Informatics Faculty of Science and Engineering
-  uni: Undergraduate student at Hosei University
-  year: Apr, 2014 &mdash; Mar, 2018
-  # awards: hoge
+- degree: Master in Science and Engineering, Dept. of Applied Informatics
+  uni: Hosei University, Graduate School
+  year: Apr, 2018 &mdash;
   summary: '<ul>
               <li>Adviser: Prof. Hitoshi IYATOMI</li>
               <li><a href="http://iyatomi-lab.info/front.html">Intelligent information processing laboratory</a></li>
             </ul>'
-- degree: Dept. of Applied Informatics Faculty of Science and Engineering
-  uni: Graduate School of Science and Engineering student at Hosei University
-  year: Apr, 2018 &mdash;
+
+- degree: Bachelor of Science and Engineering, Dept. of Applied Informatics
+  uni: Hosei University
+  year: Apr, 2014 &mdash; Mar, 2018
   summary: '<ul>
               <li>Adviser: Prof. Hitoshi IYATOMI</li>
               <li><a href="http://iyatomi-lab.info/front.html">Intelligent information processing laboratory</a></li>

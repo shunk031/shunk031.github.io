@@ -46,9 +46,6 @@
 
       </header>
 
-
-
-
       {% if site.resume_section_education %}
       <!-- begin Education -->
       <section class="content-section">
@@ -88,6 +85,49 @@
       <!-- end Experience -->
       {% endif %}
 
+      {% if site.resume_section_publications %}
+      <!-- begin Publications -->
+      <section class="content-section">
+
+          <header class="section-header">
+              <h2>Publications</h2>
+          </header>
+
+          <div class="resume-item">
+              <h3>International Conference</h3>
+	          <ul>
+	              {% for publication in site.data.publications.international %}
+	              <li>
+                      <h4 class="resume-item-details">
+		                  [{{ forloop.index}}] {{ publication.title }}
+                          {% if publication.url and publication.category %}
+		                  <a href="{{ publication.url }}">[{{ publication.category }}]</a>
+                          {% endif %}
+	                  </h4>
+	              </li>
+	              {% endfor %}
+	          </ul>
+
+              <h3>Domestic Conference</h3>
+              <ul>
+	              {% for publication in site.data.publications.domestic %}
+	              <li>
+                      <h4 class="resume-item-details">
+		                  [{{ forloop.index}}] {{ publication.title }}
+                          {% if publication.url and publication.category %}
+		                  <a href="{{ publication.url }}">[{{ publication.category }}]</a>
+                          {% endif %}
+	                  </h4>
+	              </li>
+	              {% endfor %}
+	          </ul>
+          </div>
+
+
+      </section>
+      <!-- end Publications -->
+      {% endif %}
+
       {% if site.resume_section_skills %}
       <!-- begin Skills -->
       <section class="content-section">
@@ -104,32 +144,6 @@
 
       </section>
       <!-- end Skills -->
-      {% endif %}
-
-      {% if site.resume_section_publications %}
-      <!-- begin Publications -->
-      <section class="content-section">
-
-        <header class="section-header">
-          <h2>Publications</h2>
-        </header>
-
-        <div class="resume-item">
-	  <ul>
-	    {% for publication in site.data.publications %}
-	    <li>
-              <h4 class="resume-item-details">
-		[{{ forloop.index}}] {{ publication.title }}
-		<a href="{{ publication.url }}">[{{ publication.category }}]</a>
-	      </h4>
-	    </li>
-	    {% endfor %}
-	  </ul>
-        </div>
-
-
-      </section>
-      <!-- end Publications -->
       {% endif %}
 
       {% if site.resume_section_recognition %}

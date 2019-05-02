@@ -5,4 +5,13 @@
 
 # Programming Language
 - skill: Programming language
-  description: Python (scikit-learn, pandas, chainer, pytorch, keras, django), C/C++, HTML/CSS
+  description: Python, Go
+
+- skill: Familiar
+  description: Java, C++, C, HTML/CSS
+
+- skill: Databases
+  description: MySQL, PostgreSQL, MongoDB
+
+- skill: General
+  description: Data Science, Machine learning, Object oriented programming
