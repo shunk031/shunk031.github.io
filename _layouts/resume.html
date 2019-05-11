@@ -98,12 +98,12 @@
 	          <ul>
 	              {% for publication in site.data.publications.international %}
 	              <li>
-                      <h4 class="resume-item-details">
+                      <p class="resume-item-details">
 		                  [{{ forloop.index}}] {{ publication.title }}
                           {% if publication.url and publication.category %}
 		                  <a href="{{ publication.url }}">[{{ publication.category }}]</a>
                           {% endif %}
-	                  </h4>
+	                  </p>
 	              </li>
 	              {% endfor %}
 	          </ul>
@@ -112,12 +112,12 @@
               <ul>
 	              {% for publication in site.data.publications.domestic %}
 	              <li>
-                      <h4 class="resume-item-details">
+                      <p class="resume-item-details">
 		                  [{{ forloop.index}}] {{ publication.title }}
                           {% if publication.url and publication.category %}
 		                  <a href="{{ publication.url }}">[{{ publication.category }}]</a>
                           {% endif %}
-	                  </h4>
+	                  </p>
 	              </li>
 	              {% endfor %}
 	          </ul>
@@ -251,7 +251,7 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Outside Interests</h2>
+          <h2>Personal traits</h2>
         </header>
 
         <div class="resume-item">
