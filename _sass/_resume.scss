@@ -130,7 +130,17 @@
 .content-section {
   margin: 0 0 3rem;
 
-  .resume-item { margin-bottom: 2rem; }
+  .resume-item {
+      margin-bottom: 2rem;
+      a {
+          color: #0197A7;
+          text-decoration: none;
+
+          &:hover {
+              border-bottom: 1px gray dotted;
+          }
+      }
+  }
 
   .resume-item-title {
     @include sans_bold;
@@ -155,13 +165,11 @@
   .resume-item-copy,
   .resume-item-list {
     a {
-      color: #333;
+      color: #0197A7;
       text-decoration: none;
-      border-bottom: 1px solid;
 
       &:hover {
-        border-bottom: none;
-        color: #9c9c9c;
+        border-bottom: 1px gray dotted;
       }
     }
   }
