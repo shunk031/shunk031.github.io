@@ -2,27 +2,29 @@
 international:
   - title: Shunsuke Kitada, Hitoshi Iyatomi, Yoshifumi Seki. "<b>Conversion Prediction Using Multi-task Conditional Attention Networks to Support the Creation of Effective Ad Creatives.</b>" Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining, 2019. (Acceptance Rate = <b>20%</b>)
     paper:
-      - category: arXiv
+      - category: Preprint
         url: https://arxiv.org/abs/1905.07289
+      - category: Paper
+        url: https://dl.acm.org/citation.cfm?doid=3292500.3330789
       - category: Code
         url: https://github.com/shunk031/Multi-task-Conditional-Attention-Networks
 
   - title: Shunsuke Kitada, Ryunosuke Kotani, and Hitoshi Iyatomi. "<b>End-to-End Text Classification via Image-based Embedding using Character-level Networks.</b>" arXiv preprint arXiv:1810.03595 (2018).
     paper:
-      - category: arXix
+      - category: Preprint
         url: https://arxiv.org/abs/1810.03595
       - category: Paper
         url: https://ieeexplore.ieee.org/document/8707407
 
   - title: Shunsuke Kitada and Hitoshi Iyatomi. "<b>Skin lesion classification with ensemble of squeeze-and-excitation networks and semi-supervised learning.</b>" arXiv preprint arXiv:1809.02568 (2018).
     paper:
-      - category: arXiv
+      - category: Preprint
         url: https://arxiv.org/abs/1809.02568
 
 domestic:
   - title: 北田俊輔, 彌冨仁, 関喜史, "<b>広告クリエイティブ自動生成にむけたマルチタスク学習と Conditional Attention による CVR 予測</b>",言語処理学会第 25 回年次大会, 2019.
 
-  - title: 北田俊輔, 彌冨仁, "<b>頑健な皮膚腫瘍診断支援のためのbody hair augmentation</b>", 情報処理学第 81 回会全国大会, 2019. "<b>学生奨励賞</b>" 受賞
+  - title: 北田俊輔, 彌冨仁, "<b>頑健な皮膚腫瘍診断支援のための body hair augmentation</b>", 情報処理学第 81 回会全国大会, 2019. "<b>学生奨励賞</b>" 受賞
 
   - title: 北田俊輔, 関喜史, 彌冨仁, "<b>広告クリエイティブ自動生成に向けた単語レベルでの評価手法の検討</b>", NLP 若手の会 (YANS) 第 13 回シンポジウム, 2018.
     paper:
