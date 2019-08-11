@@ -1,5 +1,12 @@
 # Jobs
-# Piascore, Inc
+
+# M3 Inc.
+- company: M3, Inc.
+  position: Internship
+  duration: Jun, 2019 &mdash; Jul, 2019
+  summary: Quantified and visualized doctors' interest from browsing history. Based on these analyses, I built a system for recommending articles for doctors from scratch.
+
+# Piascore, Inc.
 - company: Piascore, Inc.
   position: Deep Learning Advisor
   duration: Jun, 2018 &mdash; Aug, 2018
@@ -8,7 +15,7 @@
 # Faber company Inc.
 - company: Faber Company Inc.
   position: Internship
-  duration: Mar 27 &mdash; Mar 29, 2018
+  duration: Mar, 27 &mdash; Mar, 29, 2018
   summary: '<a href="https://mieru-ca.com/recruit/2018internship-spring/">Engineer internship 3days / ¥100,000.</a> I implemented machine learning models that accurately capture semantic features of a document in a document similarity.'
   
 # Gunosy Inc.
@@ -50,11 +57,11 @@
 # VALUENEX Inc.
 - company: VALUENEX Japan Inc.
   position: Part-time job
-  duration: Feb, 2016 &mdash; Present
+  duration: Feb, 2016 &mdash; Jun, 2018
   summary: Dealt with large-scale nonstructural patent information in various forms, e.g., pre-processing, crawling, scraping, and analyzing these data.
 
 # Works Applications Co., Ltd.
 - company: Works Applications Co., Ltd.
   position: Internship
-  duration: Aug 2015
+  duration: Aug, 2015
   summary: Planned and implemented enterprise resource planning (ERP) packages.
