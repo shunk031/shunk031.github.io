@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Interview | Shunsuke Kitada</title>
+    <link>https://shunk031.github.io/categories/interview/</link>
+      <atom:link href="https://shunk031.github.io/categories/interview/index.xml" rel="self" type="application/rss+xml" />
+    <description>Interview</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2020 Shunsuke Kitada. All rights reserved.</copyright><lastBuildDate>Wed, 29 Jan 2020 00:00:00 +0900</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=true) shape:circle]</url>
+      <title>Interview</title>
+      <link>https://shunk031.github.io/categories/interview/</link>
+    </image>
+    
+    <item>
+      <title>Interviewed by Nikkan Kogyo Shimbun, Ltd.</title>
+      <link>https://shunk031.github.io/post/interviewd-nikkan-newspaper/</link>
+      <pubDate>Wed, 29 Jan 2020 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.github.io/post/interviewd-nikkan-newspaper/</guid>
+      <description>&lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34; src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fnewswitch.jp%2fp%2f20932%3ffbclid%3dIwAR3XO7LkdZhhCFj9YxqFY4Me7kcbO8lCoBs39RvCCdUAHr7pFDc42PoVQXw&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>Interviewed about my research internship in Gunosy Inc.</title>
+      <link>https://shunk031.github.io/post/kdd2019-gtl/</link>
+      <pubDate>Fri, 02 Aug 2019 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.github.io/post/kdd2019-gtl/</guid>
+      <description>&lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34; src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fgunosiru.gunosy.co.jp%2fentry%2fkdd2019_gtl&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

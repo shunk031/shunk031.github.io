@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Paper Accepted | Shunsuke Kitada</title>
+    <link>https://shunk031.github.io/categories/paper-accepted/</link>
+      <atom:link href="https://shunk031.github.io/categories/paper-accepted/index.xml" rel="self" type="application/rss+xml" />
+    <description>Paper Accepted</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2020 Shunsuke Kitada. All rights reserved.</copyright><lastBuildDate>Mon, 29 Apr 2019 00:00:00 +0900</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=true) shape:circle]</url>
+      <title>Paper Accepted</title>
+      <link>https://shunk031.github.io/categories/paper-accepted/</link>
+    </image>
+    
+    <item>
+      <title>Accepted our paper to KDD2019</title>
+      <link>https://shunk031.github.io/post/accepted-kdd2019/</link>
+      <pubDate>Mon, 29 Apr 2019 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.github.io/post/accepted-kdd2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Accepted our paper to AIPR 2018</title>
+      <link>https://shunk031.github.io/post/accepted-aipr2018/</link>
+      <pubDate>Wed, 05 Sep 2018 14:42:27 +0900</pubDate>
+      <guid>https://shunk031.github.io/post/accepted-aipr2018/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

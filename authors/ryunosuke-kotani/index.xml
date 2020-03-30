@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ryunosuke Kotani | Shunsuke Kitada</title>
+    <link>https://shunk031.github.io/authors/ryunosuke-kotani/</link>
+      <atom:link href="https://shunk031.github.io/authors/ryunosuke-kotani/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ryunosuke Kotani</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2020 Shunsuke Kitada. All rights reserved.</copyright><lastBuildDate>Mon, 08 Oct 2018 00:00:00 +0900</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=true) shape:circle]</url>
+      <title>Ryunosuke Kotani</title>
+      <link>https://shunk031.github.io/authors/ryunosuke-kotani/</link>
+    </image>
+    
+    <item>
+      <title>End-to-End Text Classification via Image-based Embedding using Character-level Networks</title>
+      <link>https://shunk031.github.io/publication/kitada2018end/</link>
+      <pubDate>Mon, 08 Oct 2018 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.github.io/publication/kitada2018end/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

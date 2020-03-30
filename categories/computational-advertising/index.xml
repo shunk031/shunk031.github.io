@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computational Advertising | Shunsuke Kitada</title>
+    <link>https://shunk031.github.io/categories/computational-advertising/</link>
+      <atom:link href="https://shunk031.github.io/categories/computational-advertising/index.xml" rel="self" type="application/rss+xml" />
+    <description>Computational Advertising</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2020 Shunsuke Kitada. All rights reserved.</copyright><lastBuildDate>Mon, 27 May 2019 00:00:00 +0900</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=true) shape:circle]</url>
+      <title>Computational Advertising</title>
+      <link>https://shunk031.github.io/categories/computational-advertising/</link>
+    </image>
+    
+    <item>
+      <title>Conversion Prediction Using Multi-task Conditional Attention Networks to Support the Creation of Effective Ad Creative</title>
+      <link>https://shunk031.github.io/publication/kitada2019conversion/</link>
+      <pubDate>Mon, 27 May 2019 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.github.io/publication/kitada2019conversion/</guid>
+      <description>&lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34; src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2farxiv.org%2fabs%2f1905.07289&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>広告クリエイティブ自動生成にむけたマルチタスク学習と Conditional Attention による CVR 予測</title>
+      <link>https://shunk031.github.io/publication/kitada2019nlp/</link>
+      <pubDate>Wed, 13 Mar 2019 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.github.io/publication/kitada2019nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>広告クリエイティブ自動生成に向けた単語レベルでの評価手法の検討</title>
+      <link>https://shunk031.github.io/publication/kitada2018yans/</link>
+      <pubDate>Tue, 28 Aug 2018 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.github.io/publication/kitada2018yans/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

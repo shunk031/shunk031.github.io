@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chainer | Shunsuke Kitada</title>
+    <link>https://shunk031.github.io/categories/chainer/</link>
+      <atom:link href="https://shunk031.github.io/categories/chainer/index.xml" rel="self" type="application/rss+xml" />
+    <description>Chainer</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2020 Shunsuke Kitada. All rights reserved.</copyright><lastBuildDate>Mon, 30 Mar 2020 16:45:26 +0900</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=true) shape:circle]</url>
+      <title>Chainer</title>
+      <link>https://shunk031.github.io/categories/chainer/</link>
+    </image>
+    
+    <item>
+      <title>chainer-FocalLoss</title>
+      <link>https://shunk031.github.io/project/chainer-focalloss/</link>
+      <pubDate>Mon, 30 Mar 2020 16:45:26 +0900</pubDate>
+      <guid>https://shunk031.github.io/project/chainer-focalloss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>chainer-RICAP</title>
+      <link>https://shunk031.github.io/project/chainer-ricap/</link>
+      <pubDate>Mon, 30 Mar 2020 16:43:31 +0900</pubDate>
+      <guid>https://shunk031.github.io/project/chainer-ricap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>chainer-MeanTeachers</title>
+      <link>https://shunk031.github.io/project/chainer-meanteachers/</link>
+      <pubDate>Mon, 30 Mar 2020 00:13:06 +0900</pubDate>
+      <guid>https://shunk031.github.io/project/chainer-meanteachers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>chainer-PyramidNet</title>
+      <link>https://shunk031.github.io/project/chainer-pyramidnet/</link>
+      <pubDate>Mon, 30 Mar 2020 00:00:14 +0900</pubDate>
+      <guid>https://shunk031.github.io/project/chainer-pyramidnet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>chainer-InceptionResNetV2</title>
+      <link>https://shunk031.github.io/project/chainer-inceptionresnetv2/</link>
+      <pubDate>Sun, 29 Mar 2020 23:57:58 +0900</pubDate>
+      <guid>https://shunk031.github.io/project/chainer-inceptionresnetv2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>chainer-IMSAT</title>
+      <link>https://shunk031.github.io/project/chainer-imsat/</link>
+      <pubDate>Sun, 29 Mar 2020 23:55:47 +0900</pubDate>
+      <guid>https://shunk031.github.io/project/chainer-imsat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>chainer-center-loss</title>
+      <link>https://shunk031.github.io/project/chainer-center-loss/</link>
+      <pubDate>Sun, 29 Mar 2020 03:26:42 +0900</pubDate>
+      <guid>https://shunk031.github.io/project/chainer-center-loss/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

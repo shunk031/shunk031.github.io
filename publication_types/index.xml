@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publication_types | Shunsuke Kitada</title>
+    <link>https://shunk031.github.io/publication_types/</link>
+      <atom:link href="https://shunk031.github.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publication_types</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2020 Shunsuke Kitada. All rights reserved.</copyright><lastBuildDate>Thu, 19 Mar 2020 00:00:00 +0900</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=true) shape:circle]</url>
+      <title>Publication_types</title>
+      <link>https://shunk031.github.io/publication_types/</link>
+    </image>
+    
+  </channel>
+</rss>

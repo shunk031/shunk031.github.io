@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Survey | Shunsuke Kitada</title>
+    <link>https://shunk031.github.io/tags/survey/</link>
+      <atom:link href="https://shunk031.github.io/tags/survey/index.xml" rel="self" type="application/rss+xml" />
+    <description>Survey</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2020 Shunsuke Kitada. All rights reserved.</copyright><lastBuildDate>Sun, 29 Mar 2020 22:30:24 +0900</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=true) shape:circle]</url>
+      <title>Survey</title>
+      <link>https://shunk031.github.io/tags/survey/</link>
+    </image>
+    
+    <item>
+      <title>Paper Survey</title>
+      <link>https://shunk031.github.io/project/paper-survey/</link>
+      <pubDate>Sun, 29 Mar 2020 22:30:24 +0900</pubDate>
+      <guid>https://shunk031.github.io/project/paper-survey/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
