@@ -28,3 +28,4 @@ jobs:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ./public
           publish_branch: master # deploying branch
+          cname: shunk031.me
