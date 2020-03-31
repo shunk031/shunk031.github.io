@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Image-based Character Embedding | Shunsuke Kitada</title>
+    <link>https://shunk031.github.io/tags/image-based-character-embedding/</link>
+      <atom:link href="https://shunk031.github.io/tags/image-based-character-embedding/index.xml" rel="self" type="application/rss+xml" />
+    <description>Image-based Character Embedding</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2020 Shunsuke Kitada. All rights reserved. Hosted on [GitHub](https://github.com/shunk031/shunk031.github.io).</copyright><lastBuildDate>Tue, 17 Mar 2020 00:00:00 +0900</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=true) shape:circle]</url>
+      <title>Image-based Character Embedding</title>
+      <link>https://shunk031.github.io/tags/image-based-character-embedding/</link>
+    </image>
+    
+    <item>
+      <title>Image-based Character Embedding for Arabic Document Classification</title>
+      <link>https://shunk031.github.io/publication/daif2020nlp/</link>
+      <pubDate>Tue, 17 Mar 2020 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.github.io/publication/daif2020nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Image Based Character Embeddings for Arabic Document Classification</title>
+      <link>https://shunk031.github.io/publication/daif2019yans/</link>
+      <pubDate>Mon, 26 Aug 2019 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.github.io/publication/daif2019yans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>End-to-End Text Classification via Image-based Embedding using Character-level Networks</title>
+      <link>https://shunk031.github.io/publication/kitada2018end/</link>
+      <pubDate>Mon, 08 Oct 2018 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.github.io/publication/kitada2018end/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
