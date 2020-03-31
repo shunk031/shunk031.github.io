@@ -16,7 +16,7 @@ role: Ph.D student working on Deep Learning
 organizations:
 - name: Major in Applied Informatics, Graduate School of Science and Engineering, Hosei University
   url: "https://www.hosei.ac.jp/english/admissions/graduate/jbdp/science_engineering/applied_informatics/"
-- name: Iyatomi Lab
+- name: Intelligent information processing laboratory
   url: "http://iyatomi-lab.info/front-e.html"
 
 
