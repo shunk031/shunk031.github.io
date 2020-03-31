@@ -19,13 +19,13 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
-  title = "Teaching Assistant"
+  title = "Research Assistant"
   company = "Hosei University"
   company_url = "https://www.hosei.ac.jp/english/admissions/graduate/jbdp/science_engineering/applied_informatics/"
   date_start = "2020-04-01"
 
 [[experience]]
-  title = "Research Assistant"
+  title = "Teaching Assistant"
   company = "Hosei University"
   company_url = "https://www.hosei.ac.jp/english/admissions/graduate/jbdp/science_engineering/applied_informatics/"
   date_start = "2018-04-01"
