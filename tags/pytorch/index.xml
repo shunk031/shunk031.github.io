@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PyTorch | Shunsuke Kitada</title>
+    <link>https://shunk031.github.io/tags/pytorch/</link>
+      <atom:link href="https://shunk031.github.io/tags/pytorch/index.xml" rel="self" type="application/rss+xml" />
+    <description>PyTorch</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2020 Shunsuke Kitada. All rights reserved.</copyright><lastBuildDate>Mon, 30 Mar 2020 16:37:51 +0900</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=true) shape:circle]</url>
+      <title>PyTorch</title>
+      <link>https://shunk031.github.io/tags/pytorch/</link>
+    </image>
+    
+    <item>
+      <title>LSUV.pytorch</title>
+      <link>https://shunk031.github.io/project/lsuv-pytorch/</link>
+      <pubDate>Mon, 30 Mar 2020 16:37:51 +0900</pubDate>
+      <guid>https://shunk031.github.io/project/lsuv-pytorch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>libtorch-gin-api-server</title>
+      <link>https://shunk031.github.io/project/libtorch-gin-api-server/</link>
+      <pubDate>Mon, 30 Mar 2020 16:35:22 +0900</pubDate>
+      <guid>https://shunk031.github.io/project/libtorch-gin-api-server/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

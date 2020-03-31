@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chainer | Shunsuke Kitada</title>
-    <link>https://shunk031.github.io/categories/chainer/</link>
-      <atom:link href="https://shunk031.github.io/categories/chainer/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shunk031.github.io/tags/chainer/</link>
+      <atom:link href="https://shunk031.github.io/tags/chainer/index.xml" rel="self" type="application/rss+xml" />
     <description>Chainer</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2020 Shunsuke Kitada. All rights reserved.</copyright><lastBuildDate>Mon, 30 Mar 2020 16:45:26 +0900</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=true) shape:circle]</url>
       <title>Chainer</title>
-      <link>https://shunk031.github.io/categories/chainer/</link>
+      <link>https://shunk031.github.io/tags/chainer/</link>
     </image>
     
     <item>
