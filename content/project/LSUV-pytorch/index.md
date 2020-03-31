@@ -4,8 +4,8 @@
 title: "LSUV.pytorch"
 summary: "Implementation of [LSUV](https://arxiv.org/abs/1511.06422) (Layer-sequential unit-variance) in PyTorch."
 authors: ["Shunsuke Kitada"]
-tags: ["Implementation"]
-categories: ["PyTorch"]
+tags: ["PyTorch"]
+categories: ["Implementation"]
 date: 2020-03-30T16:37:51+09:00
 
 # Optional external URL for project (replaces project detail page).

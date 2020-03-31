@@ -4,8 +4,8 @@
 title: "chainer-center-loss"
 summary: "Implementation of [Center Loss](https://link.springer.com/chapter/10.1007/978-3-319-46478-7_31) in Chainer."
 authors: ["Shunsuke Kitada"]
-tags: ["Implementation"]
-categories: ["Chainer"]
+tags: ["Chainer"]
+categories: ["Implementation"]
 date: 2020-03-29T03:26:42+09:00
 
 # Optional external URL for project (replaces project detail page).

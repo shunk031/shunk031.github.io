@@ -4,8 +4,8 @@
 title: "chainer-MeanTeachers"
 summary: "Implementation of [Mean teachers are better role models](https://arxiv.org/abs/1703.01780) in Chainer."
 authors: ["Shunsuke Kitada"]
-tags: ["Implementation"]
-categories: ["Chainer"]
+tags: ["Chainer"]
+categories: ["Implementation"]
 date: 2020-03-30T00:13:06+09:00
 
 # Optional external URL for project (replaces project detail page).

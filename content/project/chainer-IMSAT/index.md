@@ -4,8 +4,8 @@
 title: "chainer-IMSAT"
 summary: "Implementation of [IMSAT](https://arxiv.org/abs/1702.08720) in Chainer."
 authors: ["Shunsuke Kitada"]
-tags: ["Implementation"]
-categories: ["Chainer"]
+tags: ["Chainer"]
+categories: ["Implementation"]
 date: 2020-03-29T23:55:47+09:00
 
 # Optional external URL for project (replaces project detail page).

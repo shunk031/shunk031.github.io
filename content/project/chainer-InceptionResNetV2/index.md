@@ -4,8 +4,8 @@
 title: "chainer-InceptionResNetV2"
 summary: "Implementation of [InceptionResNetV2](https://arxiv.org/abs/1602.07261) in Chainer."
 authors: ["Shunsuke Kitada"]
-tags: ["Implementation"]
-categories: ["Chainer"]
+tags: ["Chainer"]
+categories: ["Implementation"]
 date: 2020-03-29T23:57:58+09:00
 
 # Optional external URL for project (replaces project detail page).

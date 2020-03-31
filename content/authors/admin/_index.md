@@ -91,7 +91,7 @@ user_groups:
 Shunsuke Kitada (北田 俊輔 in Japanese) is a Ph.D student at the Intelligent information processing laboratory (Iyatomi Lab) in Hosei University.
 His research interests include deep learning-based natural language processing, computer vision, medical image processing, and computational advertising.
 
-My personality traits can be summarized as follows:
+His personality traits can be summarized as follows:
 - **Love research and development.** I am enjoying research life, and I am currently conducting three research topics simultaneously, e.g., natural language processing, medical image based computer vision, computational advertising.
 - **Every day read and implement the cutting-edge deep learning models from research paper.** I have released many re-implementations of models using mainly Chainer and PyTorch. Therefore, based on state-of-the-art cases, I can advise on deep learning base product design.
 - **High technical communicativity.** Summarize what I made and what I studied, and spread suchinformation. This shows that I can input and output regularly.

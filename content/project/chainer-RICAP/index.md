@@ -4,8 +4,8 @@
 title: "chainer-RICAP"
 summary: "Implementation of [RICAP](http://proceedings.mlr.press/v95/takahashi18a.html) in Chainer."
 authors: ["Shunsuke Kitada"]
-tags: ["Implementation"]
-categories: ["Chainer"]
+tags: ["Chainer"]
+categories: ["Implementation"]
 date: 2020-03-30T16:43:31+09:00
 
 # Optional external URL for project (replaces project detail page).

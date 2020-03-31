@@ -4,8 +4,8 @@
 title: "chainer-FocalLoss"
 summary: "Implementation of [Focal loss](https://arxiv.org/abs/1708.02002) in Chainer."
 authors: ["Shunsuke Kitada"]
-tags: ["Implementation"]
-categories: ["Chainer"]
+tags: ["Chainer"]
+categories: ["Implementation"]
 date: 2020-03-30T16:45:26+09:00
 
 # Optional external URL for project (replaces project detail page).

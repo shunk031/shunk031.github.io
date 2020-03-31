@@ -4,7 +4,7 @@
 title: "libtorch-gin-api-server"
 summary: "High-speed Deep learning API Server with Libtorch (C++) and Gin (Golang)"
 authors: ["Shunsuke Kitada"]
-tags: ["Server"]
+tags: ["PyTorch", "Server"]
 categories: ["PyTorch", "Golang", "libtorch", "gin", "api-server", "cgo", "docker"]
 date: 2020-03-30T16:35:22+09:00
 

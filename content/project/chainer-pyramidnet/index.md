@@ -4,8 +4,8 @@
 title: "chainer-PyramidNet"
 summary: "Implementation of [PyramidNet](https://arxiv.org/abs/1610.02915) in Chainer."
 authors: ["Shunsuke Kitada"]
-tags: ["Implementation"]
-categories: ["Chainer"]
+tags: ["Chainer"]
+categories: ["Implementation"]
 date: 2020-03-30T00:00:14+09:00
 
 # Optional external URL for project (replaces project detail page).
