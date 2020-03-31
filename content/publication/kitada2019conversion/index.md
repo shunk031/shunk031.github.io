@@ -30,14 +30,14 @@ featured: true
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
-# links:
-# - name: Follow
-#   url: https://twitter.com
-#   icon_pack: fab
-#   icon: twitter
+links:
+- name: Code
+  url: https://github.com/shunk031/Multi-task-Conditional-Attention-Networks
+  icon_pack: fab
+  icon: github
 
 url_pdf: https://dl.acm.org/doi/10.1145/3292500.3330789
-url_code: https://github.com/shunk031/Multi-task-Conditional-Attention-Networks
+url_code:
 url_dataset:
 url_poster:
 url_project:
