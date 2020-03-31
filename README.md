@@ -30,7 +30,7 @@ $ hugo new --kind publication publication/name2020conf
 - Create for thumbnail image.
 
 ```sh
-$ convert paper.pdf[0] -crop 640x480+0+0 featured.png
+$ convert paper.pdf[0] -resize 640x640^ -crop 640x480+0+0 -alpha remove featured.png
 ```
 
 ## License
