@@ -19,6 +19,26 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "Teaching Assistant"
+  company = "Hosei University"
+  company_url = "https://www.hosei.ac.jp/english/admissions/graduate/jbdp/science_engineering/applied_informatics/"
+  date_start = "2020-04-01"
+
+[[experience]]
+  title = "Research Assistant"
+  company = "Hosei University"
+  company_url = "https://www.hosei.ac.jp/english/admissions/graduate/jbdp/science_engineering/applied_informatics/"
+  date_start = "2018-04-01"
+  description = """
+  Assisted in several classes at Hosei University:
+  - Image Processing
+  - Information Theory
+  - Operating System
+  - Programming Language C/C++
+  - Programming Language JAVA
+  """
+
+[[experience]]
   title = "Internship"
   company = "M3, Inc."
   company_url = "https://corporate.m3.com/en/"

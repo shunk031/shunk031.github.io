@@ -24,8 +24,8 @@ abstract: ""
 # Summary. An optional shortened abstract.
 summary: "言語処理学会第 26 回年次大会, 2020."
 
-tags: ["Domestic Conference", "Non-refereed"]
-categories: ["Natural Language processing"]
+tags: ["Domestic Conference", "Non-refereed", "Natural Language Processing"]
+categories: ["Natural Language Processing"]
 featured: false
 
 # Custom links (optional).

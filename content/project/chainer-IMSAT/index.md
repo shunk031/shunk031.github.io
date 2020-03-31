@@ -21,11 +21,11 @@ image:
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
-# links:
-# - name: Follow
-#   url: https://twitter.com
-#   icon_pack: fab
-#   icon: twitter
+links:
+- name: Code
+  url: https://github.com/shunk031/chainer-IMSAT
+  icon_pack: fab
+  icon: github
 
 url_code: ""
 url_pdf: ""

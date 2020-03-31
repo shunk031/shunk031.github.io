@@ -24,7 +24,7 @@ abstract: ""
 # Summary. An optional shortened abstract.
 summary: "NLP 若手の会 (YANS) 第 14 回シンポジウム, 2019."
 
-tags: ["Domestic Conference", "Non-refereed"]
+tags: ["Domestic Conference", "Non-refereed", "Natural Language Processing", "Image-based Character Embedding"]
 categories: ["Natural Language Processing"]
 featured: false
 

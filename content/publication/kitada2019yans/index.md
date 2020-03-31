@@ -24,7 +24,7 @@ abstract: ""
 # Summary. An optional shortened abstract.
 summary: "NLP 若手の会 (YANS) 第 14 回シンポジウム, 2019. **奨励賞** 受賞"
 
-tags: []
+tags: ["Domestic Conference", "Non-refereed", "Natural Language Processing", "Interpretability", "Award"]
 categories: []
 featured: false
 

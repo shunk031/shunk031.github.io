@@ -6,7 +6,7 @@ summary: "📚Survey of previous research and related works on machine learning 
 authors: ["Shunsuke Kitada"]
 tags: ["Survey"]
 categories: ["Survey"]
-date: 2020-03-29T22:30:24+09:00
+date: 2020-03-31T21:20:24+09:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: "https://shunk031.github.io/paper-survey/"

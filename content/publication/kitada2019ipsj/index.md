@@ -24,7 +24,7 @@ abstract: ""
 # Summary. An optional shortened abstract.
 summary: "情報処理学第 81 回会全国大会, 2019."
 
-tags: ["Domestic Conference", "Non-refereed"]
+tags: ["Domestic Conference", "Non-refereed", "Medical Image Processing", "Award"]
 categories: ["Medical Image Processing"]
 featured: false
 

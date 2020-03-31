@@ -10,12 +10,15 @@ authors:
 superuser: true
 
 # Role/position
-role: Ph.D student at Iyatomi Lab
+role: Ph.D student
 
 # Organizations/Affiliations
 organizations:
-- name: Graduate School of Science and Engineering, Hosei University
+- name: Major in Applied Informatics, Graduate School of Science and Engineering, Hosei University
+  url: "https://www.hosei.ac.jp/english/admissions/graduate/jbdp/science_engineering/applied_informatics/"
+- name: Iyatomi Lab
   url: "http://iyatomi-lab.info/front-e.html"
+
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include deep learning-based natural language processing, computer vision, medical image processing, and computational advertising.
@@ -32,10 +35,10 @@ education:
   - course: PhD in Engineering
     institution: Graduate School of Science and Engineering, Hosei University
     year: Current
-  - course: Master of Science in Engineering
+  - course: MSc in Engineering
     institution: Graduate School of Science and Engineering, Hosei University
     year: 2020
-  - course: Bachelor of Science in Engineering
+  - course: BSc in Engineering
     institution: Hosei University
     year: 2018
 

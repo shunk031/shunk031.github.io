@@ -24,7 +24,7 @@ abstract: ""
 # Summary. An optional shortened abstract.
 summary: "NLP 若手の会 (YANS) 第 13 回シンポジウム, 2018."
 
-tags: ["Domestic Conference", "Non-refereed"]
+tags: ["Domestic Conference", "Non-refereed", "Computational Advertising"]
 categories: ["Natural Language Processing", "Computational Advertising"]
 featured: false
 
