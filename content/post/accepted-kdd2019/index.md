@@ -27,3 +27,5 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+
+{{< blogcard url="https://www.kdd.org/kdd2019/accepted-papers/view/conversion-prediction-using-multi-task-conditional-attention-networks-to-su" >}}
