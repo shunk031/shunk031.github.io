@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Ph.D student
+role: Ph.D student working on Deep Learning
 
 # Organizations/Affiliations
 organizations:
