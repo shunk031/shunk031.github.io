@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HP | Shunsuke Kitada</title>
+    <link>https://shunk031.github.io/categories/hp/</link>
+      <atom:link href="https://shunk031.github.io/categories/hp/index.xml" rel="self" type="application/rss+xml" />
+    <description>HP</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2020 Shunsuke Kitada. All rights reserved. Hosted on [GitHub](https://github.com/shunk031/shunk031.github.io).</copyright><lastBuildDate>Tue, 31 Mar 2020 20:20:24 +0900</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=true) shape:circle]</url>
+      <title>HP</title>
+      <link>https://shunk031.github.io/categories/hp/</link>
+    </image>
+    
+    <item>
+      <title>Hosei University Soft Tennis Club Hp</title>
+      <link>https://shunk031.github.io/project/hosei-university-soft-tennis-club-hp/</link>
+      <pubDate>Tue, 31 Mar 2020 20:20:24 +0900</pubDate>
+      <guid>https://shunk031.github.io/project/hosei-university-soft-tennis-club-hp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
