@@ -44,6 +44,9 @@
 
   
   
+  
+  <script src="/js/mathjax-config.js"></script>
+  
 
   
   
@@ -174,9 +177,9 @@
 
       
       
-        
-      
 
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
       
     
       
@@ -278,7 +281,7 @@
     
       <meta property="article:published_time" content="2020-03-18T00:00:00&#43;09:00">
     
-    <meta property="article:modified_time" content="2020-04-04T00:27:12&#43;09:00">
+    <meta property="article:modified_time" content="2020-04-10T00:49:36&#43;09:00">
   
 
   
@@ -305,7 +308,7 @@
   "headline": "文字単位の解釈可能な潜在表現のdata augmentation",
   
   "datePublished": "2020-03-18T00:00:00+09:00",
-  "dateModified": "2020-04-04T00:27:12+09:00",
+  "dateModified": "2020-04-10T00:49:36+09:00",
   
   "author": {
     "@type": "Person",
@@ -742,6 +745,45 @@
 
 
 
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://www.anlp.jp/proceedings/annual_meeting/2020/pdf_dir/P3-35.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
 
   
 </div>
@@ -750,6 +792,9 @@
 
   <div class="article-container">
 
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">深層学習ベースのモデルにおいて，日本語や中国語などのアジア圏の言語の解析は単語単位よりも文字単位での処理が効果を上げている. しかし，過学習が起きやすいため，過学習抑制手法を適用する必要がある. 本研究では $\beta$ -variational auto-encoder ( $\beta $ -VAE)が各次元独立の低次元確率分布を獲得することを活用し，解釈可能なdata augmentationであるinterpretable wildcard training (IWT)を提案する. IWTは$\beta$-VAEにより得られた文字の低次元表現に対して， ガウス分布に従ったノイズを付加させることで，異なる文字の表現生成が可能であり，従来のwildcard trainingよりも解釈性が高い. 新聞記事の分類タスクによる評価実験において，IWTによる解釈可能な文字表現の獲得ならびに，2%程度の分類精度向上から，解釈性のあるdata augmentationの効果を確認した.</p>
     
 
     
@@ -948,9 +993,9 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/publication/daif2020nlp/">Image-based Character Embedding for Arabic Document Classification</a></li>
-      
       <li><a href="/publication/nagasawa2020nlp/">Script-aware embedding を用いた文字表現の獲得</a></li>
+      
+      <li><a href="/publication/daif2020nlp/">Image-based Character Embedding for Arabic Document Classification</a></li>
       
       <li><a href="/publication/kitada2019yans/">解釈性向上のための注意機構と損失勾配に対する関連損失の導入</a></li>
       
