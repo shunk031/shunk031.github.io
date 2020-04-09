@@ -19,7 +19,12 @@ publication_types: ["9"]
 publication: "言語処理学会第 26 回年次大会, 2020."
 publication_short: "NLP 2020"
 
-abstract: ""
+abstract: "注意機構や損失勾配は入力に対する予測の説明に使われてきたが，これらの手法は摂動に頑健ではないと示唆されている．
+またこの2つの関係性の評価はこれまで順位相関が用いられてきたが，その意義にも議論の余地がある．
+このように，摂動に頑健な注意機構の学習方法や，注意機構と損失勾配の関係を適切に評価する方法について課題が残されている．
+本研究では摂動に頑健な注意機構の学習のために，interpretable adversarial training (iAdvT) をもとにしたAttention iAdvTの提案を行うとともに，これらの説明手法の評価基準としてピアソン相関を用いることを主張する．
+4つのオープンデータセットからなる，様々なテキスト分類タスクを用いた評価実験において，Attention iAdvTがほぼすべてのタスクで最高性能を達成した．
+また，注意機構と損失勾配は高く相関することを示し，すべてのタスクにおいて提案手法が一番高い相関を示すことを確認した．"
 
 # Summary. An optional shortened abstract.
 summary: "言語処理学会第 26 回年次大会, 2020."
@@ -36,7 +41,7 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf:
+url_pdf: https://www.anlp.jp/proceedings/annual_meeting/2020/pdf_dir/P5-29.pdf
 url_code:
 url_dataset:
 url_poster:

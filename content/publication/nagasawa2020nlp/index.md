@@ -19,7 +19,11 @@ publication_types: ["9"]
 publication: "言語処理学会第 26 回年次大会, 2020."
 publication_short: "NLP 2020"
 
-abstract: ""
+abstract: "日本語の漢字や中国語などはそれぞれの文字が表意性を持つため，この性質を捉えることはこれら言語の意味理解において重要な手かがりとなる．
+文字を画像として扱いCNN等を用いて，形状情報を低次元ベクトルに埋め込むモデルは，こうした特徴を捉えることで文書分類タスクにおいて成果を上げている．
+しかしながら日本語では平仮名や片仮名等の表音文字が多く使われる文書に対しては適切な文字表現を得ることが難しい．
+本研究では文字形状を学習したvisual featureと文脈情報を学習したcontext featureの２つの文字表現手法を用いることで，表意文字および表音文字を考慮した文字表現の学習手法であるscript-aware embeddingを提案する．
+本報告では文書分類のタスクにおいて，提案手法の評価を行った．"
 
 # Summary. An optional shortened abstract.
 summary: "言語処理学会第 26 回年次大会, 2020."
@@ -36,7 +40,7 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf:
+url_pdf: https://www.anlp.jp/proceedings/annual_meeting/2020/pdf_dir/P1-14.pdf
 url_code:
 url_dataset:
 url_poster:
