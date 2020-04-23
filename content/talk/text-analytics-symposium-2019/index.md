@@ -5,14 +5,17 @@ title: "Text Analytics Symposium 2019"
 event: "第15回テキストアナリティクス・シンポジウム"
 event_url: http://www.ieice.org/~nlc/tm15a.html
 location: Future Corporation
-address: 
+address:
   street: Art Village Osaki Central Tower, 1-2-2 Osaki
   city: Shinagawa-ku
-  region: Tokyo 
+  region: Tokyo
   postcode: 141-0032
   country: Japan
-summary: 
-abstract:
+summary: "This talk introduces a case study of research and development internship at Gunosy Inc."
+abstract: "本稿では第15回テキストアナリティクス・シンポジウムの依頼講演である「ウェブサービス事業者における研究開発インターン」の原稿として株式会社Gunosyにおける研究開発インターンシップの事例について述べる．
+株式会社Gunosyはニュース推薦システムを活用したニュース配信サービスを提供しており，研究開発にも力を入れている．
+本インターンシップは2018年夏から始まり，その成果がデータマイニング分野のトップカンファレンスであるKDDに採択された．
+本稿では本インターンシップが開始された経緯，実際にどのように研究が進められたのか，それに伴う社内での体制や取り組みなどについて報告する． "
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -49,7 +52,7 @@ image:
 url_slides: https://speakerdeck.com/ysekky/research-intern-case-study-at-gunosy
 
 url_code:
-url_pdf:
+url_pdf: https://www.ieice.org/ken/paper/20190927q1Qe/
 url_video:
 
 # Markdown Slides (optional).
