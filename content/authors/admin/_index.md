@@ -24,7 +24,6 @@ organizations:
 bio: My research interests include deep learning-based natural language processing, computer vision, medical image processing, and computational advertising.
 
 interests:
-- Deep Learning
 - Natural Language Processing
 - Computer Vision
 - Medical Image Processing
@@ -74,6 +73,10 @@ social:
 - icon: pen-nib
   icon_pack: fas
   link: http://shunk031.hatenablog.com/
+
+- icon: speaker-deck
+  icon_pack: fab
+  link: https://speakerdeck.com/shunk031
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
