@@ -78,6 +78,10 @@ social:
   icon_pack: fab
   link: https://speakerdeck.com/shunk031
 
+- icon: researchgate
+  icon_pack: ai
+  link: https://www.researchgate.net/profile/Shunsuke_Kitada
+
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
