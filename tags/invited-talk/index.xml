@@ -5,12 +5,21 @@
     <link>https://shunk031.github.io/tags/invited-talk/</link>
       <atom:link href="https://shunk031.github.io/tags/invited-talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Invited talk</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2020 Shunsuke Kitada. All rights reserved. &amp;middot; Hosted on [GitHub](https://github.com/shunk031/shunk031.github.io).</copyright><lastBuildDate>Fri, 27 Sep 2019 15:40:00 +0900</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2020 Shunsuke Kitada. All rights reserved. &amp;middot; Hosted on [GitHub](https://github.com/shunk031/shunk031.github.io).</copyright><lastBuildDate>Tue, 09 Jun 2020 14:40:00 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.github.io/images/icon_hu5c3c9671a4be0eb31bd1ac25d9087784_1353_512x512_fill_lanczos_center_2.png</url>
       <title>Invited talk</title>
       <link>https://shunk031.github.io/tags/invited-talk/</link>
     </image>
+    
+    <item>
+      <title>The Present and Future of Machine Learning for Ad Creatives</title>
+      <link>https://shunk031.github.io/talk/jsai2020-os-invited-talk/</link>
+      <pubDate>Tue, 09 Jun 2020 14:40:00 +0900</pubDate>
+      <guid>https://shunk031.github.io/talk/jsai2020-os-invited-talk/</guid>
+      <description>&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;aae0bfc47d0a4e9eb12e3d9d64cd9df8&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
     
     <item>
       <title>Text Analytics Symposium 2019</title>
