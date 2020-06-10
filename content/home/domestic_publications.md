@@ -8,7 +8,7 @@ active = true  # Activate this widget? true/false
 weight = 4  # Order that this section will appear.
 
 title = "Domestic Conference"
-subtitle = ""
+subtitle = "[All domestic conference papers>>](/publication/#9)."
 
 [content]
   # Page type to display. E.g. post, talk, or publication.

@@ -8,7 +8,7 @@ active = true  # Activate this widget? true/false
 weight = 3  # Order that this section will appear.
 
 title = "International Conference"
-subtitle = ""
+subtitle = "[All international conference papers>>](/publication/#1)."
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
