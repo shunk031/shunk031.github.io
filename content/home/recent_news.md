@@ -9,7 +9,7 @@ active = true  # Activate this widget? true/false
 weight = 2  # Order that this section will appear.
 
 title = "Recent News 😀"
-subtitle = "[All news>>](/news)"
+subtitle = "[All news >>](/news)"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -50,4 +50,4 @@ subtitle = "[All news>>](/news)"
  css_class = ""
 +++
 
-{{< readfromfile "/content/news/news_list.md" 5 >}} 
+{{< readfromfile "/content/news/item_list.md" 5 >}} 
