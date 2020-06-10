@@ -52,7 +52,7 @@ url_preprint: https://arxiv.org/abs/1905.07289
 image:
   caption: ""
   focal_point: ""
-  preview_only: false
+  preview_only: true
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
