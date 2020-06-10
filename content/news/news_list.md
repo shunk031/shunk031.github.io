@@ -1,0 +1,11 @@
+- **[2020.06]** [Invited talk](talk/jsai2020-os-invited-talk/) on Organized Session in The 34th Annual Conference of the Japanese Society for Artificial Intelligence.
+- **[2020.04]** Accepted our paper to ACL2020 Student Research Workshop.
+- **[2020.01]** Interviewed by Nikkan Kogyo Shimbun, Ltd ([the article](https://newswitch.jp/p/20932?fbclid=IwAR3XO7LkdZhhCFj9YxqFY4Me7kcbO8lCoBs39RvCCdUAHr7pFDc42PoVQXw)).
+- **[2019.08]** Got Honorable Mention in [YANS 2019](https://www.hosei.ac.jp/gs/NEWS/zaigaku/koganei/20190920/).
+- **[2019.08]** Interviewed about my research internship in Gunosy Inc. ([the article](https://gunosiru.gunosy.co.jp/entry/kdd2019_gtl)).
+- **[2019.07]** Got CEO special award in the second half of FY2019 at Gunosy Inc. ([detail](https://gunosiru.gunosy.co.jp/entry/party-7th-secondhalf)).
+- **[2019.04]** Accepted [our paper](publication/kitada2019conversion/) to KDD2019.
+- **[2019.03]** Got Student Honorable Mention in [IPSJ 2019](https://www.hosei.ac.jp/gs/NEWS/topics/jusho/190411_4/).
+- **[2018.09]** Accepted [our paper](publication/kitada2018end/) to AIPR 2018.
+- **[2018.08]** Got 1st prize of [hackU Hosei 2018](https://hacku.yahoo.co.jp/hosei2018/).
+- **[2017.08]** Got student award at [FR FRONTIER](https://deepanalytics.connpass.com/event/56007/).
