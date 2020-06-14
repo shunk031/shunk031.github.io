@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Shunsuke Kitada
+title: Shunsuke Kitada
 
 # Username (this should match the folder name)
 authors:
