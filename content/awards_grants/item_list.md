@@ -1,5 +1,5 @@
 - **[2019.08]** Honorable Mention in [YANS 2019](https://www.hosei.ac.jp/gs/NEWS/zaigaku/koganei/20190920/).
-- **[2019.07]** CEO special award in the second half of FY2019 at Gunosy Inc. ([detail](https://gunosiru.gunosy.co.jp/entry/party-7th-secondhalf)).
+- **[2019.07]** CEO Special Award in the second half of FY2019 at Gunosy Inc. ([detail](https://gunosiru.gunosy.co.jp/entry/party-7th-secondhalf)).
 - **[2019.03]** Student Honorable Mention in [IPSJ 2019](https://www.hosei.ac.jp/gs/NEWS/topics/jusho/190411_4/).
-- **[2018.08]** Got 1st prize of [hackU Hosei 2018](https://hacku.yahoo.co.jp/hosei2018/).
-- **[2017.08]** Got student award at [FR FRONTIER](https://deepanalytics.connpass.com/event/56007/).
+- **[2018.08]** 1st prize of [hackU Hosei 2018](https://hacku.yahoo.co.jp/hosei2018/).
+- **[2017.08]** Student Award at [FR FRONTIER](https://deepanalytics.connpass.com/event/56007/).
