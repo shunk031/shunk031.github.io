@@ -42,6 +42,8 @@ image:
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
 links:
+- name: Organized session page
+  url: https://sites.google.com/view/jsai2020-os12-ad-ai/
 - name: Presentation information
   url: https://confit.atlas.jp/guide/event/jsai2020/subject/1H3-OS-12a-05/tables
   # icon_pack: fab
