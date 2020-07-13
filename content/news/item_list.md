@@ -1,3 +1,4 @@
+- **[2020.07]** Got JASSO Scholarship for Top 10% Excellent Master Students from Japan Student Services Organization.
 - **[2020.06]** [Invited talk](talk/jsai2020-os-invited-talk/) on Organized Session in The 34th Annual Conference of the Japanese Society for Artificial Intelligence.
 - **[2020.04]** Accepted our paper to ACL2020 Student Research Workshop.
 - **[2020.01]** Interviewed by Nikkan Kogyo Shimbun, Ltd ([the article](https://newswitch.jp/p/20932?fbclid=IwAR3XO7LkdZhhCFj9YxqFY4Me7kcbO8lCoBs39RvCCdUAHr7pFDc42PoVQXw)).
