@@ -7,6 +7,7 @@
 - **[2019.07]** Got CEO special award in the second half of FY2019 at Gunosy Inc. ([detail](https://gunosiru.gunosy.co.jp/entry/party-7th-secondhalf)).
 - **[2019.04]** Accepted [our paper](publication/kitada2019conversion/) to KDD2019.
 - **[2019.03]** Got Student Honorable Mention in [IPSJ 2019](https://www.hosei.ac.jp/gs/NEWS/topics/jusho/190411_4/).
+- **[2019.01]** Got overall 1st prize and medium 2nd prize in [DeNA Data Analysis Competition Event](https://dena-ai.connpass.com/event/114168/?utm_campaign=event_participate_to_follower&utm_medium=twitter&utm_source=notifications).
 - **[2018.09]** Accepted [our paper](publication/kitada2018end/) to AIPR 2018.
 - **[2018.08]** Got 1st prize of [hackU Hosei 2018](https://hacku.yahoo.co.jp/hosei2018/).
 - **[2017.08]** Got student award at [FR FRONTIER](https://deepanalytics.connpass.com/event/56007/).
