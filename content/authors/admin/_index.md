@@ -68,7 +68,7 @@ social:
 
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/in/shunsuke-kitada/
+  link: https://www.linkedin.com/in/shunk031/
 
 - icon: pen-nib
   icon_pack: fas
