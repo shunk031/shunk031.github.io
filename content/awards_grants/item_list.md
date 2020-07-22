@@ -2,6 +2,6 @@
 - **[2019.08]** Honorable Mention in [Young Researcher Association for NLP Studies (YANS) 2019](https://www.hosei.ac.jp/gs/NEWS/zaigaku/koganei/20190920/).
 - **[2019.07]** CEO Special Award in the second half of FY2019 at Gunosy Inc. ([detail](https://gunosiru.gunosy.co.jp/entry/party-7th-secondhalf)).
 - **[2019.03]** Student Honorable Mention in [Information Processing Society of Japan (IPSJ) 2019](https://www.hosei.ac.jp/gs/NEWS/topics/jusho/190411_4/).
-- **[2019.01]** Got overall 1st prize and medium 2nd prize in [DeNA Data Analysis Competition Event](https://dena-ai.connpass.com/event/114168/).
+- **[2019.01]** Overall 1st prize and medium 2nd prize in [DeNA Data Analysis Competition Event](https://dena-ai.connpass.com/event/114168/).
 - **[2018.08]** 1st prize of [hackU Hosei 2018](https://hacku.yahoo.co.jp/hosei2018/).
 - **[2017.08]** Student Award at [FR FRONTIER](https://deepanalytics.connpass.com/event/56007/).
