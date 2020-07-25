@@ -5,6 +5,7 @@
 - **[2019.08]** Got Honorable Mention in [YANS 2019](https://www.hosei.ac.jp/gs/NEWS/zaigaku/koganei/20190920/).
 - **[2019.08]** Interviewed about my research internship in Gunosy Inc. ([the article](https://gunosiru.gunosy.co.jp/entry/kdd2019_gtl)).
 - **[2019.07]** Got CEO special award in the second half of FY2019 at Gunosy Inc. ([detail](https://gunosiru.gunosy.co.jp/entry/party-7th-secondhalf)).
+- **[2019.06]** Got Hosei University 100th year anniversary scholarship for master students ([PDF](https://www.hosei.ac.jp/application/files/2715/8977/4261/2020_3-3.pdf)).
 - **[2019.04]** Accepted [our paper](publication/kitada2019conversion/) to KDD2019.
 - **[2019.03]** Got Student Honorable Mention in [IPSJ 2019](https://www.hosei.ac.jp/gs/NEWS/topics/jusho/190411_4/).
 - **[2019.01]** Got overall 1st prize and medium 2nd prize in [DeNA Data Analysis Competition Event](https://dena-ai.connpass.com/event/114168/?utm_campaign=event_participate_to_follower&utm_medium=twitter&utm_source=notifications).

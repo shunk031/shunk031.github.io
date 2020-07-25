@@ -1,6 +1,7 @@
 - **[2020.07]** JASSO Scholarship for Top 10% Excellent Master Students (2,112,000 JPY) from Japan Student Services Organization.
 - **[2019.08]** Honorable Mention in [Young Researcher Association for NLP Studies (YANS) 2019](https://www.hosei.ac.jp/gs/NEWS/zaigaku/koganei/20190920/).
 - **[2019.07]** CEO Special Award in the second half of FY2019 at Gunosy Inc. ([detail](https://gunosiru.gunosy.co.jp/entry/party-7th-secondhalf)).
+- **[2019.06]** Hosei University 100th year anniversary scholarship for master students ([PDF](https://www.hosei.ac.jp/application/files/2715/8977/4261/2020_3-3.pdf)).
 - **[2019.03]** Student Honorable Mention in [Information Processing Society of Japan (IPSJ) 2019](https://www.hosei.ac.jp/gs/NEWS/topics/jusho/190411_4/).
 - **[2019.01]** Overall 1st prize and medium 2nd prize in [DeNA Data Analysis Competition Event](https://dena-ai.connpass.com/event/114168/).
 - **[2018.08]** 1st prize of [hackU Hosei 2018](https://hacku.yahoo.co.jp/hosei2018/).
