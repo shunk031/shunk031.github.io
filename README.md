@@ -4,6 +4,8 @@
 
 [Hugo Academic](https://github.com/gcushen/hugo-academic) + GitHub Pages based on [Hugo Kick Start](https://github.com/ShanSabri/academic-kickstart).
 
+[![Website Thumbnail](.github/README/thumbnail.png)](http://www.shunk031.me)
+
 ## Running locally
 
 - Install `hugo` to build page
