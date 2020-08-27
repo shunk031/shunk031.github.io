@@ -112,6 +112,15 @@ date_format = "Jan 2006"
   """
 
 [[experience]]
+  title = "Fundamental Information Technology Engineer"
+  company = "Information-technology Promotion Agency, Japan"
+  company_url = "https://www.jitec.ipa.go.jp/index-e.html"
+  date_start = "2016-06-01"
+  description = """
+  Fundamental Information Technology Engineer Examination is a yardstick for measuring IT knowledge and skills as a team member by asking a range of questions about algorithm, network, database, information security, practical programming, etc.
+  """
+
+[[experience]]
   title = "Internship"
   company = "Works Applications Co., Ltd."
   company_url = "https://www.worksap.com/"
