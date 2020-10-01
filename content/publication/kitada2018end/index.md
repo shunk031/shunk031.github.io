@@ -31,13 +31,13 @@ featured: false
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
-# links:
-# - name: Follow
-#   url: https://twitter.com
-#   icon_pack: fab
-#   icon: twitter
+links:
+- name: Preprint
+  url: https://arxiv.org/abs/1810.03595
+  icon_pack: ai
+  icon: arxiv
 
-url_preprint: https://arxiv.org/abs/1810.03595
+url_preprint:
 url_pdf: https://ieeexplore.ieee.org/document/8707407
 url_code:
 url_dataset:

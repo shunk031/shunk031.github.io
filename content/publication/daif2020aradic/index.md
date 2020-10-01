@@ -4,7 +4,7 @@
 title: "AraDIC: Arabic Document Classification using Image-Based Character Embeddings and Class-Balanced Loss"
 authors: ["Mahmoud Daif", "Shunsuke Kitada", "Hitoshi Iyatomi"]
 date: 2020-06-21T21:38:33+09:00
-doi: ""
+doi: "10.18653/v1/2020.acl-srw.29"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2020-06-21T21:38:33+09:00
@@ -41,6 +41,10 @@ featured: false
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
 links:
+- name: Preprint
+  url: https://arxiv.org/abs/2006.11586
+  icon_pack: ai
+  icon: arxiv
 - name: Code
   url: https://github.com/mahmouddaif/AraDIC
   icon_pack: fab
@@ -53,8 +57,8 @@ url_poster:
 url_project:
 url_slides:
 url_source:
-url_video:
-url_preprint: https://arxiv.org/abs/2006.11586
+url_video: https://slideslive.com/38928662/aradic-arabic-document-classification-using-imagebased-character-embeddings-and-classbalanced-loss
+url_preprint: 
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

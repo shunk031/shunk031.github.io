@@ -31,10 +31,18 @@ featured: true
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
 links:
+- name: Preprint
+  url: https://arxiv.org/abs/1905.07289
+  icon_pack: ai
+  icon: arxiv
 - name: Code
   url: https://github.com/shunk031/Multi-task-Conditional-Attention-Networks
   icon_pack: fab
   icon: github
+- name: Video
+  url: https://www.youtube.com/watch?v=bSVJG0R5TRk
+  icon_pack: fab
+  icon: youtube
 
 url_pdf: https://dl.acm.org/doi/10.1145/3292500.3330789
 url_code:
@@ -43,8 +51,8 @@ url_poster:
 url_project:
 url_slides:
 url_source:
-url_video: https://www.youtube.com/watch?v=bSVJG0R5TRk
-url_preprint: https://arxiv.org/abs/1905.07289
+url_video:
+url_preprint:
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
