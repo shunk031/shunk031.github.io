@@ -7,8 +7,10 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 3  # Order that this section will appear.
 
-title = "International Conference"
-subtitle = "[All international conference papers >>](/publication/#1)."
+title = "International Journal and Conference"
+subtitle = """
+All [journal](/publication/#0) and [conference](/publication/#1) papers >>.
+"""
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
@@ -25,9 +27,9 @@ subtitle = "[All international conference papers >>](/publication/#1)."
 
   # Filter posts by a taxonomy term.
   [content.filters]
-    tag = "International Conference"
+    tag = ""
     category = ""
-    publication_type = ""
+    publication_type = "1"
     author = ""
     exclude_featured = false
   
