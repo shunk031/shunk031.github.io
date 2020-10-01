@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Natural Language Processing | Shunsuke Kitada</title>
+    <link>https://shunk031.github.io/category/natural-language-processing/</link>
+      <atom:link href="https://shunk031.github.io/category/natural-language-processing/index.xml" rel="self" type="application/rss+xml" />
+    <description>Natural Language Processing</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2020 Shunsuke Kitada. All rights reserved. &amp;middot; Hosted on [GitHub](https://github.com/shunk031/shunk031.github.io).</copyright><lastBuildDate>Sun, 21 Jun 2020 21:38:33 +0900</lastBuildDate>
+    <image>
+      <url>https://shunk031.github.io/images/icon_hu5c3c9671a4be0eb31bd1ac25d9087784_1353_512x512_fill_lanczos_center_2.png</url>
+      <title>Natural Language Processing</title>
+      <link>https://shunk031.github.io/category/natural-language-processing/</link>
+    </image>
+    
+    <item>
+      <title>AraDIC: Arabic Document Classification using Image-Based Character Embeddings and Class-Balanced Loss</title>
+      <link>https://shunk031.github.io/publication/daif2020aradic/</link>
+      <pubDate>Sun, 21 Jun 2020 21:38:33 +0900</pubDate>
+      <guid>https://shunk031.github.io/publication/daif2020aradic/</guid>
+      <description>&lt;div class=&#34;blogcard&#34;&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fwww.aclweb.org%2fanthology%2f2020.acl-srw.29%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
+        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>解釈可能な敵対的摂動を用いた頑健な注意機構の学習</title>
+      <link>https://shunk031.github.io/publication/kitada2020nlp/</link>
+      <pubDate>Thu, 19 Mar 2020 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.github.io/publication/kitada2020nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>文字単位の解釈可能な潜在表現のdata augmentation</title>
+      <link>https://shunk031.github.io/publication/aoki2020nlp/</link>
+      <pubDate>Wed, 18 Mar 2020 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.github.io/publication/aoki2020nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Image-based Character Embedding for Arabic Document Classification</title>
+      <link>https://shunk031.github.io/publication/daif2020nlp/</link>
+      <pubDate>Tue, 17 Mar 2020 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.github.io/publication/daif2020nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Script-aware embedding を用いた文字表現の獲得</title>
+      <link>https://shunk031.github.io/publication/nagasawa2020nlp/</link>
+      <pubDate>Tue, 17 Mar 2020 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.github.io/publication/nagasawa2020nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Image Based Character Embeddings for Arabic Document Classification</title>
+      <link>https://shunk031.github.io/publication/daif2019yans/</link>
+      <pubDate>Mon, 26 Aug 2019 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.github.io/publication/daif2019yans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>日本語の文字体系を考慮した文書分類モデルの提案</title>
+      <link>https://shunk031.github.io/publication/nagasawa2019yans/</link>
+      <pubDate>Mon, 26 Aug 2019 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.github.io/publication/nagasawa2019yans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>広告クリエイティブ自動生成にむけたマルチタスク学習と Conditional Attention による CVR 予測</title>
+      <link>https://shunk031.github.io/publication/kitada2019nlp/</link>
+      <pubDate>Wed, 13 Mar 2019 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.github.io/publication/kitada2019nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>End-to-End Text Classification via Image-based Embedding using Character-level Networks</title>
+      <link>https://shunk031.github.io/publication/kitada2018end/</link>
+      <pubDate>Mon, 08 Oct 2018 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.github.io/publication/kitada2018end/</guid>
+      <description>&lt;div class=&#34;blogcard&#34;&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2farxiv.org%2fabs%2f1810.03595&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
+        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>広告クリエイティブ自動生成に向けた単語レベルでの評価手法の検討</title>
+      <link>https://shunk031.github.io/publication/kitada2018yans/</link>
+      <pubDate>Tue, 28 Aug 2018 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.github.io/publication/kitada2018yans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CE-CLCNN: Character Encoder を用いた Character-level Convolutional Neural Networks によるテキスト分類</title>
+      <link>https://shunk031.github.io/publication/kitada2018nlp/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.github.io/publication/kitada2018nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Character-level Convolutional Neural Networks における Wildcard Training の基礎検討</title>
+      <link>https://shunk031.github.io/publication/kitada2017yans/</link>
+      <pubDate>Tue, 05 Sep 2017 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.github.io/publication/kitada2017yans/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
