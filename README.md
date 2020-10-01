@@ -35,6 +35,10 @@ $ hugo new --kind publication publication/name2020conf
 $ convert paper.pdf[0] -resize 640x640^ -crop 640x480+0+0 -alpha remove featured.png
 ```
 
+### Available Icons
+
+- See https://wowchemy.com/docs/page-builder/#icons for more details
+
 ## License
 
 The code and styles are licensed under the MIT license. [See project license.](LICENSE) Obviously you should not use the content of this demo repo in your own resume. :wink:
