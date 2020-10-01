@@ -26,6 +26,10 @@ subtitle = ""
     tag = "*"
 
   [[content.filter_button]]
+    name = "Official Implementation"
+    tag = "Official Implementation"
+
+  [[content.filter_button]]
     name = "PyTorch"
     tag = "PyTorch"
 
@@ -39,7 +43,7 @@ subtitle = ""
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "2"
+  columns = "1"
 
   # Toggle between the various page layout types.
   #   1 = List
