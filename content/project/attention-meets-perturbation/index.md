@@ -4,7 +4,7 @@
 title: "Attention Meets Perturbation"
 summary: "Official Implementation of the paper [Attention Meets Perturbations: Robust and Interpretable Attention with Adversarial Training](https://arxiv.org/abs/2009.12064)"
 authors: ["Shunsuke Kitada"]
-tags: ["PyTorch", "Official Implementation"]
+tags: ["PyTorch", "Official Implementation", "AllenNLP"]
 categories: ["Implementation"]
 date: 2020-10-02T00:01:07+09:00
 

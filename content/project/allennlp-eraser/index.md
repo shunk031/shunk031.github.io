@@ -1,15 +1,15 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Human Attention Map for Text Classification"
-summary: "Reimplementation of the paper [Human Attention Maps for Text Classification: Do Humans and Neural Networks Focus on the Same Words? (ACL2020)](https://www.aclweb.org/anthology/2020.acl-main.419/) in PyTorch"
+title: "AllenNLP Eraser"
+summary: "Collection of AllenNLP DatasetReaders for ERASER"
 authors: ["Shunsuke Kitada"]
 tags: ["PyTorch", "AllenNLP"]
 categories: ["Implementation"]
-date: 2020-08-17T22:23:06+09:00
+date: 2020-10-05T02:56:12+09:00
 
 # Optional external URL for project (replaces project detail page).
-external_link: "https://github.com/shunk031/human-attention-map-for-text-classification"
+external_link: "https://github.com/shunk031/allennlp-eraser"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -27,7 +27,7 @@ image:
 #   icon_pack: fab
 #   icon: twitter
 
-url_code: "https://github.com/shunk031/human-attention-map-for-text-classification"
+url_code: "https://github.com/shunk031/allennlp-eraser"
 url_pdf: ""
 url_slides: ""
 url_video: ""
