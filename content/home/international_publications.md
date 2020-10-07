@@ -7,7 +7,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 3  # Order that this section will appear.
 
-title = "International Journal and Conference"
+title = "International Journal and Conference 📝"
 subtitle = """
 All [journal](/publication/#0) and [conference](/publication/#1) papers >>.
 """
