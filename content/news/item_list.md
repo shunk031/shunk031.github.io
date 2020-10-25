@@ -1,3 +1,4 @@
+- **[2020.10]** Accepted our paper to AACL-IJCNLP2020 Student Research Workshop.
 - **[2020.07]** Got JASSO Scholarship for Top 10% Excellent Master Students from Japan Student Services Organization.
 - **[2020.06]** [Invited talk](talk/jsai2020-os-invited-talk/) on Organized Session in The 34th Annual Conference of the Japanese Society for Artificial Intelligence.
 - **[2020.04]** Accepted our paper to ACL2020 Student Research Workshop.
