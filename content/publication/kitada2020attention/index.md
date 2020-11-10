@@ -31,12 +31,15 @@ featured: false
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
 links:
+- name: Preprint
+  url: https://arxiv.org/abs/2009.12064
+  icon_pack: ai
+  icon: arxiv
 - name: Code
   url: https://github.com/shunk031/attention-meets-perturbation
   icon_pack: fab
   icon: github
 
-url_preprint: https://arxiv.org/abs/2009.12064
 url_pdf:
 url_code:
 url_dataset:
