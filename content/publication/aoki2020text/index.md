@@ -32,11 +32,15 @@ featured: false
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
-# links:
-# - name: Follow
-#   url: https://twitter.com
-#   icon_pack: fab
-#   icon: twitter
+links:
+- name: Preprint
+  url: https://arxiv.org/abs/2011.04184
+  icon_pack: ai
+  icon: arxiv
+- name: Code
+  url: https://github.com/IyatomiLab/GDCE-SSA
+  icon_pack: fab
+  icon: github
 
 url_pdf:
 url_code:
