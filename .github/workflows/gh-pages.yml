@@ -4,9 +4,6 @@ on:
   push:
     branches:
       - source # default branch
-  pull_request:
-    branches:
-      - feature/*
 
 jobs:
   build-deploy:
@@ -23,18 +20,10 @@ jobs:
       - name: Build
         run: hugo
 
-      - name: Check links
-        uses: ruzickap/action-my-broken-link-checker@v2
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          url: https://${{ github.event.repository.owner.name }}.github.io/
-          pages_path: ./public
-          cmd_params: "--one-page-only --max-connections=10 --color=always --verbose --skip-tls-verification"
-          run_timeout: 10
-          debug: true
-      # - name: Deploy
-      #   uses: peaceiris/actions-gh-pages@v3
-      #   with:
-      #     deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-      #     publish_dir: ./public
-      #     publish_branch: master # deploying branch
-      #     cname: shunk031.me
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          publish_dir: ./public
+          publish_branch: master # deploying branch
+          cname: shunk031.me
