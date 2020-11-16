@@ -25,6 +25,8 @@ jobs:
         with:
           url: https://${{ github.event.repository.owner.name }}.github.io/
           pages_path: ./public
-          cmd_params: "--one-page-only --max-connections=10 --color=always --verbose --skip-tls-verification"
+          cmd_params:
+            "--one-page-only --max-connections=10 --color=always --verbose --skip-tls-verification \
+            --exclude linkedin.com"
           run_timeout: 10
           debug: true
