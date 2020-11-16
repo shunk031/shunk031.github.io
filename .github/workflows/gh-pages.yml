@@ -4,14 +4,15 @@ on:
   push:
     branches:
       - source # default branch
+  pull_request:
+    branches:
+      - feature/*
 
 jobs:
   build-deploy:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
-        with:
-          submodules: true
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
@@ -22,10 +23,18 @@ jobs:
       - name: Build
         run: hugo
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Check links
+        uses: ruzickap/action-my-broken-link-checker@v2
         with:
-          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          publish_dir: ./public
-          publish_branch: master # deploying branch
-          cname: shunk031.me
+          url: https://${{ github.event.repository.owner.name }}.github.io/
+          pages_path: ./public
+          cmd_params: "--one-page-only --max-connections=10 --color=always --verbose --skip-tls-verification"
+          run_timeout: 10
+          debug: true
+      # - name: Deploy
+      #   uses: peaceiris/actions-gh-pages@v3
+      #   with:
+      #     deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+      #     publish_dir: ./public
+      #     publish_branch: master # deploying branch
+      #     cname: shunk031.me
