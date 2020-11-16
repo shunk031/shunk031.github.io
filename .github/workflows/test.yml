@@ -1,0 +1,30 @@
+name: Test
+
+on:
+  pull_request:
+    branches:
+      - feature/*
+
+jobs:
+  build-test:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "latest"
+          extended: true
+
+      - name: Build
+        run: hugo
+
+      - name: Check links
+        uses: ruzickap/action-my-broken-link-checker@v2
+        with:
+          url: https://${{ github.event.repository.owner.name }}.github.io/
+          pages_path: ./public
+          cmd_params: "--one-page-only --max-connections=10 --color=always --verbose --skip-tls-verification"
+          run_timeout: 10
+          debug: true
