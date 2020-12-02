@@ -41,6 +41,10 @@ links:
   url: https://github.com/IyatomiLab/GDCE-SSA
   icon_pack: fab
   icon: github
+- name: Video
+  url: https://www.youtube.com/watch?v=EWo5yKSJah0
+  icon_pack: fab
+  icon: youtube
 
 url_pdf:
 url_code:
