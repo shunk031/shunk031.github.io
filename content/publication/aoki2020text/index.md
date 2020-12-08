@@ -46,7 +46,7 @@ links:
   icon_pack: fab
   icon: youtube
 
-url_pdf:
+url_pdf: https://www.aclweb.org/anthology/2020.aacl-srw.1/
 url_code:
 url_dataset:
 url_poster:
