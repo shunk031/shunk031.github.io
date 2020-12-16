@@ -1,3 +1,4 @@
+- **[2020.12]** Hosei University Research Grant for Doctoral Course Adopters in 2020 (480,000 JPY) ([detail](https://www.hosei.ac.jp/gs/gakuhi/gakuhi-shogakukin/shogakukin/kenkyujoseikin/)).
 - **[2020.10]** Accepted [our paper](publication/aoki2020text/) to AACL-IJCNLP2020 Student Research Workshop.
 - **[2020.07]** Got JASSO Scholarship for Top 10% Excellent Master Students from Japan Student Services Organization.
 - **[2020.06]** [Invited talk](talk/jsai2020-os-invited-talk/) on Organized Session in The 34th Annual Conference of the Japanese Society for Artificial Intelligence.
