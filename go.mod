@@ -2,4 +2,4 @@ module github.com/wowchemy/starter-academic
 
 go 1.15
 
-require github.com/wowchemy/wowchemy-hugo-modules/wowchemy v0.0.0-20201109174124-1ed538027a75 // indirect
+require github.com/wowchemy/wowchemy-hugo-modules/wowchemy v0.0.0-20201213184117-a0b9887f37fb // indirect
