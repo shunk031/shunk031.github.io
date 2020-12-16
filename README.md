@@ -16,6 +16,18 @@
 $ brew install hugo
 ```
 
+## Check contents
+
+```sh
+$ make server
+```
+
+## Update hugo modules
+
+```sh
+$ make update
+```
+
 ## Create a content
 ### Create a post for some news
 
