@@ -19,7 +19,7 @@ $ brew install hugo
 ## Check contents
 
 ```sh
-$ make server
+$ make run
 ```
 
 ## Update hugo modules
