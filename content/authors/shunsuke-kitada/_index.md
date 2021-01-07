@@ -10,7 +10,7 @@ role: Ph.D student working on Deep Learning
 
 # Organizations/Affiliations
 organizations:
-- name: Major in Applied Informatics, Graduate School of Science and Engineering, Hosei University
+- name: Department of Applied Informatics, Graduate School of Science and Engineering, Hosei University
   url: "https://www.hosei.ac.jp/english/admissions/graduate/jbdp/science_engineering/applied_informatics/"
 - name: Intelligent information processing laboratory
   url: "http://iyatomi-lab.info/front-e.html"
@@ -102,4 +102,4 @@ His personality traits can be summarized as follows:
 - 📝 **Every day read and implement the cutting-edge deep learning models from the research paper.** I have released many re-implementations of models using mainly Chainer and PyTorch. Therefore, based on state-of-the-art cases, I can advise on deep learning base product design.
 - 😄 **High technical communicativity.** Summarize what I made and what I studied, and spread such information. This shows that I can input and output regularly.
 
-The resume is available in {{% staticref "files/Shunsuke_Kitada_CV.pdf" "newtab" %}} PDF {{% /staticref %}} form.
+The resume is available in {{% staticref "files/Shunsuke_Kitada_CV.pdf" "newtab" %}} PDF {{< icon name="download" pack="fas" >}}{{% /staticref %}} form.
