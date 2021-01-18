@@ -60,7 +60,7 @@
   
   
   
-  <meta name="theme-color" content="#2962ff">
+  <meta name="theme-color" content="#1565c0">
   
 
   
@@ -78,7 +78,7 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous" media="print" onload="this.media='all'">
 
     
     
@@ -89,14 +89,14 @@
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
         
       
     
 
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous" media="print" onload="this.media='all'">
     
 
     
@@ -234,7 +234,8 @@
   
     
       
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;800&family=Merriweather:wght@400;900&display=swap">
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;800&family=Merriweather:wght@400;900&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;800&family=Merriweather:wght@400;900&display=swap" media="print" onload="this.media='all'">
     
   
 
@@ -242,7 +243,8 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.min.49dbc70e34440677558efa2301fcc82c.css">
+  
+  <link rel="stylesheet" href="/css/wowchemy.e33e62441c049f4e9d19dd8c20a6814c.css">
 
   
 
@@ -299,7 +301,10 @@
   <link rel="alternate" href="/talk/index.xml" type="application/rss+xml" title="Shunsuke Kitada">
   
 
+  
   <link rel="manifest" href="/index.webmanifest">
+  
+
   <link rel="icon" type="image/png" href="/images/icon_hu5c3c9671a4be0eb31bd1ac25d9087784_1353_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu5c3c9671a4be0eb31bd1ac25d9087784_1353_192x192_fill_lanczos_center_2.png">
 
@@ -356,9 +361,14 @@
   
   
   
-  <script src="/js/wowchemy-init.js"></script>
+  
+  
+  
+  <script src="/js/wowchemy-init.min.7264cf0eba3b66951b36da7d2cecf9c5.js"></script>
 
-  <aside class="search-results" id="search">
+  
+
+<aside class="search-modal" id="search">
   <div class="container">
     <section class="search-header">
 
@@ -367,16 +377,22 @@
           <h1>Search</h1>
         </div>
         <div class="col-6 col-search-close">
-          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
         </div>
       </div>
 
       <div id="search-box">
         
         <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
-        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control">
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
         
       </div>
+
+      
+      
+
+      
 
     </section>
     <section class="section-search-results">
@@ -388,6 +404,7 @@
     </section>
   </div>
 </aside>
+
 
 
   <div class="page-header">
@@ -405,7 +422,7 @@
 
 
 <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
-  <div class="container">
+  <div class="container-xl">
 
     
     <div class="d-none d-lg-inline-flex">
@@ -798,8 +815,6 @@
 
 
 
-  
-  
 
 
 
@@ -811,9 +826,9 @@
 <div class="media stream-item">
   <div class="media-body">
 
-    <h3 class="article-title mb-0 mt-0">
+    <div class="section-subheading article-title mb-0 mt-0">
       <a href="/talk/jsai2020-os-invited-talk/" >The Present and Future of Machine Learning for Ad Creatives</a>
-    </h3>
+    </div>
 
     
     <a href="/talk/jsai2020-os-invited-talk/"  class="summary-link">
@@ -826,24 +841,53 @@
     <div class="stream-meta article-metadata">
 
       
-      <div>
-        <span>
-          Jun 9, 2020 2:40 PM &mdash; 3:00 PM
-        </span>
-        
-        <span class="middot-divider"></span>
-        <span>Kumamoto-Jo Hall</span>
-        
-      </div>
-      
 
       
-      <div>
         
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
 
   <span >
       <a href="/author/shunsuke-kitada/">Shunsuke Kitada</a></span>
-      </div>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Jan 18, 2021
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
       
     </div>
 
@@ -876,7 +920,7 @@
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://speakerdeck.com/shunk031/the-present-and-future-of-machine-learning-for-ad-creatives" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://speakerdeck.com/shunk031/the-present-and-future-of-machine-learning-for-ad-creatives" target="_blank" rel="noopener">
   Slides
 </a>
 
@@ -896,7 +940,7 @@
   
     
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://sites.google.com/view/jsai2020-os12-ad-ai/" target="_blank" rel="noopener">
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://sites.google.com/view/jsai2020-os12-ad-ai/" target="_blank" rel="noopener">
     
     Organized session page
   </a>
@@ -912,7 +956,7 @@
   
     
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://confit.atlas.jp/guide/event/jsai2020/subject/1H3-OS-12a-05/tables" target="_blank" rel="noopener">
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://confit.atlas.jp/guide/event/jsai2020/subject/1H3-OS-12a-05/tables" target="_blank" rel="noopener">
     
     Presentation information
   </a>
@@ -958,8 +1002,6 @@
 
 
 
-  
-  
 
 
 
@@ -971,9 +1013,9 @@
 <div class="media stream-item">
   <div class="media-body">
 
-    <h3 class="article-title mb-0 mt-0">
+    <div class="section-subheading article-title mb-0 mt-0">
       <a href="/talk/text-analytics-symposium-2019/" >Text Analytics Symposium 2019</a>
-    </h3>
+    </div>
 
     
     <a href="/talk/text-analytics-symposium-2019/"  class="summary-link">
@@ -986,25 +1028,54 @@
     <div class="stream-meta article-metadata">
 
       
-      <div>
-        <span>
-          Sep 27, 2019 3:40 PM &mdash; 4:00 PM
-        </span>
-        
-        <span class="middot-divider"></span>
-        <span>Future Corporation</span>
-        
-      </div>
-      
 
       
-      <div>
         
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
 
   <span >
       <a href="/author/shunsuke-kitada/">Shunsuke Kitada</a></span>, <span >
       <a href="/author/yoshifumi-seki/">Yoshifumi Seki</a></span>
-      </div>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Jan 18, 2021
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
       
     </div>
 
@@ -1025,7 +1096,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.ieice.org/ken/paper/20190927q1Qe/" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.ieice.org/ken/paper/20190927q1Qe/" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -1043,7 +1114,7 @@
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://speakerdeck.com/ysekky/research-intern-case-study-at-gunosy" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://speakerdeck.com/ysekky/research-intern-case-study-at-gunosy" target="_blank" rel="noopener">
   Slides
 </a>
 
@@ -1082,8 +1153,6 @@
 
 
 
-  
-  
 
 
 
@@ -1095,9 +1164,9 @@
 <div class="media stream-item">
   <div class="media-body">
 
-    <h3 class="article-title mb-0 mt-0">
+    <div class="section-subheading article-title mb-0 mt-0">
       <a href="/talk/ccse-2019/" >CCSE 2019</a>
-    </h3>
+    </div>
 
     
     <a href="/talk/ccse-2019/"  class="summary-link">
@@ -1110,60 +1179,57 @@
     <div class="stream-meta article-metadata">
 
       
-      <div>
-        <span>
-          Jul 13, 2019 4:05 PM &mdash; 4:20 PM
-        </span>
-        
-        <span class="middot-divider"></span>
-        <span>Ito Hall, The University of Tokyo</span>
-        
-      </div>
-      
 
       
-      <div>
         
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
 
   <span >
       <a href="/author/shunsuke-kitada/">Shunsuke Kitada</a></span>, <span >
       <a href="/author/mitsumasa-kubo/">Mitsumasa Kubo</a></span>
-      </div>
-      
-    </div>
+  </div>
+  
+  
 
+  
+  <span class="article-date">
     
-    <div class="btn-links">
+    
       
-
-
-
-
-
-
-
+          Last updated on
+      
+    
+    Jan 18, 2021
+  </span>
+  
 
   
 
+  
 
+  
+  
+  
+  
+  
 
+  
+  
 
+</div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      
     </div>
+
     
 
   </div>
@@ -1192,8 +1258,6 @@
 
 
 
-  
-  
 
 
 
@@ -1205,9 +1269,9 @@
 <div class="media stream-item">
   <div class="media-body">
 
-    <h3 class="article-title mb-0 mt-0">
+    <div class="section-subheading article-title mb-0 mt-0">
       <a href="/talk/icml-kdd-2019-pre-conference-session/" >ICML/KDD 2019 Pre-conference session</a>
-    </h3>
+    </div>
 
     
     <a href="/talk/icml-kdd-2019-pre-conference-session/"  class="summary-link">
@@ -1220,59 +1284,56 @@
     <div class="stream-meta article-metadata">
 
       
-      <div>
-        <span>
-          Jun 3, 2019 7:00 PM &mdash; 9:30 PM
-        </span>
-        
-        <span class="middot-divider"></span>
-        <span>LAPRAS Inc.</span>
-        
-      </div>
-      
 
       
-      <div>
         
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
 
   <span >
       <a href="/author/shunsuke-kitada/">Shunsuke Kitada</a></span>
-      </div>
-      
-    </div>
+  </div>
+  
+  
 
+  
+  <span class="article-date">
     
-    <div class="btn-links">
+    
       
-
-
-
-
-
-
-
+          Last updated on
+      
+    
+    Jan 18, 2021
+  </span>
+  
 
   
 
+  
 
+  
+  
+  
+  
+  
 
+  
+  
 
+</div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      
     </div>
+
     
 
   </div>
@@ -1398,42 +1459,18 @@
 
     
     
-    <script>const code_highlighting = true;</script>
-    
-
-    
-    
-    
-    
-    
-    
-    <script>
-      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
-      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
-      const content_type = {
-        'post': "Posts",
-        'project': "Projects",
-        'publication' : "Publications",
-        'talk' : "Talks",
-        'slides' : "Slides"
-        };
-    </script>
-    
-
-    
-    
 
     
     
     <script id="search-hit-fuse-template" type="text/x-template">
       <div class="search-hit" id="summary-{{key}}">
-      <div class="search-hit-content">
-        <div class="search-hit-name">
-          <a href="{{relpermalink}}">{{title}}</a>
-          <div class="article-metadata search-hit-type">{{type}}</div>
-          <p class="search-hit-description">{{snippet}}</p>
+        <div class="search-hit-content">
+          <div class="search-hit-name">
+            <a href="{{relpermalink}}">{{title}}</a>
+            <div class="article-metadata search-hit-type">{{type}}</div>
+            <p class="search-hit-description">{{snippet}}</p>
+          </div>
         </div>
-      </div>
       </div>
     </script>
     
@@ -1446,15 +1483,27 @@
 
     
     
-
-    
-    
     
 
     
     
+    
 
     
+    
+
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
     
 
     
@@ -1468,11 +1517,10 @@
     
     
       
+      
     
     
-    
-    
-    <script src="/js/wowchemy.min.abf79d5abd9391a904c9b122bfe98c04.js"></script>
+    <script src="/en/js/wowchemy.min.297f736e130400781cfee00eff1f1afd.js"></script>
 
     
 
