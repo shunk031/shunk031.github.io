@@ -77,3 +77,5 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
+
+{{< blogcard url="https://www.aclweb.org/anthology/2020.aacl-srw.1/" >}}
