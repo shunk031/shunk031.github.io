@@ -26,8 +26,12 @@ links:
   url: https://twitter.com/h_k_softtennis
   icon_pack: fab
   icon: twitter
+- name: Code
+  url: https://github.com/hosei-k-softtennis/HoseiUniversitySoftTennisClubHP
+  icon_pack: fab
+  icon: github
 
-url_code: "https://github.com/hosei-k-softtennis/HoseiUniversitySoftTennisClubHP"
+url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
