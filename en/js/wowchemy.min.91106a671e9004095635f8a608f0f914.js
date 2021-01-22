@@ -1,4 +1,4 @@
-/*! Wowchemy v5.0.0-beta.1 | https://wowchemy.com/ */
+/*! Wowchemy v5.0.0-beta.2 | https://wowchemy.com/ */
 /*! Copyright 2016-present George Cushen (https://georgecushen.com/) */
 /*! License: https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md */
 
@@ -416,10 +416,10 @@ function renderThemeVariation(isDarkTheme,themeMode=2,init=false){const codeHlLi
 if(isDarkTheme===false){if(!init){Object.assign(document.body.style,{opacity:0,visibility:"visible"});fadeIn(document.body,600);}
 body.classList.remove("dark");if(codeHlEnabled){console.debug("Setting HLJS theme to light");if(codeHlLight){codeHlLight.disabled=false;}
 if(codeHlDark){codeHlDark.disabled=true;}}
-if(diagramEnabled){console.debug("Initializing Mermaid with light theme");if(init){window.mermaid.initialize({theme:"default",securityLevel:"loose"});}else{location.reload();}}}else if(isDarkTheme===true){if(!init){Object.assign(document.body.style,{opacity:0,visibility:"visible"});fadeIn(document.body,600);}
+if(diagramEnabled){console.debug("Initializing Mermaid with light theme");if(init){window.mermaid.initialize({startOnLoad:true,theme:"default",securityLevel:"loose"});}else{location.reload();}}}else if(isDarkTheme===true){if(!init){Object.assign(document.body.style,{opacity:0,visibility:"visible"});fadeIn(document.body,600);}
 body.classList.add("dark");if(codeHlEnabled){console.debug("Setting HLJS theme to dark");if(codeHlLight){codeHlLight.disabled=true;}
 if(codeHlDark){codeHlDark.disabled=false;}}
-if(diagramEnabled){console.debug("Initializing Mermaid with dark theme");if(init){window.mermaid.initialize({theme:"dark",securityLevel:"loose"});}else{location.reload();}}}}
+if(diagramEnabled){console.debug("Initializing Mermaid with dark theme");if(init){window.mermaid.initialize({startOnLoad:true,theme:"dark",securityLevel:"loose"});}else{location.reload();}}}}
 function onMediaQueryListEvent(event){if(!canChangeTheme()){return;}
 const darkModeOn=event.matches;console.debug(`OS dark mode preference changed to ${darkModeOn?"\u{1F312} on":"\u2600\uFE0F off"}.`);let currentThemeVariation=getThemeMode();let isDarkTheme;if(currentThemeVariation===2){if(window.matchMedia("(prefers-color-scheme: dark)").matches){isDarkTheme=true;}else if(window.matchMedia("(prefers-color-scheme: light)").matches){isDarkTheme=false;}else{isDarkTheme=window.wc.isSiteThemeDark;}
 renderThemeVariation(isDarkTheme,currentThemeVariation);}}
