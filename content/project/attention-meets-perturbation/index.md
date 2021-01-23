@@ -21,13 +21,17 @@ image:
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
-# links:
-# - name: Follow
-#   url: https://twitter.com
-#   icon_pack: fab
-#   icon: twitter
+links:
+- name: Code
+  url: https://github.com/shunk031/attention-meets-perturbation
+  icon_pack: fab
+  icon: github
+- name: PDF
+  url: https://arxiv.org/abs/2009.12064
+  icon_pack: ai
+  icon: arxiv
 
-url_code: "https://github.com/shunk031/attention-meets-perturbation"
+url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""

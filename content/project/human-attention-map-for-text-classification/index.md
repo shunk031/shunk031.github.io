@@ -21,13 +21,13 @@ image:
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
-# links:
-# - name: Follow
-#   url: https://twitter.com
-#   icon_pack: fab
-#   icon: twitter
+links:
+- name: Code
+  url: https://github.com/shunk031/human-attention-map-for-text-classification
+  icon_pack: fab
+  icon: github
 
-url_code: "https://github.com/shunk031/human-attention-map-for-text-classification"
+url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
