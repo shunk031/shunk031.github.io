@@ -98,8 +98,8 @@ Shunsuke Kitada (北田 俊輔 in Japanese) is a Ph.D student at Major in applie
 His research interests include deep learning-based natural language processing, computer vision, medical image processing, and computational advertising.
 
 His personality traits can be summarized as follows:
-- ❤️ **Love research and development.** I am enjoying research life, and I am currently conducting three research topics simultaneously, e.g., natural language processing, medical image based computer vision, computational advertising.
-- 📝 **Every day read and implement the cutting-edge deep learning models from the research paper.** I have released many re-implementations of models using mainly Chainer and PyTorch. Therefore, based on state-of-the-art cases, I can advise on deep learning base product design.
-- 😄 **High technical communicativity.** Summarize what I made and what I studied, and spread such information. This shows that I can input and output regularly.
+- ❤️ **Love research and development.** He is enjoying research life, and he is currently focusing on three research topics simultaneously, e.g., natural language processing, medical image-based computer vision, computational advertising.
+- 📝 **Every day read and implement the SoTA models.** He has released many re-implementations of models using mainly Chainer and PyTorch. Therefore, based on state-of-the-art cases, he can advise on deep learning-based product design.
+- 😄 **High technical communicativity.** Summarize what he made and what he studied, and spread such information. This shows that he can input and output regularly.
 
-The resume is available in {{% staticref "files/Shunsuke_Kitada_CV.pdf" "newtab" %}} PDF {{< icon name="download" pack="fas" >}}{{% /staticref %}} form.
+The resume is available in {{% staticref "files/Shunsuke_Kitada_CV.pdf" "newtab" %}} PDF {{< icon name="download" pack="fas" >}}{{% /staticref %}}.
