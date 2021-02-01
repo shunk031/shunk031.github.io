@@ -19,6 +19,19 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "AI x Ad Consultant"
+  company = "AppBrew Inc."
+  company_url = "https://appbrew.io/"
+  date_start = "2021-02-01"
+  description = """
+  - Surveying methods for automatically creating/generating ad creatives
+    - Developing and evaluating prototypes using the method
+    - Integrating the method into the system, including testing and operating
+  - Advising on the improvement of advertising creative creation methods
+    - Participate in meetings (about 1h) at least once a week
+  """
+
+[[experience]]
   title = "Research Assistant"
   company = "Hosei University"
   company_url = "https://www.hosei.ac.jp/english/admissions/graduate/jbdp/science_engineering/applied_informatics/"
