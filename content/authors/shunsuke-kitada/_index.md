@@ -102,4 +102,4 @@ His personality traits can be summarized as follows:
 - 📝 **Every day read and implement the SoTA models.** He has released many re-implementations of models using mainly Chainer and PyTorch. Therefore, based on state-of-the-art cases, he can advise on deep learning-based product design.
 - 😄 **High technical communicativity.** Summarize what he made and what he studied, and spread such information. This shows that he can input and output regularly.
 
-The resume is available in {{% staticref "files/Shunsuke_Kitada_CV.pdf" "newtab" %}} PDF {{< icon name="download" pack="fas" >}}{{% /staticref %}}.
+The resume is available in {{% staticref "files/cv/Shunsuke_Kitada_CV.pdf" "newtab" %}} PDF {{< icon name="download" pack="fas" >}}{{% /staticref %}}.
