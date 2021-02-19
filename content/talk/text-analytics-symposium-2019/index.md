@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Text Analytics Symposium 2019"
-event: "第15回テキストアナリティクス・シンポジウム"
+event: "第 15 回テキストアナリティクス・シンポジウム"
 event_url: http://www.ieice.org/~nlc/tm15a.html
 location: Future Corporation
 address:
@@ -12,9 +12,9 @@ address:
   postcode: 141-0032
   country: Japan
 summary: "This talk introduces a case study of research and development internship at Gunosy Inc."
-abstract: "本稿では第15回テキストアナリティクス・シンポジウムの依頼講演である「ウェブサービス事業者における研究開発インターン」の原稿として株式会社Gunosyにおける研究開発インターンシップの事例について述べる．
-株式会社Gunosyはニュース推薦システムを活用したニュース配信サービスを提供しており，研究開発にも力を入れている．
-本インターンシップは2018年夏から始まり，その成果がデータマイニング分野のトップカンファレンスであるKDDに採択された．
+abstract: " 本稿では第 15 回テキストアナリティクス・シンポジウムの依頼講演である「ウェブサービス事業者における研究開発インターン」の原稿として株式会社 Gunosy における研究開発インターンシップの事例について述べる．
+株式会社 Gunosy はニュース推薦システムを活用したニュース配信サービスを提供しており，研究開発にも力を入れている．
+本インターンシップは 2018 年夏から始まり，その成果がデータマイニング分野のトップカンファレンスである KDD に採択された．
 本稿では本インターンシップが開始された経緯，実際にどのように研究が進められたのか，それに伴う社内での体制や取り組みなどについて報告する． "
 
 # Talk start and end times.
@@ -42,24 +42,24 @@ image:
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
-# links:
-# - name: Follow
-#   url: https://twitter.com
-#   icon_pack: fab
-#   icon: twitter
+links:
+- name: IEICE
+  url: https://www.ieice.org/ken/paper/20190927q1Qe/
+  # icon_pack: fab
+  # icon: twitter
 
 # Optional filename of your slides within your talk's folder or a URL.
 url_slides: https://speakerdeck.com/ysekky/research-intern-case-study-at-gunosy
 
-url_code:
-url_pdf: https://www.ieice.org/ken/paper/20190927q1Qe/
+url_code: 
+url_pdf: 
 url_video:
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
+#   E.g. `slides ="example-slides"`references`content/slides/example-slides.md`.
+#   Otherwise, set `slides =""`.
 slides: ""
 
 # Projects (optional).

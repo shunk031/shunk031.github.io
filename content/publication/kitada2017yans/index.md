@@ -16,13 +16,13 @@ publishDate: 2017-09-05T00:00:00+09:00
 publication_types: ["9"]
 
 # Publication name and optional abbreviated publication name.
-publication: "NLP 若手の会 (YANS) 第 12 回シンポジウム, 2017."
+publication: "NLP 若手の会 (YANS) 第 12 回シンポジウム，2017."
 publication_short: "YANS 2017"
 
 abstract: ""
 
 # Summary. An optional shortened abstract.
-summary: "NLP 若手の会 (YANS) 第 12 回シンポジウム, 2017."
+summary: "NLP 若手の会 (YANS) 第 12 回シンポジウム，2017."
 
 tags: ["Domestic Conference", "Non-refereed", "Natural Language Processing"]
 categories: ["Natural Language Processing"]
@@ -63,7 +63,7 @@ projects: []
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
+#   E.g. `slides:"example"`references`content/slides/example/index.md`.
+#   Otherwise, set `slides:""`.
 slides: ""
 ---
