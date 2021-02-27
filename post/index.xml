@@ -12,5 +12,67 @@
       <link>https://shunk031.github.io/post/</link>
     </image>
     
+    <item>
+      <title>日本学術振興会特別研究員 (DC2) 申請書・学振</title>
+      <link>https://shunk031.github.io/post/dc2/</link>
+      <pubDate>Sat, 27 Feb 2021 21:10:22 +0900</pubDate>
+      <guid>https://shunk031.github.io/post/dc2/</guid>
+      <description>&lt;p&gt;2021 年 4 月より日本学術振興会の特別研究員 DC2 に採用していただきました (補欠繰り上げ採用)。
+弊学では殆ど学振特別研究員の採用実績がなく身近に相談できる方も非常に少なかったため &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;、
+そうした境遇の方 (いわゆるビックラボではない方、旧帝大・上位私立大所属ではない方) に少しでもお力になれたらと思い、申請書の公開に至りました。&lt;/p&gt;
+&lt;p&gt;質問等にもできる限りお答えします。連絡先は &lt;a href=&#34;https://twitter.com/shunk031&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  &lt;i class=&#34;fab fa-twitter  pr-1 fa-fw&#34;&gt;&lt;/i&gt;@shunk031&lt;/a&gt; もしくは &lt;a href=&#34;https://shunk031.me/author/shunsuke-kitada/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;プロフィールのページ&lt;/a&gt; を参照して下さい。&lt;/p&gt;
+&lt;h2 id=&#34;摂動に頑健で解釈可能な深層学習モデルの開発とその解釈性の評価&#34;&gt;摂動に頑健で解釈可能な深層学習モデルの開発とその解釈性の評価&lt;/h2&gt;
+&lt;h3 id=&#34;a-hreffilesjsps_research_fellowdc2_kitadapdf-target_blank&#34;&gt;&lt;a href=&#34;https://shunk031.github.io/files/jsps_research_fellow/dc2_kitada.pdf&#34; target=&#34;_blank&#34;&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;i class=&#34;fas fa-download  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 令和 3 年度採用分 特別研究員 - DC 申請書 (PDF, 1.8MB)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;審査区分は &lt;code&gt;情報学&lt;/code&gt; の &lt;code&gt;知能情報学関連&lt;/code&gt; で、専門分野は &lt;code&gt;自然言語処理&lt;/code&gt; として申請しました。
+研究・職歴等は以下のように記述しました。特に TA や RA、企業でのリサーチインターン等の経験は研究遂行能力に影響を与えると考えました:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2016 年 10 月 ～ 2017 年 12 月 NVIDIA Japan GTC Japan ティーチング・アシスタント&lt;/li&gt;
+&lt;li&gt;2018 年 4 月 ～ 2020 年 3 月 ティーチング・アシスタント (法政大学)&lt;/li&gt;
+&lt;li&gt;2018 年 7 月 ～ 2020 年 8 月 （予定）株式会社 Gunosy リサーチインターン&lt;/li&gt;
+&lt;li&gt;2019 年 6 月 ～ 2019 年 7 月 エムスリー株式会社 R&amp;amp;D インターン&lt;/li&gt;
+&lt;li&gt;2020 年 4 月 ～ 2021 年 3 月 （予定）ティーチング・アシスタント（法政大学）&lt;/li&gt;
+&lt;li&gt;2020 年 4 月 ～ 2021 年 3 月 （予定）リサーチ・アシスタント（法政大学）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;今回の選考状況は申請者数 (取り下げ者数含む) 416 名のうち、1 次採用・2 次採用・補欠それぞれ以下の人数で、&lt;code&gt;採択率は 20.2%&lt;/code&gt; 程度でした。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;採用内定者数 84 名
+&lt;ul&gt;
+&lt;li&gt;1 次採用内定 73 名
+&lt;ul&gt;
+&lt;li&gt;2 次採用内定候補者数 19 名&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2 次採用内定 8 名&lt;/li&gt;
+&lt;li&gt;補欠繰り上げ 3 名&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;補欠繰り上げ採用に関して日本学術振興会の &lt;a href=&#34;https://www.jsps.go.jp/j-pd/pd_saiyo.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;補欠採用内定者の状況について&lt;/a&gt; のセクションを見ると
+例年 DC2 全体で数名程度という状況で、今回の繰り上げ採用は非常に稀なケースでした。&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h3 id=&#34;執筆にあたり参考にしたもの&#34;&gt;執筆にあたり参考にしたもの&lt;/h3&gt;
+&lt;p&gt;情報学・自然言語処理等の分野で活躍されている方々のページや申請書を参考にしました:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://cl.sd.tmu.ac.jp/~komachi/docs/jsps.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;小町先生の DC1, DC2 申請書 (言語学，大規模なコーパスを用いた機械学習による名詞句の項構造解析)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.mibel.cs.tsukuba.ac.jp/~ceekz/dc1/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;吉田先生の DC1 申請書 (メディア情報学，時空間メタデータ検索をキーワード検索に統合したウェブ検索エンジンの実現)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/0B3O7bgd3mym6N214SWw3eVJCS3M/view&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;小田さんの DC1 申請書 (知能情報学，同時音声翻訳技術の精度向上)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bookclub.kodansha.co.jp/product?item=0000147760&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;『学振申請書の書き方とコツ　ＤＣ／ＰＤ獲得を目指す若者へ』（大上　雅史）｜講談社 BOOK 倶楽部&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;私は申請書執筆時点で最難関国際会議の 1 つである学会に論文採択経験があったので、特に小田さんの申請書のストーリー展開や最難関国際会議への論文採択経験の強調の仕方等を参考にさせていただきました。&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;学内で &lt;a href=&#34;https://www.hosei.ac.jp/gs/info/article-20200305102401/?auth=9abbb458a78210eb174f4bdd385bcf54&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;申請セミナーの開催&lt;/a&gt; や、&lt;a href=&#34;https://www.hosei.ac.jp/kenkyu/info/article-20200525125134/?auth=9abbb458a78210eb174f4bdd385bcf54&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DC2 申請支援制度&lt;/a&gt; があり、それぞれ活用させていただきました。 &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;最終的な選考結果が出ないとわかりませんが、コロナ禍による博士学生支援の風潮により 2021 年度の繰り上げ採用が全体的に増えているかもしれません。 &lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
