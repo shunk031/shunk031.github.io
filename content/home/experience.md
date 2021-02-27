@@ -23,6 +23,7 @@ date_format = "Jan 2006"
   company = "AppBrew Inc."
   company_url = "https://appbrew.io/"
   date_start = "2021-02-01"
+  date_end = "2021-03-01"
   description = """
   - Surveying methods for automatically creating/generating ad creatives
     - Developing and evaluating prototypes using the method
