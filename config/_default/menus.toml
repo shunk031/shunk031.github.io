@@ -34,9 +34,16 @@
   weight = 6
 
 [[main]]
+  name = "Posts"
+  url = "#posts"
+  weight = 7
+
+[[main]]
   name = "Projects"
   url = "#projects"
-  weight = 7
+  weight = 8
+
+
 
 # [[main]]
 #   name = "Contact"
