@@ -1,4 +1,5 @@
-- **[2020.12]** Hosei University Research Grant for Doctoral Course Adopters in 2020 (480,000 JPY) ([detail](https://www.hosei.ac.jp/gs/gakuhi/gakuhi-shogakukin/shogakukin/kenkyujoseikin/)).
+- **[2021.04]** Japan Society for the Promotion of Science (JSPS) [Research Fellowship for Young Scientists (DC2)](https://www.jsps.go.jp/english/e-pd/index.html) 
+- **[2020.12]** [Hosei University Research Grant for Doctoral Course Adopters](https://www.hosei.ac.jp/gs/gakuhi/gakuhi-shogakukin/shogakukin/kenkyujoseikin/) in 2020 (480,000 JPY).
 - **[2020.07]** JASSO Scholarship for Top 10% Excellent Master Students (2,112,000 JPY) from Japan Student Services Organization.
 - **[2019.08]** Honorable Mention in [Young Researcher Association for NLP Studies (YANS) 2019](https://www.hosei.ac.jp/gs/NEWS/zaigaku/koganei/20190920/).
 - **[2019.07]** CEO Special Award in the second half of FY2019 at Gunosy Inc. ([detail](https://gunosiru.gunosy.co.jp/entry/party-7th-secondhalf)).

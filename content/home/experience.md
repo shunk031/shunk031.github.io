@@ -19,6 +19,27 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "Research Fellowship for Young Scientists (DC2)"
+  company = "Japan Society for the Promotion of Science"
+  company_url = "https://www.jsps.go.jp/english/"
+  date_start = "2021-04-01"
+  description = """
+  - Research title
+    - Development of Perturbation Robust and Interpretable Deep Learning Models and Evaluation of Their Interpretability (ja: 摂動に頑健で解釈可能な深層学習モデルの開発とその解釈性の評価)
+  - Document review & interview area
+    - Informatics (ja: 情報学)
+  - Screening section
+    - Human informatics and related fields (ja: 人間情報学およびその関連分野)
+  - Subsection
+    - Intelligent Informatics and Related Fields (ja: 知能情報学関連)
+  - Area of specialization
+    - Natural language processing (ja: 自然言語処理)
+  
+  Application information is based on [the page of OIST Groups](https://groups.oist.jp/ja/srs/forms-jsps-research-fellowship-young-scientist).
+  Keywords of each field is based on [the table](https://www-kaken.jsps.go.jp/kaken1/keywordListEn.do).
+  """
+
+[[experience]]
   title = "AI x Ad Consultant"
   company = "AppBrew Inc."
   company_url = "https://appbrew.io/"

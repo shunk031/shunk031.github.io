@@ -1,4 +1,5 @@
-- **[2020.12]** Hosei University Research Grant for Doctoral Course Adopters in 2020 (480,000 JPY) ([detail](https://www.hosei.ac.jp/gs/gakuhi/gakuhi-shogakukin/shogakukin/kenkyujoseikin/)).
+- **[2021.02]** Adopted Japan Society for the Promotion of Science (JSPS) [Research Fellowship for Young Scientists (DC2)](https://www.jsps.go.jp/english/e-pd/index.html) (200,000 JPY / month).
+- **[2020.12]** Got [Hosei University Research Grant for Doctoral Course Adopters](https://www.hosei.ac.jp/gs/gakuhi/gakuhi-shogakukin/shogakukin/kenkyujoseikin/) in 2020 (480,000 JPY).
 - **[2020.10]** Accepted [our paper](publication/aoki2020text/) to AACL-IJCNLP2020 Student Research Workshop.
 - **[2020.07]** Got JASSO Scholarship for Top 10% Excellent Master Students from Japan Student Services Organization.
 - **[2020.06]** [Invited talk](talk/jsai2020-os-invited-talk/) on Organized Session in The 34th Annual Conference of the Japanese Society for Artificial Intelligence.
