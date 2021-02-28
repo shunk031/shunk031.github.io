@@ -90,7 +90,7 @@ date_format = "Jan 2006"
   date_start = "2018-06-01"
   date_end = "2018-08-01"
   description = """
-  I have advised how to solve practical problems of existing services that use machine learning algorithms and deep learning models. Additionally I have shown examples of the kind of problems recent deep learning models are capable of solving.
+  I have advised how to solve practical problems of existing services that use machine learning algorithms and deep learning models. Additionally, I have shown examples of the kind of problems recent deep learning models are capable of solving.
   """
 
 [[experience]]
