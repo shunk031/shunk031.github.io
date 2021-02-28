@@ -4,6 +4,7 @@ update :
 
 .PHONY : server
 server :
+	hugo mod clean
 	hugo server
 
 .PHONY : run
