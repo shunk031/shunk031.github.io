@@ -9,7 +9,7 @@ active = true  # Activate this widget? true/false
 weight = 7  # Order that this section will appear.
 
 title = "Awards & Grants 🏆"
-subtitle = "[All awards and grants >>](/awards_grants)"
+subtitle = "[All awards and grants >>](/awards-grants)"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -50,4 +50,4 @@ subtitle = "[All awards and grants >>](/awards_grants)"
  css_class = ""
 +++
 
-{{< readfromfile "/content/awards_grants/item_list.md" 5 >}} 
+{{< readfromfile "/content/awards-grants/item-list.md" 5 >}} 

@@ -15,4 +15,4 @@ caption = ""
 
 +++
 
-{{< readfromfile "/content/awards_grants/item_list.md" 1000 >}} 
+{{< readfromfile "/content/awards-grants/item-list.md" 1000 >}} 
