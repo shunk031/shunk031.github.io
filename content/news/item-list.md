@@ -2,7 +2,7 @@
 - **[2020.12]** Got [Hosei University Research Grant for Doctoral Course Adopters](https://www.hosei.ac.jp/gs/gakuhi/gakuhi-shogakukin/shogakukin/kenkyujoseikin/) in 2020 (480,000 JPY).
 - **[2020.10]** Accepted [our paper](publication/aoki2020text/) to AACL-IJCNLP2020 Student Research Workshop.
 - **[2020.07]** Got JASSO Scholarship for Top 10% Excellent Master Students from Japan Student Services Organization.
-- **[2020.06]** [Invited talk](talk/jsai2020-os-invited-talk/) on Organized Session in The 34th Annual Conference of the Japanese Society for Artificial Intelligence.
+- **[2020.06]** [Invited talk](event/jsai2020-os-invited-talk/) on Organized Session in The 34th Annual Conference of the Japanese Society for Artificial Intelligence.
 - **[2020.04]** Accepted [our paper](publication/daif2020aradic/) to ACL2020 Student Research Workshop.
 - **[2020.01]** Interviewed by Nikkan Kogyo Shimbun, Ltd ([the article](https://newswitch.jp/p/20932?fbclid=IwAR3XO7LkdZhhCFj9YxqFY4Me7kcbO8lCoBs39RvCCdUAHr7pFDc42PoVQXw)).
 - **[2019.08]** Got Honorable Mention in [YANS 2019](https://www.hosei.ac.jp/gs/NEWS/zaigaku/koganei/20190920/).
