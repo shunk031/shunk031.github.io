@@ -43,7 +43,7 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf:
+url_pdf: https://www.anlp.jp/nlp2021/program_online/pdf_dir/P9-14.pdf
 url_code:
 url_dataset:
 url_poster:
