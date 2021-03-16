@@ -5,12 +5,28 @@
     <link>https://shunk031.github.io/category/natural-language-processing/</link>
       <atom:link href="https://shunk031.github.io/category/natural-language-processing/index.xml" rel="self" type="application/rss+xml" />
     <description>Natural Language Processing</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2021 Shunsuke Kitada.</copyright><lastBuildDate>Sun, 25 Oct 2020 15:15:41 +0900</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2021 Shunsuke Kitada.</copyright><lastBuildDate>Fri, 15 Jan 2021 17:29:07 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.github.io/images/icon_hu5c3c9671a4be0eb31bd1ac25d9087784_1353_512x512_fill_lanczos_center_2.png</url>
       <title>Natural Language Processing</title>
       <link>https://shunk031.github.io/category/natural-language-processing/</link>
     </image>
+    
+    <item>
+      <title>キャプション生成時低品質データ事前検知の試み</title>
+      <link>https://shunk031.github.io/publication/ohata2021nlp/</link>
+      <pubDate>Fri, 15 Jan 2021 17:29:07 +0900</pubDate>
+      <guid>https://shunk031.github.io/publication/ohata2021nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>半教師あり文書分類のための仮想敵対的学習による注意機構の頑健性および解釈性の向上</title>
+      <link>https://shunk031.github.io/publication/kitada2021nlp/</link>
+      <pubDate>Fri, 15 Jan 2021 17:28:40 +0900</pubDate>
+      <guid>https://shunk031.github.io/publication/kitada2021nlp/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Text Classification through Glyph-aware Disentangled Character Embedding and Semantic Sub-character Augmentation</title>

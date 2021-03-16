@@ -13,6 +13,22 @@
     </image>
     
     <item>
+      <title>キャプション生成時低品質データ事前検知の試み</title>
+      <link>https://shunk031.github.io/publication/ohata2021nlp/</link>
+      <pubDate>Fri, 15 Jan 2021 17:29:07 +0900</pubDate>
+      <guid>https://shunk031.github.io/publication/ohata2021nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>半教師あり文書分類のための仮想敵対的学習による注意機構の頑健性および解釈性の向上</title>
+      <link>https://shunk031.github.io/publication/kitada2021nlp/</link>
+      <pubDate>Fri, 15 Jan 2021 17:28:40 +0900</pubDate>
+      <guid>https://shunk031.github.io/publication/kitada2021nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Text Classification through Glyph-aware Disentangled Character Embedding and Semantic Sub-character Augmentation</title>
       <link>https://shunk031.github.io/publication/aoki2020text/</link>
       <pubDate>Sun, 25 Oct 2020 15:15:41 +0900</pubDate>
