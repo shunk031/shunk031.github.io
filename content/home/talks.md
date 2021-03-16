@@ -8,7 +8,7 @@ active = true  # Activate this widget? true/false
 weight = 6  # Order that this section will appear.
 
 title = "Recent & Upcoming Talks 🎙️"
-subtitle = ""
+subtitle = "[All recent and upcoming talks >>](/event)"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
