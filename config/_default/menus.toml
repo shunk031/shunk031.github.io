@@ -10,12 +10,12 @@
 
 [[main]]
   name = "News"
-  url = "#recent_news"
+  url = "#recent-news"
   weight = 2
 
 [[main]]
   name = "Publications"
-  url = "#international_publications"
+  url = "#international-publications"
   weight = 3
 
 [[main]]
@@ -30,7 +30,7 @@
 
 [[main]]
   name = "Awards & Grants"
-  url = "#awards_and_grants"
+  url = "#awards-and-grants"
   weight = 6
 
 [[main]]
