@@ -16,13 +16,13 @@ publishDate: 2019-03-14T00:00:00+09:00
 publication_types: ["9"]
 
 # Publication name and optional abbreviated publication name.
-publication: "情報処理学第 81 回全国大会, 2019."
+publication: "情報処理学第 81 回全国大会，2019."
 publication_short: "IPSJ 2019"
 
-abstract: ""
+abstract: "悪性度の高い皮膚がんの 1 つであるメラノーマは早期発見が重要である．本研究では頑健な自動診断システム実現のため，深層学習分野で極めて優れた成果を実現している要素技術である residual networks，squeeze-and-excitation networks，mean teachers を導入した識別器をベースに，皮膚腫瘍診断のための独自の body hair augmentation を提案する．深層学習技術に基づく識別器に対して提案手法を適用することにより，識別精度 90.6% を達成した"
 
 # Summary. An optional shortened abstract.
-summary: "情報処理学第 81 回全国大会, 2019."
+summary: "情報処理学第 81 回全国大会，2019."
 
 tags: ["Domestic Conference", "Non-refereed", "Medical Image Processing", "Award"]
 categories: ["Medical Image Processing"]
@@ -63,7 +63,7 @@ projects: []
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
+#   E.g. `slides:"example"`references`content/slides/example/index.md`.
+#   Otherwise, set `slides:""`.
 slides: ""
 ---
