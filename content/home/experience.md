@@ -5,7 +5,7 @@ widget = "experience_with_logo"  # See https://sourcethemes.com/academic/docs/pa
 # https://github.com/wowchemy/wowchemy-hugo-modules/pull/1837
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 5  # Order that this section will appear.
+weight = 40  # Order that this section will appear.
 
 title = "Experience 💻"
 subtitle = ""
