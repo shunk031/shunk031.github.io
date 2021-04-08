@@ -1,3 +1,5 @@
+- **[2021.04]** [An article about my adaption of JSPS DC2](https://ai.ws.hosei.ac.jp/wp/news/news20210408/) appeared on the website of the Department of Applied Informatics at Hosei University.
+- **[2021.03]** [An article about my adaption of JSPS DC2](https://www.hosei.ac.jp/koganei/pickup/article-20210305121330/) appeared on the Hosei University Graduate School website.
 - **[2021.02]** Adopted Japan Society for the Promotion of Science (JSPS) [Research Fellowship for Young Scientists (DC2)](https://www.jsps.go.jp/english/e-pd/index.html) (200,000 JPY / month).
 - **[2020.12]** Got [Hosei University Research Grant for Doctoral Course Adopters](https://www.hosei.ac.jp/gs/gakuhi/gakuhi-shogakukin/shogakukin/kenkyujoseikin/) in 2020 (480,000 JPY).
 - **[2020.10]** Accepted [our paper](publication/aoki2020text/) to AACL-IJCNLP2020 Student Research Workshop.
