@@ -7,8 +7,8 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 8  # Order that this section will appear.
 
-title = "Posts"
-subtitle = ""
+title = "Posts & Articles 📝"
+subtitle = "about awards and interviews (in Japanese)"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
@@ -29,7 +29,7 @@ subtitle = ""
     category = ""
     publication_type = ""
     author = ""
-    exclude_featured = false
+    exclude_featured = true
   
 [design]
   # Toggle between the various page layout types.
