@@ -2,7 +2,7 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "キャプション生成時低品質データ事前検知の試み"
-authors: ["大畑 和也", "長澤 駿太", "北田 俊輔"]
+authors: ["大畑 和也", "長澤 駿太", "北田 俊輔", "彌冨 仁"]
 date: 2021-01-15T17:29:07+09:00
 doi: ""
 
