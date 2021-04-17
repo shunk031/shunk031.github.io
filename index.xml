@@ -100,7 +100,7 @@
 &lt;hr&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;学内で &lt;a href=&#34;https://www.hosei.ac.jp/gs/info/article-20200305102401/?auth=9abbb458a78210eb174f4bdd385bcf54&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;申請セミナーの開催&lt;/a&gt; や &lt;a href=&#34;https://www.hosei.ac.jp/kenkyu/info/article-20200525125134/?auth=9abbb458a78210eb174f4bdd385bcf54&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DC2 申請支援制度&lt;/a&gt; があり、それぞれ活用させていただきました。 &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;学内で &lt;a href=&#34;https://www.hosei.ac.jp/gs/info/article-20200305102401&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;申請セミナーの開催&lt;/a&gt; や &lt;a href=&#34;https://www.hosei.ac.jp/kenkyu/info/article-20200525125134&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DC2 申請支援制度&lt;/a&gt; があり、それぞれ活用させていただきました。 &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
 &lt;p&gt;弊学から特別研究員に採用されたのが非常に稀な事例だったようで、&lt;a href=&#34;https://www.hosei.ac.jp/koganei/pickup/article-20210305121330/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;大学広報&lt;/a&gt; や &lt;a href=&#34;https://ai.ws.hosei.ac.jp/wp/news/news20210408/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;学科のホームページ&lt;/a&gt; で取り上げていただけました。 &lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
@@ -374,7 +374,7 @@
       <guid>https://shunk031.github.io/post/award-yans-2019/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
     &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fwww.hosei.ac.jp%2fgs%2fNEWS%2fzaigaku%2fkoganei%2f20190920%2f%3fauth%3d9abbb458a78210eb174f4bdd385bcf54&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fwww.hosei.ac.jp%2fgs%2fNEWS%2fzaigaku%2fkoganei%2f20190920&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
         scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
@@ -442,6 +442,23 @@
     </item>
     
     <item>
+      <title>Gunosy の研究論文がデータマイニングの国際会議「KDD2019」にて採択</title>
+      <link>https://shunk031.github.io/post/gunosy-press-release-kdd-2019/</link>
+      <pubDate>Wed, 29 May 2019 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.github.io/post/gunosy-press-release-kdd-2019/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;本研究は当社の学生インターンである北田 俊輔 氏と研究開発チームの関 喜史によって行われ、論文は北田氏の指導教員である法政大学 彌冨 仁 教授と共に執筆されました。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;blogcard&#34;&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fgunosy.co.jp%2fnews%2f172&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
+        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
       <title>Conversion Prediction Using Multi-task Conditional Attention Networks to Support the Creation of Effective Ad Creative</title>
       <link>https://shunk031.github.io/publication/kitada2019conversion/</link>
       <pubDate>Mon, 27 May 2019 00:00:00 +0900</pubDate>
@@ -462,7 +479,7 @@
       <guid>https://shunk031.github.io/post/award-ipsj-2019/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
     &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fwww.hosei.ac.jp%2fgs%2fNEWS%2ftopics%2fjusho%2f190411_4%2f%3fauth%3d9abbb458a78210eb174f4bdd385bcf54&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fwww.hosei.ac.jp%2fgs%2fNEWS%2ftopics%2fjusho%2f190411_4&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
         scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
