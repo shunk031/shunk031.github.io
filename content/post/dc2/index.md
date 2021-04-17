@@ -68,7 +68,7 @@ image:
 
 私は申請書執筆時点で最難関国際会議の 1 つである学会に論文採択経験があったので、特に小田さんの申請書のストーリー展開や最難関国際会議への論文採択経験の強調の仕方等を参考にさせていただきました。
 
-[^1]: 学内で [申請セミナーの開催](https://www.hosei.ac.jp/gs/info/article-20200305102401/?auth=9abbb458a78210eb174f4bdd385bcf54 ) や [DC2 申請支援制度](https://www.hosei.ac.jp/kenkyu/info/article-20200525125134/?auth=9abbb458a78210eb174f4bdd385bcf54) があり、それぞれ活用させていただきました。
+[^1]: 学内で [申請セミナーの開催](https://www.hosei.ac.jp/gs/info/article-20200305102401) や [DC2 申請支援制度](https://www.hosei.ac.jp/kenkyu/info/article-20200525125134) があり、それぞれ活用させていただきました。
 
 [^2]: 弊学から特別研究員に採用されたのが非常に稀な事例だったようで、[大学広報](https://www.hosei.ac.jp/koganei/pickup/article-20210305121330/) や [学科のホームページ](https://ai.ws.hosei.ac.jp/wp/news/news20210408/) で取り上げていただけました。
 

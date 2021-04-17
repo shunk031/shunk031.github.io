@@ -3,7 +3,7 @@
 
 title: "理工学研究科在学生の北田俊輔氏が「学生奨励賞」を受賞"
 subtitle: ""
-summary: "https://www.hosei.ac.jp/gs/NEWS/topics/jusho/190411_4/?auth=9abbb458a78210eb174f4bdd385bcf54"
+summary: "https://www.hosei.ac.jp/gs/NEWS/topics/jusho/190411_4"
 authors: ["Shunsuke Kitada"]
 tags: ["Award"]
 categories: ["Award"]
@@ -16,7 +16,7 @@ draft: false
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: "https://www.hosei.ac.jp/gs/NEWS/topics/jusho/190411_4/?auth=9abbb458a78210eb174f4bdd385bcf54"
+  caption: "https://www.hosei.ac.jp/gs/NEWS/topics/jusho/190411_4"
   focal_point: ""
   preview_only: false
 
@@ -28,4 +28,4 @@ image:
 projects: []
 ---
 
-{{< blogcard url="https://www.hosei.ac.jp/gs/NEWS/topics/jusho/190411_4/?auth=9abbb458a78210eb174f4bdd385bcf54" >}}
+{{< blogcard url="https://www.hosei.ac.jp/gs/NEWS/topics/jusho/190411_4" >}}
