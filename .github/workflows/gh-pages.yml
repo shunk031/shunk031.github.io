@@ -1,9 +1,6 @@
 name: Page Build
 
-on:
-  push:
-    branches:
-      - source # default branch
+on: [push]
 
 jobs:
   build-deploy:
