@@ -32,6 +32,7 @@ jobs:
             -e researchgate.net \
             -e arxiv.org \
             -e valuenex.com \
+            -e paper-survey \
             -e publication/#\\d"
 
       - name: Deploy
