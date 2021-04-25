@@ -34,7 +34,7 @@ jobs:
             -e gstatic.com \
             -e researchgate.net \
             -e arxiv.org \
-            -e publication/#\d"
+            -e publication/#\\d"
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
