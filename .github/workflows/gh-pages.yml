@@ -18,7 +18,7 @@ jobs:
         run: hugo
 
       - name: Check broken links
-        uses: ruzickap/action-my-broken-link-checker@v1
+        uses: ruzickap/action-my-broken-link-checker@v2
         with:
           url: https://${{ github.event.repository.name }}
           pages_path: ./public
