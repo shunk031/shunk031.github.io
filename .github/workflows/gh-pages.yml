@@ -1,9 +1,6 @@
 name: Page Build
 
-on:
-  push:
-    branches:
-      - source # default branch
+on: [push]
 
 jobs:
   build-deploy:
@@ -20,8 +17,27 @@ jobs:
       - name: Build
         run: hugo
 
+      - name: Check broken links
+        uses: ruzickap/action-my-broken-link-checker@v2
+        with:
+          url: https://${{ github.event.repository.name }}
+          pages_path: ./public
+          cmd_params: "\
+            --timeout=20 \
+            --max-connections=10 \
+            -e linkedin.com \
+            -e twitter.com \
+            -e facebook.com \
+            -e gstatic.com \
+            -e researchgate.net \
+            -e arxiv.org \
+            -e valuenex.com \
+            -e paper-survey \
+            -e publication/#\\d"
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
+        if: github.event_name == 'push' && github.ref == 'refs/heads/source'
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ./public
