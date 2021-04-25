@@ -31,6 +31,7 @@ jobs:
             -e gstatic.com \
             -e researchgate.net \
             -e arxiv.org \
+            -e valuenex.com \
             -e publication/#\\d"
 
       - name: Deploy
