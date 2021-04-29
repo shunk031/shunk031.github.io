@@ -50,11 +50,13 @@ date_format = "Jan 2006"
   date_start = "2021-02-01"
   date_end = "2021-03-01"
   description = """
-  - Surveying methods for automatically creating/generating ad creatives
+  - Surveyed methods for automatically creating/generating ad creatives
     - Developing and evaluating prototypes using the method
     - Integrating the method into the system, including testing and operating
-  - Advising on the improvement of advertising creative creation methods
+  - Advised on the improvement of advertising creative creation methods
     - Participate in meetings (about 1h) at least once a week
+  - Wrote a articles about AI x Adtech in Japanese:
+    - https://tech.appbrew.io/entry/lips-ad-creative-research-2021
   """
 
 [[experience]]
@@ -119,7 +121,14 @@ date_format = "Jan 2006"
   date_start = "2018-08-01"
   date_end = ""
   description = """
-  Conducted fundamental research to generate advertisement automatically. I have written a paper and prepared for a presentation for an international conference based on the results during my internship.
+  - Conducting fundamental research to generate advertisement automatically. I have written a paper and prepared for a presentation for an international conference based on the results during my internship.
+  - Writing some articles in Japanese:
+    - https://data.gunosy.io/entry/ocr-tesseract-deeplearning
+    - https://data.gunosy.io/entry/yans2018
+    - https://data.gunosy.io/entry/research-intern-kdd19
+    - https://data.gunosy.io/entry/adkdd2019-tencent-ads-invited-talk
+    - https://data.gunosy.io/entry/kdd2019-fairness-and-explainable-ai
+    - https://data.gunosy.io/entry/can-you-reproduce-the-experiment-pyenv-poetry
   """
 
 [[experience]]
