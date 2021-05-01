@@ -27,8 +27,8 @@ jobs:
           url: https://${{ github.event.repository.name }}
           pages_path: ./public
           cmd_params: "\
-            -t $MUFFET_TIMEOUT \
-            -c $MUFFET_MAX_CONNECTIONS \
+            -t 20 \
+            -c 10 \
             -e linkedin.com \
             -e twitter.com \
             -e facebook.com \
