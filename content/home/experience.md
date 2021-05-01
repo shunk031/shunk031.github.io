@@ -148,13 +148,14 @@ date_format = "Jan 2006"
   company_url = "https://www.nvidia.com/ja-jp/"
   company_logo = "logo/nvidia.png"
   date_start = "2016-01-01"
-  date_end = "2017-01-01"
+  date_end = "2021-04-12"
   description = """
   Assisted in several workshops in Tokyo relating to deep learning and CUDA:
-  - [GTC Japan 2016 DLI](https://nvidia.connpass.com/event/39743/)
+  - [GTC Japan 2016 DLI in Hilton Tokyo Odaiba](https://nvidia.connpass.com/event/39743/)
   - [NVIDIA Deep Learning Institute 2017 in Tokyo Midtown and Takada-no-baba](https://nvidia.connpass.com/event/54780/)
-  - [GTC Japan 2017 DLI](https://nvidia.connpass.com/event/68912/)
-  - [NVIDIA GTC 2020 DLI](https://nvidia.connpass.com/event/189637/)
+  - [GTC Japan 2017 DLI in Hilton Tokyo Odaiba](https://nvidia.connpass.com/event/68912/)
+  - [NVIDIA GTC 2020 DLI in Online](https://nvidia.connpass.com/event/189637/)
+  - [NVIDIA GTC 2021 DLI in Online](https://nvidia.connpass.com/event/208506/)
   """
 
 [[experience]]
