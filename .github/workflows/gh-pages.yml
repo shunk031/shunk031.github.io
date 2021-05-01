@@ -19,12 +19,15 @@ jobs:
 
       - name: Check broken links
         uses: ruzickap/action-my-broken-link-checker@v2
+        env:
+          MUFFET_TIMEOUT: 20
+          MUFFET_MAX_CONNECTIONS: 10
         with:
           url: https://${{ github.event.repository.name }}
           pages_path: ./public
           cmd_params: "\
-            --timeout=20 \
-            --max-connections=10 \
+            -t ${MUFFET_TIMEOUT} \
+            -c ${MUFFET_MAX_CONNECTIONS} \
             -e linkedin.com \
             -e twitter.com \
             -e facebook.com \
