@@ -21,6 +21,16 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "Research Internship"
+  company = "CyberAgent, Inc."
+  company_url = "https://www.cyberagent.co.jp/en/"
+  company_logo = "logo/cyberagent.png"
+  date_start = "2021-05-01"
+  date_end = "2021-06-30"
+  description = """
+  """
+
+[[experience]]
   title = "Research Fellowship for Young Scientists (DC2)"
   company = "Japan Society for the Promotion of Science"
   company_url = "https://www.jsps.go.jp/english/"
