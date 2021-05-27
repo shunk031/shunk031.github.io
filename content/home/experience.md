@@ -37,7 +37,7 @@ date_format = "Jan 2006"
   company_logo = "logo/jsps.png"
   date_start = "2021-04-01"
   description = """
-  - Research title
+  - Research title: [KAKENHI-PROJECT-21J14143](https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-21J14143/)
     - Development of Perturbation Robust and Interpretable Deep Learning Models and Evaluation of Their Interpretability (ja: 摂動に頑健で解釈可能な深層学習モデルの開発とその解釈性の評価)
   - Document review & interview area
     - Informatics (ja: 情報学)

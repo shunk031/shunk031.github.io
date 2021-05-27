@@ -1,3 +1,4 @@
+- **[2021.05]** Got Grant-in-Aid for Japan Society for the Promotion of Science (JSPS) Fellows, [Grant Number 21J14143](https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-21J14143/) (2021-2023, 1,500,000 JPY)
 - **[2021.04]** [An article about my adaption of JSPS DC2](https://ai.ws.hosei.ac.jp/wp/news/news20210408/) appeared on the website of the Department of Applied Informatics at Hosei University.
 - **[2021.03]** [An article about my adaption of JSPS DC2](https://www.hosei.ac.jp/koganei/pickup/article-20210305121330/) appeared on the Hosei University Graduate School website.
 - **[2021.02]** Adopted Japan Society for the Promotion of Science (JSPS) [Research Fellowship for Young Scientists (DC2)](https://www.jsps.go.jp/english/e-pd/index.html) (200,000 JPY / month).
