@@ -25,7 +25,7 @@ abstract: "Accurately predicting conversions in advertisements is generally a ch
 summary: "Proc. of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining. 2019. (**Acceptance Rate = 20%**; [1st place in Data Mining & Analysis at Google Scholar Metrics](https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_datamininganalysis))"
 
 tags: ["International Conference", "Refereed", "Computational Advertising"]
-categories: ["International Conference", "Refereed", "Computational Advertising"]
+categories: ["International Publication", "Refereed", "Computational Advertising"]
 featured: true
 
 # Custom links (optional).

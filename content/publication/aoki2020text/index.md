@@ -27,7 +27,7 @@ We propose a new character-based text classification framework for non-alphabeti
 summary: "Proc. of the 1st Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics and the 10th International Joint Conference on Natural Language Processing: Student Research Workshop"
 
 tags: ["International Conference", "Refereed", "Natural Language Processing"]
-categories: ["International Conference", "Refereed", "Natural Language Processing"]
+categories: ["International Publication", "Refereed", "Natural Language Processing"]
 featured: false
 
 # Custom links (optional).

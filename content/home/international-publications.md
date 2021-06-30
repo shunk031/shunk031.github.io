@@ -9,7 +9,7 @@ weight = 30  # Order that this section will appear.
 
 title = "International Journal and Conference 📝"
 subtitle = """
-All [journal](/publication/#0) and [conference](/publication/#1) papers >>.
+All [journal](/publication/#2) and [conference](/publication/#1) papers >>.
 """
 
 [content]
@@ -28,8 +28,8 @@ All [journal](/publication/#0) and [conference](/publication/#1) papers >>.
   # Filter posts by a taxonomy term.
   [content.filters]
     tag = ""
-    category = ""
-    publication_type = "1"
+    category = "International Publication"
+    publication_type = ""
     author = ""
     exclude_featured = false
   
