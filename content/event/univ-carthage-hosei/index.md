@@ -47,7 +47,7 @@ image:
 #   icon: twitter
 
 # Optional filename of your slides within your event's folder or a URL.
-url_slides:
+url_slides: https://speakerdeck.com/shunk031/practical-and-interpretable-deep-learning-techniques-in-our-iyatomis-lab
 
 url_code:
 url_pdf:
@@ -67,3 +67,5 @@ slides: ""
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+
+<script async class="speakerdeck-embed" data-id="de984e0c9a2d4934bcb0e6e46b2c4ff8" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
