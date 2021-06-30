@@ -33,7 +33,8 @@ jobs:
             -e arxiv.org \
             -e valuenex.com \
             -e paper-survey \
-            -e publication/#\\d"
+            -e publication/#\\d" \
+            -e index.webmanifest
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
