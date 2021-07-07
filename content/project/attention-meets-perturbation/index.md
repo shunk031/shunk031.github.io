@@ -9,7 +9,7 @@ categories: ["Implementation"]
 date: 2020-10-02T00:01:07+09:00
 
 # Optional external URL for project (replaces project detail page).
-external_link: "http://shunk031.github.io/attention-meets-perturbation/"
+external_link: "http://shunk031.me/attention-meets-perturbation/"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
