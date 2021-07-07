@@ -9,7 +9,7 @@ categories: ["Implementation"]
 date: 2020-10-02T00:01:07+09:00
 
 # Optional external URL for project (replaces project detail page).
-external_link: "https://github.com/shunk031/attention-meets-perturbation"
+external_link: "http://shunk031.github.io/attention-meets-perturbation/"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -26,10 +26,17 @@ links:
   url: https://github.com/shunk031/attention-meets-perturbation
   icon_pack: fab
   icon: github
-- name: PDF
+
+- name: Preprint
   url: https://arxiv.org/abs/2009.12064
   icon_pack: ai
   icon: arxiv
+
+- name: IEEE Access
+  url: https://doi.org/10.1109/ACCESS.2021.3093456
+  icon_pack: ai
+  icon: ieee
+  
 
 url_code: ""
 url_pdf: ""
