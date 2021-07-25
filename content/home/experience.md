@@ -21,14 +21,22 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "Collaborative Researcher"
+  company = "CyberAgent, Inc."
+  company_url = "https://www.cyberagent.co.jp/en/"
+  company_logo = "logo/cyberagent.png"
+  date_start = "2021-07-01"
+  description = """
+  This is [a special research position](https://www.cyberagent.co.jp/news/detail/id=26231) for doctoral students adopted as JSPS Research fellow (DC1, DC2, PD).
+  """
+
+[[experience]]
   title = "Research Internship"
   company = "CyberAgent, Inc."
   company_url = "https://www.cyberagent.co.jp/en/"
   company_logo = "logo/cyberagent.png"
   date_start = "2021-05-01"
   date_end = "2021-06-30"
-  description = """
-  """
 
 [[experience]]
   title = "Research Fellowship for Young Scientists (DC2)"
