@@ -26,6 +26,9 @@ date_format = "Jan 2006"
   company_url = "https://www.cyberagent.co.jp/en/"
   company_logo = "logo/cyberagent.png"
   date_start = "2021-07-01"
+  description = """
+  This is [a special research position](https://www.cyberagent.co.jp/news/detail/id=26231) for doctoral students adopted as JSPS Research fellow (DC1, DC2, PD).
+  """
 
 [[experience]]
   title = "Research Internship"
