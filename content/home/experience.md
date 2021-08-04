@@ -140,6 +140,7 @@ date_format = "Jan 2006"
   date_end = ""
   description = """
   - Conducting fundamental research to evaluate and analyze ad creatives. I have written a paper and prepared for a presentation for an international conference based on the results during my internship.
+    - My presentations and publications can be found at [the Gunosy Work tag](/tag/gunosy-work/).
   - Writing some articles in Japanese:
     - https://data.gunosy.io/entry/ocr-tesseract-deeplearning
     - https://data.gunosy.io/entry/yans2018

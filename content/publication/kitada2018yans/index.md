@@ -16,15 +16,15 @@ publishDate: 2018-08-28T00:00:00+09:00
 publication_types: ["9"]
 
 # Publication name and optional abbreviated publication name.
-publication: "NLP 若手の会 (YANS) 第 13 回シンポジウム, 2018."
+publication: "NLP 若手の会 (YANS) 第 13 回シンポジウム，2018."
 publication_short: "YANS 2018"
 
 abstract: ""
 
 # Summary. An optional shortened abstract.
-summary: "NLP 若手の会 (YANS) 第 13 回シンポジウム, 2018."
+summary: "NLP 若手の会 (YANS) 第 13 回シンポジウム，2018."
 
-tags: ["Domestic Conference", "Non-refereed", "Computational Advertising"]
+tags: ["Domestic Conference", "Non-refereed", "Computational Advertising", "Gunosy Work"]
 categories: ["Natural Language Processing", "Computational Advertising"]
 featured: false
 
@@ -63,7 +63,7 @@ projects: []
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
+#   E.g. `slides:"example"`references`content/slides/example/index.md`.
+#   Otherwise, set `slides:""`.
 slides: ""
 ---
