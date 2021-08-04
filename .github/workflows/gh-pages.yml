@@ -32,12 +32,12 @@ jobs:
             -e researchgate.net \
             -e arxiv.org \
             -e valuenex.com \
+            -e challenge2018.isic-archive.com \
             -e paper-survey \
             -e publication/#\\d \
             -e index.webmanifest \
             "
             
-
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: github.event_name == 'push' && github.ref == 'refs/heads/source'

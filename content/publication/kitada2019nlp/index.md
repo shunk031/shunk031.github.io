@@ -16,15 +16,15 @@ publishDate: 2019-03-13T00:00:00+09:00
 publication_types: ["9"]
 
 # Publication name and optional abbreviated publication name.
-publication: "言語処理学会第 25 回年次大会, 2019."
+publication: "言語処理学会第 25 回年次大会，2019."
 publication_short: "NLP 2019"
 
 abstract: ""
 
 # Summary. An optional shortened abstract.
-summary: "言語処理学会第 25 回年次大会, 2019."
+summary: "言語処理学会第 25 回年次大会，2019."
 
-tags: ["Domestic Conference", "Non-refereed", "Computational Advertising"]
+tags: ["Domestic Conference", "Non-refereed", "Computational Advertising", "Gunosy Work"]
 categories: ["Natural Language Processing", "Computational Advertising"]
 featured: false
 
@@ -63,7 +63,7 @@ projects: []
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
+#   E.g. `slides:"example"`references`content/slides/example/index.md`.
+#   Otherwise, set `slides:""`.
 slides: ""
 ---
