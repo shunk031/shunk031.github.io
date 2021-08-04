@@ -32,7 +32,7 @@ jobs:
             -e researchgate.net \
             -e arxiv.org \
             -e valuenex.com \
-            -y challenge2018.isic-archive.com \
+            -e challenge2018.isic-archive.com \
             -e paper-survey \
             -e publication/#\\d \
             -e index.webmanifest \
