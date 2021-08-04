@@ -16,13 +16,13 @@ publishDate: 2020-03-29T03:03:35+09:00
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: "International Skin Imaging Collaboration 2018"
+publication: "Manuscript for the International Skin Imaging Collaboration 2018"
 publication_short: "ISIC2018"
 
 abstract: "In this report, we introduce the outline of our system in Task 3: Disease Classification of ISIC 2018: Skin Lesion Analysis Towards Melanoma Detection. We fine-tuned multiple pre-trained neural network models based on Squeeze-and-Excitation Networks (SENet) which achieved state-of-the-art results in the field of image recognition. In addition, we used the mean teachers as a semi-supervised learning framework and introduced some specially designed data augmentation strategies for skin lesion analysis. We confirmed our data augmentation strategy improved classification performance and demonstrated 87.2% in balanced accuracy on the official ISIC2018 validation dataset."
 
 # Summary. An optional shortened abstract.
-summary: "International Skin Imaging Collaboration 2018."
+summary: "Manuscript for [the International Skin Imaging Collaboration 2018](https://challenge2018.isic-archive.com/)."
 
 tags: ["Preprint", "Medical Image Processing", "International Conference"]
 categories: ["Preprint", "Medical Image Processing"]
