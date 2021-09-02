@@ -26,8 +26,8 @@ abstract: "
 # Summary. An optional shortened abstract.
 summary: "人工知能学会第 35 回全国大会，2021."
 
-tags: ["Domestic Conference", "Non-refereed", "Computational Advertising", "Gunosy Work"]
-categories: ["Computational Advertising"]
+tags: ["Domestic Conference", "Non-refereed", "Computational Advertising", "Gunosy"]
+categories: ["Computational Advertising", "Probabilistic Model"]
 featured: false
 
 # Custom links (optional).

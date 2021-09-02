@@ -19,23 +19,23 @@
   weight = 3
 
 [[main]]
-  name = "Experience"
-  url = "#experience"
-  weight = 4
-
-[[main]]
   name = "Talks"
   url = "#talks"
-  weight = 5
+  weight = 4
 
 [[main]]
   name = "Awards & Grants"
   url = "#awards-and-grants"
-  weight = 6
+  weight = 5
 
 [[main]]
   name = "Posts"
   url = "#posts"
+  weight = 6
+
+[[main]]
+  name = "Experience"
+  url = "#experience"
   weight = 7
 
 [[main]]

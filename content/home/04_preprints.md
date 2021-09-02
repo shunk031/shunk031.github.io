@@ -5,17 +5,19 @@
 widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 32  # Order that this section will appear.
+weight = 4  # Order that this section will appear.
 
-title = "Domestic Conference in Japanese 📝"
-subtitle = "[All domestic conference papers >>](/publication/#9)"
+title = "Preprints 📝"
+subtitle = """
+[All preprint papers >>](/publication/#3)
+"""
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
   page_type = "publication"
   
   # Choose how much pages you would like to display (0 = all pages)
-  count = 10
+  count = 5
   
   # Choose how many pages you would like to offset by
   offset = 0
@@ -25,9 +27,9 @@ subtitle = "[All domestic conference papers >>](/publication/#9)"
 
   # Filter posts by a taxonomy term.
   [content.filters]
-    tag = "Domestic Conference"
+    tag = ""
     category = ""
-    publication_type = ""
+    publication_type = "3"
     author = ""
     exclude_featured = false
   
@@ -37,7 +39,7 @@ subtitle = "[All domestic conference papers >>](/publication/#9)"
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view = 4
+  view = 2
   
 [design.background]
   # Apply a background color, gradient, or image.
@@ -66,7 +68,3 @@ subtitle = "[All domestic conference papers >>](/publication/#9)"
  # CSS class.
  css_class = ""
 +++
-
-<!-- {{% alert note %}}
-Quickly discover relevant content by [filtering publications]({{< ref "/publication/_index.md" >}}).
-{{% /alert %}} -->

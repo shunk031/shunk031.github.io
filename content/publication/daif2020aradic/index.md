@@ -34,8 +34,8 @@ AraDIC shows performance improvement over classical and deep learning baselines 
 # Summary. An optional shortened abstract.
 summary: "Proc. of the 58th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop"
 
-tags: ["International Conference", "Refereed", "Natural Language Processing"]
-categories: ["International Publication", "Refereed", "Natural Language Processing"]
+tags: ["International Publication", "Refereed", "Natural Language Processing"]
+categories: ["Natural Language Processing", "Arabic Natural Language Processing", "Image-based Character Embedding"]
 featured: false
 
 # Custom links (optional).

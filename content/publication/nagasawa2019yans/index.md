@@ -16,16 +16,16 @@ publishDate: 2019-08-26T00:00:00+09:00
 publication_types: ["9"]
 
 # Publication name and optional abbreviated publication name.
-publication: "NLP 若手の会 (YANS) 第 14 回シンポジウム, 2019."
+publication: "NLP 若手の会 (YANS) 第 14 回シンポジウム，2019."
 publication_short: "YANS 2019"
 
 abstract: ""
 
 # Summary. An optional shortened abstract.
-summary: "NLP 若手の会 (YANS) 第 14 回シンポジウム, 2019."
+summary: "NLP 若手の会 (YANS) 第 14 回シンポジウム，2019."
 
-tags: ["Domestic Conference", "Non-refereed", "Natural Language Processing"]
-categories: ["Natural Language Processing"]
+tags: ["Domestic Conference", "Non-refereed", "Natural Language Processing", "YANS"]
+categories: ["Natural Language Processing", "Image-based Character Embedding"]
 featured: false
 
 # Custom links (optional).
@@ -63,7 +63,7 @@ projects: []
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
+#   E.g. `slides:"example"`references`content/slides/example/index.md`.
+#   Otherwise, set `slides:""`.
 slides: ""
 ---

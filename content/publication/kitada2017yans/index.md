@@ -24,8 +24,8 @@ abstract: ""
 # Summary. An optional shortened abstract.
 summary: "NLP 若手の会 (YANS) 第 12 回シンポジウム，2017."
 
-tags: ["Domestic Conference", "Non-refereed", "Natural Language Processing"]
-categories: ["Natural Language Processing"]
+tags: ["Domestic Conference", "Non-refereed", "Natural Language Processing", "YANS"]
+categories: ["Natural Language Processing", "Image-based Character Embedding"]
 featured: false
 
 # Custom links (optional).

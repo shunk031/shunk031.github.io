@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "文字単位の解釈可能な潜在表現のdata augmentation"
+title: "文字単位の解釈可能な潜在表現の data augmentation"
 authors: ["青木 匠", "北田 俊輔", "彌冨 仁"]
 date: 2020-03-18T00:00:00+09:00
 doi: ""
@@ -16,20 +16,20 @@ publishDate: 2020-03-18T00:00:00+09:00
 publication_types: ["9"]
 
 # Publication name and optional abbreviated publication name.
-publication: "言語処理学会第 26 回年次大会, 2020."
+publication: "言語処理学会第 26 回年次大会，2020."
 publication_short: "NLP 2020"
 
-abstract: "深層学習ベースのモデルにおいて，日本語や中国語などのアジア圏の言語の解析は単語単位よりも文字単位での処理が効果を上げている.
+abstract: " 深層学習ベースのモデルにおいて，日本語や中国語などのアジア圏の言語の解析は単語単位よりも文字単位での処理が効果を上げている.
 しかし，過学習が起きやすいため，過学習抑制手法を適用する必要がある.
-本研究では $\\beta$ -variational auto-encoder ( $\\beta $ -VAE)が各次元独立の低次元確率分布を獲得することを活用し，解釈可能なdata augmentationであるinterpretable wildcard training (IWT)を提案する.
-IWTは$\\beta$-VAEにより得られた文字の低次元表現に対して， ガウス分布に従ったノイズを付加させることで，異なる文字の表現生成が可能であり，従来のwildcard trainingよりも解釈性が高い.
-新聞記事の分類タスクによる評価実験において，IWTによる解釈可能な文字表現の獲得ならびに，2%程度の分類精度向上から，解釈性のあるdata augmentationの効果を確認した."
+本研究では $\\beta$ -variational auto-encoder ( $\\beta $ -VAE) が各次元独立の低次元確率分布を獲得することを活用し，解釈可能な data augmentation である interpretable wildcard training (IWT) を提案する.
+IWT は $\\beta$-VAE により得られた文字の低次元表現に対して， ガウス分布に従ったノイズを付加させることで，異なる文字の表現生成が可能であり，従来の wildcard training よりも解釈性が高い.
+新聞記事の分類タスクによる評価実験において，IWT による解釈可能な文字表現の獲得ならびに，2% 程度の分類精度向上から，解釈性のある data augmentation の効果を確認した."
 
 # Summary. An optional shortened abstract.
-summary: "言語処理学会第 26 回年次大会, 2020."
+summary: "言語処理学会第 26 回年次大会，2020."
 
-tags: ["Domestic Conference", "Non-refereed", "Natural Language Processing"]
-categories: ["Natural Language Processing"]
+tags: ["Domestic Conference", "Non-refereed", "ANLP"]
+categories: ["Natural Language Processing", "Image-based Character Embedding"]
 featured: false
 
 # Custom links (optional).
@@ -67,7 +67,7 @@ projects: []
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
+#   E.g. `slides:"example"`references`content/slides/example/index.md`.
+#   Otherwise, set `slides:""`.
 slides: ""
 ---

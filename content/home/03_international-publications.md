@@ -5,7 +5,7 @@
 widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 30  # Order that this section will appear.
+weight = 3  # Order that this section will appear.
 
 title = "International Journal and Conference 📝"
 subtitle = """
@@ -27,8 +27,8 @@ All [journal](/publication/#2) and [conference](/publication/#1) papers >>.
 
   # Filter posts by a taxonomy term.
   [content.filters]
-    tag = ""
-    category = "International Publication"
+    tag = "International Publication"
+    category = ""
     publication_type = ""
     author = ""
     exclude_featured = false

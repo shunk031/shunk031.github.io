@@ -25,8 +25,8 @@ abstract: "We propose a new general training technique for attention mechanisms 
 # Summary. An optional shortened abstract.
 summary: ""
 
-tags: ["Natural Language Processing"]
-categories: ["Preprint"]
+tags: ["Preprint"]
+categories: ["Natural Language Processing", "Attention Mechanisms", "Text Classification", "Question Answering", "Natural Language Inference", "Virtual Adversarial Training"]
 featured: false
 
 # Custom links (optional).
