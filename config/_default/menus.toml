@@ -5,42 +5,42 @@
 
 [[main]]
   name = "Home"
-  url = "#about"
+  url = "#01_about"
   weight = 1
 
 [[main]]
   name = "News"
-  url = "#recent-news"
+  url = "#02_recent-news"
   weight = 2
 
 [[main]]
   name = "Publications"
-  url = "#international-publications"
+  url = "#03_international-publications"
   weight = 3
 
 [[main]]
   name = "Talks"
-  url = "#talks"
+  url = "#06_talks"
   weight = 4
 
 [[main]]
   name = "Awards & Grants"
-  url = "#awards-and-grants"
+  url = "#07_awards-and-grants"
   weight = 5
 
 [[main]]
   name = "Posts"
-  url = "#posts"
+  url = "#08_featured"
   weight = 6
 
 [[main]]
   name = "Experience"
-  url = "#experience"
+  url = "#10_experience"
   weight = 7
 
 [[main]]
   name = "Projects"
-  url = "#projects"
+  url = "#11_projects"
   weight = 8
 
 
