@@ -139,6 +139,7 @@ date_format = "Jan 2006"
   description = """
   Engineer internship 3days / ¥100,000. I implemented machine learning models that accurately capture semantic features of a document in a document similarity.
   """
+  
 [[experience]]
   title = "Research Internship"
   company = "Gunosy Inc."
