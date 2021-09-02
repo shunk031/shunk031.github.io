@@ -49,6 +49,8 @@ date_format = "Jan 2006"
   description = """
   - Supervisor: Yuki Iwazaki, Researcher
   - Topic: Multi-modal advertising (Ad) and landing page (LP) understanding
+  - Conducting fundamental research to evaluate and analyze ad creatives and landing pages. I have written a paper and prepared for a presentation for an international conference based on the results during my internship.
+    - My presentations and publications can be found at [the CyberAgent tag](/tag/cyberagent/).
   """
 
 [[experience]]
@@ -146,7 +148,7 @@ date_format = "Jan 2006"
   description = """
   - Superviser: Dr. Yoshifumi Seki
   - Conducting fundamental research to evaluate and analyze ad creatives. I have written a paper and prepared for a presentation for an international conference based on the results during my internship.
-    - My presentations and publications can be found at [the Gunosy Work tag](/tag/gunosy-work/).
+    - My presentations and publications can be found at [the Gunosy tag](/tag/gunosy/).
   - Writing some articles in Japanese:
     - https://data.gunosy.io/entry/ocr-tesseract-deeplearning
     - https://data.gunosy.io/entry/yans2018
