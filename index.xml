@@ -5,12 +5,28 @@
     <link>https://shunk031.github.io/</link>
       <atom:link href="https://shunk031.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Shunsuke Kitada</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2021 Shunsuke Kitada.</copyright><lastBuildDate>Tue, 29 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2021 Shunsuke Kitada.</copyright><lastBuildDate>Thu, 02 Sep 2021 20:02:35 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.github.io/images/icon_hu5c3c9671a4be0eb31bd1ac25d9087784_1353_512x512_fill_lanczos_center_3.png</url>
       <title>Shunsuke Kitada</title>
       <link>https://shunk031.github.io/</link>
     </image>
+    
+    <item>
+      <title>文章の書き手が持つ感情と読み手が受ける感情の差に関する初期調査および考察</title>
+      <link>https://shunk031.github.io/publication/nakagawa2021yans/</link>
+      <pubDate>Thu, 02 Sep 2021 20:02:35 +0900</pubDate>
+      <guid>https://shunk031.github.io/publication/nakagawa2021yans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>効果の高いランディングページ作成支援に向けた広告テキストからの効果予測および推薦モデルの構築</title>
+      <link>https://shunk031.github.io/publication/kitada2021yans/</link>
+      <pubDate>Thu, 02 Sep 2021 19:56:57 +0900</pubDate>
+      <guid>https://shunk031.github.io/publication/kitada2021yans/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Attention Meets Perturbations: Robust and Interpretable Attention with Adversarial Training</title>
