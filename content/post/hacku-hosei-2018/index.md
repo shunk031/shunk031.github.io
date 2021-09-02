@@ -6,7 +6,7 @@ subtitle: ""
 summary: "https://hacku.yahoo.co.jp/hosei2018/"
 authors: ["Shunsuke Kitada"]
 tags: ["Award"]
-categories: ["Award"]
+categories: []
 date: 2018-08-05T15:00:00+09:00
 lastmod: 2021-04-09T00:29:11+09:00
 featured: false

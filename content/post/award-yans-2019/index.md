@@ -6,7 +6,7 @@ subtitle: ""
 summary: "https://www.hosei.ac.jp/gs/NEWS/zaigaku/koganei/20190920"
 authors: ["Shunsuke Kitada"]
 tags: ["Award"]
-categories: ["Award"]
+categories: []
 date: 2019-09-20T00:00:00+09:00
 lastmod: 2021-04-08T23:18:32+09:00
 featured: false

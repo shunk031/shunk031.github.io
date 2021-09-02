@@ -16,16 +16,16 @@ publishDate: 2018-03-15T00:00:00+09:00
 publication_types: ["9"]
 
 # Publication name and optional abbreviated publication name.
-publication: "言語処理学会第 24 回年次大会, 2018."
+publication: "言語処理学会第 24 回年次大会，2018."
 publication_short: "NLP 2018"
 
 abstract: ""
 
 # Summary. An optional shortened abstract.
-summary: "言語処理学会第 24 回年次大会, 2018."
+summary: "言語処理学会第 24 回年次大会，2018."
 
-tags: ["Domestic Conference", "Non-refereed"]
-categories: ["Natural Language Processing"]
+tags: ["Domestic Conference", "Non-refereed", "Natural Language Processing", "ANLP"]
+categories: ["Natural Language Processing", "Image-based Character Embedding"]
 featured: false
 
 # Custom links (optional).
@@ -63,7 +63,7 @@ projects: []
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
+#   E.g. `slides:"example"`references`content/slides/example/index.md`.
+#   Otherwise, set `slides:""`.
 slides: ""
 ---

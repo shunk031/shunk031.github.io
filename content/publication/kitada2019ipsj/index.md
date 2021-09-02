@@ -24,8 +24,8 @@ abstract: "悪性度の高い皮膚がんの 1 つであるメラノーマは早
 # Summary. An optional shortened abstract.
 summary: "情報処理学第 81 回全国大会，2019."
 
-tags: ["Domestic Conference", "Non-refereed", "Medical Image Processing", "Award"]
-categories: ["Medical Image Processing"]
+tags: ["Domestic Conference", "Non-refereed", "Medical Image Processing", "IPSJ"]
+categories: ["Medical Image Processing", "Skin Lesion Diagnosis"]
 featured: false
 
 # Custom links (optional).

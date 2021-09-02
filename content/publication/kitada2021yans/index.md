@@ -24,8 +24,8 @@ abstract: ""
 # Summary. An optional shortened abstract.
 summary: "NLP 若手の会 (YANS) 第 16 回シンポジウム，2021."
 
-tags: ["Domestic Conference", "Non-refereed", "Multi-modal Model", "Computational Advertising", "CyberAgent Work", "YANS"]
-categories: ["Computational Advertising"]
+tags: ["Computational Advertising", "Domestic Conference", "Non-refereed", "CyberAgent", "YANS"]
+categories: ["Multi-modal Model", "Computational Advertising"]
 featured: false
 
 # Custom links (optional).

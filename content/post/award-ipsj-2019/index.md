@@ -6,7 +6,7 @@ subtitle: ""
 summary: "https://www.hosei.ac.jp/gs/NEWS/topics/jusho/190411_4"
 authors: ["Shunsuke Kitada"]
 tags: ["Award"]
-categories: ["Award"]
+categories: []
 date: 2019-04-11T00:00:00+09:00
 lastmod: 2021-04-08T23:15:34+09:00
 featured: false
