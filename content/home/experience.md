@@ -1,6 +1,6 @@
 +++
 # Experience widget.
-widget = "experience_with_logo"  # See https://sourcethemes.com/academic/docs/page-builder/
+widget = "experience"  # See https://sourcethemes.com/academic/docs/page-builder/
 # the experience with logo widget is based on the following PR:
 # https://github.com/wowchemy/wowchemy-hugo-modules/pull/1837
 headless = true  # This file represents a page section.
@@ -21,10 +21,20 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "Research Internship"
+  company = "NTT Human Informatics Laboratories"
+  company_url = "https://www.rd.ntt/e/hil/"
+  date_start = "2021-08-16"
+  date_end = "2021-09-10"
+  description = """
+  - Supervisor: Dr. [Kyosuke Nishida](https://www.knishida.info/)
+  - Topic: Vision-and-langage document understanding
+  """
+
+[[experience]]
   title = "Collaborative Researcher"
   company = "CyberAgent, Inc."
   company_url = "https://www.cyberagent.co.jp/en/"
-  company_logo = "logo/cyberagent.png"
   date_start = "2021-07-01"
   description = """
   This is [a special research position](https://www.cyberagent.co.jp/news/detail/id=26231) for doctoral students adopted as JSPS Research fellow (DC1, DC2, PD).
@@ -34,15 +44,17 @@ date_format = "Jan 2006"
   title = "Research Internship"
   company = "CyberAgent, Inc."
   company_url = "https://www.cyberagent.co.jp/en/"
-  company_logo = "logo/cyberagent.png"
   date_start = "2021-05-01"
   date_end = "2021-06-30"
+  description = """
+  - Supervisor: Yuki Iwazaki, Researcher
+  - Topic: Multi-modal advertising (Ad) and landing page (LP) understanding
+  """
 
 [[experience]]
   title = "Research Fellowship for Young Scientists (DC2)"
   company = "Japan Society for the Promotion of Science"
   company_url = "https://www.jsps.go.jp/english/"
-  company_logo = "logo/jsps.png"
   date_start = "2021-04-01"
   description = """
   - Research title: [KAKENHI-PROJECT-21J14143](https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-21J14143/)
@@ -64,7 +76,6 @@ date_format = "Jan 2006"
   title = "AI x Ad Consultant"
   company = "AppBrew Inc."
   company_url = "https://appbrew.io/"
-  company_logo = "logo/appbrew.png"
   date_start = "2021-02-01"
   date_end = "2021-03-01"
   description = """
@@ -81,14 +92,12 @@ date_format = "Jan 2006"
   title = "Research Assistant"
   company = "Hosei University"
   company_url = "https://www.hosei.ac.jp/english/admissions/graduate/jbdp/science_engineering/applied_informatics/"
-  company_logo = "logo/hosei.png"
   date_start = "2020-04-01"
 
 [[experience]]
   title = "Teaching Assistant"
   company = "Hosei University"
   company_url = "https://www.hosei.ac.jp/english/admissions/graduate/jbdp/science_engineering/applied_informatics/"
-  company_logo = "logo/hosei.png"
   date_start = "2018-04-01"
   description = """
   Assisted in several classes at Hosei University:
@@ -103,7 +112,6 @@ date_format = "Jan 2006"
   title = "Internship"
   company = "M3, Inc."
   company_url = "https://corporate.m3.com/en/"
-  company_logo = "logo/m3.png"
   date_start = "2019-06-01"
   date_end = "2019-07-01"
   description = """
@@ -114,7 +122,6 @@ date_format = "Jan 2006"
   title = "Deep Learning Advisor"
   company = "Piascore, Inc."
   company_url = "http://piascore.com/en/"
-  company_logo = "logo/piascore.png"
   date_start = "2018-06-01"
   date_end = "2018-08-01"
   description = """
@@ -125,7 +132,6 @@ date_format = "Jan 2006"
   title = "Internship"
   company = "Faber Company Inc."
   company_url = "https://www.fabercompany.co.jp/"
-  company_logo = "logo/faber.png"
   date_start = "2018-03-27"
   date_end = "2018-03-29"
   description = """
@@ -135,10 +141,10 @@ date_format = "Jan 2006"
   title = "Research Internship"
   company = "Gunosy Inc."
   company_url = "https://gunosy.co.jp/en/"
-  company_logo = "logo/gunosy.png"
   date_start = "2018-08-01"
   date_end = ""
   description = """
+  - Superviser: Dr. Yoshifumi Seki
   - Conducting fundamental research to evaluate and analyze ad creatives. I have written a paper and prepared for a presentation for an international conference based on the results during my internship.
     - My presentations and publications can be found at [the Gunosy Work tag](/tag/gunosy-work/).
   - Writing some articles in Japanese:
@@ -153,7 +159,6 @@ date_format = "Jan 2006"
 [[experience]]
   title = "Part-time job"
   company = "Gunosy Inc."
-  company_logo = "logo/gunosy.png"
   company_url = "https://gunosy.co.jp/en/"
   date_start = "2017-03-01"
   date_end = "2018-07-31"
@@ -165,7 +170,6 @@ date_format = "Jan 2006"
   title = "Teaching Assistant for Deep Learning Hands-On Training Lab"
   company = "NVIDIA Japan"
   company_url = "https://www.nvidia.com/ja-jp/"
-  company_logo = "logo/nvidia.png"
   date_start = "2016-01-01"
   date_end = "2021-04-12"
   description = """
@@ -181,7 +185,6 @@ date_format = "Jan 2006"
   title = "Part-time job"
   company = "VALEUNEX Japan Inc."
   company_url = "https://en.valuenex.com/en/home"
-  company_logo = "logo/valuenex.jpg"
   date_start = "2016-02-01"
   date_end = "2018-06-01"
   description = """
@@ -192,7 +195,6 @@ date_format = "Jan 2006"
   title = "Fundamental Information Technology Engineer"
   company = "Information-technology Promotion Agency, Japan"
   company_url = "https://www.jitec.ipa.go.jp/index-e.html"
-  company_logo = "logo/ipa.png"
   date_start = "2016-06-01"
   description = """
   Fundamental Information Technology Engineer Examination is a yardstick for measuring IT knowledge and skills as a team member by asking a range of questions about algorithm, network, database, information security, practical programming, etc.
@@ -202,7 +204,6 @@ date_format = "Jan 2006"
   title = "Internship"
   company = "Works Applications Co., Ltd."
   company_url = "https://www.worksap.com/"
-  company_logo = "logo/works_app.png"
   date_start = "2015-08-01"
   date_end = "2015-08-31"
   description = """
