@@ -3,14 +3,14 @@
 widget = "tag_cloud"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 90  # Order that this section will appear.
+weight = 12  # Order that this section will appear.
 
 title = "Popular Topics 📚"
 subtitle = ""
 
 [content]
   # Choose the taxonomy from `config.toml` to display (e.g. tags, categories)
-  taxonomy = "tags"
+  taxonomy = "categories"
   
   # Choose how many tags you would like to display (0 = all tags)
   count = 20
