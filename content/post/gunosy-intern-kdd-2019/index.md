@@ -5,7 +5,7 @@ title: "データマイニング研究、グノシーがインターン院生主
 subtitle: ""
 summary: "https://www.nikkan.co.jp/articles/view/00546182 and https://newswitch.jp/p/20932"
 authors: ["Shunsuke Kitada"]
-tags: ["Interview"]
+tags: ["Interview", "Gunosy"]
 categories: ["Interview"]
 date: 2020-01-30T05:00:00+09:00
 lastmod: 2021-04-08T23:05:43+09:00

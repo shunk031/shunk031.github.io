@@ -2,10 +2,10 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "人生が変わる研究インターンシップ 社会実装に触れて広がる研究キャリアとは"
-subtitle: "Cyberagent AI Lab Research Internship Turning Point"
+subtitle: "CyberAgent AI Lab Research Internship Turning Point"
 summary: "https://www.cyberagent.co.jp/way/features/list/detail/id=26663"
 authors: ["Shunsuke Kitada"]
-tags: ["Interview"]
+tags: ["Interview", "CyberAgent"]
 categories: ["Interview"]
 date: 2021-09-16T18:51:58+09:00
 lastmod: 2021-09-16T18:51:58+09:00
