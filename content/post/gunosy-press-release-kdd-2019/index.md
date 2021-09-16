@@ -5,7 +5,7 @@ title: "Gunosy の研究論文がデータマイニングの国際会議「KDD20
 subtitle: ""
 summary: "https://gunosy.co.jp/news/172"
 authors: ["Shunsuke Kitada"]
-tags: ["Press release"]
+tags: ["Press release", "Gunosy"]
 categories: ["Press release"]
 date: 2019-05-29T00:00:00+09:00
 lastmod: 2021-04-08T23:05:43+09:00
