@@ -1,0 +1,48 @@
+name: Page Build
+
+on: [push]
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "latest"
+          extended: true
+
+      - name: Build
+        run: hugo
+
+      - name: Check broken links
+        uses: ruzickap/action-my-broken-link-checker@v2
+        with:
+          url: https://${{ github.event.repository.name }}
+          pages_path: ./public
+          cmd_params: "\
+            --timeout=20 \
+            --max-connections=10 \
+            -e linkedin.com \
+            -e twitter.com \
+            -e facebook.com \
+            -e gstatic.com \
+            -e researchgate.net \
+            -e arxiv.org \
+            -e valuenex.com \
+            -e challenge2018.isic-archive.com \
+            -e paper-survey \
+            -e publication/#\\d \
+            -e index.webmanifest \
+            "
+            
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          publish_dir: ./public
+          publish_branch: master # deploying branch
+          cname: shunk031.me
