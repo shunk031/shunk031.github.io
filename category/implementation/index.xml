@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Implementation | Shunsuke Kitada</title>
+    <link>https://shunk031.github.io/category/implementation/</link>
+      <atom:link href="https://shunk031.github.io/category/implementation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Implementation</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2021 Shunsuke Kitada.</copyright><lastBuildDate>Mon, 05 Oct 2020 02:56:12 +0900</lastBuildDate>
+    <image>
+      <url>https://shunk031.github.io/images/icon_hu5c3c9671a4be0eb31bd1ac25d9087784_1353_512x512_fill_lanczos_center_3.png</url>
+      <title>Implementation</title>
+      <link>https://shunk031.github.io/category/implementation/</link>
+    </image>
+    
+    <item>
+      <title>AllenNLP Eraser</title>
+      <link>https://shunk031.github.io/project/allennlp-eraser/</link>
+      <pubDate>Mon, 05 Oct 2020 02:56:12 +0900</pubDate>
+      <guid>https://shunk031.github.io/project/allennlp-eraser/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Attention Meets Perturbation</title>
+      <link>https://shunk031.github.io/project/attention-meets-perturbation/</link>
+      <pubDate>Fri, 02 Oct 2020 00:01:07 +0900</pubDate>
+      <guid>https://shunk031.github.io/project/attention-meets-perturbation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Human Attention Map for Text Classification</title>
+      <link>https://shunk031.github.io/project/human-attention-map-for-text-classification/</link>
+      <pubDate>Mon, 17 Aug 2020 22:23:06 +0900</pubDate>
+      <guid>https://shunk031.github.io/project/human-attention-map-for-text-classification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>chainer-FocalLoss</title>
+      <link>https://shunk031.github.io/project/chainer-focalloss/</link>
+      <pubDate>Mon, 30 Mar 2020 16:45:26 +0900</pubDate>
+      <guid>https://shunk031.github.io/project/chainer-focalloss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>chainer-RICAP</title>
+      <link>https://shunk031.github.io/project/chainer-ricap/</link>
+      <pubDate>Mon, 30 Mar 2020 16:43:31 +0900</pubDate>
+      <guid>https://shunk031.github.io/project/chainer-ricap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LSUV.pytorch</title>
+      <link>https://shunk031.github.io/project/lsuv-pytorch/</link>
+      <pubDate>Mon, 30 Mar 2020 16:37:51 +0900</pubDate>
+      <guid>https://shunk031.github.io/project/lsuv-pytorch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>chainer-MeanTeachers</title>
+      <link>https://shunk031.github.io/project/chainer-meanteachers/</link>
+      <pubDate>Mon, 30 Mar 2020 00:13:06 +0900</pubDate>
+      <guid>https://shunk031.github.io/project/chainer-meanteachers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>chainer-PyramidNet</title>
+      <link>https://shunk031.github.io/project/chainer-pyramidnet/</link>
+      <pubDate>Mon, 30 Mar 2020 00:00:14 +0900</pubDate>
+      <guid>https://shunk031.github.io/project/chainer-pyramidnet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>chainer-InceptionResNetV2</title>
+      <link>https://shunk031.github.io/project/chainer-inceptionresnetv2/</link>
+      <pubDate>Sun, 29 Mar 2020 23:57:58 +0900</pubDate>
+      <guid>https://shunk031.github.io/project/chainer-inceptionresnetv2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>chainer-IMSAT</title>
+      <link>https://shunk031.github.io/project/chainer-imsat/</link>
+      <pubDate>Sun, 29 Mar 2020 23:55:47 +0900</pubDate>
+      <guid>https://shunk031.github.io/project/chainer-imsat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>chainer-center-loss</title>
+      <link>https://shunk031.github.io/project/chainer-center-loss/</link>
+      <pubDate>Sun, 29 Mar 2020 03:26:42 +0900</pubDate>
+      <guid>https://shunk031.github.io/project/chainer-center-loss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conversion Prediction Using Multi-task Conditional Attention Networks to Support the Creation of Effective Ad Creatives</title>
+      <link>https://shunk031.github.io/project/multi-task-conditional-attention-networks/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.github.io/project/multi-task-conditional-attention-networks/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
