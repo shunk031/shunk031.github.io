@@ -1,3 +1,4 @@
+- **[2020.12]** [Hosei University Research Grant for Doctoral Course Adopters](https://www.hosei.ac.jp/gs/gakuhi/gakuhi-shogakukin/shogakukin/kenkyujoseikin/) in 2021 (480,000 JPY).
 - **[2021.05]** Grant-in-Aid for Japan Society for the Promotion of Science (JSPS) Fellows, [Grant Number 21J14143](https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-21J14143/) (2021-2023, 1,500,000 JPY)
 - **[2021.04]** Japan Society for the Promotion of Science (JSPS) [Research Fellowship for Young Scientists (DC2)](https://www.jsps.go.jp/english/e-pd/index.html) (200,000 JPY / month).
 - **[2020.12]** [Hosei University Research Grant for Doctoral Course Adopters](https://www.hosei.ac.jp/gs/gakuhi/gakuhi-shogakukin/shogakukin/kenkyujoseikin/) in 2020 (480,000 JPY).
