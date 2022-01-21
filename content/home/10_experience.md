@@ -111,11 +111,12 @@ experience:
     date_end: ''
     description: |2-
       Assisted in several classes at Hosei University:
-      - [Image Processing](https://syllabus.hosei.ac.jp/web/preview.php?no_id=2115657&nendo=2021&gakubu_id=% E7%90%86% E5% B7% A5% E5% AD% A6% E9%83% A8&gakubueng=AP&t_mode=pc)
-      - [Information Theory](https://syllabus.hosei.ac.jp/web/preview.php?no_id=2115624&nendo=2021&gakubu_id=% E7%90%86% E5% B7% A5% E5% AD% A6% E9%83% A8&gakubueng=AP&t_mode=pc)
-      - [Operating System](https://syllabus.hosei.ac.jp/web/preview.php?no_id=2115647&nendo=2021&gakubu_id=% E7%90%86% E5% B7% A5% E5% AD% A6% E9%83% A8&gakubueng=AP&t_mode=pc)
-      - [Programming Language C++](https://syllabus.hosei.ac.jp/web/preview.php?no_id=2115357&nendo=2021&gakubu_id=% E7%90%86% E5% B7% A5% E5% AD% A6% E9%83% A8&gakubueng=AP&t_mode=pc)
-      - [Programming Language JAVA](https://syllabus.hosei.ac.jp/web/preview.php?no_id=2115361&nendo=2021&gakubu_id=% E7%90%86% E5% B7% A5% E5% AD% A6% E9%83% A8&gakubueng=AP&t_mode=pc)
+      - [Image Processing](https://syllabus.hosei.ac.jp/web/preview.php?no_id=2115657&nendo=2021&gakubueng=AP&t_mode=pc)
+      - [Information theory](https://syllabus.hosei.ac.jp/web/preview.php?no_id=2115624&nendo=2021&gakubueng=AP&t_mode=pc)
+      - [Exercises in operating system](https://syllabus.hosei.ac.jp/web/preview.php?no_id=2115647&nendo=2021&gakubueng=AP&t_mode=pc)
+      - [Web technology](https://syllabus.hosei.ac.jp/web/preview.php?no_id=2115632&nendo=2021&gakubueng=AP&t_mode=pc)
+      - [Programming language C++](https://syllabus.hosei.ac.jp/web/preview.php?no_id=2115357&nendo=2021&gakubueng=AP&t_mode=pc)
+      - [Programming language JAVA](https://syllabus.hosei.ac.jp/web/preview.php?no_id=2115360&nendo=2021&gakubueng=AP&t_mode=pc)
 
   - title: Internship
     company: M3, Inc.

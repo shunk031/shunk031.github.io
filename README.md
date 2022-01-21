@@ -2,7 +2,7 @@
 
 [![Actions Status](https://github.com/shunk031/shunk031.github.io/workflows/Page%20Build/badge.svg)](https://github.com/shunk031/shunk031.github.io/actions?query=workflow%3A%22Page+Build%22)
 
-[Hugo Academic](https://github.com/gcushen/hugo-academic) + GitHub Pages based on [Hugo Kick Start](https://github.com/ShanSabri/academic-kickstart).
+[Hugo Academic](https://github.com/gcushen/hugo-academic) + GitHub Pages based on [Starter Hugo Academic](https://github.com/wowchemy/starter-hugo-academic).
 
 [![Website Thumbnail](.github/README/thumbnail.png)](http://www.shunk031.me)
 
