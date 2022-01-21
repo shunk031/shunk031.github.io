@@ -36,7 +36,7 @@ image:
 
 ## 摂動に頑健で解釈可能な深層学習モデルの開発とその解釈性の評価
 
-### {{% staticref "files/jsps_research_fellow/dc2_kitada.pdf" "newtab" %}}{{< icon name="download" pack="fas" >}} 令和 3 年度採用分 特別研究員 - DC 申請書 (PDF, 1.8MB){{% /staticref %}}
+### {{% staticref "uploads/jsps_research_fellow/dc2_kitada.pdf" "newtab" %}}{{< icon name="download" pack="fas" >}} 令和 3 年度採用分 特別研究員 - DC 申請書 (PDF, 1.8MB){{% /staticref %}}
 
 
 審査区分は `情報学` の `知能情報学関連` で、専門分野は `自然言語処理` として申請しました。
