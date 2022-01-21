@@ -106,7 +106,7 @@ experience:
     company: Hosei University
     company_url: 'https://www.hosei.ac.jp/english/admissions/graduate/jbdp/science_engineering/applied_informatics/'
     # company_logo: hosei
-    location: Bunkyo-ku, Tokyo, Japan
+    location: Koganei-shi, Tokyo, Japan
     date_start: '2018-04-01'
     date_end: ''
     description: |2-
