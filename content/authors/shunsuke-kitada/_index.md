@@ -12,6 +12,7 @@ role: Ph.D student working on Deep Learning
 organizations:
 - name: Department of Applied Informatics, Graduate School of Science and Engineering, Hosei University
   url: "https://www.hosei.ac.jp/english/admissions/graduate/jbdp/science_engineering/applied_informatics/"
+- name: S603, 3-7-2, Kajino-cho, Koganei-shi, Tokyo 184-8584, Japan
 - name: Intelligent information processing laboratory
   url: "http://iyatomi-lab.info/front-e.html"
 
