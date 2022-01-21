@@ -1,3 +1,4 @@
+- **[2021.12]** Got [Hosei University Research Grant for Doctoral Course Adopters](https://www.hosei.ac.jp/gs/gakuhi/gakuhi-shogakukin/shogakukin/kenkyujoseikin/) in 2021 (480,000 JPY).
 - **[2021.06]** Accepted [our journal paper](https://ieeexplore.ieee.org/document/9467291) to IEEE Access.
 - **[2021.05]** Got Grant-in-Aid for Japan Society for the Promotion of Science (JSPS) Fellows, [Grant Number 21J14143](https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-21J14143/) (2021-2023, 1,500,000 JPY)
 - **[2021.04]** [An article about my adaption of JSPS DC2](https://ai.ws.hosei.ac.jp/wp/news/news20210408/) appeared on the website of the Department of Applied Informatics at Hosei University.
