@@ -32,7 +32,7 @@ image:
 弊学では殆ど学振特別研究員の採用実績がなく身近に相談できる方も非常に少なかったため [^1]、
 そうした境遇の方 (いわゆるビックラボではない方、旧帝大・上位私立大所属ではない方) に少しでもお力になれたらと思い、申請書の公開に至りました。[^2]
 
-質問等にもできる限りお答えします。連絡先は [{{< icon name="twitter" pack="fab" >}}@shunk031](https://twitter.com/shunk031) もしくは [プロフィールのページ](https://shunk031.me/author/shunsuke-kitada/) を参照して下さい。
+質問等にもできる限りお答えします。連絡先は [{{< icon name="twitter" pack="fab" >}}@shunk031](https://twitter.com/shunk031) もしくは [プロフィールのページ](/authors/shunsuke-kitada/) を参照して下さい。
 
 ## 摂動に頑健で解釈可能な深層学習モデルの開発とその解釈性の評価
 
