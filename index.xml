@@ -5,9 +5,9 @@
     <link>https://shunk031.github.io/</link>
       <atom:link href="https://shunk031.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Shunsuke Kitada</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2021 Shunsuke Kitada.</copyright><lastBuildDate>Tue, 30 Nov 2021 11:22:13 +0900</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2022 Shunsuke Kitada.</copyright><lastBuildDate>Tue, 30 Nov 2021 11:22:13 +0900</lastBuildDate>
     <image>
-      <url>https://shunk031.github.io/images/icon_hu5c3c9671a4be0eb31bd1ac25d9087784_1353_512x512_fill_lanczos_center_3.png</url>
+      <url>https://shunk031.github.io/media/icon_hu5c3c9671a4be0eb31bd1ac25d9087784_1353_512x512_fill_lanczos_center_3.png</url>
       <title>Shunsuke Kitada</title>
       <link>https://shunk031.github.io/</link>
     </image>
@@ -90,9 +90,9 @@
     
     <item>
       <title>Recent Issues in Intelligent Robotics, Machine Learning, and Distributed System</title>
-      <link>https://shunk031.github.io/event/univ-carthage-hosei/</link>
+      <link>https://shunk031.github.io/talk/recent-issues-in-intelligent-robotics-machine-learning-and-distributed-system/</link>
       <pubDate>Wed, 17 Mar 2021 18:45:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/event/univ-carthage-hosei/</guid>
+      <guid>https://shunk031.github.io/talk/recent-issues-in-intelligent-robotics-machine-learning-and-distributed-system/</guid>
       <description>&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;de984e0c9a2d4934bcb0e6e46b2c4ff8&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
 </description>
     </item>
@@ -122,7 +122,7 @@
 &lt;p&gt;質問等にもできる限りお答えします。連絡先は &lt;a href=&#34;https://twitter.com/shunk031&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
   &lt;i class=&#34;fab fa-twitter  pr-1 fa-fw&#34;&gt;&lt;/i&gt;@shunk031&lt;/a&gt; もしくは &lt;a href=&#34;https://shunk031.me/author/shunsuke-kitada/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;プロフィールのページ&lt;/a&gt; を参照して下さい。&lt;/p&gt;
 &lt;h2 id=&#34;摂動に頑健で解釈可能な深層学習モデルの開発とその解釈性の評価&#34;&gt;摂動に頑健で解釈可能な深層学習モデルの開発とその解釈性の評価&lt;/h2&gt;
-&lt;h3 id=&#34;a-hreffilesjsps_research_fellowdc2_kitadapdf-target_blank&#34;&gt;&lt;a href=&#34;https://shunk031.github.io/files/jsps_research_fellow/dc2_kitada.pdf&#34; target=&#34;_blank&#34;&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;a-hrefuploadsjsps_research_fellowdc2_kitadapdf-target_blank&#34;&gt;&lt;a href=&#34;https://shunk031.github.io/uploads/jsps_research_fellow/dc2_kitada.pdf&#34; target=&#34;_blank&#34;&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;i class=&#34;fas fa-download  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 令和 3 年度採用分 特別研究員 - DC 申請書 (PDF, 1.8MB)&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;審査区分は &lt;code&gt;情報学&lt;/code&gt; の &lt;code&gt;知能情報学関連&lt;/code&gt; で、専門分野は &lt;code&gt;自然言語処理&lt;/code&gt; として申請しました。
 研究・職歴等は以下のように記述しました。特に TA や RA、企業でのリサーチインターン等の経験は研究遂行能力に影響を与えると考えました:&lt;/p&gt;
@@ -257,9 +257,9 @@
     
     <item>
       <title>The Present and Future of Machine Learning for Ad Creatives</title>
-      <link>https://shunk031.github.io/event/jsai2020-os-invited-talk/</link>
+      <link>https://shunk031.github.io/talk/the-present-and-future-of-machine-learning-for-ad-creatives/</link>
       <pubDate>Tue, 09 Jun 2020 14:40:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/event/jsai2020-os-invited-talk/</guid>
+      <guid>https://shunk031.github.io/talk/the-present-and-future-of-machine-learning-for-ad-creatives/</guid>
       <description>&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;aae0bfc47d0a4e9eb12e3d9d64cd9df8&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
 </description>
     </item>
@@ -418,9 +418,9 @@
     
     <item>
       <title>Text Analytics Symposium 2019</title>
-      <link>https://shunk031.github.io/event/text-analytics-symposium-2019/</link>
+      <link>https://shunk031.github.io/talk/text-analytics-symposium-2019/</link>
       <pubDate>Fri, 27 Sep 2019 15:40:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/event/text-analytics-symposium-2019/</guid>
+      <guid>https://shunk031.github.io/talk/text-analytics-symposium-2019/</guid>
       <description>&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;f38b46e6e1bd4ec6b4a3fb182495a340&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
 </description>
     </item>
@@ -487,9 +487,9 @@
     
     <item>
       <title>CCSE 2019</title>
-      <link>https://shunk031.github.io/event/ccse-2019/</link>
+      <link>https://shunk031.github.io/talk/ccse-2019/</link>
       <pubDate>Sat, 13 Jul 2019 16:05:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/event/ccse-2019/</guid>
+      <guid>https://shunk031.github.io/talk/ccse-2019/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
     &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
         src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fccse.jp%2f2019%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
@@ -501,9 +501,9 @@
     
     <item>
       <title>ICML/KDD 2019 Pre-conference session</title>
-      <link>https://shunk031.github.io/event/icml-kdd-2019-pre-conference-session/</link>
+      <link>https://shunk031.github.io/talk/icml/kdd-2019-pre-conference-session/</link>
       <pubDate>Mon, 03 Jun 2019 19:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/event/icml-kdd-2019-pre-conference-session/</guid>
+      <guid>https://shunk031.github.io/talk/icml/kdd-2019-pre-conference-session/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
     &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
         src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2flapras.connpass.com%2fevent%2f130914%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
@@ -645,12 +645,6 @@
 
 
 
-  
-
-
-
-  
-  
 
 
 
@@ -659,22 +653,17 @@
 
 
 
-
-
-
-&lt;figure &gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://shunk031.github.io/post/hacku-hosei-2018/hacktime_hu2598b06d08c2d3ac8bd5a3e189ce5366_1730946_2000x2000_fit_q90_lanczos.jpg&#34; &gt;
-
-
-  &lt;img data-src=&#34;https://shunk031.github.io/post/hacku-hosei-2018/hacktime_hu2598b06d08c2d3ac8bd5a3e189ce5366_1730946_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;2048&#34; height=&#34;1365&#34;&gt;
-&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/hacku-hosei-2018/hacktime_hu2598b06d08c2d3ac8bd5a3e189ce5366_1730946_c09f2f41a034269ee82f08b4657ca32f.webp 400w,
+               /post/hacku-hosei-2018/hacktime_hu2598b06d08c2d3ac8bd5a3e189ce5366_1730946_50e8a57b84345b77cc77ff25e81b1023.webp 760w,
+               /post/hacku-hosei-2018/hacktime_hu2598b06d08c2d3ac8bd5a3e189ce5366_1730946_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://shunk031.github.io/post/hacku-hosei-2018/hacktime_hu2598b06d08c2d3ac8bd5a3e189ce5366_1730946_c09f2f41a034269ee82f08b4657ca32f.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;507&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
 </description>
     </item>
     
