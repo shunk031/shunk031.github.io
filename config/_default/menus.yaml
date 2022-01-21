@@ -9,11 +9,11 @@ main:
     weight: 1
 
   - name: News
-    url: '#02_news'
+    url: '#02_recent-news'
     weight: 2
 
   - name: Publications
-    url: '#03_international_publications'
+    url: '#03_international-publications'
     weight: 3
 
   - name: Talks
