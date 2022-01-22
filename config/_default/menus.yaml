@@ -4,35 +4,35 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Home
+  - name: 🏠 Home
     url: '#01_about'
     weight: 1
 
-  - name: News
+  - name: 😀 News
     url: '#02_recent-news'
     weight: 2
 
-  - name: Publications
+  - name: 📝 Publications
     url: '#03_international-publications'
     weight: 3
 
-  - name: Talks
+  - name: 🎙️ Talks
     url: '#06_talks'
     weight: 4
 
-  - name: Awards & Grants
+  - name: 🏆 Awards & Grants
     url: '#07_awards-and-grants'
     weight: 5
 
-  - name: Posts
+  - name: 📝 Posts
     url: '#08_featured'
     weight: 6
 
-  - name: Experience
+  - name: 💻 Experience
     url: '#10_experience'
     weight: 7
 
-  - name: Projects
+  - name: 📂 Projects
     url: '#11_projects'
     weight: 8
 
