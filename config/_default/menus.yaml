@@ -8,7 +8,7 @@ main:
     url: '#01_about'
     weight: 1
 
-  - name: 😀 News
+  - name: 🗞️ News
     url: '#02_recent-news'
     weight: 2
 

@@ -8,7 +8,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 8  # Order that this section will appear.
 
-title = "Featured Post 📝"
+title = "Featured Post 📌"
 subtitle = "[All posts >>](/post)"
 
 [content]
