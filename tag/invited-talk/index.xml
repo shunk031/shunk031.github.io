@@ -5,12 +5,21 @@
     <link>https://shunk031.github.io/tag/invited-talk/</link>
       <atom:link href="https://shunk031.github.io/tag/invited-talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Invited talk</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2022 Shunsuke Kitada.</copyright><lastBuildDate>Tue, 09 Jun 2020 14:40:00 +0900</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2022 Shunsuke Kitada.</copyright><lastBuildDate>Fri, 01 Apr 2022 15:55:00 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.github.io/media/sharing.png</url>
       <title>Invited talk</title>
       <link>https://shunk031.github.io/tag/invited-talk/</link>
     </image>
+    
+    <item>
+      <title>My experience about JSPS Research Fellowship</title>
+      <link>https://shunk031.github.io/talk/my-experience-about-jsps-research-fellowship/</link>
+      <pubDate>Fri, 01 Apr 2022 15:55:00 +0900</pubDate>
+      <guid>https://shunk031.github.io/talk/my-experience-about-jsps-research-fellowship/</guid>
+      <description>&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;f2f33c0e7081479c87922a5fcfb5bcfe&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
     
     <item>
       <title>The Present and Future of Machine Learning for Ad Creatives</title>
