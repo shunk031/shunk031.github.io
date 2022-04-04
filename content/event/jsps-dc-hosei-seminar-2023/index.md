@@ -25,7 +25,7 @@ all_day: false
 publishDate: 2022-04-01T00:00:00+09:00
 
 authors: ["Shunsuke Kitada"]
-tags: ["Invited Talk"]
+tags: ["Invited Talk", "DC", "JSPS"]
 
 # Is this a featured event? (true/false)
 featured: false
