@@ -13,7 +13,7 @@ address:
   country:
   
 summary: "In this seminar, I presented my experience as the only person who currently be adopted a JSPS DC2 in the campus."
-abstract:
+abstract: See also [日本学術振興会特別研究員 (DC2) 申請書・学振](/post/dc2).
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
