@@ -32,6 +32,7 @@ experience:
     description: |2-
       - Supervisor: Dr. [Kyosuke Nishida](https://www.knishida.info/)
       - Topic: Vision-and-language document understanding
+      - Worked on establishing a new pre-training method for document image understanding.
 
   - title: Collaborative Researcher
     company: CyberAgent, Inc.
@@ -41,7 +42,8 @@ experience:
     date_start: '2021-07-01'
     date_end: ''
     description: |2-
-      This is [a special research position](https://www.cyberagent.co.jp/news/detail/id=26231) for doctoral students adopted as JSPS Research fellow (DC1, DC2, PD).
+      - Supervisor: [Dr. Mayu Otani](https://mayu-ot.github.io/) and [Dr. Naoto Inoue](https://naoto0804.github.io/)
+      - Working on establishing multi-modal deep learning model for ad creative understanding in [a special research position](https://www.cyberagent.co.jp/news/detail/id=26231) for doctoral students adopted as JSPS Research fellow (DC1, DC2, PD).
 
   - title: Research Internship
     company: CyberAgent, Inc.
@@ -53,7 +55,7 @@ experience:
     description: |2-
       - Supervisor: Yuki Iwazaki, Researcher
         - Topic: Multi-modal advertising (Ad) and landing page (LP) understanding
-      - Conducting fundamental research to evaluate and analyze ad creatives and landing pages. I have written a paper and prepared for a presentation for an international conference based on the results during my internship.
+      - Investigated fundamental research to evaluate and analyze ad creatives and its landing pages, presented at academic symposium in Japan.
         - My presentations and publications can be found at [the CyberAgent tag](/tag/cyberagent/).
   
   - title: Research Fellowship for Young Scientists (DC2)
@@ -64,16 +66,17 @@ experience:
     date_start: '2021-04-01'
     date_end: ''
     description: |2-
+      Working on towards robust and interpretable deep learning models and its evaluation.
       - Research title: [KAKENHI-PROJECT-21J14143](https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-21J14143/)
-        - Development of Perturbation Robust and Interpretable Deep Learning Models and Evaluation of Their Interpretability (ja: 摂動に頑健で解釈可能な深層学習モデルの開発とその解釈性の評価)
+        - Development of Perturbation Robust and Interpretable Deep Learning Models and Evaluation of Their Interpretability (ja: 摂動に頑健で解釈可能な深層学習モデルの開発とその解釈性の評価）
       - Document review & interview area
-        - Informatics (ja: 情報学)
+        - Informatics (ja: 情報学）
       - Screening section
-        - Human informatics and related fields (ja: 人間情報学およびその関連分野)
+        - Human informatics and related fields (ja: 人間情報学およびその関連分野）
       - Subsection
-        - Intelligent Informatics and Related Fields (ja: 知能情報学関連)
+        - Intelligent Informatics and Related Fields (ja: 知能情報学関連）
       - Area of specialization
-        - Natural language processing (ja: 自然言語処理)
+        - Natural language processing (ja: 自然言語処理）
 
       Application information is based on [the page of OIST Groups](https://groups.oist.jp/ja/srs/forms-jsps-research-fellowship-young-scientist).
       Keywords of each field are based on [the table](https://www-kaken.jsps.go.jp/kaken1/keywordListEn.do).
@@ -87,10 +90,10 @@ experience:
     date_end: '2021-03-01'
     description: |2-
       - Surveyed methods for automatically creating/generating ad creatives
-        - Developing and evaluating prototypes using the method
-        - Integrating the method into the system, including testing and operating
+        - Developed and evaluated prototypes using the method
+        - Integrated the method into the system, including testing and operating
       - Advised on the improvement of advertising creative creation methods
-        - Participate in meetings (about 1h) at least once a week
+        - Participated in meetings (about 1h) at least once a week
       - Wrote an article about AI x Adtech in Japanese:
         - https://tech.appbrew.io/entry/lips-ad-creative-research-2021
   
@@ -126,7 +129,8 @@ experience:
     date_start: '2019-06-01'
     date_end: '2019-07-01'
     description: |2-
-      I quantified and visualized doctors' interest from browsing history. Based on these analyses, I built a system for recommending articles for doctors from scratch.
+      - Worked on quantifying and visualizing doctors' interest from browsing history.
+      - Built a system for recommending articles for doctors based on the analysis from scratch
   
   - title: Deep Learning Advisor
     company: Piascore, Inc.
@@ -136,17 +140,7 @@ experience:
     date_start: '2018-06-01'
     date_end: '2018-08-01'
     description: |2-
-      I have advised how to solve practical problems of existing services that use machine learning algorithms and deep learning models. Additionally, I have shown examples of the kind of problems recent deep learning models are capable of solving.
-  
-  - title: Internship
-    company: Faber Company Inc.
-    company_url: 'https://www.fabercompany.co.jp/'
-    # company_logo: faber
-    location: Minato-ku, Tokyo, Japan
-    date_start: '2018-03-27'
-    date_end: '2018-03-29'
-    description: |2-
-      Engineer internship 3days / ¥100,000. I implemented machine learning models that accurately capture semantic features of a document in a document similarity.
+      - Advised how to solve practical problems of existing services that use machine learning algorithms and deep learning models, showing examples of the kind of problems recent deep learning models are capable of solving. 
   
   - title: Research Internship
     company: Gunosy Inc.
@@ -157,9 +151,9 @@ experience:
     date_end: ''
     description: |2-
       - Supervisor: Dr. Yoshifumi Seki
-      - Conducting fundamental research to evaluate and analyze ad creatives. I have written a paper and prepared for a presentation for an international conference based on the results during my internship.
+      - Worked on fundamental research to evaluate and analyze ad creatives, resulting in a presentation at Applied Science track of KDD, a top data mining conference.
         - My presentations and publications can be found at [the Gunosy tag](/tag/gunosy/).
-      - Writing some articles in Japanese:
+      - Wrote some articles in Japanese:
         - https://data.gunosy.io/entry/ocr-tesseract-deeplearning
         - https://data.gunosy.io/entry/yans2018
         - https://data.gunosy.io/entry/research-intern-kdd19
@@ -175,7 +169,7 @@ experience:
     date_start: '2018-03-27'
     date_end: '2018-03-29'
     description: |2-
-      Engineer internship 3days / ¥100,000. I implemented machine learning models that accurately capture semantic features of a document in a document similarity.
+      Implemented machine learning models that accurately capture semantic features of a document in a document similarity (Engineer internship 3days / ¥100,000).
   
   - title: Part-time job
     company: Gunosy Inc.
@@ -185,7 +179,8 @@ experience:
     date_start: '2017-03-01'
     date_end: '2018-07-31'
     description: |2-
-      I have worked on improving the user experience and participated in improving the logic of the article distribution. Also visualized multiple KPIs and contributed to service growth through data analysis.
+      - Worked on improving the user experience and participated in improving the logic of the article distribution.
+      - Worked on analyzing log data through visualization of multiple KPIs and contributing to the growth of the service.
   
   - title: Teaching Assistant for Deep Learning Hands-On Training Lab
     company: NVIDIA Japan
@@ -210,7 +205,7 @@ experience:
     date_start: '2016-02-01'
     date_end: '2018-06-01'
     description: |2-
-      I dealt with large-scale nonstructural patent information in various forms, e.g., pre-processing, crawling, scraping, and analyzing these data.
+      Worked on dealing with large-scale nonstructural patent information in various forms, e.g., pre-processing, crawling, scraping, and analyzing these data.
 
   - title: Fundamental Information Technology Engineer
     company: Information-technology Promotion Agency, Japan
@@ -228,7 +223,7 @@ experience:
     date_start: '2015-08-01'
     date_end: '2015-08-31'
     description: |2-
-      I planned and implemented enterprise resource planning (ERP) packages.
+      Planned and implemented enterprise resource planning (ERP) packages.
 
 design:
   columns: '2'
