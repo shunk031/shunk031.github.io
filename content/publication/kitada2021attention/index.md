@@ -71,3 +71,5 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
+
+{{< blogcard url="https://arxiv.org/abs/2009.12064" >}}
