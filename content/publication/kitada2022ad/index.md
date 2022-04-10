@@ -67,3 +67,5 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
+
+{{< blogcard url="https://www.mdpi.com/2076-3417/12/7/3594" >}}
