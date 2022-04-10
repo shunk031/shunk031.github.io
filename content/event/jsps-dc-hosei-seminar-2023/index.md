@@ -1,30 +1,31 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Jsps Dc Hosei Seminar 2023"
-event:
-event_url:
-location:
+title: "My experience about JSPS Research Fellowship"
+event: Seminar on applying for JSPS Research Fellowship (DC1 and DC2)
+event_url: https://www.hosei.ac.jp/kenkyu/info/article-20220228215045/
+location: Online
 address:
   street:
   city:
   region:
   postcode:
   country:
-summary:
+  
+summary: "In this seminar, I presented my experience as the only person who currently be adopted a JSPS DC2 in the campus."
 abstract:
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2022-04-01T10:31:55+09:00
-date_end: 2022-04-01T10:31:55+09:00
+date: 2022-04-01T15:55:00+09:00
+date_end: 2022-04-01T16:10:00+09:00
 all_day: false
 
 # Schedule page publish date (NOT event date).
-publishDate: 2022-04-01T10:31:55+09:00
+publishDate: 2022-04-01T00:00:00+09:00
 
-authors: []
-tags: []
+authors: ["Shunsuke Kitada"]
+tags: ["Invited Talk"]
 
 # Is this a featured event? (true/false)
 featured: false
@@ -35,7 +36,7 @@ featured: false
 image:
   caption: ""
   focal_point: ""
-  preview_only: false
+  preview_only: true
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
