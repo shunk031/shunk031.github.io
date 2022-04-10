@@ -18,6 +18,11 @@ jobs:
 
       - name: Build
         run: hugo
+      
+      - name: Typo check
+        uses: crate-ci/typos@v1.0.4
+        with:
+          files: ./public
 
       - name: Check broken links
         uses: ruzickap/action-my-broken-link-checker@v2
