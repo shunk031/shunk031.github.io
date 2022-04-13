@@ -16,7 +16,6 @@ organizations:
 - name: Intelligent information processing laboratory
   url: "http://iyatomi-lab.info/front-e.html"
 
-
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include deep learning-based natural language processing, computer vision, medical image processing, and computational advertising.
 
@@ -95,7 +94,7 @@ user_groups:
 - Visitors
 ---
 
-Shunsuke Kitada (北田 俊輔 in Japanese) is a Ph.D student at Major in applied informatics, graduate school of science and engineering, Hosei University under the supervision of Prof. [Hitoshi Iyatomi](http://iyatomi-lab.info/front-e.html).
+Shunsuke Kitada （北田 俊輔 in Japanese) is a Ph.D student at Major in applied informatics, graduate school of science and engineering, Hosei University under the supervision of Prof. [Hitoshi Iyatomi](http://iyatomi-lab.info/front-e.html).
 His research interests include deep learning-based natural language processing, computer vision, medical image processing, and computational advertising.
 
 His personality traits can be summarized as follows:
@@ -103,4 +102,4 @@ His personality traits can be summarized as follows:
 - 📝 **Every day read and implement the SoTA models.** He has released many re-implementations of models using mainly Chainer and PyTorch. Therefore, based on state-of-the-art cases, he can advise on deep learning-based product design.
 - 😄 **High technical communicativity.** Summarize what he made and what he studied, and spread such information. This shows that he can input and output regularly.
 
-The resume is available in {{% staticref "uploads/cv/Shunsuke_Kitada_CV.pdf" "newtab" %}} PDF {{< icon name="download" pack="fas" >}}{{% /staticref %}}.
+The resume is available in [PDF {{< icon name="download" pack="fas" >}}](https://github.com/shunk031/shunsuke-kitada-cv/releases/latest/download/cv.pdf).
