@@ -105,6 +105,16 @@ experience:
     date_start: '2020-04-01'
     date_end: ''
   
+  - title: Part-time Job
+    company: Tokyo Women's Medical University
+    company_url: 'https://www.twmu.ac.jp/english/'
+    location: Shinjuku-ku, Tokyo, Japan
+    date_start: '2020-07-30'
+    date_end: '2020-08-07'
+    description: |2-
+      - Supervisors: Prof. [Masaru Tanaka](https://www.researchgate.net/scientific-contributions/Masaru-Tanaka-2078765174), Dr. [Noriko Umegaki](https://researchmap.jp/7000025183?lang=en), Prof. [Hitoshi Iyatomi](https://scholar.google.com/citations?user=ghyQxvIAAAAJ&hl=en)
+      - Assisted in collecting skin images for the construction of an automated diagnostic system.
+
   - title: Teaching Assistant
     company: Hosei University
     company_url: 'https://www.hosei.ac.jp/english/admissions/graduate/jbdp/science_engineering/applied_informatics/'
@@ -171,7 +181,7 @@ experience:
     description: |2-
       Implemented machine learning models that accurately capture semantic features of a document in a document similarity (Engineer internship 3days / ¥100,000).
   
-  - title: Part-time job
+  - title: Part-time Job
     company: Gunosy Inc.
     company_url: 'https://gunosy.co.jp/en/'
     # company_logo: gunosy
@@ -197,7 +207,7 @@ experience:
       - [NVIDIA GTC 2020 DLI in Online](https://nvidia.connpass.com/event/189637/)
       - [NVIDIA GTC 2021 DLI in Online](https://nvidia.connpass.com/event/208506/)
   
-  - title: Part-time job
+  - title: Part-time Job
     company: VALUENEX Japan Inc.
     company_url: 'https://en.valuenex.com/en/home'
     # company_logo: valuenex
