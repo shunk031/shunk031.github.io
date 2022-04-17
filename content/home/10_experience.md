@@ -109,10 +109,11 @@ experience:
     company: Tokyo Women's Medical University
     company_url: 'https://www.twmu.ac.jp/english/'
     location: Shinjuku-ku, Tokyo, Japan
-    date_start: ''
-    date_end: ''
+    date_start: '2020-07-30'
+    date_end: '2020-08-07'
     description: |2-
-      Assisted in collecting skin images for the construction of an automated diagnostic system.
+      - Supervisors: Prof. [Masaru Tanaka](https://www.researchgate.net/scientific-contributions/Masaru-Tanaka-2078765174), Dr. [Noriko Umegaki](https://researchmap.jp/7000025183?lang=en), Prof. [Hitoshi Iyatomi](https://scholar.google.com/citations?user=ghyQxvIAAAAJ&hl=en)
+      - Assisted in collecting skin images for the construction of an automated diagnostic system.
 
   - title: Teaching Assistant
     company: Hosei University
