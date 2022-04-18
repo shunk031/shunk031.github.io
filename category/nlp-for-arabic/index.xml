@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Arabic Natural Language Processing | Shunsuke Kitada</title>
-    <link>https://shunk031.github.io/category/arabic-natural-language-processing/</link>
-      <atom:link href="https://shunk031.github.io/category/arabic-natural-language-processing/index.xml" rel="self" type="application/rss+xml" />
-    <description>Arabic Natural Language Processing</description>
+    <title>NLP for Arabic | Shunsuke Kitada</title>
+    <link>https://shunk031.github.io/category/nlp-for-arabic/</link>
+      <atom:link href="https://shunk031.github.io/category/nlp-for-arabic/index.xml" rel="self" type="application/rss+xml" />
+    <description>NLP for Arabic</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2022 Shunsuke Kitada.</copyright><lastBuildDate>Sun, 21 Jun 2020 21:38:33 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.github.io/media/sharing.png</url>
-      <title>Arabic Natural Language Processing</title>
-      <link>https://shunk031.github.io/category/arabic-natural-language-processing/</link>
+      <title>NLP for Arabic</title>
+      <link>https://shunk031.github.io/category/nlp-for-arabic/</link>
     </image>
     
     <item>

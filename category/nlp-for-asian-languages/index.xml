@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NLP for Asian Languages | Shunsuke Kitada</title>
+    <link>https://shunk031.github.io/category/nlp-for-asian-languages/</link>
+      <atom:link href="https://shunk031.github.io/category/nlp-for-asian-languages/index.xml" rel="self" type="application/rss+xml" />
+    <description>NLP for Asian Languages</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2022 Shunsuke Kitada.</copyright><lastBuildDate>Thu, 17 Mar 2022 10:40:00 +0900</lastBuildDate>
+    <image>
+      <url>https://shunk031.github.io/media/sharing.png</url>
+      <title>NLP for Asian Languages</title>
+      <link>https://shunk031.github.io/category/nlp-for-asian-languages/</link>
+    </image>
+    
+    <item>
+      <title>ViT-CLT: パッチ分割した文字画像から偏旁冠脚を考慮した文書分類</title>
+      <link>https://shunk031.github.io/publication/tsushima2022anlp/</link>
+      <pubDate>Thu, 17 Mar 2022 10:40:00 +0900</pubDate>
+      <guid>https://shunk031.github.io/publication/tsushima2022anlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Text Classification through Glyph-aware Disentangled Character Embedding and Semantic Sub-character Augmentation</title>
+      <link>https://shunk031.github.io/publication/aoki2020text/</link>
+      <pubDate>Sun, 25 Oct 2020 15:15:41 +0900</pubDate>
+      <guid>https://shunk031.github.io/publication/aoki2020text/</guid>
+      <description>&lt;div class=&#34;blogcard&#34;&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fwww.aclweb.org%2fanthology%2f2020.aacl-srw.1%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
+        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>文字単位の解釈可能な潜在表現の data augmentation</title>
+      <link>https://shunk031.github.io/publication/aoki2020nlp/</link>
+      <pubDate>Wed, 18 Mar 2020 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.github.io/publication/aoki2020nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Script-aware embedding を用いた文字表現の獲得</title>
+      <link>https://shunk031.github.io/publication/nagasawa2020nlp/</link>
+      <pubDate>Tue, 17 Mar 2020 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.github.io/publication/nagasawa2020nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>End-to-End Text Classification via Image-based Embedding using Character-level Networks</title>
+      <link>https://shunk031.github.io/publication/kitada2018end/</link>
+      <pubDate>Mon, 08 Oct 2018 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.github.io/publication/kitada2018end/</guid>
+      <description>&lt;div class=&#34;blogcard&#34;&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2farxiv.org%2fabs%2f1810.03595&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
+        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>CE-CLCNN: Character Encoder を用いた Character-level Convolutional Neural Networks によるテキスト分類</title>
+      <link>https://shunk031.github.io/publication/kitada2018nlp/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.github.io/publication/kitada2018nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Character-level Convolutional Neural Networks における Wildcard Training の基礎検討</title>
+      <link>https://shunk031.github.io/publication/kitada2017yans/</link>
+      <pubDate>Tue, 05 Sep 2017 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.github.io/publication/kitada2017yans/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

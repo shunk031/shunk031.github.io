@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>津嶋 祐介 | Shunsuke Kitada</title>
+    <link>https://shunk031.github.io/authors/%E6%B4%A5%E5%B6%8B-%E7%A5%90%E4%BB%8B/</link>
+      <atom:link href="https://shunk031.github.io/authors/%E6%B4%A5%E5%B6%8B-%E7%A5%90%E4%BB%8B/index.xml" rel="self" type="application/rss+xml" />
+    <description>津嶋 祐介</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2022 Shunsuke Kitada.</copyright><lastBuildDate>Thu, 17 Mar 2022 10:40:00 +0900</lastBuildDate>
+    <image>
+      <url>https://shunk031.github.io/media/sharing.png</url>
+      <title>津嶋 祐介</title>
+      <link>https://shunk031.github.io/authors/%E6%B4%A5%E5%B6%8B-%E7%A5%90%E4%BB%8B/</link>
+    </image>
+    
+    <item>
+      <title>ViT-CLT: パッチ分割した文字画像から偏旁冠脚を考慮した文書分類</title>
+      <link>https://shunk031.github.io/publication/tsushima2022anlp/</link>
+      <pubDate>Thu, 17 Mar 2022 10:40:00 +0900</pubDate>
+      <guid>https://shunk031.github.io/publication/tsushima2022anlp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

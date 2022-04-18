@@ -5,12 +5,28 @@
     <link>https://shunk031.github.io/tag/non-refereed/</link>
       <atom:link href="https://shunk031.github.io/tag/non-refereed/index.xml" rel="self" type="application/rss+xml" />
     <description>Non-refereed</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2022 Shunsuke Kitada.</copyright><lastBuildDate>Thu, 02 Sep 2021 20:02:35 +0900</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2022 Shunsuke Kitada.</copyright><lastBuildDate>Thu, 17 Mar 2022 10:40:00 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.github.io/media/sharing.png</url>
       <title>Non-refereed</title>
       <link>https://shunk031.github.io/tag/non-refereed/</link>
     </image>
+    
+    <item>
+      <title>ViT-CLT: パッチ分割した文字画像から偏旁冠脚を考慮した文書分類</title>
+      <link>https://shunk031.github.io/publication/tsushima2022anlp/</link>
+      <pubDate>Thu, 17 Mar 2022 10:40:00 +0900</pubDate>
+      <guid>https://shunk031.github.io/publication/tsushima2022anlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>書き手と読み手の怒りの感情認識の差の原因となる表現の獲得</title>
+      <link>https://shunk031.github.io/publication/nakagawa2022anlp/</link>
+      <pubDate>Thu, 17 Mar 2022 10:40:00 +0900</pubDate>
+      <guid>https://shunk031.github.io/publication/nakagawa2022anlp/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>文章の書き手が持つ感情と読み手が受ける感情の差に関する初期調査および考察</title>
