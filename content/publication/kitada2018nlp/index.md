@@ -19,13 +19,13 @@ publication_types: ["9"]
 publication: "言語処理学会第 24 回年次大会，2018."
 publication_short: "NLP 2018"
 
-abstract: ""
+abstract: "日本語などの単語ごとに明確な区切りがない言語の解析には，一般的に困難な形態素解析を実施した後，それらに対する適切な埋め込みが必要である．また，過学習を抑えるための data augmentation を自然言語処理に適用する場合，意味の解析を要するため通常簡単ではない．本研究ではこれらの問題を低減させ，文書分類を行える end-to-end モデルである character encoder character-levelconvolutional neural networks (CE-CLCNN) を提案する．CE-CLCNN は，解析する文の各文字を画像として扱うことで，文字の形態に着目した優れた埋め込みを実現するだけでなく，画像認識分野の data augmentation が適用可能となる．また，CNN の持つ卓越した学習能力を文書解析に活かせるため，優良な文書解析能力が実現できる．本報告では，CE-CLCNN が公開されているデータセットに対して state-of-the-art の認識精度を実現した．加えて本稿では CE-CLCNN が文書分類を行う際，解析対象のどの部分に着目しているかについても可視化を行って考察した．"
 
 # Summary. An optional shortened abstract.
 summary: "言語処理学会第 24 回年次大会，2018."
 
 tags: ["Domestic Conference", "Non-refereed", "Natural Language Processing", "ANLP"]
-categories: ["Natural Language Processing", "Image-based Character Embedding"]
+categories: ["Natural Language Processing", "Glyph-aware NLP", "NLP for Asian Languages"]
 featured: false
 
 # Custom links (optional).

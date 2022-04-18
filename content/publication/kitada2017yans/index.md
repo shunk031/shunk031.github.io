@@ -25,7 +25,7 @@ abstract: ""
 summary: "NLP 若手の会 (YANS) 第 12 回シンポジウム，2017."
 
 tags: ["Domestic Conference", "Non-refereed", "Natural Language Processing", "YANS"]
-categories: ["Natural Language Processing", "Image-based Character Embedding"]
+categories: ["Natural Language Processing", "Glyph-aware NLP", "NLP for Asian Languages"]
 featured: false
 
 # Custom links (optional).

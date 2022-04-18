@@ -25,7 +25,7 @@ abstract: "This work introduces an image-based character embdeddings model for A
 summary: "言語処理学会第 26 回年次大会，2020."
 
 tags: ["Domestic Conference", "Non-refereed", "Natural Language Processing", "ANLP"]
-categories: ["Natural Language Processing", "Image-based Character Embedding", "Arabic Natural Language Processing"]
+categories: ["Natural Language Processing", "Image-based Character Embedding", "NLP for Arabic"]
 featured: false
 
 # Custom links (optional).
