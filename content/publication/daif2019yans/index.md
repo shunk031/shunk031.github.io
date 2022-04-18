@@ -25,7 +25,7 @@ abstract: ""
 summary: "NLP 若手の会 (YANS) 第 14 回シンポジウム，2019."
 
 tags: ["Domestic Conference", "Non-refereed", "Natural Language Processing", "YANS"]
-categories: ["Natural Language Processing", "Image-based Character Embedding", "Arabic Natural Language Processing"]
+categories: ["Natural Language Processing", "Glyph-aware NLP", "NLP for Arabic"]
 featured: false
 
 # Custom links (optional).

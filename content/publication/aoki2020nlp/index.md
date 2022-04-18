@@ -19,17 +19,17 @@ publication_types: ["9"]
 publication: "言語処理学会第 26 回年次大会，2020."
 publication_short: "NLP 2020"
 
-abstract: " 深層学習ベースのモデルにおいて，日本語や中国語などのアジア圏の言語の解析は単語単位よりも文字単位での処理が効果を上げている.
-しかし，過学習が起きやすいため，過学習抑制手法を適用する必要がある.
-本研究では $\\beta$ -variational auto-encoder ( $\\beta $ -VAE) が各次元独立の低次元確率分布を獲得することを活用し，解釈可能な data augmentation である interpretable wildcard training (IWT) を提案する.
-IWT は $\\beta$-VAE により得られた文字の低次元表現に対して， ガウス分布に従ったノイズを付加させることで，異なる文字の表現生成が可能であり，従来の wildcard training よりも解釈性が高い.
-新聞記事の分類タスクによる評価実験において，IWT による解釈可能な文字表現の獲得ならびに，2% 程度の分類精度向上から，解釈性のある data augmentation の効果を確認した."
+abstract: " 深層学習ベースのモデルにおいて，日本語や中国語などのアジア圏の言語の解析は単語単位よりも文字単位での処理が効果を上げている。
+しかし，過学習が起きやすいため，過学習抑制手法を適用する必要がある。
+本研究では $\\beta$ -variational auto-encoder ( $\\beta $ -VAE) が各次元独立の低次元確率分布を獲得することを活用し，解釈可能な data augmentation である interpretable wildcard training (IWT) を提案する。
+IWT は $\\beta$-VAE により得られた文字の低次元表現に対して， ガウス分布に従ったノイズを付加させることで，異なる文字の表現生成が可能であり，従来の wildcard training よりも解釈性が高い。
+新聞記事の分類タスクによる評価実験において，IWT による解釈可能な文字表現の獲得ならびに，2% 程度の分類精度向上から，解釈性のある data augmentation の効果を確認した。"
 
 # Summary. An optional shortened abstract.
 summary: "言語処理学会第 26 回年次大会，2020."
 
 tags: ["Domestic Conference", "Non-refereed", "ANLP"]
-categories: ["Natural Language Processing", "Image-based Character Embedding"]
+categories: ["Natural Language Processing", "Glyph-aware NLP", "NLP for Asian Languages"]
 featured: false
 
 # Custom links (optional).

@@ -26,7 +26,7 @@ abstract: "For analysing and/or understanding languages having no word boundarie
 summary: "Proc. of IEEE Applied Imagery Pattern Recognition (AIPR) 2018 Workshop"
 
 tags: ["International Conference", "Refereed", "Natural Language Processing", International Publication]
-categories: ["Natural Language Processing", "Image-based Character Embedding"]
+categories: ["Natural Language Processing", "Glyph-aware NLP", "NLP for Asian Languages"]
 featured: false
 
 # Custom links (optional).
