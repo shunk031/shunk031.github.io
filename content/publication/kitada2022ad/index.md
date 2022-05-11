@@ -30,11 +30,11 @@ featured: false
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
-# links:
-# - name: Follow
-#   url: https://twitter.com
-#   icon_pack: fab
-#   icon: twitter
+links:
+- name: Preprint
+  url: https://arxiv.org/abs/2204.11588
+  icon_pack: ai
+  icon: arxiv
 
 url_pdf: https://www.mdpi.com/2076-3417/12/7/3594/pdf
 url_code:
