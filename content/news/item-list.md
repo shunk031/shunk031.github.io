@@ -1,3 +1,4 @@
+- **[2022.05]** [A comment for the admission guide](/post/hosei-university-graduate-school-admission-guide-2023) appeared on the website.
 - **[2022.03]** Accepted [our journal paper](https://www.mdpi.com/2076-3417/12/7/3594) to Applied Sciences.
 - **[2021.12]** Got [Hosei University Research Grant for Doctoral Course Adopters](https://www.hosei.ac.jp/gs/gakuhi/gakuhi-shogakukin/shogakukin/kenkyujoseikin/) in 2021 (480,000 JPY).
 - **[2021.06]** Accepted [our journal paper](https://ieeexplore.ieee.org/document/9467291) to IEEE Access.
