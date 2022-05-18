@@ -37,7 +37,7 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf:
+url_pdf: https://www.anlp.jp/proceedings/annual_meeting/2022/pdf_dir/PH4-13.pdf
 url_code:
 url_dataset:
 url_poster:
