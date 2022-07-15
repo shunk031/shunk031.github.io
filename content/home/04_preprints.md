@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 4
 
-title: Preprints 📝
+title: Preprint 📝
 subtitle: > 
   [All preprint papers >>](/publication/#3)
 
