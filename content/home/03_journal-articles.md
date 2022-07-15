@@ -7,32 +7,32 @@ widget: pages
 headless: true
 
 # Order that this section appears on the page.
-weight: 5
+weight: 3
 
-title: Domestic Conference in Japanese 📝
+title: Journal Article 📝
 subtitle: > 
-  [All domestic conference papers >>](/publication/#9)
+  [All journal articles >>](/publication/#2)
 
 content:
   # Filter on criteria
   filters:
     folders:
       - publication
-    tag: 'Domestic Conference'
+    tag: ''
     category: ''
-    publication_type: ''
+    publication_type: '2'
     author: ''
     exclude_featured: false
     exclude_future: false
     exclude_past: false
   # Choose how many pages you would like to display (0 = all pages)
-  count: 10
+  count: 5
   # Choose how many pages you would like to offset by
   offset: 0
   # Page order: descending (desc) or ascending (asc) date.
   order: desc
 design:
   # Choose a view for the listings:
-  view: citation
+  view: compact
   columns: '2'
 ---

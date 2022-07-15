@@ -9,9 +9,9 @@ headless: true
 # Order that this section appears on the page.
 weight: 4
 
-title: Preprint 📝
+title: Conference Paper (Refereed) 📝
 subtitle: > 
-  [All preprint papers >>](/publication/#3)
+  [All conference papers >>](/publication/#1)
 
 content:
   # Filter on criteria
@@ -20,7 +20,7 @@ content:
       - publication
     tag: ''
     category: ''
-    publication_type: '3'
+    publication_type: '1'
     author: ''
     exclude_featured: false
     exclude_future: false
