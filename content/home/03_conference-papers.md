@@ -7,20 +7,20 @@ widget: pages
 headless: true
 
 # Order that this section appears on the page.
-weight: 3
+weight: 4
 
-title: International Journal and Conference 📝
+title: Conference Paper (Refereed) 📝
 subtitle: > 
-  All [journal](/publication/#2) and [conference](/publication/#1) papers >>
+  [All conference papers >>](/publication/#1)
 
 content:
   # Filter on criteria
   filters:
     folders:
       - publication
-    tag: 'International Publication'
+    tag: ''
     category: ''
-    publication_type: ''
+    publication_type: '1'
     author: ''
     exclude_featured: false
     exclude_future: false

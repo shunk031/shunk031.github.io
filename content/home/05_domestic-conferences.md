@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 5
 
-title: Domestic Conference in Japanese 📝
+title: Domestic Conference / Presentation in Japan 🇯🇵
 subtitle: > 
   [All domestic conference papers >>](/publication/#9)
 

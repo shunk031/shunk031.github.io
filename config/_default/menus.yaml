@@ -13,8 +13,24 @@ main:
     weight: 2
 
   - name: 📝 Publications
-    url: '#03_international-publications'
+    identifier: publications
     weight: 3
+  - name: Journal Article
+    parent: publications
+    url: '#03_journal-articles'
+    weight: 1
+  - name: Conference Paper
+    parent: publications
+    url: '#03_conference-papers'
+    weight: 2
+  - name: Preprint
+    parent: publications
+    url: '#04_preprints'
+    weight: 3
+  - name: Domestic Conference Paper / Presentation
+    parent: publications
+    url: '#05_domestic-conferences'
+    weight: 4
 
   - name: 🎙️ Talks
     url: '#06_talks'
