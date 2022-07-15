@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 3
 
-title: Journal Artcile 📝
+title: Journal Article 📝
 subtitle: > 
   [All journal articles >>](/publication/#2)
 
