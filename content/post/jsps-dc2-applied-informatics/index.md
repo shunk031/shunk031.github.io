@@ -5,7 +5,7 @@ title: "北田俊輔さん (D2), 日本学術振興会特別研究員に"
 subtitle: ""
 summary: "https://ai.ws.hosei.ac.jp/wp/news/news20210408/"
 authors: ["Shunsuke Kitada"]
-tags: ["Interview"]
+tags: ["Interview", "Hosei University", "DC", "JSPS"]
 categories: ["Interview"]
 date: 2021-04-08T00:00:00+09:00
 lastmod: 2021-04-08T23:26:31+09:00
