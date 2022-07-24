@@ -5,7 +5,7 @@ title: "日本学術振興会特別研究員 (DC2) 申請書・学振"
 subtitle: ""
 summary: "補欠繰り上げで 2021 年度学振特別研究員 DC2 に採用していただいた際の申請書です。"
 authors: ["Shunsuke Kitada"]
-tags: ["DC", "JSPS"]
+tags: ["DC", "JSPS", "Hosei University"]
 categories: ["DC"]
 date: 2021-02-27T21:10:22+09:00
 lastmod: 2021-02-27T21:10:22+09:00

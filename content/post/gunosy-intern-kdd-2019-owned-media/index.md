@@ -5,7 +5,7 @@ title: "インターン生も所属！Gunosy 研究チームの組織作りと�
 subtitle: ""
 summary: "https://www.wantedly.com/companies/gunosy/post_articles/181818"
 authors: ["Shunsuke Kitada", "Yoshifumi Seki"]
-tags: ["Interview", "Gunosy"]
+tags: ["Interview", "Gunosy", "Hosei University"]
 categories: ["Interview"]
 date: 2019-08-09T00:00:00+09:00
 lastmod: 2021-04-29T13:33:32+09:00

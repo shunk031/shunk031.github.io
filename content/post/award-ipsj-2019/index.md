@@ -5,7 +5,7 @@ title: "理工学研究科在学生の北田俊輔氏が「学生奨励賞」を
 subtitle: ""
 summary: "https://www.hosei.ac.jp/gs/NEWS/topics/jusho/190411_4"
 authors: ["Shunsuke Kitada"]
-tags: ["Award"]
+tags: ["Award", "Hosei University"]
 categories: []
 date: 2019-04-11T00:00:00+09:00
 lastmod: 2021-04-08T23:15:34+09:00

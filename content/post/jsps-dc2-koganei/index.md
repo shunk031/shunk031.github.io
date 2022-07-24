@@ -5,7 +5,7 @@ title: "理工学研究科の北田俊輔氏が日本学術振興会特別研究
 subtitle: ""
 summary: "https://www.hosei.ac.jp/koganei/pickup/article-20210305121330/"
 authors: ["Shunsuke Kitada"]
-tags: ["Interview"]
+tags: ["Interview", "Hosei University", "DC", "JSPS"]
 categories: ["Interview"]
 date: 2021-03-05T00:00:00+09:00
 lastmod: 2021-04-08T23:22:23+09:00
