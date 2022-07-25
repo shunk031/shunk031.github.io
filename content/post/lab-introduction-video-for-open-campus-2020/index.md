@@ -5,7 +5,7 @@ title: "理工学部応用情報工学科　彌冨仁先生「私たちの生活
 subtitle: ""
 summary: "2020 年度のオープンキャンパスに際して、応用情報工学科の学科代表として所属研究室の紹介動画が公開されました。"
 authors: ["Shunsuke Kitada"]
-tags: ["Hosei University"]
+tags: ["Hosei University", "Youtube"]
 categories: ["Youtube"]
 date: 2020-08-24T00:00:00+09:00
 lastmod: 2022-07-25T00:13:44+09:00
