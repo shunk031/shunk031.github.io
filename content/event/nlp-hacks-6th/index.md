@@ -24,7 +24,7 @@ all_day: false
 publishDate: 2022-07-22T20:30:00+09:00
 
 authors: ["Shunsuke Kitada"]
-tags: ["Lightning Talk", "NLP", "AllenNLP"]
+tags: ["Lightning Talk", "NLP", "AllenNLP", "Youtube"]
 
 # Is this a featured event? (true/false)
 featured: false
