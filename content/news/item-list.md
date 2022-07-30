@@ -1,3 +1,4 @@
+- **[2022.07]** Got JASSO Scholarship for Top 30% Excellent Graduate School Students from Japan Student Services Organization.
 - **[2022.05]** [A comment for the admission guide](/post/hosei-university-graduate-school-admission-guide-2023) appeared on the website.
 - **[2022.03]** Accepted [our journal paper](https://www.mdpi.com/2076-3417/12/7/3594) to Applied Sciences.
 - **[2021.12]** Got [Hosei University Research Grant for Doctoral Course Adopters](https://www.hosei.ac.jp/gs/gakuhi/gakuhi-shogakukin/shogakukin/kenkyujoseikin/) in 2021 (480,000 JPY).
@@ -8,7 +9,7 @@
 - **[2021.02]** Adopted Japan Society for the Promotion of Science (JSPS) [Research Fellowship for Young Scientists (DC2)](https://www.jsps.go.jp/english/e-pd/index.html) (200,000 JPY / month).
 - **[2020.12]** Got [Hosei University Research Grant for Doctoral Course Adopters](https://www.hosei.ac.jp/gs/gakuhi/gakuhi-shogakukin/shogakukin/kenkyujoseikin/) in 2020 (480,000 JPY).
 - **[2020.10]** Accepted [our paper](https://arxiv.org/abs/2011.04184) to AACL-IJCNLP2020 Student Research Workshop.
-- **[2020.07]** Got JASSO Scholarship for Top 10% Excellent Master Students from Japan Student Services Organization.
+- **[2020.07]** Got JASSO Scholarship for Top 10% Excellent Graduate School Students from Japan Student Services Organization.
 - **[2020.06]** [Invited talk](https://confit.atlas.jp/guide/event/jsai2020/subject/1H3-OS-12a-05/tables) on Organized Session in The 34th Annual Conference of the Japanese Society for Artificial Intelligence.
 - **[2020.04]** Accepted [our paper](https://arxiv.org/abs/2006.11586) to ACL2020 Student Research Workshop.
 - **[2020.01]** Interviewed by Nikkan Kogyo Shimbun, Ltd ([the article](https://newswitch.jp/p/20932?fbclid=IwAR3XO7LkdZhhCFj9YxqFY4Me7kcbO8lCoBs39RvCCdUAHr7pFDc42PoVQXw)).
