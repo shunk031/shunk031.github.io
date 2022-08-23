@@ -23,6 +23,14 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
   - title: Research Internship
+    company: LINE Corporation
+    company_url: 'https://linecorp.com/en/'
+    location: Yotsuya, Tokyo, Japan
+    date_start: '2022-08-22'
+    date_end: '2022-09-30'
+
+experience:
+  - title: Research Internship
     company: NTT Human Informatics Laboratories
     company_url: 'https://www.rd.ntt/e/hil/'
     # company_logo: ntt
