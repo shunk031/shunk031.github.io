@@ -30,6 +30,7 @@ jobs:
           cmd_params: "\
             --timeout=20 \
             --max-connections=10 \
+            --max-response-body-size=70000000 \
             -e linkedin.com \
             -e twitter.com \
             -e facebook.com \
