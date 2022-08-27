@@ -21,15 +21,20 @@ date_format: Jan 2006
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+
 experience:
+
   - title: Research Internship
     company: LINE Corporation
     company_url: 'https://linecorp.com/en/'
     location: Yotsuya, Tokyo, Japan
     date_start: '2022-08-22'
     date_end: '2022-09-30'
+    description: |2-
+      - Supervisor: Mr. Masayoshi Kondo and Dr. Yoshihisa Ijiri
+      - Topic: Vision-and-language models for advertising
+      - Worked on establishing a new technology for automatic generation of advertising videos using images
 
-experience:
   - title: Research Internship
     company: NTT Human Informatics Laboratories
     company_url: 'https://www.rd.ntt/e/hil/'
