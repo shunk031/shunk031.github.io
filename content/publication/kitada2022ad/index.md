@@ -24,7 +24,7 @@ abstract: "Discontinuing ad creatives at an appropriate time is one of the most 
 # Summary. An optional shortened abstract.
 summary: "Appl. Sci. (**Impact Factor: 2.838** in 2021)"
 
-tags: ["Journal", "International Publication", "Computational Advertising", "Gunosy", "Referred", "Open Access", "MDPI", ""]
+tags: ["Journal", "International Publication", "Computational Advertising", "Gunosy", "Referred", "Open Access", "MDPI"]
 categories: ["Computational Advertising"]
 featured: false
 
