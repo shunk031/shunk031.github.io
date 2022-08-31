@@ -43,7 +43,7 @@ links:
   icon_pack: ai
   icon: arxiv
 
-url_pdf: https://dl.acm.org/doi/10.1145/3511808.3557599
+# url_pdf: https://dl.acm.org/doi/10.1145/3511808.3557599
 url_code:
 url_dataset:
 url_poster:
