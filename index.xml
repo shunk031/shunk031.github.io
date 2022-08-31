@@ -5,12 +5,26 @@
     <link>https://shunk031.github.io/</link>
       <atom:link href="https://shunk031.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Shunsuke Kitada</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2022 Shunsuke Kitada.</copyright><lastBuildDate>Fri, 22 Jul 2022 19:30:00 +0900</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2022 Shunsuke Kitada.</copyright><lastBuildDate>Tue, 02 Aug 2022 14:18:12 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.github.io/media/sharing.png</url>
       <title>Shunsuke Kitada</title>
       <link>https://shunk031.github.io/</link>
     </image>
+    
+    <item>
+      <title>Expressions Causing Differences in Emotion Recognition in Social Networking Service Documents</title>
+      <link>https://shunk031.github.io/publication/nakagawa2022expressions/</link>
+      <pubDate>Tue, 02 Aug 2022 14:18:12 +0900</pubDate>
+      <guid>https://shunk031.github.io/publication/nakagawa2022expressions/</guid>
+      <description>&lt;div class=&#34;blogcard&#34;&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=http%3a%2f%2farxiv.org%2fabs%2f2208.14244&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
+        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
     
     <item>
       <title>Introduction to AllenNLP to accelerate NLP research</title>
