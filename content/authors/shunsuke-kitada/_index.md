@@ -80,9 +80,9 @@ social:
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+- icon: cv
+  icon_pack: ai
+  link: https://github.com/shunk031/cv/releases/latest/download/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "shunsuke.kitada.0831@gmail.com"
@@ -92,6 +92,9 @@ email: "shunsuke.kitada.0831@gmail.com"
 user_groups:
 - Researchers
 - Visitors
+
+# Highlight the author in author lists? (true/false)
+highlight_name: true
 ---
 
 Shunsuke Kitada （北田 俊輔 in Japanese) is a Ph.D student at Major in applied informatics, graduate school of science and engineering, Hosei University under the supervision of Prof. [Hitoshi Iyatomi](http://iyatomi-lab.info/front-e.html).

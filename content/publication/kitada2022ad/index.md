@@ -3,6 +3,7 @@
 
 title: "Ad Creative Discontinuation Prediction with Multi-Modal Multi-Task Neural Survival Networks"
 authors: ["Shunsuke Kitada", "Hitoshi Iyatomi", "Yoshifumi Seki"]
+author_notes: ["This work was conducted during the first author's internship at Gunosy Inc."]
 date: 2022-04-04T00:35:42+09:00
 doi: "10.3390/app12073594"
 
