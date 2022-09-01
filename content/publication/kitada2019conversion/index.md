@@ -3,6 +3,7 @@
 
 title: "Conversion Prediction Using Multi-task Conditional Attention Networks to Support the Creation of Effective Ad Creative"
 authors: ["Shunsuke Kitada", "Hitoshi Iyatomi", "Yoshifumi Seki"]
+author_notes: ["This work was conducted during the first author's internship at Gunosy Inc."]
 date: 2019-05-27T00:00:00+09:00
 doi: "10.1145/3292500.3330789"
 
@@ -35,19 +36,24 @@ links:
   url: https://arxiv.org/abs/1905.07289
   icon_pack: ai
   icon: arxiv
+
 - name: Code
   url: https://github.com/shunk031/Multi-task-Conditional-Attention-Networks
   icon_pack: fab
   icon: github
+
 - name: Video
   url: https://www.youtube.com/watch?v=bSVJG0R5TRk
   icon_pack: fab
   icon: youtube
+  
+- name: Blitz presentation
+  url: publication/kitada2019conversion/blitz.pdf
 
 url_pdf: https://dl.acm.org/doi/10.1145/3292500.3330789
 url_code:
 url_dataset:
-url_poster:
+url_poster: publication/kitada2019conversion/poster.pdf
 url_project:
 url_slides:
 url_source:
