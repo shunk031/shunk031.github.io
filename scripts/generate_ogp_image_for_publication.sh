@@ -2,6 +2,14 @@
 
 set -eu
 
+function check_tcardgen() {
+    if ! command -v tcardgen &>/dev/null; then
+        echo "The \`tcardgen\` command could not be found."
+        echo "Please install the command: \`go install github.com/shunk031/tcardgen@latest\`"
+        exit
+    fi
+}
+
 function generate_ogp_image() {
     local publication="$1"
     local fond_dir="assets/fonts/"
@@ -18,6 +26,7 @@ function generate_ogp_image() {
 }
 
 function main() {
+    check_tcardgen
     generate_ogp_image "$1"
 }
 
