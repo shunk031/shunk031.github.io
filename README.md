@@ -47,6 +47,16 @@ $ hugo new --kind publication publication/name2020conf
 $ convert paper.pdf[0] -resize 640x640^ -crop 640x480+0+0 -alpha remove featured.png
 ```
 
+### Generate OGP image for the publication
+
+```sh
+$ ./scripts/generate_ogp_image_for_publication.sh kitada20XXconf
+
+# Load fonts from "assets/fonts/"
+# Load template from "assets/ogp/tcardgen-template.png" directory
+# Success to generate twitter card into content/publication/kitada20XXconf/featured.png
+```
+
 ### Available Icons
 
 - See https://wowchemy.com/docs/page-builder/#icons for more details

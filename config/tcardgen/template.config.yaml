@@ -1,0 +1,42 @@
+title:
+  start:
+    px: 32
+    py: 201
+  fgHexColor: "#000000"
+  fontSize: 78
+  fontStyle: Bold
+  maxWidth: 1145
+  lineSpacing: 10
+
+category:
+  start:
+    px: 63
+    py: 128
+  fgHexColor: "#FFFFFF"
+  fontSize: 30
+  fontStyle: Light
+
+info:
+  start:
+    px: 32
+    py: 570
+  fgHexColor: "#A0A0A0"
+  fontSize: 38
+  fontStyle: Bold
+  separator: " - "
+
+tags:
+  start:
+    px: 32
+    py: 490
+  fgHexColor: "#0000ED"
+  bgHexColor: "#eeeeeeff"
+  fontSize: 25
+  fontStyle: Regular
+  boxAlign: Left
+  boxSpacing: 15
+  boxPadding:
+    top: 6
+    right: 10
+    bottom: 6
+    left: 8
