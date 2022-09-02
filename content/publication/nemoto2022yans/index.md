@@ -19,10 +19,8 @@ publication_types: ["0"]
 publication: "NLP 若手の会 (YANS) 第 17 回シンポジウム，2022."
 publication_short: "YANS 2022"
 
-summary: "NLP 若手の会 (YANS) 第 17 回シンポジウム，2022."
-
 # Summary. An optional shortened abstract.
-summary: ""
+summary: "NLP 若手の会 (YANS) 第 17 回シンポジウム，2022."
 
 tags: ["Named Entity Recognition", "Domestic Conference", "Non-refereed", "YANS"]
 categories: ["Natural Language Processing", "Imbalanced dataset", "Named Entity Recognition"]
