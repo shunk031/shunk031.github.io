@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>井上 直人 | Shunsuke Kitada</title>
+    <link>https://shunk031.github.io/authors/%E4%BA%95%E4%B8%8A-%E7%9B%B4%E4%BA%BA/</link>
+      <atom:link href="https://shunk031.github.io/authors/%E4%BA%95%E4%B8%8A-%E7%9B%B4%E4%BA%BA/index.xml" rel="self" type="application/rss+xml" />
+    <description>井上 直人</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2022 Shunsuke Kitada.</copyright><lastBuildDate>Fri, 02 Sep 2022 10:10:47 +0900</lastBuildDate>
+    <image>
+      <url>https://shunk031.github.io/media/sharing.png</url>
+      <title>井上 直人</title>
+      <link>https://shunk031.github.io/authors/%E4%BA%95%E4%B8%8A-%E7%9B%B4%E4%BA%BA/</link>
+    </image>
+    
+    <item>
+      <title>Document AI タスクに向けた大規模事前学習済みモデルを活用した Layout-aware Prompting</title>
+      <link>https://shunk031.github.io/publication/kitada2022yans/</link>
+      <pubDate>Fri, 02 Sep 2022 10:10:47 +0900</pubDate>
+      <guid>https://shunk031.github.io/publication/kitada2022yans/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

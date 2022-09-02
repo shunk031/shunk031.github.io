@@ -5,12 +5,20 @@
     <link>https://shunk031.github.io/tag/cyberagent/</link>
       <atom:link href="https://shunk031.github.io/tag/cyberagent/index.xml" rel="self" type="application/rss+xml" />
     <description>CyberAgent</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2022 Shunsuke Kitada.</copyright><lastBuildDate>Thu, 16 Sep 2021 18:51:58 +0900</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2022 Shunsuke Kitada.</copyright><lastBuildDate>Fri, 02 Sep 2022 10:10:47 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.github.io/media/sharing.png</url>
       <title>CyberAgent</title>
       <link>https://shunk031.github.io/tag/cyberagent/</link>
     </image>
+    
+    <item>
+      <title>Document AI タスクに向けた大規模事前学習済みモデルを活用した Layout-aware Prompting</title>
+      <link>https://shunk031.github.io/publication/kitada2022yans/</link>
+      <pubDate>Fri, 02 Sep 2022 10:10:47 +0900</pubDate>
+      <guid>https://shunk031.github.io/publication/kitada2022yans/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>人生が変わる研究インターンシップ 社会実装に触れて広がる研究キャリアとは</title>

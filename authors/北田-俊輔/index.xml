@@ -5,12 +5,28 @@
     <link>https://shunk031.github.io/authors/%E5%8C%97%E7%94%B0-%E4%BF%8A%E8%BC%94/</link>
       <atom:link href="https://shunk031.github.io/authors/%E5%8C%97%E7%94%B0-%E4%BF%8A%E8%BC%94/index.xml" rel="self" type="application/rss+xml" />
     <description>北田 俊輔</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2022 Shunsuke Kitada.</copyright><lastBuildDate>Thu, 17 Mar 2022 10:40:00 +0900</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2022 Shunsuke Kitada.</copyright><lastBuildDate>Fri, 02 Sep 2022 10:10:53 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.github.io/media/sharing.png</url>
       <title>北田 俊輔</title>
       <link>https://shunk031.github.io/authors/%E5%8C%97%E7%94%B0-%E4%BF%8A%E8%BC%94/</link>
     </image>
+    
+    <item>
+      <title>固有表現認識タスクにおけるデータセットの偏りに着目した動的重み付け損失関数の提案</title>
+      <link>https://shunk031.github.io/publication/nemoto2022yans/</link>
+      <pubDate>Fri, 02 Sep 2022 10:10:53 +0900</pubDate>
+      <guid>https://shunk031.github.io/publication/nemoto2022yans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Document AI タスクに向けた大規模事前学習済みモデルを活用した Layout-aware Prompting</title>
+      <link>https://shunk031.github.io/publication/kitada2022yans/</link>
+      <pubDate>Fri, 02 Sep 2022 10:10:47 +0900</pubDate>
+      <guid>https://shunk031.github.io/publication/kitada2022yans/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>ViT-CLT: パッチ分割した文字画像から偏旁冠脚を考慮した文書分類</title>

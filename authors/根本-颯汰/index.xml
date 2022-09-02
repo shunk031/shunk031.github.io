@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>根本 颯汰 | Shunsuke Kitada</title>
+    <link>https://shunk031.github.io/authors/%E6%A0%B9%E6%9C%AC-%E9%A2%AF%E6%B1%B0/</link>
+      <atom:link href="https://shunk031.github.io/authors/%E6%A0%B9%E6%9C%AC-%E9%A2%AF%E6%B1%B0/index.xml" rel="self" type="application/rss+xml" />
+    <description>根本 颯汰</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2022 Shunsuke Kitada.</copyright><lastBuildDate>Fri, 02 Sep 2022 10:10:53 +0900</lastBuildDate>
+    <image>
+      <url>https://shunk031.github.io/media/sharing.png</url>
+      <title>根本 颯汰</title>
+      <link>https://shunk031.github.io/authors/%E6%A0%B9%E6%9C%AC-%E9%A2%AF%E6%B1%B0/</link>
+    </image>
+    
+    <item>
+      <title>固有表現認識タスクにおけるデータセットの偏りに着目した動的重み付け損失関数の提案</title>
+      <link>https://shunk031.github.io/publication/nemoto2022yans/</link>
+      <pubDate>Fri, 02 Sep 2022 10:10:53 +0900</pubDate>
+      <guid>https://shunk031.github.io/publication/nemoto2022yans/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
