@@ -19,7 +19,8 @@ publication_types: ["9"]
 publication: "NLP 若手の会 (YANS) 第 12 回シンポジウム，2017."
 publication_short: "YANS 2017"
 
-abstract: ""
+abstract: "文書を分かち書きせず文字単位で扱う Character-level Convolutional Neural Networks(CLCNN) は，その表現能力ゆえに学習データに対して過学習を引き起こしてしまう． 本研究では，文字画像による Character-level Embeddig を CLCNN で学習させる際に，入力文字表現の一部をランダムにワイルドカードとして入力させる「Wildcard Training」についてより詳細に検討し，過学習を抑制する手法を模索する．
+"
 
 # Summary. An optional shortened abstract.
 summary: "NLP 若手の会 (YANS) 第 12 回シンポジウム，2017."
@@ -51,7 +52,7 @@ url_video:
 image:
   caption: ""
   focal_point: ""
-  preview_only: false
+  preview_only: true
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.

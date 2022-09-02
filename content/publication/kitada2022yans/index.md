@@ -4,11 +4,11 @@
 title: "Document AI タスクに向けた大規模事前学習済みモデルを活用した Layout-aware Prompting"
 authors: ["北田 俊輔", "井上 直人", "大谷 まゆ", "彌冨 仁"]
 author_notes: ["株式会社 CyberAgent でのリサーチインターンの成果"]
-date: 2022-09-02T10:10:47+09:00
+date: 2022-08-29T00:00:00+09:00
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2022-09-02T10:10:47+09:00
+publishDate: 2022-08-29T00:00:00+09:00
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -52,7 +52,7 @@ url_video:
 image:
   caption: ""
   focal_point: ""
-  preview_only: false
+  preview_only: true
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
