@@ -2,7 +2,8 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "広告クリエイティブ自動生成にむけたマルチタスク学習と Conditional Attention による CVR 予測"
-authors: ["北田 俊輔", "彌冨 仁"]
+authors: ["北田 俊輔", "彌冨 仁", "関 喜史"]
+author_notes: ["株式会社 Gunosy でのリサーチインターンの成果"]
 date: 2019-03-13T00:00:00+09:00
 doi: ""
 
