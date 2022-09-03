@@ -20,7 +20,13 @@ publication_types: ["9"]
 publication: "NLP 若手の会 (YANS) 第 17 回シンポジウム，2022."
 publication_short: "YANS 2022"
 
-abstract: ""
+abstract: "テキストや画像を始め、イラストやグラフといったオブジェクトを含む視覚的に豊かな文書を自動的に読み取り、理解・分析を目指す document AI タスクが近年注目されている。
+文書を理解する上で中心となるのが文書内のテキスト理解であり、昨今注目されている大規模事前学習済み言語モデルの prompting 技術の活用が期待できる。
+視覚的に豊かな document AI タスクでは、上記理解に加えて文書中に存在するテキストのレイアウト情報が文書理解をする上で重要な役割を担っている。
+本研究ではテキストのレイアウト情報を考慮した prompting 技術である、layout-aware prompting (LAP) を提案する。
+LAP は広く公開されている GPT に対して、テキストのレイアウト情報を埋め込んだ layout embedding を加えるだけの非常にシンプルかつ効果的な手法である。
+評価実験では、インフォグラフィックに対する視覚質問応答タスクを利用し、document AI に関する事前学習に大きく依存する既存研究と同程度の解答性能を実現した。
+"
 
 # Summary. An optional shortened abstract.
 summary: "NLP 若手の会 (YANS) 第 17 回シンポジウム，2022."
