@@ -12,7 +12,9 @@ address:
   postcode:
   country: Japan
 summary: 理工学部 応用情報工学科 知的情報処理研究室 の研究室紹介です
-abstract:
+abstract: "法政大学の理系学部の研究・技術の内容・成果を展示等で披露する法政科学技術フォーラムが 2019 年 9/15（日）に開催されました。
+当日は、4 学部 13 学科による 30 研究室、2 研究所の合計 32 のポスターセッション 及びデモンストレーションが実施されました。
+"
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -49,7 +51,7 @@ links:
 url_slides:
 
 url_code:
-url_pdf:
+url_pdf: https://www.hosei.ac.jp/documents/gakubu/riko/pdf/20190729_forlam.pdf
 url_video:
 
 # Markdown Slides (optional).
