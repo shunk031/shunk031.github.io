@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Riku Togashi | Shunsuke Kitada</title>
+    <link>https://shunk031.github.io/authors/riku-togashi/</link>
+      <atom:link href="https://shunk031.github.io/authors/riku-togashi/index.xml" rel="self" type="application/rss+xml" />
+    <description>Riku Togashi</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2022 Shunsuke Kitada.</copyright><lastBuildDate>Wed, 07 Sep 2022 00:00:00 +0900</lastBuildDate>
+    <image>
+      <url>https://shunk031.github.io/media/sharing.png</url>
+      <title>Riku Togashi</title>
+      <link>https://shunk031.github.io/authors/riku-togashi/</link>
+    </image>
+    
+    <item>
+      <title>DM$^2$S$^2$: Deep Multi-Modal Sequence Sets with Hierarchical Modality Attention</title>
+      <link>https://shunk031.github.io/publication/kitada2022dm2s2/</link>
+      <pubDate>Wed, 07 Sep 2022 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.github.io/publication/kitada2022dm2s2/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

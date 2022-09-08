@@ -4,9 +4,35 @@
   
   
   <url>
-    <loc>https://shunk031.github.io/publication-type/0/</loc><lastmod>2022-09-03T11:13:19+09:00</lastmod></url>
+    <loc>https://shunk031.github.io/publication-type/3/</loc><lastmod>2022-09-09T01:29:25+09:00</lastmod></url>
   <url>
-    <loc>https://shunk031.github.io/categories/</loc><lastmod>2022-09-07T11:59:41+09:00</lastmod></url>
+    <loc>https://shunk031.github.io/category/attention-mechanisms/</loc><lastmod>2022-09-09T01:29:25+09:00</lastmod></url>
+  <url>
+    <loc>https://shunk031.github.io/categories/</loc><lastmod>2022-09-09T01:29:25+09:00</lastmod></url>
+  <url>
+    <loc>https://shunk031.github.io/publication/kitada2022dm2s2/</loc><lastmod>2022-09-09T01:29:25+09:00</lastmod></url>
+  <url>
+    <loc>https://shunk031.github.io/authors/hitoshi-iyatomi/</loc><lastmod>2022-09-09T01:29:25+09:00</lastmod></url>
+  <url>
+    <loc>https://shunk031.github.io/category/multi-modal-model/</loc><lastmod>2022-09-09T01:29:25+09:00</lastmod></url>
+  <url>
+    <loc>https://shunk031.github.io/category/natural-language-processing/</loc><lastmod>2022-09-09T01:29:25+09:00</lastmod></url>
+  <url>
+    <loc>https://shunk031.github.io/tag/preprint/</loc><lastmod>2022-09-09T01:29:25+09:00</lastmod></url>
+  <url>
+    <loc>https://shunk031.github.io/publication_types/</loc><lastmod>2022-09-09T01:29:25+09:00</lastmod></url>
+  <url>
+    <loc>https://shunk031.github.io/authors/riku-togashi/</loc><lastmod>2022-09-09T01:29:25+09:00</lastmod></url>
+  <url>
+    <loc>https://shunk031.github.io/</loc><lastmod>2022-09-09T01:29:25+09:00</lastmod></url>
+  <url>
+    <loc>https://shunk031.github.io/tags/</loc><lastmod>2022-09-09T01:29:25+09:00</lastmod></url>
+  <url>
+    <loc>https://shunk031.github.io/category/vision-language/</loc><lastmod>2022-09-09T01:29:25+09:00</lastmod></url>
+  <url>
+    <loc>https://shunk031.github.io/authors/yuki-iwazaki/</loc><lastmod>2022-09-09T01:29:25+09:00</lastmod></url>
+  <url>
+    <loc>https://shunk031.github.io/publication-type/0/</loc><lastmod>2022-09-03T11:13:19+09:00</lastmod></url>
   <url>
     <loc>https://shunk031.github.io/tag/domestic-conference/</loc><lastmod>2022-09-07T11:59:41+09:00</lastmod></url>
   <url>
@@ -16,15 +42,7 @@
   <url>
     <loc>https://shunk031.github.io/category/named-entity-recognition/</loc><lastmod>2022-09-03T11:13:19+09:00</lastmod></url>
   <url>
-    <loc>https://shunk031.github.io/category/natural-language-processing/</loc><lastmod>2022-09-07T11:59:41+09:00</lastmod></url>
-  <url>
     <loc>https://shunk031.github.io/tag/non-refereed/</loc><lastmod>2022-09-07T11:59:41+09:00</lastmod></url>
-  <url>
-    <loc>https://shunk031.github.io/publication_types/</loc><lastmod>2022-09-07T11:59:41+09:00</lastmod></url>
-  <url>
-    <loc>https://shunk031.github.io/</loc><lastmod>2022-09-07T23:56:49+09:00</lastmod></url>
-  <url>
-    <loc>https://shunk031.github.io/tags/</loc><lastmod>2022-09-07T23:56:49+09:00</lastmod></url>
   <url>
     <loc>https://shunk031.github.io/tag/yans/</loc><lastmod>2022-09-03T11:13:19+09:00</lastmod></url>
   <url>
@@ -44,11 +62,7 @@
   <url>
     <loc>https://shunk031.github.io/publication/kitada2022yans/</loc><lastmod>2022-09-03T10:37:28+09:00</lastmod></url>
   <url>
-    <loc>https://shunk031.github.io/category/multi-modal-model/</loc><lastmod>2022-09-03T10:37:28+09:00</lastmod></url>
-  <url>
     <loc>https://shunk031.github.io/tag/vision-language/</loc><lastmod>2022-09-03T10:37:28+09:00</lastmod></url>
-  <url>
-    <loc>https://shunk031.github.io/category/vision-language/</loc><lastmod>2022-09-03T10:37:28+09:00</lastmod></url>
   <url>
     <loc>https://shunk031.github.io/authors/%E4%BA%95%E4%B8%8A-%E7%9B%B4%E4%BA%BA/</loc><lastmod>2022-09-03T10:37:28+09:00</lastmod></url>
   <url>
@@ -57,8 +71,6 @@
     <loc>https://shunk031.github.io/publication-type/1/</loc><lastmod>2022-09-02T00:57:26+09:00</lastmod></url>
   <url>
     <loc>https://shunk031.github.io/publication/nakagawa2022expressions/</loc><lastmod>2022-08-31T10:11:12+09:00</lastmod></url>
-  <url>
-    <loc>https://shunk031.github.io/authors/hitoshi-iyatomi/</loc><lastmod>2022-09-03T01:47:34+09:00</lastmod></url>
   <url>
     <loc>https://shunk031.github.io/tag/international-conference/</loc><lastmod>2022-09-02T00:57:26+09:00</lastmod></url>
   <url>
@@ -158,8 +170,6 @@
   <url>
     <loc>https://shunk031.github.io/category/adversarial-training/</loc><lastmod>2022-09-03T01:47:34+09:00</lastmod></url>
   <url>
-    <loc>https://shunk031.github.io/category/attention-mechanisms/</loc><lastmod>2022-04-10T13:30:57+09:00</lastmod></url>
-  <url>
     <loc>https://shunk031.github.io/publication/kitada2021attention/</loc><lastmod>2022-04-10T13:30:57+09:00</lastmod></url>
   <url>
     <loc>https://shunk031.github.io/tag/ieee/</loc><lastmod>2022-04-10T13:30:57+09:00</lastmod></url>
@@ -176,11 +186,7 @@
   <url>
     <loc>https://shunk031.github.io/authors/%E9%96%A2-%E5%96%9C%E5%8F%B2/</loc><lastmod>2022-09-03T01:47:34+09:00</lastmod></url>
   <url>
-    <loc>https://shunk031.github.io/publication-type/3/</loc><lastmod>2021-10-03T15:14:40+09:00</lastmod></url>
-  <url>
     <loc>https://shunk031.github.io/publication/kitada2021making/</loc><lastmod>2021-10-03T15:14:40+09:00</lastmod></url>
-  <url>
-    <loc>https://shunk031.github.io/tag/preprint/</loc><lastmod>2021-10-03T15:14:40+09:00</lastmod></url>
   <url>
     <loc>https://shunk031.github.io/category/virtual-adversarial-training/</loc><lastmod>2022-09-03T01:47:34+09:00</lastmod></url>
   <url>
