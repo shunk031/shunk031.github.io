@@ -3,6 +3,7 @@
 
 title: "DM$^2$S$^2$: Deep Multi-Modal Sequence Sets with Hierarchical Modality Attention"
 authors: ["Shunsuke Kitada", "Yuki Iwazaki", "Riku Togashi", "Hitoshi Iyatomi"]
+author_notes: ["This work was conducted during the first author's internship at CyberAgent Inc."]
 date: 2022-09-07T00:00:00+09:00
 doi: ""
 
