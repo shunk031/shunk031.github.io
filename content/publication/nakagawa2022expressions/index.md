@@ -47,7 +47,7 @@ links:
 # url_pdf: https://dl.acm.org/doi/10.1145/3511808.3557599
 url_code:
 url_dataset:
-url_poster:
+url_poster: publication/nakagawa2022expressions/poster.pdf
 url_project:
 url_slides:
 url_source:
