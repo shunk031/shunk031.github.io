@@ -44,6 +44,9 @@ links:
   icon_pack: ai
   icon: arxiv
 
+- name: Lightning talk
+  url: publication/nakagawa2022expressions/lightning-talk.pdf
+
 # url_pdf: https://dl.acm.org/doi/10.1145/3511808.3557599
 url_code:
 url_dataset:
