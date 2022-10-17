@@ -30,7 +30,7 @@ abstract:
   Put into practical use, this framework would likely have the ability to mitigate problems based on misunderstandings.
 
 # Summary. An optional shortened abstract.
-summary: "Proc. of the 31st ACM International Conference on Information & Knowledge Management (CIKM2022)"
+summary: "Proc. of the 31st ACM International Conference on Information & Knowledge Management (CIKM2022). (**Acceptance rate = 29.04%**)"
 
 tags: ["International Conference", "Refereed", "Natural Language Processing", "International Publication"]
 categories: ["Natural Language Processing", "Sentiment Analysis"]
