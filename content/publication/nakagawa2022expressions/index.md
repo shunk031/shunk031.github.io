@@ -5,7 +5,7 @@ title: "Expressions Causing Differences in Emotion Recognition in Social Network
 authors: ["Tsubasa Nakagawa", "Shunsuke Kitada", "Hitoshi Iyatomi"]
 date: 2022-08-02T14:18:12+09:00
 doi: ""
-# doi: "10.1145/3511808.3557599"
+doi: "10.1145/3511808.3557599"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2022-08-02T14:18:12+09:00
