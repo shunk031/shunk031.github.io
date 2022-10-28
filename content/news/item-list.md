@@ -1,3 +1,4 @@
+- **[2022.08]** Accepted [our paper](/publication/kitada2022making) to [Springer Applied Intelligence](https://www.springer.com/journal/10489).
 - **[2022.08]** Accepted [our paper](/publication/nakagawa2022expressions) to [CIKM2022](https://www.cikm2022.org/).
 - **[2022.07]** Got JASSO Scholarship for Top 30% Excellent Graduate School Students from Japan Student Services Organization.
 - **[2022.05]** [A comment for the admission guide](/post/hosei-university-graduate-school-admission-guide-2023) appeared on the website.
