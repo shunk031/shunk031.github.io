@@ -69,4 +69,6 @@ projects: []
 slides: ""
 ---
 
-{{< blogcard url="https://www.mdpi.com/2076-3417/12/7/3594" >}}
+| arXiv | MDPI | SCImago |
+|-------|------|---------|
+| {{< blogcard url="https://arxiv.org/abs/2204.11588" >}} | {{< blogcard url="https://www.mdpi.com/2076-3417/12/7/3594" >}} | <a href="https://www.scimagojr.com/journalsearch.php?q=21100829268&amp;tip=sid&amp;exact=no" title="SCImago Journal &amp; Country Rank"><img border="0" src="https://www.scimagojr.com/journal_img.php?id=21100829268" alt="SCImago Journal &amp; Country Rank"  /></a> |
