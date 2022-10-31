@@ -23,7 +23,7 @@ abstract: "We propose a new general training technique for attention mechanisms 
 "
 
 # Summary. An optional shortened abstract.
-summary: ""
+summary: Preprint version of the Springer Applied Intelligence paper ["Making Attention Mechanisms More Robust and Interpretable with Virtual Adversarial Training"](/publication/kitada2022making)
 
 tags: ["Preprint"]
 categories: ["Natural Language Processing", "Attention Mechanisms", "Text Classification", "Question Answering", "Natural Language Inference", "Virtual Adversarial Training"]
@@ -33,7 +33,7 @@ featured: false
 #   Uncomment and edit lines below to show custom links.
 links:
 - name: Preprint
-  url: https://arxiv.org/abs/2104.08763
+  url: https://arxiv.org/abs/2104.08763v1
   icon_pack: ai
   icon: arxiv
 
@@ -68,3 +68,5 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
+
+The manuscript accepted for publication in the Applied Intelligence journal can be found [here](/publication/kitada2022making).

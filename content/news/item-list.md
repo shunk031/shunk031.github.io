@@ -1,3 +1,4 @@
+- **[2022.10]** Accepted [our paper, "Making Attention Mechanisms More Robust and Interpretable with Virtual Adversarial Training"](/publication/kitada2022making), to [Springer Applied Intelligence](https://www.springer.com/journal/10489).
 - **[2022.10]** Accepted [our paper, "Feedback is Needed for Retakes: An Explainable Poor Image Notification Framework for the Visually Impaired"](/publication/ohata2022feedback), to [HONET2022](https://honet-ict.org/index.html).
 - **[2022.08]** Accepted [our paper, "Expressions Causing Differences in Emotion Recognition in Social Networking Service Documents"](/publication/nakagawa2022expressions), to [CIKM2022](https://www.cikm2022.org/).
 - **[2022.07]** Got JASSO Scholarship for Top 30% Excellent Graduate School Students from Japan Student Services Organization.
