@@ -5,12 +5,20 @@
     <link>https://shunk031.github.io/tag/international-publication/</link>
       <atom:link href="https://shunk031.github.io/tag/international-publication/index.xml" rel="self" type="application/rss+xml" />
     <description>International Publication</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2022 Shunsuke Kitada.</copyright><lastBuildDate>Tue, 02 Aug 2022 14:18:12 +0900</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2022 Shunsuke Kitada.</copyright><lastBuildDate>Tue, 18 Oct 2022 14:09:09 -0400</lastBuildDate>
     <image>
       <url>https://shunk031.github.io/media/sharing.png</url>
       <title>International Publication</title>
       <link>https://shunk031.github.io/tag/international-publication/</link>
     </image>
+    
+    <item>
+      <title>Feedback is Needed for Retakes: An Explainable Poor Image Notification Framework for the Visually Impaired</title>
+      <link>https://shunk031.github.io/publication/ohata2022feedback/</link>
+      <pubDate>Tue, 18 Oct 2022 14:09:09 -0400</pubDate>
+      <guid>https://shunk031.github.io/publication/ohata2022feedback/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Expressions Causing Differences in Emotion Recognition in Social Networking Service Documents</title>

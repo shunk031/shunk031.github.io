@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ohata Kazuya | Shunsuke Kitada</title>
+    <link>https://shunk031.github.io/authors/ohata-kazuya/</link>
+      <atom:link href="https://shunk031.github.io/authors/ohata-kazuya/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ohata Kazuya</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2022 Shunsuke Kitada.</copyright><lastBuildDate>Tue, 18 Oct 2022 14:09:09 -0400</lastBuildDate>
+    <image>
+      <url>https://shunk031.github.io/media/sharing.png</url>
+      <title>Ohata Kazuya</title>
+      <link>https://shunk031.github.io/authors/ohata-kazuya/</link>
+    </image>
+    
+    <item>
+      <title>Feedback is Needed for Retakes: An Explainable Poor Image Notification Framework for the Visually Impaired</title>
+      <link>https://shunk031.github.io/publication/ohata2022feedback/</link>
+      <pubDate>Tue, 18 Oct 2022 14:09:09 -0400</pubDate>
+      <guid>https://shunk031.github.io/publication/ohata2022feedback/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

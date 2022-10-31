@@ -5,12 +5,20 @@
     <link>https://shunk031.github.io/category/natural-language-processing/</link>
       <atom:link href="https://shunk031.github.io/category/natural-language-processing/index.xml" rel="self" type="application/rss+xml" />
     <description>Natural Language Processing</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2022 Shunsuke Kitada.</copyright><lastBuildDate>Wed, 07 Sep 2022 00:00:00 +0900</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2022 Shunsuke Kitada.</copyright><lastBuildDate>Tue, 18 Oct 2022 14:09:09 -0400</lastBuildDate>
     <image>
       <url>https://shunk031.github.io/media/sharing.png</url>
       <title>Natural Language Processing</title>
       <link>https://shunk031.github.io/category/natural-language-processing/</link>
     </image>
+    
+    <item>
+      <title>Feedback is Needed for Retakes: An Explainable Poor Image Notification Framework for the Visually Impaired</title>
+      <link>https://shunk031.github.io/publication/ohata2022feedback/</link>
+      <pubDate>Tue, 18 Oct 2022 14:09:09 -0400</pubDate>
+      <guid>https://shunk031.github.io/publication/ohata2022feedback/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>DM$^2$S$^2$: Deep Multi-Modal Sequence Sets with Hierarchical Modality Attention</title>
