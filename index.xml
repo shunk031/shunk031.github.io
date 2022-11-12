@@ -5,12 +5,27 @@
     <link>https://shunk031.github.io/</link>
       <atom:link href="https://shunk031.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Shunsuke Kitada</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2022 Shunsuke Kitada.</copyright><lastBuildDate>Thu, 27 Oct 2022 21:33:00 +0900</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2022 Shunsuke Kitada.</copyright><lastBuildDate>Sat, 12 Nov 2022 14:45:00 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.github.io/media/sharing.png</url>
       <title>Shunsuke Kitada</title>
       <link>https://shunk031.github.io/</link>
     </image>
+    
+    <item>
+      <title>Expressions Causing Differences in Emotion Recognition in Social Networking Service Documents (CIKM&#39;22)</title>
+      <link>https://shunk031.github.io/talk/expressions-causing-differences-in-emotion-recognition-in-social-networking-service-documents-cikm22/</link>
+      <pubDate>Sat, 12 Nov 2022 14:45:00 +0900</pubDate>
+      <guid>https://shunk031.github.io/talk/expressions-causing-differences-in-emotion-recognition-in-social-networking-service-documents-cikm22/</guid>
+      <description>&lt;h1 id=&#34;ir-reading-2022-秋&#34;&gt;IR Reading 2022 秋&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;概要
+情報アクセス分野に関する主要国際会議（SIGIR や WSDM など）の論文読み合わせを行う IR Reading をオンラインにて開催します．多人数で協力しあって論文を紹介しあうことで，論文への理解を深めたり，分野全体のトレンドを掴んだりする場となれば幸いです．これまでの勉強会の内容につきましては，&lt;a href=&#34;https://sigir.jp/post/2022-05-21-irreading_2022spring/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;過去のページ&lt;/a&gt; をご覧ください．&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;資料---slides&#34;&gt;資料 - Slides&lt;/h2&gt;
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;81194cffb02f41559f1fd3fe45e4d6bd&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
     
     <item>
       <title>Making Attention Mechanisms More Robust and Interpretable with Virtual Adversarial Training</title>
