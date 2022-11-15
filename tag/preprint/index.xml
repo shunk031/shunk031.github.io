@@ -5,20 +5,12 @@
     <link>https://shunk031.github.io/tag/preprint/</link>
       <atom:link href="https://shunk031.github.io/tag/preprint/index.xml" rel="self" type="application/rss+xml" />
     <description>Preprint</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2022 Shunsuke Kitada.</copyright><lastBuildDate>Wed, 07 Sep 2022 00:00:00 +0900</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2022 Shunsuke Kitada.</copyright><lastBuildDate>Tue, 20 Apr 2021 17:28:27 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.github.io/media/sharing.png</url>
       <title>Preprint</title>
       <link>https://shunk031.github.io/tag/preprint/</link>
     </image>
-    
-    <item>
-      <title>DM$^2$S$^2$: Deep Multi-Modal Sequence Sets with Hierarchical Modality Attention</title>
-      <link>https://shunk031.github.io/publication/kitada2022dm2s2/</link>
-      <pubDate>Wed, 07 Sep 2022 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2022dm2s2/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Making Attention Mechanisms More Robust and Interpretable with Virtual Adversarial Training for Semi-Supervised Text Classification</title>
