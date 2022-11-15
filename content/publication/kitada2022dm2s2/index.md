@@ -4,11 +4,11 @@
 title: "DM$^2$S$^2$: Deep Multi-Modal Sequence Sets with Hierarchical Modality Attention"
 authors: ["Shunsuke Kitada", "Yuki Iwazaki", "Riku Togashi", "Hitoshi Iyatomi"]
 author_notes: ["This work was conducted during the first author's internship at CyberAgent Inc."]
-date: 2022-09-07T00:00:00+09:00
-doi: ""
+date: 2022-11-14T00:00:00+09:00
+doi: "10.1109/ACCESS.2022.3221812"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2022-09-07T00:00:00+09:00
+publishDate: 2022-11-14T00:00:00+09:00
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -39,7 +39,7 @@ links:
   icon_pack: ai
   icon: arxiv
 
-url_pdf:
+url_pdf: https://ieeexplore.ieee.org/document/9947020
 url_code:
 url_dataset: https://doi.org/10.5281/zenodo.7050923
 url_poster:
@@ -73,4 +73,4 @@ slides: ""
 
 | arXiv | IEEE Xplore | SCImago |
 |-------|-------------|---------|
-| {{< blogcard url="https://arxiv.org/abs/2209.03126" >}} | Coming soon | <a href="https://www.scimagojr.com/journalsearch.php?q=21100374601&amp;tip=sid&amp;exact=no" title="SCImago Journal &amp; Country Rank"><img border="0" src="https://www.scimagojr.com/journal_img.php?id=21100374601" alt="SCImago Journal &amp; Country Rank"  /></a> |
+| {{< blogcard url="https://arxiv.org/abs/2209.03126" >}} | {{< blogcard url="https://ieeexplore.ieee.org/document/9947020" >}} | <a href="https://www.scimagojr.com/journalsearch.php?q=21100374601&amp;tip=sid&amp;exact=no" title="SCImago Journal &amp; Country Rank"><img border="0" src="https://www.scimagojr.com/journal_img.php?id=21100374601" alt="SCImago Journal &amp; Country Rank"  /></a> |
