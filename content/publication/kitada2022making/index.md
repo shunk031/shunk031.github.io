@@ -4,7 +4,7 @@
 title: "Making Attention Mechanisms More Robust and Interpretable with Virtual Adversarial Training"
 authors: ["Shunsuke Kitada", "Hitoshi Iyatomi"]
 date: 2022-10-27T21:33:00+09:00
-doi: ""
+doi: "10.1007/s10489-022-04301-w"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2022-10-27T21:33:00+09:00
