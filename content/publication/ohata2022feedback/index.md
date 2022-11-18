@@ -35,6 +35,11 @@ featured: false
 #   url: https://twitter.com
 #   icon_pack: fab
 #   icon: twitter
+links:
+- name: Preprint
+  url: https://arxiv.org/abs/2211.09427
+  icon_pack: ai
+  icon: arxiv
 
 url_pdf:
 url_code:
