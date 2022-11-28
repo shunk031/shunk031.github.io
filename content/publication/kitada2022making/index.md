@@ -70,4 +70,4 @@ slides: ""
 
 | arXiv | Springer | SCImago |
 |-------|----------|---------|
-| {{< blogcard url="https://arxiv.org/abs/2104.08763" >}} | Coming soon | <a href="https://www.scimagojr.com/journalsearch.php?q=23674&amp;tip=sid&amp;exact=no" title="SCImago Journal &amp; Country Rank"><img border="0" src="https://www.scimagojr.com/journal_img.php?id=23674" alt="SCImago Journal &amp; Country Rank"  /></a> |
+| {{< blogcard url="https://arxiv.org/abs/2104.08763" >}} | {{< blogcard url="https://link.springer.com/article/10.1007/s10489-022-04301-w" >}} | <a href="https://www.scimagojr.com/journalsearch.php?q=23674&amp;tip=sid&amp;exact=no" title="SCImago Journal &amp; Country Rank"><img border="0" src="https://www.scimagojr.com/journal_img.php?id=23674" alt="SCImago Journal &amp; Country Rank"  /></a> |
