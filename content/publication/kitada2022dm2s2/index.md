@@ -39,7 +39,7 @@ links:
   icon_pack: ai
   icon: arxiv
 
-url_pdf: https://ieeexplore.ieee.org/document/9947020
+url_pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9947020
 url_code:
 url_dataset: https://doi.org/10.5281/zenodo.7050923
 url_poster:
