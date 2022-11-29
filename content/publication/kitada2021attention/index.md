@@ -40,7 +40,7 @@ links:
   icon_pack: fab
   icon: github
 
-url_pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9947020
+url_pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9467291
 url_code:
 url_dataset:
 url_poster:
