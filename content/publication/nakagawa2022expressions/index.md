@@ -47,7 +47,7 @@ links:
 - name: Lightning talk
   url: publication/nakagawa2022expressions/lightning-talk.pdf
 
-url_pdf: https://dl.acm.org/doi/10.1145/3511808.3557599
+url_pdf: https://dl.acm.org/doi/pdf/10.1145/3511808.3557599
 url_code:
 url_dataset:
 url_poster: publication/nakagawa2022expressions/poster.pdf

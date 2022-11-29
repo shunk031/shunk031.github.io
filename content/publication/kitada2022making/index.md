@@ -36,7 +36,7 @@ links:
   icon_pack: ai
   icon: arxiv
 
-url_pdf:
+url_pdf: https://rdcu.be/c0BC0
 url_code:
 url_dataset:
 url_poster:
