@@ -1,28 +1,23 @@
-- **[2022.10]** Accepted [our paper, "Making Attention Mechanisms More Robust and Interpretable with Virtual Adversarial Training"](/publication/kitada2022making), to [Springer Applied Intelligence](https://www.springer.com/journal/10489).
-- **[2022.10]** Accepted [our paper, "Feedback is Needed for Retakes: An Explainable Poor Image Notification Framework for the Visually Impaired"](/publication/ohata2022feedback), to [HONET2022](https://honet-ict.org/index.html).
-- **[2022.08]** Accepted [our paper, "Expressions Causing Differences in Emotion Recognition in Social Networking Service Documents"](/publication/nakagawa2022expressions), to [CIKM2022](https://www.cikm2022.org/).
-- **[2022.07]** Got JASSO Scholarship for Top 30% Excellent Graduate School Students from Japan Student Services Organization.
-- **[2022.05]** [A comment for the admission guide](/post/hosei-university-graduate-school-admission-guide-2023) appeared on the website.
-- **[2022.03]** Accepted [our journal paper, "Ad Creative Discontinuation Prediction with Multi-Modal Multi-Task Neural Survival Networks"](/publication/kitada2022ad), to [Applied Sciences](https://www.mdpi.com/journal/applsci).
 - **[2021.12]** Got [Hosei University Research Grant for Doctoral Course Adopters](https://www.hosei.ac.jp/gs/gakuhi/gakuhi-shogakukin/shogakukin/kenkyujoseikin/) in 2021 (480,000 JPY).
-- **[2021.06]** Accepted [our journal paper, "Attention Meets Perturbations: Robust and Interpretable Attention with Adversarial Training"](/publication/kitada2021attention), to [IEEE Access](https://ieeeaccess.ieee.org/).
+
 - **[2021.05]** Got Grant-in-Aid for Japan Society for the Promotion of Science (JSPS) Fellows, [Grant Number 21J14143](https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-21J14143/) (2021-2023, 1,500,000 JPY)
-- **[2021.04]** [An article about my adaption of JSPS DC2](https://ai.ws.hosei.ac.jp/wp/news/news20210408/) appeared on the website of the Department of Applied Informatics at Hosei University.
-- **[2021.03]** [An article about my adaption of JSPS DC2](https://www.hosei.ac.jp/koganei/pickup/article-20210305121330/) appeared on the Hosei University Graduate School website.
+
 - **[2021.02]** Adopted Japan Society for the Promotion of Science (JSPS) [Research Fellowship for Young Scientists (DC2)](https://www.jsps.go.jp/english/e-pd/index.html) (200,000 JPY / month).
+
 - **[2020.12]** Got [Hosei University Research Grant for Doctoral Course Adopters](https://www.hosei.ac.jp/gs/gakuhi/gakuhi-shogakukin/shogakukin/kenkyujoseikin/) in 2020 (480,000 JPY).
-- **[2020.10]** Accepted [our paper, "Text Classification through Glyph-aware Disentangled Character Embedding and Semantic Sub-character Augmentation"](/publication/aoki2020text), to [AACL-IJCNLP2020 Student Research Workshop](https://aacl2020-srw.github.io/).
+
 - **[2020.07]** Got JASSO Scholarship for Top 10% Excellent Graduate School Students from Japan Student Services Organization.
+
 - **[2020.06]** [Invited talk](https://confit.atlas.jp/guide/event/jsai2020/subject/1H3-OS-12a-05/tables) on Organized Session in The 34th Annual Conference of the Japanese Society for Artificial Intelligence.
-- **[2020.04]** Accepted [our paper, "AraDIC: Arabic Document Classification using Image-Based Character Embeddings and Class-Balanced Loss"](/publication/daif2020aradic), to [ACL2020 Student Research Workshop](https://sites.google.com/view/acl20studentresearchworkshop/).
+
 - **[2020.01]** Interviewed by Nikkan Kogyo Shimbun, Ltd ([the article](https://newswitch.jp/p/20932?fbclid=IwAR3XO7LkdZhhCFj9YxqFY4Me7kcbO8lCoBs39RvCCdUAHr7pFDc42PoVQXw)).
 - **[2019.08]** Got Honorable Mention in [YANS 2019](https://www.hosei.ac.jp/gs/NEWS/zaigaku/koganei/20190920/).
 - **[2019.08]** Interviewed about my research internship in Gunosy Inc. ([the article](https://gunosiru.gunosy.co.jp/entry/kdd2019_gtl)).
 - **[2019.07]** Got CEO special award in the second half of FY2019 at Gunosy Inc. ([detail](https://gunosiru.gunosy.co.jp/entry/party-7th-secondhalf)).
 - **[2019.06]** Got Hosei University 100th year anniversary scholarship for master students ([PDF](https://www.hosei.ac.jp/application/files/2715/8977/4261/2020_3-3.pdf)).
-- **[2019.04]** Accepted [our paper, "Conversion Prediction Using Multi-task Conditional Attention Networks to Support the Creation of Effective Ad Creative"](/publication/kitada2019conversion), to [KDD2019](https://www.kdd.org/kdd2019/).
+
 - **[2019.03]** Got Student Honorable Mention in [IPSJ 2019](https://www.hosei.ac.jp/gs/NEWS/topics/jusho/190411_4/).
 - **[2019.01]** Got overall 1st prize and medium 2nd prize in [DeNA Data Analysis Competition Event](https://dena-ai.connpass.com/event/114168/?utm_campaign=event_participate_to_follower&utm_medium=twitter&utm_source=notifications).
-- **[2018.09]** Accepted [our paper, "End-to-End Text Classification via Image-based Embedding using Character-level Networks"](/publication/kitada2018end), to [AIPR 2018](https://sites.google.com/aipr-workshop.org/aipr).
+
 - **[2018.08]** Got 1st prize of [hackU Hosei 2018](https://hacku.yahoo.co.jp/hosei2018/).
 - **[2017.08]** Got student award at [FR FRONTIER](https://deepanalytics.connpass.com/event/56007/).
