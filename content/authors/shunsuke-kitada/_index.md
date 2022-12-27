@@ -54,10 +54,6 @@ social:
   icon_pack: fab
   link: https://www.facebook.com/shunk031
 
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.co.jp/citations?user=GUzGhQIAAAAJ&hl=ja
-
 - icon: github
   icon_pack: fab
   link: https://github.com/shunk031
@@ -66,17 +62,45 @@ social:
   icon_pack: fab
   link: https://www.linkedin.com/in/shunk031/
 
-- icon: pen-nib
-  icon_pack: fas
-  link: http://shunk031.hatenablog.com/
-
 - icon: speaker-deck
   icon_pack: fab
   link: https://speakerdeck.com/shunk031
 
+- icon: orcid
+  icon_pack: ai
+  link: https://orcid.org/0000-0002-3330-8779
+
+- icon: pen-nib
+  icon_pack: fas
+  link: http://shunk031.hatenablog.com/
+
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.co.jp/citations?user=GUzGhQIAAAAJ&hl=ja
+
+- icon: semantic-scholar
+  icon_pack: ai
+  link: https://www.semanticscholar.org/author/S.-Kitada/51267434
+
 - icon: researchgate
   icon_pack: ai
   link: https://www.researchgate.net/profile/Shunsuke_Kitada
+
+- icon: arxiv
+  icon_pack: ai
+  link: https://arxiv.org/a/kitada_s_1.html
+
+- icon: acm
+  icon_pack: ai
+  link: https://dl.acm.org/profile/99659454757
+
+- icon: ieee
+  icon_pack: ai
+  link: https://ieeexplore.ieee.org/author/37086833273
+
+- icon: dblp
+  icon_pack: ai
+  link: https://dblp.org/pid/227/3243.html
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
