@@ -1,14 +1,14 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Accepted our journal paper to MDPI Applied Sciences journal"
+title: "Accepted our paper to ACL2020 SRW"
 subtitle: ""
 summary: ""
-authors: ["Shunsuke Kitada", "Hitoshi Iyatomi", "Yoshifumi Seki"]
+authors: ["Mahmoud Daif", "Shunsuke Kitada", "Hitoshi Iyatomi"]
 tags: ["News"]
 categories: ["News"]
-date: 2022-03-29T00:00:00+09:00
-lastmod: 022-03-29T00:00:00+09:00
+date: 2020-04-18T00:00:00+09:00
+lastmod: 2022-12-27T22:13:04+09:00
 featured: false
 draft: false
 
@@ -28,6 +28,6 @@ image:
 projects: []
 ---
 
-The following paper has been accepted to the [MDPI Applied Sciences](https://www.mdpi.com/journal/applsci).
+The following paper has been accepted to the [ACL2020 Student Research Workshop (SRW)](https://sites.google.com/view/acl20studentresearchworkshop/).
 
-- Shunsuke Kitada, Hitoshi Iyatomi, and Yoshifumi Seki. ["Ad Creative Discontinuation Prediction with Multi-Modal Multi-Task Neural Survival Networks"](/publication/kitada2022ad)
+- Mahmoud Daif, Shunsuke Kitada, Hitoshi Iyatomi. ["AraDIC: Arabic Document Classification using Image-Based Character Embeddings and Class-Balanced Loss"](/publication/daif2020aradic)

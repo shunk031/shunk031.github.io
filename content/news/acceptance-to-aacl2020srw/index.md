@@ -1,14 +1,14 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Accepted our journal paper to MDPI Applied Sciences journal"
+title: "Accepted our paper to AACL-IJCNLP2020 SRW"
 subtitle: ""
 summary: ""
-authors: ["Shunsuke Kitada", "Hitoshi Iyatomi", "Yoshifumi Seki"]
+authors: ["Takumi Aoki", "Shunsuke Kitada", "Hitoshi Iyatomi"]
 tags: ["News"]
 categories: ["News"]
-date: 2022-03-29T00:00:00+09:00
-lastmod: 022-03-29T00:00:00+09:00
+date: 2020-10-24T00:00:00+09:00
+lastmod: 2022-12-27T22:08:15+09:00
 featured: false
 draft: false
 
@@ -28,6 +28,6 @@ image:
 projects: []
 ---
 
-The following paper has been accepted to the [MDPI Applied Sciences](https://www.mdpi.com/journal/applsci).
+The following paper has been accepted to the [AACL-IJCNLP 2020 Student Research Workshop (SRW)](https://aacl2020-srw.github.io/).
 
-- Shunsuke Kitada, Hitoshi Iyatomi, and Yoshifumi Seki. ["Ad Creative Discontinuation Prediction with Multi-Modal Multi-Task Neural Survival Networks"](/publication/kitada2022ad)
+- Takumi Aoki, Shunsuke Kitada, and Hitoshi Iyatomi. ["Text Classification through Glyph-aware Disentangled Character Embedding and Semantic Sub-character Augmentation"](/publication/aoki2020text)

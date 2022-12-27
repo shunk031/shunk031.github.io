@@ -1,14 +1,14 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Accepted our journal paper to MDPI Applied Sciences journal"
+title: "My comments were published in the admission guide of Hosei University"
 subtitle: ""
 summary: ""
-authors: ["Shunsuke Kitada", "Hitoshi Iyatomi", "Yoshifumi Seki"]
+authors: ["Shunsuke Kitada"]
 tags: ["News"]
 categories: ["News"]
-date: 2022-03-29T00:00:00+09:00
-lastmod: 022-03-29T00:00:00+09:00
+date: 2022-05-01T00:00:00+09:00
+lastmod: 2022-12-27T21:41:27+09:00
 featured: false
 draft: false
 
@@ -28,6 +28,5 @@ image:
 projects: []
 ---
 
-The following paper has been accepted to the [MDPI Applied Sciences](https://www.mdpi.com/journal/applsci).
-
-- Shunsuke Kitada, Hitoshi Iyatomi, and Yoshifumi Seki. ["Ad Creative Discontinuation Prediction with Multi-Modal Multi-Task Neural Survival Networks"](/publication/kitada2022ad)
+My comments as a representative of alumni were published in the admission guide of Hosei University.
+The commens can be found [here](/post/hosei-university-graduate-school-admission-guide-2023/).

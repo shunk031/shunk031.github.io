@@ -1,14 +1,14 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Accepted our journal paper to MDPI Applied Sciences journal"
+title: "An article about my adoption of JSPS DC2 on the website of the Department of Applied Informatics at Hosei University"
 subtitle: ""
 summary: ""
-authors: ["Shunsuke Kitada", "Hitoshi Iyatomi", "Yoshifumi Seki"]
+authors: ["Shunsuke Kitada"]
 tags: ["News"]
 categories: ["News"]
-date: 2022-03-29T00:00:00+09:00
-lastmod: 022-03-29T00:00:00+09:00
+date: 2021-04-01T00:00:00+09:00
+lastmod: 2022-12-27T21:51:35+09:00
 featured: false
 draft: false
 
@@ -28,6 +28,4 @@ image:
 projects: []
 ---
 
-The following paper has been accepted to the [MDPI Applied Sciences](https://www.mdpi.com/journal/applsci).
-
-- Shunsuke Kitada, Hitoshi Iyatomi, and Yoshifumi Seki. ["Ad Creative Discontinuation Prediction with Multi-Modal Multi-Task Neural Survival Networks"](/publication/kitada2022ad)
+[An article about my adoption of JSPS DC2](https://ai.ws.hosei.ac.jp/wp/news/news20210408/) published on the website of the Department of Applied Informatics at Hosei University.

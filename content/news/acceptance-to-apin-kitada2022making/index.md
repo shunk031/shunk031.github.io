@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Accepted our paper to Springer Applied Intelligence journal"
+title: "Accepted our journal paper to Springer Applied Intelligence journal"
 subtitle: ""
 summary: ""
 authors: ["Shunsuke Kitada", "Hitoshi Iyatomi"]

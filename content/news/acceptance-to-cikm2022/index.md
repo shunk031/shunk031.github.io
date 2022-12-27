@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "[2022/08] Accepted our paper to ACM CIKM2022"
+title: "Accepted our paper to ACM CIKM2022"
 subtitle: ""
 summary: ""
 authors: ["Tsubasa Nakagawa", "Shunsuke Kitada", "Hitoshi Iyatomi"]

@@ -1,14 +1,14 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Got JASSO Scholarship for Top 30% Excellent Graduate School Students from Japan Student Services Organization"
+title: "Accepted our journal paper to IEEE Access"
 subtitle: ""
 summary: ""
-authors: ["Shunsuke Kitada"]
+authors: ["Shunsuke Kitada", "Yuki Iwazaki", "Riku Togashi", "Hitoshi Iyatomi"]
 tags: ["News"]
 categories: ["News"]
-date: 2022-07-01T00:00:00+09:00
-lastmod: 2022-07-01T00:00:00+09:00
+date: 2022-11-03T00:00:00+09:00
+lastmod: 2022-12-27T21:31:06+09:00
 featured: false
 draft: false
 
@@ -28,4 +28,6 @@ image:
 projects: []
 ---
 
-I got JASSO Scholarship for Top 30% Excellent Graduate School Students from Japan Student Services Organization.
+The following paper has been accepted to the [IEEE Access](https://ieeeaccess.ieee.org/).
+
+- Shunsuke Kitada, Yuki Iwazaki, Riku Togashi, and Hitoshi Iyatomi. ["DM$^2$S$^2$: Deep Multi-Modal Sequence Sets with Hierarchical Modality Attention"](/publication/kitada2022dm2s2)

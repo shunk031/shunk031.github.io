@@ -1,14 +1,14 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Got Hosei University Research Grant for Doctoral Course Adopters in 2021"
+title: "An article about my adoption of JSPS DC2 on the website of Hosei University Graduate School"
 subtitle: ""
 summary: ""
 authors: ["Shunsuke Kitada"]
 tags: ["News"]
 categories: ["News"]
-date: 2021-12-01T00:00:00+09:00
-lastmod: 2021-12-01T00:00:00+09:00
+date: 2021-03-01T00:00:00+09:00
+lastmod: 2022-12-27T21:51:40+09:00
 featured: false
 draft: false
 
@@ -28,4 +28,4 @@ image:
 projects: []
 ---
 
-I got [Hosei University Research Grant for Doctoral Course Adopters](https://www.hosei.ac.jp/gs/gakuhi/gakuhi-shogakukin/shogakukin/kenkyujoseikin/) in 2021 (480,000 JPY).
+[An article about my adoption of JSPS DC2](https://www.hosei.ac.jp/koganei/pickup/article-20210305121330/) published on the website of Hosei Univerisyt Graduate School.
