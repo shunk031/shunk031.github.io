@@ -5,7 +5,7 @@
     <link>https://shunk031.github.io/tag/referred/</link>
       <atom:link href="https://shunk031.github.io/tag/referred/index.xml" rel="self" type="application/rss+xml" />
     <description>Referred</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2022 Shunsuke Kitada.</copyright><lastBuildDate>Mon, 14 Nov 2022 00:00:00 +0900</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2023 Shunsuke Kitada.</copyright><lastBuildDate>Mon, 14 Nov 2022 00:00:00 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.github.io/media/sharing.png</url>
       <title>Referred</title>
@@ -17,32 +17,7 @@
       <link>https://shunk031.github.io/publication/kitada2022dm2s2/</link>
       <pubDate>Mon, 14 Nov 2022 00:00:00 +0900</pubDate>
       <guid>https://shunk031.github.io/publication/kitada2022dm2s2/</guid>
-      <description>&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;arXiv&lt;/th&gt;
-&lt;th&gt;IEEE Xplore&lt;/th&gt;
-&lt;th&gt;SCImago&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2farxiv.org%2fabs%2f2209.03126&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;td&gt;&lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fieeexplore.ieee.org%2fdocument%2f9947020&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.scimagojr.com/journalsearch.php?q=21100374601&amp;amp;tip=sid&amp;amp;exact=no&#34; title=&#34;SCImago Journal &amp;amp; Country Rank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;https://www.scimagojr.com/journal_img.php?id=21100374601&#34; alt=&#34;SCImago Journal &amp;amp; Country Rank&#34;  /&gt;&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.scimagojr.com/journalsearch.php?q=21100374601&amp;amp;tip=sid&amp;amp;exact=no&#34; title=&#34;SCImago Journal &amp;amp; Country Rank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;https://www.scimagojr.com/journal_img.php?id=21100374601&#34; alt=&#34;SCImago Journal &amp;amp; Country Rank&#34;  /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -119,32 +94,7 @@
       <link>https://shunk031.github.io/publication/kitada2021attention/</link>
       <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
       <guid>https://shunk031.github.io/publication/kitada2021attention/</guid>
-      <description>&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;arXiv&lt;/th&gt;
-&lt;th&gt;IEEE Xplore&lt;/th&gt;
-&lt;th&gt;SCImago&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2farxiv.org%2fabs%2f2009.12064&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;td&gt;&lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fieeexplore.ieee.org%2fdocument%2f9467291&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.scimagojr.com/journalsearch.php?q=21100374601&amp;amp;tip=sid&amp;amp;exact=no&#34; title=&#34;SCImago Journal &amp;amp; Country Rank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;https://www.scimagojr.com/journal_img.php?id=21100374601&#34; alt=&#34;SCImago Journal &amp;amp; Country Rank&#34;  /&gt;&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.scimagojr.com/journalsearch.php?q=21100374601&amp;amp;tip=sid&amp;amp;exact=no&#34; title=&#34;SCImago Journal &amp;amp; Country Rank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;https://www.scimagojr.com/journal_img.php?id=21100374601&#34; alt=&#34;SCImago Journal &amp;amp; Country Rank&#34;  /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
