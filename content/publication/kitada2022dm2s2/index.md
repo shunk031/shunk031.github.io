@@ -71,6 +71,4 @@ projects: []
 slides: ""
 ---
 
-| arXiv | IEEE Xplore | SCImago |
-|-------|-------------|---------|
-| {{< blogcard url="https://arxiv.org/abs/2209.03126" >}} | {{< blogcard url="https://ieeexplore.ieee.org/document/9947020" >}} | <a href="https://www.scimagojr.com/journalsearch.php?q=21100374601&amp;tip=sid&amp;exact=no" title="SCImago Journal &amp; Country Rank"><img border="0" src="https://www.scimagojr.com/journal_img.php?id=21100374601" alt="SCImago Journal &amp; Country Rank"  /></a> |
+<a href="https://www.scimagojr.com/journalsearch.php?q=21100374601&amp;tip=sid&amp;exact=no" title="SCImago Journal &amp; Country Rank"><img border="0" src="https://www.scimagojr.com/journal_img.php?id=21100374601" alt="SCImago Journal &amp; Country Rank"  /></a>
