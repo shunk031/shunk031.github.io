@@ -53,7 +53,7 @@ experience:
     # company_logo: cyberagent
     location: Shibuya-ku, Tokyo, Japan
     date_start: '2021-07-01'
-    date_end: ''
+    date_end: '2022-12-31'
     description: |2-
       - Supervisor: [Dr. Mayu Otani](https://mayu-ot.github.io/) and [Dr. Naoto Inoue](https://naoto0804.github.io/)
       - Working on establishing multi-modal deep learning model for ad creative understanding in [a special research position](https://www.cyberagent.co.jp/news/detail/id=26231) for doctoral students adopted as JSPS Research fellow (DC1, DC2, PD).
@@ -77,7 +77,7 @@ experience:
     # company_logo: jsps
     location: ''
     date_start: '2021-04-01'
-    date_end: ''
+    date_end: '2023-03-31'
     description: |2-
       Working on towards robust and interpretable deep learning models and its evaluation.
       - Research title: [KAKENHI-PROJECT-21J14143](https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-21J14143/)
@@ -134,7 +134,7 @@ experience:
     # company_logo: hosei
     location: Koganei-shi, Tokyo, Japan
     date_start: '2018-04-01'
-    date_end: ''
+    date_end: '2023-03-31'
     description: |2-
       Assisted in several classes at Hosei University:
       - [Image Processing](https://syllabus.hosei.ac.jp/web/preview.php?no_id=2115657&nendo=2021&gakubueng=AP&t_mode=pc)

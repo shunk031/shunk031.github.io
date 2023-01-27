@@ -50,7 +50,7 @@ links:
   icon_pack: fab
   icon: github
 
-url_pdf: https://www.aclweb.org/anthology/2020.acl-srw.29/
+url_pdf: https://aclanthology.org/2020.acl-srw.29.pdf
 url_code:
 url_dataset:
 url_poster:

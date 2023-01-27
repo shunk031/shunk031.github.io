@@ -42,6 +42,7 @@ jobs:
             -e paper-survey \
             -e publication/#\\d \
             -e index.webmanifest \
+            -e honet-ict.org \
             "
             
       - name: Deploy
