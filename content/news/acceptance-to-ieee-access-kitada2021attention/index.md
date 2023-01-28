@@ -4,10 +4,10 @@
 title: "Accepted our paper to IEEE Access journal"
 subtitle: ""
 summary: ""
-authors: []
-tags: []
-categories: []
-date: 2022-10-31T12:37:24+09:00
+authors: ["Shunsuke Kitada", "Hitoshi Iyatomi"]
+tags: ["News"]
+categories: ["News"]
+date: 2021-06-21T00:00:00+09:00
 lastmod: 2022-10-31T12:37:24+09:00
 featured: false
 draft: false

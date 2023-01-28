@@ -1,14 +1,14 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Accepted our journal paper to Springer Applied Intelligence journal"
+title: "Honorable Mention in YANS 2019"
 subtitle: ""
-summary: ""
+summary: "解釈性向上のための注意機構と損失勾配に対する関連損失の導入"
 authors: ["Shunsuke Kitada", "Hitoshi Iyatomi"]
-tags: ["News"]
-categories: ["News"]
-date: 2022-10-27T00:00:00+09:00
-lastmod: 2022-10-27T00:00:00+09:00
+tags: ["News", "Awards & Grants"]
+categories: ["News", "Awards & Grants"]
+date: 2019-08-28T00:00:00+09:00
+lastmod: 2023-01-28T16:10:53+09:00
 featured: false
 draft: false
 
@@ -28,5 +28,6 @@ image:
 projects: []
 ---
 
-The following paper has been accepted to the [Springer Applied Intelligence](https://www.springer.com/journal/10489).
-- Shunsuke Kitada and Hitoshi Iyatomi. ["Making Attention Mechanisms More Robust and Interpretable with Virtual Adversarial Training"](/publication/kitada2022making)
+Got Honorable Mention in [YANS 2019](https://www.hosei.ac.jp/gs/NEWS/zaigaku/koganei/20190920/).
+
+{{< tweet user="shunk031" id="1166592677577678851" >}}

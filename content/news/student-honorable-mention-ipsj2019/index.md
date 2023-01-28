@@ -1,14 +1,14 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Accepted our journal paper to Springer Applied Intelligence journal"
+title: "Student Honorable Mention IPSJ 2019"
 subtitle: ""
-summary: ""
-authors: ["Shunsuke Kitada", "Hitoshi Iyatomi"]
-tags: ["News"]
-categories: ["News"]
-date: 2022-10-27T00:00:00+09:00
-lastmod: 2022-10-27T00:00:00+09:00
+summary: "頑健な皮膚腫瘍診断支援のための body hair augmentation"
+authors: ["Shunsuke Kitada"]
+tags: ["News", "Awards & Grants"]
+categories: ["News", "Awards & Grants"]
+date: 2019-03-14T00:00:00+09:00
+lastmod: 2023-01-28T15:47:13+09:00
 featured: false
 draft: false
 
@@ -28,5 +28,4 @@ image:
 projects: []
 ---
 
-The following paper has been accepted to the [Springer Applied Intelligence](https://www.springer.com/journal/10489).
-- Shunsuke Kitada and Hitoshi Iyatomi. ["Making Attention Mechanisms More Robust and Interpretable with Virtual Adversarial Training"](/publication/kitada2022making)
+Got Student Honorable Mention in [IPSJ 2019](https://www.hosei.ac.jp/gs/NEWS/topics/jusho/190411_4/).

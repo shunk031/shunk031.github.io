@@ -1,14 +1,14 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Accepted our journal paper to Springer Applied Intelligence journal"
+title: "CEO special award in the second half of FY2019 at Gunosy Inc."
 subtitle: ""
 summary: ""
-authors: ["Shunsuke Kitada", "Hitoshi Iyatomi"]
-tags: ["News"]
-categories: ["News"]
-date: 2022-10-27T00:00:00+09:00
-lastmod: 2022-10-27T00:00:00+09:00
+authors: ["Shunsuke Kitada"]
+tags: ["News", "Awards & Grants"]
+categories: ["News", "Awards & Grants"]
+date: 2019-07-26T00:00:00+09:00
+lastmod: 2023-01-28T15:58:14+09:00
 featured: false
 draft: false
 
@@ -28,5 +28,4 @@ image:
 projects: []
 ---
 
-The following paper has been accepted to the [Springer Applied Intelligence](https://www.springer.com/journal/10489).
-- Shunsuke Kitada and Hitoshi Iyatomi. ["Making Attention Mechanisms More Robust and Interpretable with Virtual Adversarial Training"](/publication/kitada2022making)
+Got CEO special award in the second half of FY2019 at Gunosy Inc. ([detail](https://gunosiru.gunosy.co.jp/entry/party-7th-secondhalf)).

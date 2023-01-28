@@ -1,14 +1,14 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Accepted our journal paper to Springer Applied Intelligence journal"
+title: "Invited Talk at JSAI 2020"
 subtitle: ""
 summary: ""
-authors: ["Shunsuke Kitada", "Hitoshi Iyatomi"]
+authors: ["Shunsuke Kitada"]
 tags: ["News"]
 categories: ["News"]
-date: 2022-10-27T00:00:00+09:00
-lastmod: 2022-10-27T00:00:00+09:00
+date: 2020-06-09T00:00:00+09:00
+lastmod: 2023-01-28T16:24:32+09:00
 featured: false
 draft: false
 
@@ -28,5 +28,4 @@ image:
 projects: []
 ---
 
-The following paper has been accepted to the [Springer Applied Intelligence](https://www.springer.com/journal/10489).
-- Shunsuke Kitada and Hitoshi Iyatomi. ["Making Attention Mechanisms More Robust and Interpretable with Virtual Adversarial Training"](/publication/kitada2022making)
+[Invited talk](https://confit.atlas.jp/guide/event/jsai2020/subject/1H3-OS-12a-05/tables) on Organized Session in The 34th Annual Conference of the Japanese Society for Artificial Intelligence.

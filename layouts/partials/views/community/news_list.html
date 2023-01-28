@@ -1,0 +1,11 @@
+{{ $item := .item }}
+
+{{/* Dynamic view adjusts to content type. */}}
+
+{{ $link := $item.RelPermalink }}
+{{ $target := "" }}
+
+<li>
+    <strong>[{{ $item.Date.Year}}.{{ printf "%02d" $item.Date.Month }}]</strong>
+    <a href="{{$link}}" {{ $target | safeHTMLAttr }}> {{ $item.Title }}</a>
+</li>
