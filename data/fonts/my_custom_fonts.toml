@@ -2,7 +2,7 @@
 name = "my_custom_fonts"
 
 # Optional Google font URL
-google_fonts = "family=Fira+Sans:wght@300;800&family=Merriweather:wght@400;900"
+google_fonts = "family=Fira+Sans:wght@300;800&family=Merriweather:wght@400;900&family=Permanent+Marker:wght@400&display=swap"
 
 
 # Font families
