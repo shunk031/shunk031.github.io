@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Imbalanced Dataset | Shunsuke Kitada</title>
+    <title>Imbalanced Dataset | shunk031.me</title>
     <link>https://shunk031.github.io/category/imbalanced-dataset/</link>
       <atom:link href="https://shunk031.github.io/category/imbalanced-dataset/index.xml" rel="self" type="application/rss+xml" />
     <description>Imbalanced Dataset</description>
