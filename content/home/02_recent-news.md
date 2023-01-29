@@ -8,7 +8,7 @@ active = true  # Activate this widget? true/false
 weight = 2  # Order that this section will appear.
 
 title = "Recent News 🗞️"
-subtitle = ""
+subtitle = "[All news >>](/tag/news/)"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
