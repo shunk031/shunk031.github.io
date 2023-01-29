@@ -29,3 +29,9 @@ projects: []
 ---
 
 [Invited talk](https://confit.atlas.jp/guide/event/jsai2020/subject/1H3-OS-12a-05/tables) on Organized Session in The 34th Annual Conference of the Japanese Society for Artificial Intelligence.
+
+{{< blogcard url="https://confit.atlas.jp/guide/event/jsai2020/subject/1H3-OS-12a-05/tables" >}}
+
+## See also
+
+- [The Present and Future of Machine Learning for Ad Creatives](/talk/the-present-and-future-of-machine-learning-for-ad-creatives/)

@@ -29,3 +29,7 @@ projects: []
 ---
 
 [An article about my adoption of JSPS DC2](https://ai.ws.hosei.ac.jp/wp/news/news20210408/) published on the website of the Department of Applied Informatics at Hosei University.
+
+## See also
+
+- [北田俊輔さん (D2), 日本学術振興会特別研究員に](/post/jsps-dc2-applied-informatics/).

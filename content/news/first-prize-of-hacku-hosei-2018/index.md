@@ -27,3 +27,11 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+
+Got 1st prize of [hackU Hosei 2018](https://hacku.yahoo.co.jp/hosei2018/).
+
+{{< blogcard url="https://hacku.yahoo.co.jp/hosei2018/" >}}
+
+## See also
+
+- ["HackU 法政 2018 最優秀賞受賞"](/post/hacku-hosei-2018/)

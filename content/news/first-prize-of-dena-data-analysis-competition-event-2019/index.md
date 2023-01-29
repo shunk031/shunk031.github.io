@@ -27,3 +27,7 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+
+Got overall 1st prize and medium 2nd prize in DeNA Data Analysis Competition Event.
+
+{{< blogcard url="https://dena-ai.connpass.com/event/114168/" >}}

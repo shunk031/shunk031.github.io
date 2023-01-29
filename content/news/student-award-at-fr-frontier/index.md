@@ -3,7 +3,7 @@
 
 title: "Got Student Award at FR FRONTIER"
 subtitle: ""
-summary: ""
+summary: "ファッション画像における洋服の「色」分類"
 authors: ["Shunsuke Kitada"]
 tags: ["News", "Awards & Grants"]
 categories: ["News", "Awards & Grants"]
@@ -27,3 +27,7 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+
+Got student award at [FR FRONTIER](https://deepanalytics.connpass.com/event/56007/).
+
+{{< blogcard url="https://deepanalytics.connpass.com/event/56007/" >}}

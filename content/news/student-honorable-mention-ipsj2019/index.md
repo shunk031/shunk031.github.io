@@ -28,4 +28,10 @@ image:
 projects: []
 ---
 
-Got Student Honorable Mention in [IPSJ 2019](https://www.hosei.ac.jp/gs/NEWS/topics/jusho/190411_4/).
+Got Student Honorable Mention in [IPSJ 2019](https://www.hosei.ac.jp/gs/NEWS/topics/jusho/190411_4/). 
+
+{{< blogcard url="https://www.hosei.ac.jp/gs/NEWS/topics/jusho/190411_4/" >}}
+
+## See also
+
+- [理工学研究科在学生の北田俊輔氏が「学生奨励賞」を受賞](/post/award-ipsj-2019/)

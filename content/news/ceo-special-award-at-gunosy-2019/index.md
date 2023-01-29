@@ -29,3 +29,10 @@ projects: []
 ---
 
 Got CEO special award in the second half of FY2019 at Gunosy Inc. ([detail](https://gunosiru.gunosy.co.jp/entry/party-7th-secondhalf)).
+
+> CEO 特別賞（多大な業績に貢献した社員のみに贈られる賞）
+> 
+> こちらの賞は従来の賞とは別に、多大な業績に貢献した社員が居る場合のみ贈られます。今回は、データマイニングに関する国際会議「KDD2019」に論文が採択された関さんと北田さんの 2 名が受賞しました。
+
+![▲受賞者：Gunosy Tech Lab 関さん（写真左）／インターン 北田さん（写真右）
+](figure1.webp)

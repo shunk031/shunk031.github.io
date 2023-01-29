@@ -28,4 +28,17 @@ image:
 projects: []
 ---
 
-Interviewed about my research internship in Gunosy Inc. ([the article](https://gunosiru.gunosy.co.jp/entry/kdd2019_gtl)).
+Interviewed about my research internship in Gunosy Inc. ([{{< icon name="newspaper" pack="fas" >}} the article](https://gunosiru.gunosy.co.jp/entry/kdd2019_gtl)). 
+
+> 今年の 5 月、Gunosy では「広告クリエイティブ作成支援のためのマルチタスク学習と Conditional Attention による CV 予測」の研究結果を発表した論文が、データマイニングに関する国際会議「KDD2019」に採択されました。
+> 
+> 今回は、研究を進めた Gunosy 共同創業者とインターン生にお話を伺ってきました。インターンでも研究に携われた指導方法とは？業務と並行して論文を書ける職場環境とは？「KDD2019」への登壇を直前に控えた 2 人の対談をお送りします。ぜひ、ご覧ください。
+
+{{< blogcard url="https://gunosiru.gunosy.co.jp/entry/kdd2019_gtl/" >}}
+
+![北田さん（写真左）／Gunosy Tech Lab 所属 インターン生
+, 関さん（写真右）／Gunosy 共同創業者 Gunosy Tech Lab R&Dﾁｰﾑ 上席研究員](figure1.webp)
+
+## See also
+
+- [インターン生も所属！Gunosy 研究チームの組織作りと制度をご紹介](/post/gunosy-intern-kdd-2019-owned-media/)
