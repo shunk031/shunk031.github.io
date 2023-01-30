@@ -5,8 +5,8 @@
 
 # Appearance
 
-theme: minimal
-day_night: true
+theme: openai
+day_night: false
 font: 'my_custom_fonts'
 font_size: S
 

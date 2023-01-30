@@ -1,0 +1,26 @@
+# Theme metadata
+name = "OpenAI"
+
+# Is theme light or dark?
+light = false
+
+# Primary
+primary = "#D984CB"
+
+# Menu
+menu_primary = "#3CF235"
+menu_text = "#34495e"
+menu_text_active = "#2962ff"
+menu_title = "#3CF235"
+
+# Home sections
+home_section_odd = "rgb(27, 46, 64)"
+home_section_even = "rgb(25, 55, 24)"
+
+[dark]
+  link = "#D984CB"
+  link_hover = "#3CF235"
+  
+  menu_primary = "#193718"
+  menu_title = "#3CF235"
+  menu_text = "#D984CB"
