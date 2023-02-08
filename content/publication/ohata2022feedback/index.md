@@ -4,7 +4,7 @@
 title: "Feedback is Needed for Retakes: An Explainable Poor Image Notification Framework for the Visually Impaired"
 authors: ["Ohata Kazuya", "Shunsuke Kitada", "Hitoshi Iyatomi"]
 date: 2022-10-18T14:09:09-04:00
-doi: ""
+doi: "10.1109/HONET56683.2022.10019010"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2022-10-18T14:09:09-04:00
