@@ -43,6 +43,7 @@ jobs:
             -e publication/#\\d \
             -e index.webmanifest \
             -e honet-ict.org \
+            -e jsps.go.jp \
             "
             
       - name: Deploy
