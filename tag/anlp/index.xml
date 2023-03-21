@@ -5,12 +5,20 @@
     <link>https://shunk031.github.io/tag/anlp/</link>
       <atom:link href="https://shunk031.github.io/tag/anlp/index.xml" rel="self" type="application/rss+xml" />
     <description>ANLP</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2023 Shunsuke Kitada.</copyright><lastBuildDate>Thu, 17 Mar 2022 10:40:00 +0900</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2023 Shunsuke Kitada.</copyright><lastBuildDate>Wed, 15 Mar 2023 09:40:00 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.github.io/media/sharing.png</url>
       <title>ANLP</title>
       <link>https://shunk031.github.io/tag/anlp/</link>
     </image>
+    
+    <item>
+      <title>Majority or Minority: 固有表現抽出におけるデータの不均衡性に着目した損失関数の提案</title>
+      <link>https://shunk031.github.io/publication/nemoto2023nlp/</link>
+      <pubDate>Wed, 15 Mar 2023 09:40:00 +0900</pubDate>
+      <guid>https://shunk031.github.io/publication/nemoto2023nlp/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>ViT-CLT: パッチ分割した文字画像から偏旁冠脚を考慮した文書分類</title>
