@@ -116,7 +116,7 @@ experience:
     # company_logo: hosei
     location: Koganei-shi, Tokyo, Japan
     date_start: '2020-04-01'
-    date_end: ''
+    date_end: '2023-03-31'
   
   - title: Part-time Job
     company: Tokyo Women's Medical University
@@ -171,7 +171,7 @@ experience:
     # company_logo: gunosy
     location: Shibuya-ku, Tokyo, Japan
     date_start: '2018-08-01'
-    date_end: ''
+    date_end: '2023-02-28'
     description: |2-
       - Supervisor: Dr. Yoshifumi Seki
       - Worked on fundamental research to evaluate and analyze ad creatives, resulting in a presentation at Applied Science track of KDD, a top data mining conference.
