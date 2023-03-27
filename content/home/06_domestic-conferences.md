@@ -7,7 +7,7 @@ widget: pages
 headless: true
 
 # Order that this section appears on the page.
-weight: 5
+weight: 6
 
 title: Domestic Conference / Presentation in Japan 🇯🇵
 subtitle: > 
