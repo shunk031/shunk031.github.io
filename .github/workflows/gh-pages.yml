@@ -45,7 +45,7 @@ jobs:
             -e index.webmanifest \
             -e honet-ict.org \
             -e jsps.go.jp \
-            -e *.xml \
+            -e .*.xml \
             "
             
       - name: Deploy
