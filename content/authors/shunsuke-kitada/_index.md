@@ -6,11 +6,14 @@ title: Shunsuke Kitada
 superuser: true
 
 # Role/position
-role: Ph.D student working on Deep Learning
+role: Research Scientist working on Vision & Language with Deep Learning
 
 # Organizations/Affiliations
 organizations:
-- name: Department of Applied Informatics, Graduate School of Science and Engineering, Hosei University
+- name: Research Scientist @Computer Vision Lab, LINE Corp.
+  url: "https://linecorp.com/en/"
+- name: 23th Floor Yotsuya Tower, 1-6-1 Yotsuya, Shinjuku-ku, Tokyo 160-0004, Japan
+- name: Project Researcher @Hosei University
   url: "https://www.hosei.ac.jp/english/admissions/graduate/jbdp/science_engineering/applied_informatics/"
 - name: S603, 3-7-2, Kajino-cho, Koganei-shi, Tokyo 184-8584, Japan
 - name: Intelligent information processing laboratory
@@ -29,7 +32,7 @@ education:
   courses:
   - course: PhD in Engineering
     institution: Graduate School of Science and Engineering, Hosei University
-    year: Current
+    year: 2023
   - course: MSc in Engineering
     institution: Graduate School of Science and Engineering, Hosei University
     year: 2020
@@ -97,8 +100,9 @@ user_groups:
 highlight_name: true
 ---
 
-Shunsuke Kitada （北田 俊輔 in Japanese) is a Ph.D student at Major in applied informatics, graduate school of science and engineering, Hosei University under the supervision of Prof. [Hitoshi Iyatomi](http://iyatomi-lab.info/front-e.html).
-His research interests include deep learning-based natural language processing, computer vision, medical image processing, and computational advertising.
+Shunsuke Kitada （北田 俊輔 in Japanese) is a Research Scientist at Computer Vision Lab (CVL), LINE Corp. His research interest is now on computational advertising with a focus on automatic geneartion/evaluation and assistive technology for multi-modal ad creatives.
+
+Previously, he got his Ph.D. in 2023 at major in applied informatics, graduate school of science and engineering, Hosei University under the supervision of Prof. [Hitoshi Iyatomi](http://iyatomi-lab.info/front-e.html). His project was to improve prediction performance and model interpretability through attention mechanisms from basic and applied research perspectives.
 
 His personality traits can be summarized as follows:
 - ❤️ **Love research and development.** He is enjoying research life, and he is currently focusing on three research topics simultaneously, e.g., natural language processing, medical image-based computer vision, computational advertising.
