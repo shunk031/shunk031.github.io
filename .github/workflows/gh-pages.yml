@@ -28,7 +28,6 @@ jobs:
           url: https://${{ github.event.repository.name }}
           pages_path: ./public
           cmd_params: "\
-            --verbose \
             --timeout=20 \
             --max-connections=10 \
             --max-response-body-size=70000000 \
