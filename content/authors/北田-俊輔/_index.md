@@ -6,11 +6,14 @@ title: 北田 俊輔
 superuser: true
 
 # Role/position
-role: 深層学習の研究取り組む博士課程の学生
+role: 深層学習による Vision & Language を研究するリサーチサイエンティスト
 
 # Organizations/Affiliations
 organizations:
-- name: 法政大学 大学院 理工学研究科 応用情報工学専攻博士後期課程
+- name: リサーチサイエンティスト @LINE 株式会社
+  url: "https://linecorp.com/ja/"
+- name: 〒160-0004 東京都 新宿区 四谷一丁目 6 番 1 号 四谷タワー 23 階
+- name: 大学院特任研究員 @法政大学
   url: "https://www.hosei.ac.jp/gs/riko/oyojoho_senko/"
 - name: 〒184-8584 東京都 小金井市 梶野町 3-7-2 南館 S603
 - name: 知的情報処理研究室 （彌冨研）
@@ -27,9 +30,9 @@ interests:
 
 education:
   courses:
-  - course: 博士後期課程（工学）
+  - course: 博士（工学）
     institution: 法政大学 大学院 理工学研究科
-    year: Current
+    year: 2023
   - course: 修士 （工学）
     institution: 法政大学 大学院 理工学研究科
     year: 2020
