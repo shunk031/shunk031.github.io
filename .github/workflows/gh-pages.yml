@@ -29,6 +29,7 @@ jobs:
           pages_path: ./public
           cmd_params: "\
             --timeout=20 \
+            --buffer-size 8192 \
             --max-connections=10 \
             --max-response-body-size=70000000 \
             -e linkedin.com \
