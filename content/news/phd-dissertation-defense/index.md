@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Successfully Defended my PhD Dissertation"
+title: "Successfully Defended my Ph.D. Dissertation"
 subtitle: ""
 summary: ""
 authors: ["Shunsuke Kitada"]
