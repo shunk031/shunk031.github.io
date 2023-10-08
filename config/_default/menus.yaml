@@ -45,7 +45,7 @@ main:
     weight: 5
 
   - name: 📝 Posts
-    url: '#9_featured'
+    url: '#09_featured'
     weight: 6
 
   - name: 💻 Experience
