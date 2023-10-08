@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 5
 
-title: Dissertation 📝
+title: Dissertation 🎓
 subtitle: ""
 
 content:
