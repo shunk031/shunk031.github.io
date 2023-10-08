@@ -37,3 +37,5 @@ In the lab life, I devoted all my energy to research and play under the policy "
 During my doctoral program, I was particularly supportted by various people, and I would like to give back to the university and academia that have helped me after entering industry. I will aim to research and develop cutting-edge technologies for the purpose.
 
 The dissertation and presentation slides can be found [here](/publication/kitada2023dissertation/).
+
+{{< tweet user="shunk031" id="1639976993818316801" >}}
