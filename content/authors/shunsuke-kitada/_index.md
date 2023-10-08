@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Shunsuke Kitada
+title: Shunsuke Kitada, Ph.D.
 
 # Is this the primary user of the site?
 superuser: true
