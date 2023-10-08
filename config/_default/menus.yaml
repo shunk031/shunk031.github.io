@@ -27,29 +27,33 @@ main:
     parent: publications
     url: '#04_preprints'
     weight: 3
+  - name: Thesis
+    parent: publications
+    url: '#05_dissertation'
+    weight: 4
   - name: Domestic Conference Paper / Presentation
     parent: publications
-    url: '#05_domestic-conferences'
-    weight: 4
+    url: '#06_domestic-conferences'
+    weight: 5
 
   - name: 🎙️ Talks
-    url: '#06_talks'
+    url: '#07_talks'
     weight: 4
 
   - name: 🏆 Awards & Grants
-    url: '#07_awards-and-grants'
+    url: '#08_awards-and-grants'
     weight: 5
 
   - name: 📝 Posts
-    url: '#08_featured'
+    url: '#09_featured'
     weight: 6
 
   - name: 💻 Experience
-    url: '#10_experience'
+    url: '#11_experience'
     weight: 7
 
   - name: 📂 Projects
-    url: '#11_projects'
+    url: '#12_projects'
     weight: 8
 
 # Link to a PDF of your resume/CV from the menu.

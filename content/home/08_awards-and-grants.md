@@ -1,35 +1,36 @@
 +++
-# A Featured Publications section created with the Featured Content widget.
-# This section displays publications from `content/publication/` which have
-# `featured = true` in their front matter.
+# A Demo section created with the Blank widget.
+# Any elements can be added in the body: https://sourcethemes.com/academic/docs/writing-markdown-latex/
+# Add more sections by duplicating this file and customizing to your requirements.
 
-widget = "featured"  # See https://sourcethemes.com/academic/docs/page-builder/
+widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 8  # Order that this section will appear.
 
-title = "Featured Post 📌"
-subtitle = "[All posts >>](/post)"
+title = "Awards & Grants 🏆"
+subtitle = ""
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
-  page_type = "post"
+  page_type = "news"
   
   # Choose how much pages you would like to display (0 = all pages)
-  count = 0
+  count = 5
+  
+  # Choose how many pages you would like to offset by
+  offset = 0
 
   # Page order. Descending (desc) or ascending (asc) date.
   order = "desc"
 
-  # Show a "See all pages" link underneath the featured content?
-  link_to_archive = false
-
   # Filter posts by a taxonomy term.
   [content.filters]
-    tag = ""
+    tag = "Awards & Grants"
     category = ""
     publication_type = ""
     author = ""
+    exclude_featured = true
   
 [design]
   # Toggle between the various page layout types.
@@ -37,7 +38,7 @@ subtitle = "[All posts >>](/post)"
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view = 3
+  view = "community/news_list"
   
 [design.background]
   # Apply a background color, gradient, or image.
