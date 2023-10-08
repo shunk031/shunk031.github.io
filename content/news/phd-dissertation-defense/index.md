@@ -30,7 +30,7 @@ projects: []
 
 I am thrilled to announce that I have successfully defended my PhD on March 24, 2023. The journey that began in the Intelligent Information Processing Lab has been nothing short of remarkable and exhilarating. I extend my deepest gratitude to everyone who has been an integral part of this journey.
 
-I want to express my sincere gratitude to my supervisor, Prof. Iyatomi & doctoral commitee members; Dr. Nishida and Prof. Sibata, for their continuous engagement and encouragement.
+I want to express my sincere gratitude to my supervisor, Prof. Iyatomi & doctoral committee members; Dr. Nishida and Prof. Sibata, for their continuous engagement and encouragement.
 I also thank the Graduate School of Science and Engineering, Hosei University for  for giving me advice from different perspectives and nurturing me.
 
 In the lab life, I devoted all my energy to research and play under the policy "*play hard, study hard*."
