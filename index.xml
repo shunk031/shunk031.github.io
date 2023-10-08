@@ -5,12 +5,38 @@
     <link>https://shunk031.github.io/</link>
       <atom:link href="https://shunk031.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>shunk031.me</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2023 Shunsuke Kitada.</copyright><lastBuildDate>Wed, 15 Mar 2023 09:40:00 +0900</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2023 Shunsuke Kitada.</copyright><lastBuildDate>Fri, 24 Mar 2023 00:00:00 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.github.io/media/sharing.png</url>
       <title>shunk031.me</title>
       <link>https://shunk031.github.io/</link>
     </image>
+    
+    <item>
+      <title>Improving Prediction Performance and Model Interpretability through Attention Mechanisms from Basic and Applied Research Perspectives</title>
+      <link>https://shunk031.github.io/publication/kitada2023dissertation/</link>
+      <pubDate>Fri, 24 Mar 2023 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.github.io/publication/kitada2023dissertation/</guid>
+      <description>&lt;iframe class=&#34;speakerdeck-iframe&#34; frameborder=&#34;0&#34; src=&#34;https://speakerdeck.com/player/183e269409c34898ad946cabe099f2da&#34; title=&#34;Improving Prediction Performance and Model Interpretability through Attention Mechanisms from Basic and Applied Research Perspectives (Presentation for Doctoral Dissertation)&#34; allowfullscreen=&#34;true&#34; style=&#34;border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 420;&#34; data-ratio=&#34;1.3333333333333333&#34;&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Successfully Defended my Ph.D. Dissertation</title>
+      <link>https://shunk031.github.io/news/phd-dissertation-defense/</link>
+      <pubDate>Fri, 24 Mar 2023 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.github.io/news/phd-dissertation-defense/</guid>
+      <description>&lt;p&gt;I am thrilled to announce that I have successfully defended my PhD on March 24, 2023. The journey that began in the Intelligent Information Processing Lab has been nothing short of remarkable and exhilarating. I extend my deepest gratitude to everyone who has been an integral part of this journey.&lt;/p&gt;
+&lt;p&gt;I want to express my sincere gratitude to my supervisor, Prof. Iyatomi &amp;amp; doctoral committee members; Dr. Nishida and Prof. Sibata, for their continuous engagement and encouragement.
+I also thank the Graduate School of Science and Engineering, Hosei University for  for giving me advice from different perspectives and nurturing me.&lt;/p&gt;
+&lt;p&gt;In the lab life, I devoted all my energy to research and play under the policy &amp;ldquo;&lt;em&gt;play hard, study hard&lt;/em&gt;.&amp;rdquo;
+During my doctoral program, I was particularly supportted by various people, and I would like to give back to the university and academia that have helped me after entering industry. I will aim to research and develop cutting-edge technologies for the purpose.&lt;/p&gt;
+&lt;p&gt;The dissertation and presentation slides can be found &lt;a href=&#34;https://shunk031.github.io/publication/kitada2023dissertation/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;博士（工学）になりました！卒業式で 元欅坂46の &lt;a href=&#34;https://twitter.com/Aoi_Harada00?ref_src=twsrc%5Etfw&#34;&gt;@Aoi_Harada00&lt;/a&gt; さんに僕の博論のタイトルを読み上げてもらったので、人生の最高潮になりました（該当箇所はこちら: &lt;a href=&#34;https://t.co/tXKUlQdxuY&#34;&gt;https://t.co/tXKUlQdxuY&lt;/a&gt;）。これからは卒業式でアイドルに博士号取得を祝ってもらったオタクとして社会に出たいと思います🥰 &lt;a href=&#34;https://t.co/tmkkyNh6CJ&#34;&gt;pic.twitter.com/tmkkyNh6CJ&lt;/a&gt;&lt;/p&gt;&amp;mdash; しゅんけー (@shunk031) &lt;a href=&#34;https://twitter.com/shunk031/status/1639976993818316801?ref_src=twsrc%5Etfw&#34;&gt;March 26, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+</description>
+    </item>
     
     <item>
       <title>Majority or Minority: 固有表現抽出におけるデータの不均衡性に着目した損失関数の提案</title>
