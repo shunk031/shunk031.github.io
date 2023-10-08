@@ -7,7 +7,7 @@ widget: pages
 headless: true
 
 # Order that this section appears on the page.
-weight: 6
+weight: 7
 
 title: 'Recent & Upcoming Talks 🎙️'
 subtitle: '[All recent and upcoming talks >>](/event)'
