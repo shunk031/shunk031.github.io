@@ -5,9 +5,7 @@ update :
 .PHONY : server
 server :
 	hugo mod clean
-	hugo server --disableFastRender --i18n-warnings
+	hugo server
 
 .PHONY : run
-run :
-	make update
-	make server
+run : update server
