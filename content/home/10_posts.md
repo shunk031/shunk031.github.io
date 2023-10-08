@@ -1,19 +1,18 @@
 +++
-# A Demo section created with the Blank widget.
-# Any elements can be added in the body: https://sourcethemes.com/academic/docs/writing-markdown-latex/
-# Add more sections by duplicating this file and customizing to your requirements.
+# A Recent Blog Posts section created with the Pages widget.
+# This section displays recent blog posts from `content/post/`.
 
 widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 7  # Order that this section will appear.
+weight = 10  # Order that this section will appear.
 
-title = "Awards & Grants 🏆"
-subtitle = ""
+title = "Posts & Articles 📝"
+subtitle = "about awards and interviews (almost in 🇯🇵)"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
-  page_type = "news"
+  page_type = "post"
   
   # Choose how much pages you would like to display (0 = all pages)
   count = 5
@@ -26,7 +25,7 @@ subtitle = ""
 
   # Filter posts by a taxonomy term.
   [content.filters]
-    tag = "Awards & Grants"
+    tag = ""
     category = ""
     publication_type = ""
     author = ""
@@ -38,7 +37,7 @@ subtitle = ""
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view = "community/news_list"
+  view = 2
   
 [design.background]
   # Apply a background color, gradient, or image.
