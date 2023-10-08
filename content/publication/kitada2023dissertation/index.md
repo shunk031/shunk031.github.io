@@ -4,7 +4,7 @@
 title: "Improving Prediction Performance and Model Interpretability through Attention Mechanisms from Basic and Applied Research Perspectives"
 authors: ["Shunsuke Kitada"]
 date: 2023-03-24T00:00:00+09:00
-doi: "10.48550/arXiv.2303.14116"
+doi: "10.15002/00026672"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2023-03-24T00:00:00+09:00
@@ -25,14 +25,14 @@ With the dramatic advances in deep learning technology, machine learning researc
 # Summary. An optional shortened abstract.
 summary: "Ph.D. dissertation"
 
-tags: ["Thesis"]
+tags: ["Thesis", "Dissertation"]
 categories: ["Natural Language Processing", "Computational Advertising", "Attention Mechanism", "Adversarial Training", "Virtual Adversarial Training", "Interpretability", "Explainability", "Ad Conversion Prediction", "Ad Discontinuation Prediction"]
 featured: false
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
 links:
-- name: Preprint
+- name: Bulletin
   url: https://arxiv.org/abs/2303.14116
   icon_pack: ai
   icon: arxiv
@@ -42,7 +42,7 @@ url_code:
 url_dataset:
 url_poster:
 url_project:
-url_slides:
+url_slides: https://speakerdeck.com/shunk031/improving-prediction-performance-and-model-interpretability-through-attention-mechanisms-from-basic-and-applied-research-perspectives-presentation-for-doctoral-dissertation
 url_source:
 url_video:
 
@@ -68,3 +68,5 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
+
+<iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/183e269409c34898ad946cabe099f2da" title="Improving Prediction Performance and Model Interpretability through Attention Mechanisms from Basic and Applied Research Perspectives (Presentation for Doctoral Dissertation)" allowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 420;" data-ratio="1.3333333333333333"></iframe>
