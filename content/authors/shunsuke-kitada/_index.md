@@ -102,7 +102,7 @@ highlight_name: true
 
 Shunsuke Kitada （北田 俊輔 in Japanese) is a Research Scientist at Computer Vision Lab (CVL), LINE Corp. His research interest is now on computational advertising with a focus on automatic geneartion/evaluation and assistive technology for multi-modal ad creatives.
 
-Previously, he got his Ph.D. in 2023 at major in applied informatics, graduate school of science and engineering, Hosei University under the supervision of Prof. [Hitoshi Iyatomi](http://iyatomi-lab.info/front-e.html). His project was to improve prediction performance and model interpretability through attention mechanisms from basic and applied research perspectives.
+Previously, he got his Ph.D. in 2023 at major in applied informatics, graduate school of science and engineering, Hosei University under the supervision of Prof. [Hitoshi Iyatomi](https://iyatomi-lab.info/english/outline_theme/overview). His project was to improve prediction performance and model interpretability through attention mechanisms from basic and applied research perspectives.
 
 His personality traits can be summarized as follows:
 - ❤️ **Love research and development.** He is enjoying research life, and he is currently focusing on three research topics simultaneously, e.g., natural language processing, medical image-based computer vision, computational advertising.
