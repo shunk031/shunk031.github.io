@@ -34,7 +34,7 @@ I want to express my sincere gratitude to my supervisor, Prof. Iyatomi & doctora
 I also thank the Graduate School of Science and Engineering, Hosei University for  for giving me advice from different perspectives and nurturing me.
 
 In the lab life, I devoted all my energy to research and play under the policy "*play hard, study hard*."
-During my doctoral program, I was particularly supportted by various people, and I would like to give back to the university and academia that have helped me after entering industry. I will aim to research and develop cutting-edge technologies for the purpose.
+During my doctoral program, I was particularly supported by various people, and I would like to give back to the university and academia that have helped me after entering industry. I will aim to research and develop cutting-edge technologies for the purpose.
 
 The dissertation and presentation slides can be found [here](/publication/kitada2023dissertation/).
 
