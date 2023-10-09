@@ -29,4 +29,4 @@ projects: []
 ---
 
 My comments as a representative of alumni were published in the admission guide of Hosei University.
-The commens can be found [here](/post/hosei-university-graduate-school-admission-guide-2023/).
+The comments can be found [here](/post/hosei-university-graduate-school-admission-guide-2023/).
