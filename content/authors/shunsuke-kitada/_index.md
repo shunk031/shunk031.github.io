@@ -17,7 +17,7 @@ organizations:
   url: "https://www.hosei.ac.jp/english/admissions/graduate/jbdp/science_engineering/applied_informatics/"
 - name: S603, 3-7-2, Kajino-cho, Koganei-shi, Tokyo 184-8584, Japan
 - name: Intelligent information processing laboratory
-  url: "http://iyatomi-lab.info/front-e.html"
+  url: "https://iyatomi-lab.info/english/outline_theme/overview"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include deep learning-based natural language processing, computer vision, medical image processing, and computational advertising.
