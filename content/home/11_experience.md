@@ -60,7 +60,7 @@ experience:
     date_start: '2022-08-22'
     date_end: '2022-09-30'
     description: |2-
-      - Supervisor: Mr. Masayoshi Kondo and Dr. Yoshihisa Ijiri
+      - Supervisor: Mr. Kondo and [Dr. Ijiri](https://scholar.google.co.jp/citations?user=VVoeVYIAAAAJ)
       - Topic: Vision-and-language models for advertising
       - Worked on establishing a new technology for automatic generation of advertising videos using images
 
@@ -72,7 +72,7 @@ experience:
     date_start: '2021-08-16'
     date_end: '2021-09-10'
     description: |2-
-      - Supervisor: Dr. [Kyosuke Nishida](https://www.knishida.info/)
+      - Supervisor: [Dr. Nishida](https://www.knishida.info/)
       - Topic: Vision-and-language document understanding
       - Worked on establishing a new pre-training method for document image understanding.
 
@@ -84,7 +84,7 @@ experience:
     date_start: '2021-07-01'
     date_end: '2022-12-31'
     description: |2-
-      - Supervisor: [Dr. Mayu Otani](https://mayu-ot.github.io/) and [Dr. Naoto Inoue](https://naoto0804.github.io/)
+      - Supervisor: [Dr. Otani](https://mayu-ot.github.io/) and [Dr. Inoue](https://naoto0804.github.io/)
       - Working on establishing multi-modal deep learning model for ad creative understanding in [a special research position](https://www.cyberagent.co.jp/news/detail/id=26231) for doctoral students adopted as JSPS Research fellow (DC1, DC2, PD).
 
   - title: Research Internship
@@ -154,7 +154,7 @@ experience:
     date_start: '2020-07-30'
     date_end: '2020-08-07'
     description: |2-
-      - Supervisors: Prof. [Masaru Tanaka](https://www.researchgate.net/scientific-contributions/Masaru-Tanaka-2078765174), Dr. [Noriko Umegaki](https://researchmap.jp/7000025183?lang=en), Prof. [Hitoshi Iyatomi](https://scholar.google.com/citations?user=ghyQxvIAAAAJ&hl=en)
+      - Supervisors: [Prof. Tanaka](https://www.researchgate.net/scientific-contributions/Masaru-Tanaka-2078765174), [Dr. Umegaki](https://researchmap.jp/7000025183?lang=en), [Prof. Iyatomi](https://scholar.google.com/citations?user=ghyQxvIAAAAJ&hl=en)
       - Assisted in collecting skin images for the construction of an automated diagnostic system.
 
   - title: Teaching Assistant
@@ -202,7 +202,7 @@ experience:
     date_start: '2018-08-01'
     date_end: '2023-02-28'
     description: |2-
-      - Supervisor: Dr. Yoshifumi Seki
+      - Supervisor: [Dr. Seki](https://scholar.google.com/citations?user=LoZ7VeYAAAAJ)
       - Worked on fundamental research to evaluate and analyze ad creatives, resulting in a presentation at Applied Science track of KDD, a top data mining conference.
         - My presentations and publications can be found at [the Gunosy tag](/tag/gunosy/).
       - Wrote some articles in Japanese:
