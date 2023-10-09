@@ -24,10 +24,39 @@ date_format: Jan 2006
 
 experience:
 
+  - title: Research Scientist
+    company: LY Corporation
+    company_url: 'https://www.lycorp.co.jp/en/'
+    location: Kioicho, Chiyoda-ku, Tokyo, Japan
+    date_start: '2023-10-01'
+  
+  - title: Lecturer
+    company: DAY1 COMPANY Inc.
+    company_url: https://day1company.co.kr/index.php/en/about_v202308-english/
+    location: Teheran-ro, Gangnam-gu, Seoul, Korea
+    date_start: '2023-06-26'
+    date_end: '2026-06-25'
+    description: |2-
+      - Taught lectures on image-generating AI at Coloso, an online education service
+      - The lectures can be found at the following URL: https://bit.ly/KitadaXColosoJP1
+  
+  - title: Project Researcher
+    company: Hosei University
+    company_url: 'https://iyatomi-lab.info/front-e.html'
+    location: Koganei-shi, Tokyo, Japan
+    date_start: '2023-04-01'
+  
+  - title: Research Scientist
+    company: LINE Corporation
+    company_url: 'https://linecorp.com/en/'
+    location: Yotsuya, Shinjuku-ku, Tokyo, Japan
+    date_start: '2023-04-01'
+    date_end: '2023-09-30'
+
   - title: Research Internship
     company: LINE Corporation
     company_url: 'https://linecorp.com/en/'
-    location: Yotsuya, Tokyo, Japan
+    location: Yotsuya, Shinjuku-ku, Tokyo, Japan
     date_start: '2022-08-22'
     date_end: '2022-09-30'
     description: |2-

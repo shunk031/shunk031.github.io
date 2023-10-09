@@ -10,7 +10,7 @@ role: Research Scientist working on Vision & Language with Deep Learning
 
 # Organizations/Affiliations
 organizations:
-- name: Research Scientist @Computer Vision Lab, LINE Corp.
+- name: Research Scientist @LY Corp.
   url: "https://linecorp.com/en/"
 - name: 23th Floor Yotsuya Tower, 1-6-1 Yotsuya, Shinjuku-ku, Tokyo 160-0004, Japan
 - name: Project Researcher @Hosei University
