@@ -23,11 +23,23 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 
 experience:
+  - title: Research Scientist
+    company: LY Corporation
+    company_url: 'https://www.lycorp.co.jp/en/'
+    location: Kioicho, Chiyoda-ku, Tokyo, Japan
+    date_start: '2023-10-01'
+
+  - title: Research Scientist
+    company: LINE Corporation
+    company_url: 'https://linecorp.com/en/'
+    location: Yotsuya, Shinjuku-ku, Tokyo, Japan
+    date_start: '2023-04-01'
+    date_end: '2023-09-30'
 
   - title: Research Internship
     company: LINE Corporation
     company_url: 'https://linecorp.com/en/'
-    location: Yotsuya, Tokyo, Japan
+    location: Yotsuya, Shinjuku-ku, Tokyo, Japan
     date_start: '2022-08-22'
     date_end: '2022-09-30'
     description: |2-
