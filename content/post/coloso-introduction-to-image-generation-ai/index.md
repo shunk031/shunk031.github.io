@@ -30,4 +30,9 @@ projects: []
 
 {{< youtube id="-IPEUOcPTas" autoplay="false" >}}
 
-リサーチサイエンティスト 北田俊輔 | Coloso. https://coloso.jp/products/researchscientist-kitada-jp 
+## 講義について
+
+- 講義ページ
+  - リサーチサイエンティスト 北田俊輔 | Coloso. https://coloso.jp/products/researchscientist-kitada-jp 
+- 講義資料ページ
+  - 画像生成 AI 入門：Python による拡散モデルの理論と実践 https://shunk031.me/coloso-python-diffusion-models/README.html 
