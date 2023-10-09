@@ -13,44 +13,45 @@
 ### MacOS
 
 ```sh
-$ brew install hugo
+brew install hugo
+brew install muffet caddy
 ```
 
 ## Check contents
 
 ```sh
-$ make run
+make run
 ```
 
 ## Update hugo modules
 
 ```sh
-$ make update
+make update
 ```
 
 ## Create a content
 ### Create a post for some news
 
 ```sh
-$ hugo new --kind post post/my-news
+hugo new --kind post post/my-news
 ```
 
 ### Create a publication page
 
 ```sh
-$ hugo new --kind publication publication/name2020conf
+hugo new --kind publication publication/name2020conf
 ```
 
 - Create for thumbnail image.
 
 ```sh
-$ convert paper.pdf[0] -resize 640x640^ -crop 640x480+0+0 -alpha remove featured.png
+convert paper.pdf[0] -resize 640x640^ -crop 640x480+0+0 -alpha remove featured.png
 ```
 
 ### Generate OGP image for the publication
 
 ```sh
-$ ./scripts/generate_ogp_image_for_publication.sh kitada20XXconf
+./scripts/generate_ogp_image_for_publication.sh kitada20XXconf
 
 # Load fonts from "assets/fonts/"
 # Load template from "assets/ogp/tcardgen-template.png" directory
