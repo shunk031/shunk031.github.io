@@ -30,6 +30,7 @@ subtitle = "[All posts >>](/post)"
     category = ""
     publication_type = ""
     author = ""
+    featured_only = true
   
 [design]
   # Toggle between the various page layout types.

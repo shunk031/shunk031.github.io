@@ -2,32 +2,42 @@
 # Display name
 title: Shunsuke Kitada, Ph.D.
 
+# Full name (for SEO)
+first_name: Shunsuke
+last_name: Kitada
+
+# Status emoji
+status:
+  icon: 🐉
+
 # Is this the primary user of the site?
 superuser: true
 
-# Role/position
+# Role/position/tagline
 role: Research Scientist working on Vision & Language with Deep Learning
 
-# Organizations/Affiliations
+# Organizations/Affiliations to show in About widget
 organizations:
-- name: Research Scientist @Computer Vision Lab, LINE Corp.
-  url: "https://linecorp.com/en/"
-- name: 23th Floor Yotsuya Tower, 1-6-1 Yotsuya, Shinjuku-ku, Tokyo 160-0004, Japan
-- name: Project Researcher @Hosei University
-  url: "https://www.hosei.ac.jp/english/admissions/graduate/jbdp/science_engineering/applied_informatics/"
-- name: S603, 3-7-2, Kajino-cho, Koganei-shi, Tokyo 184-8584, Japan
-- name: Intelligent information processing laboratory
-  url: "http://iyatomi-lab.info/front-e.html"
+  - name: Research Scientist @ Image and Video AI Dept., LY Corp.
+  - name: Kioi Tower 1-3 Kioicho, Chiyoda-ku, Tokyo, 102-8282, Japan
+    url: "https://www.lycorp.co.jp/en/company/overview/"
+  - name: Project Researcher @ Hosei University
+    url: "https://www.hosei.ac.jp/english/admissions/graduate/jbdp/science_engineering/applied_informatics/"
+  - name: S603, 3-7-2, Kajino-cho, Koganei-shi, Tokyo 184-8584, Japan
+  - name: Intelligent information processing laboratory
+    url: "http://iyatomi-lab.info/front-e.html"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include deep learning-based natural language processing, computer vision, medical image processing, and computational advertising.
 
+# Interests to show in About widget
 interests:
-- 🤖 Natural Language Processing
-- 💻 Computer Vision
-- 🏥 Medical Image Processing
-- 📃 Computational Advertising
+  - 🤖 Natural Language Processing
+  - 💻 Computer Vision
+  - 🏥 Medical Image Processing
+  - 📃 Computational Advertising
 
+# Education to show in About widget
 education:
   courses:
   - course: PhD in Engineering
@@ -40,52 +50,91 @@ education:
     institution: Hosei University
     year: 2018
 
+# Skills
+# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
+# skills:
+#   - name: Technical
+#     items:
+#       - name: Python
+#         description: ''
+#         percent: 80
+#         icon: python
+#         icon_pack: fab
+#       - name: Data Science
+#         description: ''
+#         percent: 100
+#         icon: chart-line
+#         icon_pack: fas
+#       - name: SQL
+#         description: ''
+#         percent: 40
+#         icon: database
+#         icon_pack: fas
+#   - name: Hobbies
+#     color: '#eeac02'
+#     color_border: '#f0bf23'
+#     items:
+#       - name: Hiking
+#         description: ''
+#         percent: 60
+#         icon: person-hiking
+#         icon_pack: fas
+#       - name: Cats
+#         description: ''
+#         percent: 100
+#         icon: cat
+#         icon_pack: fas
+#       - name: Photography
+#         description: ''
+#         percent: 80
+#         icon: camera-retro
+#         icon_pack: fas
+
 # Social/Academic Networking
-# For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
+# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
+#   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
-# - icon: envelope
-#   icon_pack: fas
-#   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+  - icon: twitter
+    icon_pack: fab
+    link: https://twitter.com/shunk031
+    label: Follow me on Twitter
+    display:
+      header: true
+  - icon: facebook
+    icon_pack: fab
+    link: https://www.facebook.com/shunk031
 
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/shunk031
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.co.jp/citations?user=GUzGhQIAAAAJ&hl=ja
 
-- icon: facebook
-  icon_pack: fab
-  link: https://www.facebook.com/shunk031
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/shunk031
 
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.co.jp/citations?user=GUzGhQIAAAAJ&hl=ja
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/shunk031/
 
-- icon: github
-  icon_pack: fab
-  link: https://github.com/shunk031
+  - icon: pen-nib
+    icon_pack: fas
+    link: http://shunk031.hatenablog.com/
 
-- icon: linkedin
-  icon_pack: fab
-  link: https://www.linkedin.com/in/shunk031/
+  - icon: speaker-deck
+    icon_pack: fab
+    link: https://speakerdeck.com/shunk031
 
-- icon: pen-nib
-  icon_pack: fas
-  link: http://shunk031.hatenablog.com/
+  - icon: researchgate
+    icon_pack: ai
+    link: https://www.researchgate.net/profile/Shunsuke_Kitada
 
-- icon: speaker-deck
-  icon_pack: fab
-  link: https://speakerdeck.com/shunk031
-
-- icon: researchgate
-  icon_pack: ai
-  link: https://www.researchgate.net/profile/Shunsuke_Kitada
-
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-- icon: cv
-  icon_pack: ai
-  link: https://github.com/shunk031/cv/releases/latest/download/cv.pdf
+  # Link to a PDF of your resume/CV.
+  # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
+  # and uncomment the lines below.
+  - icon: cv
+    icon_pack: ai
+    link: https://github.com/shunk031/cv/releases/latest/download/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "shunsuke.kitada.0831@gmail.com"
@@ -100,9 +149,11 @@ user_groups:
 highlight_name: true
 ---
 
-Shunsuke Kitada （北田 俊輔 in Japanese) is a Research Scientist at Computer Vision Lab (CVL), LINE Corp. His research interest is now on computational advertising with a focus on automatic geneartion/evaluation and assistive technology for multi-modal ad creatives.
+Shunsuke Kitada （北田 俊輔 in Japanese) is a Research Scientist at Image and Video AI Dept., LY Corp. 
+His research interest is now on computational advertising with a focus on automatic geneartion/evaluation and assistive technology for multi-modal ad creatives.
 
-Previously, he got his Ph.D. in 2023 at major in applied informatics, graduate school of science and engineering, Hosei University under the supervision of Prof. [Hitoshi Iyatomi](http://iyatomi-lab.info/front-e.html). His project was to improve prediction performance and model interpretability through attention mechanisms from basic and applied research perspectives.
+Previously, he got his Ph.D. in 2023 at major in applied informatics, graduate school of science and engineering, Hosei University under the supervision of Prof. [Hitoshi Iyatomi](http://iyatomi-lab.info/front-e.html). 
+His project was to improve prediction performance and model interpretability through attention mechanisms from basic and applied research perspectives.
 
 His personality traits can be summarized as follows:
 - ❤️ **Love research and development.** He is enjoying research life, and he is currently focusing on three research topics simultaneously, e.g., natural language processing, medical image-based computer vision, computational advertising.
