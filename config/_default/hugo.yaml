@@ -1,11 +1,10 @@
 # Configuration of Hugo
-# Guide: https://wowchemy.com/docs/getting-started/
+# Guide: https://docs.hugoblox.com/tutorial/
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: shunk031.me # Website name
-baseurl: 'https://shunk031.github.io/' # Website URL
-copyright: 'Copyright &copy; {year} Shunsuke Kitada.' # Footer text, e.g. '© {year} Me'
+baseURL: "https://shunk031.github.io/" # Website URL
 
 ############################
 ## LANGUAGE
@@ -17,15 +16,6 @@ defaultContentLanguageInSubdir: false
 removePathAccents: true
 
 ############################
-## MODULES
-############################
-
-module:
-  imports:
-    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms/v5
-    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy/v5
-
-############################
 ## ADVANCED
 ############################
 
@@ -35,22 +25,15 @@ paginate: 10
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
-ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$, item-list.md]
+ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
 permalinks:
-  event: '/talk/:slug/'
-  tags: '/tag/:slug/'
-  categories: '/category/:slug/'
-  publication_types: '/publication-type/:slug/'
+  event: "/talk/:slug/"
+  tags: "/tag/:slug/"
+  categories: "/category/:slug/"
+  publication_types: "/publication-type/:slug/"
 disableAliases: true
 outputs:
-  home: [
-      HTML, 
-      RSS, 
-      JSON, 
-      WebAppManifest, 
-      headers, 
-      redirects
-    ]
+  home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
   section: [HTML, RSS]
 imaging:
   resampleFilter: lanczos
@@ -74,4 +57,8 @@ related:
     - name: categories
       weight: 70
 security:
+  _merge: deep
+sitemap:
+  _merge: deep
+minify:
   _merge: deep
