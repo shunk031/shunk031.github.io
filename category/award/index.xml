@@ -5,7 +5,7 @@
     <link>https://shunk031.github.io/category/award/</link>
       <atom:link href="https://shunk031.github.io/category/award/index.xml" rel="self" type="application/rss+xml" />
     <description>Award</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2023 Shunsuke Kitada.</copyright><lastBuildDate>Sun, 05 Aug 2018 15:00:00 +0900</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 05 Aug 2018 15:00:00 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.github.io/media/sharing.png</url>
       <title>Award</title>
@@ -55,6 +55,10 @@
 
 
 
+
+
+
+
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
@@ -66,6 +70,7 @@
                height=&#34;507&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
+
 </description>
     </item>
     

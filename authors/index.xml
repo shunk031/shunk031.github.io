@@ -5,7 +5,7 @@
     <link>https://shunk031.github.io/authors/</link>
       <atom:link href="https://shunk031.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>shunk031.me</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2023 Shunsuke Kitada.</copyright>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
     <image>
       <url>https://shunk031.github.io/media/sharing.png</url>
       <title>shunk031.me</title>

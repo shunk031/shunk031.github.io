@@ -5,12 +5,20 @@
     <link>https://shunk031.github.io/</link>
       <atom:link href="https://shunk031.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>shunk031.me</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Copyright © 2023 Shunsuke Kitada.</copyright><lastBuildDate>Sun, 25 Jun 2023 00:00:00 +0900</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://shunk031.github.io/media/sharing.png</url>
       <title>shunk031.me</title>
       <link>https://shunk031.github.io/</link>
     </image>
+    
+    <item>
+      <title>Experience 💻</title>
+      <link>https://shunk031.github.io/home/11_experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://shunk031.github.io/home/11_experience/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>画像生成 AI 入門：Python による拡散モデルの理論と実践</title>
@@ -257,10 +265,11 @@ During my doctoral program, I was particularly supported by various people, and 
       <link>https://shunk031.github.io/post/hosei-university-graduate-school-admission-guide-2023/</link>
       <pubDate>Mon, 16 May 2022 21:30:22 +0900</pubDate>
       <guid>https://shunk031.github.io/post/hosei-university-graduate-school-admission-guide-2023/</guid>
-      <description>&lt;p&gt;法政大学大学院入学案内 2023 &lt;a href=&#34;https://shunk031.github.io/uploads/hosei_university_graduate_school_admission_guide_2023/ai.pdf&#34; target=&#34;_blank&#34;&gt;
-&lt;i class=&#34;fas fa-download  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 該当ページのみ (PDF, 1.7MB）&lt;/a&gt;
+      <description>&lt;p&gt;法政大学大学院入学案内 2023&lt;/p&gt;
+&lt;a href=&#34;https://shunk031.github.io/uploads/hosei_university_graduate_school_admission_guide_2023/ai.pdf&#34; target=&#34;_blank&#34;&gt;
+  &lt;i class=&#34;fas fa-download  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 該当ページのみ (PDF, 1.7MB）&lt;/a&gt;
 &lt;a href=&#34;https://shunk031.github.io/uploads/hosei_university_graduate_school_admission_guide_2023/original.pdf#page=86&#34; target=&#34;_blank&#34;&gt;
-&lt;i class=&#34;fas fa-download  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 全体 (PDF, 61.8MB）&lt;/a&gt;&lt;/p&gt;
+  &lt;i class=&#34;fas fa-download  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 全体 (PDF, 61.8MB）&lt;/a&gt;
 &lt;blockquote&gt;
 &lt;h1 id=&#34;人工知能と人がよりよく共存するため-ai-技術の拡張に取り組んでいます&#34;&gt;人工知能と人がよりよく共存するため AI 技術の拡張に取り組んでいます&lt;/h1&gt;
 &lt;p&gt;北田俊輔 博士後期課程在学中 / 日本学術振興会特別研究員&lt;/p&gt;
@@ -532,8 +541,9 @@ The comments can be found &lt;a href=&#34;https://shunk031.github.io/post/hosei-
 &lt;p&gt;質問等にもできる限りお答えします。連絡先は &lt;a href=&#34;https://twitter.com/shunk031&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
   &lt;i class=&#34;fab fa-twitter  pr-1 fa-fw&#34;&gt;&lt;/i&gt;@shunk031&lt;/a&gt; もしくは &lt;a href=&#34;https://shunk031.github.io/authors/shunsuke-kitada/&#34;&gt;プロフィールのページ&lt;/a&gt; を参照して下さい。&lt;/p&gt;
 &lt;h2 id=&#34;摂動に頑健で解釈可能な深層学習モデルの開発とその解釈性の評価&#34;&gt;摂動に頑健で解釈可能な深層学習モデルの開発とその解釈性の評価&lt;/h2&gt;
-&lt;h3 id=&#34;a-hrefuploadsjsps_research_fellowdc2_kitadapdf-target_blank&#34;&gt;&lt;a href=&#34;https://shunk031.github.io/uploads/jsps_research_fellow/dc2_kitada.pdf&#34; target=&#34;_blank&#34;&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;i class=&#34;fas fa-download  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 令和 3 年度採用分 特別研究員 - DC 申請書 (PDF, 1.8MB)&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;heading&#34;&gt;&lt;/h3&gt;
+&lt;a href=&#34;https://shunk031.github.io/uploads/jsps_research_fellow/dc2_kitada.pdf&#34; target=&#34;_blank&#34;&gt;
+  &lt;i class=&#34;fas fa-download  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 令和 3 年度採用分 特別研究員 - DC 申請書 (PDF, 1.8MB)&lt;/a&gt;
 &lt;p&gt;審査区分は &lt;code&gt;情報学&lt;/code&gt; の &lt;code&gt;知能情報学関連&lt;/code&gt; で、専門分野は &lt;code&gt;自然言語処理&lt;/code&gt; として申請しました。
 研究・職歴等は以下のように記述しました。特に TA や RA、企業でのリサーチインターン等の経験は研究遂行能力に影響を与えると考えました：&lt;/p&gt;
 &lt;ul&gt;
@@ -572,23 +582,23 @@ The comments can be found &lt;a href=&#34;https://shunk031.github.io/post/hosei-
 &lt;h2 id=&#34;学振-dc2-採用の体験談について-20220401-更新&#34;&gt;学振 DC2 採用の体験談について (2022/04/01 更新）&lt;/h2&gt;
 &lt;p&gt;学内で開催された &lt;a href=&#34;https://www.hosei.ac.jp/kenkyu/info/article-20220228215045/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2023（令和 5）年度 日本学術振興会特別研究員（ＤＣ１・ＤＣ２）申請に関する セミナー&lt;/a&gt; にて、&lt;a href=&#34;https://shunk031.github.io/talk/my-experience-about-jsps-research-fellowship&#34;&gt;私の学振 DC2 体験談（発表資料
   &lt;i class=&#34;fab fa-speaker-deck  pr-1 fa-fw&#34;&gt;&lt;/i&gt;)&lt;/a&gt; という講演をしました。学振特別研究員になってよかったこと、採用までの（長かった）道のり、申請作作成の注意点などをまとめています。&lt;/p&gt;
-&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
 &lt;p&gt;学内で &lt;a href=&#34;https://www.hosei.ac.jp/gs/info/article-20200305102401&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;申請セミナーの開催&lt;/a&gt; や &lt;a href=&#34;https://www.hosei.ac.jp/kenkyu/info/article-20200525125134&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DC2 申請支援制度&lt;/a&gt; があり、それぞれ活用させていただきました。&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
 &lt;p&gt;弊学から特別研究員に採用されたのが非常に稀な事例だったようで、&lt;a href=&#34;https://www.hosei.ac.jp/koganei/pickup/article-20210305121330/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;大学広報&lt;/a&gt; や &lt;a href=&#34;https://ai.ws.hosei.ac.jp/wp/news/news20210408/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;学科のホームページ&lt;/a&gt; で取り上げていただけました。&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id=&#34;fn:3&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
 &lt;p&gt;令和 3 年度 (2021 年度）の &lt;a href=&#34;https://www.jsps.go.jp/j-pd/pd_saiyo.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;採用状況&lt;/a&gt; では、採用内定者数は 83 人でした。最終的な採択率は &lt;code&gt;19.8 %&lt;/code&gt; 程度でした。&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id=&#34;fn:4&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;li id=&#34;fn:4&#34;&gt;
 &lt;p&gt;&lt;s&gt; 最終的な選考結果が出ないとわかりませんが、コロナ禍による博士学生支援の風潮により 2021 年度の繰り上げ採用が全体的に増えているかもしれません。&lt;/s&gt; 令和 3 年度 (2021 年度） の &lt;a href=&#34;https://www.jsps.go.jp/j-pd/pd_saiyo.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;補欠採用内定者の状況について&lt;/a&gt; では、補欠採用内定者は 44 人でした。前年度の 8 人に比べて 36 人ほど増えているようです。&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/section&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -1342,6 +1352,10 @@ The comments can be found &lt;a href=&#34;https://shunk031.github.io/post/hosei-
 
 
 
+
+
+
+
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
@@ -1353,6 +1367,7 @@ The comments can be found &lt;a href=&#34;https://shunk031.github.io/post/hosei-
                height=&#34;507&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
+
 </description>
     </item>
     

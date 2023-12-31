@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes | shunk031.me</title>
+    <link>https://shunk031.github.io/home/</link>
+      <atom:link href="https://shunk031.github.io/home/index.xml" rel="self" type="application/rss+xml" />
+    <description>Homes</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
+    <image>
+      <url>https://shunk031.github.io/media/sharing.png</url>
+      <title>Homes</title>
+      <link>https://shunk031.github.io/home/</link>
+    </image>
+    
+    <item>
+      <title>Experience 💻</title>
+      <link>https://shunk031.github.io/home/11_experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://shunk031.github.io/home/11_experience/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
