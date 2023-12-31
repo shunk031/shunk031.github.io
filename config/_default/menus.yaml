@@ -5,11 +5,11 @@
 
 main:
   - name: 🏠 Home
-    url: '#01_about'
+    url: "#about"
     weight: 1
 
   - name: 🗞️ News
-    url: '#02_recent-news'
+    url: "#recent-news"
     weight: 2
 
   - name: 📝 Publications
@@ -17,45 +17,44 @@ main:
     weight: 3
   - name: Journal Article
     parent: publications
-    url: '#03_journal-articles'
+    url: "#journal-articles"
     weight: 1
   - name: Conference Paper
     parent: publications
-    url: '#03_conference-papers'
+    url: "#conference-papers"
     weight: 2
   - name: Preprint
     parent: publications
-    url: '#04_preprints'
+    url: "#preprints"
     weight: 3
   - name: Thesis
     parent: publications
-    url: '#05_dissertation'
+    url: "#dissertation"
     weight: 4
   - name: Domestic Conference Paper / Presentation
     parent: publications
-    url: '#06_domestic-conferences'
+    url: "#domestic-conferences"
     weight: 5
 
   - name: 🎙️ Talks
-    url: '#07_talks'
+    url: "#talks"
     weight: 4
 
   - name: 🏆 Awards & Grants
-    url: '#08_awards-and-grants'
+    url: "#awards-and-grants"
     weight: 5
 
   - name: 📝 Posts
-    url: '#09_featured'
+    url: "#featured-posts"
     weight: 6
 
   - name: 💻 Experience
-    url: '#11_experience'
+    url: "#experience"
     weight: 7
 
-  - name: 📂 Projects
-    url: '#12_projects'
-    weight: 8
-
+  # - name: 📂 Projects
+  #   url: "#projects"
+  #   weight: 8
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
 #  - name: CV
