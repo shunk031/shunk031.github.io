@@ -115,3 +115,8 @@ extensions:
 security:
   # Allow frame for embedding speaker notes in slides
   allow_frame: true
+  # Breaking changes in Hugo 0.91.0 · HugoBlox/hugo-blox-builder · Discussion #2559 https://github.com/HugoBlox/hugo-blox-builder/discussions/2559
+  funcs:
+    getenv:
+      - ^HUGO_
+      - ^WC_
