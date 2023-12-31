@@ -6,7 +6,8 @@
 # Appearance
 
 appearance:
-  theme_day: openai
+  mode: dark
+  # theme_day: openai
   theme_night: openai
   font: "my_custom_fonts"
   font_size: S
@@ -36,8 +37,8 @@ header:
     enable: true
     align: l
     show_logo: true
+    show_theme_chooser: false
     show_language: false
-    show_day_night: true
     show_search: true
     highlight_active_link: true
 
