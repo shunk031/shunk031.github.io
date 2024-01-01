@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming Talks | shunk031.me</title>
-    <link>https://shunk031.github.io/event/</link>
-      <atom:link href="https://shunk031.github.io/event/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shunk031.me/event/</link>
+      <atom:link href="https://shunk031.me/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
     <image>
-      <url>https://shunk031.github.io/media/sharing.png</url>
+      <url>https://shunk031.me/media/sharing.png</url>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>https://shunk031.github.io/event/</link>
+      <link>https://shunk031.me/event/</link>
     </image>
     
     <item>
       <title>Expressions Causing Differences in Emotion Recognition in Social Networking Service Documents (CIKM&#39;22)</title>
-      <link>https://shunk031.github.io/talk/expressions-causing-differences-in-emotion-recognition-in-social-networking-service-documents-cikm22/</link>
+      <link>https://shunk031.me/talk/expressions-causing-differences-in-emotion-recognition-in-social-networking-service-documents-cikm22/</link>
       <pubDate>Sat, 12 Nov 2022 14:45:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/talk/expressions-causing-differences-in-emotion-recognition-in-social-networking-service-documents-cikm22/</guid>
+      <guid>https://shunk031.me/talk/expressions-causing-differences-in-emotion-recognition-in-social-networking-service-documents-cikm22/</guid>
       <description>&lt;h1 id=&#34;ir-reading-2022-秋&#34;&gt;IR Reading 2022 秋&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;概要
@@ -29,9 +29,9 @@
     
     <item>
       <title>Introduction to AllenNLP to accelerate NLP research</title>
-      <link>https://shunk031.github.io/talk/introduction-to-allennlp-to-accelerate-nlp-research/</link>
+      <link>https://shunk031.me/talk/introduction-to-allennlp-to-accelerate-nlp-research/</link>
       <pubDate>Fri, 22 Jul 2022 19:30:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/talk/introduction-to-allennlp-to-accelerate-nlp-research/</guid>
+      <guid>https://shunk031.me/talk/introduction-to-allennlp-to-accelerate-nlp-research/</guid>
       <description>&lt;h1 id=&#34;nlp-hacks-vol6nlp-の研究を加速させる-allennlp-入門&#34;&gt;【NLP Hacks vol.6】NLP の研究を加速させる AllenNLP 入門&lt;/h1&gt;
 &lt;h2 id=&#34;動画---video&#34;&gt;動画 - Video&lt;/h2&gt;
 
@@ -46,53 +46,53 @@
     
     <item>
       <title>My experience about JSPS Research Fellowship</title>
-      <link>https://shunk031.github.io/talk/my-experience-about-jsps-research-fellowship/</link>
+      <link>https://shunk031.me/talk/my-experience-about-jsps-research-fellowship/</link>
       <pubDate>Fri, 01 Apr 2022 15:55:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/talk/my-experience-about-jsps-research-fellowship/</guid>
+      <guid>https://shunk031.me/talk/my-experience-about-jsps-research-fellowship/</guid>
       <description>&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;f2f33c0e7081479c87922a5fcfb5bcfe&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
 </description>
     </item>
     
     <item>
       <title>Recent Issues in Intelligent Robotics, Machine Learning, and Distributed System</title>
-      <link>https://shunk031.github.io/talk/recent-issues-in-intelligent-robotics-machine-learning-and-distributed-system/</link>
+      <link>https://shunk031.me/talk/recent-issues-in-intelligent-robotics-machine-learning-and-distributed-system/</link>
       <pubDate>Wed, 17 Mar 2021 18:45:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/talk/recent-issues-in-intelligent-robotics-machine-learning-and-distributed-system/</guid>
+      <guid>https://shunk031.me/talk/recent-issues-in-intelligent-robotics-machine-learning-and-distributed-system/</guid>
       <description>&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;de984e0c9a2d4934bcb0e6e46b2c4ff8&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
 </description>
     </item>
     
     <item>
       <title>The Present and Future of Machine Learning for Ad Creatives</title>
-      <link>https://shunk031.github.io/talk/the-present-and-future-of-machine-learning-for-ad-creatives/</link>
+      <link>https://shunk031.me/talk/the-present-and-future-of-machine-learning-for-ad-creatives/</link>
       <pubDate>Tue, 09 Jun 2020 14:40:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/talk/the-present-and-future-of-machine-learning-for-ad-creatives/</guid>
+      <guid>https://shunk031.me/talk/the-present-and-future-of-machine-learning-for-ad-creatives/</guid>
       <description>&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;aae0bfc47d0a4e9eb12e3d9d64cd9df8&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
 </description>
     </item>
     
     <item>
       <title>Text Analytics Symposium 2019</title>
-      <link>https://shunk031.github.io/talk/text-analytics-symposium-2019/</link>
+      <link>https://shunk031.me/talk/text-analytics-symposium-2019/</link>
       <pubDate>Fri, 27 Sep 2019 15:40:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/talk/text-analytics-symposium-2019/</guid>
+      <guid>https://shunk031.me/talk/text-analytics-symposium-2019/</guid>
       <description>&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;f38b46e6e1bd4ec6b4a3fb182495a340&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
 </description>
     </item>
     
     <item>
       <title>Hosei Scitech Forum 2019</title>
-      <link>https://shunk031.github.io/talk/hosei-scitech-forum-2019/</link>
+      <link>https://shunk031.me/talk/hosei-scitech-forum-2019/</link>
       <pubDate>Sun, 15 Sep 2019 12:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/talk/hosei-scitech-forum-2019/</guid>
+      <guid>https://shunk031.me/talk/hosei-scitech-forum-2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CCSE 2019</title>
-      <link>https://shunk031.github.io/talk/ccse-2019/</link>
+      <link>https://shunk031.me/talk/ccse-2019/</link>
       <pubDate>Sat, 13 Jul 2019 16:05:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/talk/ccse-2019/</guid>
+      <guid>https://shunk031.me/talk/ccse-2019/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
     &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
         src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fccse.jp%2f2019%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
@@ -104,9 +104,9 @@
     
     <item>
       <title>ICML/KDD 2019 Pre-conference session</title>
-      <link>https://shunk031.github.io/talk/icml/kdd-2019-pre-conference-session/</link>
+      <link>https://shunk031.me/talk/icml/kdd-2019-pre-conference-session/</link>
       <pubDate>Mon, 03 Jun 2019 19:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/talk/icml/kdd-2019-pre-conference-session/</guid>
+      <guid>https://shunk031.me/talk/icml/kdd-2019-pre-conference-session/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
     &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
         src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2flapras.connpass.com%2fevent%2f130914%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;

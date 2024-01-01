@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sentiment Analysis | shunk031.me</title>
-    <link>https://shunk031.github.io/category/sentiment-analysis/</link>
-      <atom:link href="https://shunk031.github.io/category/sentiment-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shunk031.me/category/sentiment-analysis/</link>
+      <atom:link href="https://shunk031.me/category/sentiment-analysis/index.xml" rel="self" type="application/rss+xml" />
     <description>Sentiment Analysis</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 02 Aug 2022 14:18:12 +0900</lastBuildDate>
     <image>
-      <url>https://shunk031.github.io/media/sharing.png</url>
+      <url>https://shunk031.me/media/sharing.png</url>
       <title>Sentiment Analysis</title>
-      <link>https://shunk031.github.io/category/sentiment-analysis/</link>
+      <link>https://shunk031.me/category/sentiment-analysis/</link>
     </image>
     
     <item>
       <title>Expressions Causing Differences in Emotion Recognition in Social Networking Service Documents</title>
-      <link>https://shunk031.github.io/publication/nakagawa2022expressions/</link>
+      <link>https://shunk031.me/publication/nakagawa2022expressions/</link>
       <pubDate>Tue, 02 Aug 2022 14:18:12 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/nakagawa2022expressions/</guid>
+      <guid>https://shunk031.me/publication/nakagawa2022expressions/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
     &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
         src=&#34;https://hatenablog-parts.com/embed?url=http%3a%2f%2farxiv.org%2fabs%2f2208.14244&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
@@ -28,17 +28,17 @@
     
     <item>
       <title>書き手と読み手の怒りの感情認識の差の原因となる表現の獲得</title>
-      <link>https://shunk031.github.io/publication/nakagawa2022nlp/</link>
+      <link>https://shunk031.me/publication/nakagawa2022nlp/</link>
       <pubDate>Thu, 17 Mar 2022 10:40:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/nakagawa2022nlp/</guid>
+      <guid>https://shunk031.me/publication/nakagawa2022nlp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>文章の書き手が持つ感情と読み手が受ける感情の差に関する初期調査および考察</title>
-      <link>https://shunk031.github.io/publication/nakagawa2021yans/</link>
+      <link>https://shunk031.me/publication/nakagawa2021yans/</link>
       <pubDate>Thu, 02 Sep 2021 20:02:35 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/nakagawa2021yans/</guid>
+      <guid>https://shunk031.me/publication/nakagawa2021yans/</guid>
       <description></description>
     </item>
     

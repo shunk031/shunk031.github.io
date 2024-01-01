@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Side job | shunk031.me</title>
-    <link>https://shunk031.github.io/tag/side-job/</link>
-      <atom:link href="https://shunk031.github.io/tag/side-job/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shunk031.me/tag/side-job/</link>
+      <atom:link href="https://shunk031.me/tag/side-job/index.xml" rel="self" type="application/rss+xml" />
     <description>Side job</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 25 Jun 2023 00:00:00 +0900</lastBuildDate>
     <image>
-      <url>https://shunk031.github.io/media/sharing.png</url>
+      <url>https://shunk031.me/media/sharing.png</url>
       <title>Side job</title>
-      <link>https://shunk031.github.io/tag/side-job/</link>
+      <link>https://shunk031.me/tag/side-job/</link>
     </image>
     
     <item>
       <title>画像生成 AI 入門：Python による拡散モデルの理論と実践</title>
-      <link>https://shunk031.github.io/post/coloso-introduction-to-image-generation-ai/</link>
+      <link>https://shunk031.me/post/coloso-introduction-to-image-generation-ai/</link>
       <pubDate>Sun, 25 Jun 2023 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/post/coloso-introduction-to-image-generation-ai/</guid>
+      <guid>https://shunk031.me/post/coloso-introduction-to-image-generation-ai/</guid>
       <description>
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/-IPEUOcPTas&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;

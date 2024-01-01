@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HP | shunk031.me</title>
-    <link>https://shunk031.github.io/tag/hp/</link>
-      <atom:link href="https://shunk031.github.io/tag/hp/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shunk031.me/tag/hp/</link>
+      <atom:link href="https://shunk031.me/tag/hp/index.xml" rel="self" type="application/rss+xml" />
     <description>HP</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 31 Mar 2020 20:20:24 +0900</lastBuildDate>
     <image>
-      <url>https://shunk031.github.io/media/sharing.png</url>
+      <url>https://shunk031.me/media/sharing.png</url>
       <title>HP</title>
-      <link>https://shunk031.github.io/tag/hp/</link>
+      <link>https://shunk031.me/tag/hp/</link>
     </image>
     
     <item>
       <title>Hosei University Soft Tennis Club Hp</title>
-      <link>https://shunk031.github.io/project/hosei-university-soft-tennis-club-hp/</link>
+      <link>https://shunk031.me/project/hosei-university-soft-tennis-club-hp/</link>
       <pubDate>Tue, 31 Mar 2020 20:20:24 +0900</pubDate>
-      <guid>https://shunk031.github.io/project/hosei-university-soft-tennis-club-hp/</guid>
+      <guid>https://shunk031.me/project/hosei-university-soft-tennis-club-hp/</guid>
       <description></description>
     </item>
     

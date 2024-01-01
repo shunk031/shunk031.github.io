@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>中川 翼 | shunk031.me</title>
-    <link>https://shunk031.github.io/authors/%E4%B8%AD%E5%B7%9D-%E7%BF%BC/</link>
-      <atom:link href="https://shunk031.github.io/authors/%E4%B8%AD%E5%B7%9D-%E7%BF%BC/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shunk031.me/authors/%E4%B8%AD%E5%B7%9D-%E7%BF%BC/</link>
+      <atom:link href="https://shunk031.me/authors/%E4%B8%AD%E5%B7%9D-%E7%BF%BC/index.xml" rel="self" type="application/rss+xml" />
     <description>中川 翼</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 17 Mar 2022 10:40:00 +0900</lastBuildDate>
     <image>
-      <url>https://shunk031.github.io/media/sharing.png</url>
+      <url>https://shunk031.me/media/sharing.png</url>
       <title>中川 翼</title>
-      <link>https://shunk031.github.io/authors/%E4%B8%AD%E5%B7%9D-%E7%BF%BC/</link>
+      <link>https://shunk031.me/authors/%E4%B8%AD%E5%B7%9D-%E7%BF%BC/</link>
     </image>
     
     <item>
       <title>書き手と読み手の怒りの感情認識の差の原因となる表現の獲得</title>
-      <link>https://shunk031.github.io/publication/nakagawa2022nlp/</link>
+      <link>https://shunk031.me/publication/nakagawa2022nlp/</link>
       <pubDate>Thu, 17 Mar 2022 10:40:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/nakagawa2022nlp/</guid>
+      <guid>https://shunk031.me/publication/nakagawa2022nlp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>文章の書き手が持つ感情と読み手が受ける感情の差に関する初期調査および考察</title>
-      <link>https://shunk031.github.io/publication/nakagawa2021yans/</link>
+      <link>https://shunk031.me/publication/nakagawa2021yans/</link>
       <pubDate>Thu, 02 Sep 2021 20:02:35 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/nakagawa2021yans/</guid>
+      <guid>https://shunk031.me/publication/nakagawa2021yans/</guid>
       <description></description>
     </item>
     

@@ -2,33 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yuki Iwazaki | shunk031.me</title>
-    <link>https://shunk031.github.io/authors/yuki-iwazaki/</link>
-      <atom:link href="https://shunk031.github.io/authors/yuki-iwazaki/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shunk031.me/authors/yuki-iwazaki/</link>
+      <atom:link href="https://shunk031.me/authors/yuki-iwazaki/index.xml" rel="self" type="application/rss+xml" />
     <description>Yuki Iwazaki</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 14 Nov 2022 00:00:00 +0900</lastBuildDate>
     <image>
-      <url>https://shunk031.github.io/media/sharing.png</url>
+      <url>https://shunk031.me/media/sharing.png</url>
       <title>Yuki Iwazaki</title>
-      <link>https://shunk031.github.io/authors/yuki-iwazaki/</link>
+      <link>https://shunk031.me/authors/yuki-iwazaki/</link>
     </image>
     
     <item>
       <title>DM$^2$S$^2$: Deep Multi-Modal Sequence Sets with Hierarchical Modality Attention</title>
-      <link>https://shunk031.github.io/publication/kitada2022dm2s2/</link>
+      <link>https://shunk031.me/publication/kitada2022dm2s2/</link>
       <pubDate>Mon, 14 Nov 2022 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2022dm2s2/</guid>
+      <guid>https://shunk031.me/publication/kitada2022dm2s2/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.scimagojr.com/journalsearch.php?q=21100374601&amp;amp;tip=sid&amp;amp;exact=no&#34; title=&#34;SCImago Journal &amp;amp; Country Rank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;https://www.scimagojr.com/journal_img.php?id=21100374601&#34; alt=&#34;SCImago Journal &amp;amp; Country Rank&#34;  /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Accepted our journal paper to IEEE Access</title>
-      <link>https://shunk031.github.io/news/acceptance-to-ieee-access-kitada2022dm2s2/</link>
+      <link>https://shunk031.me/news/acceptance-to-ieee-access-kitada2022dm2s2/</link>
       <pubDate>Thu, 03 Nov 2022 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/news/acceptance-to-ieee-access-kitada2022dm2s2/</guid>
+      <guid>https://shunk031.me/news/acceptance-to-ieee-access-kitada2022dm2s2/</guid>
       <description>&lt;p&gt;The following paper has been accepted to the &lt;a href=&#34;https://ieeeaccess.ieee.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IEEE Access&lt;/a&gt;.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Shunsuke Kitada, Yuki Iwazaki, Riku Togashi, and Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.github.io/publication/kitada2022dm2s2&#34;&gt;&amp;ldquo;DM$^2$S$^2$: Deep Multi-Modal Sequence Sets with Hierarchical Modality Attention&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Shunsuke Kitada, Yuki Iwazaki, Riku Togashi, and Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.me/publication/kitada2022dm2s2&#34;&gt;&amp;ldquo;DM$^2$S$^2$: Deep Multi-Modal Sequence Sets with Hierarchical Modality Attention&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

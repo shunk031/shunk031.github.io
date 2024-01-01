@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>関 喜史 | shunk031.me</title>
-    <link>https://shunk031.github.io/authors/%E9%96%A2-%E5%96%9C%E5%8F%B2/</link>
-      <atom:link href="https://shunk031.github.io/authors/%E9%96%A2-%E5%96%9C%E5%8F%B2/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shunk031.me/authors/%E9%96%A2-%E5%96%9C%E5%8F%B2/</link>
+      <atom:link href="https://shunk031.me/authors/%E9%96%A2-%E5%96%9C%E5%8F%B2/index.xml" rel="self" type="application/rss+xml" />
     <description>関 喜史</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 09 Jun 2021 16:47:22 +0900</lastBuildDate>
     <image>
-      <url>https://shunk031.github.io/media/sharing.png</url>
+      <url>https://shunk031.me/media/sharing.png</url>
       <title>関 喜史</title>
-      <link>https://shunk031.github.io/authors/%E9%96%A2-%E5%96%9C%E5%8F%B2/</link>
+      <link>https://shunk031.me/authors/%E9%96%A2-%E5%96%9C%E5%8F%B2/</link>
     </image>
     
     <item>
       <title>広告クリエイティブ評価のための深層確率埋め込みの学習</title>
-      <link>https://shunk031.github.io/publication/kitada2021jsai/</link>
+      <link>https://shunk031.me/publication/kitada2021jsai/</link>
       <pubDate>Wed, 09 Jun 2021 16:47:22 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2021jsai/</guid>
+      <guid>https://shunk031.me/publication/kitada2021jsai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>生存時間分析を用いた広告クリエイティブの停止予測</title>
-      <link>https://shunk031.github.io/publication/kitada2020jsai/</link>
+      <link>https://shunk031.me/publication/kitada2020jsai/</link>
       <pubDate>Wed, 17 Jun 2020 14:06:57 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2020jsai/</guid>
+      <guid>https://shunk031.me/publication/kitada2020jsai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>広告クリエイティブ自動生成にむけたマルチタスク学習と Conditional Attention による CVR 予測</title>
-      <link>https://shunk031.github.io/publication/kitada2019nlp/</link>
+      <link>https://shunk031.me/publication/kitada2019nlp/</link>
       <pubDate>Wed, 13 Mar 2019 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2019nlp/</guid>
+      <guid>https://shunk031.me/publication/kitada2019nlp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>広告クリエイティブ自動生成に向けた単語レベルでの評価手法の検討</title>
-      <link>https://shunk031.github.io/publication/kitada2018yans/</link>
+      <link>https://shunk031.me/publication/kitada2018yans/</link>
       <pubDate>Tue, 28 Aug 2018 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2018yans/</guid>
+      <guid>https://shunk031.me/publication/kitada2018yans/</guid>
       <description></description>
     </item>
     

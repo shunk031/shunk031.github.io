@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Official Implementation | shunk031.me</title>
-    <link>https://shunk031.github.io/tag/official-implementation/</link>
-      <atom:link href="https://shunk031.github.io/tag/official-implementation/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shunk031.me/tag/official-implementation/</link>
+      <atom:link href="https://shunk031.me/tag/official-implementation/index.xml" rel="self" type="application/rss+xml" />
     <description>Official Implementation</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 30 Nov 2021 11:22:13 +0900</lastBuildDate>
     <image>
-      <url>https://shunk031.github.io/media/sharing.png</url>
+      <url>https://shunk031.me/media/sharing.png</url>
       <title>Official Implementation</title>
-      <link>https://shunk031.github.io/tag/official-implementation/</link>
+      <link>https://shunk031.me/tag/official-implementation/</link>
     </image>
     
     <item>
       <title>End-to-End Text Classification via Image-based Embedding using Character-level Networks</title>
-      <link>https://shunk031.github.io/project/ceclcnn/</link>
+      <link>https://shunk031.me/project/ceclcnn/</link>
       <pubDate>Tue, 30 Nov 2021 11:22:13 +0900</pubDate>
-      <guid>https://shunk031.github.io/project/ceclcnn/</guid>
+      <guid>https://shunk031.me/project/ceclcnn/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Attention Meets Perturbation</title>
-      <link>https://shunk031.github.io/project/attention-meets-perturbation/</link>
+      <link>https://shunk031.me/project/attention-meets-perturbation/</link>
       <pubDate>Fri, 02 Oct 2020 00:01:07 +0900</pubDate>
-      <guid>https://shunk031.github.io/project/attention-meets-perturbation/</guid>
+      <guid>https://shunk031.me/project/attention-meets-perturbation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Conversion Prediction Using Multi-task Conditional Attention Networks to Support the Creation of Effective Ad Creatives</title>
-      <link>https://shunk031.github.io/project/multi-task-conditional-attention-networks/</link>
+      <link>https://shunk031.me/project/multi-task-conditional-attention-networks/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/project/multi-task-conditional-attention-networks/</guid>
+      <guid>https://shunk031.me/project/multi-task-conditional-attention-networks/</guid>
       <description></description>
     </item>
     

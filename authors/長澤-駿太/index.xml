@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>長澤 駿太 | shunk031.me</title>
-    <link>https://shunk031.github.io/authors/%E9%95%B7%E6%BE%A4-%E9%A7%BF%E5%A4%AA/</link>
-      <atom:link href="https://shunk031.github.io/authors/%E9%95%B7%E6%BE%A4-%E9%A7%BF%E5%A4%AA/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shunk031.me/authors/%E9%95%B7%E6%BE%A4-%E9%A7%BF%E5%A4%AA/</link>
+      <atom:link href="https://shunk031.me/authors/%E9%95%B7%E6%BE%A4-%E9%A7%BF%E5%A4%AA/index.xml" rel="self" type="application/rss+xml" />
     <description>長澤 駿太</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 15 Jan 2021 17:29:07 +0900</lastBuildDate>
     <image>
-      <url>https://shunk031.github.io/media/sharing.png</url>
+      <url>https://shunk031.me/media/sharing.png</url>
       <title>長澤 駿太</title>
-      <link>https://shunk031.github.io/authors/%E9%95%B7%E6%BE%A4-%E9%A7%BF%E5%A4%AA/</link>
+      <link>https://shunk031.me/authors/%E9%95%B7%E6%BE%A4-%E9%A7%BF%E5%A4%AA/</link>
     </image>
     
     <item>
       <title>キャプション生成時低品質データ事前検知の試み</title>
-      <link>https://shunk031.github.io/publication/ohata2021nlp/</link>
+      <link>https://shunk031.me/publication/ohata2021nlp/</link>
       <pubDate>Fri, 15 Jan 2021 17:29:07 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/ohata2021nlp/</guid>
+      <guid>https://shunk031.me/publication/ohata2021nlp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Script-aware embedding を用いた文字表現の獲得</title>
-      <link>https://shunk031.github.io/publication/nagasawa2020nlp/</link>
+      <link>https://shunk031.me/publication/nagasawa2020nlp/</link>
       <pubDate>Tue, 17 Mar 2020 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/nagasawa2020nlp/</guid>
+      <guid>https://shunk031.me/publication/nagasawa2020nlp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>日本語の文字体系を考慮した文書分類モデルの提案</title>
-      <link>https://shunk031.github.io/publication/nagasawa2019yans/</link>
+      <link>https://shunk031.me/publication/nagasawa2019yans/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/nagasawa2019yans/</guid>
+      <guid>https://shunk031.me/publication/nagasawa2019yans/</guid>
       <description></description>
     </item>
     

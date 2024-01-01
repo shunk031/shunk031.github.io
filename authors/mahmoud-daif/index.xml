@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mahmoud Daif | shunk031.me</title>
-    <link>https://shunk031.github.io/authors/mahmoud-daif/</link>
-      <atom:link href="https://shunk031.github.io/authors/mahmoud-daif/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shunk031.me/authors/mahmoud-daif/</link>
+      <atom:link href="https://shunk031.me/authors/mahmoud-daif/index.xml" rel="self" type="application/rss+xml" />
     <description>Mahmoud Daif</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 21 Jun 2020 21:38:33 +0900</lastBuildDate>
     <image>
-      <url>https://shunk031.github.io/media/sharing.png</url>
+      <url>https://shunk031.me/media/sharing.png</url>
       <title>Mahmoud Daif</title>
-      <link>https://shunk031.github.io/authors/mahmoud-daif/</link>
+      <link>https://shunk031.me/authors/mahmoud-daif/</link>
     </image>
     
     <item>
       <title>AraDIC: Arabic Document Classification using Image-Based Character Embeddings and Class-Balanced Loss</title>
-      <link>https://shunk031.github.io/publication/daif2020aradic/</link>
+      <link>https://shunk031.me/publication/daif2020aradic/</link>
       <pubDate>Sun, 21 Jun 2020 21:38:33 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/daif2020aradic/</guid>
+      <guid>https://shunk031.me/publication/daif2020aradic/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
     &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
         src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fwww.aclweb.org%2fanthology%2f2020.acl-srw.29%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
@@ -28,29 +28,29 @@
     
     <item>
       <title>Accepted our paper to ACL2020 SRW</title>
-      <link>https://shunk031.github.io/news/acceptance-to-acl2020srw/</link>
+      <link>https://shunk031.me/news/acceptance-to-acl2020srw/</link>
       <pubDate>Sat, 18 Apr 2020 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/news/acceptance-to-acl2020srw/</guid>
+      <guid>https://shunk031.me/news/acceptance-to-acl2020srw/</guid>
       <description>&lt;p&gt;The following paper has been accepted to the &lt;a href=&#34;https://sites.google.com/view/acl20studentresearchworkshop/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ACL2020 Student Research Workshop (SRW)&lt;/a&gt;.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Mahmoud Daif, Shunsuke Kitada, Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.github.io/publication/daif2020aradic&#34;&gt;&amp;ldquo;AraDIC: Arabic Document Classification using Image-Based Character Embeddings and Class-Balanced Loss&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Mahmoud Daif, Shunsuke Kitada, Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.me/publication/daif2020aradic&#34;&gt;&amp;ldquo;AraDIC: Arabic Document Classification using Image-Based Character Embeddings and Class-Balanced Loss&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>Image-based Character Embedding for Arabic Document Classification</title>
-      <link>https://shunk031.github.io/publication/daif2020nlp/</link>
+      <link>https://shunk031.me/publication/daif2020nlp/</link>
       <pubDate>Tue, 17 Mar 2020 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/daif2020nlp/</guid>
+      <guid>https://shunk031.me/publication/daif2020nlp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Image Based Character Embeddings for Arabic Document Classification</title>
-      <link>https://shunk031.github.io/publication/daif2019yans/</link>
+      <link>https://shunk031.me/publication/daif2019yans/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/daif2019yans/</guid>
+      <guid>https://shunk031.me/publication/daif2019yans/</guid>
       <description></description>
     </item>
     

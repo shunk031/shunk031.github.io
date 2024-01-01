@@ -2,42 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hitoshi Iyatomi | shunk031.me</title>
-    <link>https://shunk031.github.io/authors/hitoshi-iyatomi/</link>
-      <atom:link href="https://shunk031.github.io/authors/hitoshi-iyatomi/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shunk031.me/authors/hitoshi-iyatomi/</link>
+      <atom:link href="https://shunk031.me/authors/hitoshi-iyatomi/index.xml" rel="self" type="application/rss+xml" />
     <description>Hitoshi Iyatomi</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 14 Nov 2022 00:00:00 +0900</lastBuildDate>
     <image>
-      <url>https://shunk031.github.io/media/sharing.png</url>
+      <url>https://shunk031.me/media/sharing.png</url>
       <title>Hitoshi Iyatomi</title>
-      <link>https://shunk031.github.io/authors/hitoshi-iyatomi/</link>
+      <link>https://shunk031.me/authors/hitoshi-iyatomi/</link>
     </image>
     
     <item>
       <title>DM$^2$S$^2$: Deep Multi-Modal Sequence Sets with Hierarchical Modality Attention</title>
-      <link>https://shunk031.github.io/publication/kitada2022dm2s2/</link>
+      <link>https://shunk031.me/publication/kitada2022dm2s2/</link>
       <pubDate>Mon, 14 Nov 2022 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2022dm2s2/</guid>
+      <guid>https://shunk031.me/publication/kitada2022dm2s2/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.scimagojr.com/journalsearch.php?q=21100374601&amp;amp;tip=sid&amp;amp;exact=no&#34; title=&#34;SCImago Journal &amp;amp; Country Rank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;https://www.scimagojr.com/journal_img.php?id=21100374601&#34; alt=&#34;SCImago Journal &amp;amp; Country Rank&#34;  /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Accepted our journal paper to IEEE Access</title>
-      <link>https://shunk031.github.io/news/acceptance-to-ieee-access-kitada2022dm2s2/</link>
+      <link>https://shunk031.me/news/acceptance-to-ieee-access-kitada2022dm2s2/</link>
       <pubDate>Thu, 03 Nov 2022 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/news/acceptance-to-ieee-access-kitada2022dm2s2/</guid>
+      <guid>https://shunk031.me/news/acceptance-to-ieee-access-kitada2022dm2s2/</guid>
       <description>&lt;p&gt;The following paper has been accepted to the &lt;a href=&#34;https://ieeeaccess.ieee.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IEEE Access&lt;/a&gt;.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Shunsuke Kitada, Yuki Iwazaki, Riku Togashi, and Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.github.io/publication/kitada2022dm2s2&#34;&gt;&amp;ldquo;DM$^2$S$^2$: Deep Multi-Modal Sequence Sets with Hierarchical Modality Attention&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Shunsuke Kitada, Yuki Iwazaki, Riku Togashi, and Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.me/publication/kitada2022dm2s2&#34;&gt;&amp;ldquo;DM$^2$S$^2$: Deep Multi-Modal Sequence Sets with Hierarchical Modality Attention&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>Making Attention Mechanisms More Robust and Interpretable with Virtual Adversarial Training</title>
-      <link>https://shunk031.github.io/publication/kitada2022making/</link>
+      <link>https://shunk031.me/publication/kitada2022making/</link>
       <pubDate>Thu, 27 Oct 2022 21:33:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2022making/</guid>
+      <guid>https://shunk031.me/publication/kitada2022making/</guid>
       <description>&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -69,41 +69,41 @@
     
     <item>
       <title>Accepted our journal paper to Springer Applied Intelligence journal</title>
-      <link>https://shunk031.github.io/news/acceptance-to-apin-kitada2022making/</link>
+      <link>https://shunk031.me/news/acceptance-to-apin-kitada2022making/</link>
       <pubDate>Thu, 27 Oct 2022 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/news/acceptance-to-apin-kitada2022making/</guid>
+      <guid>https://shunk031.me/news/acceptance-to-apin-kitada2022making/</guid>
       <description>&lt;p&gt;The following paper has been accepted to the &lt;a href=&#34;https://www.springer.com/journal/10489&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Springer Applied Intelligence&lt;/a&gt;.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Shunsuke Kitada and Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.github.io/publication/kitada2022making&#34;&gt;&amp;ldquo;Making Attention Mechanisms More Robust and Interpretable with Virtual Adversarial Training&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Shunsuke Kitada and Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.me/publication/kitada2022making&#34;&gt;&amp;ldquo;Making Attention Mechanisms More Robust and Interpretable with Virtual Adversarial Training&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>Feedback is Needed for Retakes: An Explainable Poor Image Notification Framework for the Visually Impaired</title>
-      <link>https://shunk031.github.io/publication/ohata2022feedback/</link>
+      <link>https://shunk031.me/publication/ohata2022feedback/</link>
       <pubDate>Tue, 18 Oct 2022 14:09:09 -0400</pubDate>
-      <guid>https://shunk031.github.io/publication/ohata2022feedback/</guid>
+      <guid>https://shunk031.me/publication/ohata2022feedback/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Accepted our paper to IEEE HONET2022</title>
-      <link>https://shunk031.github.io/news/acceptance-to-honet2022/</link>
+      <link>https://shunk031.me/news/acceptance-to-honet2022/</link>
       <pubDate>Mon, 17 Oct 2022 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/news/acceptance-to-honet2022/</guid>
+      <guid>https://shunk031.me/news/acceptance-to-honet2022/</guid>
       <description>&lt;p&gt;The following paper has been accepted to the &lt;a href=&#34;https://honet-ict.org/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IEEE HONET2022&lt;/a&gt;.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Ohata Kazuya, Shunsuke Kitada and Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.github.io/publication/ohata2022feedback&#34;&gt;&amp;ldquo;Feedback is Needed for Retakes: An Explainable Poor Image Notification Framework for the Visually Impaired&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Ohata Kazuya, Shunsuke Kitada and Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.me/publication/ohata2022feedback&#34;&gt;&amp;ldquo;Feedback is Needed for Retakes: An Explainable Poor Image Notification Framework for the Visually Impaired&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>Expressions Causing Differences in Emotion Recognition in Social Networking Service Documents</title>
-      <link>https://shunk031.github.io/publication/nakagawa2022expressions/</link>
+      <link>https://shunk031.me/publication/nakagawa2022expressions/</link>
       <pubDate>Tue, 02 Aug 2022 14:18:12 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/nakagawa2022expressions/</guid>
+      <guid>https://shunk031.me/publication/nakagawa2022expressions/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
     &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
         src=&#34;https://hatenablog-parts.com/embed?url=http%3a%2f%2farxiv.org%2fabs%2f2208.14244&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
@@ -115,21 +115,21 @@
     
     <item>
       <title>Accepted our paper to ACM CIKM2022</title>
-      <link>https://shunk031.github.io/news/acceptance-to-cikm2022/</link>
+      <link>https://shunk031.me/news/acceptance-to-cikm2022/</link>
       <pubDate>Mon, 01 Aug 2022 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/news/acceptance-to-cikm2022/</guid>
+      <guid>https://shunk031.me/news/acceptance-to-cikm2022/</guid>
       <description>&lt;p&gt;The following paper has been accepted to the &lt;a href=&#34;https://www.cikm2022.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ACM CIKM2022&lt;/a&gt;.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Tsubasa Nakagawa, Shunsuke Kitada, and Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.github.io/publication/nakagawa2022expressions&#34;&gt;&amp;ldquo;Expressions Causing Differences in Emotion Recognition in Social Networking Service Documents&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tsubasa Nakagawa, Shunsuke Kitada, and Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.me/publication/nakagawa2022expressions&#34;&gt;&amp;ldquo;Expressions Causing Differences in Emotion Recognition in Social Networking Service Documents&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>Ad Creative Discontinuation Prediction with Multi-Modal Multi-Task Neural Survival Networks</title>
-      <link>https://shunk031.github.io/publication/kitada2022ad/</link>
+      <link>https://shunk031.me/publication/kitada2022ad/</link>
       <pubDate>Mon, 04 Apr 2022 00:35:42 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2022ad/</guid>
+      <guid>https://shunk031.me/publication/kitada2022ad/</guid>
       <description>&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -161,51 +161,51 @@
     
     <item>
       <title>Accepted our journal paper to MDPI Applied Sciences journal</title>
-      <link>https://shunk031.github.io/news/acceptance-to-appl-sci-kitada2022ad/</link>
+      <link>https://shunk031.me/news/acceptance-to-appl-sci-kitada2022ad/</link>
       <pubDate>Tue, 29 Mar 2022 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/news/acceptance-to-appl-sci-kitada2022ad/</guid>
+      <guid>https://shunk031.me/news/acceptance-to-appl-sci-kitada2022ad/</guid>
       <description>&lt;p&gt;The following paper has been accepted to the &lt;a href=&#34;https://www.mdpi.com/journal/applsci&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MDPI Applied Sciences&lt;/a&gt;.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Shunsuke Kitada, Hitoshi Iyatomi, and Yoshifumi Seki. &lt;a href=&#34;https://shunk031.github.io/publication/kitada2022ad&#34;&gt;&amp;ldquo;Ad Creative Discontinuation Prediction with Multi-Modal Multi-Task Neural Survival Networks&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Shunsuke Kitada, Hitoshi Iyatomi, and Yoshifumi Seki. &lt;a href=&#34;https://shunk031.me/publication/kitada2022ad&#34;&gt;&amp;ldquo;Ad Creative Discontinuation Prediction with Multi-Modal Multi-Task Neural Survival Networks&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>Attention Meets Perturbations: Robust and Interpretable Attention with Adversarial Training</title>
-      <link>https://shunk031.github.io/publication/kitada2021attention/</link>
+      <link>https://shunk031.me/publication/kitada2021attention/</link>
       <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2021attention/</guid>
+      <guid>https://shunk031.me/publication/kitada2021attention/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.scimagojr.com/journalsearch.php?q=21100374601&amp;amp;tip=sid&amp;amp;exact=no&#34; title=&#34;SCImago Journal &amp;amp; Country Rank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;https://www.scimagojr.com/journal_img.php?id=21100374601&#34; alt=&#34;SCImago Journal &amp;amp; Country Rank&#34;  /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Accepted our paper to IEEE Access journal</title>
-      <link>https://shunk031.github.io/news/acceptance-to-ieee-access-kitada2021attention/</link>
+      <link>https://shunk031.me/news/acceptance-to-ieee-access-kitada2021attention/</link>
       <pubDate>Mon, 21 Jun 2021 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/news/acceptance-to-ieee-access-kitada2021attention/</guid>
+      <guid>https://shunk031.me/news/acceptance-to-ieee-access-kitada2021attention/</guid>
       <description>&lt;p&gt;The following paper has been accepted to the &lt;a href=&#34;https://ieeeaccess.ieee.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IEEE Access&lt;/a&gt;.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Shunsuke Kitada and Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.github.io/publication/kitada2021attention&#34;&gt;&amp;ldquo;Attention Meets Perturbations: Robust and Interpretable Attention with Adversarial Training&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Shunsuke Kitada and Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.me/publication/kitada2021attention&#34;&gt;&amp;ldquo;Attention Meets Perturbations: Robust and Interpretable Attention with Adversarial Training&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>Making Attention Mechanisms More Robust and Interpretable with Virtual Adversarial Training for Semi-Supervised Text Classification</title>
-      <link>https://shunk031.github.io/publication/kitada2021making/</link>
+      <link>https://shunk031.me/publication/kitada2021making/</link>
       <pubDate>Tue, 20 Apr 2021 17:28:27 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2021making/</guid>
-      <description>&lt;p&gt;The manuscript accepted for publication in the Applied Intelligence journal can be found &lt;a href=&#34;https://shunk031.github.io/publication/kitada2022making&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+      <guid>https://shunk031.me/publication/kitada2021making/</guid>
+      <description>&lt;p&gt;The manuscript accepted for publication in the Applied Intelligence journal can be found &lt;a href=&#34;https://shunk031.me/publication/kitada2022making&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Text Classification through Glyph-aware Disentangled Character Embedding and Semantic Sub-character Augmentation</title>
-      <link>https://shunk031.github.io/publication/aoki2020text/</link>
+      <link>https://shunk031.me/publication/aoki2020text/</link>
       <pubDate>Sun, 25 Oct 2020 15:15:41 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/aoki2020text/</guid>
+      <guid>https://shunk031.me/publication/aoki2020text/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
     &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
         src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fwww.aclweb.org%2fanthology%2f2020.aacl-srw.1%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
@@ -217,21 +217,21 @@
     
     <item>
       <title>Accepted our paper to AACL-IJCNLP2020 SRW</title>
-      <link>https://shunk031.github.io/news/acceptance-to-aacl2020srw/</link>
+      <link>https://shunk031.me/news/acceptance-to-aacl2020srw/</link>
       <pubDate>Sat, 24 Oct 2020 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/news/acceptance-to-aacl2020srw/</guid>
+      <guid>https://shunk031.me/news/acceptance-to-aacl2020srw/</guid>
       <description>&lt;p&gt;The following paper has been accepted to the &lt;a href=&#34;https://aacl2020-srw.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AACL-IJCNLP 2020 Student Research Workshop (SRW)&lt;/a&gt;.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Takumi Aoki, Shunsuke Kitada, and Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.github.io/publication/aoki2020text&#34;&gt;&amp;ldquo;Text Classification through Glyph-aware Disentangled Character Embedding and Semantic Sub-character Augmentation&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Takumi Aoki, Shunsuke Kitada, and Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.me/publication/aoki2020text&#34;&gt;&amp;ldquo;Text Classification through Glyph-aware Disentangled Character Embedding and Semantic Sub-character Augmentation&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>AraDIC: Arabic Document Classification using Image-Based Character Embeddings and Class-Balanced Loss</title>
-      <link>https://shunk031.github.io/publication/daif2020aradic/</link>
+      <link>https://shunk031.me/publication/daif2020aradic/</link>
       <pubDate>Sun, 21 Jun 2020 21:38:33 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/daif2020aradic/</guid>
+      <guid>https://shunk031.me/publication/daif2020aradic/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
     &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
         src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fwww.aclweb.org%2fanthology%2f2020.acl-srw.29%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
@@ -243,29 +243,29 @@
     
     <item>
       <title>Accepted our paper to ACL2020 SRW</title>
-      <link>https://shunk031.github.io/news/acceptance-to-acl2020srw/</link>
+      <link>https://shunk031.me/news/acceptance-to-acl2020srw/</link>
       <pubDate>Sat, 18 Apr 2020 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/news/acceptance-to-acl2020srw/</guid>
+      <guid>https://shunk031.me/news/acceptance-to-acl2020srw/</guid>
       <description>&lt;p&gt;The following paper has been accepted to the &lt;a href=&#34;https://sites.google.com/view/acl20studentresearchworkshop/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ACL2020 Student Research Workshop (SRW)&lt;/a&gt;.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Mahmoud Daif, Shunsuke Kitada, Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.github.io/publication/daif2020aradic&#34;&gt;&amp;ldquo;AraDIC: Arabic Document Classification using Image-Based Character Embeddings and Class-Balanced Loss&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Mahmoud Daif, Shunsuke Kitada, Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.me/publication/daif2020aradic&#34;&gt;&amp;ldquo;AraDIC: Arabic Document Classification using Image-Based Character Embeddings and Class-Balanced Loss&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>Image-based Character Embedding for Arabic Document Classification</title>
-      <link>https://shunk031.github.io/publication/daif2020nlp/</link>
+      <link>https://shunk031.me/publication/daif2020nlp/</link>
       <pubDate>Tue, 17 Mar 2020 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/daif2020nlp/</guid>
+      <guid>https://shunk031.me/publication/daif2020nlp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Honorable Mention in YANS 2019</title>
-      <link>https://shunk031.github.io/news/honorable-mention-in-yans-2019/</link>
+      <link>https://shunk031.me/news/honorable-mention-in-yans-2019/</link>
       <pubDate>Wed, 28 Aug 2019 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/news/honorable-mention-in-yans-2019/</guid>
+      <guid>https://shunk031.me/news/honorable-mention-in-yans-2019/</guid>
       <description>&lt;p&gt;Got Honorable Mention in &lt;a href=&#34;https://www.hosei.ac.jp/gs/NEWS/zaigaku/koganei/20190920/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;YANS 2019&lt;/a&gt;.&lt;/p&gt;
 &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;【奨励賞】2/3&lt;br&gt;・「解釈性向上のための注意機構と損失勾配に対する関連損失の導入」北田俊輔, 彌冨仁&lt;br&gt;・「文法誤り訂正を拡張した新タスクの提案」三田雅人, 萩原正人, 坂口慶祐, 水本智也, 鈴木潤, 乾健太郎&lt;a href=&#34;https://twitter.com/hashtag/yans2019?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#yans2019&lt;/a&gt;&lt;/p&gt;&amp;mdash; NLP若手の会 (YANS) (@yans_official) &lt;a href=&#34;https://twitter.com/yans_official/status/1166592677577678851?ref_src=twsrc%5Etfw&#34;&gt;August 28, 2019&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
@@ -276,17 +276,17 @@
     
     <item>
       <title>Image Based Character Embeddings for Arabic Document Classification</title>
-      <link>https://shunk031.github.io/publication/daif2019yans/</link>
+      <link>https://shunk031.me/publication/daif2019yans/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/daif2019yans/</guid>
+      <guid>https://shunk031.me/publication/daif2019yans/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Conversion Prediction Using Multi-task Conditional Attention Networks to Support the Creation of Effective Ad Creative</title>
-      <link>https://shunk031.github.io/publication/kitada2019conversion/</link>
+      <link>https://shunk031.me/publication/kitada2019conversion/</link>
       <pubDate>Mon, 27 May 2019 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2019conversion/</guid>
+      <guid>https://shunk031.me/publication/kitada2019conversion/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
     &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
         src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2farxiv.org%2fabs%2f1905.07289&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
@@ -298,21 +298,21 @@
     
     <item>
       <title>Accepted our paper to ACM KDD2019 Applied Data Science Track</title>
-      <link>https://shunk031.github.io/news/acceptance-to-kdd2019/</link>
+      <link>https://shunk031.me/news/acceptance-to-kdd2019/</link>
       <pubDate>Mon, 29 Apr 2019 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/news/acceptance-to-kdd2019/</guid>
+      <guid>https://shunk031.me/news/acceptance-to-kdd2019/</guid>
       <description>&lt;p&gt;The following paper has been accepted to the &lt;a href=&#34;https://www.kdd.org/kdd2019/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;KDD2019 Applied Data Science Track&lt;/a&gt;.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Shunsuke Kitada, Hitoshi Iyatomi, and Yoshifumi Seki. &lt;a href=&#34;https://shunk031.github.io/publication/kitada2019conversion&#34;&gt;&amp;ldquo;Conversion Prediction Using Multi-task Conditional Attention Networks to Support the Creation of Effective Ad Creative&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Shunsuke Kitada, Hitoshi Iyatomi, and Yoshifumi Seki. &lt;a href=&#34;https://shunk031.me/publication/kitada2019conversion&#34;&gt;&amp;ldquo;Conversion Prediction Using Multi-task Conditional Attention Networks to Support the Creation of Effective Ad Creative&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>End-to-End Text Classification via Image-based Embedding using Character-level Networks</title>
-      <link>https://shunk031.github.io/publication/kitada2018end/</link>
+      <link>https://shunk031.me/publication/kitada2018end/</link>
       <pubDate>Mon, 08 Oct 2018 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2018end/</guid>
+      <guid>https://shunk031.me/publication/kitada2018end/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
     &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
         src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2farxiv.org%2fabs%2f1810.03595&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
@@ -324,9 +324,9 @@
     
     <item>
       <title>Skin lesion classification with ensemble of squeeze-and-excitation networks and semi-supervised learning</title>
-      <link>https://shunk031.github.io/publication/kitada2018skin/</link>
+      <link>https://shunk031.me/publication/kitada2018skin/</link>
       <pubDate>Fri, 07 Sep 2018 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2018skin/</guid>
+      <guid>https://shunk031.me/publication/kitada2018skin/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
     &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
         src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2farxiv.org%2fabs%2f1809.02568&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
@@ -338,12 +338,12 @@
     
     <item>
       <title>Accepted our paper to IEEE AIPR2018 Workshop</title>
-      <link>https://shunk031.github.io/news/acceptance-to-ieee-aipr2018/</link>
+      <link>https://shunk031.me/news/acceptance-to-ieee-aipr2018/</link>
       <pubDate>Wed, 05 Sep 2018 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/news/acceptance-to-ieee-aipr2018/</guid>
+      <guid>https://shunk031.me/news/acceptance-to-ieee-aipr2018/</guid>
       <description>&lt;p&gt;The following paper has been accepted to the &lt;a href=&#34;https://sites.google.com/aipr-workshop.org/aipr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AIPR2018 Workshop&lt;/a&gt;.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Shunsuke Kitada, Ryunosuke Kotani, and Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.github.io/publication/kitada2018end&#34;&gt;&amp;ldquo;End-to-End Text Classification via Image-based Embedding using Character-level Networks&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Shunsuke Kitada, Ryunosuke Kotani, and Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.me/publication/kitada2018end&#34;&gt;&amp;ldquo;End-to-End Text Classification via Image-based Embedding using Character-level Networks&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

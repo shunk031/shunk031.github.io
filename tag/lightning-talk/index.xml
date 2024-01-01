@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lightning Talk | shunk031.me</title>
-    <link>https://shunk031.github.io/tag/lightning-talk/</link>
-      <atom:link href="https://shunk031.github.io/tag/lightning-talk/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shunk031.me/tag/lightning-talk/</link>
+      <atom:link href="https://shunk031.me/tag/lightning-talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Lightning Talk</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 22 Jul 2022 19:30:00 +0900</lastBuildDate>
     <image>
-      <url>https://shunk031.github.io/media/sharing.png</url>
+      <url>https://shunk031.me/media/sharing.png</url>
       <title>Lightning Talk</title>
-      <link>https://shunk031.github.io/tag/lightning-talk/</link>
+      <link>https://shunk031.me/tag/lightning-talk/</link>
     </image>
     
     <item>
       <title>Introduction to AllenNLP to accelerate NLP research</title>
-      <link>https://shunk031.github.io/talk/introduction-to-allennlp-to-accelerate-nlp-research/</link>
+      <link>https://shunk031.me/talk/introduction-to-allennlp-to-accelerate-nlp-research/</link>
       <pubDate>Fri, 22 Jul 2022 19:30:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/talk/introduction-to-allennlp-to-accelerate-nlp-research/</guid>
+      <guid>https://shunk031.me/talk/introduction-to-allennlp-to-accelerate-nlp-research/</guid>
       <description>&lt;h1 id=&#34;nlp-hacks-vol6nlp-の研究を加速させる-allennlp-入門&#34;&gt;【NLP Hacks vol.6】NLP の研究を加速させる AllenNLP 入門&lt;/h1&gt;
 &lt;h2 id=&#34;動画---video&#34;&gt;動画 - Video&lt;/h2&gt;
 

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Presentation | shunk031.me</title>
-    <link>https://shunk031.github.io/tag/presentation/</link>
-      <atom:link href="https://shunk031.github.io/tag/presentation/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shunk031.me/tag/presentation/</link>
+      <atom:link href="https://shunk031.me/tag/presentation/index.xml" rel="self" type="application/rss+xml" />
     <description>Presentation</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 15 Sep 2019 12:00:00 +0900</lastBuildDate>
     <image>
-      <url>https://shunk031.github.io/media/sharing.png</url>
+      <url>https://shunk031.me/media/sharing.png</url>
       <title>Presentation</title>
-      <link>https://shunk031.github.io/tag/presentation/</link>
+      <link>https://shunk031.me/tag/presentation/</link>
     </image>
     
     <item>
       <title>Hosei Scitech Forum 2019</title>
-      <link>https://shunk031.github.io/talk/hosei-scitech-forum-2019/</link>
+      <link>https://shunk031.me/talk/hosei-scitech-forum-2019/</link>
       <pubDate>Sun, 15 Sep 2019 12:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/talk/hosei-scitech-forum-2019/</guid>
+      <guid>https://shunk031.me/talk/hosei-scitech-forum-2019/</guid>
       <description></description>
     </item>
     

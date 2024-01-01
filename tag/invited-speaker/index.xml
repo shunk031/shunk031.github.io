@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Invited Speaker | shunk031.me</title>
-    <link>https://shunk031.github.io/tag/invited-speaker/</link>
-      <atom:link href="https://shunk031.github.io/tag/invited-speaker/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shunk031.me/tag/invited-speaker/</link>
+      <atom:link href="https://shunk031.me/tag/invited-speaker/index.xml" rel="self" type="application/rss+xml" />
     <description>Invited Speaker</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 17 Mar 2021 18:45:00 +0900</lastBuildDate>
     <image>
-      <url>https://shunk031.github.io/media/sharing.png</url>
+      <url>https://shunk031.me/media/sharing.png</url>
       <title>Invited Speaker</title>
-      <link>https://shunk031.github.io/tag/invited-speaker/</link>
+      <link>https://shunk031.me/tag/invited-speaker/</link>
     </image>
     
     <item>
       <title>Recent Issues in Intelligent Robotics, Machine Learning, and Distributed System</title>
-      <link>https://shunk031.github.io/talk/recent-issues-in-intelligent-robotics-machine-learning-and-distributed-system/</link>
+      <link>https://shunk031.me/talk/recent-issues-in-intelligent-robotics-machine-learning-and-distributed-system/</link>
       <pubDate>Wed, 17 Mar 2021 18:45:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/talk/recent-issues-in-intelligent-robotics-machine-learning-and-distributed-system/</guid>
+      <guid>https://shunk031.me/talk/recent-issues-in-intelligent-robotics-machine-learning-and-distributed-system/</guid>
       <description>&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;de984e0c9a2d4934bcb0e6e46b2c4ff8&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
 </description>
     </item>

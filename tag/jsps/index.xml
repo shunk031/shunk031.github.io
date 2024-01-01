@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JSPS | shunk031.me</title>
-    <link>https://shunk031.github.io/tag/jsps/</link>
-      <atom:link href="https://shunk031.github.io/tag/jsps/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shunk031.me/tag/jsps/</link>
+      <atom:link href="https://shunk031.me/tag/jsps/index.xml" rel="self" type="application/rss+xml" />
     <description>JSPS</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Apr 2022 15:55:00 +0900</lastBuildDate>
     <image>
-      <url>https://shunk031.github.io/media/sharing.png</url>
+      <url>https://shunk031.me/media/sharing.png</url>
       <title>JSPS</title>
-      <link>https://shunk031.github.io/tag/jsps/</link>
+      <link>https://shunk031.me/tag/jsps/</link>
     </image>
     
     <item>
       <title>My experience about JSPS Research Fellowship</title>
-      <link>https://shunk031.github.io/talk/my-experience-about-jsps-research-fellowship/</link>
+      <link>https://shunk031.me/talk/my-experience-about-jsps-research-fellowship/</link>
       <pubDate>Fri, 01 Apr 2022 15:55:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/talk/my-experience-about-jsps-research-fellowship/</guid>
+      <guid>https://shunk031.me/talk/my-experience-about-jsps-research-fellowship/</guid>
       <description>&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;f2f33c0e7081479c87922a5fcfb5bcfe&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
 </description>
     </item>
     
     <item>
       <title>北田俊輔さん (D2), 日本学術振興会特別研究員に</title>
-      <link>https://shunk031.github.io/post/jsps-dc2-applied-informatics/</link>
+      <link>https://shunk031.me/post/jsps-dc2-applied-informatics/</link>
       <pubDate>Thu, 08 Apr 2021 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/post/jsps-dc2-applied-informatics/</guid>
+      <guid>https://shunk031.me/post/jsps-dc2-applied-informatics/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
     &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
         src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fai.ws.hosei.ac.jp%2fwp%2fnews%2fnews20210408%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
@@ -37,9 +37,9 @@
     
     <item>
       <title>理工学研究科の北田俊輔氏が日本学術振興会特別研究員 (DC2) に内定</title>
-      <link>https://shunk031.github.io/post/jsps-dc2-koganei/</link>
+      <link>https://shunk031.me/post/jsps-dc2-koganei/</link>
       <pubDate>Fri, 05 Mar 2021 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/post/jsps-dc2-koganei/</guid>
+      <guid>https://shunk031.me/post/jsps-dc2-koganei/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
     &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
         src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fwww.hosei.ac.jp%2fkoganei%2fpickup%2farticle-20210305121330%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
@@ -51,17 +51,17 @@
     
     <item>
       <title>日本学術振興会特別研究員 (DC2) 申請書・学振</title>
-      <link>https://shunk031.github.io/post/dc2/</link>
+      <link>https://shunk031.me/post/dc2/</link>
       <pubDate>Sat, 27 Feb 2021 21:10:22 +0900</pubDate>
-      <guid>https://shunk031.github.io/post/dc2/</guid>
+      <guid>https://shunk031.me/post/dc2/</guid>
       <description>&lt;p&gt;2021 年 4 月より日本学術振興会の特別研究員 DC2 に採用していただきました（補欠繰り上げ採用）。
 弊学では殆ど学振特別研究員の採用実績がなく身近に相談できる方も非常に少なかったため &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;、
 そうした境遇の方 （いわゆるビックラボではない方、旧帝大・上位私立大所属ではない方） に少しでもお力になれたらと思い、申請書の公開に至りました。&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;質問等にもできる限りお答えします。連絡先は &lt;a href=&#34;https://twitter.com/shunk031&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
-  &lt;i class=&#34;fab fa-twitter  pr-1 fa-fw&#34;&gt;&lt;/i&gt;@shunk031&lt;/a&gt; もしくは &lt;a href=&#34;https://shunk031.github.io/authors/shunsuke-kitada/&#34;&gt;プロフィールのページ&lt;/a&gt; を参照して下さい。&lt;/p&gt;
+  &lt;i class=&#34;fab fa-twitter  pr-1 fa-fw&#34;&gt;&lt;/i&gt;@shunk031&lt;/a&gt; もしくは &lt;a href=&#34;https://shunk031.me/authors/shunsuke-kitada/&#34;&gt;プロフィールのページ&lt;/a&gt; を参照して下さい。&lt;/p&gt;
 &lt;h2 id=&#34;摂動に頑健で解釈可能な深層学習モデルの開発とその解釈性の評価&#34;&gt;摂動に頑健で解釈可能な深層学習モデルの開発とその解釈性の評価&lt;/h2&gt;
 &lt;h3 id=&#34;heading&#34;&gt;&lt;/h3&gt;
-&lt;a href=&#34;https://shunk031.github.io/uploads/jsps_research_fellow/dc2_kitada.pdf&#34; target=&#34;_blank&#34;&gt;
+&lt;a href=&#34;https://shunk031.me/uploads/jsps_research_fellow/dc2_kitada.pdf&#34; target=&#34;_blank&#34;&gt;
   &lt;i class=&#34;fas fa-download  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 令和 3 年度採用分 特別研究員 - DC 申請書 (PDF, 1.8MB)&lt;/a&gt;
 &lt;p&gt;審査区分は &lt;code&gt;情報学&lt;/code&gt; の &lt;code&gt;知能情報学関連&lt;/code&gt; で、専門分野は &lt;code&gt;自然言語処理&lt;/code&gt; として申請しました。
 研究・職歴等は以下のように記述しました。特に TA や RA、企業でのリサーチインターン等の経験は研究遂行能力に影響を与えると考えました：&lt;/p&gt;
@@ -99,7 +99,7 @@
 &lt;/ul&gt;
 &lt;p&gt;私は申請書執筆時点で最難関国際会議の 1 つである学会に論文採択経験があったので、特に小田さんの申請書のストーリー展開や最難関国際会議への論文採択経験の強調の仕方等を参考にさせていただきました。&lt;/p&gt;
 &lt;h2 id=&#34;学振-dc2-採用の体験談について-20220401-更新&#34;&gt;学振 DC2 採用の体験談について (2022/04/01 更新）&lt;/h2&gt;
-&lt;p&gt;学内で開催された &lt;a href=&#34;https://www.hosei.ac.jp/kenkyu/info/article-20220228215045/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2023（令和 5）年度 日本学術振興会特別研究員（ＤＣ１・ＤＣ２）申請に関する セミナー&lt;/a&gt; にて、&lt;a href=&#34;https://shunk031.github.io/talk/my-experience-about-jsps-research-fellowship&#34;&gt;私の学振 DC2 体験談（発表資料
+&lt;p&gt;学内で開催された &lt;a href=&#34;https://www.hosei.ac.jp/kenkyu/info/article-20220228215045/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2023（令和 5）年度 日本学術振興会特別研究員（ＤＣ１・ＤＣ２）申請に関する セミナー&lt;/a&gt; にて、&lt;a href=&#34;https://shunk031.me/talk/my-experience-about-jsps-research-fellowship&#34;&gt;私の学振 DC2 体験談（発表資料
   &lt;i class=&#34;fab fa-speaker-deck  pr-1 fa-fw&#34;&gt;&lt;/i&gt;)&lt;/a&gt; という講演をしました。学振特別研究員になってよかったこと、採用までの（長かった）道のり、申請作作成の注意点などをまとめています。&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;

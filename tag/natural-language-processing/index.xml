@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Natural Language Processing | shunk031.me</title>
-    <link>https://shunk031.github.io/tag/natural-language-processing/</link>
-      <atom:link href="https://shunk031.github.io/tag/natural-language-processing/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shunk031.me/tag/natural-language-processing/</link>
+      <atom:link href="https://shunk031.me/tag/natural-language-processing/index.xml" rel="self" type="application/rss+xml" />
     <description>Natural Language Processing</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 15 Mar 2023 09:40:00 +0900</lastBuildDate>
     <image>
-      <url>https://shunk031.github.io/media/sharing.png</url>
+      <url>https://shunk031.me/media/sharing.png</url>
       <title>Natural Language Processing</title>
-      <link>https://shunk031.github.io/tag/natural-language-processing/</link>
+      <link>https://shunk031.me/tag/natural-language-processing/</link>
     </image>
     
     <item>
       <title>Majority or Minority: 固有表現抽出におけるデータの不均衡性に着目した損失関数の提案</title>
-      <link>https://shunk031.github.io/publication/nemoto2023nlp/</link>
+      <link>https://shunk031.me/publication/nemoto2023nlp/</link>
       <pubDate>Wed, 15 Mar 2023 09:40:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/nemoto2023nlp/</guid>
+      <guid>https://shunk031.me/publication/nemoto2023nlp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Making Attention Mechanisms More Robust and Interpretable with Virtual Adversarial Training</title>
-      <link>https://shunk031.github.io/publication/kitada2022making/</link>
+      <link>https://shunk031.me/publication/kitada2022making/</link>
       <pubDate>Thu, 27 Oct 2022 21:33:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2022making/</guid>
+      <guid>https://shunk031.me/publication/kitada2022making/</guid>
       <description>&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -56,17 +56,17 @@
     
     <item>
       <title>Feedback is Needed for Retakes: An Explainable Poor Image Notification Framework for the Visually Impaired</title>
-      <link>https://shunk031.github.io/publication/ohata2022feedback/</link>
+      <link>https://shunk031.me/publication/ohata2022feedback/</link>
       <pubDate>Tue, 18 Oct 2022 14:09:09 -0400</pubDate>
-      <guid>https://shunk031.github.io/publication/ohata2022feedback/</guid>
+      <guid>https://shunk031.me/publication/ohata2022feedback/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Expressions Causing Differences in Emotion Recognition in Social Networking Service Documents</title>
-      <link>https://shunk031.github.io/publication/nakagawa2022expressions/</link>
+      <link>https://shunk031.me/publication/nakagawa2022expressions/</link>
       <pubDate>Tue, 02 Aug 2022 14:18:12 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/nakagawa2022expressions/</guid>
+      <guid>https://shunk031.me/publication/nakagawa2022expressions/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
     &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
         src=&#34;https://hatenablog-parts.com/embed?url=http%3a%2f%2farxiv.org%2fabs%2f2208.14244&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
@@ -78,50 +78,50 @@
     
     <item>
       <title>ViT-CLT: パッチ分割した文字画像から偏旁冠脚を考慮した文書分類</title>
-      <link>https://shunk031.github.io/publication/tsushima2022nlp/</link>
+      <link>https://shunk031.me/publication/tsushima2022nlp/</link>
       <pubDate>Thu, 17 Mar 2022 10:40:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/tsushima2022nlp/</guid>
+      <guid>https://shunk031.me/publication/tsushima2022nlp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>書き手と読み手の怒りの感情認識の差の原因となる表現の獲得</title>
-      <link>https://shunk031.github.io/publication/nakagawa2022nlp/</link>
+      <link>https://shunk031.me/publication/nakagawa2022nlp/</link>
       <pubDate>Thu, 17 Mar 2022 10:40:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/nakagawa2022nlp/</guid>
+      <guid>https://shunk031.me/publication/nakagawa2022nlp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Attention Meets Perturbations: Robust and Interpretable Attention with Adversarial Training</title>
-      <link>https://shunk031.github.io/publication/kitada2021attention/</link>
+      <link>https://shunk031.me/publication/kitada2021attention/</link>
       <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2021attention/</guid>
+      <guid>https://shunk031.me/publication/kitada2021attention/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.scimagojr.com/journalsearch.php?q=21100374601&amp;amp;tip=sid&amp;amp;exact=no&#34; title=&#34;SCImago Journal &amp;amp; Country Rank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;https://www.scimagojr.com/journal_img.php?id=21100374601&#34; alt=&#34;SCImago Journal &amp;amp; Country Rank&#34;  /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>キャプション生成時低品質データ事前検知の試み</title>
-      <link>https://shunk031.github.io/publication/ohata2021nlp/</link>
+      <link>https://shunk031.me/publication/ohata2021nlp/</link>
       <pubDate>Fri, 15 Jan 2021 17:29:07 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/ohata2021nlp/</guid>
+      <guid>https://shunk031.me/publication/ohata2021nlp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>半教師あり文書分類のための仮想敵対的学習による注意機構の頑健性および解釈性の向上</title>
-      <link>https://shunk031.github.io/publication/kitada2021nlp/</link>
+      <link>https://shunk031.me/publication/kitada2021nlp/</link>
       <pubDate>Fri, 15 Jan 2021 17:28:40 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2021nlp/</guid>
+      <guid>https://shunk031.me/publication/kitada2021nlp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Text Classification through Glyph-aware Disentangled Character Embedding and Semantic Sub-character Augmentation</title>
-      <link>https://shunk031.github.io/publication/aoki2020text/</link>
+      <link>https://shunk031.me/publication/aoki2020text/</link>
       <pubDate>Sun, 25 Oct 2020 15:15:41 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/aoki2020text/</guid>
+      <guid>https://shunk031.me/publication/aoki2020text/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
     &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
         src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fwww.aclweb.org%2fanthology%2f2020.aacl-srw.1%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
@@ -133,9 +133,9 @@
     
     <item>
       <title>AraDIC: Arabic Document Classification using Image-Based Character Embeddings and Class-Balanced Loss</title>
-      <link>https://shunk031.github.io/publication/daif2020aradic/</link>
+      <link>https://shunk031.me/publication/daif2020aradic/</link>
       <pubDate>Sun, 21 Jun 2020 21:38:33 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/daif2020aradic/</guid>
+      <guid>https://shunk031.me/publication/daif2020aradic/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
     &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
         src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fwww.aclweb.org%2fanthology%2f2020.acl-srw.29%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
@@ -147,57 +147,57 @@
     
     <item>
       <title>解釈可能な敵対的摂動を用いた頑健な注意機構の学習</title>
-      <link>https://shunk031.github.io/publication/kitada2020nlp/</link>
+      <link>https://shunk031.me/publication/kitada2020nlp/</link>
       <pubDate>Thu, 19 Mar 2020 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2020nlp/</guid>
+      <guid>https://shunk031.me/publication/kitada2020nlp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Image-based Character Embedding for Arabic Document Classification</title>
-      <link>https://shunk031.github.io/publication/daif2020nlp/</link>
+      <link>https://shunk031.me/publication/daif2020nlp/</link>
       <pubDate>Tue, 17 Mar 2020 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/daif2020nlp/</guid>
+      <guid>https://shunk031.me/publication/daif2020nlp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Script-aware embedding を用いた文字表現の獲得</title>
-      <link>https://shunk031.github.io/publication/nagasawa2020nlp/</link>
+      <link>https://shunk031.me/publication/nagasawa2020nlp/</link>
       <pubDate>Tue, 17 Mar 2020 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/nagasawa2020nlp/</guid>
+      <guid>https://shunk031.me/publication/nagasawa2020nlp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Image Based Character Embeddings for Arabic Document Classification</title>
-      <link>https://shunk031.github.io/publication/daif2019yans/</link>
+      <link>https://shunk031.me/publication/daif2019yans/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/daif2019yans/</guid>
+      <guid>https://shunk031.me/publication/daif2019yans/</guid>
       <description></description>
     </item>
     
     <item>
       <title>日本語の文字体系を考慮した文書分類モデルの提案</title>
-      <link>https://shunk031.github.io/publication/nagasawa2019yans/</link>
+      <link>https://shunk031.me/publication/nagasawa2019yans/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/nagasawa2019yans/</guid>
+      <guid>https://shunk031.me/publication/nagasawa2019yans/</guid>
       <description></description>
     </item>
     
     <item>
       <title>広告クリエイティブ自動生成にむけたマルチタスク学習と Conditional Attention による CVR 予測</title>
-      <link>https://shunk031.github.io/publication/kitada2019nlp/</link>
+      <link>https://shunk031.me/publication/kitada2019nlp/</link>
       <pubDate>Wed, 13 Mar 2019 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2019nlp/</guid>
+      <guid>https://shunk031.me/publication/kitada2019nlp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>End-to-End Text Classification via Image-based Embedding using Character-level Networks</title>
-      <link>https://shunk031.github.io/publication/kitada2018end/</link>
+      <link>https://shunk031.me/publication/kitada2018end/</link>
       <pubDate>Mon, 08 Oct 2018 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2018end/</guid>
+      <guid>https://shunk031.me/publication/kitada2018end/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
     &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
         src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2farxiv.org%2fabs%2f1810.03595&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
@@ -209,25 +209,25 @@
     
     <item>
       <title>広告クリエイティブ自動生成に向けた単語レベルでの評価手法の検討</title>
-      <link>https://shunk031.github.io/publication/kitada2018yans/</link>
+      <link>https://shunk031.me/publication/kitada2018yans/</link>
       <pubDate>Tue, 28 Aug 2018 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2018yans/</guid>
+      <guid>https://shunk031.me/publication/kitada2018yans/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CE-CLCNN: Character Encoder を用いた Character-level Convolutional Neural Networks によるテキスト分類</title>
-      <link>https://shunk031.github.io/publication/kitada2018nlp/</link>
+      <link>https://shunk031.me/publication/kitada2018nlp/</link>
       <pubDate>Thu, 15 Mar 2018 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2018nlp/</guid>
+      <guid>https://shunk031.me/publication/kitada2018nlp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Character-level Convolutional Neural Networks における Wildcard Training の基礎検討</title>
-      <link>https://shunk031.github.io/publication/kitada2017yans/</link>
+      <link>https://shunk031.me/publication/kitada2017yans/</link>
       <pubDate>Tue, 05 Sep 2017 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2017yans/</guid>
+      <guid>https://shunk031.me/publication/kitada2017yans/</guid>
       <description></description>
     </item>
     

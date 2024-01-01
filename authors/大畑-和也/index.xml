@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>大畑 和也 | shunk031.me</title>
-    <link>https://shunk031.github.io/authors/%E5%A4%A7%E7%95%91-%E5%92%8C%E4%B9%9F/</link>
-      <atom:link href="https://shunk031.github.io/authors/%E5%A4%A7%E7%95%91-%E5%92%8C%E4%B9%9F/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shunk031.me/authors/%E5%A4%A7%E7%95%91-%E5%92%8C%E4%B9%9F/</link>
+      <atom:link href="https://shunk031.me/authors/%E5%A4%A7%E7%95%91-%E5%92%8C%E4%B9%9F/index.xml" rel="self" type="application/rss+xml" />
     <description>大畑 和也</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 15 Jan 2021 17:29:07 +0900</lastBuildDate>
     <image>
-      <url>https://shunk031.github.io/media/sharing.png</url>
+      <url>https://shunk031.me/media/sharing.png</url>
       <title>大畑 和也</title>
-      <link>https://shunk031.github.io/authors/%E5%A4%A7%E7%95%91-%E5%92%8C%E4%B9%9F/</link>
+      <link>https://shunk031.me/authors/%E5%A4%A7%E7%95%91-%E5%92%8C%E4%B9%9F/</link>
     </image>
     
     <item>
       <title>キャプション生成時低品質データ事前検知の試み</title>
-      <link>https://shunk031.github.io/publication/ohata2021nlp/</link>
+      <link>https://shunk031.me/publication/ohata2021nlp/</link>
       <pubDate>Fri, 15 Jan 2021 17:29:07 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/ohata2021nlp/</guid>
+      <guid>https://shunk031.me/publication/ohata2021nlp/</guid>
       <description></description>
     </item>
     

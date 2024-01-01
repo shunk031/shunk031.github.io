@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Takumi Aoki | shunk031.me</title>
-    <link>https://shunk031.github.io/authors/takumi-aoki/</link>
-      <atom:link href="https://shunk031.github.io/authors/takumi-aoki/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shunk031.me/authors/takumi-aoki/</link>
+      <atom:link href="https://shunk031.me/authors/takumi-aoki/index.xml" rel="self" type="application/rss+xml" />
     <description>Takumi Aoki</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 25 Oct 2020 15:15:41 +0900</lastBuildDate>
     <image>
-      <url>https://shunk031.github.io/media/sharing.png</url>
+      <url>https://shunk031.me/media/sharing.png</url>
       <title>Takumi Aoki</title>
-      <link>https://shunk031.github.io/authors/takumi-aoki/</link>
+      <link>https://shunk031.me/authors/takumi-aoki/</link>
     </image>
     
     <item>
       <title>Text Classification through Glyph-aware Disentangled Character Embedding and Semantic Sub-character Augmentation</title>
-      <link>https://shunk031.github.io/publication/aoki2020text/</link>
+      <link>https://shunk031.me/publication/aoki2020text/</link>
       <pubDate>Sun, 25 Oct 2020 15:15:41 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/aoki2020text/</guid>
+      <guid>https://shunk031.me/publication/aoki2020text/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
     &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
         src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fwww.aclweb.org%2fanthology%2f2020.aacl-srw.1%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
@@ -28,12 +28,12 @@
     
     <item>
       <title>Accepted our paper to AACL-IJCNLP2020 SRW</title>
-      <link>https://shunk031.github.io/news/acceptance-to-aacl2020srw/</link>
+      <link>https://shunk031.me/news/acceptance-to-aacl2020srw/</link>
       <pubDate>Sat, 24 Oct 2020 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/news/acceptance-to-aacl2020srw/</guid>
+      <guid>https://shunk031.me/news/acceptance-to-aacl2020srw/</guid>
       <description>&lt;p&gt;The following paper has been accepted to the &lt;a href=&#34;https://aacl2020-srw.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AACL-IJCNLP 2020 Student Research Workshop (SRW)&lt;/a&gt;.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Takumi Aoki, Shunsuke Kitada, and Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.github.io/publication/aoki2020text&#34;&gt;&amp;ldquo;Text Classification through Glyph-aware Disentangled Character Embedding and Semantic Sub-character Augmentation&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Takumi Aoki, Shunsuke Kitada, and Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.me/publication/aoki2020text&#34;&gt;&amp;ldquo;Text Classification through Glyph-aware Disentangled Character Embedding and Semantic Sub-character Augmentation&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

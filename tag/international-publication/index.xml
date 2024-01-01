@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>International Publication | shunk031.me</title>
-    <link>https://shunk031.github.io/tag/international-publication/</link>
-      <atom:link href="https://shunk031.github.io/tag/international-publication/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shunk031.me/tag/international-publication/</link>
+      <atom:link href="https://shunk031.me/tag/international-publication/index.xml" rel="self" type="application/rss+xml" />
     <description>International Publication</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 14 Nov 2022 00:00:00 +0900</lastBuildDate>
     <image>
-      <url>https://shunk031.github.io/media/sharing.png</url>
+      <url>https://shunk031.me/media/sharing.png</url>
       <title>International Publication</title>
-      <link>https://shunk031.github.io/tag/international-publication/</link>
+      <link>https://shunk031.me/tag/international-publication/</link>
     </image>
     
     <item>
       <title>DM$^2$S$^2$: Deep Multi-Modal Sequence Sets with Hierarchical Modality Attention</title>
-      <link>https://shunk031.github.io/publication/kitada2022dm2s2/</link>
+      <link>https://shunk031.me/publication/kitada2022dm2s2/</link>
       <pubDate>Mon, 14 Nov 2022 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2022dm2s2/</guid>
+      <guid>https://shunk031.me/publication/kitada2022dm2s2/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.scimagojr.com/journalsearch.php?q=21100374601&amp;amp;tip=sid&amp;amp;exact=no&#34; title=&#34;SCImago Journal &amp;amp; Country Rank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;https://www.scimagojr.com/journal_img.php?id=21100374601&#34; alt=&#34;SCImago Journal &amp;amp; Country Rank&#34;  /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Making Attention Mechanisms More Robust and Interpretable with Virtual Adversarial Training</title>
-      <link>https://shunk031.github.io/publication/kitada2022making/</link>
+      <link>https://shunk031.me/publication/kitada2022making/</link>
       <pubDate>Thu, 27 Oct 2022 21:33:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2022making/</guid>
+      <guid>https://shunk031.me/publication/kitada2022making/</guid>
       <description>&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -57,17 +57,17 @@
     
     <item>
       <title>Feedback is Needed for Retakes: An Explainable Poor Image Notification Framework for the Visually Impaired</title>
-      <link>https://shunk031.github.io/publication/ohata2022feedback/</link>
+      <link>https://shunk031.me/publication/ohata2022feedback/</link>
       <pubDate>Tue, 18 Oct 2022 14:09:09 -0400</pubDate>
-      <guid>https://shunk031.github.io/publication/ohata2022feedback/</guid>
+      <guid>https://shunk031.me/publication/ohata2022feedback/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Expressions Causing Differences in Emotion Recognition in Social Networking Service Documents</title>
-      <link>https://shunk031.github.io/publication/nakagawa2022expressions/</link>
+      <link>https://shunk031.me/publication/nakagawa2022expressions/</link>
       <pubDate>Tue, 02 Aug 2022 14:18:12 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/nakagawa2022expressions/</guid>
+      <guid>https://shunk031.me/publication/nakagawa2022expressions/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
     &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
         src=&#34;https://hatenablog-parts.com/embed?url=http%3a%2f%2farxiv.org%2fabs%2f2208.14244&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
@@ -79,9 +79,9 @@
     
     <item>
       <title>Ad Creative Discontinuation Prediction with Multi-Modal Multi-Task Neural Survival Networks</title>
-      <link>https://shunk031.github.io/publication/kitada2022ad/</link>
+      <link>https://shunk031.me/publication/kitada2022ad/</link>
       <pubDate>Mon, 04 Apr 2022 00:35:42 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2022ad/</guid>
+      <guid>https://shunk031.me/publication/kitada2022ad/</guid>
       <description>&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -113,18 +113,18 @@
     
     <item>
       <title>Attention Meets Perturbations: Robust and Interpretable Attention with Adversarial Training</title>
-      <link>https://shunk031.github.io/publication/kitada2021attention/</link>
+      <link>https://shunk031.me/publication/kitada2021attention/</link>
       <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2021attention/</guid>
+      <guid>https://shunk031.me/publication/kitada2021attention/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.scimagojr.com/journalsearch.php?q=21100374601&amp;amp;tip=sid&amp;amp;exact=no&#34; title=&#34;SCImago Journal &amp;amp; Country Rank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;https://www.scimagojr.com/journal_img.php?id=21100374601&#34; alt=&#34;SCImago Journal &amp;amp; Country Rank&#34;  /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Text Classification through Glyph-aware Disentangled Character Embedding and Semantic Sub-character Augmentation</title>
-      <link>https://shunk031.github.io/publication/aoki2020text/</link>
+      <link>https://shunk031.me/publication/aoki2020text/</link>
       <pubDate>Sun, 25 Oct 2020 15:15:41 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/aoki2020text/</guid>
+      <guid>https://shunk031.me/publication/aoki2020text/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
     &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
         src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fwww.aclweb.org%2fanthology%2f2020.aacl-srw.1%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
@@ -136,9 +136,9 @@
     
     <item>
       <title>AraDIC: Arabic Document Classification using Image-Based Character Embeddings and Class-Balanced Loss</title>
-      <link>https://shunk031.github.io/publication/daif2020aradic/</link>
+      <link>https://shunk031.me/publication/daif2020aradic/</link>
       <pubDate>Sun, 21 Jun 2020 21:38:33 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/daif2020aradic/</guid>
+      <guid>https://shunk031.me/publication/daif2020aradic/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
     &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
         src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fwww.aclweb.org%2fanthology%2f2020.acl-srw.29%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
@@ -150,9 +150,9 @@
     
     <item>
       <title>Conversion Prediction Using Multi-task Conditional Attention Networks to Support the Creation of Effective Ad Creative</title>
-      <link>https://shunk031.github.io/publication/kitada2019conversion/</link>
+      <link>https://shunk031.me/publication/kitada2019conversion/</link>
       <pubDate>Mon, 27 May 2019 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2019conversion/</guid>
+      <guid>https://shunk031.me/publication/kitada2019conversion/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
     &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
         src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2farxiv.org%2fabs%2f1905.07289&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
@@ -164,9 +164,9 @@
     
     <item>
       <title>End-to-End Text Classification via Image-based Embedding using Character-level Networks</title>
-      <link>https://shunk031.github.io/publication/kitada2018end/</link>
+      <link>https://shunk031.me/publication/kitada2018end/</link>
       <pubDate>Mon, 08 Oct 2018 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2018end/</guid>
+      <guid>https://shunk031.me/publication/kitada2018end/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
     &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
         src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2farxiv.org%2fabs%2f1810.03595&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;

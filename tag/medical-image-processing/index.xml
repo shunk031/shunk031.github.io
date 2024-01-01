@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Medical Image Processing | shunk031.me</title>
-    <link>https://shunk031.github.io/tag/medical-image-processing/</link>
-      <atom:link href="https://shunk031.github.io/tag/medical-image-processing/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shunk031.me/tag/medical-image-processing/</link>
+      <atom:link href="https://shunk031.me/tag/medical-image-processing/index.xml" rel="self" type="application/rss+xml" />
     <description>Medical Image Processing</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 14 Mar 2019 00:00:00 +0900</lastBuildDate>
     <image>
-      <url>https://shunk031.github.io/media/sharing.png</url>
+      <url>https://shunk031.me/media/sharing.png</url>
       <title>Medical Image Processing</title>
-      <link>https://shunk031.github.io/tag/medical-image-processing/</link>
+      <link>https://shunk031.me/tag/medical-image-processing/</link>
     </image>
     
     <item>
       <title>頑健な皮膚腫瘍診断支援のための body hair augmentation</title>
-      <link>https://shunk031.github.io/publication/kitada2019ipsj/</link>
+      <link>https://shunk031.me/publication/kitada2019ipsj/</link>
       <pubDate>Thu, 14 Mar 2019 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2019ipsj/</guid>
+      <guid>https://shunk031.me/publication/kitada2019ipsj/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Skin lesion classification with ensemble of squeeze-and-excitation networks and semi-supervised learning</title>
-      <link>https://shunk031.github.io/publication/kitada2018skin/</link>
+      <link>https://shunk031.me/publication/kitada2018skin/</link>
       <pubDate>Fri, 07 Sep 2018 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2018skin/</guid>
+      <guid>https://shunk031.me/publication/kitada2018skin/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
     &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
         src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2farxiv.org%2fabs%2f1809.02568&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;

@@ -2,77 +2,77 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chainer | shunk031.me</title>
-    <link>https://shunk031.github.io/tag/chainer/</link>
-      <atom:link href="https://shunk031.github.io/tag/chainer/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shunk031.me/tag/chainer/</link>
+      <atom:link href="https://shunk031.me/tag/chainer/index.xml" rel="self" type="application/rss+xml" />
     <description>Chainer</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 30 Mar 2020 16:45:26 +0900</lastBuildDate>
     <image>
-      <url>https://shunk031.github.io/media/sharing.png</url>
+      <url>https://shunk031.me/media/sharing.png</url>
       <title>Chainer</title>
-      <link>https://shunk031.github.io/tag/chainer/</link>
+      <link>https://shunk031.me/tag/chainer/</link>
     </image>
     
     <item>
       <title>chainer-FocalLoss</title>
-      <link>https://shunk031.github.io/project/chainer-focalloss/</link>
+      <link>https://shunk031.me/project/chainer-focalloss/</link>
       <pubDate>Mon, 30 Mar 2020 16:45:26 +0900</pubDate>
-      <guid>https://shunk031.github.io/project/chainer-focalloss/</guid>
+      <guid>https://shunk031.me/project/chainer-focalloss/</guid>
       <description></description>
     </item>
     
     <item>
       <title>chainer-RICAP</title>
-      <link>https://shunk031.github.io/project/chainer-ricap/</link>
+      <link>https://shunk031.me/project/chainer-ricap/</link>
       <pubDate>Mon, 30 Mar 2020 16:43:31 +0900</pubDate>
-      <guid>https://shunk031.github.io/project/chainer-ricap/</guid>
+      <guid>https://shunk031.me/project/chainer-ricap/</guid>
       <description></description>
     </item>
     
     <item>
       <title>chainer-MeanTeachers</title>
-      <link>https://shunk031.github.io/project/chainer-meanteachers/</link>
+      <link>https://shunk031.me/project/chainer-meanteachers/</link>
       <pubDate>Mon, 30 Mar 2020 00:13:06 +0900</pubDate>
-      <guid>https://shunk031.github.io/project/chainer-meanteachers/</guid>
+      <guid>https://shunk031.me/project/chainer-meanteachers/</guid>
       <description></description>
     </item>
     
     <item>
       <title>chainer-PyramidNet</title>
-      <link>https://shunk031.github.io/project/chainer-pyramidnet/</link>
+      <link>https://shunk031.me/project/chainer-pyramidnet/</link>
       <pubDate>Mon, 30 Mar 2020 00:00:14 +0900</pubDate>
-      <guid>https://shunk031.github.io/project/chainer-pyramidnet/</guid>
+      <guid>https://shunk031.me/project/chainer-pyramidnet/</guid>
       <description></description>
     </item>
     
     <item>
       <title>chainer-InceptionResNetV2</title>
-      <link>https://shunk031.github.io/project/chainer-inceptionresnetv2/</link>
+      <link>https://shunk031.me/project/chainer-inceptionresnetv2/</link>
       <pubDate>Sun, 29 Mar 2020 23:57:58 +0900</pubDate>
-      <guid>https://shunk031.github.io/project/chainer-inceptionresnetv2/</guid>
+      <guid>https://shunk031.me/project/chainer-inceptionresnetv2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>chainer-IMSAT</title>
-      <link>https://shunk031.github.io/project/chainer-imsat/</link>
+      <link>https://shunk031.me/project/chainer-imsat/</link>
       <pubDate>Sun, 29 Mar 2020 23:55:47 +0900</pubDate>
-      <guid>https://shunk031.github.io/project/chainer-imsat/</guid>
+      <guid>https://shunk031.me/project/chainer-imsat/</guid>
       <description></description>
     </item>
     
     <item>
       <title>chainer-center-loss</title>
-      <link>https://shunk031.github.io/project/chainer-center-loss/</link>
+      <link>https://shunk031.me/project/chainer-center-loss/</link>
       <pubDate>Sun, 29 Mar 2020 03:26:42 +0900</pubDate>
-      <guid>https://shunk031.github.io/project/chainer-center-loss/</guid>
+      <guid>https://shunk031.me/project/chainer-center-loss/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Conversion Prediction Using Multi-task Conditional Attention Networks to Support the Creation of Effective Ad Creatives</title>
-      <link>https://shunk031.github.io/project/multi-task-conditional-attention-networks/</link>
+      <link>https://shunk031.me/project/multi-task-conditional-attention-networks/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/project/multi-task-conditional-attention-networks/</guid>
+      <guid>https://shunk031.me/project/multi-task-conditional-attention-networks/</guid>
       <description></description>
     </item>
     

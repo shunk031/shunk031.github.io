@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yoshifumi Seki | shunk031.me</title>
-    <link>https://shunk031.github.io/authors/yoshifumi-seki/</link>
-      <atom:link href="https://shunk031.github.io/authors/yoshifumi-seki/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shunk031.me/authors/yoshifumi-seki/</link>
+      <atom:link href="https://shunk031.me/authors/yoshifumi-seki/index.xml" rel="self" type="application/rss+xml" />
     <description>Yoshifumi Seki</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 04 Apr 2022 00:35:42 +0900</lastBuildDate>
     <image>
-      <url>https://shunk031.github.io/media/sharing.png</url>
+      <url>https://shunk031.me/media/sharing.png</url>
       <title>Yoshifumi Seki</title>
-      <link>https://shunk031.github.io/authors/yoshifumi-seki/</link>
+      <link>https://shunk031.me/authors/yoshifumi-seki/</link>
     </image>
     
     <item>
       <title>Ad Creative Discontinuation Prediction with Multi-Modal Multi-Task Neural Survival Networks</title>
-      <link>https://shunk031.github.io/publication/kitada2022ad/</link>
+      <link>https://shunk031.me/publication/kitada2022ad/</link>
       <pubDate>Mon, 04 Apr 2022 00:35:42 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2022ad/</guid>
+      <guid>https://shunk031.me/publication/kitada2022ad/</guid>
       <description>&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -48,30 +48,30 @@
     
     <item>
       <title>Accepted our journal paper to MDPI Applied Sciences journal</title>
-      <link>https://shunk031.github.io/news/acceptance-to-appl-sci-kitada2022ad/</link>
+      <link>https://shunk031.me/news/acceptance-to-appl-sci-kitada2022ad/</link>
       <pubDate>Tue, 29 Mar 2022 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/news/acceptance-to-appl-sci-kitada2022ad/</guid>
+      <guid>https://shunk031.me/news/acceptance-to-appl-sci-kitada2022ad/</guid>
       <description>&lt;p&gt;The following paper has been accepted to the &lt;a href=&#34;https://www.mdpi.com/journal/applsci&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MDPI Applied Sciences&lt;/a&gt;.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Shunsuke Kitada, Hitoshi Iyatomi, and Yoshifumi Seki. &lt;a href=&#34;https://shunk031.github.io/publication/kitada2022ad&#34;&gt;&amp;ldquo;Ad Creative Discontinuation Prediction with Multi-Modal Multi-Task Neural Survival Networks&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Shunsuke Kitada, Hitoshi Iyatomi, and Yoshifumi Seki. &lt;a href=&#34;https://shunk031.me/publication/kitada2022ad&#34;&gt;&amp;ldquo;Ad Creative Discontinuation Prediction with Multi-Modal Multi-Task Neural Survival Networks&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>Text Analytics Symposium 2019</title>
-      <link>https://shunk031.github.io/talk/text-analytics-symposium-2019/</link>
+      <link>https://shunk031.me/talk/text-analytics-symposium-2019/</link>
       <pubDate>Fri, 27 Sep 2019 15:40:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/talk/text-analytics-symposium-2019/</guid>
+      <guid>https://shunk031.me/talk/text-analytics-symposium-2019/</guid>
       <description>&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;f38b46e6e1bd4ec6b4a3fb182495a340&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
 </description>
     </item>
     
     <item>
       <title>インターン生も所属！Gunosy 研究チームの組織作りと制度をご紹介</title>
-      <link>https://shunk031.github.io/post/gunosy-intern-kdd-2019-owned-media/</link>
+      <link>https://shunk031.me/post/gunosy-intern-kdd-2019-owned-media/</link>
       <pubDate>Fri, 09 Aug 2019 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/post/gunosy-intern-kdd-2019-owned-media/</guid>
+      <guid>https://shunk031.me/post/gunosy-intern-kdd-2019-owned-media/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
     &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
         src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fwww.wantedly.com%2fcompanies%2fgunosy%2fpost_articles%2f181818&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
@@ -83,9 +83,9 @@
     
     <item>
       <title>Conversion Prediction Using Multi-task Conditional Attention Networks to Support the Creation of Effective Ad Creative</title>
-      <link>https://shunk031.github.io/publication/kitada2019conversion/</link>
+      <link>https://shunk031.me/publication/kitada2019conversion/</link>
       <pubDate>Mon, 27 May 2019 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2019conversion/</guid>
+      <guid>https://shunk031.me/publication/kitada2019conversion/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
     &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
         src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2farxiv.org%2fabs%2f1905.07289&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
@@ -97,12 +97,12 @@
     
     <item>
       <title>Accepted our paper to ACM KDD2019 Applied Data Science Track</title>
-      <link>https://shunk031.github.io/news/acceptance-to-kdd2019/</link>
+      <link>https://shunk031.me/news/acceptance-to-kdd2019/</link>
       <pubDate>Mon, 29 Apr 2019 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/news/acceptance-to-kdd2019/</guid>
+      <guid>https://shunk031.me/news/acceptance-to-kdd2019/</guid>
       <description>&lt;p&gt;The following paper has been accepted to the &lt;a href=&#34;https://www.kdd.org/kdd2019/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;KDD2019 Applied Data Science Track&lt;/a&gt;.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Shunsuke Kitada, Hitoshi Iyatomi, and Yoshifumi Seki. &lt;a href=&#34;https://shunk031.github.io/publication/kitada2019conversion&#34;&gt;&amp;ldquo;Conversion Prediction Using Multi-task Conditional Attention Networks to Support the Creation of Effective Ad Creative&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Shunsuke Kitada, Hitoshi Iyatomi, and Yoshifumi Seki. &lt;a href=&#34;https://shunk031.me/publication/kitada2019conversion&#34;&gt;&amp;ldquo;Conversion Prediction Using Multi-task Conditional Attention Networks to Support the Creation of Effective Ad Creative&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

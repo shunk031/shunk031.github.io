@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gunosy | shunk031.me</title>
-    <link>https://shunk031.github.io/tag/gunosy/</link>
-      <atom:link href="https://shunk031.github.io/tag/gunosy/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shunk031.me/tag/gunosy/</link>
+      <atom:link href="https://shunk031.me/tag/gunosy/index.xml" rel="self" type="application/rss+xml" />
     <description>Gunosy</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 04 Apr 2022 00:35:42 +0900</lastBuildDate>
     <image>
-      <url>https://shunk031.github.io/media/sharing.png</url>
+      <url>https://shunk031.me/media/sharing.png</url>
       <title>Gunosy</title>
-      <link>https://shunk031.github.io/tag/gunosy/</link>
+      <link>https://shunk031.me/tag/gunosy/</link>
     </image>
     
     <item>
       <title>Ad Creative Discontinuation Prediction with Multi-Modal Multi-Task Neural Survival Networks</title>
-      <link>https://shunk031.github.io/publication/kitada2022ad/</link>
+      <link>https://shunk031.me/publication/kitada2022ad/</link>
       <pubDate>Mon, 04 Apr 2022 00:35:42 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2022ad/</guid>
+      <guid>https://shunk031.me/publication/kitada2022ad/</guid>
       <description>&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -48,25 +48,25 @@
     
     <item>
       <title>広告クリエイティブ評価のための深層確率埋め込みの学習</title>
-      <link>https://shunk031.github.io/publication/kitada2021jsai/</link>
+      <link>https://shunk031.me/publication/kitada2021jsai/</link>
       <pubDate>Wed, 09 Jun 2021 16:47:22 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2021jsai/</guid>
+      <guid>https://shunk031.me/publication/kitada2021jsai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>生存時間分析を用いた広告クリエイティブの停止予測</title>
-      <link>https://shunk031.github.io/publication/kitada2020jsai/</link>
+      <link>https://shunk031.me/publication/kitada2020jsai/</link>
       <pubDate>Wed, 17 Jun 2020 14:06:57 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2020jsai/</guid>
+      <guid>https://shunk031.me/publication/kitada2020jsai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>データマイニング研究、グノシーがインターン院生主力に</title>
-      <link>https://shunk031.github.io/post/gunosy-intern-kdd-2019/</link>
+      <link>https://shunk031.me/post/gunosy-intern-kdd-2019/</link>
       <pubDate>Thu, 30 Jan 2020 05:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/post/gunosy-intern-kdd-2019/</guid>
+      <guid>https://shunk031.me/post/gunosy-intern-kdd-2019/</guid>
       <description>&lt;h2 id=&#34;日刊工業新聞-電子版&#34;&gt;日刊工業新聞 電子版&lt;/h2&gt;
 &lt;p&gt;データマイニング研究、グノシーがインターン院生主力に | 日刊工業新聞 電子版 &lt;a href=&#34;https://www.nikkan.co.jp/articles/view/00546182&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.nikkan.co.jp/articles/view/00546182&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;blogcard&#34;&gt;
@@ -88,9 +88,9 @@
     
     <item>
       <title>インターン生も所属！Gunosy 研究チームの組織作りと制度をご紹介</title>
-      <link>https://shunk031.github.io/post/gunosy-intern-kdd-2019-owned-media/</link>
+      <link>https://shunk031.me/post/gunosy-intern-kdd-2019-owned-media/</link>
       <pubDate>Fri, 09 Aug 2019 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/post/gunosy-intern-kdd-2019-owned-media/</guid>
+      <guid>https://shunk031.me/post/gunosy-intern-kdd-2019-owned-media/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
     &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
         src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fwww.wantedly.com%2fcompanies%2fgunosy%2fpost_articles%2f181818&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
@@ -102,9 +102,9 @@
     
     <item>
       <title>Gunosy の研究論文がデータマイニングの国際会議「KDD2019」にて採択</title>
-      <link>https://shunk031.github.io/post/gunosy-press-release-kdd-2019/</link>
+      <link>https://shunk031.me/post/gunosy-press-release-kdd-2019/</link>
       <pubDate>Wed, 29 May 2019 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/post/gunosy-press-release-kdd-2019/</guid>
+      <guid>https://shunk031.me/post/gunosy-press-release-kdd-2019/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;本研究は当社の学生インターンである北田 俊輔 氏と研究開発チームの関 喜史によって行われ、論文は北田氏の指導教員である法政大学 彌冨 仁 教授と共に執筆されました。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -119,9 +119,9 @@
     
     <item>
       <title>Conversion Prediction Using Multi-task Conditional Attention Networks to Support the Creation of Effective Ad Creative</title>
-      <link>https://shunk031.github.io/publication/kitada2019conversion/</link>
+      <link>https://shunk031.me/publication/kitada2019conversion/</link>
       <pubDate>Mon, 27 May 2019 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2019conversion/</guid>
+      <guid>https://shunk031.me/publication/kitada2019conversion/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
     &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
         src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2farxiv.org%2fabs%2f1905.07289&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
@@ -133,17 +133,17 @@
     
     <item>
       <title>広告クリエイティブ自動生成にむけたマルチタスク学習と Conditional Attention による CVR 予測</title>
-      <link>https://shunk031.github.io/publication/kitada2019nlp/</link>
+      <link>https://shunk031.me/publication/kitada2019nlp/</link>
       <pubDate>Wed, 13 Mar 2019 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2019nlp/</guid>
+      <guid>https://shunk031.me/publication/kitada2019nlp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>広告クリエイティブ自動生成に向けた単語レベルでの評価手法の検討</title>
-      <link>https://shunk031.github.io/publication/kitada2018yans/</link>
+      <link>https://shunk031.me/publication/kitada2018yans/</link>
       <pubDate>Tue, 28 Aug 2018 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2018yans/</guid>
+      <guid>https://shunk031.me/publication/kitada2018yans/</guid>
       <description></description>
     </item>
     

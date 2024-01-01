@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tsubasa Nakagawa | shunk031.me</title>
-    <link>https://shunk031.github.io/authors/tsubasa-nakagawa/</link>
-      <atom:link href="https://shunk031.github.io/authors/tsubasa-nakagawa/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shunk031.me/authors/tsubasa-nakagawa/</link>
+      <atom:link href="https://shunk031.me/authors/tsubasa-nakagawa/index.xml" rel="self" type="application/rss+xml" />
     <description>Tsubasa Nakagawa</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 02 Aug 2022 14:18:12 +0900</lastBuildDate>
     <image>
-      <url>https://shunk031.github.io/media/sharing.png</url>
+      <url>https://shunk031.me/media/sharing.png</url>
       <title>Tsubasa Nakagawa</title>
-      <link>https://shunk031.github.io/authors/tsubasa-nakagawa/</link>
+      <link>https://shunk031.me/authors/tsubasa-nakagawa/</link>
     </image>
     
     <item>
       <title>Expressions Causing Differences in Emotion Recognition in Social Networking Service Documents</title>
-      <link>https://shunk031.github.io/publication/nakagawa2022expressions/</link>
+      <link>https://shunk031.me/publication/nakagawa2022expressions/</link>
       <pubDate>Tue, 02 Aug 2022 14:18:12 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/nakagawa2022expressions/</guid>
+      <guid>https://shunk031.me/publication/nakagawa2022expressions/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
     &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
         src=&#34;https://hatenablog-parts.com/embed?url=http%3a%2f%2farxiv.org%2fabs%2f2208.14244&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
@@ -28,12 +28,12 @@
     
     <item>
       <title>Accepted our paper to ACM CIKM2022</title>
-      <link>https://shunk031.github.io/news/acceptance-to-cikm2022/</link>
+      <link>https://shunk031.me/news/acceptance-to-cikm2022/</link>
       <pubDate>Mon, 01 Aug 2022 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/news/acceptance-to-cikm2022/</guid>
+      <guid>https://shunk031.me/news/acceptance-to-cikm2022/</guid>
       <description>&lt;p&gt;The following paper has been accepted to the &lt;a href=&#34;https://www.cikm2022.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ACM CIKM2022&lt;/a&gt;.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Tsubasa Nakagawa, Shunsuke Kitada, and Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.github.io/publication/nakagawa2022expressions&#34;&gt;&amp;ldquo;Expressions Causing Differences in Emotion Recognition in Social Networking Service Documents&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tsubasa Nakagawa, Shunsuke Kitada, and Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.me/publication/nakagawa2022expressions&#34;&gt;&amp;ldquo;Expressions Causing Differences in Emotion Recognition in Social Networking Service Documents&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

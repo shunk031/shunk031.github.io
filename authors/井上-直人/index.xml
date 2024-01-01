@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>井上 直人 | shunk031.me</title>
-    <link>https://shunk031.github.io/authors/%E4%BA%95%E4%B8%8A-%E7%9B%B4%E4%BA%BA/</link>
-      <atom:link href="https://shunk031.github.io/authors/%E4%BA%95%E4%B8%8A-%E7%9B%B4%E4%BA%BA/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shunk031.me/authors/%E4%BA%95%E4%B8%8A-%E7%9B%B4%E4%BA%BA/</link>
+      <atom:link href="https://shunk031.me/authors/%E4%BA%95%E4%B8%8A-%E7%9B%B4%E4%BA%BA/index.xml" rel="self" type="application/rss+xml" />
     <description>井上 直人</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 29 Aug 2022 00:00:00 +0900</lastBuildDate>
     <image>
-      <url>https://shunk031.github.io/media/sharing.png</url>
+      <url>https://shunk031.me/media/sharing.png</url>
       <title>井上 直人</title>
-      <link>https://shunk031.github.io/authors/%E4%BA%95%E4%B8%8A-%E7%9B%B4%E4%BA%BA/</link>
+      <link>https://shunk031.me/authors/%E4%BA%95%E4%B8%8A-%E7%9B%B4%E4%BA%BA/</link>
     </image>
     
     <item>
       <title>Document AI タスクに向けた大規模事前学習済みモデルを活用した Layout-aware Prompting</title>
-      <link>https://shunk031.github.io/publication/kitada2022yans/</link>
+      <link>https://shunk031.me/publication/kitada2022yans/</link>
       <pubDate>Mon, 29 Aug 2022 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2022yans/</guid>
+      <guid>https://shunk031.me/publication/kitada2022yans/</guid>
       <description></description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Probabilistic Model | shunk031.me</title>
-    <link>https://shunk031.github.io/category/probabilistic-model/</link>
-      <atom:link href="https://shunk031.github.io/category/probabilistic-model/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shunk031.me/category/probabilistic-model/</link>
+      <atom:link href="https://shunk031.me/category/probabilistic-model/index.xml" rel="self" type="application/rss+xml" />
     <description>Probabilistic Model</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 09 Jun 2021 16:47:22 +0900</lastBuildDate>
     <image>
-      <url>https://shunk031.github.io/media/sharing.png</url>
+      <url>https://shunk031.me/media/sharing.png</url>
       <title>Probabilistic Model</title>
-      <link>https://shunk031.github.io/category/probabilistic-model/</link>
+      <link>https://shunk031.me/category/probabilistic-model/</link>
     </image>
     
     <item>
       <title>広告クリエイティブ評価のための深層確率埋め込みの学習</title>
-      <link>https://shunk031.github.io/publication/kitada2021jsai/</link>
+      <link>https://shunk031.me/publication/kitada2021jsai/</link>
       <pubDate>Wed, 09 Jun 2021 16:47:22 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2021jsai/</guid>
+      <guid>https://shunk031.me/publication/kitada2021jsai/</guid>
       <description></description>
     </item>
     

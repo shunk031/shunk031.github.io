@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CyberAgent | shunk031.me</title>
-    <link>https://shunk031.github.io/tag/cyberagent/</link>
-      <atom:link href="https://shunk031.github.io/tag/cyberagent/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shunk031.me/tag/cyberagent/</link>
+      <atom:link href="https://shunk031.me/tag/cyberagent/index.xml" rel="self" type="application/rss+xml" />
     <description>CyberAgent</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 29 Aug 2022 00:00:00 +0900</lastBuildDate>
     <image>
-      <url>https://shunk031.github.io/media/sharing.png</url>
+      <url>https://shunk031.me/media/sharing.png</url>
       <title>CyberAgent</title>
-      <link>https://shunk031.github.io/tag/cyberagent/</link>
+      <link>https://shunk031.me/tag/cyberagent/</link>
     </image>
     
     <item>
       <title>Document AI タスクに向けた大規模事前学習済みモデルを活用した Layout-aware Prompting</title>
-      <link>https://shunk031.github.io/publication/kitada2022yans/</link>
+      <link>https://shunk031.me/publication/kitada2022yans/</link>
       <pubDate>Mon, 29 Aug 2022 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2022yans/</guid>
+      <guid>https://shunk031.me/publication/kitada2022yans/</guid>
       <description></description>
     </item>
     
     <item>
       <title>人生が変わる研究インターンシップ 社会実装に触れて広がる研究キャリアとは</title>
-      <link>https://shunk031.github.io/post/cyberagent-ai-lab-research-internship-turning-point/</link>
+      <link>https://shunk031.me/post/cyberagent-ai-lab-research-internship-turning-point/</link>
       <pubDate>Thu, 16 Sep 2021 18:51:58 +0900</pubDate>
-      <guid>https://shunk031.github.io/post/cyberagent-ai-lab-research-internship-turning-point/</guid>
+      <guid>https://shunk031.me/post/cyberagent-ai-lab-research-internship-turning-point/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
     &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
         src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fwww.cyberagent.co.jp%2fway%2ffeatures%2flist%2fdetail%2fid%3d26663&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
@@ -36,9 +36,9 @@
     
     <item>
       <title>効果の高いランディングページ作成支援に向けた広告テキストからの効果予測および推薦モデルの構築</title>
-      <link>https://shunk031.github.io/publication/kitada2021yans/</link>
+      <link>https://shunk031.me/publication/kitada2021yans/</link>
       <pubDate>Thu, 02 Sep 2021 19:56:57 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2021yans/</guid>
+      <guid>https://shunk031.me/publication/kitada2021yans/</guid>
       <description></description>
     </item>
     

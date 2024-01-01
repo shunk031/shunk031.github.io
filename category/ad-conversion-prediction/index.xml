@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ad Conversion Prediction | shunk031.me</title>
-    <link>https://shunk031.github.io/category/ad-conversion-prediction/</link>
-      <atom:link href="https://shunk031.github.io/category/ad-conversion-prediction/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shunk031.me/category/ad-conversion-prediction/</link>
+      <atom:link href="https://shunk031.me/category/ad-conversion-prediction/index.xml" rel="self" type="application/rss+xml" />
     <description>Ad Conversion Prediction</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 24 Mar 2023 00:00:00 +0900</lastBuildDate>
     <image>
-      <url>https://shunk031.github.io/media/sharing.png</url>
+      <url>https://shunk031.me/media/sharing.png</url>
       <title>Ad Conversion Prediction</title>
-      <link>https://shunk031.github.io/category/ad-conversion-prediction/</link>
+      <link>https://shunk031.me/category/ad-conversion-prediction/</link>
     </image>
     
     <item>
       <title>Improving Prediction Performance and Model Interpretability through Attention Mechanisms from Basic and Applied Research Perspectives</title>
-      <link>https://shunk031.github.io/publication/kitada2023dissertation/</link>
+      <link>https://shunk031.me/publication/kitada2023dissertation/</link>
       <pubDate>Fri, 24 Mar 2023 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2023dissertation/</guid>
+      <guid>https://shunk031.me/publication/kitada2023dissertation/</guid>
       <description>&lt;iframe class=&#34;speakerdeck-iframe&#34; frameborder=&#34;0&#34; src=&#34;https://speakerdeck.com/player/183e269409c34898ad946cabe099f2da&#34; title=&#34;Improving Prediction Performance and Model Interpretability through Attention Mechanisms from Basic and Applied Research Perspectives (Presentation for Doctoral Dissertation)&#34; allowfullscreen=&#34;true&#34; style=&#34;border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 420;&#34; data-ratio=&#34;1.3333333333333333&#34;&gt;&lt;/iframe&gt;
 </description>
     </item>

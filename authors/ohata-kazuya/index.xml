@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ohata Kazuya | shunk031.me</title>
-    <link>https://shunk031.github.io/authors/ohata-kazuya/</link>
-      <atom:link href="https://shunk031.github.io/authors/ohata-kazuya/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shunk031.me/authors/ohata-kazuya/</link>
+      <atom:link href="https://shunk031.me/authors/ohata-kazuya/index.xml" rel="self" type="application/rss+xml" />
     <description>Ohata Kazuya</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 18 Oct 2022 14:09:09 -0400</lastBuildDate>
     <image>
-      <url>https://shunk031.github.io/media/sharing.png</url>
+      <url>https://shunk031.me/media/sharing.png</url>
       <title>Ohata Kazuya</title>
-      <link>https://shunk031.github.io/authors/ohata-kazuya/</link>
+      <link>https://shunk031.me/authors/ohata-kazuya/</link>
     </image>
     
     <item>
       <title>Feedback is Needed for Retakes: An Explainable Poor Image Notification Framework for the Visually Impaired</title>
-      <link>https://shunk031.github.io/publication/ohata2022feedback/</link>
+      <link>https://shunk031.me/publication/ohata2022feedback/</link>
       <pubDate>Tue, 18 Oct 2022 14:09:09 -0400</pubDate>
-      <guid>https://shunk031.github.io/publication/ohata2022feedback/</guid>
+      <guid>https://shunk031.me/publication/ohata2022feedback/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Accepted our paper to IEEE HONET2022</title>
-      <link>https://shunk031.github.io/news/acceptance-to-honet2022/</link>
+      <link>https://shunk031.me/news/acceptance-to-honet2022/</link>
       <pubDate>Mon, 17 Oct 2022 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/news/acceptance-to-honet2022/</guid>
+      <guid>https://shunk031.me/news/acceptance-to-honet2022/</guid>
       <description>&lt;p&gt;The following paper has been accepted to the &lt;a href=&#34;https://honet-ict.org/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IEEE HONET2022&lt;/a&gt;.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Ohata Kazuya, Shunsuke Kitada and Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.github.io/publication/ohata2022feedback&#34;&gt;&amp;ldquo;Feedback is Needed for Retakes: An Explainable Poor Image Notification Framework for the Visually Impaired&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Ohata Kazuya, Shunsuke Kitada and Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.me/publication/ohata2022feedback&#34;&gt;&amp;ldquo;Feedback is Needed for Retakes: An Explainable Poor Image Notification Framework for the Visually Impaired&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

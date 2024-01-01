@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Survival Analysis | shunk031.me</title>
-    <link>https://shunk031.github.io/category/survival-analysis/</link>
-      <atom:link href="https://shunk031.github.io/category/survival-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shunk031.me/category/survival-analysis/</link>
+      <atom:link href="https://shunk031.me/category/survival-analysis/index.xml" rel="self" type="application/rss+xml" />
     <description>Survival Analysis</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 17 Jun 2020 14:06:57 +0900</lastBuildDate>
     <image>
-      <url>https://shunk031.github.io/media/sharing.png</url>
+      <url>https://shunk031.me/media/sharing.png</url>
       <title>Survival Analysis</title>
-      <link>https://shunk031.github.io/category/survival-analysis/</link>
+      <link>https://shunk031.me/category/survival-analysis/</link>
     </image>
     
     <item>
       <title>生存時間分析を用いた広告クリエイティブの停止予測</title>
-      <link>https://shunk031.github.io/publication/kitada2020jsai/</link>
+      <link>https://shunk031.me/publication/kitada2020jsai/</link>
       <pubDate>Wed, 17 Jun 2020 14:06:57 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2020jsai/</guid>
+      <guid>https://shunk031.me/publication/kitada2020jsai/</guid>
       <description></description>
     </item>
     

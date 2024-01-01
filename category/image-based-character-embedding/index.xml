@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Image-based Character Embedding | shunk031.me</title>
-    <link>https://shunk031.github.io/category/image-based-character-embedding/</link>
-      <atom:link href="https://shunk031.github.io/category/image-based-character-embedding/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shunk031.me/category/image-based-character-embedding/</link>
+      <atom:link href="https://shunk031.me/category/image-based-character-embedding/index.xml" rel="self" type="application/rss+xml" />
     <description>Image-based Character Embedding</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 21 Jun 2020 21:38:33 +0900</lastBuildDate>
     <image>
-      <url>https://shunk031.github.io/media/sharing.png</url>
+      <url>https://shunk031.me/media/sharing.png</url>
       <title>Image-based Character Embedding</title>
-      <link>https://shunk031.github.io/category/image-based-character-embedding/</link>
+      <link>https://shunk031.me/category/image-based-character-embedding/</link>
     </image>
     
     <item>
       <title>AraDIC: Arabic Document Classification using Image-Based Character Embeddings and Class-Balanced Loss</title>
-      <link>https://shunk031.github.io/publication/daif2020aradic/</link>
+      <link>https://shunk031.me/publication/daif2020aradic/</link>
       <pubDate>Sun, 21 Jun 2020 21:38:33 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/daif2020aradic/</guid>
+      <guid>https://shunk031.me/publication/daif2020aradic/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
     &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
         src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fwww.aclweb.org%2fanthology%2f2020.acl-srw.29%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
@@ -28,17 +28,17 @@
     
     <item>
       <title>Image-based Character Embedding for Arabic Document Classification</title>
-      <link>https://shunk031.github.io/publication/daif2020nlp/</link>
+      <link>https://shunk031.me/publication/daif2020nlp/</link>
       <pubDate>Tue, 17 Mar 2020 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/daif2020nlp/</guid>
+      <guid>https://shunk031.me/publication/daif2020nlp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>日本語の文字体系を考慮した文書分類モデルの提案</title>
-      <link>https://shunk031.github.io/publication/nagasawa2019yans/</link>
+      <link>https://shunk031.me/publication/nagasawa2019yans/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/nagasawa2019yans/</guid>
+      <guid>https://shunk031.me/publication/nagasawa2019yans/</guid>
       <description></description>
     </item>
     

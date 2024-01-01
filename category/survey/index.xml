@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Survey | shunk031.me</title>
-    <link>https://shunk031.github.io/category/survey/</link>
-      <atom:link href="https://shunk031.github.io/category/survey/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shunk031.me/category/survey/</link>
+      <atom:link href="https://shunk031.me/category/survey/index.xml" rel="self" type="application/rss+xml" />
     <description>Survey</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 31 Mar 2020 21:20:24 +0900</lastBuildDate>
     <image>
-      <url>https://shunk031.github.io/media/sharing.png</url>
+      <url>https://shunk031.me/media/sharing.png</url>
       <title>Survey</title>
-      <link>https://shunk031.github.io/category/survey/</link>
+      <link>https://shunk031.me/category/survey/</link>
     </image>
     
     <item>
       <title>Paper Survey</title>
-      <link>https://shunk031.github.io/project/paper-survey/</link>
+      <link>https://shunk031.me/project/paper-survey/</link>
       <pubDate>Tue, 31 Mar 2020 21:20:24 +0900</pubDate>
-      <guid>https://shunk031.github.io/project/paper-survey/</guid>
+      <guid>https://shunk031.me/project/paper-survey/</guid>
       <description></description>
     </item>
     

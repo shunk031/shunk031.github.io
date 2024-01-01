@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Press release | shunk031.me</title>
-    <link>https://shunk031.github.io/category/press-release/</link>
-      <atom:link href="https://shunk031.github.io/category/press-release/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shunk031.me/category/press-release/</link>
+      <atom:link href="https://shunk031.me/category/press-release/index.xml" rel="self" type="application/rss+xml" />
     <description>Press release</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 29 May 2019 00:00:00 +0900</lastBuildDate>
     <image>
-      <url>https://shunk031.github.io/media/sharing.png</url>
+      <url>https://shunk031.me/media/sharing.png</url>
       <title>Press release</title>
-      <link>https://shunk031.github.io/category/press-release/</link>
+      <link>https://shunk031.me/category/press-release/</link>
     </image>
     
     <item>
       <title>Gunosy の研究論文がデータマイニングの国際会議「KDD2019」にて採択</title>
-      <link>https://shunk031.github.io/post/gunosy-press-release-kdd-2019/</link>
+      <link>https://shunk031.me/post/gunosy-press-release-kdd-2019/</link>
       <pubDate>Wed, 29 May 2019 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/post/gunosy-press-release-kdd-2019/</guid>
+      <guid>https://shunk031.me/post/gunosy-press-release-kdd-2019/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;本研究は当社の学生インターンである北田 俊輔 氏と研究開発チームの関 喜史によって行われ、論文は北田氏の指導教員である法政大学 彌冨 仁 教授と共に執筆されました。&lt;/p&gt;
 &lt;/blockquote&gt;

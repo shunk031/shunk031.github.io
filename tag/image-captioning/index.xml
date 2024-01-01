@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Image Captioning | shunk031.me</title>
-    <link>https://shunk031.github.io/tag/image-captioning/</link>
-      <atom:link href="https://shunk031.github.io/tag/image-captioning/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shunk031.me/tag/image-captioning/</link>
+      <atom:link href="https://shunk031.me/tag/image-captioning/index.xml" rel="self" type="application/rss+xml" />
     <description>Image Captioning</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 18 Oct 2022 14:09:09 -0400</lastBuildDate>
     <image>
-      <url>https://shunk031.github.io/media/sharing.png</url>
+      <url>https://shunk031.me/media/sharing.png</url>
       <title>Image Captioning</title>
-      <link>https://shunk031.github.io/tag/image-captioning/</link>
+      <link>https://shunk031.me/tag/image-captioning/</link>
     </image>
     
     <item>
       <title>Feedback is Needed for Retakes: An Explainable Poor Image Notification Framework for the Visually Impaired</title>
-      <link>https://shunk031.github.io/publication/ohata2022feedback/</link>
+      <link>https://shunk031.me/publication/ohata2022feedback/</link>
       <pubDate>Tue, 18 Oct 2022 14:09:09 -0400</pubDate>
-      <guid>https://shunk031.github.io/publication/ohata2022feedback/</guid>
+      <guid>https://shunk031.me/publication/ohata2022feedback/</guid>
       <description></description>
     </item>
     

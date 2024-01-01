@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MDPI | shunk031.me</title>
-    <link>https://shunk031.github.io/tag/mdpi/</link>
-      <atom:link href="https://shunk031.github.io/tag/mdpi/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shunk031.me/tag/mdpi/</link>
+      <atom:link href="https://shunk031.me/tag/mdpi/index.xml" rel="self" type="application/rss+xml" />
     <description>MDPI</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 04 Apr 2022 00:35:42 +0900</lastBuildDate>
     <image>
-      <url>https://shunk031.github.io/media/sharing.png</url>
+      <url>https://shunk031.me/media/sharing.png</url>
       <title>MDPI</title>
-      <link>https://shunk031.github.io/tag/mdpi/</link>
+      <link>https://shunk031.me/tag/mdpi/</link>
     </image>
     
     <item>
       <title>Ad Creative Discontinuation Prediction with Multi-Modal Multi-Task Neural Survival Networks</title>
-      <link>https://shunk031.github.io/publication/kitada2022ad/</link>
+      <link>https://shunk031.me/publication/kitada2022ad/</link>
       <pubDate>Mon, 04 Apr 2022 00:35:42 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2022ad/</guid>
+      <guid>https://shunk031.me/publication/kitada2022ad/</guid>
       <description>&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;

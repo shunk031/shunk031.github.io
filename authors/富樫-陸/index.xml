@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>富樫 陸 | shunk031.me</title>
-    <link>https://shunk031.github.io/authors/%E5%AF%8C%E6%A8%AB-%E9%99%B8/</link>
-      <atom:link href="https://shunk031.github.io/authors/%E5%AF%8C%E6%A8%AB-%E9%99%B8/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shunk031.me/authors/%E5%AF%8C%E6%A8%AB-%E9%99%B8/</link>
+      <atom:link href="https://shunk031.me/authors/%E5%AF%8C%E6%A8%AB-%E9%99%B8/index.xml" rel="self" type="application/rss+xml" />
     <description>富樫 陸</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 02 Sep 2021 19:56:57 +0900</lastBuildDate>
     <image>
-      <url>https://shunk031.github.io/media/sharing.png</url>
+      <url>https://shunk031.me/media/sharing.png</url>
       <title>富樫 陸</title>
-      <link>https://shunk031.github.io/authors/%E5%AF%8C%E6%A8%AB-%E9%99%B8/</link>
+      <link>https://shunk031.me/authors/%E5%AF%8C%E6%A8%AB-%E9%99%B8/</link>
     </image>
     
     <item>
       <title>効果の高いランディングページ作成支援に向けた広告テキストからの効果予測および推薦モデルの構築</title>
-      <link>https://shunk031.github.io/publication/kitada2021yans/</link>
+      <link>https://shunk031.me/publication/kitada2021yans/</link>
       <pubDate>Thu, 02 Sep 2021 19:56:57 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2021yans/</guid>
+      <guid>https://shunk031.me/publication/kitada2021yans/</guid>
       <description></description>
     </item>
     

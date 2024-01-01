@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>根本 颯汰 | shunk031.me</title>
-    <link>https://shunk031.github.io/authors/%E6%A0%B9%E6%9C%AC-%E9%A2%AF%E6%B1%B0/</link>
-      <atom:link href="https://shunk031.github.io/authors/%E6%A0%B9%E6%9C%AC-%E9%A2%AF%E6%B1%B0/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shunk031.me/authors/%E6%A0%B9%E6%9C%AC-%E9%A2%AF%E6%B1%B0/</link>
+      <atom:link href="https://shunk031.me/authors/%E6%A0%B9%E6%9C%AC-%E9%A2%AF%E6%B1%B0/index.xml" rel="self" type="application/rss+xml" />
     <description>根本 颯汰</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 15 Mar 2023 09:40:00 +0900</lastBuildDate>
     <image>
-      <url>https://shunk031.github.io/media/sharing.png</url>
+      <url>https://shunk031.me/media/sharing.png</url>
       <title>根本 颯汰</title>
-      <link>https://shunk031.github.io/authors/%E6%A0%B9%E6%9C%AC-%E9%A2%AF%E6%B1%B0/</link>
+      <link>https://shunk031.me/authors/%E6%A0%B9%E6%9C%AC-%E9%A2%AF%E6%B1%B0/</link>
     </image>
     
     <item>
       <title>Majority or Minority: 固有表現抽出におけるデータの不均衡性に着目した損失関数の提案</title>
-      <link>https://shunk031.github.io/publication/nemoto2023nlp/</link>
+      <link>https://shunk031.me/publication/nemoto2023nlp/</link>
       <pubDate>Wed, 15 Mar 2023 09:40:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/nemoto2023nlp/</guid>
+      <guid>https://shunk031.me/publication/nemoto2023nlp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>固有表現認識タスクにおけるデータセットの偏りに着目した動的重み付け損失関数の提案</title>
-      <link>https://shunk031.github.io/publication/nemoto2022yans/</link>
+      <link>https://shunk031.me/publication/nemoto2022yans/</link>
       <pubDate>Tue, 30 Aug 2022 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/nemoto2022yans/</guid>
+      <guid>https://shunk031.me/publication/nemoto2022yans/</guid>
       <description></description>
     </item>
     

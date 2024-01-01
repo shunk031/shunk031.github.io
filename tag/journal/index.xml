@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Journal | shunk031.me</title>
-    <link>https://shunk031.github.io/tag/journal/</link>
-      <atom:link href="https://shunk031.github.io/tag/journal/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shunk031.me/tag/journal/</link>
+      <atom:link href="https://shunk031.me/tag/journal/index.xml" rel="self" type="application/rss+xml" />
     <description>Journal</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 14 Nov 2022 00:00:00 +0900</lastBuildDate>
     <image>
-      <url>https://shunk031.github.io/media/sharing.png</url>
+      <url>https://shunk031.me/media/sharing.png</url>
       <title>Journal</title>
-      <link>https://shunk031.github.io/tag/journal/</link>
+      <link>https://shunk031.me/tag/journal/</link>
     </image>
     
     <item>
       <title>DM$^2$S$^2$: Deep Multi-Modal Sequence Sets with Hierarchical Modality Attention</title>
-      <link>https://shunk031.github.io/publication/kitada2022dm2s2/</link>
+      <link>https://shunk031.me/publication/kitada2022dm2s2/</link>
       <pubDate>Mon, 14 Nov 2022 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2022dm2s2/</guid>
+      <guid>https://shunk031.me/publication/kitada2022dm2s2/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.scimagojr.com/journalsearch.php?q=21100374601&amp;amp;tip=sid&amp;amp;exact=no&#34; title=&#34;SCImago Journal &amp;amp; Country Rank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;https://www.scimagojr.com/journal_img.php?id=21100374601&#34; alt=&#34;SCImago Journal &amp;amp; Country Rank&#34;  /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Making Attention Mechanisms More Robust and Interpretable with Virtual Adversarial Training</title>
-      <link>https://shunk031.github.io/publication/kitada2022making/</link>
+      <link>https://shunk031.me/publication/kitada2022making/</link>
       <pubDate>Thu, 27 Oct 2022 21:33:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2022making/</guid>
+      <guid>https://shunk031.me/publication/kitada2022making/</guid>
       <description>&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -57,9 +57,9 @@
     
     <item>
       <title>Ad Creative Discontinuation Prediction with Multi-Modal Multi-Task Neural Survival Networks</title>
-      <link>https://shunk031.github.io/publication/kitada2022ad/</link>
+      <link>https://shunk031.me/publication/kitada2022ad/</link>
       <pubDate>Mon, 04 Apr 2022 00:35:42 +0900</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2022ad/</guid>
+      <guid>https://shunk031.me/publication/kitada2022ad/</guid>
       <description>&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -91,9 +91,9 @@
     
     <item>
       <title>Attention Meets Perturbations: Robust and Interpretable Attention with Adversarial Training</title>
-      <link>https://shunk031.github.io/publication/kitada2021attention/</link>
+      <link>https://shunk031.me/publication/kitada2021attention/</link>
       <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>https://shunk031.github.io/publication/kitada2021attention/</guid>
+      <guid>https://shunk031.me/publication/kitada2021attention/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.scimagojr.com/journalsearch.php?q=21100374601&amp;amp;tip=sid&amp;amp;exact=no&#34; title=&#34;SCImago Journal &amp;amp; Country Rank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;https://www.scimagojr.com/journal_img.php?id=21100374601&#34; alt=&#34;SCImago Journal &amp;amp; Country Rank&#34;  /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>

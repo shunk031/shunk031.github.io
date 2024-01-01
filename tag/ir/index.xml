@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>IR | shunk031.me</title>
-    <link>https://shunk031.github.io/tag/ir/</link>
-      <atom:link href="https://shunk031.github.io/tag/ir/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shunk031.me/tag/ir/</link>
+      <atom:link href="https://shunk031.me/tag/ir/index.xml" rel="self" type="application/rss+xml" />
     <description>IR</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 12 Nov 2022 14:45:00 +0900</lastBuildDate>
     <image>
-      <url>https://shunk031.github.io/media/sharing.png</url>
+      <url>https://shunk031.me/media/sharing.png</url>
       <title>IR</title>
-      <link>https://shunk031.github.io/tag/ir/</link>
+      <link>https://shunk031.me/tag/ir/</link>
     </image>
     
     <item>
       <title>Expressions Causing Differences in Emotion Recognition in Social Networking Service Documents (CIKM&#39;22)</title>
-      <link>https://shunk031.github.io/talk/expressions-causing-differences-in-emotion-recognition-in-social-networking-service-documents-cikm22/</link>
+      <link>https://shunk031.me/talk/expressions-causing-differences-in-emotion-recognition-in-social-networking-service-documents-cikm22/</link>
       <pubDate>Sat, 12 Nov 2022 14:45:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/talk/expressions-causing-differences-in-emotion-recognition-in-social-networking-service-documents-cikm22/</guid>
+      <guid>https://shunk031.me/talk/expressions-causing-differences-in-emotion-recognition-in-social-networking-service-documents-cikm22/</guid>
       <description>&lt;h1 id=&#34;ir-reading-2022-秋&#34;&gt;IR Reading 2022 秋&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;概要

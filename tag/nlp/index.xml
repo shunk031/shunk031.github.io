@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>NLP | shunk031.me</title>
-    <link>https://shunk031.github.io/tag/nlp/</link>
-      <atom:link href="https://shunk031.github.io/tag/nlp/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shunk031.me/tag/nlp/</link>
+      <atom:link href="https://shunk031.me/tag/nlp/index.xml" rel="self" type="application/rss+xml" />
     <description>NLP</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 12 Nov 2022 14:45:00 +0900</lastBuildDate>
     <image>
-      <url>https://shunk031.github.io/media/sharing.png</url>
+      <url>https://shunk031.me/media/sharing.png</url>
       <title>NLP</title>
-      <link>https://shunk031.github.io/tag/nlp/</link>
+      <link>https://shunk031.me/tag/nlp/</link>
     </image>
     
     <item>
       <title>Expressions Causing Differences in Emotion Recognition in Social Networking Service Documents (CIKM&#39;22)</title>
-      <link>https://shunk031.github.io/talk/expressions-causing-differences-in-emotion-recognition-in-social-networking-service-documents-cikm22/</link>
+      <link>https://shunk031.me/talk/expressions-causing-differences-in-emotion-recognition-in-social-networking-service-documents-cikm22/</link>
       <pubDate>Sat, 12 Nov 2022 14:45:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/talk/expressions-causing-differences-in-emotion-recognition-in-social-networking-service-documents-cikm22/</guid>
+      <guid>https://shunk031.me/talk/expressions-causing-differences-in-emotion-recognition-in-social-networking-service-documents-cikm22/</guid>
       <description>&lt;h1 id=&#34;ir-reading-2022-秋&#34;&gt;IR Reading 2022 秋&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;概要
@@ -29,9 +29,9 @@
     
     <item>
       <title>Introduction to AllenNLP to accelerate NLP research</title>
-      <link>https://shunk031.github.io/talk/introduction-to-allennlp-to-accelerate-nlp-research/</link>
+      <link>https://shunk031.me/talk/introduction-to-allennlp-to-accelerate-nlp-research/</link>
       <pubDate>Fri, 22 Jul 2022 19:30:00 +0900</pubDate>
-      <guid>https://shunk031.github.io/talk/introduction-to-allennlp-to-accelerate-nlp-research/</guid>
+      <guid>https://shunk031.me/talk/introduction-to-allennlp-to-accelerate-nlp-research/</guid>
       <description>&lt;h1 id=&#34;nlp-hacks-vol6nlp-の研究を加速させる-allennlp-入門&#34;&gt;【NLP Hacks vol.6】NLP の研究を加速させる AllenNLP 入門&lt;/h1&gt;
 &lt;h2 id=&#34;動画---video&#34;&gt;動画 - Video&lt;/h2&gt;
 
