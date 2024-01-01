@@ -11,12 +11,12 @@ sections:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: shunsuke-kitada
-    # design:
-    #   background:
-    #       image:
-    #         filename: chatgpt.webp
-    #         filters:
-    #           brightness: 0.2
+    design:
+      background:
+          image:
+            filename: chatgpt.webp
+            filters:
+              brightness: 0.2
 
   - block: collection
     id: recent-news
@@ -145,11 +145,11 @@ sections:
     id: experience
     design:
       columns: '2'
-      # background:
-      #     image:
-      #       filename: chatgpt.webp
-      #       filters:
-      #         brightness: 0.4
+      background:
+          image:
+            filename: chatgpt.webp
+            filters:
+              brightness: 0.4
     content:
       title: Selected Experiences
       subtitle: 'All experiences can be found on my [LinkedIn](https://www.linkedin.com/in/shunk031/).'
@@ -210,46 +210,46 @@ sections:
           description: |2-
             Fundamental Information Technology Engineer Examination is a yardstick for measuring IT knowledge and skills as a team member by asking a range of questions about algorithm, network, database, information security, practical programming, etc.
 
-  # - block: portfolio
-  #   id: projects
-  #   content:
-  #     title: Projects 📂
-  #     filters:
-  #       folders:
-  #         - project
-  #     # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
-  #     default_button_index: 0
-  #     # Filter toolbar (optional).
-  #     # Add or remove as many filters (`filter_button` instances) as you like.
-  #     # To show all items, set `tag` to "*".
-  #     # To filter by a specific tag, set `tag` to an existing tag name.
-  #     # To remove the toolbar, delete the entire `filter_button` block.
-  #     buttons:
-  #       - name: 'All'
-  #         tag:  '*'
-  #       - name: 'Official Implementation'
-  #         tag:  'Official Implementation'
-  #       - name: 'PyTorch'
-  #         tag:  'PyTorch'
-  #       - name: 'Chainer'
-  #         tag:  'Chainer'
-  #       - name: 'Tool'
-  #         tag:  'Tool'
-  #   design:
-  #     # Choose how many columns the section has. Valid values: '1' or '2'.
-  #     columns: '1'
-  #     view: masonry
-  #     # For Showcase view, flip alternate rows?
-  #     flip_alt_rows: false
+  - block: portfolio
+    id: projects
+    content:
+      title: Projects 📂
+      filters:
+        folders:
+          - project
+      # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
+      default_button_index: 0
+      # Filter toolbar (optional).
+      # Add or remove as many filters (`filter_button` instances) as you like.
+      # To show all items, set `tag` to "*".
+      # To filter by a specific tag, set `tag` to an existing tag name.
+      # To remove the toolbar, delete the entire `filter_button` block.
+      buttons:
+        - name: 'All'
+          tag:  '*'
+        - name: 'Official Implementation'
+          tag:  'Official Implementation'
+        - name: 'PyTorch'
+          tag:  'PyTorch'
+        - name: 'Chainer'
+          tag:  'Chainer'
+        - name: 'Tool'
+          tag:  'Tool'
+    design:
+      # Choose how many columns the section has. Valid values: '1' or '2'.
+      columns: '1'
+      view: masonry
+      # For Showcase view, flip alternate rows?
+      flip_alt_rows: false
 
   - block: tag_cloud
     content:
       title: Popular Topics 📚
     design:
       columns: '2'
-      # background:
-      #     image:
-      #       filename: chatgpt.webp
-      #       filters:
-      #         brightness: 0.2
+      background:
+          image:
+            filename: chatgpt.webp
+            filters:
+              brightness: 0.2
 ---

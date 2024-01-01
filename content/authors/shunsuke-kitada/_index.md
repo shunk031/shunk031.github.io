@@ -160,4 +160,6 @@ His personality traits can be summarized as follows:
 - 📝 **Every day read and implement the SoTA models.** He has released many re-implementations of models using mainly Chainer and PyTorch. Therefore, based on state-of-the-art cases, he can advise on deep learning-based product design.
 - 😄 **High technical communicativity.** Summarize what he made and what he studied, and spread such information. This shows that he can input and output regularly.
 
-The resume is available in [PDF {{< icon name="download" pack="fas" >}}](https://github.com/shunk031/cv/releases/latest/download/cv.pdf).
+The resume is available in [PDF {{< icon name="download" pack="fas" >}}](https://github.com/shunk031/cv/releases/latest/download/cv.pdf). 
+
+*Background image borrowed from [OpenAI ChatGPT](https://openai.com/blog/chatgpt) illustration by [Ruby Chen](https://www.linkedin.com/in/rubyweijuchen/).*
