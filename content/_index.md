@@ -11,7 +11,13 @@ sections:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: shunsuke-kitada
-  
+    # design:
+    #   background:
+    #       image:
+    #         filename: chatgpt.webp
+    #         filters:
+    #           brightness: 0.2
+
   - block: collection
     id: recent-news
     content:
@@ -29,11 +35,11 @@ sections:
     id: journal-articles
     content:
       title: Journal Article 📝
-      subtitle: '[All Journal Articles >>](/publication/#2)'
+      subtitle: '[All Journal Articles >>](/publication/#article-journal)'
       filters:
         folders:
           - publication
-        publication_type: '2'
+        publication_type: 'article-journal'
     design:
       columns: '2'
   
@@ -41,11 +47,11 @@ sections:
     id: conference-papers
     content:
       title: Conference Paper (Refereed) 📝
-      subtitle: '[All Conference Papers >>](/publication/#1)'
+      subtitle: '[All Conference Papers >>](/publication/#paper-conference)'
       filters:
         folders:
           - publication
-        publication_type: '1'
+        publication_type: 'paper-conference'
     design:
       columns: '2'
 
@@ -53,11 +59,13 @@ sections:
     id: preprints
     content:
       title: Preprint 📝
-      subtitle: '[All Preprints >>](/publication/#3)'
+      subtitle: '[All Preprints >>](/tag/preprint/)'
       filters:
         folders:
           - publication
-        publication_type: '3'
+        publication_type: 'article'
+        tag: 'Preprint'
+
     design:
       columns: '2'
   
@@ -68,7 +76,7 @@ sections:
       filters:
         folders:
           - publication
-        publication_type: '7'
+        publication_type: 'thesis'
     design:
       columns: '2'
   
@@ -76,7 +84,7 @@ sections:
     id: domestic-conferences
     content:
       title: Domestic Conference / Presentation in Japan 🇯🇵
-      subtitle: '[All domestic conference papers >>](/publication/#9)'
+      subtitle: '[All domestic conference >>](/tag/domestic-conference/)'
       count: 10
       filters:
         folders:
@@ -137,6 +145,11 @@ sections:
     id: experience
     design:
       columns: '2'
+      # background:
+      #     image:
+      #       filename: chatgpt.webp
+      #       filters:
+      #         brightness: 0.4
     content:
       title: Selected Experiences
       subtitle: 'All experiences can be found on my [LinkedIn](https://www.linkedin.com/in/shunk031/).'
@@ -225,7 +238,7 @@ sections:
   #   design:
   #     # Choose how many columns the section has. Valid values: '1' or '2'.
   #     columns: '1'
-  #     view: list
+  #     view: masonry
   #     # For Showcase view, flip alternate rows?
   #     flip_alt_rows: false
 
@@ -234,4 +247,9 @@ sections:
       title: Popular Topics 📚
     design:
       columns: '2'
+      # background:
+      #     image:
+      #       filename: chatgpt.webp
+      #       filters:
+      #         brightness: 0.2
 ---
