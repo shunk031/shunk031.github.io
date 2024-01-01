@@ -10,9 +10,9 @@ role: 深層学習による Vision & Language を研究するリサーチサイ�
 
 # Organizations/Affiliations
 organizations:
-- name: リサーチサイエンティスト @LINE 株式会社
-  url: "https://linecorp.com/ja/"
-- name: 〒160-0004 東京都 新宿区 四谷一丁目 6 番 1 号 四谷タワー 23 階
+- name: リサーチサイエンティスト @LINE ヤフー株式会社
+  url: "https://www.lycorp.co.jp/ja/company/overview/"
+- name: 〒102-8282 東京都千代田区紀尾井町 1-3 東京ガーデンテラス紀尾井町 紀尾井タワー
 - name: 大学院特任研究員 @法政大学
   url: "https://www.hosei.ac.jp/gs/riko/oyojoho_senko/"
 - name: 〒184-8584 東京都 小金井市 梶野町 3-7-2 南館 S603
