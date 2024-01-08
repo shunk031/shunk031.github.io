@@ -5,12 +5,21 @@
     <link>https://shunk031.me/category/news/</link>
       <atom:link href="https://shunk031.me/category/news/index.xml" rel="self" type="application/rss+xml" />
     <description>News</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 24 Mar 2023 00:00:00 +0900</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.me/media/sharing.png</url>
       <title>News</title>
       <link>https://shunk031.me/category/news/</link>
     </image>
+    
+    <item>
+      <title>Published a special issue of doctoral dissertation in Journal of JSAI</title>
+      <link>https://shunk031.me/news/published-jsai-phd-special-issue/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/news/published-jsai-phd-special-issue/</guid>
+      <description>&lt;p&gt;A special issue of &lt;a href=&#34;https://www.ai-gakkai.or.jp/en/published_books/journals_of_jsai/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Journal of JSAI&lt;/a&gt; on doctoral dissertations, including a summary of my dissertation, is now available: &lt;a href=&#34;https://www.jstage.jst.go.jp/article/jjsai/39/1/39_50/_article/-char/ja/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.jstage.jst.go.jp/article/jjsai/39/1/39_50/_article/-char/ja/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Successfully Defended my Ph.D. Dissertation</title>
