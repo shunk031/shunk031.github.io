@@ -28,4 +28,4 @@ image:
 projects: []
 ---
 
-A special issue of [Journal of JSAI](https://www.ai-gakkai.or.jp/en/published_books/journals_of_jsai/) on doctoral dissertations, including a summary of my dissertation, is now avaiable: https://www.jstage.jst.go.jp/article/jjsai/39/1/39_50/_article/-char/ja/
+A special issue of [Journal of JSAI](https://www.ai-gakkai.or.jp/en/published_books/journals_of_jsai/) on doctoral dissertations, including a summary of my dissertation, is now available: https://www.jstage.jst.go.jp/article/jjsai/39/1/39_50/_article/-char/ja/

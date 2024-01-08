@@ -24,7 +24,7 @@ abstract: ""
 # Summary. An optional shortened abstract.
 summary: "人工知能学会誌の博士論文特集号に寄稿しました。"
 
-tags: ["Jorunal", "Special Issue", "Non-referred"]
+tags: ["Journal", "Special Issue", "Non-referred"]
 categories: []
 featured: false
 
