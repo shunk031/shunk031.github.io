@@ -21,7 +21,7 @@ sections:
   - block: collection
     id: recent-news
     content:
-      title: Recent News 🗞️
+      title: 📢 Recent News
       subtitle: '[All news >>](/tag/news/)'
       filters:
         folders:
@@ -34,7 +34,7 @@ sections:
   - block: collection
     id: journal-articles
     content:
-      title: Journal Article 📝
+      title: 📝 Journal Article
       subtitle: '[All Journal Articles >>](/publication/#article-journal)'
       filters:
         folders:
@@ -46,7 +46,7 @@ sections:
   - block: collection
     id: conference-papers
     content:
-      title: Conference Paper (Refereed) 📝
+      title: 📝 Conference Paper (Refereed)
       subtitle: '[All Conference Papers >>](/publication/#paper-conference)'
       filters:
         folders:
@@ -58,7 +58,7 @@ sections:
   - block: collection
     id: preprints
     content:
-      title: Preprint 📝
+      title: 📝 Preprint
       subtitle: '[All Preprints >>](/tag/preprint/)'
       filters:
         folders:
@@ -72,7 +72,7 @@ sections:
   - block: collection
     id: dissertation
     content:
-      title: Dissertation 🎓
+      title: 🎓 Dissertation
       filters:
         folders:
           - publication
@@ -83,7 +83,7 @@ sections:
   - block: collection
     id: domestic-conferences
     content:
-      title: Domestic Conference / Presentation in Japan 🇯🇵
+      title: 🇯🇵 Domestic Conference / Presentation in Japan
       subtitle: '[All domestic conference >>](/tag/domestic-conference/)'
       count: 10
       filters:
@@ -97,7 +97,7 @@ sections:
   - block: collection
     id: talks
     content:
-      title: Recent & Upcoming Talks 🎙️
+      title: 🎙️ Recent & Upcoming Talks
       subtitle: '[All recent and upcoming talks >>](/event)'
       filters:
         folders:
@@ -108,7 +108,7 @@ sections:
   - block: collection
     id: awards-and-grants
     content:
-      title: Awards & Grants 🏆
+      title: 🏆 Awards & Grants
       filters:
         folders:
           - news
@@ -120,7 +120,7 @@ sections:
   - block: collection
     id: featured-posts
     content:
-      title: Featured Post 📌
+      title: 📌 Featured Post
       subtitle: '[All posts >>](/post)'
       filters:
         folders:
@@ -133,7 +133,7 @@ sections:
   - block: collection
     id: posts
     content:
-      title: Posts & Articles 📝
+      title: 📝 Posts & Articles
       subtitle: 'About Awards and Interviews (Almost In 🇯🇵)'
       filters:
         folders:
@@ -151,7 +151,7 @@ sections:
             filters:
               brightness: 0.4
     content:
-      title: Selected Experiences
+      title: 👨‍💻 Selected Experiences
       subtitle: 'All experiences can be found on my [LinkedIn](https://www.linkedin.com/in/shunk031/).'
       # Date format for experience
       #   Refer to https://docs.hugoblox.com/customization/#date-format
@@ -170,7 +170,7 @@ sections:
           date_start: '2023-10-01'
           date_end: ''
           description: |2-
-            Transferred due to merge between LINE Corp. and Yahoo Japn Corp.
+            Transferred due to merge between LINE Corp. and Yahoo Japan Corp.
 
         - title: Research Scientist
           company: LINE Corporation
@@ -213,7 +213,7 @@ sections:
   - block: portfolio
     id: projects
     content:
-      title: Projects 📂
+      title: 📂 Projects
       filters:
         folders:
           - project
@@ -244,7 +244,7 @@ sections:
 
   - block: tag_cloud
     content:
-      title: Popular Topics 📚
+      title: 📚 Popular Topics
     design:
       columns: '2'
       background:
