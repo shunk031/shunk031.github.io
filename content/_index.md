@@ -170,7 +170,7 @@ sections:
           date_start: '2023-10-01'
           date_end: ''
           description: |2-
-            Transferred due to merge between LINE Corp. and Yahoo Japan Corp.
+            Transferred due to merge between LINE Corp. and Yahoo! Japan Corp.
 
         - title: Research Scientist
           company: LINE Corporation
