@@ -38,7 +38,7 @@ make post name="my-post-article"
 ### Create a post for some news
 
 ```sh
-make post name="my-news"
+make news name="my-news"
 ```
 
 ### Creat a talk/event page
