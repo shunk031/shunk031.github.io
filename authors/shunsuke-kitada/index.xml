@@ -13,6 +13,23 @@
     </image>
     
     <item>
+      <title>BERT4CTR: An Efficient Framework to Combine Pre-trained Language Model with Non-textual Features for CTR Prediction</title>
+      <link>https://shunk031.me/talk/bert4ctr-an-efficient-framework-to-combine-pre-trained-language-model-with-non-textual-features-for-ctr-prediction/</link>
+      <pubDate>Wed, 17 Jan 2024 19:25:00 +0900</pubDate>
+      <guid>https://shunk031.me/talk/bert4ctr-an-efficient-framework-to-combine-pre-trained-language-model-with-non-textual-features-for-ctr-prediction/</guid>
+      <description>&lt;h1 id=&#34;kdd2023-論文読み会オンライン開催&#34;&gt;KDD2023 論文読み会（オンライン開催）&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;概要 2023年8月に開催されたデータマイニング関連の国際学術会議、&lt;a href=&#34;https://kdd.org/kdd2023/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;KDD2023&lt;/a&gt;に(29th ACM SIGKDD Conference on Knowledge Discovery &amp;amp; Data Mining) で発表された論文の読み会です。
+参加報告と5本の論文のご紹介が主な内容となります。&lt;/p&gt;
+&lt;p&gt;学生、社会人、アカデミア問わずデータマイニングに興味のある方でしたら、どなたでもご参加いただけます。
+ぜひお気軽にご登録ください！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;資料---slides&#34;&gt;資料 - Slides&lt;/h2&gt;
+&lt;script defer class=&#34;speakerdeck-embed&#34; data-id=&#34;9eb95df7335e4297b9fe13f8eccd2e3b&#34; data-ratio=&#34;1.7772511848341233&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Published a special issue of doctoral dissertation in Journal of JSAI</title>
       <link>https://shunk031.me/news/published-jsai-phd-special-issue/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0900</pubDate>

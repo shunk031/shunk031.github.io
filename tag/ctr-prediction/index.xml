@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Paper Reading | shunk031.me</title>
-    <link>https://shunk031.me/tag/paper-reading/</link>
-      <atom:link href="https://shunk031.me/tag/paper-reading/index.xml" rel="self" type="application/rss+xml" />
-    <description>Paper Reading</description>
+    <title>CTR prediction | shunk031.me</title>
+    <link>https://shunk031.me/tag/ctr-prediction/</link>
+      <atom:link href="https://shunk031.me/tag/ctr-prediction/index.xml" rel="self" type="application/rss+xml" />
+    <description>CTR prediction</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 17 Jan 2024 19:25:00 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.me/media/sharing.png</url>
-      <title>Paper Reading</title>
-      <link>https://shunk031.me/tag/paper-reading/</link>
+      <title>CTR prediction</title>
+      <link>https://shunk031.me/tag/ctr-prediction/</link>
     </image>
     
     <item>
@@ -26,21 +26,6 @@
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;資料---slides&#34;&gt;資料 - Slides&lt;/h2&gt;
 &lt;script defer class=&#34;speakerdeck-embed&#34; data-id=&#34;9eb95df7335e4297b9fe13f8eccd2e3b&#34; data-ratio=&#34;1.7772511848341233&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Expressions Causing Differences in Emotion Recognition in Social Networking Service Documents (CIKM&#39;22)</title>
-      <link>https://shunk031.me/talk/expressions-causing-differences-in-emotion-recognition-in-social-networking-service-documents-cikm22/</link>
-      <pubDate>Sat, 12 Nov 2022 14:45:00 +0900</pubDate>
-      <guid>https://shunk031.me/talk/expressions-causing-differences-in-emotion-recognition-in-social-networking-service-documents-cikm22/</guid>
-      <description>&lt;h1 id=&#34;ir-reading-2022-秋&#34;&gt;IR Reading 2022 秋&lt;/h1&gt;
-&lt;blockquote&gt;
-&lt;p&gt;概要
-情報アクセス分野に関する主要国際会議（SIGIR や WSDM など）の論文読み合わせを行う IR Reading をオンラインにて開催します．多人数で協力しあって論文を紹介しあうことで，論文への理解を深めたり，分野全体のトレンドを掴んだりする場となれば幸いです．これまでの勉強会の内容につきましては，&lt;a href=&#34;https://sigir.jp/post/2022-05-21-irreading_2022spring/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;過去のページ&lt;/a&gt; をご覧ください．&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;資料---slides&#34;&gt;資料 - Slides&lt;/h2&gt;
-&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;81194cffb02f41559f1fd3fe45e4d6bd&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
 </description>
     </item>
     
