@@ -13,32 +13,44 @@
 ### MacOS
 
 ```sh
-$ brew install hugo
+brew install hugo
 ```
 
 ## Check contents
 
 ```sh
-$ make run
+make run
 ```
 
 ## Update hugo modules
 
 ```sh
-$ make update
+make update
 ```
 
 ## Create a content
+### Create a post
+
+```sh
+make post name="my-post-article"
+```
+
 ### Create a post for some news
 
 ```sh
-$ hugo new --kind post post/my-news
+make news name="my-news"
+```
+
+### Creat a talk/event page
+
+```sh
+make event name="my-talk"
 ```
 
 ### Create a publication page
 
 ```sh
-$ hugo new --kind publication publication/name2020conf
+make publication name="author20xxconf"
 ```
 
 - Create for thumbnail image.
