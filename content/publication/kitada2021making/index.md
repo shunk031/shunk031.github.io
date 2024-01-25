@@ -70,3 +70,5 @@ slides: ""
 ---
 
 The manuscript accepted for publication in the Applied Intelligence journal can be found [here](/publication/kitada2022making).
+
+{{< blogcard url="https://arxiv.org/abs/2104.08763v1" >}}
