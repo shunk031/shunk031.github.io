@@ -170,7 +170,8 @@ sections:
           date_start: '2023-10-01'
           date_end: ''
           description: |2-
-            Transferred due to merge between LINE Corp. and Yahoo! Japan Corp.
+            - Transferred due to merge between LINE Corp. and Yahoo! Japan Corp.
+            - OpenHackU comunicator ([Tokyo 2024](https://hacku.yahoo.co.jp/2024/))
 
         - title: Research Scientist
           company: LINE Corporation
@@ -178,6 +179,8 @@ sections:
           location: Yotsuya Tower 23rd FL., 1-6-1 Yotsuya, Shinjuku-ku, Tokyo, 160-0004, Japan
           date_start: '2023-04-01'
           date_end: '2023-09-30'
+          description: |2-
+            - Constructing automatic generation/evaluation methods and assistive technology for multi-modal ad creatives.
         
         - title: Lecturer
           company: DAY1 COMPANY Inc.
