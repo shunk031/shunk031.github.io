@@ -13,19 +13,19 @@ publishDate: 2024-01-25T23:20:23+09:00
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["article"]
+publication_types: ["paper-conference"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
-publication_short: ""
+publication: "Practical ML for Low Resource Settings Workshop @ ICLR 2024"
+publication_short: "PML4LRS@ICLR 2024"
 
 abstract: "Data imbalance presents a significant challenge in various machine learning (ML) tasks, particularly named entity recognition (NER) within natural language processing (NLP). NER exhibits a data imbalance with a long-tail distribution, featuring numerous minority classes (i.e., entity classes) and a single majority class (i.e., O-class). The imbalance leads to the misclassifications of the entity classes as the O-class. To tackle the imbalance, we propose a simple and effective learning method, named majority or minority (MoM) learning. MoM learning incorporates the loss computed only for samples whose ground truth is the majority class (i.e., the O-class) into the loss of the conventional ML model. Evaluation experiments on four NER datasets (Japanese and English) showed that MoM learning improves prediction performance of the minority classes, without sacrificing the performance of the majority class and is more effective than widely known and state-of-the-art methods. We also evaluated MoM learning using frameworks as sequential labeling and machine reading comprehension, which are commonly used in NER. Furthermore, MoM learning has achieved consistent performance improvements regardless of language, model, or framework.
 "
 
 # Summary. An optional shortened abstract.
-summary: ""
+summary: "[Practical ML for Low Resource Settings Workshop @ ICLR 2024](https://pml4dc.github.io/iclr2024/); Rating: 9: Top 15% of accepted papers, strong accept; Oral presentation"
 
-tags: ["Preprint"]
+tags: ["International Conference", "Referred", "Oral Presentation"]
 categories: ["Natural Language Processing", "Named Entity Recognition", "Imbalanced Dataset"]
 featured: false
 
