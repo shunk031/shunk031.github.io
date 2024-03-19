@@ -6,48 +6,56 @@
     <lastmod>2023-10-09T21:30:51+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shunk031.me/publication-type/article/</loc>
-    <lastmod>2024-01-26T00:16:21+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shunk031.me/categories/</loc>
-    <lastmod>2024-01-26T00:16:21+09:00</lastmod>
+    <lastmod>2024-03-19T20:02:29+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/authors/hitoshi-iyatomi/</loc>
-    <lastmod>2024-01-26T00:16:21+09:00</lastmod>
+    <lastmod>2024-03-19T20:02:29+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/category/imbalanced-dataset/</loc>
-    <lastmod>2024-01-26T00:16:21+09:00</lastmod>
+    <lastmod>2024-03-19T20:02:29+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/international-conference/</loc>
+    <lastmod>2024-03-19T20:02:29+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/publication/nemoto2024majority/</loc>
-    <lastmod>2024-01-26T00:16:21+09:00</lastmod>
+    <lastmod>2024-03-19T20:02:29+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/category/named-entity-recognition/</loc>
-    <lastmod>2024-01-26T00:16:21+09:00</lastmod>
+    <lastmod>2024-03-19T20:02:29+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/category/natural-language-processing/</loc>
-    <lastmod>2024-01-26T00:16:21+09:00</lastmod>
+    <lastmod>2024-03-19T20:02:29+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shunk031.me/tag/preprint/</loc>
-    <lastmod>2024-01-26T00:16:21+09:00</lastmod>
+    <loc>https://shunk031.me/tag/oral-presentation/</loc>
+    <lastmod>2024-03-19T20:02:29+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/publication-type/paper-conference/</loc>
+    <lastmod>2024-03-19T20:02:29+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/publication_types/</loc>
-    <lastmod>2024-01-26T00:16:21+09:00</lastmod>
+    <lastmod>2024-03-19T20:02:29+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/referred/</loc>
+    <lastmod>2024-03-19T20:02:29+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/authors/sota-nemoto/</loc>
-    <lastmod>2024-01-26T00:16:21+09:00</lastmod>
+    <lastmod>2024-03-19T20:02:29+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/tags/</loc>
-    <lastmod>2024-01-26T00:16:21+09:00</lastmod>
+    <lastmod>2024-03-19T20:02:29+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/talk/bert4ctr-an-efficient-framework-to-combine-pre-trained-language-model-with-non-textual-features-for-ctr-prediction/</loc>
@@ -170,6 +178,10 @@
     <lastmod>2024-01-01T12:28:35+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://shunk031.me/publication-type/article/</loc>
+    <lastmod>2024-01-26T00:16:21+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://shunk031.me/tag/domestic-conference/</loc>
     <lastmod>2024-01-01T12:28:35+09:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -235,10 +247,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/tag/open-access/</loc>
-    <lastmod>2024-01-01T12:28:35+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/tag/referred/</loc>
     <lastmod>2024-01-01T12:28:35+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -314,15 +322,7 @@
     <lastmod>2024-01-01T12:28:35+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shunk031.me/tag/international-conference/</loc>
-    <lastmod>2024-01-01T12:28:35+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shunk031.me/authors/ohata-kazuya/</loc>
-    <lastmod>2024-01-01T12:28:35+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/publication-type/paper-conference/</loc>
     <lastmod>2024-01-01T12:28:35+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -567,6 +567,10 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/publication/kitada2021making/</loc>
+    <lastmod>2024-01-26T00:16:21+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/preprint/</loc>
     <lastmod>2024-01-26T00:16:21+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
