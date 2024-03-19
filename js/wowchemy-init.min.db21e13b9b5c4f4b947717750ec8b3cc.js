@@ -1,4 +1,4 @@
-/*! Hugo Blox Builder v5.9.6 | https://hugoblox.com/ */
+/*! Hugo Blox Builder v5.9.7 | https://hugoblox.com/ */
 /*! Copyright 2016-present George Cushen (https://georgecushen.com/) */
 /*! License: https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md */
 
