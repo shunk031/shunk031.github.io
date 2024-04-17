@@ -19,7 +19,7 @@ publication_types: ["presentation"]
 publication: "NLP 若手の会 (YANS) 第 14 回シンポジウム，2019."
 publication_short: "YANS 2019"
 
-abstract: ""
+abstract: "注意機構は自然言語処理における深層学習モデルに幅広く応用されており、予測性能の向上に大きく寄与している。また注意機構はモデルの予測時に根拠を提示する際にも利用される。こうした予測の根拠提示手法の文脈では損失計算時の勾配を元にした手法も同様に利用されており、尤もらしい予測根拠を提示していることが知られている。しかしながら注意機構と勾配の間には関連性が見られない場合が多く、予測根拠として注意機構を用いるのは疑問視されている。本研究ではモデルの解釈性の向上のために、注意機構と勾配が関連するような損失関数を新たに導入する。注意機構持つベースラインモデルに対して提案する関連損失を導入し、複数の文書分類タスクを用いて評価を行った。また注意機構と勾配の双方が関連することを確認した。"
 
 # Summary. An optional shortened abstract.
 summary: "NLP 若手の会 (YANS) 第 14 回シンポジウム，2019. ** 奨励賞 ** 受賞"
@@ -30,11 +30,9 @@ featured: false
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
-# links:
-# - name: Follow
-#   url: https://twitter.com
-#   icon_pack: fab
-#   icon: twitter
+links:
+- name: Booster Session
+  url: publication/kitada2019yans/booster-session.pdf
 
 url_pdf:
 url_code:
