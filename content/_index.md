@@ -204,7 +204,7 @@ sections:
 
             Served as a mentor, providing guidance on large-scale GPU distributed training using HPC:
             - [TSUBAME4.0 deep learning minicamp](https://www.t4.gsic.titech.ac.jp/minicamp-dl-202406)
-            - [The 1st Large-scale Distrubited Training Hackathon for Large Language Models](https://abci.ai/event/2023/06/13/ja_event.html)
+            - [The 1st Large-scale Distributed Training Hackathon for Large Language Models](https://abci.ai/event/2023/06/13/ja_event.html)
 
         - title: Fundamental Information Technology Engineer
           company: Information-technology Promotion Agency, Japan
