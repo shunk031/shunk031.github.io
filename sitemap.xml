@@ -2,10 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://shunk031.me/home/11_experience/</loc>
-    <lastmod>2023-10-09T21:30:51+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shunk031.me/news/acceptance-to-iclr2024-pm4lrs/</loc>
     <lastmod>2024-05-13T17:12:34+02:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -311,7 +307,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/</loc>
-    <lastmod>2024-01-16T10:51:59+09:00</lastmod>
+    <lastmod>2024-06-11T00:18:22+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/publication/ohata2022feedback/</loc>
@@ -1024,10 +1020,6 @@
   </url><url>
     <loc>https://shunk031.me/authors/</loc>
     <lastmod>2022-01-22T01:17:58+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/home/</loc>
-    <lastmod>2023-10-09T21:30:51+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/post/</loc>
