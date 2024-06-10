@@ -189,7 +189,7 @@ sections:
             - Taught lectures on image-generating AI at Coloso, an online education service
             - The lectures can be found at the following URL: https://bit.ly/KitadaXColosoJP1
 
-        - title: Teaching Assistant for Deep Learning Hands-On Training Lab
+        - title: Teaching Assistant / Mentor
           company: NVIDIA Japan
           company_url: 'https://www.nvidia.com/ja-jp/'
           date_start: '2016-01-01'
@@ -201,6 +201,10 @@ sections:
             - [GTC Japan 2017 DLI in Hilton Tokyo Odaiba](https://nvidia.connpass.com/event/68912/)
             - [NVIDIA GTC 2020 DLI in Online](https://nvidia.connpass.com/event/189637/)
             - [NVIDIA GTC 2021 DLI in Online](https://nvidia.connpass.com/event/208506/)
+
+            Served as a mentor, providing guidance on large-scale GPU distributed training using HPC:
+            - [TSUBAME4.0 deep learning minicamp](https://www.t4.gsic.titech.ac.jp/minicamp-dl-202406)
+            - [The 1st Large-scale Distributed Training Hackathon for Large Language Models](https://abci.ai/event/2023/06/13/ja_event.html)
 
         - title: Fundamental Information Technology Engineer
           company: Information-technology Promotion Agency, Japan
