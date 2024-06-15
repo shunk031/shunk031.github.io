@@ -20,7 +20,7 @@ publication_types: ["presentation"]
 publication: "NLP 若手の会 (YANS) 第 16 回シンポジウム，2021."
 publication_short: "YANS 2021"
 
-abstract: ""
+abstract: "検索連動型広告等の運用型広告は、広告効果を維持するために多様な広告文の制作や運用の改善が重要である。また、商品購入等の行動であるコンバージョン (CV) 獲得に重要なランディングページ (LP) においても、広告効果のさらなる向上のために購買行動を後押しするテキストを元にしたページ制作が必要になる。本研究では、検索連動型広告文とLPテキストからCVを予測可能な新たなモデルを提案し、そのモデルを元にCV予測に寄与するテキスト箇所の可視化や推薦可能な枠組みを提案する。評価実験では、提案モデルが実際に現在稼働している予測モデルを超える性能を示したことを示すとともに、作成支援のための推薦結果を提示できることを示す。"
 
 # Summary. An optional shortened abstract.
 summary: "NLP 若手の会 (YANS) 第 16 回シンポジウム，2021."
@@ -40,7 +40,7 @@ featured: false
 url_pdf:
 url_code:
 url_dataset:
-url_poster:
+url_poster: publication/kitada2021yans/poster.pdf
 url_project:
 url_slides:
 url_source:
