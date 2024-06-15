@@ -5,12 +5,26 @@
     <link>https://shunk031.me/category/news/</link>
       <atom:link href="https://shunk031.me/category/news/index.xml" rel="self" type="application/rss+xml" />
     <description>News</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 06 Mar 2024 00:00:00 +0900</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 10 Jun 2024 00:00:00 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.me/media/sharing.png</url>
       <title>News</title>
       <link>https://shunk031.me/category/news/</link>
     </image>
+    
+    <item>
+      <title>Published our technical map at SSII2024</title>
+      <link>https://shunk031.me/news/ssii2024-techmap/</link>
+      <pubDate>Mon, 10 Jun 2024 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/news/ssii2024-techmap/</guid>
+      <description>&lt;p&gt;Our team provided and published the following technical map at &lt;a href=&#34;https://confit.atlas.jp/guide/event/ssii2024/static/special_project_tech_map&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SSII2024 session&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🌐 &lt;a href=&#34;https://bit.ly/ssii2024-techmap-creative-design-map&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bit.ly/ssii2024-techmap-creative-design-map&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;📃 &lt;a href=&#34;https://bit.ly/ssii2024-techmap-creative-design-sheet&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bit.ly/ssii2024-techmap-creative-design-sheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;See &lt;a href=&#34;https://shunk031.me/talk/ssii2024-technical-map-creative-design-generation/&#34;&gt;this post&lt;/a&gt; for more details.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Accepted our paper to PM4LRS workshop at ICLR2024</title>

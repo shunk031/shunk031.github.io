@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kenji Doi | shunk031.me</title>
+    <link>https://shunk031.me/authors/kenji-doi/</link>
+      <atom:link href="https://shunk031.me/authors/kenji-doi/index.xml" rel="self" type="application/rss+xml" />
+    <description>Kenji Doi</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 12 Jun 2024 09:20:00 +0900</lastBuildDate>
+    <image>
+      <url>https://shunk031.me/media/sharing.png</url>
+      <title>Kenji Doi</title>
+      <link>https://shunk031.me/authors/kenji-doi/</link>
+    </image>
+    
+    <item>
+      <title>SSII2024 Technical map: Creative Design Generation</title>
+      <link>https://shunk031.me/talk/ssii2024-technical-map-creative-design-generation/</link>
+      <pubDate>Wed, 12 Jun 2024 09:20:00 +0900</pubDate>
+      <guid>https://shunk031.me/talk/ssii2024-technical-map-creative-design-generation/</guid>
+      <description>&lt;h2 id=&#34;技術マップ&#34;&gt;技術マップ&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bit.ly/ssii2024-techmap-creative-design-map&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Techmap&#34; srcset=&#34;
+               /talk/ssii2024-technical-map-creative-design-generation/featured_hu028b228786f44ec7e9901c283793d0e9_3681081_067be770e1a34cccf7c3efe1dc3e52b3.webp 400w,
+               /talk/ssii2024-technical-map-creative-design-generation/featured_hu028b228786f44ec7e9901c283793d0e9_3681081_7401e7f2d75572d6ecc1283e5851288c.webp 760w,
+               /talk/ssii2024-technical-map-creative-design-generation/featured_hu028b228786f44ec7e9901c283793d0e9_3681081_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://shunk031.me/talk/ssii2024-technical-map-creative-design-generation/featured_hu028b228786f44ec7e9901c283793d0e9_3681081_067be770e1a34cccf7c3efe1dc3e52b3.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;428&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;文献情報&#34;&gt;文献情報&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://bit.ly/ssii2024-techmap-creative-design-sheet&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Bibliographic Information&#34; srcset=&#34;
+               /talk/ssii2024-technical-map-creative-design-generation/bibliography_hua6d490682d5fa553f183e913cbfafab0_3286584_cd5a75f0b0c4282eda100821024cfac0.webp 400w,
+               /talk/ssii2024-technical-map-creative-design-generation/bibliography_hua6d490682d5fa553f183e913cbfafab0_3286584_6b721af947c5da8c885c856495cd4145.webp 760w,
+               /talk/ssii2024-technical-map-creative-design-generation/bibliography_hua6d490682d5fa553f183e913cbfafab0_3286584_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://shunk031.me/talk/ssii2024-technical-map-creative-design-generation/bibliography_hua6d490682d5fa553f183e913cbfafab0_3286584_cd5a75f0b0c4282eda100821024cfac0.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;428&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Published our technical map at SSII2024</title>
+      <link>https://shunk031.me/news/ssii2024-techmap/</link>
+      <pubDate>Mon, 10 Jun 2024 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/news/ssii2024-techmap/</guid>
+      <description>&lt;p&gt;Our team provided and published the following technical map at &lt;a href=&#34;https://confit.atlas.jp/guide/event/ssii2024/static/special_project_tech_map&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SSII2024 session&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🌐 &lt;a href=&#34;https://bit.ly/ssii2024-techmap-creative-design-map&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bit.ly/ssii2024-techmap-creative-design-map&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;📃 &lt;a href=&#34;https://bit.ly/ssii2024-techmap-creative-design-sheet&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bit.ly/ssii2024-techmap-creative-design-sheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;See &lt;a href=&#34;https://shunk031.me/talk/ssii2024-technical-map-creative-design-generation/&#34;&gt;this post&lt;/a&gt; for more details.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
