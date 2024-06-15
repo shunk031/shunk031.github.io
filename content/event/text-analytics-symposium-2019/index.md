@@ -12,10 +12,10 @@ address:
   postcode: 141-0032
   country: Japan
 summary: "This talk introduces a case study of research and development internship at Gunosy Inc."
-abstract: " 本稿では第 15 回テキストアナリティクス・シンポジウムの依頼講演である「ウェブサービス事業者における研究開発インターン」の原稿として株式会社 Gunosy における研究開発インターンシップの事例について述べる．
+abstract: "本稿では第 15 回テキストアナリティクス・シンポジウムの依頼講演である「ウェブサービス事業者における研究開発インターン」の原稿として株式会社 Gunosy における研究開発インターンシップの事例について述べる．
 株式会社 Gunosy はニュース推薦システムを活用したニュース配信サービスを提供しており，研究開発にも力を入れている．
 本インターンシップは 2018 年夏から始まり，その成果がデータマイニング分野のトップカンファレンスである KDD に採択された．
-本稿では本インターンシップが開始された経緯，実際にどのように研究が進められたのか，それに伴う社内での体制や取り組みなどについて報告する． "
+本稿では本インターンシップが開始された経緯，実際にどのように研究が進められたのか，それに伴う社内での体制や取り組みなどについて報告する．"
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.

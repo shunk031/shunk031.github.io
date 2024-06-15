@@ -69,9 +69,11 @@ $ ./scripts/generate_ogp_image_for_publication.sh kitada20XXconf
 # Success to generate twitter card into content/publication/kitada20XXconf/featured.png
 ```
 
-### Available Icons
+### Available Icons/Emojis
 
-- See https://wowchemy.com/docs/page-builder/#icons for more details
+- See the following for more details:
+  - Icons: https://docs.hugoblox.com/reference/markdown/#inline-image
+  - Emojis: https://docs.hugoblox.com/reference/markdown/#emojis
 
 ## License
 
