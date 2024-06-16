@@ -44,7 +44,6 @@ jobs:
             -e arxiv.org \
             -e valuenex.com \
             -e challenge2018.isic-archive.com \
-            -e paper-survey \
             -e publication/#\\d \
             -e index.webmanifest \
             -e honet-ict.org \
@@ -52,6 +51,7 @@ jobs:
             -e www.cikm2022.org \
             -e hugoblox.com \
             -e .*.xml \
+            -e shunk031.me/paper-survey \
             -e shunk031.me/coloso-python-diffusion-models \
             -e shunk031.me/attention-meets-perturbation \
             -e drive.google.com/file/d/0B3O7bgd3mym6N214SWw3eVJCS3M/view \
