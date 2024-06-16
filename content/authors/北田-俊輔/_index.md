@@ -17,7 +17,7 @@ organizations:
   url: "https://www.hosei.ac.jp/gs/riko/oyojoho_senko/"
 - name: 〒184-8584 東京都 小金井市 梶野町 3-7-2 南館 S603
 - name: 知的情報処理研究室 （彌冨研）
-  url: "https://iyatomi-lab.info/front.html"
+  url: "https://iyatomi-lab.info/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: 研究テーマは、ディープラーニングを用いた自然言語処理、コンピュータビジョン、医療画像処理、計算広告などです
