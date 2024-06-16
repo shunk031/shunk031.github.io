@@ -34,6 +34,7 @@ jobs:
             --buffer-size 8192 \
             --max-connections=10 \
             --max-response-body-size=70000000 \
+            --ignore-fragments \
             -e linkedin.com \
             -e twitter.com \
             -e facebook.com \
