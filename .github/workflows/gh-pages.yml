@@ -46,6 +46,7 @@ jobs:
             -e honet-ict.org \
             -e jsps.go.jp \
             -e www.cikm2022.org \
+            -e hugoblox.com \
             -e .*.xml \
             "
 
