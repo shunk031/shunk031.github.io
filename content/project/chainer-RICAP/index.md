@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "chainer-RICAP"
-summary: "Implementation of [RICAP](http://proceedings.mlr.press/v95/takahashi18a.html) in Chainer."
+summary: "Implementation of [RICAP](https://proceedings.mlr.press/v95/takahashi18a.html) in Chainer."
 authors: ["Shunsuke Kitada"]
 tags: ["Chainer"]
 categories: ["Implementation"]

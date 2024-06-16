@@ -40,7 +40,7 @@ featured: false
 #   Uncomment and edit lines below to show custom links.
 links:
 - name: Preprint
-  url: http://arxiv.org/abs/2208.14244
+  url: https://arxiv.org/abs/2208.14244
   icon_pack: ai
   icon: arxiv
 
@@ -79,4 +79,4 @@ projects: []
 slides: ""
 ---
 
-{{< blogcard url="http://arxiv.org/abs/2208.14244" >}}
+{{< blogcard url="https://arxiv.org/abs/2208.14244" >}}

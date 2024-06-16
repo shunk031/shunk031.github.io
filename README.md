@@ -4,7 +4,7 @@
 
 [Hugo Academic](https://github.com/gcushen/hugo-academic) + GitHub Pages based on [Starter Hugo Academic](https://github.com/wowchemy/starter-hugo-academic).
 
-[![Website Thumbnail](.github/README/thumbnail.png)](http://www.shunk031.me)
+[![Website Thumbnail](.github/README/thumbnail.png)](https://www.shunk031.me)
 
 ## Running locally
 
