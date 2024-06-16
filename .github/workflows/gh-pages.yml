@@ -35,6 +35,7 @@ jobs:
             --max-connections=10 \
             --max-response-body-size=70000000 \
             --ignore-fragments \
+            -e t.co \
             -e linkedin.com \
             -e twitter.com \
             -e facebook.com \
@@ -54,6 +55,7 @@ jobs:
             -e shunk031.me/coloso-python-diffusion-models \
             -e shunk031.me/attention-meets-perturbation \
             -e drive.google.com/file/d/0B3O7bgd3mym6N214SWw3eVJCS3M/view \
+            -e openai.com/index/chatgpt \
             "
 
       - name: Deploy
