@@ -71,7 +71,7 @@ social:
 
 - icon: pen-nib
   icon_pack: fas
-  link: http://shunk031.hatenablog.com/
+  link: https://shunk031.hatenablog.com/
 
 - icon: speaker-deck
   icon_pack: fab
