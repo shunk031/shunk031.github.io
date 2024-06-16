@@ -5,6 +5,8 @@ on: [push]
 jobs:
   build-deploy:
     runs-on: ubuntu-20.04
+    env:
+      CNAME: shunk031.me
     steps:
       - uses: actions/checkout@v4
         with:
@@ -22,32 +24,40 @@ jobs:
       - name: Build
         run: hugo
 
-      # - name: Check broken links
-      #   uses: ruzickap/action-my-broken-link-checker@v2
-      #   with:
-      #     url: https://${{ github.event.repository.name }}
-      #     pages_path: ./public
-      #     cmd_params: "\
-      #       --timeout=20 \
-      #       --buffer-size 8192 \
-      #       --max-connections=10 \
-      #       --max-response-body-size=70000000 \
-      #       -e linkedin.com \
-      #       -e twitter.com \
-      #       -e facebook.com \
-      #       -e gstatic.com \
-      #       -e researchgate.net \
-      #       -e arxiv.org \
-      #       -e valuenex.com \
-      #       -e challenge2018.isic-archive.com \
-      #       -e paper-survey \
-      #       -e publication/#\\d \
-      #       -e index.webmanifest \
-      #       -e honet-ict.org \
-      #       -e jsps.go.jp \
-      #       -e www.cikm2022.org \
-      #       -e .*.xml \
-      #       "
+      - name: Check broken links
+        uses: ruzickap/action-my-broken-link-checker@v2
+        with:
+          url: https://${{ env.CNAME }}
+          pages_path: ./public
+          cmd_params: "\
+            --timeout=20 \
+            --buffer-size 8192 \
+            --max-connections=10 \
+            --max-response-body-size=70000000 \
+            --ignore-fragments \
+            -e t.co \
+            -e linkedin.com \
+            -e twitter.com \
+            -e facebook.com \
+            -e gstatic.com \
+            -e researchgate.net \
+            -e arxiv.org \
+            -e valuenex.com \
+            -e challenge2018.isic-archive.com \
+            -e publication/#\\d \
+            -e index.webmanifest \
+            -e honet-ict.org \
+            -e jsps.go.jp \
+            -e www.cikm2022.org \
+            -e hugoblox.com \
+            -e .*.xml \
+            -e shunk031.me/paper-survey \
+            -e shunk031.me/coloso-python-diffusion-models \
+            -e shunk031.me/attention-meets-perturbation \
+            -e drive.google.com/file/d/0B3O7bgd3mym6N214SWw3eVJCS3M/view \
+            -e www.mibel.cs.tsukuba.ac.jp/~ceekz/dc1 \
+            -e openai.com/index/chatgpt \
+            "
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
@@ -56,4 +66,4 @@ jobs:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ./public
           publish_branch: gh-pages # deploying branch
-          cname: shunk031.me
+          cname: ${{ env.CNAME }}

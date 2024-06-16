@@ -25,7 +25,7 @@ organizations:
     url: "https://www.hosei.ac.jp/english/admissions/graduate/jbdp/science_engineering/applied_informatics/"
   - name: S603, 3-7-2, Kajino-cho, Koganei-shi, Tokyo 184-8584, Japan
   - name: Intelligent information processing laboratory
-    url: "http://iyatomi-lab.info/front-e.html"
+    url: "https://iyatomi-lab.info/english-top"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include deep learning-based natural language processing, computer vision, medical image processing, and computational advertising.
@@ -119,7 +119,7 @@ social:
 
   - icon: pen-nib
     icon_pack: fas
-    link: http://shunk031.hatenablog.com/
+    link: https://shunk031.hatenablog.com/
 
   - icon: speaker-deck
     icon_pack: fab
@@ -152,7 +152,7 @@ highlight_name: true
 Shunsuke Kitada （北田 俊輔 in Japanese) is a Research Scientist at Image and Video AI Dept., LY Corp. 
 His research interest is now on computational advertising with a focus on automatic geneartion/evaluation and assistive technology for multi-modal ad creatives.
 
-Previously, he got his Ph.D. in 2023 at major in applied informatics, graduate school of science and engineering, Hosei University under the supervision of Prof. [Hitoshi Iyatomi](http://iyatomi-lab.info/front-e.html). 
+Previously, he got his Ph.D. in 2023 at major in applied informatics, graduate school of science and engineering, Hosei University under the supervision of Prof. [Hitoshi Iyatomi](https://iyatomi-lab.info/english-top). 
 His project was to improve prediction performance and model interpretability through attention mechanisms from basic and applied research perspectives.
 
 His personality traits can be summarized as follows:
@@ -162,4 +162,4 @@ His personality traits can be summarized as follows:
 
 The resume is available in [PDF {{< icon name="download" pack="fas" >}}](https://github.com/shunk031/cv/releases/latest/download/cv.pdf). 
 
-*Background image borrowed from [OpenAI ChatGPT](https://openai.com/blog/chatgpt) illustration by [Ruby Chen](https://www.linkedin.com/in/rubyweijuchen/).*
+*Background image borrowed from [OpenAI ChatGPT](https://openai.com/index/chatgpt/) illustration by [Ruby Chen](https://www.linkedin.com/in/rubyweijuchen/).*

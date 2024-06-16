@@ -36,7 +36,7 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: http://anlp.jp/proceedings/annual_meeting/2018/pdf_dir/B6-5.pdf
+url_pdf: https://anlp.jp/proceedings/annual_meeting/2018/pdf_dir/B6-5.pdf
 url_code:
 url_dataset:
 url_poster:
