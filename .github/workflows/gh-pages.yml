@@ -5,6 +5,8 @@ on: [push]
 jobs:
   build-deploy:
     runs-on: ubuntu-20.04
+    env:
+      CNAME: shunk031.me
     steps:
       - uses: actions/checkout@v4
         with:
@@ -25,7 +27,7 @@ jobs:
       - name: Check broken links
         uses: ruzickap/action-my-broken-link-checker@v2
         with:
-          url: https://shunk031.me
+          url: ${{ env.CNAME}}
           pages_path: ./public
           cmd_params: "\
             --timeout=20 \
@@ -57,4 +59,4 @@ jobs:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ./public
           publish_branch: gh-pages # deploying branch
-          cname: shunk031.me
+          cname: ${{ env.CNAME }}
