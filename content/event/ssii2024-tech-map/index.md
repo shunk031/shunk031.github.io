@@ -7,7 +7,7 @@ event_url: https://confit.atlas.jp/guide/event/ssii2024/static/special_project_t
 location: Annex Hall, Pacific Convention Plaza Yokohama
 address:
   street: 1-1-1 Minatomirai
-  city: Nichi-ku, Yokohama
+  city: Nishi-ku, Yokohama
   region: Kanagawa
   postcode: 220-0021
   country: Japan
