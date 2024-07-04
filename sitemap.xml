@@ -2,8 +2,80 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://shunk031.me/news/acceptance-to-eccv2024/</loc>
+    <lastmod>2024-07-04T23:14:59+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://shunk031.me/authors/atsuki-osanai/</loc>
-    <lastmod>2024-06-16T13:11:02+09:00</lastmod>
+    <lastmod>2024-07-04T23:14:59+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/categories/</loc>
+    <lastmod>2024-07-04T23:14:59+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/category/creative-graphic-design/</loc>
+    <lastmod>2024-07-04T23:14:59+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/discrete-diffusion-model/</loc>
+    <lastmod>2024-07-04T23:14:59+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/international-conference/</loc>
+    <lastmod>2024-07-04T23:14:59+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/international-publication/</loc>
+    <lastmod>2024-07-04T23:14:59+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/layout-generation/</loc>
+    <lastmod>2024-07-04T23:14:59+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/category/layout-generation/</loc>
+    <lastmod>2024-07-04T23:14:59+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/publication/iwai2024layout/</loc>
+    <lastmod>2024-07-04T23:14:59+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/news/</loc>
+    <lastmod>2024-07-04T23:14:59+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/category/news/</loc>
+    <lastmod>2024-07-04T23:14:59+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/news/</loc>
+    <lastmod>2024-07-04T23:14:59+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/publication-type/paper-conference/</loc>
+    <lastmod>2024-07-04T23:14:59+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/publication_types/</loc>
+    <lastmod>2024-07-04T23:14:59+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/refereed/</loc>
+    <lastmod>2024-07-04T23:14:59+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/authors/shinichiro-omachi/</loc>
+    <lastmod>2024-07-04T23:14:59+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/authors/shoma-iwai/</loc>
+    <lastmod>2024-07-04T23:14:59+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tags/</loc>
+    <lastmod>2024-07-04T23:14:59+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/tag/invited-talk/</loc>
@@ -26,26 +98,6 @@
     <lastmod>2024-06-16T13:11:02+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shunk031.me/tags/</loc>
-    <lastmod>2024-06-16T13:11:02+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/categories/</loc>
-    <lastmod>2024-06-16T12:45:35+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/tag/news/</loc>
-    <lastmod>2024-06-15T10:53:34+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/category/news/</loc>
-    <lastmod>2024-06-15T10:53:34+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/news/</loc>
-    <lastmod>2024-06-15T10:53:34+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shunk031.me/news/ssii2024-techmap/</loc>
     <lastmod>2024-06-15T10:53:34+09:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -66,10 +118,6 @@
     <lastmod>2024-03-19T20:02:29+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shunk031.me/tag/international-conference/</loc>
-    <lastmod>2024-06-16T12:45:35+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shunk031.me/publication/nemoto2024majority/</loc>
     <lastmod>2024-03-19T20:02:29+09:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -84,14 +132,6 @@
   </url><url>
     <loc>https://shunk031.me/tag/oral-presentation/</loc>
     <lastmod>2024-03-19T20:02:29+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/publication-type/paper-conference/</loc>
-    <lastmod>2024-06-16T12:45:35+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/publication_types/</loc>
-    <lastmod>2024-06-16T12:45:35+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/tag/referred/</loc>
@@ -262,10 +302,6 @@
     <lastmod>2024-01-01T12:28:35+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shunk031.me/tag/international-publication/</loc>
-    <lastmod>2024-06-16T12:45:35+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shunk031.me/tag/multi-modal-model/</loc>
     <lastmod>2024-01-01T12:28:35+09:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -352,10 +388,6 @@
   </url><url>
     <loc>https://shunk031.me/authors/ohata-kazuya/</loc>
     <lastmod>2024-01-01T12:28:35+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/tag/refereed/</loc>
-    <lastmod>2024-06-16T12:45:35+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/news/acceptance-to-honet2022/</loc>

@@ -5,12 +5,20 @@
     <link>https://shunk031.me/tag/international-publication/</link>
       <atom:link href="https://shunk031.me/tag/international-publication/index.xml" rel="self" type="application/rss+xml" />
     <description>International Publication</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 14 Nov 2022 00:00:00 +0900</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jul 2024 08:00:00 +0000</lastBuildDate>
     <image>
       <url>https://shunk031.me/media/sharing.png</url>
       <title>International Publication</title>
       <link>https://shunk031.me/tag/international-publication/</link>
     </image>
+    
+    <item>
+      <title>Layout-Corrector: Alleviating Layout Sticking Phenomenon in Discrete Diffusion Model</title>
+      <link>https://shunk031.me/publication/iwai2024layout/</link>
+      <pubDate>Mon, 01 Jul 2024 08:00:00 +0000</pubDate>
+      <guid>https://shunk031.me/publication/iwai2024layout/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>DM$^2$S$^2$: Deep Multi-Modal Sequence Sets with Hierarchical Modality Attention</title>

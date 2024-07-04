@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Layout Generation | shunk031.me</title>
+    <link>https://shunk031.me/tag/layout-generation/</link>
+      <atom:link href="https://shunk031.me/tag/layout-generation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Layout Generation</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jul 2024 08:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://shunk031.me/media/sharing.png</url>
+      <title>Layout Generation</title>
+      <link>https://shunk031.me/tag/layout-generation/</link>
+    </image>
+    
+    <item>
+      <title>Layout-Corrector: Alleviating Layout Sticking Phenomenon in Discrete Diffusion Model</title>
+      <link>https://shunk031.me/publication/iwai2024layout/</link>
+      <pubDate>Mon, 01 Jul 2024 08:00:00 +0000</pubDate>
+      <guid>https://shunk031.me/publication/iwai2024layout/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
