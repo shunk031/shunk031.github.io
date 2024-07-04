@@ -31,3 +31,5 @@ projects: []
 The following paper has been accepted to the [ECCV2024](https://eccv.ecva.net/Conferences/2024).
 
 - Shoma Iwai, Atsuki Osanai, Shunsuke Kitada, and Shinichiro Omachi. ["Layout-Corrector: Alleviating Layout Sticking Phenomenon in Discrete Diffusion Model"](/publication/iwai2024layout).
+
+{{< blogcard url="https://research.lycorp.co.jp/en/news/250" >}}
