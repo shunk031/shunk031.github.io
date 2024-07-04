@@ -22,7 +22,7 @@ organizations:
   - name: Kioi Tower 1-3 Kioicho, Chiyoda-ku, Tokyo, 102-8282, Japan
     url: "https://www.lycorp.co.jp/en/company/overview/"
   - name: Project Researcher @ Hosei University
-    url: "https://www.hosei.ac.jp/english/admissions/graduate/jbdp/science_engineering/applied_informatics/"
+    url: "https://ai.ws.hosei.ac.jp/wp/"
   - name: S603, 3-7-2, Kajino-cho, Koganei-shi, Tokyo 184-8584, Japan
   - name: Intelligent information processing laboratory
     url: "https://iyatomi-lab.info/english-top"

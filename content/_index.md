@@ -208,7 +208,7 @@ sections:
 
         - title: Fundamental Information Technology Engineer
           company: Information-technology Promotion Agency, Japan
-          company_url: 'https://www.jitec.ipa.go.jp/index-e.html'
+          company_url: 'https://www.ipa.go.jp/en/index.html'
           date_start: '2016-06-01'
           date_end: ''
           description: |2-
