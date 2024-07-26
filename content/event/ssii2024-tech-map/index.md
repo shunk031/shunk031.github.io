@@ -49,7 +49,7 @@ links:
 url_slides:
 
 url_code:
-url_pdf:
+url_pdf: https://ssii.jp/ssii/files/2024/technology_map/SSII2024_map_CV.pdf
 url_video:
 
 # Markdown Slides (optional).
