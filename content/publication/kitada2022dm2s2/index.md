@@ -27,7 +27,7 @@ There is increasing interest in the use of multimodal data in various web applic
 # Summary. An optional shortened abstract.
 summary: "IEEE Access (**Impact Factor: 3.476** in 2021; [1st place in Engineering & Computer Science (general) at Google Scholar Metrics](https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_enggeneral))"
 
-tags: ["Journal", "International Publication", "Multi-modal model", "Vision & Language", "Referred", "Open Access", "IEEE"]
+tags: ["Journal", "International Publication", "Multi-modal model", "Vision & Language", "Referred", "Open Access", "CyberAgent", "IEEE"]
 categories: ["Multi-modal model", "Vision & Language", "Natural Language Processing", "Attention Mechanisms"]
 featured: false
 
