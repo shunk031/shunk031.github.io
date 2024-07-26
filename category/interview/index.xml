@@ -5,12 +5,26 @@
     <link>https://shunk031.me/category/interview/</link>
       <atom:link href="https://shunk031.me/category/interview/index.xml" rel="self" type="application/rss+xml" />
     <description>Interview</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 16 May 2022 21:30:22 +0900</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 23 Jul 2024 10:10:00 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.me/media/sharing.png</url>
       <title>Interview</title>
       <link>https://shunk031.me/category/interview/</link>
     </image>
+    
+    <item>
+      <title>新卒社員の仕事紹介 画像生成の研究開発に携わるリサーチサイエンティスト編</title>
+      <link>https://shunk031.me/post/ly-new-grad-job-introduction/</link>
+      <pubDate>Tue, 23 Jul 2024 10:10:00 +0900</pubDate>
+      <guid>https://shunk031.me/post/ly-new-grad-job-introduction/</guid>
+      <description>&lt;div class=&#34;blogcard&#34;&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fnote.com%2flycorp_recruit%2fn%2fn9d83d9ef243e&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
+        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
     
     <item>
       <title>法政大学大学院入学案内 2023 - 学生・修了生の声</title>
