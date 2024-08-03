@@ -23,7 +23,7 @@ all_day: false
 # Schedule page publish date (NOT event date).
 publishDate: 2024-01-17T11:37:51+09:00
 
-authors: [Shunsuke Kitada""]
+authors: ["Shunsuke Kitada"]
 tags: ["Paper Reading", "CTR prediction"]
 
 # Is this a featured event? (true/false)
