@@ -2,6 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://shunk031.me/tag/layout-generation/</loc>
+    <lastmod>2024-08-03T23:24:54+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/paper-reading/</loc>
+    <lastmod>2024-08-03T23:24:54+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/poster-generation/</loc>
+    <lastmod>2024-08-03T23:24:54+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tags/</loc>
+    <lastmod>2024-08-03T23:24:54+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/talk/visual-layout-composer-image-vector-dual-diffusion-model-for-design-layout-generation-cvpr24/</loc>
+    <lastmod>2024-08-03T23:24:54+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://shunk031.me/categories/</loc>
     <lastmod>2024-07-26T14:04:43+09:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -18,10 +38,6 @@
     <lastmod>2024-07-26T14:04:43+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shunk031.me/tags/</loc>
-    <lastmod>2024-07-26T14:04:43+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shunk031.me/post/ly-new-grad-job-introduction/</loc>
     <lastmod>2024-07-26T14:04:43+09:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -31,7 +47,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/authors/atsuki-osanai/</loc>
-    <lastmod>2024-07-26T14:04:43+09:00</lastmod>
+    <lastmod>2024-08-03T23:24:54+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/category/creative-graphic-design/</loc>
@@ -47,10 +63,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/tag/international-publication/</loc>
-    <lastmod>2024-07-26T14:04:43+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/tag/layout-generation/</loc>
     <lastmod>2024-07-26T14:04:43+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -99,23 +111,23 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/tag/invited-talk/</loc>
-    <lastmod>2024-07-26T14:04:43+09:00</lastmod>
+    <lastmod>2024-08-03T23:24:54+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/authors/kenji-doi/</loc>
-    <lastmod>2024-07-26T14:04:43+09:00</lastmod>
+    <lastmod>2024-08-03T23:24:54+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/authors/nghia-truong/</loc>
-    <lastmod>2024-07-26T14:04:43+09:00</lastmod>
+    <lastmod>2024-08-03T23:24:54+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/authors/ryota-yoshihashi/</loc>
-    <lastmod>2024-07-26T14:04:43+09:00</lastmod>
+    <lastmod>2024-08-03T23:24:54+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shunk031.me/talk/ssii2024-technical-map-creative-design-generation/</loc>
-    <lastmod>2024-07-26T14:04:43+09:00</lastmod>
+    <loc>https://shunk031.me/talk/ssii2024-technical-map-creative-design-generation-ssii24/</loc>
+    <lastmod>2024-08-03T23:24:54+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/news/ssii2024-techmap/</loc>
@@ -158,16 +170,12 @@
     <lastmod>2024-07-26T14:04:43+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shunk031.me/talk/bert4ctr-an-efficient-framework-to-combine-pre-trained-language-model-with-non-textual-features-for-ctr-prediction/</loc>
-    <lastmod>2024-01-18T00:32:30+09:00</lastmod>
+    <loc>https://shunk031.me/talk/bert4ctr-an-efficient-framework-to-combine-pre-trained-language-model-with-non-textual-features-for-ctr-prediction-kdd23/</loc>
+    <lastmod>2024-08-03T23:24:54+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/tag/ctr-prediction/</loc>
-    <lastmod>2024-01-18T00:32:30+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/tag/paper-reading/</loc>
-    <lastmod>2024-01-18T00:32:30+09:00</lastmod>
+    <lastmod>2024-08-03T23:24:54+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/publication-type/article-journal/</loc>

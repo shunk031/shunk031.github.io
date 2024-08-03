@@ -5,7 +5,7 @@
     <link>https://shunk031.me/tag/paper-reading/</link>
       <atom:link href="https://shunk031.me/tag/paper-reading/index.xml" rel="self" type="application/rss+xml" />
     <description>Paper Reading</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 17 Jan 2024 19:25:00 +0900</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 03 Aug 2024 15:40:00 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.me/media/sharing.png</url>
       <title>Paper Reading</title>
@@ -13,10 +13,27 @@
     </image>
     
     <item>
-      <title>BERT4CTR: An Efficient Framework to Combine Pre-trained Language Model with Non-textual Features for CTR Prediction</title>
-      <link>https://shunk031.me/talk/bert4ctr-an-efficient-framework-to-combine-pre-trained-language-model-with-non-textual-features-for-ctr-prediction/</link>
+      <title>Visual Layout Composer: Image-Vector Dual Diffusion Model for Design Layout Generation (CVPR&#39;24)</title>
+      <link>https://shunk031.me/talk/visual-layout-composer-image-vector-dual-diffusion-model-for-design-layout-generation-cvpr24/</link>
+      <pubDate>Sat, 03 Aug 2024 15:40:00 +0900</pubDate>
+      <guid>https://shunk031.me/talk/visual-layout-composer-image-vector-dual-diffusion-model-for-design-layout-generation-cvpr24/</guid>
+      <description>&lt;h1 id=&#34;第61回-コンピュータビジョン勉強会関東後編&#34;&gt;第61回 コンピュータビジョン勉強会＠関東（後編）&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;目的：
+2024年の6月17日～21日にかけて開催されるコンピュータビジョンのトップカンファレンスの一つである 「Conference on Computer Vision and Pattern Recognition (CVPR) 2024」の論文読み会(後編)です。&lt;/p&gt;
+&lt;p&gt;前編は7/7(日)に開催予定です。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://kantocv.connpass.com/event/321174/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://kantocv.connpass.com/event/321174/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;資料---slides&#34;&gt;資料 - Slides&lt;/h2&gt;
+&lt;script defer class=&#34;speakerdeck-embed&#34; data-id=&#34;d3dae0c879b9473b91603ea44c68314e&#34; data-ratio=&#34;1.7772511848341233&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>BERT4CTR: An Efficient Framework to Combine Pre-trained Language Model with Non-textual Features for CTR Prediction (KDD&#39;23)</title>
+      <link>https://shunk031.me/talk/bert4ctr-an-efficient-framework-to-combine-pre-trained-language-model-with-non-textual-features-for-ctr-prediction-kdd23/</link>
       <pubDate>Wed, 17 Jan 2024 19:25:00 +0900</pubDate>
-      <guid>https://shunk031.me/talk/bert4ctr-an-efficient-framework-to-combine-pre-trained-language-model-with-non-textual-features-for-ctr-prediction/</guid>
+      <guid>https://shunk031.me/talk/bert4ctr-an-efficient-framework-to-combine-pre-trained-language-model-with-non-textual-features-for-ctr-prediction-kdd23/</guid>
       <description>&lt;h1 id=&#34;kdd2023-論文読み会オンライン開催&#34;&gt;KDD2023 論文読み会（オンライン開催）&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;概要 2023年8月に開催されたデータマイニング関連の国際学術会議、&lt;a href=&#34;https://kdd.org/kdd2023/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;KDD2023&lt;/a&gt;に(29th ACM SIGKDD Conference on Knowledge Discovery &amp;amp; Data Mining) で発表された論文の読み会です。

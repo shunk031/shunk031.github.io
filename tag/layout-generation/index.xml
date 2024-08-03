@@ -5,12 +5,29 @@
     <link>https://shunk031.me/tag/layout-generation/</link>
       <atom:link href="https://shunk031.me/tag/layout-generation/index.xml" rel="self" type="application/rss+xml" />
     <description>Layout Generation</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jul 2024 08:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 03 Aug 2024 15:40:00 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.me/media/sharing.png</url>
       <title>Layout Generation</title>
       <link>https://shunk031.me/tag/layout-generation/</link>
     </image>
+    
+    <item>
+      <title>Visual Layout Composer: Image-Vector Dual Diffusion Model for Design Layout Generation (CVPR&#39;24)</title>
+      <link>https://shunk031.me/talk/visual-layout-composer-image-vector-dual-diffusion-model-for-design-layout-generation-cvpr24/</link>
+      <pubDate>Sat, 03 Aug 2024 15:40:00 +0900</pubDate>
+      <guid>https://shunk031.me/talk/visual-layout-composer-image-vector-dual-diffusion-model-for-design-layout-generation-cvpr24/</guid>
+      <description>&lt;h1 id=&#34;第61回-コンピュータビジョン勉強会関東後編&#34;&gt;第61回 コンピュータビジョン勉強会＠関東（後編）&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;目的：
+2024年の6月17日～21日にかけて開催されるコンピュータビジョンのトップカンファレンスの一つである 「Conference on Computer Vision and Pattern Recognition (CVPR) 2024」の論文読み会(後編)です。&lt;/p&gt;
+&lt;p&gt;前編は7/7(日)に開催予定です。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://kantocv.connpass.com/event/321174/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://kantocv.connpass.com/event/321174/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;資料---slides&#34;&gt;資料 - Slides&lt;/h2&gt;
+&lt;script defer class=&#34;speakerdeck-embed&#34; data-id=&#34;d3dae0c879b9473b91603ea44c68314e&#34; data-ratio=&#34;1.7772511848341233&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
     
     <item>
       <title>Layout-Corrector: Alleviating Layout Sticking Phenomenon in Discrete Diffusion Model</title>
