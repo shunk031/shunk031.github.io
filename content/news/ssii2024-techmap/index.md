@@ -32,4 +32,4 @@ Our team provided and published the following technical map at [SSII2024 session
 - 🌐 https://bit.ly/ssii2024-techmap-creative-design-map
 - 📃 https://bit.ly/ssii2024-techmap-creative-design-sheet
 
-See [this post](/talk/ssii2024-technical-map-creative-design-generation/) for more details.
+See [this post](/talk/ssii2024-technical-map-creative-design-generation-ssii24/) for more details.
