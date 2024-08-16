@@ -6,7 +6,7 @@ title: 北田 俊輔
 superuser: true
 
 # Role/position
-role: 深層学習による Vision & Language を研究するリサーチサイエンティスト
+role: Research Scientist working on Vision & Language with Deep Learning
 
 # Organizations/Affiliations
 organizations:
@@ -20,13 +20,13 @@ organizations:
   url: "https://iyatomi-lab.info/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: 研究テーマは、ディープラーニングを用いた自然言語処理、コンピュータビジョン、医療画像処理、計算広告などです
+bio: My research interests include deep learning-based natural language processing, computer vision, medical image processing, and computational advertising.
 
 interests:
-- 🤖 Natural Language Processing
-- 💻 Computer Vision
-- 🏥 Medical Image Processing
-- 📃 Computational Advertising
+- 🤖 自然言語処理
+- 💻 コンピュータビジョン
+- 🏥 医療画像処理
+- 📃 計算機広告
 
 education:
   courses:
