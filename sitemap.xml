@@ -2,6 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://shunk031.me/publication-type/article/</loc>
+    <lastmod>2024-08-16T10:26:42+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/categories/</loc>
+    <lastmod>2024-08-16T10:26:42+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/category/computer-vision/</loc>
+    <lastmod>2024-08-16T10:26:42+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/domestic-conference/</loc>
+    <lastmod>2024-08-16T10:26:42+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/category/layout-generation/</loc>
+    <lastmod>2024-08-16T10:26:42+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/miru/</loc>
+    <lastmod>2024-08-16T10:26:42+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/non-refereed/</loc>
+    <lastmod>2024-08-16T10:26:42+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/publication_types/</loc>
+    <lastmod>2024-08-16T10:26:42+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tags/</loc>
+    <lastmod>2024-08-16T10:26:42+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/authors/%E5%8C%97%E7%94%B0-%E4%BF%8A%E8%BC%94/</loc>
+    <lastmod>2024-08-16T10:26:42+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/authors/%E5%A4%A7%E7%94%BA-%E7%9C%9F%E4%B8%80%E9%83%8E/</loc>
+    <lastmod>2024-08-16T10:26:42+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/authors/%E5%B2%A9%E4%BA%95-%E7%BF%94%E7%9C%9F/</loc>
+    <lastmod>2024-08-16T10:26:42+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/authors/%E9%95%B7%E5%86%85-%E6%B7%B3%E6%A8%B9/</loc>
+    <lastmod>2024-08-16T10:26:42+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/publication/iwai2024miru/</loc>
+    <lastmod>2024-08-16T10:26:42+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://shunk031.me/tag/layout-generation/</loc>
     <lastmod>2024-08-03T23:24:54+09:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -14,16 +70,8 @@
     <lastmod>2024-08-03T23:24:54+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shunk031.me/tags/</loc>
-    <lastmod>2024-08-04T12:13:13+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shunk031.me/talk/visual-layout-composer-image-vector-dual-diffusion-model-for-design-layout-generation-cvpr24/</loc>
     <lastmod>2024-08-03T23:24:54+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/categories/</loc>
-    <lastmod>2024-08-04T12:13:13+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/tag/interview/</loc>
@@ -66,10 +114,6 @@
     <lastmod>2024-07-26T14:04:43+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shunk031.me/category/layout-generation/</loc>
-    <lastmod>2024-07-26T14:04:43+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shunk031.me/publication/iwai2024layout/</loc>
     <lastmod>2024-07-26T14:04:43+09:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -87,10 +131,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/publication-type/paper-conference/</loc>
-    <lastmod>2024-07-26T14:04:43+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/publication_types/</loc>
     <lastmod>2024-07-26T14:04:43+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -274,27 +314,11 @@
     <lastmod>2024-06-16T12:45:35+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shunk031.me/publication-type/article/</loc>
-    <lastmod>2024-06-16T12:45:35+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/tag/domestic-conference/</loc>
-    <lastmod>2024-06-16T12:45:35+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shunk031.me/publication/nemoto2023nlp/</loc>
     <lastmod>2024-01-01T12:28:35+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/tag/natural-language-processing/</loc>
-    <lastmod>2024-06-16T12:45:35+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/tag/non-refereed/</loc>
-    <lastmod>2024-06-16T12:45:35+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/authors/%E5%8C%97%E7%94%B0-%E4%BF%8A%E8%BC%94/</loc>
     <lastmod>2024-06-16T12:45:35+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>

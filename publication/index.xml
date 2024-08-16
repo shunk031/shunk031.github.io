@@ -13,6 +13,15 @@
     </image>
     
     <item>
+      <title>離散拡散モデルにおけるレイアウトの“固着”を緩和する Layout-Corrector の提案</title>
+      <link>https://shunk031.me/publication/iwai2024miru/</link>
+      <pubDate>Wed, 07 Aug 2024 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/iwai2024miru/</guid>
+      <description>&lt;script defer class=&#34;speakerdeck-embed&#34; data-id=&#34;8bb80d8e9bc844bdba24f7fd391171d1&#34; data-ratio=&#34;1.7777777777777777&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Layout-Corrector: Alleviating Layout Sticking Phenomenon in Discrete Diffusion Model</title>
       <link>https://shunk031.me/publication/iwai2024layout/</link>
       <pubDate>Mon, 01 Jul 2024 08:00:00 +0000</pubDate>

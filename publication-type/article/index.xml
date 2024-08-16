@@ -5,12 +5,21 @@
     <link>https://shunk031.me/publication-type/article/</link>
       <atom:link href="https://shunk031.me/publication-type/article/index.xml" rel="self" type="application/rss+xml" />
     <description>article</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 15 Mar 2023 09:40:00 +0900</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 07 Aug 2024 00:00:00 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.me/media/sharing.png</url>
       <title>article</title>
       <link>https://shunk031.me/publication-type/article/</link>
     </image>
+    
+    <item>
+      <title>離散拡散モデルにおけるレイアウトの“固着”を緩和する Layout-Corrector の提案</title>
+      <link>https://shunk031.me/publication/iwai2024miru/</link>
+      <pubDate>Wed, 07 Aug 2024 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/iwai2024miru/</guid>
+      <description>&lt;script defer class=&#34;speakerdeck-embed&#34; data-id=&#34;8bb80d8e9bc844bdba24f7fd391171d1&#34; data-ratio=&#34;1.7777777777777777&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
     
     <item>
       <title>Majority or Minority: 固有表現抽出におけるデータの不均衡性に着目した損失関数の提案</title>
