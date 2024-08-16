@@ -66,3 +66,5 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
+
+<script defer class="speakerdeck-embed" data-id="8bb80d8e9bc844bdba24f7fd391171d1" data-ratio="1.7777777777777777" src="//speakerdeck.com/assets/embed.js"></script>
