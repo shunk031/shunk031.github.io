@@ -37,3 +37,10 @@ ifeq ($(name),)
 	$(error name for the event is not set: make event name=EVENT-TALK-NAME)
 endif
 	hugo new --kind event event/$(name)
+
+.PHONY : ogp-image
+ogp-image:
+ifeq ($(name),)
+	$(error name for the OGP image is not set: make ogp-image name=PUBLICATION-NAME)
+endif
+	./scripts/generate_ogp_image_for_publication.sh $(name)

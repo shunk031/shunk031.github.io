@@ -62,7 +62,7 @@ $ convert paper.pdf[0] -resize 640x640^ -crop 640x480+0+0 -alpha remove featured
 ### Generate OGP image for the publication
 
 ```sh
-$ ./scripts/generate_ogp_image_for_publication.sh kitada20XXconf
+make ogp-image name="kitada20XXconf"
 
 # Load fonts from "assets/fonts/"
 # Load template from "assets/ogp/tcardgen-template.png" directory
