@@ -5,12 +5,28 @@
     <link>https://shunk031.me/category/natural-language-processing/</link>
       <atom:link href="https://shunk031.me/category/natural-language-processing/index.xml" rel="self" type="application/rss+xml" />
     <description>Natural Language Processing</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 25 Jan 2024 23:20:23 +0900</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 05 Sep 2024 17:50:00 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.me/media/sharing.png</url>
       <title>Natural Language Processing</title>
       <link>https://shunk031.me/category/natural-language-processing/</link>
     </image>
+    
+    <item>
+      <title>大規模言語モデルを用いたオノマトペ付与による日本語音声データセットの拡張</title>
+      <link>https://shunk031.me/publication/ogawa2024yans/</link>
+      <pubDate>Thu, 05 Sep 2024 17:50:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/ogawa2024yans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>学術論文におけるGraphical Abstract自動生成の初期検討</title>
+      <link>https://shunk031.me/publication/kawada2024yans/</link>
+      <pubDate>Thu, 05 Sep 2024 17:50:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/kawada2024yans/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Majority or Minority: Data Imbalance Learning Method for Named Entity Recognition</title>

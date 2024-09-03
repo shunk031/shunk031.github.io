@@ -5,12 +5,36 @@
     <link>https://shunk031.me/authors/%E6%A0%B9%E6%9C%AC-%E9%A2%AF%E6%B1%B0/</link>
       <atom:link href="https://shunk031.me/authors/%E6%A0%B9%E6%9C%AC-%E9%A2%AF%E6%B1%B0/index.xml" rel="self" type="application/rss+xml" />
     <description>根本 颯汰</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 15 Mar 2023 09:40:00 +0900</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 05 Sep 2024 17:50:00 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.me/media/sharing.png</url>
       <title>根本 颯汰</title>
       <link>https://shunk031.me/authors/%E6%A0%B9%E6%9C%AC-%E9%A2%AF%E6%B1%B0/</link>
     </image>
+    
+    <item>
+      <title>大規模言語モデルを用いたオノマトペ付与による日本語音声データセットの拡張</title>
+      <link>https://shunk031.me/publication/ogawa2024yans/</link>
+      <pubDate>Thu, 05 Sep 2024 17:50:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/ogawa2024yans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>学術論文におけるGraphical Abstract自動生成の初期検討</title>
+      <link>https://shunk031.me/publication/kawada2024yans/</link>
+      <pubDate>Thu, 05 Sep 2024 17:50:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/kawada2024yans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>潜在拡散モデルにおけるプロンプトを用いた配色制御の試み</title>
+      <link>https://shunk031.me/publication/nagai2024yans/</link>
+      <pubDate>Thu, 05 Sep 2024 17:50:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/nagai2024yans/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Majority or Minority: 固有表現抽出におけるデータの不均衡性に着目した損失関数の提案</title>

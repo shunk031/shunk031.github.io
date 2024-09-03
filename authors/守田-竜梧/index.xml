@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>守田 竜梧 | shunk031.me</title>
+    <link>https://shunk031.me/authors/%E5%AE%88%E7%94%B0-%E7%AB%9C%E6%A2%A7/</link>
+      <atom:link href="https://shunk031.me/authors/%E5%AE%88%E7%94%B0-%E7%AB%9C%E6%A2%A7/index.xml" rel="self" type="application/rss+xml" />
+    <description>守田 竜梧</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 05 Sep 2024 17:50:00 +0900</lastBuildDate>
+    <image>
+      <url>https://shunk031.me/media/sharing.png</url>
+      <title>守田 竜梧</title>
+      <link>https://shunk031.me/authors/%E5%AE%88%E7%94%B0-%E7%AB%9C%E6%A2%A7/</link>
+    </image>
+    
+    <item>
+      <title>text-to-image 拡散モデルにおける誘導 attention map を用いた画像生成手法の提案</title>
+      <link>https://shunk031.me/publication/mizuguchi2024yans/</link>
+      <pubDate>Thu, 05 Sep 2024 17:50:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/mizuguchi2024yans/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

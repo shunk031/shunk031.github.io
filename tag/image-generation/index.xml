@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Image Generation | shunk031.me</title>
+    <link>https://shunk031.me/tag/image-generation/</link>
+      <atom:link href="https://shunk031.me/tag/image-generation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Image Generation</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 05 Sep 2024 17:50:00 +0900</lastBuildDate>
+    <image>
+      <url>https://shunk031.me/media/sharing.png</url>
+      <title>Image Generation</title>
+      <link>https://shunk031.me/tag/image-generation/</link>
+    </image>
+    
+    <item>
+      <title>text-to-image 拡散モデルにおける誘導 attention map を用いた画像生成手法の提案</title>
+      <link>https://shunk031.me/publication/mizuguchi2024yans/</link>
+      <pubDate>Thu, 05 Sep 2024 17:50:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/mizuguchi2024yans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>潜在拡散モデルにおけるプロンプトを用いた配色制御の試み</title>
+      <link>https://shunk031.me/publication/nagai2024yans/</link>
+      <pubDate>Thu, 05 Sep 2024 17:50:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/nagai2024yans/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

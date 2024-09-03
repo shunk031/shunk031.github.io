@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI for Science | shunk031.me</title>
+    <link>https://shunk031.me/category/ai-for-science/</link>
+      <atom:link href="https://shunk031.me/category/ai-for-science/index.xml" rel="self" type="application/rss+xml" />
+    <description>AI for Science</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 05 Sep 2024 17:50:00 +0900</lastBuildDate>
+    <image>
+      <url>https://shunk031.me/media/sharing.png</url>
+      <title>AI for Science</title>
+      <link>https://shunk031.me/category/ai-for-science/</link>
+    </image>
+    
+    <item>
+      <title>学術論文におけるGraphical Abstract自動生成の初期検討</title>
+      <link>https://shunk031.me/publication/kawada2024yans/</link>
+      <pubDate>Thu, 05 Sep 2024 17:50:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/kawada2024yans/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
