@@ -36,6 +36,8 @@ links:
   url: https://arxiv.org/abs/2401.11431
   icon_pack: ai
   icon: arxiv
+- name: PML4LRS@ICLR 2024 Program
+  url: https://pml4dc.github.io/iclr2024/program.html#:~:text=Contributed%20Talk9%3A,SOTA%20NEMOTO
 
 url_pdf:
 url_code:
