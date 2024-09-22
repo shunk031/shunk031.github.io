@@ -31,11 +31,9 @@ featured: true
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
-# links:
-# - name: Follow
-#   url: https://twitter.com
-#   icon_pack: fab
-#   icon: twitter
+links:
+- name: ECCV2024
+  url: https://eccv.ecva.net/virtual/2024/poster/1683
 
 url_pdf:
 url_code:
