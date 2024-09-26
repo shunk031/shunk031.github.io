@@ -20,10 +20,10 @@ publication_types: ["paper-conference"]
 publication: "Proc. of the European Conference on Computer Vision. 2024."
 publication_short: "ECCV2024"
 
-abstract: "Layout generation is a task to synthesize a harmonious layout with elements characterized by attributes such as category, position, and size. Human designers experiment with the placement and modification of elements to create aesthetic layouts, however, we observed that current discrete diffusion models (DDMs) struggle to correct inharmonious layouts after they have been generated. In this paper, we first provide novel insights into layout sticking phenomenon in DDMs and then propose a simple yet effective layout-assessment module Layout-Corrector, which works in conjunction with existing DDMs to address the layout sticking problem. We present a learning-based module capable of identifying inharmonious elements within layouts, considering overall layout harmony characterized by complex composition. During the generation process, Layout-Corrector evaluates the correctness of each token in the generated layout, reinitializing those with low scores to the ungenerated state. The DDM then uses the high-scored tokens as clues to regenerate the harmonized tokens. Layout-Corrector, tested on common benchmarks, consistently boosts layout-generation performance when in conjunction with various state-of-the-art DDMs. Furthermore, our extensive analysis demonstrates that the Layout-Corrector (1) successfully identifies erroneous tokens, (2) acilitates control over the fidelity-diversity trade-off, and (3) significantly mitigates the performance drop associated with fast sampling"
+abstract: "Layout generation is a task to synthesize a harmonious layout with elements characterized by attributes such as category, position, and size. Human designers experiment with the placement and modification of elements to create aesthetic layouts, however, we observed that current discrete diffusion models (DDMs) struggle to correct inharmonious layouts after they have been generated. In this paper, we first provide novel insights into layout sticking phenomenon in DDMs and then propose a simple yet effective layout-assessment module Layout-Corrector, which works in conjunction with existing DDMs to address the layout sticking problem. We present a learning-based module capable of identifying inharmonious elements within layouts, considering overall layout harmony characterized by complex composition. During the generation process, Layout-Corrector evaluates the correctness of each token in the generated layout, reinitializing those with low scores to the ungenerated state. The DDM then uses the high-scored tokens as clues to regenerate the harmonized tokens. Layout-Corrector, tested on common benchmarks, consistently boosts layout-generation performance when in conjunction with various state-of-the-art DDMs. Furthermore, our extensive analysis demonstrates that the Layout-Corrector (1) successfully identifies erroneous tokens, (2) acilitates control over the fidelity-diversity trade-off, and (3) significantly mitigates the performance drop associated with fast sampling."
 
 # Summary. An optional shortened abstract.
-summary: "Proc. of the European Conference on Computer Vision (ECCV2024). (**Acceptance rate = ??%**)"
+summary: "Proc. of the European Conference on Computer Vision (ECCV2024). (**Acceptance rate = 27.9%**)"
 
 tags: ["International Conference", "Refereed", "Layout Generation", "Discrete Diffusion Model", "LYCorp", "International Publication", "Springer"]
 categories: ["Layout Generation", "Creative Graphic Design"]
@@ -31,20 +31,26 @@ featured: true
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
-# links:
-# - name: Follow
-#   url: https://twitter.com
-#   icon_pack: fab
-#   icon: twitter
+links:
+- name: Preprint
+  url: https://arxiv.org/abs/2409.16689 
+  icon_pack: ai
+  icon: arxiv
+- name: ECCV2024
+  url: https://eccv.ecva.net/virtual/2024/poster/1683
+- name: ECVA
+  url: https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/4969_ECCV_2024_paper.php
+
+
 
 url_pdf:
 url_code:
 url_dataset:
 url_poster:
-url_project:
+url_project: https://iwa-shi.github.io/Layout-Corrector-Project-Page/
 url_slides:
 url_source:
-url_video:
+url_video: https://youtu.be/rk1G8GrlO3g
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
@@ -52,7 +58,7 @@ url_video:
 image:
   caption: ""
   focal_point: ""
-  preview_only: false
+  preview_only: true
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
