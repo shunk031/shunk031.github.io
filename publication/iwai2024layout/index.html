@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: September 10, 2024 --><html lang="en-us" >
+<!-- Last Published: September 26, 2024 --><html lang="en-us" >
 
 
 <head>
@@ -322,7 +322,7 @@
 
   
 
-<meta name="description" content="Proc. of the European Conference on Computer Vision (ECCV2024). (**Acceptance rate = ??%**)" />
+<meta name="description" content="Proc. of the European Conference on Computer Vision (ECCV2024). (**Acceptance rate = 27.9%**)" />
 
 
 
@@ -370,7 +370,7 @@
 <meta property="og:site_name" content="shunk031.me" />
 <meta property="og:url" content="https://shunk031.me/publication/iwai2024layout/" />
 <meta property="og:title" content="Layout-Corrector: Alleviating Layout Sticking Phenomenon in Discrete Diffusion Model | shunk031.me" />
-<meta property="og:description" content="Proc. of the European Conference on Computer Vision (ECCV2024). (**Acceptance rate = ??%**)" /><meta property="og:image" content="https://shunk031.me/publication/iwai2024layout/featured.png" /><meta property="og:locale" content="en-us" />
+<meta property="og:description" content="Proc. of the European Conference on Computer Vision (ECCV2024). (**Acceptance rate = 27.9%**)" /><meta property="og:image" content="https://shunk031.me/publication/iwai2024layout/featured.png" /><meta property="og:locale" content="en-us" />
 
   
     <meta
@@ -379,7 +379,7 @@
     />
   
   
-    <meta property="article:modified_time" content="2024-07-26T14:04:43&#43;09:00">
+    <meta property="article:modified_time" content="2024-09-26T11:12:23&#43;09:00">
   
 
 
@@ -412,7 +412,7 @@
   ],
   
   "datePublished": "2024-07-01T08:00:00Z",
-  "dateModified": "2024-07-26T14:04:43+09:00",
+  "dateModified": "2024-09-26T11:12:23+09:00",
   
   "author": {
     "@type": "Person",
@@ -427,7 +427,7 @@
       "url": "https://shunk031.me/media/icon_hu06ed799d678ae2ee6bfcbc445342ee27_77196_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "Proc. of the European Conference on Computer Vision (ECCV2024). (**Acceptance rate = ??%**)"
+  "description": "Proc. of the European Conference on Computer Vision (ECCV2024). (**Acceptance rate = 27.9%**)"
 }
 </script>
 
@@ -893,26 +893,18 @@
 
 
 
-
-
-
-
-
-
-
-
+  
 
   
   
-
-
-
+  
 <div class="article-container pt-3">
   <h1>Layout-Corrector: Alleviating Layout Sticking Phenomenon in Discrete Diffusion Model</h1>
 
   
 
   
+    
 
 
 <div class="article-metadata">
@@ -961,20 +953,98 @@
 
 </div>
 
+    
+
+
+
+
+<div class="btn-links mb-3">
+  
   
 
 
 
 
 
+
+
+
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header" href="https://iwa-shi.github.io/Layout-Corrector-Project-Page/" target="_blank" rel="noopener">
+  Project
+</a>
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="https://youtu.be/rk1G8GrlO3g" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://arxiv.org/abs/2409.16689" target="_blank" rel="noopener">
+    <i class="ai ai-arxiv mr-1"></i>Preprint</a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://eccv.ecva.net/virtual/2024/poster/1683" target="_blank" rel="noopener">
+    ECCV2024</a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/4969_ECCV_2024_paper.php" target="_blank" rel="noopener">
+    ECVA</a>
+
+
 </div>
 
 
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 640px; max-height: 480px;">
-  <div style="position: relative">
-    <img src="/publication/iwai2024layout/featured_hu71a42c9f4a6faddb24470cde934a8f4d_417937_822c547e8ddecaa7d440b8ea57f39bde.webp" width="640" height="480" alt="" class="featured-image">
-    
-  </div>
+  
 </div>
 
 
@@ -983,7 +1053,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Layout generation is a task to synthesize a harmonious layout with elements characterized by attributes such as category, position, and size. Human designers experiment with the placement and modification of elements to create aesthetic layouts, however, we observed that current discrete diffusion models (DDMs) struggle to correct inharmonious layouts after they have been generated. In this paper, we first provide novel insights into layout sticking phenomenon in DDMs and then propose a simple yet effective layout-assessment module Layout-Corrector, which works in conjunction with existing DDMs to address the layout sticking problem. We present a learning-based module capable of identifying inharmonious elements within layouts, considering overall layout harmony characterized by complex composition. During the generation process, Layout-Corrector evaluates the correctness of each token in the generated layout, reinitializing those with low scores to the ungenerated state. The DDM then uses the high-scored tokens as clues to regenerate the harmonized tokens. Layout-Corrector, tested on common benchmarks, consistently boosts layout-generation performance when in conjunction with various state-of-the-art DDMs. Furthermore, our extensive analysis demonstrates that the Layout-Corrector (1) successfully identifies erroneous tokens, (2) acilitates control over the fidelity-diversity trade-off, and (3) significantly mitigates the performance drop associated with fast sampling</p>
+    <p class="pub-abstract">Layout generation is a task to synthesize a harmonious layout with elements characterized by attributes such as category, position, and size. Human designers experiment with the placement and modification of elements to create aesthetic layouts, however, we observed that current discrete diffusion models (DDMs) struggle to correct inharmonious layouts after they have been generated. In this paper, we first provide novel insights into layout sticking phenomenon in DDMs and then propose a simple yet effective layout-assessment module Layout-Corrector, which works in conjunction with existing DDMs to address the layout sticking problem. We present a learning-based module capable of identifying inharmonious elements within layouts, considering overall layout harmony characterized by complex composition. During the generation process, Layout-Corrector evaluates the correctness of each token in the generated layout, reinitializing those with low scores to the ungenerated state. The DDM then uses the high-scored tokens as clues to regenerate the harmonized tokens. Layout-Corrector, tested on common benchmarks, consistently boosts layout-generation performance when in conjunction with various state-of-the-art DDMs. Furthermore, our extensive analysis demonstrates that the Layout-Corrector (1) successfully identifies erroneous tokens, (2) acilitates control over the fidelity-diversity trade-off, and (3) significantly mitigates the performance drop associated with fast sampling.</p>
     
 
     
