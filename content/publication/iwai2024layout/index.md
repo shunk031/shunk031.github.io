@@ -46,7 +46,7 @@ links:
 url_pdf:
 url_code:
 url_dataset:
-url_poster:
+url_poster: https://iwa-shi.github.io/Layout-Corrector-Project-Page/static/pdfs/layout_corrector_eccv2024_poster.pdf
 url_project: https://iwa-shi.github.io/Layout-Corrector-Project-Page/
 url_slides:
 url_source:
