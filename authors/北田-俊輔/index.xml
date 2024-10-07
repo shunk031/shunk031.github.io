@@ -5,12 +5,26 @@
     <link>https://shunk031.me/authors/%E5%8C%97%E7%94%B0-%E4%BF%8A%E8%BC%94/</link>
       <atom:link href="https://shunk031.me/authors/%E5%8C%97%E7%94%B0-%E4%BF%8A%E8%BC%94/index.xml" rel="self" type="application/rss+xml" />
     <description>北田 俊輔</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 05 Sep 2024 17:50:00 +0900</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 07 Oct 2024 11:54:50 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.me/media/sharing.png</url>
       <title>北田 俊輔</title>
       <link>https://shunk031.me/authors/%E5%8C%97%E7%94%B0-%E4%BF%8A%E8%BC%94/</link>
     </image>
+    
+    <item>
+      <title>ECCV 2024 速報</title>
+      <link>https://shunk031.me/talk/eccv-2024-%E9%80%9F%E5%A0%B1/</link>
+      <pubDate>Mon, 07 Oct 2024 11:54:50 +0900</pubDate>
+      <guid>https://shunk031.me/talk/eccv-2024-%E9%80%9F%E5%A0%B1/</guid>
+      <description>&lt;p&gt;I contributed a summary on creative graphic design to &lt;a href=&#34;https://hirokatsukataoka.net/temp/presen/241004ECCV2024Report_finalized.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;the ECCV2024 report&lt;/a&gt; on &lt;a href=&#34;https://xpaperchallenge.org/cv/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cvpaper.challenge&lt;/a&gt; group.
+You can find my summary on pages 75 to 81 below:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://hirokatsukataoka.net/temp/presen/241004ECCV2024Report_finalized.pdf#page=75&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://hirokatsukataoka.net/temp/presen/241004ECCV2024Report_finalized.pdf#page=75&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hirokatsukataoka.net/temp/presen/241004ECCV2024Report_finalized.pdf#page=81&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://hirokatsukataoka.net/temp/presen/241004ECCV2024Report_finalized.pdf#page=81&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>text-to-image 拡散モデルにおける誘導 attention map を用いた画像生成手法の提案</title>

@@ -2,6 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://shunk031.me/talk/eccv-2024-%E9%80%9F%E5%A0%B1/</loc>
+    <lastmod>2024-10-07T15:32:50+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/authors/%E5%8C%97%E7%94%B0-%E4%BF%8A%E8%BC%94/</loc>
+    <lastmod>2024-10-07T15:32:50+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://shunk031.me/tag/ai-for-science/</loc>
     <lastmod>2024-09-03T16:33:11+09:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -84,10 +92,6 @@
   </url><url>
     <loc>https://shunk031.me/tag/yans/</loc>
     <lastmod>2024-09-03T16:33:11+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/authors/%E5%8C%97%E7%94%B0-%E4%BF%8A%E8%BC%94/</loc>
-    <lastmod>2024-09-26T11:12:23+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/publication/ogawa2024yans/</loc>
