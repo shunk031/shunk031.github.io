@@ -24,7 +24,7 @@ abstract: "Although attention mechanisms have been applied to a variety of deep 
 # Summary. An optional shortened abstract.
 summary: "IEEE Access (**Impact Factor: 3.367** in 2020; [1st place in Engineering & Computer Science (general) at Google Scholar Metrics](https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_enggeneral))"
 
-tags: ["Journal", "International Publication", "Natural Language Processing", "Referred", "Open Access", "IEEE"]
+tags: ["Journal", "International Publication", "Natural Language Processing", "Refereed", "Open Access", "IEEE"]
 categories: ["Natural Language Processing", "Attention Mechanisms", "Adversarial Training", "Text Classification", "Question Answering", "Natural Language Inference"]
 featured: false
 
