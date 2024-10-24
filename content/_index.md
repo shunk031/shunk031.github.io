@@ -256,4 +256,14 @@ sections:
             filename: chatgpt.webp
             filters:
               brightness: 0.2
+
+  - block: markdown
+    design:
+      columns: '2'
+      
+    content:
+      title: 🌏 Visitors
+      subtitle: Powerd by [clustrmaps.com](https://clustrmaps.com/)
+      text: |-
+        <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=SEDymVEFJHTaCJ9iGcuU4QJ4WF7CE1nY1E2_w9UVgm4&cl=ffffff&w=a"></script>
 ---
