@@ -58,6 +58,7 @@ jobs:
             -e www.mibel.cs.tsukuba.ac.jp/~ceekz/dc1 \
             -e openai.com/index/chatgpt \
             -e cl.sd.tmu.ac.jp \
+            -e ieeeaccess.ieee.org \
             "
 
       - name: Deploy
