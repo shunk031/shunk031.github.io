@@ -57,6 +57,7 @@ jobs:
             -e drive.google.com/file/d/0B3O7bgd3mym6N214SWw3eVJCS3M/view \
             -e openai.com/index/chatgpt \
             -e ieeeaccess.ieee.org \
+            -e clustrmaps.com \
             "
 
       - name: Deploy
