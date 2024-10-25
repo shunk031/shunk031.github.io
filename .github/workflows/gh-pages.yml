@@ -55,9 +55,7 @@ jobs:
             -e shunk031.me/coloso-python-diffusion-models \
             -e shunk031.me/attention-meets-perturbation \
             -e drive.google.com/file/d/0B3O7bgd3mym6N214SWw3eVJCS3M/view \
-            -e www.mibel.cs.tsukuba.ac.jp/~ceekz/dc1 \
             -e openai.com/index/chatgpt \
-            -e cl.sd.tmu.ac.jp \
             -e ieeeaccess.ieee.org \
             "
 
