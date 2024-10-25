@@ -24,7 +24,7 @@ abstract: "Although attention mechanisms have become fundamental components of d
 # Summary. An optional shortened abstract.
 summary: "Springer Applied Intelligence (**Impact Factor: 5.019** in 2021)"
 
-tags: ["Journal", "International Publication", "Natural Language Processing", "Referred", "Springer"]
+tags: ["Journal", "International Publication", "Natural Language Processing", "Refereed", "Springer"]
 categories: ["Natural Language Processing", "Attention Mechanisms", "Virtual Adversarial Training", "Text Classification", "Question Answering", "Natural Language Inference"]
 featured: false
 

@@ -25,7 +25,7 @@ abstract: "Discontinuing ad creatives at an appropriate time is one of the most 
 # Summary. An optional shortened abstract.
 summary: "MDPI Appl. Sci. (**Impact Factor: 2.838** in 2021; [Top 10 ranking in Engineering & Computer Science (general) at  Google Scholar Metrics](https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_enggeneral))"
 
-tags: ["Journal", "International Publication", "Computational Advertising", "Gunosy", "Referred", "Open Access", "MDPI"]
+tags: ["Journal", "International Publication", "Computational Advertising", "Gunosy", "Refereed", "Open Access", "MDPI"]
 categories: ["Computational Advertising"]
 featured: false
 
