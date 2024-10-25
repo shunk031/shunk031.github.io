@@ -25,7 +25,7 @@ abstract: "Data imbalance presents a significant challenge in various machine le
 # Summary. An optional shortened abstract.
 summary: "[Practical ML for Low Resource Settings Workshop @ ICLR 2024](https://pml4dc.github.io/iclr2024/); Rating: 9: Top 15% of accepted papers, strong accept; Oral presentation"
 
-tags: ["International Conference", "Referred", "Oral Presentation"]
+tags: ["International Conference", "Refereed", "Oral Presentation"]
 categories: ["Natural Language Processing", "Named Entity Recognition", "Imbalanced Dataset"]
 featured: false
 
