@@ -5,7 +5,7 @@ title: "Layout-Corrector: Alleviating Layout Sticking Phenomenon in Discrete Dif
 authors: ["Shoma Iwai", "Atsuki Osanai", "Shunsuke Kitada", "Shinichiro Omachi"]
 author_notes: ["This work was conducted during the first author's internship at LY Corporation."]
 date: 2024-07-01T08:00:00+00:00
-doi: ""
+doi: "10.1007/978-3-031-72754-2_6"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2024-07-01T08:00:00+00:00
@@ -40,8 +40,6 @@ links:
   url: https://eccv.ecva.net/virtual/2024/poster/1683
 - name: ECVA
   url: https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/4969_ECCV_2024_paper.php
-
-
 
 url_pdf:
 url_code:
