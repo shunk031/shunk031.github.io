@@ -58,6 +58,7 @@ jobs:
             -e openai.com/index/chatgpt \
             -e ieeeaccess.ieee.org \
             -e clustrmaps.com \
+            -e newswitch.jp \
             "
 
       - name: Deploy
