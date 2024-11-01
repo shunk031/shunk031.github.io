@@ -42,7 +42,7 @@ links:
   url: https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/4969_ECCV_2024_paper.php
 
 url_pdf:
-url_code:
+url_code: https://github.com/line/Layout-Corrector
 url_dataset:
 url_poster: https://iwa-shi.github.io/Layout-Corrector-Project-Page/static/pdfs/layout_corrector_eccv2024_poster.pdf
 url_project: https://iwa-shi.github.io/Layout-Corrector-Project-Page/
