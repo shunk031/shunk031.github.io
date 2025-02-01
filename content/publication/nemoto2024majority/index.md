@@ -3,17 +3,17 @@
 
 title: "Majority or Minority: Data Imbalance Learning Method for Named Entity Recognition"
 authors: ["Sota Nemoto", "Shunsuke Kitada", "Hitoshi Iyatomi"]
-date: 2024-01-25T23:20:23+09:00
-doi: ""
+date: 2024-12-25T00:00:00+09:00
+doi: "10.1109/ACCESS.2024.3522972"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2024-01-25T23:20:23+09:00
+publishDate: 2024-12-25T00:00:00+09:00
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["paper-conference"]
+publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
 publication: "Practical ML for Low Resource Settings Workshop @ ICLR 2024"
@@ -71,4 +71,4 @@ projects: []
 slides: ""
 ---
 
-{{< blogcard url="https://arxiv.org/abs/2401.11431" >}}
+<a href="https://www.scimagojr.com/journalsearch.php?q=21100374601&amp;tip=sid&amp;exact=no" title="SCImago Journal &amp; Country Rank"><img border="0" src="https://www.scimagojr.com/journal_img.php?id=21100374601" alt="SCImago Journal &amp; Country Rank"  /></a>
