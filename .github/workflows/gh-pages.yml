@@ -59,6 +59,8 @@ jobs:
             -e ieeeaccess.ieee.org \
             -e clustrmaps.com \
             -e newswitch.jp \
+            -e ieeexplore.ieee.org \
+            -e doi.org \
             "
 
       - name: Deploy
