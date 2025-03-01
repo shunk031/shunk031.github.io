@@ -2,6 +2,74 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://shunk031.me/news/acceptance-to-ieee-access-nemoto2024majority/</loc>
+    <lastmod>2025-03-01T02:02:10-10:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/publication-type/article-journal/</loc>
+    <lastmod>2025-03-01T02:02:10-10:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/categories/</loc>
+    <lastmod>2025-03-01T02:02:10-10:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/authors/hitoshi-iyatomi/</loc>
+    <lastmod>2025-03-01T02:02:10-10:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/category/imbalanced-dataset/</loc>
+    <lastmod>2025-03-01T02:02:10-10:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/international-conference/</loc>
+    <lastmod>2025-03-01T02:02:10-10:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/publication/nemoto2024majority/</loc>
+    <lastmod>2025-03-01T02:02:10-10:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/category/named-entity-recognition/</loc>
+    <lastmod>2025-03-01T02:02:10-10:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/category/natural-language-processing/</loc>
+    <lastmod>2025-03-01T02:02:10-10:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/news/</loc>
+    <lastmod>2025-03-01T02:02:10-10:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/category/news/</loc>
+    <lastmod>2025-03-01T02:02:10-10:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/news/</loc>
+    <lastmod>2025-03-01T02:02:10-10:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/oral-presentation/</loc>
+    <lastmod>2025-03-01T02:02:10-10:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/publication_types/</loc>
+    <lastmod>2025-03-01T02:02:10-10:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/refereed/</loc>
+    <lastmod>2025-03-01T02:02:10-10:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/authors/sota-nemoto/</loc>
+    <lastmod>2025-03-01T02:02:10-10:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tags/</loc>
+    <lastmod>2025-03-01T02:02:10-10:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://shunk031.me/talk/eccv-2024-%E9%80%9F%E5%A0%B1/</loc>
     <lastmod>2024-10-07T15:32:50+09:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -20,10 +88,6 @@
   </url><url>
     <loc>https://shunk031.me/category/audio-processing/</loc>
     <lastmod>2024-09-03T16:33:11+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/categories/</loc>
-    <lastmod>2024-11-01T22:03:07+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/tag/chatgpt/</loc>
@@ -58,24 +122,12 @@
     <lastmod>2024-09-03T16:33:11+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shunk031.me/category/natural-language-processing/</loc>
-    <lastmod>2024-10-25T10:38:36+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shunk031.me/tag/non-refereed/</loc>
     <lastmod>2024-09-26T11:12:23+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/publication-type/presentation/</loc>
     <lastmod>2024-09-03T16:33:11+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/publication_types/</loc>
-    <lastmod>2024-11-01T22:03:07+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/tags/</loc>
-    <lastmod>2024-11-01T22:03:07+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/tag/text-to-audio-retrieval/</loc>
@@ -210,10 +262,6 @@
     <lastmod>2024-11-01T22:03:07+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shunk031.me/tag/international-conference/</loc>
-    <lastmod>2024-11-01T22:03:07+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shunk031.me/tag/international-publication/</loc>
     <lastmod>2024-11-01T22:03:07+09:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -222,23 +270,7 @@
     <lastmod>2024-11-01T22:03:07+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shunk031.me/tag/news/</loc>
-    <lastmod>2024-08-04T12:13:13+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/category/news/</loc>
-    <lastmod>2024-08-04T12:13:13+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/news/</loc>
-    <lastmod>2024-08-04T12:13:13+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shunk031.me/publication-type/paper-conference/</loc>
-    <lastmod>2024-11-01T22:03:07+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/tag/refereed/</loc>
     <lastmod>2024-11-01T22:03:07+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -282,40 +314,12 @@
     <lastmod>2024-05-13T17:12:34+02:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shunk031.me/authors/hitoshi-iyatomi/</loc>
-    <lastmod>2024-10-25T10:38:36+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/authors/sota-nemoto/</loc>
-    <lastmod>2024-10-25T10:38:36+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/category/imbalanced-dataset/</loc>
-    <lastmod>2024-10-25T10:38:36+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/publication/nemoto2024majority/</loc>
-    <lastmod>2024-10-25T10:38:36+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/category/named-entity-recognition/</loc>
-    <lastmod>2024-10-25T10:38:36+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/tag/oral-presentation/</loc>
-    <lastmod>2024-10-25T10:38:36+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shunk031.me/talk/bert4ctr-an-efficient-framework-to-combine-pre-trained-language-model-with-non-textual-features-for-ctr-prediction-kdd23/</loc>
     <lastmod>2024-08-03T23:24:54+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/tag/ctr-prediction/</loc>
     <lastmod>2024-08-03T23:24:54+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/publication-type/article-journal/</loc>
-    <lastmod>2024-10-25T10:38:36+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/tag/journal/</loc>

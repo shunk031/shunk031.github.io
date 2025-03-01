@@ -13,6 +13,53 @@
     </image>
     
     <item>
+      <title>Accepted our journal paper to IEEE Access</title>
+      <link>https://shunk031.me/news/acceptance-to-ieee-access-nemoto2024majority/</link>
+      <pubDate>Wed, 25 Dec 2024 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/news/acceptance-to-ieee-access-nemoto2024majority/</guid>
+      <description>&lt;p&gt;The following paper has been accepted to the &lt;a href=&#34;https://ieeeaccess.ieee.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IEEE Access&lt;/a&gt;.
+This paper is an extended version of the content presented at the &lt;a href=&#34;https://pml4dc.github.io/iclr2024/program.html#:~:text=Contributed%20Talk9%3A,SOTA%20NEMOTO&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Practical ML for Low Resource Settings Workshop @ ICLR 2024&amp;rdquo;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sota Nemoto, Shunsuke Kitada, Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.me/publication/nemoto2024majority&#34;&gt;&amp;ldquo;Majority or Minority: Data Imbalance Learning Method for Named Entity Recognition&amp;rdquo;&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Majority or Minority: Data Imbalance Learning Method for Named Entity Recognition</title>
+      <link>https://shunk031.me/publication/nemoto2024majority/</link>
+      <pubDate>Wed, 25 Dec 2024 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/nemoto2024majority/</guid>
+      <description>&lt;p&gt;This paper is an extended version of the content presented at the &lt;a href=&#34;https://pml4dc.github.io/iclr2024/program.html#:~:text=Contributed%20Talk9%3A,SOTA%20NEMOTO&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Practical ML for Low Resource Settings Workshop @ ICLR 2024&amp;rdquo;&lt;/a&gt;.
+We are honored to receive a rating of 9, which is in the top 15% of accepted papers, and a strong accept. We also gave an oral presentation in the ICLR workshop.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;arXiv&lt;/th&gt;
+&lt;th&gt;IEEE&lt;/th&gt;
+&lt;th&gt;SCImago&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;div class=&#34;blogcard&#34;&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2farxiv.org%2fabs%2f2401.11431&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
+        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/td&gt;
+&lt;td&gt;&lt;div class=&#34;blogcard&#34;&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fdoi.org%2f10.1109%2fACCESS.2024.3522972&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
+        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.scimagojr.com/journalsearch.php?q=21100374601&amp;amp;tip=sid&amp;amp;exact=no&#34; title=&#34;SCImago Journal &amp;amp; Country Rank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;https://www.scimagojr.com/journal_img.php?id=21100374601&#34; alt=&#34;SCImago Journal &amp;amp; Country Rank&#34;  /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
       <title>ECCV 2024 速報</title>
       <link>https://shunk031.me/talk/eccv-2024-%E9%80%9F%E5%A0%B1/</link>
       <pubDate>Mon, 07 Oct 2024 11:54:50 +0900</pubDate>
@@ -217,20 +264,6 @@ You can find my summary on pages 75 to 81 below:&lt;/p&gt;
     </item>
     
     <item>
-      <title>Majority or Minority: Data Imbalance Learning Method for Named Entity Recognition</title>
-      <link>https://shunk031.me/publication/nemoto2024majority/</link>
-      <pubDate>Thu, 25 Jan 2024 23:20:23 +0900</pubDate>
-      <guid>https://shunk031.me/publication/nemoto2024majority/</guid>
-      <description>&lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2farxiv.org%2fabs%2f2401.11431&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-</description>
-    </item>
-    
-    <item>
       <title>BERT4CTR: An Efficient Framework to Combine Pre-trained Language Model with Non-textual Features for CTR Prediction (KDD&#39;23)</title>
       <link>https://shunk031.me/talk/bert4ctr-an-efficient-framework-to-combine-pre-trained-language-model-with-non-textual-features-for-ctr-prediction-kdd23/</link>
       <pubDate>Wed, 17 Jan 2024 19:25:00 +0900</pubDate>
@@ -321,7 +354,7 @@ I also thank the Graduate School of Science and Engineering, Hosei University fo
 &lt;p&gt;In the lab life, I devoted all my energy to research and play under the policy &amp;ldquo;&lt;em&gt;play hard, study hard&lt;/em&gt;.&amp;rdquo;
 During my doctoral program, I was particularly supported by various people, and I would like to give back to the university and academia that have helped me after entering industry. I will aim to research and develop cutting-edge technologies for the purpose.&lt;/p&gt;
 &lt;p&gt;The dissertation and presentation slides can be found &lt;a href=&#34;https://shunk031.me/publication/kitada2023dissertation/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;博士（工学）になりました！卒業式で 元欅坂46の &lt;a href=&#34;https://twitter.com/Aoi_Harada00?ref_src=twsrc%5Etfw&#34;&gt;@Aoi_Harada00&lt;/a&gt; さんに僕の博論のタイトルを読み上げてもらったので、人生の最高潮になりました（該当箇所はこちら: &lt;a href=&#34;https://t.co/tXKUlQdxuY&#34;&gt;https://t.co/tXKUlQdxuY&lt;/a&gt;）。これからは卒業式でアイドルに博士号取得を祝ってもらったオタクとして社会に出たいと思います🥰 &lt;a href=&#34;https://t.co/tmkkyNh6CJ&#34;&gt;pic.twitter.com/tmkkyNh6CJ&lt;/a&gt;&lt;/p&gt;&amp;mdash; しゅんけー (@shunk031) &lt;a href=&#34;https://twitter.com/shunk031/status/1639976993818316801?ref_src=twsrc%5Etfw&#34;&gt;March 26, 2023&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;博士（工学）になりました！卒業式で 元欅坂46の &lt;a href=&#34;https://twitter.com/Aoi_Harada00?ref_src=twsrc%5Etfw&#34;&gt;@Aoi_Harada00&lt;/a&gt; さんに僕の博論のタイトルを読み上げてもらったので、人生の最高潮になりました（該当箇所はこちら: &lt;a href=&#34;https://t.co/tXKUlQdxuY&#34;&gt;https://t.co/tXKUlQdxuY&lt;/a&gt;）。これからは卒業式でアイドルに博士号取得を祝ってもらったオタクとして社会に出たいと思います🥰 &lt;a href=&#34;https://t.co/tmkkyNh6CJ&#34;&gt;pic.twitter.com/tmkkyNh6CJ&lt;/a&gt;&lt;/p&gt;&amp;mdash; しゅんけー📕Pythonで学ぶ画像生成 3/25 発売！ (@shunk031) &lt;a href=&#34;https://twitter.com/shunk031/status/1639976993818316801?ref_src=twsrc%5Etfw&#34;&gt;March 26, 2023&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 
 
