@@ -11,7 +11,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/categories/</loc>
-    <lastmod>2025-03-01T02:02:10-10:00</lastmod>
+    <lastmod>2025-03-01T02:05:00-10:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/authors/hitoshi-iyatomi/</loc>
@@ -55,7 +55,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/publication_types/</loc>
-    <lastmod>2025-03-01T02:02:10-10:00</lastmod>
+    <lastmod>2025-03-01T02:05:00-10:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/tag/refereed/</loc>
@@ -67,7 +67,63 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/tags/</loc>
-    <lastmod>2025-03-01T02:02:10-10:00</lastmod>
+    <lastmod>2025-03-01T02:05:00-10:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/publication-type/article/</loc>
+    <lastmod>2025-03-01T02:05:00-10:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/authors/atsuki-osanai/</loc>
+    <lastmod>2025-03-01T02:05:00-10:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/category/creative-graphic-design/</loc>
+    <lastmod>2025-03-01T02:05:00-10:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/international-publication/</loc>
+    <lastmod>2025-03-01T02:05:00-10:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/authors/jiahao-zhang/</loc>
+    <lastmod>2025-03-01T02:05:00-10:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/large-vision-language-models/</loc>
+    <lastmod>2025-03-01T02:05:00-10:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/layout-generation/</loc>
+    <lastmod>2025-03-01T02:05:00-10:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/category/layout-generation/</loc>
+    <lastmod>2025-03-01T02:05:00-10:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/lycorp/</loc>
+    <lastmod>2025-03-01T02:05:00-10:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/non-refereed/</loc>
+    <lastmod>2025-03-01T02:05:00-10:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/preprint/</loc>
+    <lastmod>2025-03-01T02:05:00-10:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/authors/ryota-yoshihashi/</loc>
+    <lastmod>2025-03-01T02:05:00-10:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/publication/zhang2024vascar/</loc>
+    <lastmod>2025-03-01T02:05:00-10:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/authors/yuta-nakashima/</loc>
+    <lastmod>2025-03-01T02:05:00-10:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/talk/eccv-2024-%E9%80%9F%E5%A0%B1/</loc>
@@ -120,10 +176,6 @@
   </url><url>
     <loc>https://shunk031.me/tag/llm/</loc>
     <lastmod>2024-09-03T16:33:11+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/tag/non-refereed/</loc>
-    <lastmod>2024-09-26T11:12:23+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/publication-type/presentation/</loc>
@@ -186,14 +238,6 @@
     <lastmod>2024-09-03T16:33:11+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shunk031.me/publication-type/article/</loc>
-    <lastmod>2024-09-26T11:12:23+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/category/layout-generation/</loc>
-    <lastmod>2024-11-01T22:03:07+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shunk031.me/tag/miru/</loc>
     <lastmod>2024-09-26T11:12:23+09:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -212,10 +256,6 @@
   </url><url>
     <loc>https://shunk031.me/publication/iwai2024miru/</loc>
     <lastmod>2024-09-26T11:12:23+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/tag/layout-generation/</loc>
-    <lastmod>2024-11-01T22:03:07+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/tag/paper-reading/</loc>
@@ -238,10 +278,6 @@
     <lastmod>2024-07-26T14:04:43+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shunk031.me/tag/lycorp/</loc>
-    <lastmod>2024-11-01T22:03:07+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shunk031.me/post/ly-new-grad-job-introduction/</loc>
     <lastmod>2024-07-26T14:04:43+09:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -250,19 +286,7 @@
     <lastmod>2024-07-04T23:14:59+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shunk031.me/authors/atsuki-osanai/</loc>
-    <lastmod>2024-11-01T22:03:07+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/category/creative-graphic-design/</loc>
-    <lastmod>2024-11-01T22:03:07+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shunk031.me/tag/discrete-diffusion-model/</loc>
-    <lastmod>2024-11-01T22:03:07+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/tag/international-publication/</loc>
     <lastmod>2024-11-01T22:03:07+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -295,10 +319,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/authors/nghia-truong/</loc>
-    <lastmod>2024-08-04T12:13:13+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/authors/ryota-yoshihashi/</loc>
     <lastmod>2024-08-04T12:13:13+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -743,10 +763,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/publication/kitada2021making/</loc>
-    <lastmod>2024-01-26T00:16:21+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/tag/preprint/</loc>
     <lastmod>2024-01-26T00:16:21+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>

@@ -5,12 +5,20 @@
     <link>https://shunk031.me/tag/lycorp/</link>
       <atom:link href="https://shunk031.me/tag/lycorp/index.xml" rel="self" type="application/rss+xml" />
     <description>LYCorp</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 23 Jul 2024 10:10:00 +0900</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 05 Dec 2024 00:00:00 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.me/media/sharing.png</url>
       <title>LYCorp</title>
       <link>https://shunk031.me/tag/lycorp/</link>
     </image>
+    
+    <item>
+      <title>VASCAR: Content-Aware Layout Generation via Visual-Aware Self-Correction</title>
+      <link>https://shunk031.me/publication/zhang2024vascar/</link>
+      <pubDate>Thu, 05 Dec 2024 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/zhang2024vascar/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>新卒社員の仕事紹介 画像生成の研究開発に携わるリサーチサイエンティスト編</title>

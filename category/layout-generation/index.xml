@@ -5,12 +5,20 @@
     <link>https://shunk031.me/category/layout-generation/</link>
       <atom:link href="https://shunk031.me/category/layout-generation/index.xml" rel="self" type="application/rss+xml" />
     <description>Layout Generation</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 07 Aug 2024 00:00:00 +0900</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 05 Dec 2024 00:00:00 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.me/media/sharing.png</url>
       <title>Layout Generation</title>
       <link>https://shunk031.me/category/layout-generation/</link>
     </image>
+    
+    <item>
+      <title>VASCAR: Content-Aware Layout Generation via Visual-Aware Self-Correction</title>
+      <link>https://shunk031.me/publication/zhang2024vascar/</link>
+      <pubDate>Thu, 05 Dec 2024 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/zhang2024vascar/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>離散拡散モデルにおけるレイアウトの“固着”を緩和する Layout-Corrector の提案</title>
