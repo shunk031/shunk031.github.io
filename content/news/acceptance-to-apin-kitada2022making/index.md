@@ -28,5 +28,5 @@ image:
 projects: []
 ---
 
-The following paper has been accepted to the [Springer Applied Intelligence](https://www.springer.com/journal/10489).
+The following paper has been accepted to the [Springer Applied Intelligence](https://link.springer.com/journal/10489).
 - Shunsuke Kitada and Hitoshi Iyatomi. ["Making Attention Mechanisms More Robust and Interpretable with Virtual Adversarial Training"](/publication/kitada2022making)
