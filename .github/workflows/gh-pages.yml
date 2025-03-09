@@ -24,44 +24,12 @@ jobs:
       - name: Build
         run: hugo
 
-      - name: Check broken links
-        uses: ruzickap/action-my-broken-link-checker@v2
+      - name: Link Checker
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
         with:
-          url: https://${{ env.CNAME }}
-          pages_path: ./public
-          cmd_params: "\
-            --timeout=20 \
-            --buffer-size 8192 \
-            --max-connections=10 \
-            --max-response-body-size=70000000 \
-            --ignore-fragments \
-            -e t.co \
-            -e linkedin.com \
-            -e twitter.com \
-            -e facebook.com \
-            -e gstatic.com \
-            -e researchgate.net \
-            -e arxiv.org \
-            -e valuenex.com \
-            -e challenge2018.isic-archive.com \
-            -e publication/#\\d \
-            -e index.webmanifest \
-            -e honet-ict.org \
-            -e jsps.go.jp \
-            -e www.cikm2022.org \
-            -e hugoblox.com \
-            -e .*.xml \
-            -e shunk031.me/paper-survey \
-            -e shunk031.me/coloso-python-diffusion-models \
-            -e shunk031.me/attention-meets-perturbation \
-            -e drive.google.com/file/d/0B3O7bgd3mym6N214SWw3eVJCS3M/view \
-            -e openai.com/index/chatgpt \
-            -e ieeeaccess.ieee.org \
-            -e clustrmaps.com \
-            -e newswitch.jp \
-            -e ieeexplore.ieee.org \
-            -e doi.org \
-            "
+          fail: true
+          args: "./public --config .lychee/config.toml"
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
