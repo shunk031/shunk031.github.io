@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>AI for Science | shunk031.me</title>
-    <link>https://shunk031.me/tag/ai-for-science/</link>
-      <atom:link href="https://shunk031.me/tag/ai-for-science/index.xml" rel="self" type="application/rss+xml" />
-    <description>AI for Science</description>
+    <title>Computer Vision | shunk031.me</title>
+    <link>https://shunk031.me/tag/computer-vision/</link>
+      <atom:link href="https://shunk031.me/tag/computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    <description>Computer Vision</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 11 Mar 2025 08:30:00 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.me/media/sharing.png</url>
-      <title>AI for Science</title>
-      <link>https://shunk031.me/tag/ai-for-science/</link>
+      <title>Computer Vision</title>
+      <link>https://shunk031.me/tag/computer-vision/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>https://shunk031.me/publication/kawada2025nlp/</link>
       <pubDate>Tue, 11 Mar 2025 08:30:00 +0900</pubDate>
       <guid>https://shunk031.me/publication/kawada2025nlp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>学術論文におけるGraphical Abstract自動生成の初期検討</title>
-      <link>https://shunk031.me/publication/kawada2024yans/</link>
-      <pubDate>Thu, 05 Sep 2024 17:50:00 +0900</pubDate>
-      <guid>https://shunk031.me/publication/kawada2024yans/</guid>
       <description></description>
     </item>
     

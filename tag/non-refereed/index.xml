@@ -5,12 +5,20 @@
     <link>https://shunk031.me/tag/non-refereed/</link>
       <atom:link href="https://shunk031.me/tag/non-refereed/index.xml" rel="self" type="application/rss+xml" />
     <description>Non-refereed</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 05 Dec 2024 00:00:00 +0900</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 11 Mar 2025 08:30:00 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.me/media/sharing.png</url>
       <title>Non-refereed</title>
       <link>https://shunk031.me/tag/non-refereed/</link>
     </image>
+    
+    <item>
+      <title>SciGA: 学術論文における Graphical Abstract 設計支援のための統合データセット</title>
+      <link>https://shunk031.me/publication/kawada2025nlp/</link>
+      <pubDate>Tue, 11 Mar 2025 08:30:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/kawada2025nlp/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>VASCAR: Content-Aware Layout Generation via Visual-Aware Self-Correction</title>
