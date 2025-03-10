@@ -1,5 +1,8 @@
 # ref. Configuration File | Docs https://lychee.cli.rs/usage/config/ 
 
+# Base URL or website root directory to check relative URLs.
+base = "https://shunk031.me"
+
 # Exclude URLs and mail addresses from checking (supports regex).
 exclude = [
     "gstatic.com",
@@ -13,4 +16,4 @@ exclude = [
 ]
 
 # Exclude link-local IP address range from checking.
-exclude_link_local = true
+# exclude_link_local = true
