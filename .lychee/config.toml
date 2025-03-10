@@ -13,4 +13,4 @@ exclude = [
 ]
 
 # Exclude link-local IP address range from checking.
-exclude_link_local = false
+exclude_link_local = true
