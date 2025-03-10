@@ -15,11 +15,11 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/publication-type/article/</loc>
-    <lastmod>2025-03-09T19:17:41-10:00</lastmod>
+    <lastmod>2025-03-09T20:08:39-10:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/categories/</loc>
-    <lastmod>2025-03-09T19:17:41-10:00</lastmod>
+    <lastmod>2025-03-09T20:08:39-10:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/tag/computer-vision/</loc>
@@ -27,7 +27,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/tag/domestic-conference/</loc>
-    <lastmod>2025-03-09T19:17:41-10:00</lastmod>
+    <lastmod>2025-03-09T20:08:39-10:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/tag/natural-language-processing/</loc>
@@ -39,11 +39,11 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/tag/non-refereed/</loc>
-    <lastmod>2025-03-09T19:17:41-10:00</lastmod>
+    <lastmod>2025-03-09T20:08:39-10:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/publication_types/</loc>
-    <lastmod>2025-03-09T19:17:41-10:00</lastmod>
+    <lastmod>2025-03-09T20:08:39-10:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/publication/kawada2025nlp/</loc>
@@ -51,7 +51,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/tags/</loc>
-    <lastmod>2025-03-09T19:17:41-10:00</lastmod>
+    <lastmod>2025-03-09T20:08:39-10:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/tag/vision-language/</loc>
@@ -63,7 +63,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/authors/%E5%8C%97%E7%94%B0-%E4%BF%8A%E8%BC%94/</loc>
-    <lastmod>2025-03-09T19:17:41-10:00</lastmod>
+    <lastmod>2025-03-09T20:08:39-10:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/authors/%E5%B7%9D%E7%94%B0-%E6%8B%93%E6%9C%97/</loc>
@@ -71,11 +71,43 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/authors/%E5%BD%8C%E5%86%A8-%E4%BB%81/</loc>
-    <lastmod>2025-03-09T19:17:41-10:00</lastmod>
+    <lastmod>2025-03-09T20:08:39-10:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/authors/%E6%A0%B9%E6%9C%AC-%E9%A2%AF%E6%B1%B0/</loc>
     <lastmod>2025-03-09T05:01:25-10:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/category/computer-vision/</loc>
+    <lastmod>2025-03-09T20:08:39-10:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/diffusion-model/</loc>
+    <lastmod>2025-03-09T20:08:39-10:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/image-generation/</loc>
+    <lastmod>2025-03-09T20:08:39-10:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/category/image-generation/</loc>
+    <lastmod>2025-03-09T20:08:39-10:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/ipsj/</loc>
+    <lastmod>2025-03-09T20:08:39-10:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/authors/%E5%AE%88%E7%94%B0-%E7%AB%9C%E6%A2%A7/</loc>
+    <lastmod>2025-03-09T20:08:39-10:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/authors/%E6%B0%B8%E4%BA%95-%E5%A4%A7%E5%9C%B0/</loc>
+    <lastmod>2025-03-09T20:08:39-10:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/publication/nagai2025ipsj/</loc>
+    <lastmod>2025-03-09T20:08:39-10:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/news/acceptance-to-ieee-access-nemoto2024majority/</loc>
@@ -190,23 +222,7 @@
     <lastmod>2024-09-03T16:33:11+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shunk031.me/category/computer-vision/</loc>
-    <lastmod>2024-09-26T11:12:23+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shunk031.me/tag/contrastive-learning/</loc>
-    <lastmod>2024-09-03T16:33:11+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/tag/diffusion-model/</loc>
-    <lastmod>2024-09-03T16:33:11+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/tag/image-generation/</loc>
-    <lastmod>2024-09-03T16:33:11+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/category/image-generation/</loc>
     <lastmod>2024-09-03T16:33:11+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -238,19 +254,11 @@
     <lastmod>2024-09-03T16:33:11+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shunk031.me/authors/%E5%AE%88%E7%94%B0-%E7%AB%9C%E6%A2%A7/</loc>
-    <lastmod>2024-09-03T16:33:11+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shunk031.me/authors/%E5%B0%8F%E5%B7%9D-%E5%89%9B%E6%AF%85/</loc>
     <lastmod>2024-09-03T16:33:11+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/authors/%E6%B0%B4%E5%8F%A3-%E5%BE%B3%E4%BA%BA/</loc>
-    <lastmod>2024-09-03T16:33:11+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/authors/%E6%B0%B8%E4%BA%95-%E5%A4%A7%E5%9C%B0/</loc>
     <lastmod>2024-09-03T16:33:11+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -1136,10 +1144,6 @@
   </url><url>
     <loc>https://shunk031.me/post/award-ipsj-2019/</loc>
     <lastmod>2022-07-25T01:03:48+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/tag/ipsj/</loc>
-    <lastmod>2025-03-09T19:17:41-10:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/tag/medical-image-processing/</loc>

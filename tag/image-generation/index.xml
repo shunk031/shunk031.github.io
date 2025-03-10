@@ -5,12 +5,20 @@
     <link>https://shunk031.me/tag/image-generation/</link>
       <atom:link href="https://shunk031.me/tag/image-generation/index.xml" rel="self" type="application/rss+xml" />
     <description>Image Generation</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 05 Sep 2024 17:50:00 +0900</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 09 Mar 2025 00:00:00 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.me/media/sharing.png</url>
       <title>Image Generation</title>
       <link>https://shunk031.me/tag/image-generation/</link>
     </image>
+    
+    <item>
+      <title>潜在拡散モデルにおける生成対象の個別配置と生成による画質改善の試み</title>
+      <link>https://shunk031.me/publication/nagai2025ipsj/</link>
+      <pubDate>Sun, 09 Mar 2025 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/nagai2025ipsj/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>text-to-image 拡散モデルにおける誘導 attention map を用いた画像生成手法の提案</title>
