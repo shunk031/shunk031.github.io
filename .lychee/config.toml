@@ -1,4 +1,15 @@
+# ref. Configuration File | Docs https://lychee.cli.rs/usage/config/ 
+
+# Exclude URLs and mail addresses from checking (supports regex).
 exclude = [
+    #
+    # Exclude the target site itself because an error will occur 
+    # if there is content that has not yet been deployed.
+    #
+    "shunk031.me",
+    # 
+    # Exclude the following sites
+    #
     "gstatic.com",
     "newswitch.jp",
     "researchgate.net",
