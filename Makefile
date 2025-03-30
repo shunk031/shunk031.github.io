@@ -10,6 +10,10 @@ server :
 .PHONY : run
 run : update server
 
+.PHONY: check-broken-links
+check-broken-links:
+	lychee public --config .lychee/config.toml
+
 .PHONY : post
 post:
 ifeq ($(name),)
