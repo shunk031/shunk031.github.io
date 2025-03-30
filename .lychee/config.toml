@@ -20,6 +20,7 @@ exclude = [
     "drive.google.com/file/d/0B3O7bgd3mym6N214SWw3eVJCS3M/view",
     "t.co",
     "openai.com/index/chatgpt",
+    "cl.sd.tmu.ac.jp",
 ]
 
 # Website timeout from connect to response finished.
