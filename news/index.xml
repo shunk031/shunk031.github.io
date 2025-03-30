@@ -5,12 +5,30 @@
     <link>https://shunk031.me/news/</link>
       <atom:link href="https://shunk031.me/news/index.xml" rel="self" type="application/rss+xml" />
     <description>News</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 25 Dec 2024 00:00:00 +0900</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 25 Mar 2025 10:00:00 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.me/media/sharing.png</url>
       <title>News</title>
       <link>https://shunk031.me/news/</link>
     </image>
+    
+    <item>
+      <title>Published &#34;Image Generation with Python&#34; from Impress Books</title>
+      <link>https://shunk031.me/news/published-image-generation-with-python/</link>
+      <pubDate>Tue, 25 Mar 2025 10:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/news/published-image-generation-with-python/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m thrilled to announce the release of my new book, &amp;ldquo;Image Generation with Python&amp;rdquo;! With the rapid advancements in technology, image generation has become more accessible than ever. This comprehensive guide delves into the fascinating world of image generation, focusing on diffusion models and Stable Diffusion 🌟&lt;/p&gt;
+&lt;p&gt;Whether you&amp;rsquo;re an AI engineer, a student interested in machine learning, or a creative professional looking to harness AI in your field, this book is crafted just for you. It offers a deep dive into both the theory and practical skills needed to excel in this cutting-edge domain.&lt;/p&gt;
+&lt;p&gt;Please note: This book is available in Japanese only.&lt;/p&gt;
+&lt;p&gt;Discover more about the book by checking out the link below!&lt;/p&gt;
+&lt;div class=&#34;blogcard&#34;&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fbook.impress.co.jp%2fbooks%2f1123101104&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
+        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
     
     <item>
       <title>Accepted our journal paper to IEEE Access</title>
