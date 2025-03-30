@@ -27,4 +27,4 @@ exclude = [
 timeout = 30
 
 # Minimum wait time in seconds between retries of failed requests.
-retry_wait_time = 30
+retry_wait_time = 10
