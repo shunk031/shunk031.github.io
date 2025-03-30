@@ -181,7 +181,7 @@ sections:
         
         - title: Lecturer
           company: DAY1 COMPANY Inc.
-          company_url: https://day1company.co.kr/index.php/en/about_v202308-english/
+          company_url: https://coloso.jp/
           location: Teheran-ro, Gangnam-gu, Seoul, Korea
           date_start: '2023-06-26'
           date_end: '2026-06-25'
