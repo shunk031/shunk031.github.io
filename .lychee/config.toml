@@ -21,3 +21,6 @@ exclude = [
     "t.co",
     "openai.com/index/chatgpt",
 ]
+
+# Website timeout from connect to response finished.
+timeout = 30
