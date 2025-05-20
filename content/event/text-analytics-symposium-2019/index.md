@@ -3,7 +3,7 @@
 
 title: "Text Analytics Symposium 2019"
 event: "第 15 回テキストアナリティクス・シンポジウム"
-event_url: https://www.ieice.org/~nlc/tm15a.html
+event_url: http://www.ieice.org/~nlc/tm15a.html
 location: Future Corporation
 address:
   street: Art Village Osaki Central Tower, 1-2-2 Osaki
@@ -44,7 +44,7 @@ image:
 #   Uncomment and edit lines below to show custom links.
 links:
 - name: IEICE
-  url: https://www.ieice.org/ken/paper/20190927q1Qe/
+  url: https://ken.ieice.org/ken/paper/20190927q1Qe/
   # icon_pack: fab
   # icon: twitter
 

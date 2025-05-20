@@ -2,6 +2,10 @@
 update :
 	./update_wowchemy.sh
 
+.PHONY : build
+build :
+	hugo
+
 .PHONY : server
 server :
 	hugo mod clean
@@ -11,7 +15,7 @@ server :
 run : update server
 
 .PHONY: check-broken-links
-check-broken-links:
+check-broken-links: build
 	lychee public --config .lychee/config.toml
 
 .PHONY : post
