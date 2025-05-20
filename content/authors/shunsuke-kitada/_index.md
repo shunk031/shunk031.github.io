@@ -107,7 +107,7 @@ social:
 
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.co.jp/citations?user=GUzGhQIAAAAJ&hl=ja
+    link: https://scholar.google.com/citations?user=GUzGhQIAAAAJ
 
   - icon: github
     icon_pack: fab
