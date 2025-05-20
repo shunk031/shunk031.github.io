@@ -24,6 +24,7 @@ exclude = [
     "scholar.google.com/citations",
     "www.ieice.org/~nlc",
     "ken.ieice.org",
+    "iyatomi-lab.info",
 ]
 
 # Website timeout from connect to response finished.
