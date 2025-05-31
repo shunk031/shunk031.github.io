@@ -73,7 +73,7 @@ features:
   repository:
     url: "https://github.com/shunk031/shunk031.github.io"
     content_dir: content
-    branch: master
+    branch: main
   avatar:
     gravatar: true
     shape: circle
