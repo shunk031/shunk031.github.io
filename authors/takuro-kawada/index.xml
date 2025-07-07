@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Takuro Kawada | shunk031.me</title>
+    <link>https://shunk031.me/authors/takuro-kawada/</link>
+      <atom:link href="https://shunk031.me/authors/takuro-kawada/index.xml" rel="self" type="application/rss+xml" />
+    <description>Takuro Kawada</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 04 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://shunk031.me/media/sharing.png</url>
+      <title>Takuro Kawada</title>
+      <link>https://shunk031.me/authors/takuro-kawada/</link>
+    </image>
+    
+    <item>
+      <title>SciGA: A Comprehensive Dataset for Designing Graphical Abstracts in Academic Papers</title>
+      <link>https://shunk031.me/publication/kawada2025sciga/</link>
+      <pubDate>Sat, 04 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://shunk031.me/publication/kawada2025sciga/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
