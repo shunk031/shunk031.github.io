@@ -56,7 +56,7 @@ make publication name="author20xxconf"
 - Create for thumbnail image.
 
 ```sh
-$ convert 'paper.pdf[0]' -resize '640x640^' -crop '640x480+0+0' -alpha remove featured.png
+make publication-thumbnail pdf=/path/to/paper.pdf name='author20xxconf'
 ```
 
 ### Generate OGP image for the publication
