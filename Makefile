@@ -58,3 +58,9 @@ ifeq ($(name),)
 	$(error name for the OGP image is not set: make ogp-image name=PUBLICATION-NAME)
 endif
 	./scripts/generate_ogp_image_for_publication.sh $(name)
+
+.PHONY : publication-thumbnail
+publication-thumbnail:
+	$(eval EXPANDED_PDF := $(shell echo $(pdf)))
+	magick "$(EXPANDED_PDF)[0]" -resize '640x640^' -crop '640x480+0+0' -alpha remove $(PWD)/content/publication/$(name)/featured.png
+
