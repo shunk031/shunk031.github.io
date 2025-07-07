@@ -7,7 +7,7 @@ summary: ""
 authors: ["Shunsuke Kitada"]
 tags: ["News"]
 categories: ["News"]
-date: 2025-05-19T00:00:00-+09:00
+date: 2025-05-19T00:00:00+09:00
 lastmod: 2025-05-19T00:00:00+09:00
 featured: false
 draft: false
