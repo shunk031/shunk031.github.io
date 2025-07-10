@@ -5,8 +5,8 @@ title: "Honorable Mention in YANS 2019"
 subtitle: ""
 summary: "解釈性向上のための注意機構と損失勾配に対する関連損失の導入"
 authors: ["Shunsuke Kitada", "Hitoshi Iyatomi"]
-tags: ["News", "Awards & Grants"]
-categories: ["News", "Awards & Grants"]
+tags: ["News", "Awards and Grants"]
+categories: ["News", "Awards and Grants"]
 date: 2019-08-28T00:00:00+09:00
 lastmod: 2023-01-28T16:10:53+09:00
 featured: false

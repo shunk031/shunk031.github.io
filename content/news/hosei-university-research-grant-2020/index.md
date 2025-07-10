@@ -5,8 +5,8 @@ title: "Got Hosei University Research Grant 2020"
 subtitle: ""
 summary: ""
 authors: ["Shunsuke Kitada"]
-tags: ["News", "Awards & Grants"]
-categories: ["News", "Awards & Grants"]
+tags: ["News", "Awards and Grants"]
+categories: ["News", "Awards and Grants"]
 date: 2020-12-01T00:00:00+09:00
 lastmod: 2023-01-28T22:04:24+09:00
 featured: false
