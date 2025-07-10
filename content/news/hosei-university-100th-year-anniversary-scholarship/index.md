@@ -5,8 +5,8 @@ title: "Hosei University 100th Year Anniversary Scholarship"
 subtitle: ""
 summary: ""
 authors: ["Shunsuke Kitada"]
-tags: ["News", "Awards & Grants"]
-categories: ["News", "Awards & Grants"]
+tags: ["News", "Awards and Grants"]
+categories: ["News", "Awards and Grants"]
 date: 2019-06-01T00:00:00+09:00
 lastmod: 2023-01-28T15:52:41+09:00
 featured: false

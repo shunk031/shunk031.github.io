@@ -5,8 +5,8 @@ title: "Adopted as a JSPS DC2"
 subtitle: ""
 summary: ""
 authors: ["Shunsuke Kitada"]
-tags: ["News", "Awards & Grants"]
-categories: ["News", "Awards & Grants"]
+tags: ["News", "Awards and Grants"]
+categories: ["News", "Awards and Grants"]
 date: 2021-04-01T00:00:00+09:00
 lastmod: 2023-01-28T22:08:01+09:00
 featured: false
