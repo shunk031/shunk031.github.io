@@ -20,7 +20,7 @@ publication_types: ["article"]
 publication: "第 28 回 画像の認識・理解シンポジウム，2025."
 publication_short: "MIRU 2025"
 
-abstract: "Large language models (LLMs) have proven effective for layout generation due to their ability to produce structured description, such as HTML. In this paper, we argue that their limitation in visual understanding leads to insufficient performance in tasks requiring visual content, e.g., content-aware layout generation. Therefore, we explore whether large vision-language models (LVLMs) can be applied to content-aware layout generation and propose the training-free **V**isual-**A**ware **S**elf-**C**orrection L**A**yout Gene**R**ation (VASCAR), taking inspiration from the iterative revision of designers.
+abstract: "Large language models (LLMs) have proven effective for layout generation due to their ability to produce structured description, such as HTML. In this paper, we argue that their limitation in visual understanding leads to insufficient performance in tasks requiring visual content, e.g., content-aware layout generation. Therefore, we explore whether large vision-language models (LVLMs) can be applied to content-aware layout generation and propose the training-free Visual-Aware Self-CCorrection Layout Generation (VASCAR), taking inspiration from the iterative revision of designers.
 VASCAR enables LVLMs (e.g., GPT-4o and Gemini) iteratively refine their outputs with reference to layout rendered layout images.
 Extensive experiments and user study demonstrate VASCAR's effectiveness and versatility, achieving state-of-the-art (SOTA) layout generation quality. "
 
