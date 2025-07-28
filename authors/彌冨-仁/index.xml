@@ -5,12 +5,20 @@
     <link>https://shunk031.me/authors/%E5%BD%8C%E5%86%A8-%E4%BB%81/</link>
       <atom:link href="https://shunk031.me/authors/%E5%BD%8C%E5%86%A8-%E4%BB%81/index.xml" rel="self" type="application/rss+xml" />
     <description>彌冨 仁</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 11 Mar 2025 08:30:00 +0900</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Aug 2025 00:00:00 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.me/media/sharing.png</url>
       <title>彌冨 仁</title>
       <link>https://shunk031.me/authors/%E5%BD%8C%E5%86%A8-%E4%BB%81/</link>
     </image>
+    
+    <item>
+      <title>グラフィカルアブストラクト推薦と評価の統合ベンチマーク</title>
+      <link>https://shunk031.me/publication/kawada2025miru/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/kawada2025miru/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>SciGA: 学術論文における Graphical Abstract 設計支援のための統合データセット</title>
