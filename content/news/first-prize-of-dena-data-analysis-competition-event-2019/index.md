@@ -5,8 +5,8 @@ title: "Overall 1st prize and medium 2nd prize in DeNA Data Analysis Competition
 subtitle: ""
 summary: ""
 authors: ["Shunsuke Kitada"]
-tags: ["News", "Awards & Grants"]
-categories: ["News", "Awards & Grants"]
+tags: ["News", "Awards and Grants"]
+categories: ["News", "Awards and Grants"]
 date: 2019-01-27T00:00:00+09:00
 lastmod: 2023-01-28T15:37:53+09:00
 featured: false
