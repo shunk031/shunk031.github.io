@@ -1,7 +1,7 @@
 ---
 # Documentation: https://docs.hugoblox.com/managing-content/
 
-title: "学術論文におけるGraphical Abstract自動生成の初期検討"
+title: "学術論文における Graphical Abstract 自動生成の初期検討"
 authors: ["川田 拓朗", "根本 颯汰", "北田 俊輔", "彌冨 仁"]
 date: 2024-09-05T17:50:00+09:00
 doi: ""
@@ -19,7 +19,7 @@ publication_types: ["presentation"]
 publication: "NLP 若手の会 (YANS) 第 19 回シンポジウム，2024."
 publication_short: "YANS 2024"
 
-abstract: "Graphical Abstract(GA)とは，論文の核心的な内容を伝えるために示す図であり，近年採用する論文誌が増えてきた．そこで，より魅力的で効果的なGAを効率的に作成するための支援システムが求められている．本研究ではarXiv.orgで入手可能な論文のテキスト，Figure，GAを含むデータセットを構築し，機械学習モデルを用いたGA自動生成の実現可能性を検討した．その初期検討として，論文中からGAの構成要素となりうるコアアイデアを示すFigureの検索を行う．また，集めたデータから研究分野ごとのGAの特徴，GAと論文中の図やテキストとの関係を調査し，報告する．"
+abstract: "Graphical Abstract(GA) とは，論文の核心的な内容を伝えるために示す図であり，近年採用する論文誌が増えてきた．そこで，より魅力的で効果的な GA を効率的に作成するための支援システムが求められている．本研究では arXiv.org で入手可能な論文のテキスト，Figure，GA を含むデータセットを構築し，機械学習モデルを用いた GA 自動生成の実現可能性を検討した．その初期検討として，論文中から GA の構成要素となりうるコアアイデアを示す Figure の検索を行う．また，集めたデータから研究分野ごとの GA の特徴，GA と論文中の図やテキストとの関係を調査し，報告する．"
 
 # Summary. An optional shortened abstract.
 summary: "NLP 若手の会 (YANS) 第 19 回シンポジウム，2024."
