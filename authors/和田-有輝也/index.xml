@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>和田 有輝也 | shunk031.me</title>
+    <link>https://shunk031.me/authors/%E5%92%8C%E7%94%B0-%E6%9C%89%E8%BC%9D%E4%B9%9F/</link>
+      <atom:link href="https://shunk031.me/authors/%E5%92%8C%E7%94%B0-%E6%9C%89%E8%BC%9D%E4%B9%9F/index.xml" rel="self" type="application/rss+xml" />
+    <description>和田 有輝也</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 19 Sep 2025 11:40:00 +0900</lastBuildDate>
+    <image>
+      <url>https://shunk031.me/media/sharing.png</url>
+      <title>和田 有輝也</title>
+      <link>https://shunk031.me/authors/%E5%92%8C%E7%94%B0-%E6%9C%89%E8%BC%9D%E4%B9%9F/</link>
+    </image>
+    
+    <item>
+      <title>日本語の広告画像向けタイポグラフィ属性の生成型解析：小規模 VLM の LoRA 微調整による検証</title>
+      <link>https://shunk031.me/publication/nakamachi2025yans/</link>
+      <pubDate>Fri, 19 Sep 2025 11:40:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/nakamachi2025yans/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

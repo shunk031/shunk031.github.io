@@ -5,12 +5,20 @@
     <link>https://shunk031.me/category/sentiment-analysis/</link>
       <atom:link href="https://shunk031.me/category/sentiment-analysis/index.xml" rel="self" type="application/rss+xml" />
     <description>Sentiment Analysis</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 02 Aug 2022 14:18:12 +0900</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 19 Sep 2025 14:40:00 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.me/media/sharing.png</url>
       <title>Sentiment Analysis</title>
       <link>https://shunk031.me/category/sentiment-analysis/</link>
     </image>
+    
+    <item>
+      <title>WRIME-TC：時間的文脈による書き手と読み手の感情分析の強化</title>
+      <link>https://shunk031.me/publication/chan2025yans/</link>
+      <pubDate>Fri, 19 Sep 2025 14:40:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/chan2025yans/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Expressions Causing Differences in Emotion Recognition in Social Networking Service Documents</title>

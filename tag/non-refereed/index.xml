@@ -5,12 +5,44 @@
     <link>https://shunk031.me/tag/non-refereed/</link>
       <atom:link href="https://shunk031.me/tag/non-refereed/index.xml" rel="self" type="application/rss+xml" />
     <description>Non-refereed</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Aug 2025 00:00:00 +0900</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 19 Sep 2025 11:40:52 +0000</lastBuildDate>
     <image>
       <url>https://shunk031.me/media/sharing.png</url>
       <title>Non-refereed</title>
       <link>https://shunk031.me/tag/non-refereed/</link>
     </image>
+    
+    <item>
+      <title>ローカル LLM を用いた AI エージェントの現状と課題</title>
+      <link>https://shunk031.me/publication/takeshita2025yans/</link>
+      <pubDate>Fri, 19 Sep 2025 11:40:52 +0000</pubDate>
+      <guid>https://shunk031.me/publication/takeshita2025yans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WRIME-TC：時間的文脈による書き手と読み手の感情分析の強化</title>
+      <link>https://shunk031.me/publication/chan2025yans/</link>
+      <pubDate>Fri, 19 Sep 2025 14:40:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/chan2025yans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>日本語の広告画像向けタイポグラフィ属性の生成型解析：小規模 VLM の LoRA 微調整による検証</title>
+      <link>https://shunk031.me/publication/nakamachi2025yans/</link>
+      <pubDate>Fri, 19 Sep 2025 11:40:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/nakamachi2025yans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GenGA：学術論文における編集可能な Graphical Abstract の自動生成に関する初期検討</title>
+      <link>https://shunk031.me/publication/kawada2025yans/</link>
+      <pubDate>Thu, 18 Sep 2025 14:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/kawada2025yans/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>VASCAR: Content-Aware Layout Generation via Visual-Aware Self-Correction</title>
@@ -77,7 +109,7 @@
     </item>
     
     <item>
-      <title>学術論文におけるGraphical Abstract自動生成の初期検討</title>
+      <title>学術論文における Graphical Abstract 自動生成の初期検討</title>
       <link>https://shunk031.me/publication/kawada2024yans/</link>
       <pubDate>Thu, 05 Sep 2024 17:50:00 +0900</pubDate>
       <guid>https://shunk031.me/publication/kawada2024yans/</guid>

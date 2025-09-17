@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI Agent | shunk031.me</title>
+    <link>https://shunk031.me/tag/ai-agent/</link>
+      <atom:link href="https://shunk031.me/tag/ai-agent/index.xml" rel="self" type="application/rss+xml" />
+    <description>AI Agent</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 19 Sep 2025 11:40:52 +0000</lastBuildDate>
+    <image>
+      <url>https://shunk031.me/media/sharing.png</url>
+      <title>AI Agent</title>
+      <link>https://shunk031.me/tag/ai-agent/</link>
+    </image>
+    
+    <item>
+      <title>ローカル LLM を用いた AI エージェントの現状と課題</title>
+      <link>https://shunk031.me/publication/takeshita2025yans/</link>
+      <pubDate>Fri, 19 Sep 2025 11:40:52 +0000</pubDate>
+      <guid>https://shunk031.me/publication/takeshita2025yans/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

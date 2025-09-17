@@ -5,12 +5,20 @@
     <link>https://shunk031.me/tag/ai-for-science/</link>
       <atom:link href="https://shunk031.me/tag/ai-for-science/index.xml" rel="self" type="application/rss+xml" />
     <description>AI for Science</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 11 Mar 2025 08:30:00 +0900</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 18 Sep 2025 14:00:00 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.me/media/sharing.png</url>
       <title>AI for Science</title>
       <link>https://shunk031.me/tag/ai-for-science/</link>
     </image>
+    
+    <item>
+      <title>GenGA：学術論文における編集可能な Graphical Abstract の自動生成に関する初期検討</title>
+      <link>https://shunk031.me/publication/kawada2025yans/</link>
+      <pubDate>Thu, 18 Sep 2025 14:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/kawada2025yans/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>SciGA: 学術論文における Graphical Abstract 設計支援のための統合データセット</title>
@@ -29,7 +37,7 @@
     </item>
     
     <item>
-      <title>学術論文におけるGraphical Abstract自動生成の初期検討</title>
+      <title>学術論文における Graphical Abstract 自動生成の初期検討</title>
       <link>https://shunk031.me/publication/kawada2024yans/</link>
       <pubDate>Thu, 05 Sep 2024 17:50:00 +0900</pubDate>
       <guid>https://shunk031.me/publication/kawada2024yans/</guid>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>中町 礼文 | shunk031.me</title>
+    <link>https://shunk031.me/authors/%E4%B8%AD%E7%94%BA-%E7%A4%BC%E6%96%87/</link>
+      <atom:link href="https://shunk031.me/authors/%E4%B8%AD%E7%94%BA-%E7%A4%BC%E6%96%87/index.xml" rel="self" type="application/rss+xml" />
+    <description>中町 礼文</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 19 Sep 2025 11:40:00 +0900</lastBuildDate>
+    <image>
+      <url>https://shunk031.me/media/sharing.png</url>
+      <title>中町 礼文</title>
+      <link>https://shunk031.me/authors/%E4%B8%AD%E7%94%BA-%E7%A4%BC%E6%96%87/</link>
+    </image>
+    
+    <item>
+      <title>日本語の広告画像向けタイポグラフィ属性の生成型解析：小規模 VLM の LoRA 微調整による検証</title>
+      <link>https://shunk031.me/publication/nakamachi2025yans/</link>
+      <pubDate>Fri, 19 Sep 2025 11:40:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/nakamachi2025yans/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

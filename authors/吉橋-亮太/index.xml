@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>吉橋 亮太 | shunk031.me</title>
+    <link>https://shunk031.me/authors/%E5%90%89%E6%A9%8B-%E4%BA%AE%E5%A4%AA/</link>
+      <atom:link href="https://shunk031.me/authors/%E5%90%89%E6%A9%8B-%E4%BA%AE%E5%A4%AA/index.xml" rel="self" type="application/rss+xml" />
+    <description>吉橋 亮太</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 19 Sep 2025 11:40:00 +0900</lastBuildDate>
+    <image>
+      <url>https://shunk031.me/media/sharing.png</url>
+      <title>吉橋 亮太</title>
+      <link>https://shunk031.me/authors/%E5%90%89%E6%A9%8B-%E4%BA%AE%E5%A4%AA/</link>
+    </image>
+    
+    <item>
+      <title>日本語の広告画像向けタイポグラフィ属性の生成型解析：小規模 VLM の LoRA 微調整による検証</title>
+      <link>https://shunk031.me/publication/nakamachi2025yans/</link>
+      <pubDate>Fri, 19 Sep 2025 11:40:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/nakamachi2025yans/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

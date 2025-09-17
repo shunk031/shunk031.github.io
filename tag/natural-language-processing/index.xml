@@ -5,12 +5,20 @@
     <link>https://shunk031.me/tag/natural-language-processing/</link>
       <atom:link href="https://shunk031.me/tag/natural-language-processing/index.xml" rel="self" type="application/rss+xml" />
     <description>Natural Language Processing</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 11 Mar 2025 08:30:00 +0900</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 19 Sep 2025 14:40:00 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.me/media/sharing.png</url>
       <title>Natural Language Processing</title>
       <link>https://shunk031.me/tag/natural-language-processing/</link>
     </image>
+    
+    <item>
+      <title>WRIME-TC：時間的文脈による書き手と読み手の感情分析の強化</title>
+      <link>https://shunk031.me/publication/chan2025yans/</link>
+      <pubDate>Fri, 19 Sep 2025 14:40:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/chan2025yans/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>SciGA: 学術論文における Graphical Abstract 設計支援のための統合データセット</title>

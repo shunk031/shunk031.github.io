@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>陳 冠帆 | shunk031.me</title>
+    <link>https://shunk031.me/authors/%E9%99%B3-%E5%86%A0%E5%B8%86/</link>
+      <atom:link href="https://shunk031.me/authors/%E9%99%B3-%E5%86%A0%E5%B8%86/index.xml" rel="self" type="application/rss+xml" />
+    <description>陳 冠帆</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 19 Sep 2025 14:40:00 +0900</lastBuildDate>
+    <image>
+      <url>https://shunk031.me/media/sharing.png</url>
+      <title>陳 冠帆</title>
+      <link>https://shunk031.me/authors/%E9%99%B3-%E5%86%A0%E5%B8%86/</link>
+    </image>
+    
+    <item>
+      <title>WRIME-TC：時間的文脈による書き手と読み手の感情分析の強化</title>
+      <link>https://shunk031.me/publication/chan2025yans/</link>
+      <pubDate>Fri, 19 Sep 2025 14:40:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/chan2025yans/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

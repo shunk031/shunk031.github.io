@@ -5,12 +5,36 @@
     <link>https://shunk031.me/authors/%E5%B7%9D%E7%94%B0-%E6%8B%93%E6%9C%97/</link>
       <atom:link href="https://shunk031.me/authors/%E5%B7%9D%E7%94%B0-%E6%8B%93%E6%9C%97/index.xml" rel="self" type="application/rss+xml" />
     <description>川田 拓朗</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Aug 2025 00:00:00 +0900</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 19 Sep 2025 11:40:52 +0000</lastBuildDate>
     <image>
       <url>https://shunk031.me/media/sharing.png</url>
       <title>川田 拓朗</title>
       <link>https://shunk031.me/authors/%E5%B7%9D%E7%94%B0-%E6%8B%93%E6%9C%97/</link>
     </image>
+    
+    <item>
+      <title>ローカル LLM を用いた AI エージェントの現状と課題</title>
+      <link>https://shunk031.me/publication/takeshita2025yans/</link>
+      <pubDate>Fri, 19 Sep 2025 11:40:52 +0000</pubDate>
+      <guid>https://shunk031.me/publication/takeshita2025yans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WRIME-TC：時間的文脈による書き手と読み手の感情分析の強化</title>
+      <link>https://shunk031.me/publication/chan2025yans/</link>
+      <pubDate>Fri, 19 Sep 2025 14:40:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/chan2025yans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GenGA：学術論文における編集可能な Graphical Abstract の自動生成に関する初期検討</title>
+      <link>https://shunk031.me/publication/kawada2025yans/</link>
+      <pubDate>Thu, 18 Sep 2025 14:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/kawada2025yans/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>グラフィカルアブストラクト推薦と評価の統合ベンチマーク</title>
@@ -29,7 +53,7 @@
     </item>
     
     <item>
-      <title>学術論文におけるGraphical Abstract自動生成の初期検討</title>
+      <title>学術論文における Graphical Abstract 自動生成の初期検討</title>
       <link>https://shunk031.me/publication/kawada2024yans/</link>
       <pubDate>Thu, 05 Sep 2024 17:50:00 +0900</pubDate>
       <guid>https://shunk031.me/publication/kawada2024yans/</guid>
