@@ -27,6 +27,7 @@ exclude = [
     "iyatomi-lab.info",
     "creativecommons.org",
     "eccv.ecva.net",
+    "iwa-shi.github.io",
 ]
 
 # Website timeout from connect to response finished.
