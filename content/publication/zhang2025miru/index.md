@@ -40,9 +40,9 @@ links:
 url_pdf:
 url_code:
 url_dataset:
-url_poster:
+url_poster: publication/zhang2025miru/poster.pdf
 url_project:
-url_slides:
+url_slides: publication/zhang2025miru/slides.pdf
 url_source:
 url_video:
 
