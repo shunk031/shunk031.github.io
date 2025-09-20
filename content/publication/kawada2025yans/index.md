@@ -17,7 +17,7 @@ publication_types: ["presentation"]
 
 # Publication name and optional abbreviated publication name.
 publication: "NLP 若手の会 (YANS) 第 20 回シンポジウム，2025."
-publication_short: "YANS 2025"
+publication_short: "YANS 2025 *（株式会社 ABEJA 賞 受賞）*"
 
 abstract: "Graphical Abstract（GA）は論文の要点を視覚的に伝える重要な表現手段である．効果的な GA の作成には高度なデザインスキルが求められ，設計支援技術の実現が期待される．本研究では，後から手動編集可能な GA を自動生成するフレームワーク GenGA を提案する．GenGA は，対象論文の本文を Vision-Language Model（VLM）に入力し，ベクタ画像コード（SVG）として GA を生成する．生成コードをレンダリングした後，別の VLM が本文との整合性や可読性を評価し，その結果を生成器に反映して出力を反復的に改良する．GenGA は，迅速に修正・再利用可能な GA を提供し，作成コストの低減を通じて科学コミュニケーションの円滑化に貢献する．"
 
