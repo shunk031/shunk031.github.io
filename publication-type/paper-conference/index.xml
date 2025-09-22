@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>paper-conference | shunk031.me</title>
+    <title>Paper-Conference | shunk031.me</title>
     <link>https://shunk031.me/publication-type/paper-conference/</link>
       <atom:link href="https://shunk031.me/publication-type/paper-conference/index.xml" rel="self" type="application/rss+xml" />
-    <description>paper-conference</description>
+    <description>Paper-Conference</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jul 2024 08:00:00 +0000</lastBuildDate>
     <image>
       <url>https://shunk031.me/media/sharing.png</url>
-      <title>paper-conference</title>
+      <title>Paper-Conference</title>
       <link>https://shunk031.me/publication-type/paper-conference/</link>
     </image>
     

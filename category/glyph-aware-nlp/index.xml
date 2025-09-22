@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Glyph-aware NLP | shunk031.me</title>
+    <title>Glyph-Aware NLP | shunk031.me</title>
     <link>https://shunk031.me/category/glyph-aware-nlp/</link>
       <atom:link href="https://shunk031.me/category/glyph-aware-nlp/index.xml" rel="self" type="application/rss+xml" />
-    <description>Glyph-aware NLP</description>
+    <description>Glyph-Aware NLP</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 17 Mar 2022 10:40:00 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.me/media/sharing.png</url>
-      <title>Glyph-aware NLP</title>
+      <title>Glyph-Aware NLP</title>
       <link>https://shunk031.me/category/glyph-aware-nlp/</link>
     </image>
     

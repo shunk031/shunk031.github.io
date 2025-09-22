@@ -73,9 +73,12 @@
 &lt;li&gt;MobileNet のアーキテクチャをもとにした Siamese Network による顔認証と音声認識を用いた AI スマートボックス&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/7t6OS991rJg&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/7t6OS991rJg?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
 
 
 
@@ -98,10 +101,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /post/hacku-hosei-2018/hacktime_hu2598b06d08c2d3ac8bd5a3e189ce5366_1730946_c09f2f41a034269ee82f08b4657ca32f.webp 400w,
-               /post/hacku-hosei-2018/hacktime_hu2598b06d08c2d3ac8bd5a3e189ce5366_1730946_50e8a57b84345b77cc77ff25e81b1023.webp 760w,
-               /post/hacku-hosei-2018/hacktime_hu2598b06d08c2d3ac8bd5a3e189ce5366_1730946_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://shunk031.me/post/hacku-hosei-2018/hacktime_hu2598b06d08c2d3ac8bd5a3e189ce5366_1730946_c09f2f41a034269ee82f08b4657ca32f.webp&#34;
+               /post/hacku-hosei-2018/hacktime_hu2798904155340120576.webp 400w,
+               /post/hacku-hosei-2018/hacktime_hu13758242689086574491.webp 760w,
+               /post/hacku-hosei-2018/hacktime_hu7924687824665721403.webp 1200w&#34;
+               src=&#34;https://shunk031.me/post/hacku-hosei-2018/hacktime_hu2798904155340120576.webp&#34;
                width=&#34;760&#34;
                height=&#34;507&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;

@@ -102,30 +102,30 @@ This paper is an extended version of the content presented at the &lt;a href=&#3
       <description>&lt;p&gt;This paper is an extended version of the content presented at the &lt;a href=&#34;https://pml4dc.github.io/iclr2024/program.html#:~:text=Contributed%20Talk9%3A,SOTA%20NEMOTO&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Practical ML for Low Resource Settings Workshop @ ICLR 2024&amp;rdquo;&lt;/a&gt;.
 We are honored to receive a rating of 9, which is in the top 15% of accepted papers, and a strong accept. We also gave an oral presentation in the ICLR workshop.&lt;/p&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;arXiv&lt;/th&gt;
-&lt;th&gt;IEEE&lt;/th&gt;
-&lt;th&gt;SCImago&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;div class=&#34;blogcard&#34;&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;arXiv&lt;/th&gt;
+          &lt;th&gt;IEEE&lt;/th&gt;
+          &lt;th&gt;SCImago&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;div class=&#34;blogcard&#34;&gt;
     &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
         src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2farxiv.org%2fabs%2f2401.11431&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
         scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;/td&gt;
-&lt;td&gt;&lt;div class=&#34;blogcard&#34;&gt;
+          &lt;td&gt;&lt;div class=&#34;blogcard&#34;&gt;
     &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
         src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fdoi.org%2f10.1109%2fACCESS.2024.3522972&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
         scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.scimagojr.com/journalsearch.php?q=21100374601&amp;amp;tip=sid&amp;amp;exact=no&#34; title=&#34;SCImago Journal &amp;amp; Country Rank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;https://www.scimagojr.com/journal_img.php?id=21100374601&#34; alt=&#34;SCImago Journal &amp;amp; Country Rank&#34;  /&gt;&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.scimagojr.com/journalsearch.php?q=21100374601&amp;amp;tip=sid&amp;amp;exact=no&#34; title=&#34;SCImago Journal &amp;amp; Country Rank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;https://www.scimagojr.com/journal_img.php?id=21100374601&#34; alt=&#34;SCImago Journal &amp;amp; Country Rank&#34;  /&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 </description>
     </item>
@@ -220,10 +220,10 @@ We are honored to receive a rating of 9, which is in the top 15% of accepted pap
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Techmap&#34; srcset=&#34;
-               /talk/ssii2024-technical-map-creative-design-generation-ssii24/featured_hu028b228786f44ec7e9901c283793d0e9_3681081_067be770e1a34cccf7c3efe1dc3e52b3.webp 400w,
-               /talk/ssii2024-technical-map-creative-design-generation-ssii24/featured_hu028b228786f44ec7e9901c283793d0e9_3681081_7401e7f2d75572d6ecc1283e5851288c.webp 760w,
-               /talk/ssii2024-technical-map-creative-design-generation-ssii24/featured_hu028b228786f44ec7e9901c283793d0e9_3681081_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://shunk031.me/talk/ssii2024-technical-map-creative-design-generation-ssii24/featured_hu028b228786f44ec7e9901c283793d0e9_3681081_067be770e1a34cccf7c3efe1dc3e52b3.webp&#34;
+               /talk/ssii2024-technical-map-creative-design-generation-ssii24/featured_hu3567120731372154951.webp 400w,
+               /talk/ssii2024-technical-map-creative-design-generation-ssii24/featured_hu5367951934812901927.webp 760w,
+               /talk/ssii2024-technical-map-creative-design-generation-ssii24/featured_hu11954655060568351870.webp 1200w&#34;
+               src=&#34;https://shunk031.me/talk/ssii2024-technical-map-creative-design-generation-ssii24/featured_hu3567120731372154951.webp&#34;
                width=&#34;760&#34;
                height=&#34;428&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -249,10 +249,10 @@ We are honored to receive a rating of 9, which is in the top 15% of accepted pap
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Bibliographic Information&#34; srcset=&#34;
-               /talk/ssii2024-technical-map-creative-design-generation-ssii24/bibliography_hua6d490682d5fa553f183e913cbfafab0_3286584_cd5a75f0b0c4282eda100821024cfac0.webp 400w,
-               /talk/ssii2024-technical-map-creative-design-generation-ssii24/bibliography_hua6d490682d5fa553f183e913cbfafab0_3286584_6b721af947c5da8c885c856495cd4145.webp 760w,
-               /talk/ssii2024-technical-map-creative-design-generation-ssii24/bibliography_hua6d490682d5fa553f183e913cbfafab0_3286584_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://shunk031.me/talk/ssii2024-technical-map-creative-design-generation-ssii24/bibliography_hua6d490682d5fa553f183e913cbfafab0_3286584_cd5a75f0b0c4282eda100821024cfac0.webp&#34;
+               /talk/ssii2024-technical-map-creative-design-generation-ssii24/bibliography_hu8677440278527071517.webp 400w,
+               /talk/ssii2024-technical-map-creative-design-generation-ssii24/bibliography_hu15239823057372159424.webp 760w,
+               /talk/ssii2024-technical-map-creative-design-generation-ssii24/bibliography_hu6630233903229351058.webp 1200w&#34;
+               src=&#34;https://shunk031.me/talk/ssii2024-technical-map-creative-design-generation-ssii24/bibliography_hu8677440278527071517.webp&#34;
                width=&#34;760&#34;
                height=&#34;428&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -338,9 +338,12 @@ We are honored to receive a rating of 9, which is in the top 15% of accepted pap
       <pubDate>Sun, 25 Jun 2023 00:00:00 +0900</pubDate>
       <guid>https://shunk031.me/post/coloso-introduction-to-image-generation-ai/</guid>
       <description>
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/-IPEUOcPTas&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/-IPEUOcPTas?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
 
 &lt;h2 id=&#34;講義について&#34;&gt;講義について&lt;/h2&gt;
 &lt;ul&gt;
@@ -436,30 +439,30 @@ During my doctoral program, I was particularly supported by various people, and 
       <pubDate>Thu, 27 Oct 2022 21:33:00 +0900</pubDate>
       <guid>https://shunk031.me/publication/kitada2022making/</guid>
       <description>&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;arXiv&lt;/th&gt;
-&lt;th&gt;Springer&lt;/th&gt;
-&lt;th&gt;SCImago&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;div class=&#34;blogcard&#34;&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;arXiv&lt;/th&gt;
+          &lt;th&gt;Springer&lt;/th&gt;
+          &lt;th&gt;SCImago&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;div class=&#34;blogcard&#34;&gt;
     &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
         src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2farxiv.org%2fabs%2f2104.08763&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
         scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;/td&gt;
-&lt;td&gt;&lt;div class=&#34;blogcard&#34;&gt;
+          &lt;td&gt;&lt;div class=&#34;blogcard&#34;&gt;
     &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
         src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2flink.springer.com%2farticle%2f10.1007%2fs10489-022-04301-w&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
         scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.scimagojr.com/journalsearch.php?q=23674&amp;amp;tip=sid&amp;amp;exact=no&#34; title=&#34;SCImago Journal &amp;amp; Country Rank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;https://www.scimagojr.com/journal_img.php?id=23674&#34; alt=&#34;SCImago Journal &amp;amp; Country Rank&#34;  /&gt;&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.scimagojr.com/journalsearch.php?q=23674&amp;amp;tip=sid&amp;amp;exact=no&#34; title=&#34;SCImago Journal &amp;amp; Country Rank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;https://www.scimagojr.com/journal_img.php?id=23674&#34; alt=&#34;SCImago Journal &amp;amp; Country Rank&#34;  /&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 </description>
     </item>
@@ -530,9 +533,12 @@ During my doctoral program, I was particularly supported by various people, and 
       <description>&lt;h1 id=&#34;nlp-hacks-vol6nlp-の研究を加速させる-allennlp-入門&#34;&gt;【NLP Hacks vol.6】NLP の研究を加速させる AllenNLP 入門&lt;/h1&gt;
 &lt;h2 id=&#34;動画---video&#34;&gt;動画 - Video&lt;/h2&gt;
 
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/j7Jy0ZvZctQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/j7Jy0ZvZctQ?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
 
 &lt;h2 id=&#34;資料---slides&#34;&gt;資料 - Slides&lt;/h2&gt;
 &lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;5b2abe097db54f5e97f5088dd3ff64c4&#34; data-ratio=&#34;1.33333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
@@ -587,30 +593,30 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
       <pubDate>Mon, 04 Apr 2022 00:35:42 +0900</pubDate>
       <guid>https://shunk031.me/publication/kitada2022ad/</guid>
       <description>&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;arXiv&lt;/th&gt;
-&lt;th&gt;MDPI&lt;/th&gt;
-&lt;th&gt;SCImago&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;div class=&#34;blogcard&#34;&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;arXiv&lt;/th&gt;
+          &lt;th&gt;MDPI&lt;/th&gt;
+          &lt;th&gt;SCImago&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;div class=&#34;blogcard&#34;&gt;
     &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
         src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2farxiv.org%2fabs%2f2204.11588&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
         scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;/td&gt;
-&lt;td&gt;&lt;div class=&#34;blogcard&#34;&gt;
+          &lt;td&gt;&lt;div class=&#34;blogcard&#34;&gt;
     &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
         src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fwww.mdpi.com%2f2076-3417%2f12%2f7%2f3594&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
         scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.scimagojr.com/journalsearch.php?q=21100829268&amp;amp;tip=sid&amp;amp;exact=no&#34; title=&#34;SCImago Journal &amp;amp; Country Rank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;https://www.scimagojr.com/journal_img.php?id=21100829268&#34; alt=&#34;SCImago Journal &amp;amp; Country Rank&#34;  /&gt;&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.scimagojr.com/journalsearch.php?q=21100829268&amp;amp;tip=sid&amp;amp;exact=no&#34; title=&#34;SCImago Journal &amp;amp; Country Rank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;https://www.scimagojr.com/journal_img.php?id=21100829268&#34; alt=&#34;SCImago Journal &amp;amp; Country Rank&#34;  /&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 </description>
     </item>
@@ -915,9 +921,12 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
       <description>&lt;p&gt;オープンキャンパスに際して、応用情報工学科の学科代表として所属研究室の紹介動画が公開されました。
 詳細は &lt;a href=&#34;https://nyushi.hosei.ac.jp/koganei-oc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;法政大学 理系 3 学部合同 オープンキャンパス | 法政大学 入試情報サイト&lt;/a&gt; をご覧ください。&lt;/p&gt;
 
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/YJnFaXotuDE?start=323&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/YJnFaXotuDE?start=323?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
 
 &lt;div class=&#34;blogcard&#34;&gt;
     &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
@@ -1239,11 +1248,11 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;北田さん（写真左）／Gunosy Tech Lab 所属 インターン生
-, 関さん（写真右）／Gunosy 共同創業者 Gunosy Tech Lab R&amp;amp;amp;Dﾁｰﾑ 上席研究員&#34; srcset=&#34;
-               /news/interview-about-my-research-internship-in-gunosy-2019/figure1_hub70a714246bf3825c967cfea621b1677_788898_438b498e3d4522f487a60eeb048db83f.webp 400w,
-               /news/interview-about-my-research-internship-in-gunosy-2019/figure1_hub70a714246bf3825c967cfea621b1677_788898_8411bd83e278774c6afbf88e583798f2.webp 760w,
-               /news/interview-about-my-research-internship-in-gunosy-2019/figure1_hub70a714246bf3825c967cfea621b1677_788898_1200x1200_fit_q75_h2_lanczos_2.webp 1200w&#34;
-               src=&#34;https://shunk031.me/news/interview-about-my-research-internship-in-gunosy-2019/figure1_hub70a714246bf3825c967cfea621b1677_788898_438b498e3d4522f487a60eeb048db83f.webp&#34;
+, 関さん（写真右）／Gunosy 共同創業者 Gunosy Tech Lab R&amp;amp;Dﾁｰﾑ 上席研究員&#34; srcset=&#34;
+               /news/interview-about-my-research-internship-in-gunosy-2019/figure1_hu3772893816453722067.webp 400w,
+               /news/interview-about-my-research-internship-in-gunosy-2019/figure1_hu9716305176108692699.webp 760w,
+               /news/interview-about-my-research-internship-in-gunosy-2019/figure1_hu1346940128337756719.webp 1200w&#34;
+               src=&#34;https://shunk031.me/news/interview-about-my-research-internship-in-gunosy-2019/figure1_hu3772893816453722067.webp&#34;
                width=&#34;760&#34;
                height=&#34;506&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1294,10 +1303,10 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;▲受賞者：Gunosy Tech Lab 関さん（写真左）／インターン 北田さん（写真右）
 &#34; srcset=&#34;
-               /news/ceo-special-award-at-gunosy-2019/figure1_hu2d3b728695875aca29a2a2202bf0c270_615920_18905701973a78386bff1ebe6ad8707c.webp 400w,
-               /news/ceo-special-award-at-gunosy-2019/figure1_hu2d3b728695875aca29a2a2202bf0c270_615920_344e1d6efa0bc858f6a5d5e9a99f501f.webp 760w,
-               /news/ceo-special-award-at-gunosy-2019/figure1_hu2d3b728695875aca29a2a2202bf0c270_615920_1200x1200_fit_q75_h2_lanczos_2.webp 1200w&#34;
-               src=&#34;https://shunk031.me/news/ceo-special-award-at-gunosy-2019/figure1_hu2d3b728695875aca29a2a2202bf0c270_615920_18905701973a78386bff1ebe6ad8707c.webp&#34;
+               /news/ceo-special-award-at-gunosy-2019/figure1_hu7344294740995872307.webp 400w,
+               /news/ceo-special-award-at-gunosy-2019/figure1_hu12558667793024011583.webp 760w,
+               /news/ceo-special-award-at-gunosy-2019/figure1_hu10258226519216767131.webp 1200w&#34;
+               src=&#34;https://shunk031.me/news/ceo-special-award-at-gunosy-2019/figure1_hu7344294740995872307.webp&#34;
                width=&#34;760&#34;
                height=&#34;506&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1500,9 +1509,12 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
 &lt;li&gt;MobileNet のアーキテクチャをもとにした Siamese Network による顔認証と音声認識を用いた AI スマートボックス&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/7t6OS991rJg&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/7t6OS991rJg?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
 
 
 
@@ -1525,10 +1537,10 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /post/hacku-hosei-2018/hacktime_hu2598b06d08c2d3ac8bd5a3e189ce5366_1730946_c09f2f41a034269ee82f08b4657ca32f.webp 400w,
-               /post/hacku-hosei-2018/hacktime_hu2598b06d08c2d3ac8bd5a3e189ce5366_1730946_50e8a57b84345b77cc77ff25e81b1023.webp 760w,
-               /post/hacku-hosei-2018/hacktime_hu2598b06d08c2d3ac8bd5a3e189ce5366_1730946_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://shunk031.me/post/hacku-hosei-2018/hacktime_hu2598b06d08c2d3ac8bd5a3e189ce5366_1730946_c09f2f41a034269ee82f08b4657ca32f.webp&#34;
+               /post/hacku-hosei-2018/hacktime_hu2798904155340120576.webp 400w,
+               /post/hacku-hosei-2018/hacktime_hu13758242689086574491.webp 760w,
+               /post/hacku-hosei-2018/hacktime_hu7924687824665721403.webp 1200w&#34;
+               src=&#34;https://shunk031.me/post/hacku-hosei-2018/hacktime_hu2798904155340120576.webp&#34;
                width=&#34;760&#34;
                height=&#34;507&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;

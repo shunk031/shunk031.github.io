@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>presentation | shunk031.me</title>
+    <title>Presentation | shunk031.me</title>
     <link>https://shunk031.me/publication-type/presentation/</link>
       <atom:link href="https://shunk031.me/publication-type/presentation/index.xml" rel="self" type="application/rss+xml" />
-    <description>presentation</description>
+    <description>Presentation</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 19 Sep 2025 11:40:52 +0000</lastBuildDate>
     <image>
       <url>https://shunk031.me/media/sharing.png</url>
-      <title>presentation</title>
+      <title>Presentation</title>
       <link>https://shunk031.me/publication-type/presentation/</link>
     </image>
     
