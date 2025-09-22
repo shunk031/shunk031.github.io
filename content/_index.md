@@ -112,7 +112,7 @@ sections:
       filters:
         folders:
           - news
-        tag: 'Awards & Grants'
+        tag: "Awards and Grants"
     design:
       columns: '2'
       view: community/news_list
