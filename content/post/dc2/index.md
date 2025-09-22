@@ -36,7 +36,9 @@ image:
 
 ## 摂動に頑健で解釈可能な深層学習モデルの開発とその解釈性の評価
 
-### {{% staticref "uploads/jsps_research_fellow/dc2_kitada.pdf" "newtab" %}}{{< icon name="download" pack="fas" >}} 令和 3 年度採用分 特別研究員 - DC 申請書 (PDF, 1.8MB){{% /staticref %}}
+{{% callout note %}}
+{{% staticref "uploads/jsps_research_fellow/dc2_kitada.pdf" "newtab" %}}{{< icon name="download" pack="fas" >}} 令和 3 年度採用分 特別研究員 - DC 申請書 (PDF, 1.8MB){{% /staticref %}}
+{{% /callout %}}
 
 審査区分は `情報学` の `知能情報学関連` で、専門分野は `自然言語処理` として申請しました。
 研究・職歴等は以下のように記述しました。特に TA や RA、企業でのリサーチインターン等の経験は研究遂行能力に影響を与えると考えました：
@@ -67,7 +69,7 @@ image:
 
 私は申請書執筆時点で最難関国際会議の 1 つである学会に論文採択経験があったので、特に小田さんの申請書のストーリー展開や最難関国際会議への論文採択経験の強調の仕方等を参考にさせていただきました。
 
-## 学振 DC2 採用の体験談について (2022/04/01 更新）
+## 学振 DC2 採用の体験談について（2022/04/01 更新）
 
 学内で開催された [2023（令和 5）年度 日本学術振興会特別研究員（ＤＣ１・ＤＣ２）申請に関する セミナー](https://www.hosei.ac.jp/kenkyu/info/article-20220228215045/) にて、[私の学振 DC2 体験談（発表資料{{< icon name="speaker-deck" pack="fab" >}})](/talk/my-experience-about-jsps-research-fellowship) という講演をしました。学振特別研究員になってよかったこと、採用までの（長かった）道のり、申請作作成の注意点などをまとめています。
 
