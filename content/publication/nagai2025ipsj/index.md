@@ -17,9 +17,9 @@ publication_types: ["article"]
 
 # Publication name and optional abbreviated publication name.
 publication: "情報処理学第 87 回全国大会，2025."
-publication_short: "IPSJ 2025"
+publication_short: "IPSJ 2025 *（学生奨励賞 受賞）*"
 
-abstract: "潜在拡散モデル（LDM）は、プロンプトから高品質な画像を生成するが、複数物体を含むプロンプトについては物体の欠落や属性の混同が課題となる。本研究では、逆拡散過程で物体の存在が確定するステップに着目した新たな枠組TAUE(Training-free trAnsplant cUltivation diffusion modEl) を提案する。TAUEでは各物体と背景を個別に生成し、苗を畑に植えるように、物体の存在が確定したノイズで背景上の対象領域を上書きすることで物体の欠落を防ぎ、配置に忠実な画像の生成を実現する。TAUEは様々なLDMの関連技術への応用が期待され、直感的な生成プロセスを提供する。"
+abstract: "潜在拡散モデル（LDM）は、プロンプトから高品質な画像を生成するが、複数物体を含むプロンプトについては物体の欠落や属性の混同が課題となる。本研究では、逆拡散過程で物体の存在が確定するステップに着目した新たな枠組 TAUE(Training-free trAnsplant cUltivation diffusion modEl) を提案する。TAUE では各物体と背景を個別に生成し、苗を畑に植えるように、物体の存在が確定したノイズで背景上の対象領域を上書きすることで物体の欠落を防ぎ、配置に忠実な画像の生成を実現する。TAUE は様々な LDM の関連技術への応用が期待され、直感的な生成プロセスを提供する。"
 
 # Summary. An optional shortened abstract.
 summary: "情報処理学第 87 回全国大会，2025."
