@@ -5,8 +5,8 @@ title: "Got Grant-in-Aid for Japan Society for the Promotion of Science (JSPS) F
 subtitle: ""
 summary: ""
 authors: ["Shunsuke Kitada"]
-tags: ["News", "Awards & Grants"]
-categories: ["News", "Awards & Grants"]
+tags: ["News", "Awards and Grants"]
+categories: ["News", "Awards and Grants"]
 date: 2021-05-01T15:29:21+09:00
 lastmod: 2023-01-28T15:29:21+09:00
 featured: false

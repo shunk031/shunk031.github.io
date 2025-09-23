@@ -5,8 +5,8 @@ title: "Interview About My Research Internship in Gunosy 2019"
 subtitle: ""
 summary: ""
 authors: ["Shunsuke Kitada"]
-tags: ["News", "Awards & Grants"]
-categories: ["News", "Awards & Grants"]
+tags: ["News", "Awards and Grants"]
+categories: ["News", "Awards and Grants"]
 date: 2019-08-02T00:00:00+09:00
 lastmod: 2023-01-28T16:01:12+09:00
 featured: false
