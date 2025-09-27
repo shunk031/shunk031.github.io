@@ -1,7 +1,7 @@
 ---
 # Documentation: https://docs.hugoblox.com/managing-content/
 
-title: "Our Workshop Proposal on Foundation Data Accepted at ICCV 2025"
+title: "Accepted our Workshop Proposal on Foundation Data to ICCV 2025"
 subtitle: ""
 summary: ""
 authors: ["Yoshihiro Fukuhara", "Hirokatsu Kataoka", "Püren Güler", "Shunsuke Kitada", "Xavier Boix", "Dan Hendrycks", "Keisuke Tateno", "Shinichi Mae", "Tatsuya Komatsu", "Nishant Rai", "Ryo Nakamura", "Risa Shinoda", "Takahiro Itazuri", "Yoshiki Kubotani", "Guarin Flück", "Wadim Kehl", "Kazuki Kozuka"]
