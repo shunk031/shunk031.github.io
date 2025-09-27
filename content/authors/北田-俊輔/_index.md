@@ -10,14 +10,23 @@ role: Research Scientist working on Vision & Language with Deep Learning
 
 # Organizations/Affiliations
 organizations:
-- name: リサーチサイエンティスト @LINE ヤフー株式会社
-  url: "https://www.lycorp.co.jp/ja/company/overview/"
-- name: 〒102-8282 東京都千代田区紀尾井町 1-3 東京ガーデンテラス紀尾井町 紀尾井タワー
-- name: 大学院特任研究員 @法政大学
-  url: "https://www.hosei.ac.jp/gs/riko/oyojoho_senko/"
-- name: 〒184-8584 東京都 小金井市 梶野町 3-7-2 南館 S603
-- name: 知的情報処理研究室 （彌冨研）
-  url: "https://iyatomi-lab.info/"
+  - name: リサーチサイエンティスト @LINE ヤフー株式会社    
+    url: "https://www.lycorp.co.jp/ja/company/overview/"
+  - name: 〒102-8282 東京都千代田区紀尾井町 1-3 東京ガーデンテラス紀尾井町 紀尾井タワー    
+
+  - name: 大学院特任研究員 @法政大学
+    url: "https://www.hosei.ac.jp/gs/riko/oyojoho_senko/"
+  - name: 〒184-8584 東京都 小金井市 梶野町 3-7-2 南館 S603
+
+  - name: 知的情報処理研究室 （彌冨研）
+    url: "https://iyatomi-lab.info/"
+
+  - name: 研究員 @電気通信大学
+    url: "https://www.uec.ac.jp/education/graduate/j/index.html"
+  - name: 〒182-8585 東京都 調布市 調布ケ丘 1-5-1 電気通信大学 西 5 号館
+
+  - name: 原研究室
+    url: "https://sites.google.com/gl.cc.uec.ac.jp/hara-lab"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include deep learning-based natural language processing, computer vision, medical image processing, and computational advertising.
