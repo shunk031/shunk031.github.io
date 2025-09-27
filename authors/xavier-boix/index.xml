@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xavier Boix | shunk031.me</title>
+    <link>https://shunk031.me/authors/xavier-boix/</link>
+      <atom:link href="https://shunk031.me/authors/xavier-boix/index.xml" rel="self" type="application/rss+xml" />
+    <description>Xavier Boix</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 27 Sep 2025 03:13:47 +0000</lastBuildDate>
+    <image>
+      <url>https://shunk031.me/media/sharing.png</url>
+      <title>Xavier Boix</title>
+      <link>https://shunk031.me/authors/xavier-boix/</link>
+    </image>
+    
+    <item>
+      <title>Foundation Data for Industrial Tech Transfer</title>
+      <link>https://shunk031.me/post/iccv2025-found-workshop/</link>
+      <pubDate>Sat, 27 Sep 2025 03:13:47 +0000</pubDate>
+      <guid>https://shunk031.me/post/iccv2025-found-workshop/</guid>
+      <description>&lt;p&gt;We are happy to announce the ICCV 2025 workshop “FOUND: Foundation Data for Industrial Tech Transfer” has been accepted! This workshop will be held in conjunction with ICCV 2025, one of the top conferences in computer vision. The workshop will highlight the critical role of data in building foundation models, with a particular focus on robust dataset construction and industry-driven applications.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;h2 id=&#34;about-found-workshop&#34;&gt;About FOUND Workshop&lt;/h2&gt;
+&lt;p&gt;Recently, Transformer-based foundation models have achieved outstanding performance across a broad spectrum of benchmarks spanning recognition and generation tasks, and their versatility has fueled rapid advances in both AI research and industrial deployment. To seamlessly adapt these models to downstream tasks in diverse real-world domains-including medicine, manufacturing, robotics, and the creative industries-and thereby deliver tangible impact on human life, it is indispensable to develop Tech Transfer technologies that encompass domain-specific fine-tuning and robust MLOps pipelines, where the decisive factor is the breadth and quality of data available for those tasks. At the same time, model evaluation is approaching saturation on conventional IID benchmarks, prompting growing calls to redesign evaluation metrics and tasks that dispense with the IID assumption and explicitly capture out-of-distribution (OOD) and long-tail phenomena. Advancing both (i) Tech Transfer to heterogeneous downstream tasks and (ii) the definition of next-generation evaluation criteria therefore hinges on curating and exploiting broader and deeper data resources-Foundation Data, as we term them. Against this backdrop, the ICCV 2025 workshop “FOUND: Foundation Data for Industrial Tech Transfer” will convene researchers from industry and academia to share techniques for realizing Foundation Data and to engage in comprehensive discussions on model adaptation and the design of novel evaluation tasks grounded in such data, with the ultimate aim of opening new horizons for AI research and application.&lt;/p&gt;
+&lt;h2 id=&#34;topics-of-interest&#34;&gt;Topics of Interest&lt;/h2&gt;
+&lt;p&gt;The workshop focus on following topics across the diverse domains covered by our organizers:&lt;/p&gt;
+&lt;p&gt;Data-centric approach&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Data collection from real-world/non-Internet domain&lt;/li&gt;
+&lt;li&gt;Data curation from rough data in the wild into sophisticated and labeled datasets&lt;/li&gt;
+&lt;li&gt;Data crawling, annotation, and cleansing for training of AI models&lt;/li&gt;
+&lt;li&gt;Data labeling with {Self, Semi, Weakly, Un}-supervised learning without any human instructions&lt;/li&gt;
+&lt;li&gt;Data generation with synthetic, graphics, and artificial images&lt;/li&gt;
+&lt;li&gt;Data and a new evaluation setup for assessing powerful foundation models&lt;/li&gt;
+&lt;li&gt;Data representation and benchmarks for new sensing modalities (e.g., event cameras, multimodal sensors)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tech transfer approach&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Adaptation techniques from large-/middle-scale AI models&lt;/li&gt;
+&lt;li&gt;Evaluation techniques to assess the optimal AI models for complex downstream tasks&lt;/li&gt;
+&lt;li&gt;{Few-shot, Zero-shot} learning techniques&lt;/li&gt;
+&lt;li&gt;{Out-of, Long-tail} distribution scenarios&lt;/li&gt;
+&lt;li&gt;Security, privacy, ethics, and accountability toward real-world applications&lt;/li&gt;
+&lt;li&gt;Model adaptation strategies for novel sensor data and multimodal fusion&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Accepted our Workshop Proposal on Foundation Data to ICCV 2025</title>
+      <link>https://shunk031.me/news/acceptance-to-iccv2025-found-workshop/</link>
+      <pubDate>Fri, 18 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://shunk031.me/news/acceptance-to-iccv2025-found-workshop/</guid>
+      <description>&lt;p&gt;Our workshop proposal &lt;a href=&#34;https://iccv2025-found-workshop.limitlab.xyz/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;FOUND: Foundation Data for Foundation Models&amp;rdquo;&lt;/a&gt; has been accepted at ICCV 2025, one of the top conferences in computer vision. This workshop will highlight the critical role of data in building foundation models, with a particular focus on robust dataset construction and industry-driven applications.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://shunk031.me/post/iccv2025-found-workshop/&#34;&gt;More Information about the Workshop&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It is a great honor to serve as an organizer of this workshop. Notably, it is quite rare for a workshop led by researchers from Japan to be accepted at such a premier international venue, making this achievement especially meaningful.&lt;/p&gt;
+&lt;div class=&#34;blogcard&#34;&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2ficcv2025-found-workshop.limitlab.xyz%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
+        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>
