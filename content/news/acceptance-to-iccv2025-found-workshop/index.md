@@ -28,7 +28,9 @@ image:
 projects: []
 ---
 
-Our workshop proposal "[FOUND: Foundation Data for Foundation Models](https://iccv2025-found-workshop.limitlab.xyz/)" has been accepted at ICCV 2025, one of the top conferences in computer vision. This workshop will highlight the critical role of data in building foundation models, with a particular focus on robust dataset construction and industry-driven applications.
+Our workshop proposal ["FOUND: Foundation Data for Foundation Models"](https://iccv2025-found-workshop.limitlab.xyz/) has been accepted at ICCV 2025, one of the top conferences in computer vision. This workshop will highlight the critical role of data in building foundation models, with a particular focus on robust dataset construction and industry-driven applications.
+
+> [More Information about the Workshop](/post/iccv2025-found-workshop/)
 
 It is a great honor to serve as an organizer of this workshop. Notably, it is quite rare for a workshop led by researchers from Japan to be accepted at such a premier international venue, making this achievement especially meaningful.
 
