@@ -19,13 +19,22 @@ role: Research Scientist working on Vision & Language with Deep Learning
 # Organizations/Affiliations to show in About widget
 organizations:
   - name: Research Scientist @ Image and Video AI Dept., LY Corp.
-  - name: Kioi Tower 1-3 Kioicho, Chiyoda-ku, Tokyo, 102-8282, Japan
     url: "https://www.lycorp.co.jp/en/company/overview/"
+  - name: Kioi Tower 1-3 Kioicho, Chiyoda-ku, Tokyo, 102-8282, Japan    
+
   - name: Project Researcher @ Hosei University
-    url: "https://ai.ws.hosei.ac.jp/wp/"
-  - name: S603, 3-7-2, Kajino-cho, Koganei-shi, Tokyo 184-8584, Japan
+    url: "https://ai.ws.hosei.ac.jp/wp/"    
+  - name: S603, 3-7-2, Kajino-cho, Koganei-shi, Tokyo 184-8584, Japan    
+  
   - name: Intelligent information processing laboratory
     url: "https://iyatomi-lab.info/english-top"
+
+  - name: Researcher @ The University of Electro-Communications
+    url: "https://www.uec.ac.jp/education/graduate/j/index.html"
+  - name: Nishi 5 Building, 1-5-1, Chofugaoka, Chofu-shi, Tokyo 182-8585, Japan
+
+  - name: Hara Laboratory
+    url: "https://sites.google.com/gl.cc.uec.ac.jp/hara-lab"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include deep learning-based natural language processing, computer vision, medical image processing, and computational advertising.
