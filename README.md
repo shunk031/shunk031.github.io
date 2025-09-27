@@ -1,6 +1,10 @@
 <div align="center">
+  <h1>
+    <code><a href="https://shunk031.me/">shunk031.me</a></code>
+  </h1>
+</div>
 
-# [`shunk031.me`](https://shunk031.me/)
+<div align="center">
 
 [![Actions Status](https://github.com/shunk031/shunk031.github.io/workflows/Page%20Build/badge.svg)](https://github.com/shunk031/shunk031.github.io/actions?query=workflow%3A%22Page+Build%22)
 [![gohugoio/hugo](https://img.shields.io/github/v/tag/gohugoio/hugo?color=FF4088&display_name=release&label=HugoBlox&logo=hugo&logoColor=FF4088&sort=semver)](https://github.com/gohugoio/hugo)
