@@ -1,5 +1,6 @@
 HUGO_VERSION := 0.136.5
-HUGO_CMD := docker run --rm -v $(PWD):/project -v $(HOME)/Library/Caches/hugo_cache:/cache -p 1313:1313 ghcr.io/gohugoio/hugo:v$(HUGO_VERSION)
+# HUGO_CMD := container run --rm -v $(PWD):/project -v $(HOME)/Library/Caches/hugo_cache:/cache -p 1313:1313 ghcr.io/gohugoio/hugo:v$(HUGO_VERSION)
+HUGO_CMD := hugo
 
 .PHONY : help
 help :
@@ -15,7 +16,7 @@ build :
 
 .PHONY : server
 server :
-	$(HUGO_CMD) server --bind=0.0.0.0
+	$(HUGO_CMD) --logLevel info server --bind=0.0.0.0
 
 .PHONY : run
 run : update server

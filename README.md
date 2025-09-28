@@ -12,6 +12,9 @@
 
 </div>
 
+> [!TIP]
+> VSCode's devcontainer is recommended for writing contents.
+
 ## 🏃 Running locally
 
 ### Install `hugo` to build page
