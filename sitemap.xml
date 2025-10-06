@@ -2,8 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://shunk031.me/tag/bats/</loc>
+    <lastmod>2025-10-06T21:26:01+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://shunk031.me/categories/</loc>
-    <lastmod>2025-09-27T12:26:23+09:00</lastmod>
+    <lastmod>2025-10-06T21:26:01+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/chezmoi/</loc>
+    <lastmod>2025-10-06T21:26:01+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/dotfiles/</loc>
+    <lastmod>2025-10-06T21:26:01+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/github-actions/</loc>
+    <lastmod>2025-10-06T21:26:01+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tags/</loc>
+    <lastmod>2025-10-06T21:26:01+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/category/tech/</loc>
+    <lastmod>2025-10-06T21:26:01+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/post/testable-dotfiles-management-with-chezmoi/</loc>
+    <lastmod>2025-10-06T21:26:01+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/authors/dan-hendrycks/</loc>
@@ -55,10 +83,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/authors/shinichi-mae/</loc>
-    <lastmod>2025-09-27T12:26:23+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/tags/</loc>
     <lastmod>2025-09-27T12:26:23+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>

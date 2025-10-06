@@ -1,0 +1,1904 @@
+<!DOCTYPE html>
+<!-- This site was created with Hugo Blox. https://hugoblox.com -->
+<!-- Last Published: October 6, 2025 --><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Hugo Blox Builder 5.9.7" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;800&family=Merriweather:wght@400;900&family=Permanent+Marker:wght@400&display=swap&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;800&family=Merriweather:wght@400;900&family=Permanent+Marker:wght@400&display=swap&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.26c458e6907dc03073573976b7f4044e.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.4/css/academicons.min.css" integrity="sha512-IW0nhlW5MgNydsXJO40En2EoCkTTjZhI3yuODrZIc8cQ4h1XcF53PsqDHa09NqnkXuIe0Oiyyj171BqZFwISBw==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css" integrity="" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.db92ece0de614f1190233c6bd60e89d2.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" disabled>
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" >
+  
+
+  
+  
+
+  <meta name="google-site-verification" content="mlfhgZD5ToIaXCc4qjAka3OdD1xq0PguCaXpTv0VUYM" />
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114287158-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-114287158-2', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="北田 俊輔" />
+
+
+
+
+
+  
+
+<meta name="description" content="This article explains an approach to dotfiles management that emphasizes testability, using the author&#39;s dotfiles repository shunk031/dotfiles as a case study." />
+
+
+
+<link rel="alternate" hreflang="en-us" href="https://shunk031.me/post/testable-dotfiles-management-with-chezmoi/" />
+<link rel="canonical" href="https://shunk031.me/post/testable-dotfiles-management-with-chezmoi/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hu10051210922980447289.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu9607046383224317331.png" />
+
+<meta name="theme-color" content="#1565c0" />
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary_large_image" />
+
+  <meta property="twitter:site" content="@shunk031" />
+  <meta property="twitter:creator" content="@shunk031" />
+<meta property="twitter:image" content="https://shunk031.me/post/testable-dotfiles-management-with-chezmoi/featured.png" />
+
+
+
+  
+
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="shunk031.me" />
+<meta property="og:url" content="https://shunk031.me/post/testable-dotfiles-management-with-chezmoi/" />
+<meta property="og:title" content="Testable Dotfiles Management With Chezmoi | shunk031.me" />
+<meta property="og:description" content="This article explains an approach to dotfiles management that emphasizes testability, using the author&#39;s dotfiles repository shunk031/dotfiles as a case study." /><meta property="og:image" content="https://shunk031.me/post/testable-dotfiles-management-with-chezmoi/featured.png" /><meta property="og:locale" content="en-us" />
+
+  
+    <meta
+      property="article:published_time"
+      content="2025-10-06T20:00:00&#43;09:00"
+    />
+  
+  
+    <meta property="article:modified_time" content="2025-10-06T21:26:01&#43;09:00">
+  
+
+
+
+
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://shunk031.me/post/testable-dotfiles-management-with-chezmoi/"
+  },
+  "headline": "Testable Dotfiles Management With Chezmoi",
+  
+  "image": [
+    "https://shunk031.me/post/testable-dotfiles-management-with-chezmoi/featured.png"
+  ],
+  
+  "datePublished": "2025-10-06T20:00:00+09:00",
+  "dateModified": "2025-10-06T21:26:01+09:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Shunsuke Kitada, Ph.D."
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "shunk031.me",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://shunk031.me/media/icon_hu8917630770089639356.png"
+    }
+  },
+  "description": "This article explains an approach to dotfiles management that emphasizes testability, using the author's dotfiles repository shunk031/dotfiles as a case study."
+}
+</script>
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+
+
+  
+  <title>Testable Dotfiles Management With Chezmoi | shunk031.me</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  dark " data-wc-page-id="5d8456854878f83db252650b947a94cb" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.db21e13b9b5c4f4b947717750ec8b3cc.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">shunk031.me</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">shunk031.me</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>🏠 Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#recent-news"><span>🗞️ News</span></a>
+          </li>
+
+          
+          
+
+          
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>📝 Publications</span><span class="caret"></span>
+            </a>
+            <div class="dropdown-menu">
+              
+                <a class="dropdown-item" href="/#journal-articles"><span>Journal Article</span></a>
+              
+                <a class="dropdown-item" href="/#conference-papers"><span>Conference Paper</span></a>
+              
+                <a class="dropdown-item" href="/#preprints"><span>Preprint</span></a>
+              
+                <a class="dropdown-item" href="/#dissertation"><span>Thesis</span></a>
+              
+                <a class="dropdown-item" href="/#domestic-conferences"><span>Domestic Conference Paper / Presentation</span></a>
+              
+            </div>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#talks"><span>🎙️ Talks</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#awards-and-grants"><span>🏆 Awards & Grants</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#featured-posts"><span>📝 Posts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#experience"><span>💻 Experience</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+          
+            
+            <li class="nav-item d-none d-lg-inline-flex">
+              <a class="nav-link" href="https://twitter.com/shunk031" data-toggle="tooltip" data-placement="bottom" title="Follow me on Twitter" target="_blank" rel="noopener" aria-label="Follow me on Twitter">
+                <i class="fab fa-twitter" aria-hidden="true"></i>
+              </a>
+            </li>
+          
+        
+
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+<div class="article-container pt-3">
+  <h1>Testable Dotfiles Management With Chezmoi</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      <a href="/authors/shunsuke-kitada/">Shunsuke Kitada, Ph.D.</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Oct 6, 2025
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    9 min read
+  </span>
+  
+
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/tech/">Tech</a></span>
+  
+
+</div>
+
+  
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 300px;">
+  <div style="position: relative">
+    <img src="/post/testable-dotfiles-management-with-chezmoi/featured_hu9223137560190521915.webp" width="720" height="300" alt="" class="featured-image">
+    
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>This article explains an approach to dotfiles management that emphasizes testability, using the author&rsquo;s dotfiles repository <a href="https://github.com/shunk031/dotfiles" target="_blank" rel="noopener">shunk031/dotfiles</a> as a case study.</p>
+<div class="blogcard">
+    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;"
+        src="https://hatenablog-parts.com/embed?url=https%3a%2f%2fgithub.com%2fshunk031%2fdotfiles" width="300" height="150" frameborder="0"
+        scrolling="no"></iframe>
+</div>
+
+
+
+<details class="toc-inpage d-print-none  " open>
+  <summary class="font-weight-bold">Table of Contents</summary>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a>
+      <ul>
+        <li><a href="#dotfiles-and-dotfiles-repositories">Dotfiles and Dotfiles Repositories</a></li>
+        <li><a href="#the-problem-of-untested-scripts">The Problem of Untested Scripts</a></li>
+        <li><a href="#my-repositorys-approach-testable-configuration">My Repository&rsquo;s Approach: Testable Configuration</a></li>
+      </ul>
+    </li>
+    <li><a href="#architecture-design-testable-configuration">Architecture Design: Testable Configuration</a>
+      <ul>
+        <li><a href="#repository-structure">Repository Structure</a></li>
+        <li><a href="#design-philosophy">Design Philosophy</a></li>
+      </ul>
+    </li>
+    <li><a href="#test--cicd-strategy">Test &amp; CI/CD Strategy</a>
+      <ul>
+        <li><a href="#unit-test-implementation-with-bats">Unit Test Implementation with Bats</a></li>
+        <li><a href="#comprehensive-verification-with-github-actions">Comprehensive Verification with GitHub Actions</a></li>
+      </ul>
+    </li>
+    <li><a href="#implementation-details-and-operational-flow">Implementation Details and Operational Flow</a>
+      <ul>
+        <li><a href="#structure-and-implementation-examples-of-setup-scripts">Structure and Implementation Examples of Setup Scripts</a></li>
+        <li><a href="#development-and-maintenance-flow">Development and Maintenance Flow</a></li>
+      </ul>
+    </li>
+    <li><a href="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
+</details>
+
+<h2 id="introduction">Introduction</h2>
+<h3 id="dotfiles-and-dotfiles-repositories">Dotfiles and Dotfiles Repositories</h3>
+<p>The <em><code>dotfiles</code></em> refer to configuration files that start with a &ldquo;<code>.</code>&rdquo; (dot) such as <code>.bashrc</code>, <code>.vimrc</code>, and <code>.gitconfig</code>. In recent years, <a href="https://awesomeopensource.com/projects/dotfiles" target="_blank" rel="noopener">dotfiles repositories</a> that manage these files using Git repositories have become widely popular among developers.</p>
+<p><div class="blogcard">
+    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;"
+        src="https://hatenablog-parts.com/embed?url=https%3a%2f%2fawesomeopensource.com%2fprojects%2fdotfiles" width="300" height="150" frameborder="0"
+        scrolling="no"></iframe>
+</div>
+
+<div class="blogcard">
+    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;"
+        src="https://hatenablog-parts.com/embed?url=https%3a%2f%2fgithub.com%2fwebpro%2fawesome-dotfiles" width="300" height="150" frameborder="0"
+        scrolling="no"></iframe>
+</div>
+</p>
+<p>The <em><code>dotfiles repositories</code></em> often function not just as configuration file management tools, but as automated development environment setup tools that include configuration files, installation scripts, and setup scripts. This enables quick and consistent setup on new machines and environments.</p>
+<h3 id="the-problem-of-untested-scripts">The Problem of Untested Scripts</h3>
+<p>Most setup and installation scripts included in dotfiles repositories are not tested for proper functionality (which is painful). As a result, various problems can occur when setting up in new environments. Script errors, installation failures of some tools due to dependency issues, and script malfunctions due to OS updates may go unnoticed until actually executed. It&rsquo;s extremely stressful when you get a new computer or environment and excitedly start the setup process, only to have errors occur midway through, preventing the environment setup from completing.</p>
+<p>This lack of quality assurance results in what should be automated environment construction consuming a lot of time on manual problem-solving and debugging.</p>
+<h3 id="my-repositorys-approach-testable-configuration">My Repository&rsquo;s Approach: Testable Configuration</h3>
+<p>To solve the above problems, my dotfiles repository builds an architecture that emphasizes testability. Setup scripts are managed as independent files to enable individual testing, quality is ensured through automated testing with <a href="https://github.com/bats-core/bats-core" target="_blank" rel="noopener">Bats</a>, and continuous testing and code coverage measurement are performed in macOS and Ubuntu environments using GitHub Actions.</p>
+<p>For managing dotfiles, I&rsquo;ve adopted <a href="https://www.chezmoi.io/" target="_blank" rel="noopener">chezmoi</a>. chezmoi is a modern dotfiles management tool with high popularity on GitHub (<a href="https://github.com/twpayne/chezmoi/stargazers" target="_blank" rel="noopener">10,000+⭐️</a>). Written in Go as a single, dependency-free binary, chezmoi is easy to install even on a brand-new, clean environment.</p>
+<p><div class="blogcard">
+    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;"
+        src="https://hatenablog-parts.com/embed?url=https%3a%2f%2fgithub.com%2ftwpayne%2fchezmoi" width="300" height="150" frameborder="0"
+        scrolling="no"></iframe>
+</div>
+
+<div class="blogcard">
+    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;"
+        src="https://hatenablog-parts.com/embed?url=https%3a%2f%2fwww.chezmoi.io%2f" width="300" height="150" frameborder="0"
+        scrolling="no"></iframe>
+</div>
+</p>
+<p>Environment setup on a new machine can be executed with the following very simple one-liner using chezmoi&rsquo;s official installer<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sh -c <span class="s2">&#34;</span><span class="k">$(</span>curl -fsLS get.chezmoi.io<span class="k">)</span><span class="s2">&#34;</span> -- init --apply <span class="nv">$GITHUB_USERNAME</span>
+</span></span></code></pre></div><p>Environment-specific settings can be dynamically generated using chezmoi&rsquo;s template functionality based on Go&rsquo;s <code>text/template</code> as follows.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go:.gitconfig.tmpl" data-lang="go:.gitconfig.tmpl"><span class="line"><span class="cl"><span class="x">[user]                           # Can be dynamically specified via template functionality
+</span></span></span><span class="line"><span class="cl"><span class="x">    name = &#34;{{.name}}&#34;           # - User name
+</span></span></span><span class="line"><span class="cl"><span class="x">    email = &#34;{{.email}}&#34;         # - Email address etc.
+</span></span></span><span class="line"><span class="cl"><span class="x">{{- if eq .chezmoi.os &#34;darwin&#34;}} # macOS-specific settings
+</span></span></span><span class="line"><span class="cl"><span class="x">[credential]
+</span></span></span><span class="line"><span class="cl"><span class="x">    helper = osxkeychain
+</span></span></span><span class="line"><span class="cl"><span class="x">{{- end}}
+</span></span></span></code></pre></div><div class="blogcard">
+    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;"
+        src="https://hatenablog-parts.com/embed?url=https%3a%2f%2fwww.chezmoi.io%2fuser-guide%2ftemplating%2f" width="300" height="150" frameborder="0"
+        scrolling="no"></iframe>
+</div>
+
+<p>In this way, we aim to achieve reliable dotfiles management by ensuring script quality through testable configuration and flexibly managing environment-specific settings through chezmoi&rsquo;s template functionality.</p>
+<h2 id="architecture-design-testable-configuration">Architecture Design: Testable Configuration</h2>
+<h3 id="repository-structure">Repository Structure</h3>
+<p>My repository is broadly divided into three directories: <a href="https://github.com/shunk031/dotfiles/tree/master/home" target="_blank" rel="noopener"><code>home/</code></a>, <a href="https://github.com/shunk031/dotfiles/tree/master/install" target="_blank" rel="noopener"><code>install/</code></a>, and <a href="https://github.com/shunk031/dotfiles/tree/master/tests" target="_blank" rel="noopener"><code>tests/</code></a>, managing dotfiles, environment setup scripts, and automated tests independently.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">.
+</span></span><span class="line"><span class="cl">├── ...
+</span></span><span class="line"><span class="cl">│
+</span></span><span class="line"><span class="cl">├── home/                   # dotfiles under chezmoi management
+</span></span><span class="line"><span class="cl">│   ├── dot_bashrc          # - deployed as ~/.bashrc
+</span></span><span class="line"><span class="cl">│   ├── dot_vimrc           # - deployed as ~/.vimrc
+</span></span><span class="line"><span class="cl">│   ├── dot_config/         # - deployed as ~/.config/
+</span></span><span class="line"><span class="cl">│   └── .chezmoi.yaml.tmpl  # - chezmoi configuration file
+</span></span><span class="line"><span class="cl">│
+</span></span><span class="line"><span class="cl">├── install/                # setup scripts (testable)
+</span></span><span class="line"><span class="cl">│   ├── common/             # - common installation scripts
+</span></span><span class="line"><span class="cl">│   ├── macos/              # - macOS-specific scripts
+</span></span><span class="line"><span class="cl">│   └── ubuntu/             # - Ubuntu-specific scripts
+</span></span><span class="line"><span class="cl">│
+</span></span><span class="line"><span class="cl">├── tests/                  # automated tests with Bats
+</span></span><span class="line"><span class="cl">│   ├── install/            # - tests for installation scripts
+</span></span><span class="line"><span class="cl">│   └── files/              # - tests for files after chezmoi deployment
+</span></span><span class="line"><span class="cl">│
+</span></span><span class="line"><span class="cl">└── ...
+</span></span></code></pre></div><h3 id="design-philosophy">Design Philosophy</h3>
+<p>The core of this architecture lies in &ldquo;separation of concerns&rdquo; and &ldquo;maximizing testability&rdquo;. Traditional dotfiles repositories mix configuration files and setup scripts, making testing difficult, but this configuration clearly separates each element.</p>
+<h4 id="the-install-directory-easy-unit-testing-through-script-separation">The <code>install/</code> directory: Easy Unit Testing Through Script Separation</h4>
+<p>By making setup scripts independent from chezmoi, individual testing becomes possible.</p>
+<ul>
+<li><a href="https://github.com/shunk031/dotfiles/blob/master/install/common/rust.sh" target="_blank" rel="noopener"><code>install/common/rust.sh</code></a>: Installation of tools used commonly across machines (e.g., Rust)</li>
+<li><a href="https://github.com/shunk031/dotfiles/blob/master/install/macos/common/brew.sh" target="_blank" rel="noopener"><code>install/macos/common/brew.sh</code></a>: Installation of Homebrew used commonly on macOS</li>
+<li><a href="https://github.com/shunk031/dotfiles/blob/master/install/ubuntu/common/misc.sh" target="_blank" rel="noopener"><code>install/ubuntu/common/misc.sh</code></a>: Installation of tools used commonly on Ubuntu (e.g., curl, jq)</li>
+</ul>
+<p>Platform-specific configuration separates OS-specific logic, allowing each to be tested independently. Each script follows the single responsibility principle, handling only the installation of specific tools or packages.</p>
+<h4 id="the-home-directory-chezmoi-templates-and-dotfiles">The <code>home/</code> directory: chezmoi Templates and dotfiles</h4>
+<p>These are the actual dotfiles under chezmoi management. They follow chezmoi&rsquo;s unique file naming conventions <a href="https://www.chezmoi.io/user-guide/frequently-asked-questions/design/#why-does-chezmoi-use-weird-filenames" target="_blank" rel="noopener">(<code>dot_</code> prefix etc.)</a> and utilize template functionality. This repository specifies <code>home</code> as the source directory using the <a href="https://www.chezmoi.io/user-guide/advanced/customize-your-source-directory/" target="_blank" rel="noopener">.chezmoiroot</a> file<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</p>
+<ul>
+<li><a href="https://github.com/shunk031/dotfiles/blob/master/home/dot_zshrc" target="_blank" rel="noopener"><code>home/dot_zshrc</code></a>: deployed as <code>~/.zshrc</code></li>
+<li><a href="https://github.com/shunk031/dotfiles/blob/master/home/dot_config/git/config.tmpl" target="_blank" rel="noopener"><code>home/dot_config/git/config.tmpl</code></a>: chezmoi template deployed as <code>~/.config/git/config</code></li>
+<li><a href="https://github.com/shunk031/dotfiles/blob/master/home/.chezmoi.yaml.tmpl" target="_blank" rel="noopener"><code>home/.chezmoi.yaml.tmpl</code></a>: chezmoi configuration file</li>
+</ul>
+<p>It&rsquo;s independent from the scripts in the <code>install/</code> directory, separating configuration file placement and environment construction.</p>
+<h4 id="the-tests-directory-automated-testing-with-bats">The <code>tests/</code> directory: Automated Testing with Bats</h4>
+<p>I use Bash Automated Testing System (Bats) to test scripts in the <code>install/</code> directory. The test directories and files are configured to be consistent with the script.</p>
+<div class="blogcard">
+    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;"
+        src="https://hatenablog-parts.com/embed?url=https%3a%2f%2fgithub.com%2fbats-core%2fbats-core" width="300" height="150" frameborder="0"
+        scrolling="no"></iframe>
+</div>
+
+<ul>
+<li><a href="https://github.com/shunk031/dotfiles/blob/master/tests/install/common/rust.bats" target="_blank" rel="noopener"><code>tests/install/common/rust.bats</code></a>: Tests for Rust installation script</li>
+<li><a href="https://github.com/shunk031/dotfiles/blob/master/tests/install/macos/common/brew.bats" target="_blank" rel="noopener"><code>tests/install/macos/common/brew.bats</code></a>: Tests for Homebrew installation script</li>
+<li><a href="https://github.com/shunk031/dotfiles/blob/master/tests/files/common.bats" target="_blank" rel="noopener"><code>tests/files/common.bats</code></a>: Verification of file existence after chezmoi deployment</li>
+</ul>
+<p>Each test file verifies the script&rsquo;s behavior and confirms that expected results (package installation, configuration file generation, etc.) are obtained.</p>
+<h2 id="test--cicd-strategy">Test &amp; CI/CD Strategy</h2>
+<p>This repository adopts a test strategy based on the fundamental policy of &ldquo;continuous verification&rdquo;. We can verify that scripts in the <code>install/</code> directory work correctly in various environments and discover problems in advance to prevent failures during actual environment construction.</p>
+<h3 id="unit-test-implementation-with-bats">Unit Test Implementation with Bats</h3>
+<p>My repository adopts <a href="https://github.com/bats-core/bats-core" target="_blank" rel="noopener">Bash Automated Testing System (Bats)</a> to verify the behavior of each installation script. Bats is a testing framework specifically for shell scripts that allows writing tests with simple syntax.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">#!/usr/bin/env bats
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">@test &#34;brew installation script exists&#34; {
+</span></span><span class="line"><span class="cl">  [ -f &#34;install/macos/common/brew.sh&#34; ]
+</span></span><span class="line"><span class="cl">}
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">@test &#34;brew installation script is executable&#34; {
+</span></span><span class="line"><span class="cl">  [ -x &#34;install/macos/common/brew.sh&#34; ]
+</span></span><span class="line"><span class="cl">}
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">@test &#34;brew installation script runs without errors&#34; {
+</span></span><span class="line"><span class="cl">  run bash install/macos/common/brew.sh
+</span></span><span class="line"><span class="cl">  [ &#34;$status&#34; -eq 0 ]
+</span></span><span class="line"><span class="cl">}
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">@test &#34;brew command is available after installation&#34; {
+</span></span><span class="line"><span class="cl">  run command -v brew
+</span></span><span class="line"><span class="cl">  [ &#34;$status&#34; -eq 0 ]
+</span></span><span class="line"><span class="cl">}
+</span></span></code></pre></div><p>Each test progressively verifies script existence, executable permissions, actual execution, and expected results (command availability, etc.).</p>
+<h3 id="comprehensive-verification-with-github-actions">Comprehensive Verification with GitHub Actions</h3>
+<p>My repository uses GitHub Actions for multi-stage verification. In addition to unit tests, the workflow regularly executes actual end-to-end setup to achieve comprehensive quality assurance.</p>
+<h4 id="unit-test-execution">Unit Test Execution</h4>
+<p>My repository runs automated tests in macOS and Ubuntu environments to detect platform-specific issues early.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml:.github/workflows/test.yaml" data-lang="yaml:.github/workflows/test.yaml"><span class="line"><span class="cl"><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Test</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">on</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="l">push, pull_request]</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">jobs</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">test</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">strategy</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">matrix</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">os</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="l">ubuntu-latest, macos-latest]</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">runs-on</span><span class="p">:</span><span class="w"> </span><span class="l">${{ matrix.os }}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">steps</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">actions/checkout@v4</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Install Bats</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="p">|</span><span class="sd">
+</span></span></span><span class="line"><span class="cl"><span class="sd">          if [[ &#34;${{ matrix.os }}&#34; == &#34;ubuntu-latest&#34; ]]; then
+</span></span></span><span class="line"><span class="cl"><span class="sd">            sudo apt-get update &amp;&amp; sudo apt-get install -y bats
+</span></span></span><span class="line"><span class="cl"><span class="sd">          else
+</span></span></span><span class="line"><span class="cl"><span class="sd">            brew install bats-core
+</span></span></span><span class="line"><span class="cl"><span class="sd">          fi</span><span class="w">          
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Run tests</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="l">bats tests/install/</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Upload coverage reports</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">codecov/codecov-action@v3</span><span class="w">
+</span></span></span></code></pre></div><h4 id="regular-execution-of-actual-setup">Regular Execution of Actual Setup</h4>
+<p>More importantly, we should verify in environments identical to the actual user experience. This repository&rsquo;s workflow automatically executes the setup process using <a href="https://github.com/shunk031/dotfiles/blob/master/setup.sh" target="_blank" rel="noopener"><code>setup.sh</code></a> on macOS and Ubuntu runners every Friday. This script wraps the chezmoi environment construction one-liner mentioned earlier.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml:.github/workflows/remote.yaml" data-lang="yaml:.github/workflows/remote.yaml"><span class="line"><span class="cl"><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Snippet install</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">on</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">schedule</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span>- <span class="nt">cron</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;0 0 * * 5&#34;</span><span class="w">  </span><span class="c"># Every Friday</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">jobs</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">build</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">strategy</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">matrix</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">os</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="l">ubuntu-latest, macos-14]</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">system</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="l">client, server]</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">exclude</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span>- <span class="nt">os</span><span class="p">:</span><span class="w"> </span><span class="l">macos-14</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="nt">system</span><span class="p">:</span><span class="w"> </span><span class="l">server</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">runs-on</span><span class="p">:</span><span class="w"> </span><span class="l">${{ matrix.os }}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">steps</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Setup dotfiles with snippet</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="p">|</span><span class="sd">
+</span></span></span><span class="line"><span class="cl"><span class="sd">          if [ &#34;${OS}&#34; == &#34;macos-14&#34; ]; then
+</span></span></span><span class="line"><span class="cl"><span class="sd">            bash -c &#34;$(curl -fsLS https://shunk031.me/dotfiles/setup.sh)&#34;
+</span></span></span><span class="line"><span class="cl"><span class="sd">          elif [ &#34;${OS}&#34; == &#34;ubuntu-latest&#34; ]; then
+</span></span></span><span class="line"><span class="cl"><span class="sd">            bash -c &#34;$(wget -qO - https://shunk031.me/dotfiles/setup.sh)&#34;
+</span></span></span><span class="line"><span class="cl"><span class="sd">          fi</span><span class="w">          
+</span></span></span></code></pre></div><p>This regular execution continuously monitors the impact of external dependency changes, OS updates, and package manager changes on environment construction, ensuring reliability when actual users execute the setup.</p>
+<h4 id="code-coverage-measurement-and-codecov-integration">Code Coverage Measurement and Codecov Integration</h4>
+<p>My repository measures shell script code coverage using <a href="https://github.com/SimonKagstrom/kcov" target="_blank" rel="noopener">kcov</a> and visualizes it with <a href="https://codecov.io/" target="_blank" rel="noopener">Codecov</a>. This helps identify untested code paths and improve testing. Actual measurement uses <a href="https://github.com/shunk031/dotfiles/blob/master/scripts/run_unit_test.sh" target="_blank" rel="noopener"><code>scripts/run_unit_test.sh</code></a>.</p>
+<p><div class="blogcard">
+    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;"
+        src="https://hatenablog-parts.com/embed?url=https%3a%2f%2fgithub.com%2fSimonKagstrom%2fkcov" width="300" height="150" frameborder="0"
+        scrolling="no"></iframe>
+</div>
+
+<div class="blogcard">
+    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;"
+        src="https://hatenablog-parts.com/embed?url=https%3a%2f%2fabout.codecov.io%2f" width="300" height="150" frameborder="0"
+        scrolling="no"></iframe>
+</div>
+</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Example of coverage measurement</span>
+</span></span><span class="line"><span class="cl">kcov --clean --include-path<span class="o">=</span>install/macos/common/ <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>  coverage/ <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>  bats tests/install/macos/common/brew.bats
+</span></span></code></pre></div><p>Coverage reports are automatically commented on Pull Requests using <a href="https://github.com/codecov/codecov-action" target="_blank" rel="noopener">codecov/codecov-action</a>, allowing immediate understanding of the impact of changes.</p>
+<div class="blogcard">
+    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;"
+        src="https://hatenablog-parts.com/embed?url=https%3a%2f%2fgithub.com%2fcodecov%2fcodecov-action" width="300" height="150" frameborder="0"
+        scrolling="no"></iframe>
+</div>
+
+<h4 id="performance-measurement-and-benchmark-automation">Performance Measurement and Benchmark Automation</h4>
+<p>To continuously monitor shell startup performance after dotfiles application and detect the impact of configuration changes early, I&rsquo;ve automated benchmark measurement in the workflow of GitHub Actions.</p>
+<p>This implementation references the following article using <a href="https://github.com/benchmark-action/github-action-benchmark" target="_blank" rel="noopener">benchmark-action/github-action-benchmark</a>. The GitHub Actions workflow measures both initial shell startup time and average startup time (measured 10 times) to quantify the impact of dotfiles configuration on shell startup.</p>
+<p><div class="blogcard">
+    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;"
+        src="https://hatenablog-parts.com/embed?url=https%3a%2f%2fgithub.com%2fbenchmark-action%2fgithub-action-benchmark" width="300" height="150" frameborder="0"
+        scrolling="no"></iframe>
+</div>
+
+<div class="blogcard">
+    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;"
+        src="https://hatenablog-parts.com/embed?url=https%3a%2f%2fzenn.dev%2fodan%2farticles%2f17a86574b724c9" width="300" height="150" frameborder="0"
+        scrolling="no"></iframe>
+</div>
+</p>
+<p>Measurement results are published on <a href="https://shunk031.me/my-dotfiles-benchmarks/" target="_blank" rel="noopener">GitHub Pages</a>, achieving continuous performance monitoring. We can numerically confirm the impact of adding new plugins or configurations on shell startup time, preventing performance degradation before it occurs.</p>
+<div class="blogcard">
+    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;"
+        src="https://hatenablog-parts.com/embed?url=https%3a%2f%2fshunk031.me%2fmy-dotfiles-benchmarks%2f" width="300" height="150" frameborder="0"
+        scrolling="no"></iframe>
+</div>
+
+<h2 id="implementation-details-and-operational-flow">Implementation Details and Operational Flow</h2>
+<h3 id="structure-and-implementation-examples-of-setup-scripts">Structure and Implementation Examples of Setup Scripts</h3>
+<p>Scripts in the <code>install/</code> directory are designed following the single responsibility principle. Each script handles only the installation and configuration of specific tools, creating an independently testable structure.</p>
+<p>As a basic script structure, OS-specific processing is separated into different files and implemented as platform-specific scripts. All installation scripts follow the following common pattern. For shell script writing practices, <a href="https://betterdev.blog/minimal-safe-bash-script-template/" target="_blank" rel="noopener">Minimal safe Bash script template</a> is helpful.</p>
+<div class="blogcard">
+    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;"
+        src="https://hatenablog-parts.com/embed?url=https%3a%2f%2fbetterdev.blog%2fminimal-safe-bash-script-template%2f" width="300" height="150" frameborder="0"
+        scrolling="no"></iframe>
+</div>
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="cp">#!/usr/bin/env bash
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="nb">set</span> -Eeuo pipefail
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Debug mode setting</span>
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="o">[</span> <span class="s2">&#34;</span><span class="si">${</span><span class="nv">DOTFILES_DEBUG</span><span class="k">:-</span><span class="si">}</span><span class="s2">&#34;</span> <span class="o">]</span><span class="p">;</span> <span class="k">then</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">set</span> -x
+</span></span><span class="line"><span class="cl"><span class="k">fi</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Tool-specific functions</span>
+</span></span><span class="line"><span class="cl"><span class="k">function</span> is_tool_exists<span class="o">()</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">command</span> -v tool_name <span class="p">&amp;</span>&gt;/dev/null
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">function</span> install_tool<span class="o">()</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> ! is_tool_exists<span class="p">;</span> <span class="k">then</span>
+</span></span><span class="line"><span class="cl">        <span class="c1"># Platform-specific installation process</span>
+</span></span><span class="line"><span class="cl">        <span class="c1"># macOS: brew install tool_name</span>
+</span></span><span class="line"><span class="cl">        <span class="c1"># Ubuntu: sudo apt-get install -y tool_name</span>
+</span></span><span class="line"><span class="cl">    <span class="k">fi</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Main process</span>
+</span></span><span class="line"><span class="cl"><span class="k">function</span> main<span class="o">()</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">    install_tool
+</span></span><span class="line"><span class="cl">    <span class="c1"># Execute additional configuration process if needed</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="o">[[</span> <span class="s2">&#34;</span><span class="si">${</span><span class="nv">BASH_SOURCE</span><span class="p">[0]</span><span class="si">}</span><span class="s2">&#34;</span> <span class="o">==</span> <span class="s2">&#34;</span><span class="si">${</span><span class="nv">0</span><span class="si">}</span><span class="s2">&#34;</span> <span class="o">]]</span><span class="p">;</span> <span class="k">then</span>
+</span></span><span class="line"><span class="cl">    main
+</span></span><span class="line"><span class="cl"><span class="k">fi</span>
+</span></span></code></pre></div><p>The conditional statement <code>if [[ &quot;${BASH_SOURCE[0]}&quot; == &quot;${0}&quot; ]]; then</code> executes the <code>main</code> function only when the script is directly executed. When a script is loaded from another file using the <code>source</code> command (e.g., when calling functions from test files), only function definitions are loaded and <code>main</code> is not executed<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>. This allows the same script to be used both for &ldquo;execution&rdquo; and &ldquo;library&rdquo; purposes, greatly improving testability.</p>
+<p>For example, Homebrew installation is separated into <code>install/macos/common/brew.sh</code>, and chezmoi Ubuntu installation is in <code>install/ubuntu/common/chezmoi.sh</code>. This structure achieves platform optimization and testability.</p>
+<h3 id="development-and-maintenance-flow">Development and Maintenance Flow</h3>
+<h4 id="new-application-addition-procedure">New Application Addition Procedure</h4>
+<ol>
+<li>Create installation script</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Create install/macos/common/new_tool.sh</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Implement following the basic structure above</span>
+</span></span></code></pre></div><ol start="2">
+<li>Create test file</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Create tests/install/macos/common/new_tool.bats</span>
+</span></span><span class="line"><span class="cl">@test <span class="s2">&#34;new_tool installation script exists&#34;</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">  <span class="o">[</span> -f <span class="s2">&#34;install/macos/common/new_tool.sh&#34;</span> <span class="o">]</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">@test <span class="s2">&#34;new_tool can be installed&#34;</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">  run bash install/macos/common/new_tool.sh
+</span></span><span class="line"><span class="cl">  <span class="o">[</span> <span class="s2">&#34;</span><span class="nv">$status</span><span class="s2">&#34;</span> -eq <span class="m">0</span> <span class="o">]</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span></code></pre></div><ol start="3">
+<li>Run local tests</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">bats tests/install/macos/common/new_tool.bats
+</span></span></code></pre></div><h4 id="test-driven-development-process">Test-Driven Development Process</h4>
+<p>Development always proceeds test-first.</p>
+<ol>
+<li>Create test cases: First write expected behavior as tests</li>
+<li>Minimal implementation: Implement minimal script that passes tests</li>
+<li>Refactoring: Improve code while maintaining behavior</li>
+<li>Integration testing: Verify operation in CI environment</li>
+</ol>
+<p>This operational flow allows continuous improvement of dotfiles while maintaining quality and maintainability. Each change is necessarily covered by tests and verified in the CI pipeline, minimizing the risk of problems occurring in actual environments.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>This article explained the approach of &ldquo;testable dotfiles management&rdquo; combining chezmoi and test-driven development. We presented a comprehensive solution to the fundamental problem that traditional dotfiles repositories face: &ldquo;not knowing if setup scripts work correctly until execution&rdquo;. Specifically, this was an approach combining unit testing with Bats, continuous verification with GitHub Actions, and regular execution of actual end-to-end setup. Please consider incorporating testability into your own dotfiles management to achieve reliable development environment construction.</p>
+<div class="blogcard">
+    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;"
+        src="https://hatenablog-parts.com/embed?url=https%3a%2f%2fgithub.com%2fshunk031%2fdotfiles" width="300" height="150" frameborder="0"
+        scrolling="no"></iframe>
+</div>
+
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://www.chezmoi.io/quick-start/#start-using-chezmoi-on-your-current-machine:~:text=Create%20a%20new%20repository%20on%20GitHub%20called%20dotfiles%20and%20then%20push%20your%20repo%3A" target="_blank" rel="noopener">chezmoi starts setup by referencing <code>$GITHUB_USERNAME/dotfiles</code> on GitHub.</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>By default, chezmoi uses <a href="https://www.chezmoi.io/user-guide/advanced/customize-your-source-directory/" target="_blank" rel="noopener">the repository root as the source directory</a>.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>This is the same mechanism as Python&rsquo;s <code>if __name__ == &quot;__main__&quot;</code>.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/dotfiles/">Dotfiles</a>
+  
+  <a class="badge badge-light" href="/tag/chezmoi/">Chezmoi</a>
+  
+  <a class="badge badge-light" href="/tag/bats/">Bats</a>
+  
+  <a class="badge badge-light" href="/tag/github-actions/">GitHub Actions</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fshunk031.me%2Fpost%2Ftestable-dotfiles-management-with-chezmoi%2F&amp;text=Testable&#43;Dotfiles&#43;Management&#43;With&#43;Chezmoi" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fshunk031.me%2Fpost%2Ftestable-dotfiles-management-with-chezmoi%2F&amp;t=Testable&#43;Dotfiles&#43;Management&#43;With&#43;Chezmoi" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="mailto:?subject=Testable%20Dotfiles%20Management%20With%20Chezmoi&amp;body=https%3A%2F%2Fshunk031.me%2Fpost%2Ftestable-dotfiles-management-with-chezmoi%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fshunk031.me%2Fpost%2Ftestable-dotfiles-management-with-chezmoi%2F&amp;title=Testable&#43;Dotfiles&#43;Management&#43;With&#43;Chezmoi" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Testable&#43;Dotfiles&#43;Management&#43;With&#43;Chezmoi%20https%3A%2F%2Fshunk031.me%2Fpost%2Ftestable-dotfiles-management-with-chezmoi%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      <a href="https://shunk031.me/"><img class="avatar mr-3 avatar-circle" src="https://s.gravatar.com/avatar/5bea5748e87ba7a12c2f4a8595672366?s=200" alt="Shunsuke Kitada, Ph.D."></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://shunk031.me/">Shunsuke Kitada, Ph.D.</a></h5>
+      <h6 class="card-subtitle">Research Scientist working on Vision &amp; Language with Deep Learning</h6>
+      <p class="card-text">My research interests include deep learning-based natural language processing, computer vision, medical image processing, and computational advertising.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/shunk031" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.facebook.com/shunk031" target="_blank" rel="noopener">
+        <i class="fab fa-facebook"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=GUzGhQIAAAAJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/shunk031" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/shunk031/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://shunk031.hatenablog.com/" target="_blank" rel="noopener">
+        <i class="fas fa-pen-nib"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://speakerdeck.com/shunk031" target="_blank" rel="noopener">
+        <i class="fab fa-speaker-deck"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.researchgate.net/profile/Shunsuke_Kitada" target="_blank" rel="noopener">
+        <i class="ai ai-researchgate"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/shunk031/cv/releases/latest/download/cv.pdf" target="_blank" rel="noopener">
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+    
+
+    <p class="powered-by">
+        
+        Hosted on <a href="https://github.com/shunk031/shunk031.github.io">GitHub</a> <i class="fab fa-github"></i>
+    </p>
+
+    
+    
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    Copyright © 2025 Shunsuke Kitada. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+    <p class="powered-by">
+        
+        
+        
+        Published with
+        <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> —
+        the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">
+            open source</a> website builder that empowers creators.
+        
+    </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.50933d940896e49f984a778650d5f7f5.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js" integrity="" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/en/js/wowchemy.min.7f5ebaff62ae468cff8bb3dd1337bb9b.js"></script>
+
+
+
+  <script src="/js/wowchemy-map.a26e9d2f7238ba5b868384f1c5bc6477.js" type="module"></script>
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.9c0e895144aef5a693008b5c5d450147.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

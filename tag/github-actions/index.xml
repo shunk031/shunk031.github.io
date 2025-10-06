@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GitHub Actions | shunk031.me</title>
+    <link>https://shunk031.me/tag/github-actions/</link>
+      <atom:link href="https://shunk031.me/tag/github-actions/index.xml" rel="self" type="application/rss+xml" />
+    <description>GitHub Actions</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 06 Oct 2025 20:00:00 +0900</lastBuildDate>
+    <image>
+      <url>https://shunk031.me/media/sharing.png</url>
+      <title>GitHub Actions</title>
+      <link>https://shunk031.me/tag/github-actions/</link>
+    </image>
+    
+    <item>
+      <title>Testable Dotfiles Management With Chezmoi</title>
+      <link>https://shunk031.me/post/testable-dotfiles-management-with-chezmoi/</link>
+      <pubDate>Mon, 06 Oct 2025 20:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/post/testable-dotfiles-management-with-chezmoi/</guid>
+      <description>&lt;p&gt;This article explains an approach to dotfiles management that emphasizes testability, using the author&amp;rsquo;s dotfiles repository &lt;a href=&#34;https://github.com/shunk031/dotfiles&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shunk031/dotfiles&lt;/a&gt; as a case study.&lt;/p&gt;
+&lt;div class=&#34;blogcard&#34;&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fgithub.com%2fshunk031%2fdotfiles&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
+        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+
+&lt;details class=&#34;toc-inpage d-print-none  &#34; open&gt;
+  &lt;summary class=&#34;font-weight-bold&#34;&gt;Table of Contents&lt;/summary&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#introduction&#34;&gt;Introduction&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#dotfiles-and-dotfiles-repositories&#34;&gt;Dotfiles and Dotfiles Repositories&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#the-problem-of-untested-scripts&#34;&gt;The Problem of Untested Scripts&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#my-repositorys-approach-testable-configuration&#34;&gt;My Repository&amp;rsquo;s Approach: Testable Configuration&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#architecture-design-testable-configuration&#34;&gt;Architecture Design: Testable Configuration&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#repository-structure&#34;&gt;Repository Structure&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#design-philosophy&#34;&gt;Design Philosophy&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#test--cicd-strategy&#34;&gt;Test &amp;amp; CI/CD Strategy&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#unit-test-implementation-with-bats&#34;&gt;Unit Test Implementation with Bats&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#comprehensive-verification-with-github-actions&#34;&gt;Comprehensive Verification with GitHub Actions&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#implementation-details-and-operational-flow&#34;&gt;Implementation Details and Operational Flow&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#structure-and-implementation-examples-of-setup-scripts&#34;&gt;Structure and Implementation Examples of Setup Scripts&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#development-and-maintenance-flow&#34;&gt;Development and Maintenance Flow&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#conclusion&#34;&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;h3 id=&#34;dotfiles-and-dotfiles-repositories&#34;&gt;Dotfiles and Dotfiles Repositories&lt;/h3&gt;
+&lt;p&gt;The &lt;em&gt;&lt;code&gt;dotfiles&lt;/code&gt;&lt;/em&gt; refer to configuration files that start with a &amp;ldquo;&lt;code&gt;.&lt;/code&gt;&amp;rdquo; (dot) such as &lt;code&gt;.bashrc&lt;/code&gt;, &lt;code&gt;.vimrc&lt;/code&gt;, and &lt;code&gt;.gitconfig&lt;/code&gt;. In recent years, &lt;a href=&#34;https://awesomeopensource.com/projects/dotfiles&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;dotfiles repositories&lt;/a&gt; that manage these files using Git repositories have become widely popular among developers.&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;blogcard&#34;&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fawesomeopensource.com%2fprojects%2fdotfiles&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
+        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;blogcard&#34;&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fgithub.com%2fwebpro%2fawesome-dotfiles&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
+        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;The &lt;em&gt;&lt;code&gt;dotfiles repositories&lt;/code&gt;&lt;/em&gt; often function not just as configuration file management tools, but as automated development environment setup tools that include configuration files, installation scripts, and setup scripts. This enables quick and consistent setup on new machines and environments.&lt;/p&gt;
+&lt;h3 id=&#34;the-problem-of-untested-scripts&#34;&gt;The Problem of Untested Scripts&lt;/h3&gt;
+&lt;p&gt;Most setup and installation scripts included in dotfiles repositories are not tested for proper functionality (which is painful). As a result, various problems can occur when setting up in new environments. Script errors, installation failures of some tools due to dependency issues, and script malfunctions due to OS updates may go unnoticed until actually executed. It&amp;rsquo;s extremely stressful when you get a new computer or environment and excitedly start the setup process, only to have errors occur midway through, preventing the environment setup from completing.&lt;/p&gt;
+&lt;p&gt;This lack of quality assurance results in what should be automated environment construction consuming a lot of time on manual problem-solving and debugging.&lt;/p&gt;
+&lt;h3 id=&#34;my-repositorys-approach-testable-configuration&#34;&gt;My Repository&amp;rsquo;s Approach: Testable Configuration&lt;/h3&gt;
+&lt;p&gt;To solve the above problems, my dotfiles repository builds an architecture that emphasizes testability. Setup scripts are managed as independent files to enable individual testing, quality is ensured through automated testing with &lt;a href=&#34;https://github.com/bats-core/bats-core&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bats&lt;/a&gt;, and continuous testing and code coverage measurement are performed in macOS and Ubuntu environments using GitHub Actions.&lt;/p&gt;
+&lt;p&gt;For managing dotfiles, I&amp;rsquo;ve adopted &lt;a href=&#34;https://www.chezmoi.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;chezmoi&lt;/a&gt;. chezmoi is a modern dotfiles management tool with high popularity on GitHub (&lt;a href=&#34;https://github.com/twpayne/chezmoi/stargazers&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;10,000+⭐️&lt;/a&gt;). Written in Go as a single, dependency-free binary, chezmoi is easy to install even on a brand-new, clean environment.&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;blogcard&#34;&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fgithub.com%2ftwpayne%2fchezmoi&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
+        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;blogcard&#34;&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fwww.chezmoi.io%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
+        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;Environment setup on a new machine can be executed with the following very simple one-liner using chezmoi&amp;rsquo;s official installer&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sh -c &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;curl -fsLS get.chezmoi.io&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt; -- init --apply &lt;span class=&#34;nv&#34;&gt;$GITHUB_USERNAME&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Environment-specific settings can be dynamically generated using chezmoi&amp;rsquo;s template functionality based on Go&amp;rsquo;s &lt;code&gt;text/template&lt;/code&gt; as follows.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go:.gitconfig.tmpl&#34; data-lang=&#34;go:.gitconfig.tmpl&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;x&#34;&gt;[user]                           # Can be dynamically specified via template functionality
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;x&#34;&gt;    name = &amp;#34;{{.name}}&amp;#34;           # - User name
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;x&#34;&gt;    email = &amp;#34;{{.email}}&amp;#34;         # - Email address etc.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;x&#34;&gt;{{- if eq .chezmoi.os &amp;#34;darwin&amp;#34;}} # macOS-specific settings
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;x&#34;&gt;[credential]
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;x&#34;&gt;    helper = osxkeychain
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;x&#34;&gt;{{- end}}
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;blogcard&#34;&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fwww.chezmoi.io%2fuser-guide%2ftemplating%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
+        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In this way, we aim to achieve reliable dotfiles management by ensuring script quality through testable configuration and flexibly managing environment-specific settings through chezmoi&amp;rsquo;s template functionality.&lt;/p&gt;
+&lt;h2 id=&#34;architecture-design-testable-configuration&#34;&gt;Architecture Design: Testable Configuration&lt;/h2&gt;
+&lt;h3 id=&#34;repository-structure&#34;&gt;Repository Structure&lt;/h3&gt;
+&lt;p&gt;My repository is broadly divided into three directories: &lt;a href=&#34;https://github.com/shunk031/dotfiles/tree/master/home&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;home/&lt;/code&gt;&lt;/a&gt;, &lt;a href=&#34;https://github.com/shunk031/dotfiles/tree/master/install&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;install/&lt;/code&gt;&lt;/a&gt;, and &lt;a href=&#34;https://github.com/shunk031/dotfiles/tree/master/tests&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;tests/&lt;/code&gt;&lt;/a&gt;, managing dotfiles, environment setup scripts, and automated tests independently.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── ...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── home/                   # dotfiles under chezmoi management
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── dot_bashrc          # - deployed as ~/.bashrc
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── dot_vimrc           # - deployed as ~/.vimrc
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── dot_config/         # - deployed as ~/.config/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   └── .chezmoi.yaml.tmpl  # - chezmoi configuration file
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── install/                # setup scripts (testable)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── common/             # - common installation scripts
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── macos/              # - macOS-specific scripts
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   └── ubuntu/             # - Ubuntu-specific scripts
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├── tests/                  # automated tests with Bats
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   ├── install/            # - tests for installation scripts
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│   └── files/              # - tests for files after chezmoi deployment
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;└── ...
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;design-philosophy&#34;&gt;Design Philosophy&lt;/h3&gt;
+&lt;p&gt;The core of this architecture lies in &amp;ldquo;separation of concerns&amp;rdquo; and &amp;ldquo;maximizing testability&amp;rdquo;. Traditional dotfiles repositories mix configuration files and setup scripts, making testing difficult, but this configuration clearly separates each element.&lt;/p&gt;
+&lt;h4 id=&#34;the-install-directory-easy-unit-testing-through-script-separation&#34;&gt;The &lt;code&gt;install/&lt;/code&gt; directory: Easy Unit Testing Through Script Separation&lt;/h4&gt;
+&lt;p&gt;By making setup scripts independent from chezmoi, individual testing becomes possible.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/shunk031/dotfiles/blob/master/install/common/rust.sh&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;install/common/rust.sh&lt;/code&gt;&lt;/a&gt;: Installation of tools used commonly across machines (e.g., Rust)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/shunk031/dotfiles/blob/master/install/macos/common/brew.sh&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;install/macos/common/brew.sh&lt;/code&gt;&lt;/a&gt;: Installation of Homebrew used commonly on macOS&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/shunk031/dotfiles/blob/master/install/ubuntu/common/misc.sh&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;install/ubuntu/common/misc.sh&lt;/code&gt;&lt;/a&gt;: Installation of tools used commonly on Ubuntu (e.g., curl, jq)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Platform-specific configuration separates OS-specific logic, allowing each to be tested independently. Each script follows the single responsibility principle, handling only the installation of specific tools or packages.&lt;/p&gt;
+&lt;h4 id=&#34;the-home-directory-chezmoi-templates-and-dotfiles&#34;&gt;The &lt;code&gt;home/&lt;/code&gt; directory: chezmoi Templates and dotfiles&lt;/h4&gt;
+&lt;p&gt;These are the actual dotfiles under chezmoi management. They follow chezmoi&amp;rsquo;s unique file naming conventions &lt;a href=&#34;https://www.chezmoi.io/user-guide/frequently-asked-questions/design/#why-does-chezmoi-use-weird-filenames&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(&lt;code&gt;dot_&lt;/code&gt; prefix etc.)&lt;/a&gt; and utilize template functionality. This repository specifies &lt;code&gt;home&lt;/code&gt; as the source directory using the &lt;a href=&#34;https://www.chezmoi.io/user-guide/advanced/customize-your-source-directory/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;.chezmoiroot&lt;/a&gt; file&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/shunk031/dotfiles/blob/master/home/dot_zshrc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;home/dot_zshrc&lt;/code&gt;&lt;/a&gt;: deployed as &lt;code&gt;~/.zshrc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/shunk031/dotfiles/blob/master/home/dot_config/git/config.tmpl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;home/dot_config/git/config.tmpl&lt;/code&gt;&lt;/a&gt;: chezmoi template deployed as &lt;code&gt;~/.config/git/config&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/shunk031/dotfiles/blob/master/home/.chezmoi.yaml.tmpl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;home/.chezmoi.yaml.tmpl&lt;/code&gt;&lt;/a&gt;: chezmoi configuration file&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It&amp;rsquo;s independent from the scripts in the &lt;code&gt;install/&lt;/code&gt; directory, separating configuration file placement and environment construction.&lt;/p&gt;
+&lt;h4 id=&#34;the-tests-directory-automated-testing-with-bats&#34;&gt;The &lt;code&gt;tests/&lt;/code&gt; directory: Automated Testing with Bats&lt;/h4&gt;
+&lt;p&gt;I use Bash Automated Testing System (Bats) to test scripts in the &lt;code&gt;install/&lt;/code&gt; directory. The test directories and files are configured to be consistent with the script.&lt;/p&gt;
+&lt;div class=&#34;blogcard&#34;&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fgithub.com%2fbats-core%2fbats-core&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
+        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/shunk031/dotfiles/blob/master/tests/install/common/rust.bats&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;tests/install/common/rust.bats&lt;/code&gt;&lt;/a&gt;: Tests for Rust installation script&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/shunk031/dotfiles/blob/master/tests/install/macos/common/brew.bats&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;tests/install/macos/common/brew.bats&lt;/code&gt;&lt;/a&gt;: Tests for Homebrew installation script&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/shunk031/dotfiles/blob/master/tests/files/common.bats&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;tests/files/common.bats&lt;/code&gt;&lt;/a&gt;: Verification of file existence after chezmoi deployment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Each test file verifies the script&amp;rsquo;s behavior and confirms that expected results (package installation, configuration file generation, etc.) are obtained.&lt;/p&gt;
+&lt;h2 id=&#34;test--cicd-strategy&#34;&gt;Test &amp;amp; CI/CD Strategy&lt;/h2&gt;
+&lt;p&gt;This repository adopts a test strategy based on the fundamental policy of &amp;ldquo;continuous verification&amp;rdquo;. We can verify that scripts in the &lt;code&gt;install/&lt;/code&gt; directory work correctly in various environments and discover problems in advance to prevent failures during actual environment construction.&lt;/p&gt;
+&lt;h3 id=&#34;unit-test-implementation-with-bats&#34;&gt;Unit Test Implementation with Bats&lt;/h3&gt;
+&lt;p&gt;My repository adopts &lt;a href=&#34;https://github.com/bats-core/bats-core&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bash Automated Testing System (Bats)&lt;/a&gt; to verify the behavior of each installation script. Bats is a testing framework specifically for shell scripts that allows writing tests with simple syntax.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;#!/usr/bin/env bats
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@test &amp;#34;brew installation script exists&amp;#34; {
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  [ -f &amp;#34;install/macos/common/brew.sh&amp;#34; ]
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@test &amp;#34;brew installation script is executable&amp;#34; {
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  [ -x &amp;#34;install/macos/common/brew.sh&amp;#34; ]
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@test &amp;#34;brew installation script runs without errors&amp;#34; {
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  run bash install/macos/common/brew.sh
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  [ &amp;#34;$status&amp;#34; -eq 0 ]
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@test &amp;#34;brew command is available after installation&amp;#34; {
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  run command -v brew
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  [ &amp;#34;$status&amp;#34; -eq 0 ]
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Each test progressively verifies script existence, executable permissions, actual execution, and expected results (command availability, etc.).&lt;/p&gt;
+&lt;h3 id=&#34;comprehensive-verification-with-github-actions&#34;&gt;Comprehensive Verification with GitHub Actions&lt;/h3&gt;
+&lt;p&gt;My repository uses GitHub Actions for multi-stage verification. In addition to unit tests, the workflow regularly executes actual end-to-end setup to achieve comprehensive quality assurance.&lt;/p&gt;
+&lt;h4 id=&#34;unit-test-execution&#34;&gt;Unit Test Execution&lt;/h4&gt;
+&lt;p&gt;My repository runs automated tests in macOS and Ubuntu environments to detect platform-specific issues early.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml:.github/workflows/test.yaml&#34; data-lang=&#34;yaml:.github/workflows/test.yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;Test&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;on&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;l&#34;&gt;push, pull_request]&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;jobs&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;test&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;strategy&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;matrix&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;os&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;l&#34;&gt;ubuntu-latest, macos-latest]&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;runs-on&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;${{ matrix.os }}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;steps&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;uses&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;actions/checkout@v4&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;Install Bats&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;run&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;sd&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;          if [[ &amp;#34;${{ matrix.os }}&amp;#34; == &amp;#34;ubuntu-latest&amp;#34; ]]; then
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;            sudo apt-get update &amp;amp;&amp;amp; sudo apt-get install -y bats
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;          else
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;            brew install bats-core
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;          fi&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;          
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;Run tests&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;run&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;bats tests/install/&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;Upload coverage reports&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;uses&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;codecov/codecov-action@v3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;regular-execution-of-actual-setup&#34;&gt;Regular Execution of Actual Setup&lt;/h4&gt;
+&lt;p&gt;More importantly, we should verify in environments identical to the actual user experience. This repository&amp;rsquo;s workflow automatically executes the setup process using &lt;a href=&#34;https://github.com/shunk031/dotfiles/blob/master/setup.sh&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;setup.sh&lt;/code&gt;&lt;/a&gt; on macOS and Ubuntu runners every Friday. This script wraps the chezmoi environment construction one-liner mentioned earlier.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml:.github/workflows/remote.yaml&#34; data-lang=&#34;yaml:.github/workflows/remote.yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;Snippet install&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;on&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;schedule&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;cron&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;0 0 * * 5&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# Every Friday&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;jobs&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;build&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;strategy&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;matrix&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;os&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;l&#34;&gt;ubuntu-latest, macos-14]&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;system&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;l&#34;&gt;client, server]&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;exclude&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;          &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;os&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;macos-14&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;            &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;system&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;server&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;runs-on&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;${{ matrix.os }}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;steps&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;Setup dotfiles with snippet&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;run&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;sd&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;          if [ &amp;#34;${OS}&amp;#34; == &amp;#34;macos-14&amp;#34; ]; then
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;            bash -c &amp;#34;$(curl -fsLS https://shunk031.me/dotfiles/setup.sh)&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;          elif [ &amp;#34;${OS}&amp;#34; == &amp;#34;ubuntu-latest&amp;#34; ]; then
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;            bash -c &amp;#34;$(wget -qO - https://shunk031.me/dotfiles/setup.sh)&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;          fi&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;          
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This regular execution continuously monitors the impact of external dependency changes, OS updates, and package manager changes on environment construction, ensuring reliability when actual users execute the setup.&lt;/p&gt;
+&lt;h4 id=&#34;code-coverage-measurement-and-codecov-integration&#34;&gt;Code Coverage Measurement and Codecov Integration&lt;/h4&gt;
+&lt;p&gt;My repository measures shell script code coverage using &lt;a href=&#34;https://github.com/SimonKagstrom/kcov&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;kcov&lt;/a&gt; and visualizes it with &lt;a href=&#34;https://codecov.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Codecov&lt;/a&gt;. This helps identify untested code paths and improve testing. Actual measurement uses &lt;a href=&#34;https://github.com/shunk031/dotfiles/blob/master/scripts/run_unit_test.sh&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;scripts/run_unit_test.sh&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;blogcard&#34;&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fgithub.com%2fSimonKagstrom%2fkcov&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
+        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;blogcard&#34;&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fabout.codecov.io%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
+        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Example of coverage measurement&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;kcov --clean --include-path&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;install/macos/common/ &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;  coverage/ &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;  bats tests/install/macos/common/brew.bats
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Coverage reports are automatically commented on Pull Requests using &lt;a href=&#34;https://github.com/codecov/codecov-action&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;codecov/codecov-action&lt;/a&gt;, allowing immediate understanding of the impact of changes.&lt;/p&gt;
+&lt;div class=&#34;blogcard&#34;&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fgithub.com%2fcodecov%2fcodecov-action&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
+        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&#34;performance-measurement-and-benchmark-automation&#34;&gt;Performance Measurement and Benchmark Automation&lt;/h4&gt;
+&lt;p&gt;To continuously monitor shell startup performance after dotfiles application and detect the impact of configuration changes early, I&amp;rsquo;ve automated benchmark measurement in the workflow of GitHub Actions.&lt;/p&gt;
+&lt;p&gt;This implementation references the following article using &lt;a href=&#34;https://github.com/benchmark-action/github-action-benchmark&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;benchmark-action/github-action-benchmark&lt;/a&gt;. The GitHub Actions workflow measures both initial shell startup time and average startup time (measured 10 times) to quantify the impact of dotfiles configuration on shell startup.&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;blogcard&#34;&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fgithub.com%2fbenchmark-action%2fgithub-action-benchmark&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
+        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;blogcard&#34;&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fzenn.dev%2fodan%2farticles%2f17a86574b724c9&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
+        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;Measurement results are published on &lt;a href=&#34;https://shunk031.me/my-dotfiles-benchmarks/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub Pages&lt;/a&gt;, achieving continuous performance monitoring. We can numerically confirm the impact of adding new plugins or configurations on shell startup time, preventing performance degradation before it occurs.&lt;/p&gt;
+&lt;div class=&#34;blogcard&#34;&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fshunk031.me%2fmy-dotfiles-benchmarks%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
+        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;implementation-details-and-operational-flow&#34;&gt;Implementation Details and Operational Flow&lt;/h2&gt;
+&lt;h3 id=&#34;structure-and-implementation-examples-of-setup-scripts&#34;&gt;Structure and Implementation Examples of Setup Scripts&lt;/h3&gt;
+&lt;p&gt;Scripts in the &lt;code&gt;install/&lt;/code&gt; directory are designed following the single responsibility principle. Each script handles only the installation and configuration of specific tools, creating an independently testable structure.&lt;/p&gt;
+&lt;p&gt;As a basic script structure, OS-specific processing is separated into different files and implemented as platform-specific scripts. All installation scripts follow the following common pattern. For shell script writing practices, &lt;a href=&#34;https://betterdev.blog/minimal-safe-bash-script-template/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Minimal safe Bash script template&lt;/a&gt; is helpful.&lt;/p&gt;
+&lt;div class=&#34;blogcard&#34;&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fbetterdev.blog%2fminimal-safe-bash-script-template%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
+        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#!/usr/bin/env bash
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; -Eeuo pipefail
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Debug mode setting&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;DOTFILES_DEBUG&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;:-&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;then&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; -x
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;fi&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Tool-specific functions&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;function&lt;/span&gt; is_tool_exists&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nb&#34;&gt;command&lt;/span&gt; -v tool_name &lt;span class=&#34;p&#34;&gt;&amp;amp;&lt;/span&gt;&amp;gt;/dev/null
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;function&lt;/span&gt; install_tool&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; ! is_tool_exists&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;then&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;c1&#34;&gt;# Platform-specific installation process&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;c1&#34;&gt;# macOS: brew install tool_name&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;c1&#34;&gt;# Ubuntu: sudo apt-get install -y tool_name&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;fi&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Main process&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;function&lt;/span&gt; main&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    install_tool
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;# Execute additional configuration process if needed&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;[[&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;BASH_SOURCE&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[0]&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;]]&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;then&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    main
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;fi&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The conditional statement &lt;code&gt;if [[ &amp;quot;${BASH_SOURCE[0]}&amp;quot; == &amp;quot;${0}&amp;quot; ]]; then&lt;/code&gt; executes the &lt;code&gt;main&lt;/code&gt; function only when the script is directly executed. When a script is loaded from another file using the &lt;code&gt;source&lt;/code&gt; command (e.g., when calling functions from test files), only function definitions are loaded and &lt;code&gt;main&lt;/code&gt; is not executed&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;. This allows the same script to be used both for &amp;ldquo;execution&amp;rdquo; and &amp;ldquo;library&amp;rdquo; purposes, greatly improving testability.&lt;/p&gt;
+&lt;p&gt;For example, Homebrew installation is separated into &lt;code&gt;install/macos/common/brew.sh&lt;/code&gt;, and chezmoi Ubuntu installation is in &lt;code&gt;install/ubuntu/common/chezmoi.sh&lt;/code&gt;. This structure achieves platform optimization and testability.&lt;/p&gt;
+&lt;h3 id=&#34;development-and-maintenance-flow&#34;&gt;Development and Maintenance Flow&lt;/h3&gt;
+&lt;h4 id=&#34;new-application-addition-procedure&#34;&gt;New Application Addition Procedure&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;Create installation script&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Create install/macos/common/new_tool.sh&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Implement following the basic structure above&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Create test file&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Create tests/install/macos/common/new_tool.bats&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@test &lt;span class=&#34;s2&#34;&gt;&amp;#34;new_tool installation script exists&amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt; -f &lt;span class=&#34;s2&#34;&gt;&amp;#34;install/macos/common/new_tool.sh&amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;@test &lt;span class=&#34;s2&#34;&gt;&amp;#34;new_tool can be installed&amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  run bash install/macos/common/new_tool.sh
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$status&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt; -eq &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Run local tests&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;bats tests/install/macos/common/new_tool.bats
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;test-driven-development-process&#34;&gt;Test-Driven Development Process&lt;/h4&gt;
+&lt;p&gt;Development always proceeds test-first.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create test cases: First write expected behavior as tests&lt;/li&gt;
+&lt;li&gt;Minimal implementation: Implement minimal script that passes tests&lt;/li&gt;
+&lt;li&gt;Refactoring: Improve code while maintaining behavior&lt;/li&gt;
+&lt;li&gt;Integration testing: Verify operation in CI environment&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This operational flow allows continuous improvement of dotfiles while maintaining quality and maintainability. Each change is necessarily covered by tests and verified in the CI pipeline, minimizing the risk of problems occurring in actual environments.&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;This article explained the approach of &amp;ldquo;testable dotfiles management&amp;rdquo; combining chezmoi and test-driven development. We presented a comprehensive solution to the fundamental problem that traditional dotfiles repositories face: &amp;ldquo;not knowing if setup scripts work correctly until execution&amp;rdquo;. Specifically, this was an approach combining unit testing with Bats, continuous verification with GitHub Actions, and regular execution of actual end-to-end setup. Please consider incorporating testability into your own dotfiles management to achieve reliable development environment construction.&lt;/p&gt;
+&lt;div class=&#34;blogcard&#34;&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fgithub.com%2fshunk031%2fdotfiles&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
+        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.chezmoi.io/quick-start/#start-using-chezmoi-on-your-current-machine:~:text=Create%20a%20new%20repository%20on%20GitHub%20called%20dotfiles%20and%20then%20push%20your%20repo%3A&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;chezmoi starts setup by referencing &lt;code&gt;$GITHUB_USERNAME/dotfiles&lt;/code&gt; on GitHub.&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;By default, chezmoi uses &lt;a href=&#34;https://www.chezmoi.io/user-guide/advanced/customize-your-source-directory/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;the repository root as the source directory&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
+&lt;p&gt;This is the same mechanism as Python&amp;rsquo;s &lt;code&gt;if __name__ == &amp;quot;__main__&amp;quot;&lt;/code&gt;.&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
