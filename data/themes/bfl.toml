@@ -1,0 +1,18 @@
+name = "Black Forest Labs"
+
+[light]
+# Primary
+primary = "#ffffff"
+
+link = "#556659"
+link_hover = "#07130e"
+
+# Menu
+menu_primary = "#ffffff"
+menu_text = "#556659"
+menu_text_active = "#1b5e20"
+menu_title = "#556659"
+
+# Home sections
+home_section_odd = "rgb(255, 255, 255)"
+home_section_even = "rgb(247, 247, 247)"

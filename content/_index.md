@@ -11,12 +11,6 @@ sections:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: shunsuke-kitada
-    design:
-      background:
-          image:
-            filename: chatgpt.webp
-            filters:
-              brightness: 0.2
 
   - block: collection
     id: recent-news
@@ -145,11 +139,6 @@ sections:
     id: experience
     design:
       columns: '2'
-      background:
-          image:
-            filename: chatgpt.webp
-            filters:
-              brightness: 0.4
     content:
       title: 👨‍💻 Selected Experiences
       subtitle: 'All experiences can be found on my [LinkedIn](https://www.linkedin.com/in/shunk031/).'
