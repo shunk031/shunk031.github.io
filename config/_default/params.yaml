@@ -6,9 +6,12 @@
 # Appearance
 
 appearance:
-  mode: dark
-  # theme_day: openai
-  theme_night: openai
+  mode: day
+  theme_day: bfl
+  
+  # mode: dark
+  # theme_night: openai
+
   font: "my_custom_fonts"
   font_size: S
 
