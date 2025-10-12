@@ -26,7 +26,8 @@
 			"extensions": [
 				"kimgronqvist.vscode-ido",
 				"baurine.vscode-pangu",
-				"Anthropic.claude-code"
+				"Anthropic.claude-code",
+				"tamasfe.even-better-toml"
 			]
 		}
 	},
