@@ -83,4 +83,4 @@ projects: []
 slides: ""
 ---
 
-{{< blogcard url="https://www.aclweb.org/anthology/2020.acl-srw.29/" >}}
+{{< blogcard url="https://aclanthology.org/2020.acl-srw.29/" >}}
