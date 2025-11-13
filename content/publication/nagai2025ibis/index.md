@@ -7,7 +7,7 @@ date: 2025-11-13T00:00:00+09:00
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-date: 2025-11-13T00:00:00+09:00
+publishDate: 2025-11-13T00:00:00+09:00
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
