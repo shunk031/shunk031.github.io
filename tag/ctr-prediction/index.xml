@@ -13,10 +13,10 @@
     </image>
     
     <item>
-      <title>BERT4CTR: An Efficient Framework to Combine Pre-trained Language Model with Non-textual Features for CTR Prediction (KDD&#39;23)</title>
-      <link>https://shunk031.me/talk/bert4ctr-an-efficient-framework-to-combine-pre-trained-language-model-with-non-textual-features-for-ctr-prediction-kdd23/</link>
+      <title>[Journal Club] BERT4CTR: An Efficient Framework to Combine Pre-trained Language Model with Non-textual Features for CTR Prediction (KDD&#39;23)</title>
+      <link>https://shunk031.me/event/kdd2023-reading/</link>
       <pubDate>Wed, 17 Jan 2024 19:25:00 +0900</pubDate>
-      <guid>https://shunk031.me/talk/bert4ctr-an-efficient-framework-to-combine-pre-trained-language-model-with-non-textual-features-for-ctr-prediction-kdd23/</guid>
+      <guid>https://shunk031.me/event/kdd2023-reading/</guid>
       <description>&lt;h1 id=&#34;kdd2023-論文読み会オンライン開催&#34;&gt;KDD2023 論文読み会（オンライン開催）&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;概要 2023年8月に開催されたデータマイニング関連の国際学術会議、&lt;a href=&#34;https://kdd.org/kdd2023/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;KDD2023&lt;/a&gt;に(29th ACM SIGKDD Conference on Knowledge Discovery &amp;amp; Data Mining) で発表された論文の読み会です。
