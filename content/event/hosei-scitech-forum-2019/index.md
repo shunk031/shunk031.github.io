@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Hosei Scitech Forum 2019"
+title: "[Invited Poster] Hosei Scitech Forum 2019"
 event: "法政科学技術フォーラム 2019"
 event_url: https://www.hosei.ac.jp/riko/NEWS/topics/20190612/
 location: Hosei University, Fujimi gate (G201, Student hall, Tsudoi)

@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "ICML/KDD 2019 Pre-conference session"
+title: "[Invited Talk] ICML/KDD 2019 Pre-conference session"
 event: "ICML/KDD 2019 Pre-conference session"
 event_url: https://lapras.connpass.com/event/130914/
 location: LAPRAS Inc.
