@@ -5,12 +5,20 @@
     <link>https://shunk031.me/publication-type/article/</link>
       <atom:link href="https://shunk031.me/publication-type/article/index.xml" rel="self" type="application/rss+xml" />
     <description>Article</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Aug 2025 00:00:00 +0900</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 04 Nov 2025 17:50:00 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.me/media/sharing.png</url>
       <title>Article</title>
       <link>https://shunk031.me/publication-type/article/</link>
     </image>
+    
+    <item>
+      <title>TAUE: Training-free Noise Transplant and Cultivation Diffusion Model</title>
+      <link>https://shunk031.me/publication/nagai2025taue/</link>
+      <pubDate>Tue, 04 Nov 2025 17:50:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/nagai2025taue/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>VASCAR: Content-Aware Layout Generation via Visual-Aware Self-Correction</title>

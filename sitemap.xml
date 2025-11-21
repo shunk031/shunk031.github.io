@@ -2,6 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://shunk031.me/publication-type/article/</loc>
+    <lastmod>2025-11-21T11:34:54+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/authors/daichi-nagai/</loc>
+    <lastmod>2025-11-21T11:34:54+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/diffusion-model/</loc>
+    <lastmod>2025-11-21T11:34:54+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/authors/hitoshi-iyatomi/</loc>
+    <lastmod>2025-11-21T11:34:54+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/international-publication/</loc>
+    <lastmod>2025-11-21T11:34:54+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/layer-wise-image-generation/</loc>
+    <lastmod>2025-11-21T11:34:54+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/non-refereed/</loc>
+    <lastmod>2025-11-21T11:34:54+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/preprint/</loc>
+    <lastmod>2025-11-21T11:34:54+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/publication_types/</loc>
+    <lastmod>2025-11-21T11:34:54+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/authors/ryugo-morita/</loc>
+    <lastmod>2025-11-21T11:34:54+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tags/</loc>
+    <lastmod>2025-11-21T11:34:54+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/publication/nagai2025taue/</loc>
+    <lastmod>2025-11-21T11:34:54+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://shunk031.me/tag/bats/</loc>
     <lastmod>2025-10-06T21:26:01+09:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -20,10 +68,6 @@
   </url><url>
     <loc>https://shunk031.me/tag/github-actions/</loc>
     <lastmod>2025-10-06T21:26:01+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/tags/</loc>
-    <lastmod>2025-10-22T23:37:47-10:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/category/tech/</loc>
@@ -138,16 +182,8 @@
     <lastmod>2025-10-22T23:37:47-10:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shunk031.me/tag/non-refereed/</loc>
-    <lastmod>2025-09-20T23:25:45+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shunk031.me/publication-type/presentation/</loc>
     <lastmod>2025-09-20T23:25:45+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/publication_types/</loc>
-    <lastmod>2025-10-22T23:37:47-10:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/category/vision-language/</loc>
@@ -262,10 +298,6 @@
     <lastmod>2025-09-20T23:25:45+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shunk031.me/publication-type/article/</loc>
-    <lastmod>2025-09-20T23:25:45+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shunk031.me/authors/atsuki-osanai/</loc>
     <lastmod>2025-09-17T10:37:39+09:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -362,10 +394,6 @@
     <lastmod>2025-09-20T23:25:45+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shunk031.me/tag/diffusion-model/</loc>
-    <lastmod>2025-09-20T23:25:45+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shunk031.me/tag/image-generation/</loc>
     <lastmod>2025-09-20T23:25:45+09:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -391,14 +419,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/tag/dataset/</loc>
-    <lastmod>2025-07-08T00:30:52+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/authors/hitoshi-iyatomi/</loc>
-    <lastmod>2025-10-22T23:37:47-10:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/tag/preprint/</loc>
     <lastmod>2025-07-08T00:30:52+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -443,10 +463,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/tag/refereed/</loc>
-    <lastmod>2025-10-22T23:37:47-10:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/tag/international-publication/</loc>
     <lastmod>2025-10-22T23:37:47-10:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>

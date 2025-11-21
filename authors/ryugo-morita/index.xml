@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ryugo Morita | shunk031.me</title>
+    <link>https://shunk031.me/authors/ryugo-morita/</link>
+      <atom:link href="https://shunk031.me/authors/ryugo-morita/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ryugo Morita</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 04 Nov 2025 17:50:00 +0900</lastBuildDate>
+    <image>
+      <url>https://shunk031.me/media/sharing.png</url>
+      <title>Ryugo Morita</title>
+      <link>https://shunk031.me/authors/ryugo-morita/</link>
+    </image>
+    
+    <item>
+      <title>TAUE: Training-free Noise Transplant and Cultivation Diffusion Model</title>
+      <link>https://shunk031.me/publication/nagai2025taue/</link>
+      <pubDate>Tue, 04 Nov 2025 17:50:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/nagai2025taue/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

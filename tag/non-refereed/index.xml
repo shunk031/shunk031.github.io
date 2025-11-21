@@ -5,12 +5,20 @@
     <link>https://shunk031.me/tag/non-refereed/</link>
       <atom:link href="https://shunk031.me/tag/non-refereed/index.xml" rel="self" type="application/rss+xml" />
     <description>Non-Refereed</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 19 Sep 2025 11:40:52 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 04 Nov 2025 17:50:00 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.me/media/sharing.png</url>
       <title>Non-Refereed</title>
       <link>https://shunk031.me/tag/non-refereed/</link>
     </image>
+    
+    <item>
+      <title>TAUE: Training-free Noise Transplant and Cultivation Diffusion Model</title>
+      <link>https://shunk031.me/publication/nagai2025taue/</link>
+      <pubDate>Tue, 04 Nov 2025 17:50:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/nagai2025taue/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>ローカル LLM を用いた AI エージェントの現状と課題</title>

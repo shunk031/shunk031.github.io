@@ -5,12 +5,20 @@
     <link>https://shunk031.me/tag/diffusion-model/</link>
       <atom:link href="https://shunk031.me/tag/diffusion-model/index.xml" rel="self" type="application/rss+xml" />
     <description>Diffusion Model</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 09 Mar 2025 00:00:00 +0900</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 04 Nov 2025 17:50:00 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.me/media/sharing.png</url>
       <title>Diffusion Model</title>
       <link>https://shunk031.me/tag/diffusion-model/</link>
     </image>
+    
+    <item>
+      <title>TAUE: Training-free Noise Transplant and Cultivation Diffusion Model</title>
+      <link>https://shunk031.me/publication/nagai2025taue/</link>
+      <pubDate>Tue, 04 Nov 2025 17:50:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/nagai2025taue/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>潜在拡散モデルにおける生成対象の個別配置と生成による画質改善の試み</title>
