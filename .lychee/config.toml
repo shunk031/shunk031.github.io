@@ -29,6 +29,8 @@ exclude = [
     "eccv.ecva.net",
     "iwa-shi.github.io",
     "www.cikm2022.org",
+    "coloso.jp",
+    "hatenablog-parts.com/embed",
 ]
 
 # Website timeout from connect to response finished.
