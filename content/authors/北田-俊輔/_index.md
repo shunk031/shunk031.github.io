@@ -113,4 +113,6 @@ highlight_name: true
 
 LINE ヤフー株式会社リサーチサイエンティスト・法政大学大学院特任研究員。2023 年 3 月に法政大学大学院理工学研究科を修了。博士（工学）。日本学術振興会特別研究員（DC2）を経て現職。コンピュータービジョンや自然言語処理を始め、その融合領域である Vision&Language 分野にて研究に従事。現在はユーザーにとって魅力的な画像やデザインの作成を支援するような最先端技術の研究開発に携わる。著書に「Python で学ぶ画像生成」（単著・インプレス社）がある。個人ページ: https://shunk031.me
 
+{{< blogcard url="https://research.lycorp.co.jp/jp/people/146" >}}
+
 See also the English user page, [Shunsuke Kitada](/authors/shunsuke-kitada).
