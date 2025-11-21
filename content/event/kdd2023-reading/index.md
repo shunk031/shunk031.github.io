@@ -1,7 +1,7 @@
 ---
 # Documentation: https://hugoblox.com/docs/managing-content/
 
-title: "BERT4CTR: An Efficient Framework to Combine Pre-trained Language Model with Non-textual Features for CTR Prediction (KDD'23)"
+title: "[Journal Club] BERT4CTR: An Efficient Framework to Combine Pre-trained Language Model with Non-textual Features for CTR Prediction (KDD'23)"
 event: KDD2023 Reading (Online)
 event_url: https://lycorptech-jp.connpass.com/event/302509/
 location: Online
@@ -24,7 +24,7 @@ all_day: false
 publishDate: 2024-01-17T11:37:51+09:00
 
 authors: ["Shunsuke Kitada"]
-tags: ["Paper Reading", "CTR prediction"]
+tags: ["Journal Club", "Paper Reading", "CTR prediction"]
 
 # Is this a featured event? (true/false)
 featured: false

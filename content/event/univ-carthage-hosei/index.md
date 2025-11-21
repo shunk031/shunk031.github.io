@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Recent Issues in Intelligent Robotics, Machine Learning, and Distributed System"
+title: "[Invited Talk] Recent Issues in Intelligent Robotics, Machine Learning, and Distributed System"
 event: "The 1st Univ. Carthage – Hosei International Joint Webinar with honorable support by the Embassy of the Republic of Tunisia in Japan"
 event_url:
 location: Online
@@ -25,7 +25,7 @@ all_day: false
 publishDate: 2021-03-06T21:07:45+09:00
 
 authors: ["Shunsuke Kitada"]
-tags: ["Invited Speaker"]
+tags: ["Invited Talk", "Invited Speaker"]
 
 # Is this a featured event? (true/false)
 featured: false

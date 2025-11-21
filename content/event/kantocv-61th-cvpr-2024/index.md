@@ -1,7 +1,7 @@
 ---
 # Documentation: https://docs.hugoblox.com/managing-content/
 
-title: "Visual Layout Composer: Image-Vector Dual Diffusion Model for Design Layout Generation (CVPR'24)"
+title: "[Journal Club] Visual Layout Composer: Image-Vector Dual Diffusion Model for Design Layout Generation (CVPR'24)"
 event: The 61st Computer Vision Study Group at Kanto (Part 2)
 event_url: https://kantocv.connpass.com/event/321175/
 location: LYCorp. Kioi-cho Office
@@ -24,7 +24,7 @@ all_day: false
 publishDate: 2024-08-03T13:00:00+09:00
 
 authors: ["Shunsuke Kitada"]
-tags: ["Paper Reading", "Layout Generation", "Poster Generation"]
+tags: ["Journal Club", "Paper Reading", "Layout Generation", "Poster Generation"]
 
 # Is this a featured event? (true/false)
 featured: false
