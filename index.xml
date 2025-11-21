@@ -13,6 +13,20 @@
     </image>
     
     <item>
+      <title>[Invited Talk] テストを書かない研究者に送る “最初にテストを書く” 実験コード入門 – オレオレ最強 main.py から抜け出すために –</title>
+      <link>https://shunk031.me/event/kenro-py-01-invited-talk/</link>
+      <pubDate>Thu, 20 Nov 2025 18:30:00 +0900</pubDate>
+      <guid>https://shunk031.me/event/kenro-py-01-invited-talk/</guid>
+      <description>&lt;h1 id=&#34;堅牢py-1&#34;&gt;堅牢.py #1&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;堅牢.py はPythonを安全に扱うための技術に興味を持つエンジニアのイベントです。今回が初開催です!!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;資料---slides&#34;&gt;資料 - Slides&lt;/h2&gt;
+&lt;script defer class=&#34;speakerdeck-embed&#34; data-id=&#34;a80b5264ece14d11851cfe98a185ab30&#34; data-ratio=&#34;1.7777777777777777&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
       <title>潜在拡散モデルでのレイアウト指定生成に向けたアテンションに基づく初期ノイズ最適化</title>
       <link>https://shunk031.me/publication/nagai2025ibis/</link>
       <pubDate>Thu, 13 Nov 2025 00:00:00 +0900</pubDate>

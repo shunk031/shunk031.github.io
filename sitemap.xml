@@ -2,6 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://shunk031.me/event/kenro-py-01-invited-talk/</loc>
+    <lastmod>2025-11-21T23:32:39+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/invited-talk/</loc>
+    <lastmod>2025-11-21T23:32:39+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/machine-learning/</loc>
+    <lastmod>2025-11-21T23:32:39+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/pytest/</loc>
+    <lastmod>2025-11-21T23:32:39+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tags/</loc>
+    <lastmod>2025-11-21T23:32:39+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/tdd/</loc>
+    <lastmod>2025-11-21T23:32:39+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://shunk031.me/categories/</loc>
     <lastmod>2025-11-21T23:26:36+09:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -48,10 +72,6 @@
   </url><url>
     <loc>https://shunk031.me/publication_types/</loc>
     <lastmod>2025-11-21T23:26:36+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/tags/</loc>
-    <lastmod>2025-11-21T23:31:03+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/authors/%E5%8C%97%E7%94%B0-%E4%BF%8A%E8%BC%94/</loc>
@@ -612,10 +632,6 @@
   </url><url>
     <loc>https://shunk031.me/news/acceptance-to-eccv2024/</loc>
     <lastmod>2025-07-07T21:59:35+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/tag/invited-talk/</loc>
-    <lastmod>2025-11-21T23:31:03+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/authors/kenji-doi/</loc>
