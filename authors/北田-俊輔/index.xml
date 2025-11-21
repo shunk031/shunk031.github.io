@@ -5,12 +5,20 @@
     <link>https://shunk031.me/authors/%E5%8C%97%E7%94%B0-%E4%BF%8A%E8%BC%94/</link>
       <atom:link href="https://shunk031.me/authors/%E5%8C%97%E7%94%B0-%E4%BF%8A%E8%BC%94/index.xml" rel="self" type="application/rss+xml" />
     <description>北田 俊輔</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 19 Sep 2025 11:40:52 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 13 Nov 2025 00:00:00 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.me/media/sharing.png</url>
       <title>北田 俊輔</title>
       <link>https://shunk031.me/authors/%E5%8C%97%E7%94%B0-%E4%BF%8A%E8%BC%94/</link>
     </image>
+    
+    <item>
+      <title>潜在拡散モデルでのレイアウト指定生成に向けたアテンションに基づく初期ノイズ最適化</title>
+      <link>https://shunk031.me/publication/nagai2025ibis/</link>
+      <pubDate>Thu, 13 Nov 2025 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/nagai2025ibis/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>ローカル LLM を用いた AI エージェントの現状と課題</title>

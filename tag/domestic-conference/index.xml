@@ -5,12 +5,20 @@
     <link>https://shunk031.me/tag/domestic-conference/</link>
       <atom:link href="https://shunk031.me/tag/domestic-conference/index.xml" rel="self" type="application/rss+xml" />
     <description>Domestic Conference</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 19 Sep 2025 11:40:52 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 13 Nov 2025 00:00:00 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.me/media/sharing.png</url>
       <title>Domestic Conference</title>
       <link>https://shunk031.me/tag/domestic-conference/</link>
     </image>
+    
+    <item>
+      <title>潜在拡散モデルでのレイアウト指定生成に向けたアテンションに基づく初期ノイズ最適化</title>
+      <link>https://shunk031.me/publication/nagai2025ibis/</link>
+      <pubDate>Thu, 13 Nov 2025 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/nagai2025ibis/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>ローカル LLM を用いた AI エージェントの現状と課題</title>
