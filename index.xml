@@ -13,6 +13,20 @@
     </image>
     
     <item>
+      <title>ICCV2025 Conference Participation Report</title>
+      <link>https://shunk031.me/post/iccv2025-report/</link>
+      <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://shunk031.me/post/iccv2025-report/</guid>
+      <description>&lt;div class=&#34;blogcard&#34;&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2ftechblog.lycorp.co.jp%2fja%2f20251125b&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
+        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
       <title>[Invited Talk] テストを書かない研究者に送る “最初にテストを書く” 実験コード入門 – オレオレ最強 main.py から抜け出すために –</title>
       <link>https://shunk031.me/event/kenro-py-01-invited-talk/</link>
       <pubDate>Thu, 20 Nov 2025 18:30:00 +0900</pubDate>
@@ -769,7 +783,7 @@ You can find my summary on pages 75 to 81 below:&lt;/p&gt;
     </item>
     
     <item>
-      <title>SSII2024 Technical map: Creative Design Generation (SSII&#39;24)</title>
+      <title>[Invited Presentation] SSII2024 Technical map: Creative Design Generation (SSII&#39;24)</title>
       <link>https://shunk031.me/event/ssii2024-tech-map/</link>
       <pubDate>Wed, 12 Jun 2024 09:20:00 +0900</pubDate>
       <guid>https://shunk031.me/event/ssii2024-tech-map/</guid>
@@ -1123,7 +1137,7 @@ During my doctoral program, I was particularly supported by various people, and 
     </item>
     
     <item>
-      <title>Introduction to AllenNLP to accelerate NLP research</title>
+      <title>[Invited Talk] Introduction to AllenNLP to accelerate NLP research</title>
       <link>https://shunk031.me/event/nlp-hacks-6th/</link>
       <pubDate>Fri, 22 Jul 2022 19:30:00 +0900</pubDate>
       <guid>https://shunk031.me/event/nlp-hacks-6th/</guid>
@@ -1219,7 +1233,7 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
     </item>
     
     <item>
-      <title>My experience about JSPS Research Fellowship</title>
+      <title>[Invited Talk] My experience about JSPS Research Fellowship</title>
       <link>https://shunk031.me/event/jsps-dc-hosei-seminar-2023/</link>
       <pubDate>Fri, 01 Apr 2022 15:55:00 +0900</pubDate>
       <guid>https://shunk031.me/event/jsps-dc-hosei-seminar-2023/</guid>
@@ -1835,7 +1849,7 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
     </item>
     
     <item>
-      <title>[Invited Talk] Text Analytics Symposium 2019</title>
+      <title>[Invited Talk] ウェブサービス事業者における研究開発インターン ～Gunosy株式会社～</title>
       <link>https://shunk031.me/event/text-analytics-symposium-2019/</link>
       <pubDate>Fri, 27 Sep 2019 15:40:00 +0900</pubDate>
       <guid>https://shunk031.me/event/text-analytics-symposium-2019/</guid>

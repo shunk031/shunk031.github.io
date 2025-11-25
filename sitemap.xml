@@ -2,12 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://shunk031.me/categories/</loc>
+    <lastmod>2025-11-25T22:37:28+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/computer-vision/</loc>
+    <lastmod>2025-11-25T22:37:28+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/conference-report/</loc>
+    <lastmod>2025-11-25T22:37:28+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/category/conference-report/</loc>
+    <lastmod>2025-11-25T22:37:28+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/design-generation/</loc>
+    <lastmod>2025-11-25T22:37:28+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/foundation-models/</loc>
+    <lastmod>2025-11-25T22:37:28+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/iccv2025/</loc>
+    <lastmod>2025-11-25T22:37:28+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/post/iccv2025-report/</loc>
+    <lastmod>2025-11-25T22:37:28+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tags/</loc>
+    <lastmod>2025-11-25T22:37:28+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/category/tech-blog/</loc>
+    <lastmod>2025-11-25T22:37:28+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://shunk031.me/event/kenro-py-01-invited-talk/</loc>
     <lastmod>2025-11-21T23:32:39+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/tag/invited-talk/</loc>
-    <lastmod>2025-11-21T23:32:39+09:00</lastmod>
+    <lastmod>2025-11-25T22:37:28+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/tag/machine-learning/</loc>
@@ -18,16 +58,8 @@
     <lastmod>2025-11-21T23:32:39+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shunk031.me/tags/</loc>
-    <lastmod>2025-11-21T23:32:39+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shunk031.me/tag/tdd/</loc>
     <lastmod>2025-11-21T23:32:39+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/categories/</loc>
-    <lastmod>2025-11-21T23:26:36+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/category/computer-vision/</loc>
@@ -163,10 +195,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/authors/hirokatsu-kataoka/</loc>
-    <lastmod>2025-09-27T12:26:23+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/tag/iccv2025/</loc>
     <lastmod>2025-09-27T12:26:23+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -355,7 +383,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/authors/atsuki-osanai/</loc>
-    <lastmod>2025-09-17T10:37:39+09:00</lastmod>
+    <lastmod>2025-11-25T22:37:28+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/category/creative-graphic-design/</loc>
@@ -375,7 +403,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/authors/ryota-yoshihashi/</loc>
-    <lastmod>2025-09-17T10:37:39+09:00</lastmod>
+    <lastmod>2025-11-25T22:37:28+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/publication/zhang2025miru/</loc>
@@ -432,10 +460,6 @@
   </url><url>
     <loc>https://shunk031.me/tag/anlp/</loc>
     <lastmod>2025-03-09T05:01:25-10:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/tag/computer-vision/</loc>
-    <lastmod>2025-07-08T00:30:52+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/publication/kawada2025nlp/</loc>
@@ -583,11 +607,11 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/tag/journal-club/</loc>
-    <lastmod>2025-11-21T23:31:03+09:00</lastmod>
+    <lastmod>2025-11-25T22:37:28+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/tag/paper-reading/</loc>
-    <lastmod>2025-11-21T23:31:03+09:00</lastmod>
+    <lastmod>2025-11-25T22:37:28+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/tag/poster-generation/</loc>
@@ -634,16 +658,20 @@
     <lastmod>2025-07-07T21:59:35+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://shunk031.me/event/ssii2024-tech-map/</loc>
+    <lastmod>2025-11-25T22:37:28+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/invited-predentation/</loc>
+    <lastmod>2025-11-25T22:37:28+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://shunk031.me/authors/kenji-doi/</loc>
-    <lastmod>2024-08-04T12:13:13+09:00</lastmod>
+    <lastmod>2025-11-25T22:37:28+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/authors/nghia-truong/</loc>
-    <lastmod>2024-08-04T12:13:13+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/event/ssii2024-tech-map/</loc>
-    <lastmod>2024-08-03T23:24:54+09:00</lastmod>
+    <lastmod>2025-11-25T22:37:28+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/news/ssii2024-techmap/</loc>
@@ -799,15 +827,15 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/event/ir-reading-2022-autumn/</loc>
-    <lastmod>2025-11-21T23:31:03+09:00</lastmod>
+    <lastmod>2025-11-25T22:37:28+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/tag/ir/</loc>
-    <lastmod>2025-11-21T23:31:03+09:00</lastmod>
+    <lastmod>2025-11-25T22:37:28+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/tag/nlp/</loc>
-    <lastmod>2025-11-21T23:31:03+09:00</lastmod>
+    <lastmod>2025-11-25T22:37:28+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/news/acceptance-to-ieee-access-kitada2022dm2s2/</loc>
@@ -894,20 +922,20 @@
     <lastmod>2023-01-29T13:29:07+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shunk031.me/tag/allennlp/</loc>
-    <lastmod>2025-10-22T23:37:47-10:00</lastmod>
+    <loc>https://shunk031.me/event/nlp-hacks-6th/</loc>
+    <lastmod>2025-11-25T22:37:28+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shunk031.me/event/nlp-hacks-6th/</loc>
-    <lastmod>2022-07-25T21:26:20+09:00</lastmod>
+    <loc>https://shunk031.me/tag/allennlp/</loc>
+    <lastmod>2025-11-25T22:37:28+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/tag/lightning-talk/</loc>
-    <lastmod>2022-07-25T21:26:20+09:00</lastmod>
+    <lastmod>2025-11-25T22:37:28+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/tag/youtube/</loc>
-    <lastmod>2022-07-25T21:29:33+09:00</lastmod>
+    <lastmod>2025-11-25T22:37:28+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/news/jasso-scholarship-2022/</loc>
@@ -939,19 +967,19 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/authors/yoshifumi-seki/</loc>
-    <lastmod>2025-11-21T23:31:03+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/tag/dc/</loc>
-    <lastmod>2025-09-23T20:30:27+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shunk031.me/tag/jsps/</loc>
-    <lastmod>2025-09-23T20:30:27+09:00</lastmod>
+    <lastmod>2025-11-25T22:37:28+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/event/jsps-dc-hosei-seminar-2023/</loc>
-    <lastmod>2022-04-15T00:05:38+09:00</lastmod>
+    <lastmod>2025-11-25T22:37:28+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/dc/</loc>
+    <lastmod>2025-11-25T22:37:28+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shunk031.me/tag/jsps/</loc>
+    <lastmod>2025-11-25T22:37:28+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/news/acceptance-to-appl-sci-kitada2022ad/</loc>
@@ -1323,7 +1351,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/event/text-analytics-symposium-2019/</loc>
-    <lastmod>2025-11-21T23:31:03+09:00</lastmod>
+    <lastmod>2025-11-25T22:37:28+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shunk031.me/tag/award/</loc>
