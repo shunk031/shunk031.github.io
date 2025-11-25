@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Introduction to AllenNLP to accelerate NLP research"
+title: "[Invited Talk] Introduction to AllenNLP to accelerate NLP research"
 event: 【NLP Hacks vol.6】『実装』に特化した、NLP 勉強会コミュニティ開催！
 event_url: https://nlp-hacks.connpass.com/event/250755/
 location: Online
@@ -24,7 +24,7 @@ all_day: false
 publishDate: 2022-07-22T20:30:00+09:00
 
 authors: ["Shunsuke Kitada"]
-tags: ["Lightning Talk", "NLP", "AllenNLP", "Youtube"]
+tags: ["Lightning Talk", "NLP", "AllenNLP", "Youtube", "Invited Talk"]
 
 # Is this a featured event? (true/false)
 featured: false

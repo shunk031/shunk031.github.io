@@ -1,7 +1,7 @@
 ---
 # Documentation: https://docs.hugoblox.com/managing-content/
 
-title: "SSII2024 Technical map: Creative Design Generation (SSII'24)"
+title: "[Invited Presentation] SSII2024 Technical map: Creative Design Generation (SSII'24)"
 event: SSII2024 30周年記念特別企画 技術マップ
 event_url: https://confit.atlas.jp/guide/event/ssii2024/static/special_project_tech_map
 location: Annex Hall, Pacific Convention Plaza Yokohama
@@ -24,7 +24,7 @@ all_day: false
 publishDate: 2024-06-12T00:00:00+09:00
 
 authors: ["Shunsuke Kitada", "Atsuki Osanai", "Kenji Doi", "Ryota Yoshihashi", "Nghia Truong"]
-tags: ["Invited Talk"]
+tags: ["Invited Talk", "Invited Predentation"]
 
 # Is this a featured event? (true/false)
 featured: false
