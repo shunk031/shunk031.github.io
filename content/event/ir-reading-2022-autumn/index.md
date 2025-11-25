@@ -24,7 +24,7 @@ all_day: false
 publishDate: 2022-11-12T22:17:01+09:00
 
 authors: ["Shunsuke Kitada"]
-tags: ["Paper Reading", "IR", "NLP"]
+tags: ["Journal Club", "Paper Reading", "IR", "NLP"]
 
 # Is this a featured event? (true/false)
 featured: false
