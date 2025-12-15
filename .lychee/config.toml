@@ -33,6 +33,7 @@ exclude = [
     "hatenablog-parts.com/embed",
     "bit.ly/KitadaXColosoJP1",
     "www.youtube.com/embed",
+    "www.scimagoir.com",
 ]
 
 # Website timeout from connect to response finished.
