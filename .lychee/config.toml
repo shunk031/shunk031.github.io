@@ -43,4 +43,4 @@ timeout = 30
 retry_wait_time = 10
 
 # Comma-separated list of accepted status codes for valid links.
-accept = ["200", "302"]
+accept = ["100..=103", "200..=299", "302"]
