@@ -97,7 +97,7 @@ This clearly showed that design generation is evolving from simply producing a â
 
 ### Overall Statistics and Scale of ICCV 2025
 
-ICCV 2025 was held at the [Hawaii Convention Center](https://jp.hawaiiconvention.com/), with nearly 7,000 participants. Over 11,000 papers were submitted, of which around 2,600 were accepted (an acceptance rate of about 24%).
+ICCV 2025 was held at the [Hawaii Convention Center](https://www.meethawaii.com/convention-center/), with nearly 7,000 participants. Over 11,000 papers were submitted, of which around 2,600 were accepted (an acceptance rate of about 24%).
 
 The top three research trends were: generative AI (images and videos), 3D processing from multi-view / multi-sensor data, and multimodal learning. In particular, in the generative model area, I felt that a major trend is the shift from *diffusion* models to *flow* models.  
 For a more detailed overview and analysis of trends, I recommend the [ICCV 2025 Report](https://hirokatsukataoka.net/temp/presen/251031ICCV2025Report_FinalizedVer.pdf) compiled by volunteers from [cvpaper.challenge](https://xpaperchallenge.org/cv/).
