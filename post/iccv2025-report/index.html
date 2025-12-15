@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: December 2, 2025 --><html lang="en-us" >
+<!-- Last Published: December 15, 2025 --><html lang="en-us" >
 
 
 <head>
@@ -379,7 +379,7 @@
     />
   
   
-    <meta property="article:modified_time" content="2025-11-25T22:37:28&#43;09:00">
+    <meta property="article:modified_time" content="2025-12-15T16:31:00&#43;09:00">
   
 
 
@@ -414,7 +414,7 @@
   ],
   
   "datePublished": "2025-11-25T00:00:00Z",
-  "dateModified": "2025-11-25T22:37:28+09:00",
+  "dateModified": "2025-12-15T16:31:00+09:00",
   
   "author": {
     "@type": "Person",
@@ -931,7 +931,7 @@
           Last updated on
       
     
-    Nov 25, 2025
+    Dec 15, 2025
   </span>
   
 
@@ -940,7 +940,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    0 min read
+    5 min read
   </span>
   
 
@@ -969,7 +969,7 @@
 
 <div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 377px;">
   <div style="position: relative">
-    <img src="/post/iccv2025-report/featured_hu4422742919335424968.webp" width="720" height="377" alt="" class="featured-image">
+    <img src="/post/iccv2025-report/featured_hu7606488747241117255.webp" width="720" height="377" alt="" class="featured-image">
     
   </div>
 </div>
@@ -979,12 +979,740 @@
   <div class="article-container">
 
     <div class="article-style">
-      <div class="blogcard">
+      <h1 id="our-paper-and-workshop-accepted-at-iccv-2025-the-top-international-conference-on-computer-vision-participation-report">Our Paper and Workshop Accepted at ICCV 2025, the Top International Conference on Computer Vision (Participation Report)</h1>
+<p>Hello, I’m <a href="https://shunk031.me/" target="_blank" rel="noopener">Shunsuke Kitada</a> (<a href="https://x.com/shunk031" target="_blank" rel="noopener">@shunk031</a>), and I work at LY Corporation on research and development for image generation and design generation.<br>
+From October 19 to 23, 2025, I attended and presented at the <a href="https://iccv.thecvf.com/Conferences/2025" target="_blank" rel="noopener">International Conference on Computer Vision, ICCV 2025</a>, held in Hawaii, USA.</p>
+<p>In this article, I’ll share insights gained from ICCV workshops and the main conference. First, I’ll report on the workshop we organized, where I and other LY employees led international discussions, and introduce the insights gained from a workshop specialized in advertising and design generation. Then, I’ll analyze the latest trends at the main conference—such as acceleration and controllability of diffusion models, and hierarchical / structured design generation—alongside an overview of our own research team’s presentation.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-entrance-of-the-venue">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Entrance of the venue" srcset="
+               /post/iccv2025-report/iccv2025_aloha_hu9205790033709921788.webp 400w,
+               /post/iccv2025-report/iccv2025_aloha_hu3523069546937835175.webp 760w,
+               /post/iccv2025-report/iccv2025_aloha_hu6346094133337153546.webp 1200w"
+               src="/post/iccv2025-report/iccv2025_aloha_hu9205790033709921788.webp"
+               width="760"
+               height="573"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Entrance of the venue
+    </figcaption></figure>
+
+<p>This article is an English translation of the following Japanese article:
+<div class="blogcard">
     <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;"
         src="https://hatenablog-parts.com/embed?url=https%3a%2f%2ftechblog.lycorp.co.jp%2fja%2f20251125b" width="300" height="150" frameborder="0"
         scrolling="no"></iframe>
 </div>
+</p>
+<h2 id="report-on-the-found-workshop">Report on the FOUND Workshop</h2>
+<h3 id="workshop-overview-and-activities-as-organizers">Workshop Overview and Activities as Organizers</h3>
+<p>Our workshop, titled <a href="https://iccv2025-found-workshop.limitlab.xyz/" target="_blank" rel="noopener">Foundation Data for Vision: Challenges and Opportunities (FOUND)</a>, was organized by LY employees including myself (Kitada) and <a href="https://scholar.google.com/citations?user=o2lMlxMAAAAJ" target="_blank" rel="noopener">Dr. Komatsu</a>, and was accepted at ICCV 2025.</p>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-our-companys-news-page-about-the-workshop-acceptance">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><a href="https://research.lycorp.co.jp/jp/news/329"  target="_blank" rel="noopener"><img alt="Our company’s news page about the workshop acceptance" srcset="
+               /post/iccv2025-report/iccv2025_found-workshop_accepted_hu8037479907825113008.webp 400w,
+               /post/iccv2025-report/iccv2025_found-workshop_accepted_hu14362133551314700383.webp 760w,
+               /post/iccv2025-report/iccv2025_found-workshop_accepted_hu2973513948187227158.webp 1200w"
+               src="/post/iccv2025-report/iccv2025_found-workshop_accepted_hu8037479907825113008.webp"
+               width="760"
+               height="491"
+               loading="lazy" /></a></div>
+  </div><figcaption>
+      Our company’s news page about the workshop acceptance
+    </figcaption></figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-found-workshop-homepage">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><a href="https://iccv2025-found-workshop.limitlab.xyz/"  target="_blank" rel="noopener"><img alt="FOUND workshop homepage" srcset="
+               /post/iccv2025-report/iccv2025_found-workshop_hu15824662521425484324.webp 400w,
+               /post/iccv2025-report/iccv2025_found-workshop_hu16844954075200301256.webp 760w,
+               /post/iccv2025-report/iccv2025_found-workshop_hu13114132858030843862.webp 1200w"
+               src="/post/iccv2025-report/iccv2025_found-workshop_hu15824662521425484324.webp"
+               width="760"
+               height="485"
+               loading="lazy" /></a></div>
+  </div><figcaption>
+      FOUND workshop homepage
+    </figcaption></figure>
+
+<p>The theme centers on “data,” which is indispensable for recent advances in foundation models, and the workshop aimed to provide an international forum to discuss the challenges and opportunities around it.</p>
+<p>This acceptance represents one of the rare cases where a workshop at ICCV, one of the world’s top-tier conferences, is led by Japanese researchers. It demonstrates that research and industrial efforts originating in Japan are being recognized on a global stage.</p>
+<h3 id="lys-contribution-and-on-site-highlights">LY’s Contribution and On-Site Highlights</h3>
+<p>LY Corporation took the lead in organizing this workshop. Through this, we were able to demonstrate, at least to some extent, that we are in a position to drive international discussions on <em>foundation data</em>, an urgent topic that will shape the future of the computer vision field.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-found-workshop-opening-opening-session-by-lead-organizer-yoshihiro-fukuharahttpsgathelucknethome">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="FOUND workshop opening." srcset="
+               /post/iccv2025-report/iccv2025_found-workshop_opening_hu8480770892095190044.webp 400w,
+               /post/iccv2025-report/iccv2025_found-workshop_opening_hu4274237585929242566.webp 760w,
+               /post/iccv2025-report/iccv2025_found-workshop_opening_hu6146468951651122439.webp 1200w"
+               src="/post/iccv2025-report/iccv2025_found-workshop_opening_hu8480770892095190044.webp"
+               width="760"
+               height="573"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      FOUND workshop opening. Opening session by lead organizer <a href="https://gatheluck.net/home/" target="_blank" rel="noopener">Yoshihiro Fukuhara</a>.
+    </figcaption></figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-found-workshop-sponsors-ly-corporation-lineヤフー-was-also-listed-as-a-sponsor">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="FOUND workshop sponsors." srcset="
+               /post/iccv2025-report/iccv2025_found-workshop_sponsors_hu1762683740026704632.webp 400w,
+               /post/iccv2025-report/iccv2025_found-workshop_sponsors_hu640212202541000365.webp 760w,
+               /post/iccv2025-report/iccv2025_found-workshop_sponsors_hu2344867604703243204.webp 1200w"
+               src="/post/iccv2025-report/iccv2025_found-workshop_sponsors_hu1762683740026704632.webp"
+               width="760"
+               height="573"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      FOUND workshop sponsors. LY Corporation (LINEヤフー) was also listed as a sponsor.
+    </figcaption></figure>
+
+<p>The workshop attracted many researchers and practitioners from both academia and industry, leading to lively technical exchanges. In particular, the joint social event we held together with the <a href="https://iccv2025-limit-workshop.limitlab.xyz/" target="_blank" rel="noopener">LIMIT Workshop</a>, also at ICCV 2025, was extremely successful. It served as a valuable opportunity to foster deeper networking among participants and to expand the possibilities for future international collaborations.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-limit--found-workshop-banquet--researchers-from-google-openai-salesforce-research-who-gave-invited-talks-at-the-workshops-as-well-as-many-members-from-universities-and-research-institutions-joined-us">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="LIMIT &amp; FOUND workshop banquet" srcset="
+               /post/iccv2025-report/iccv2025_limit-found-workshop_banquet_hu6443715659232877090.webp 400w,
+               /post/iccv2025-report/iccv2025_limit-found-workshop_banquet_hu1415703980639316576.webp 760w,
+               /post/iccv2025-report/iccv2025_limit-found-workshop_banquet_hu7771702000750139216.webp 1200w"
+               src="/post/iccv2025-report/iccv2025_limit-found-workshop_banquet_hu6443715659232877090.webp"
+               width="760"
+               height="573"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      LIMIT &amp; FOUND workshop banquet. . Researchers from Google, OpenAI, Salesforce Research, who gave invited talks at the workshops, as well as many members from universities and research institutions joined us.
+    </figcaption></figure>
+
+<p>Based on this experience as organizers, if you are considering hosting a workshop at an international conference, or if you feel uncertain about how to write a proposal or how to manage operations, please feel free to reach out. In particular, <a href="https://gatheluck.net/home/" target="_blank" rel="noopener">Mr. Fukuhara</a>, who served as the lead organizer, and <a href="https://hirokatsukataoka.net/" target="_blank" rel="noopener">Dr. Kataoka</a> from AIST, who led the co-hosted LIMIT Workshop, both have extensive experience and can provide concrete advice. I (<a href="https://shunk031.me" target="_blank" rel="noopener">Kitada</a>) would also be happy to support where I can. I sincerely hope that more researchers and engineers from Japan will take the lead in discussions at international conferences.</p>
+<h2 id="insights-from-attended-workshops">Insights from Attended Workshops</h2>
+<p>From the perspective of my domain of responsibility and expertise—image generation, design generation, and business impact (especially in advertising and marketing), I attended and will report on two workshops.</p>
+<h3 id="report-on-computer-vision-in-advertising-and-marketing-cvam">Report on “Computer Vision in Advertising and Marketing (CVAM)”</h3>
+<p>The <a href="https://cvam-workshop.github.io/" target="_blank" rel="noopener">CVAM Workshop</a> focused on the latest applications of computer vision (CV) in the fields of digital advertising and marketing.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-cvam-workshop-page">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><a href="https://cvam-workshop.github.io/"  target="_blank" rel="noopener"><img alt="CVAM workshop page" srcset="
+               /post/iccv2025-report/iccv2025_cvam-workshop_hu5458789903910746368.webp 400w,
+               /post/iccv2025-report/iccv2025_cvam-workshop_hu3825388159096124272.webp 760w,
+               /post/iccv2025-report/iccv2025_cvam-workshop_hu13606796695937814031.webp 1200w"
+               src="/post/iccv2025-report/iccv2025_cvam-workshop_hu5458789903910746368.webp"
+               width="760"
+               height="491"
+               loading="lazy" /></a></div>
+  </div><figcaption>
+      CVAM workshop page
+    </figcaption></figure>
+
+<p>From a business impact standpoint, the workshop’s theme, applications of CV technologies in advertising and marketing, specifically covered creative generation, optimization of marketing systems, brand intelligence, and more.</p>
+<p>In our business, which aims to maximize advertising effectiveness, understanding and generating visual content is an urgent challenge. By participating in CVAM, I was able to reconfirm the importance of discussions on how to connect the latest image generation technologies not only to creative production, but also to ad effectiveness measurement and prediction of consumer behavior.</p>
+<h3 id="report-on-workshop-on-graphic-design-understanding-and-generation-2025-gdug">Report on “Workshop on Graphic Design Understanding and Generation 2025 (GDUG)”</h3>
+<p>The <a href="https://sites.google.com/view/gdug-workshop" target="_blank" rel="noopener">GDUG Workshop</a> aimed to discuss key concepts, technical constraints, and ethical aspects in the recognition and generation of graphic design and documents.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-gdug-workshop-page">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><a href="https://sites.google.com/view/gdug-workshop"  target="_blank" rel="noopener"><img alt="GDUG workshop page" srcset="
+               /post/iccv2025-report/iccv2025_gdug-workshop_hu7554105050009292329.webp 400w,
+               /post/iccv2025-report/iccv2025_gdug-workshop_hu9736956839242095694.webp 760w,
+               /post/iccv2025-report/iccv2025_gdug-workshop_hu1840477856031997629.webp 1200w"
+               src="/post/iccv2025-report/iccv2025_gdug-workshop_hu7554105050009292329.webp"
+               width="760"
+               height="491"
+               loading="lazy" /></a></div>
+  </div><figcaption>
+      GDUG workshop page
+    </figcaption></figure>
+
+<p>From the perspective of design generation, a shared concern was that, while many research efforts focus on pixel-based image generation, real-world design workflows—such as creating posters, online ads, and websites—are based on structured documents (e.g., layered object representations, style attributes, typography) rather than raw pixels. This gap between research and practice was repeatedly highlighted.</p>
+<p>In the invited talks, cutting-edge methods for layer decomposition were introduced, where existing designs are decomposed into native layers such as text, foreground elements, and background (e.g., the <a href="https://arxiv.org/abs/2507.05601" target="_blank" rel="noopener">Accordion pipeline</a>).<br>
+This clearly showed that design generation is evolving from simply producing a “flat, single-layer output” toward handling layered structures similar to those used in real-world design processes. It also provided important hints for rethinking the direction of our own design generation technology development.</p>
+<h2 id="main-conference-report-and-key-trend-analysis">Main Conference Report and Key Trend Analysis</h2>
+<h3 id="overall-statistics-and-scale-of-iccv-2025">Overall Statistics and Scale of ICCV 2025</h3>
+<p>ICCV 2025 was held at the <a href="https://www.meethawaii.com/convention-center/" target="_blank" rel="noopener">Hawaii Convention Center</a>, with nearly 7,000 participants. Over 11,000 papers were submitted, of which around 2,600 were accepted (an acceptance rate of about 24%).</p>
+<p>The top three research trends were: generative AI (images and videos), 3D processing from multi-view / multi-sensor data, and multimodal learning. In particular, in the generative model area, I felt that a major trend is the shift from <em>diffusion</em> models to <em>flow</em> models.<br>
+For a more detailed overview and analysis of trends, I recommend the <a href="https://hirokatsukataoka.net/temp/presen/251031ICCV2025Report_FinalizedVer.pdf" target="_blank" rel="noopener">ICCV 2025 Report</a> compiled by volunteers from <a href="https://xpaperchallenge.org/cv/" target="_blank" rel="noopener">cvpaper.challenge</a>.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-iccv-2025-venue-guide-posted-inside-the-hawaii-convention-center">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="ICCV 2025 venue guide posted inside the Hawaii Convention Center" srcset="
+               /post/iccv2025-report/iccv2025_hawaiiconvention_hu11828663015799367673.webp 400w,
+               /post/iccv2025-report/iccv2025_hawaiiconvention_hu3381625455914555934.webp 760w,
+               /post/iccv2025-report/iccv2025_hawaiiconvention_hu1950881321459719251.webp 1200w"
+               src="/post/iccv2025-report/iccv2025_hawaiiconvention_hu11828663015799367673.webp"
+               width="760"
+               height="573"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      ICCV 2025 venue guide posted inside the Hawaii Convention Center
+    </figcaption></figure>
+
+<h3 id="introduction-of-our-research-teams-presentation-pino">Introduction of Our Research Team’s Presentation “PINO”</h3>
+<p>Our research presentation <a href="https://arxiv.org/abs/2507.19292" target="_blank" rel="noopener">PINO (Person-Interaction Noise Optimization)</a> is a technique that enables long-duration, customizable, arbitrary-size group motion generation.
+This research is the result of our summer internship program, led primarily by <a href="https://sinc865.github.io/" target="_blank" rel="noopener">Mr. Ota</a> from Tokyo Institute of Technology.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-our-research-scientists-dr-yuhttpsyu1utcom-left-and-dr-fujiwarahttpskfworkscom-right-presenting-the-poster-yu-was-also-selected-as-an-outstanding-reviewer-for-the-main-conference">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="PINO poster session" srcset="
+               /post/iccv2025-report/iccv2025_pino_hu17782557251613721486.webp 400w,
+               /post/iccv2025-report/iccv2025_pino_hu1892567959345893049.webp 760w,
+               /post/iccv2025-report/iccv2025_pino_hu3578787767395407793.webp 1200w"
+               src="/post/iccv2025-report/iccv2025_pino_hu17782557251613721486.webp"
+               width="760"
+               height="573"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Our research scientists <a href="https://yu1ut.com/" target="_blank" rel="noopener">Dr. Yu</a> (left) and <a href="https://kfworks.com/" target="_blank" rel="noopener">Dr. Fujiwara</a> (right) presenting the poster. Yu was also selected as an Outstanding Reviewer for the main conference.
+    </figcaption></figure>
+
+<p>In terms of the overview and contributions of PINO, the method employs a unique approach that optimizes the noise input when denoising motion sequences using a base diffusion model (e.g., <a href="https://arxiv.org/abs/2304.05684" target="_blank" rel="noopener">InterGen</a>).</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-figure-from-pino-ota-iccv25">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://arxiv.org/html/2507.19292v1/x1.png" alt="PINO 1" loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Figure from PINO [Ota+ ICCV’25]
+    </figcaption></figure>
+
+<p>By this optimization, the generated motions are not only aligned with the text prompts, but also enforced to be physically plausible through cost terms that reduce physical artifacts such as body intersections and penetrations.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-figure-from-pino-ota-iccv25">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://arxiv.org/html/2507.19292v1/x2.png" alt="PINO 2" loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Figure from PINO [Ota+ ICCV’25]
+    </figcaption></figure>
+
+<p>Furthermore, users can control root positions, regions, and directions via penalty terms, enabling customizable motion generation.</p>
+<h3 id="notable-technical-trends-in-image--design-generation">Notable Technical Trends in Image &amp; Design Generation</h3>
+<p>From the standpoint of my work in image and design generation, I’ll analyze the key trends observed at the main conference, including their potential for business impact.</p>
+<h4 id="efficiency-and-reliability-of-diffusion-models-the-superiority-of-flow-models">Efficiency and Reliability of Diffusion Models: The Superiority of Flow Models</h4>
+<p>The evolution of diffusion models (DMs) is shifting focus from mere realism to speed, controllability, and reliability.</p>
+<p>Regarding flow-based generation and fast sampling, Flow Matching models are gaining prominence as a training paradigm for generative models. In particular, <a href="https://arxiv.org/abs/2506.05350" target="_blank" rel="noopener">Contrastive Flow Matching</a> maximizes the dissimilarity between the estimated flow and an independently sampled flow, thereby consistently outperforming previous Flow Matching methods (better FID scores) and enabling high-quality, fast generation.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-figure-from-contrastive-flow-matching-stoica-iccv25">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://arxiv.org/html/2506.05350v1/extracted/6514412/figures/imgs/flows.png" alt="Figure from [Stoica&#43; ICCV’25]" loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Figure from Contrastive Flow Matching [Stoica+ ICCV’25]
+    </figcaption></figure>
+
+<p>For inversion-free editing, <a href="https://arxiv.org/abs/2412.08629" target="_blank" rel="noopener">FlowEdit</a> utilizes pretrained flow models (SD3, FLUX.1, etc.) and removes the need for an “inversion” step during editing, instead tracing a shorter, more direct path from the source image distribution to the target distribution. This achieves high text alignment and strong structural preservation (excellent LPIPS), and FlowEdit received the Best Student Paper Award.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-figure-from-flowedit-kulikov-iccv25">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://arxiv.org/html/2412.08629v2/x2.png" alt="Figure from FlowEdit [Kulikov&#43; ICCV’25]" loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Figure from FlowEdit [Kulikov+ ICCV’25]
+    </figcaption></figure>
+
+<p>In controllable generation (<a href="https://arxiv.org/abs/2412.00100" target="_blank" rel="noopener">FlowChef</a>), Rectified Flow Models (RFMs) are leveraged, where sampling trajectories become nearly straight and the nonlinear error term approaches zero. By skipping gradient computation (Gradient Skipping), FlowChef achieves deterministic and efficient controllable generation for tasks such as inpainting and super-resolution—without additional training or large-scale backpropagation.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-figure-from-flowchef-patel-iccv25">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://arxiv.org/html/2412.00100v1/x2.png" alt="Figure from FlowChef [Patel&#43; ICCV’25]" loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Figure from FlowChef [Patel+ ICCV’25]
+    </figcaption></figure>
+
+<h4 id="evaluating-and-improving-generation-quality-human-centered-approaches">Evaluating and Improving Generation Quality (Human-Centered Approaches)</h4>
+<p>As a method for optimizing image generation based on human preferences, an evaluation model (HPSv3) was proposed and built using a large and diverse dataset (<a href="https://arxiv.org/abs/2508.03789" target="_blank" rel="noopener">HPDv3</a>: 1.08 million text–image pairs) combined with an uncertainty-aware ranking loss. This enables Model-wise Preference (selecting the optimal model for a given prompt) and Sample-wise Preference (selecting the best sample among multiple generations).</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-figure-from-hpsv3-ma-iccv25">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://arxiv.org/html/2508.03789v2/x1.png" alt="Figure from HPSv3 [Ma&#43; ICCV’25]" loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Figure from HPSv3 [Ma+ ICCV’25]
+    </figcaption></figure>
+
+<p>The self-reflection–driven iterative improvement approach (<a href="https://arxiv.org/abs/2504.16080" target="_blank" rel="noopener">Reflection Tuning</a>) proposes a paradigm in which a reward model or multimodal LLM (MLLM) generates “reflection” prompts that describe the shortcomings of a generated image in text, and the image is then iteratively improved according to these instructions. This allows targeted corrections such as “remove the sunlight” or “change the clothes.”</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-figure-from-reflection-tuning-zhou-iccv25">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://arxiv.org/html/2504.16080v1/x1.png" alt="Figure from Reflection Tuning [Zhou&#43; ICCV’25]" loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Figure from Reflection Tuning [Zhou+ ICCV’25]
+    </figcaption></figure>
+
+<h4 id="structured-generation-to-accelerate-design-and-advertising-applications">Structured Generation to Accelerate Design and Advertising Applications</h4>
+<p>For layer-based structured generation, <a href="https://arxiv.org/abs/2503.12838" target="_blank" rel="noopener">DreamLayer</a> addresses the long-standing challenge of “layer consistency” in design generation by generating multiple transparent image layers simultaneously in a coherent manner. It uses mechanisms such as Layer-Shared Self-Attention to resolve inconsistencies in occlusion relationships and spatial layout between foreground and background.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-figure-from-dreamlayer-huang-iccv25">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://arxiv.org/html/2503.12838v1/x1.png" alt="Figure from DreamLayer [Huang&#43; ICCV’25]" loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Figure from DreamLayer [Huang+ ICCV’25]
+    </figcaption></figure>
+
+<p>Regarding advances in layout control, <a href="https://arxiv.org/abs/2412.03859" target="_blank" rel="noopener">CreatiLayout</a> (SiamLayout) is a Transformer-based model that generates images from layout (placement information) and demonstrates high performance in spatial consistency, color, shape, and more. Its LayoutDesigner component achieves state-of-the-art accuracy in layout planning tasks, surpassing GPT-4 Turbo.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-figure-from-creatilayout-zhang-iccv25">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://arxiv.org/html/2412.03859v3/x2.png" alt="Figure from CreatiLayout [Zhang&#43; ICCV’25]" loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Figure from CreatiLayout [Zhang+ ICCV’25]
+    </figcaption></figure>
+
+<p>For high-fidelity image compositing, <a href="https://arxiv.org/abs/2504.08291" target="_blank" rel="noopener">DreamFuse</a> proposes a new method called Localized DPO (Localized Direct Preference Optimization) to better fuse foreground and background images in a way that humans prefer. By learning to avoid trivial “copy-and-paste” images (negative samples), the model more appropriately handles fusion-related transformations—such as perspective and affine transformations—leading to improved background consistency and harmony with the foreground.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-figure-from-dreamfuse-huang-iccv25">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://arxiv.org/html/2504.08291v1/x1.png" alt="Figure from DreamFuse [Huang&#43; ICCV’25]" loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Figure from DreamFuse [Huang+ ICCV’25]
+    </figcaption></figure>
+
+<p>For accurate visual text synthesis, <a href="https://arxiv.org/abs/2507.00992" target="_blank" rel="noopener">UniGlyph</a> uses segmentation masks at the pixel level as conditions in a diffusion-based framework, addressing problems such as blurry glyphs and style inconsistencies. It shows strong performance especially for rendering small text and complex layouts.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-figure-from-uniglyph-wang-iccv25">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://arxiv.org/html/2507.00992v2/x1.png" alt="Figure from UniGlyph [Wang&#43; ICCV’25]" loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Figure from UniGlyph [Wang+ ICCV’25]
+    </figcaption></figure>
+
+<p><a href="https://arxiv.org/abs/2410.09879" target="_blank" rel="noopener">TextMaster</a> is a unified framework that controls both text glyphs and styles. By integrating OCR techniques to compute L2 losses on character features, it enables realistic text editing.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-figure-from-textmaster-yan-iccv25">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://arxiv.org/html/2410.09879v2/x3.png" alt="Figure from TextMaster [Yan&#43; ICCV’25]" loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Figure from TextMaster [Yan+ ICCV’25]
+    </figcaption></figure>
+
+<p>For deployment in advertising and marketing, the gaze prediction method <a href="https://arxiv.org/abs/2507.23021" target="_blank" rel="noopener">ScanDiff</a> proposes using diffusion models to predict scanpaths (gaze trajectories) in response to visual stimuli such as ads. It achieves high performance on datasets like COCO-Search18. This is an important technology for modeling human attention, crucial to optimizing the visibility and effectiveness of ad creatives.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-figure-from-scandiff-cartella-iccv25">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://arxiv.org/html/2507.23021v1/x2.png" alt="Figure from ScanDiff [Cartella&#43; ICCV’25]" loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Figure from ScanDiff [Cartella+ ICCV’25]
+    </figcaption></figure>
+
+<p>A new research theme, understanding advertising videos, has also been proposed with <a href="https://arxiv.org/abs/2509.08621" target="_blank" rel="noopener">AdsQA</a>, a QA benchmark for video understanding that incorporates challenges unique to ad videos. In this area, issues such as the sensitivity of reinforcement learning methods to data quality and the effects of prompt templates on performance are also analyzed.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-figure-from-adsqa-long-iccv25">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://arxiv.org/html/2509.08621v1/x1.png" alt="Figure from AdsQA [Long&#43; ICCV’25]" loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Figure from AdsQA [Long+ ICCV’25]
+    </figcaption></figure>
+
+<h2 id="conclusion">Conclusion</h2>
+<p>Through my participation in ICCV 2025, I strongly realized that the computer vision field, especially image and design generation, has entered a phase where the focus has shifted from merely pursuing realism to emphasizing the “practicality and controllability” of the technology.</p>
+<p>The trends observed in the workshops and main conference clearly show that generative AI is evolving from pixel-based outputs to the generation of hierarchical and structured design elements that align closely with real design workflows. At the same time, advances in flow models are enabling fast and accurate generation and editing. This will be a key driver in revolutionizing the PDCA cycle for creatives in advertising and marketing applications.</p>
+<p>LY Corporation will continue to fulfill its responsibility in governing foundation data and leading international discussions, while proactively applying these cutting-edge generation and control technologies to our business. Through this, we aim to establish a strong technological competitive advantage and contribute to society.</p>
 
     </div>
 
