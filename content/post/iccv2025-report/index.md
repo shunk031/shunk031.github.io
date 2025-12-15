@@ -60,7 +60,7 @@ LY Corporation took the lead in organizing this workshop. Through this, we were 
 
 {{< figure src="iccv2025_found-workshop_opening.jpg" alt="FOUND workshop opening." caption="FOUND workshop opening. Opening session by lead organizer [Yoshihiro Fukuhara](https://gatheluck.net/home/)." >}}
 
-{{< figure src="iccv2025_found-workshop_sponsers.jpg" alt="FOUND workshop sponsors." caption="FOUND workshop sponsors. LY Corporation (LINEヤフー) was also listed as a sponsor." >}}
+{{< figure src="iccv2025_found-workshop_sponsors.jpg" alt="FOUND workshop sponsors." caption="FOUND workshop sponsors. LY Corporation (LINEヤフー) was also listed as a sponsor." >}}
 
 The workshop attracted many researchers and practitioners from both academia and industry, leading to lively technical exchanges. In particular, the joint social event we held together with the [LIMIT Workshop](https://iccv2025-limit-workshop.limitlab.xyz/), also at ICCV 2025, was extremely successful. It served as a valuable opportunity to foster deeper networking among participants and to expand the possibilities for future international collaborations.
 
