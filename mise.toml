@@ -1,0 +1,3 @@
+[tools]
+"go:github.com/shunk031/tcardgen" = "latest"
+hugo = "0.136.5"
