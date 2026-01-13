@@ -1,4 +1,5 @@
 [tools]
 hugo = "0.136.5"
+# imagemagick = "latest"
 
 "go:github.com/shunk031/tcardgen" = "latest"
