@@ -33,7 +33,8 @@ tags:
     "ANLP",
     "ANLP2026",
   ]
-categories: []
+categories:
+  ["Natural Language Processing", "Gemma Scope", "Mechanistic Interpretability"]
 featured: false
 
 # Custom links (optional).
