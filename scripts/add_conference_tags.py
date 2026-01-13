@@ -1,369 +1,283 @@
 #!/usr/bin/env python3
-# /// script
-# requires-python = ">=3.12"
-# dependencies = [
-#     "ruamel-yaml>=0.19.1",
-# ]
-# ///
 """
-Add conference tags to publication entries.
+Script to add conference tags to publication frontmatter.
 
 Usage:
-    uv run scripts/add_conference_tags.py --dry-run  # Preview changes
-    uv run scripts/add_conference_tags.py            # Apply changes
+    python scripts/add_conference_tags.py --dry-run  # Preview changes
+    python scripts/add_conference_tags.py            # Apply changes
 """
 
 import argparse
 import re
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
-
+from typing import Tuple, List, Dict, Any
+from io import StringIO
 from ruamel.yaml import YAML
 
-# Configuration
-PUB_DIR = Path(__file__).parent.parent / "content" / "publication"
 
-# Conference tag mapping for consistency with existing tags
-CONFERENCE_TAG_MAPPING = {
-    "NLP": "ANLP",
-    "YANS": "YANS",
-    "MIRU": "MIRU",
-    "IPSJ": "IPSJ",
-}
+class ConferenceTagAdder:
+    """Handles adding conference tags to publications."""
 
-
-def parse_frontmatter(content: str) -> Tuple[Dict, str, str]:
-    """
-    Parse YAML frontmatter and return (metadata, frontmatter_lines, body).
-
-    Returns:
-        metadata: Parsed YAML data
-        frontmatter_lines: Original frontmatter text (without --- delimiters)
-        body: Content after frontmatter
-    """
-    yaml = YAML()
-    yaml.preserve_quotes = True
-    yaml.default_flow_style = False
-
-    # Split by --- delimiters
-    parts = content.split("---\n", 2)
-
-    if len(parts) < 3:
-        raise ValueError("Invalid frontmatter format")
-
-    frontmatter_text = parts[1]
-    body = parts[2]
-
-    # Parse metadata
-    metadata = yaml.load(frontmatter_text)
-
-    return metadata, frontmatter_text, body
-
-
-def extract_conference_info(
-    publication_short: str, date: str
-) -> Tuple[Optional[str], Optional[str]]:
-    """
-    Extract conference name and year from publication_short.
-
-    Handles formats:
-    - "NAME YYYY" (e.g., "NLP 2025", "YANS 2024")
-    - "NAMEYYYY" (e.g., "ECCV2024", "KDD2019")
-    - "NAMEYYYY SUFFIX" (e.g., "ACL2020 SRW", "AACL-IJCNLP2020 SRW")
-
-    Returns:
-        (conference_name, year) or (None, None) if extraction fails
-    """
-    if not publication_short or not publication_short.strip():
-        return None, None
-
-    # Remove trailing suffixes like " SRW", " Workshop"
-    cleaned = re.sub(r"\s+(SRW|Workshop)$", "", publication_short.strip())
-
-    # Pattern 1: "NAME YYYY" format
-    match = re.match(r"^([A-Za-z\-]+)\s+(\d{4})$", cleaned)
-    if match:
-        conf_name = match.group(1)
-        year = match.group(2)
-        return conf_name, year
-
-    # Pattern 2: "NAMEYYYY" format
-    match = re.match(r"^([A-Za-z\-]+?)(\d{4})$", cleaned)
-    if match:
-        conf_name = match.group(1)
-        year = match.group(2)
-        return conf_name, year
-
-    # Fallback: try to extract year from date field
-    if date:
-        year_match = re.match(r"^(\d{4})", date)
-        if year_match:
-            return cleaned, year_match.group(1)
-
-    return None, None
-
-
-def should_process_publication(metadata: Dict) -> bool:
-    """
-    Determine if a publication should be processed.
-
-    Returns: True if publication is a conference/workshop paper
-    """
-    # Check publication_types
-    pub_types = metadata.get("publication_types", [])
-    if not pub_types:
-        return False
-
-    valid_types = ["article", "presentation", "paper-conference"]
-
-    # Must have at least one valid type
-    if not any(pt in pub_types for pt in valid_types):
-        return False
-
-    # Exclude article-journal and thesis
-    if "article-journal" in pub_types or "thesis" in pub_types:
-        return False
-
-    # Check if publication_short is not empty
-    pub_short = metadata.get("publication_short", "")
-    if not pub_short or not pub_short.strip():
-        return False
-
-    # Check for exclusion tags
-    tags = metadata.get("tags", [])
-    if not tags:
-        tags = []
-
-    exclusion_tags = ["Preprint", "Journal", "Thesis", "Dissertation"]
-
-    if any(tag in tags for tag in exclusion_tags):
-        return False
-
-    return True
-
-
-def get_base_tag(conference_name: str) -> str:
-    """
-    Get the base tag for a conference.
-    Returns mapped tag if exists, otherwise the conference name itself.
-    """
-    return CONFERENCE_TAG_MAPPING.get(conference_name, conference_name)
-
-
-def get_tags_to_add(
-    conference_name: str, year: str, existing_tags: List[str]
-) -> List[str]:
-    """
-    Determine which tags to add.
-
-    Returns:
-        List of tags to add (may be empty if all tags already exist)
-    """
-    if not conference_name or not year:
-        return []
-
-    base_tag = get_base_tag(conference_name)
-    year_tag = f"{conference_name}{year}"
-
-    tags_to_add = []
-
-    # Check if base tag exists
-    # Need to check both the mapped base_tag and the conference_name
-    has_base_tag = base_tag in existing_tags or conference_name in existing_tags
-
-    if not has_base_tag:
-        # Add the conference name (not the mapped base tag)
-        tags_to_add.append(conference_name)
-
-    # Always add year-tagged version if not exists
-    if year_tag not in existing_tags:
-        tags_to_add.append(year_tag)
-
-    return tags_to_add
-
-
-def modify_tags_in_frontmatter(frontmatter_text: str, tags_to_add: List[str]) -> str:
-    """
-    Add tags to the frontmatter while preserving formatting.
-
-    Uses regex to find the tags line and append new tags at the end of the array.
-    """
-    if not tags_to_add:
-        return frontmatter_text
-
-    # Find the tags line
-    # Pattern matches: tags: ["tag1", "tag2", "tag3"]
-    pattern = r"(tags:\s*\[)([^\]]*)\]"
-
-    def replace_tags(match):
-        prefix = match.group(1)
-        existing_tags = match.group(2)
-
-        # Add comma if there are existing tags
-        if existing_tags.strip():
-            separator = ", "
-        else:
-            separator = ""
-
-        # Format new tags with quotes
-        new_tags_str = ", ".join(f'"{tag}"' for tag in tags_to_add)
-
-        return f"{prefix}{existing_tags}{separator}{new_tags_str}]"
-
-    modified = re.sub(pattern, replace_tags, frontmatter_text)
-
-    return modified
-
-
-def process_publication(pub_dir: Path, dry_run: bool = True) -> Optional[Dict]:
-    """
-    Process a single publication directory.
-
-    Returns:
-        Dictionary with processing results, or None if skipped
-    """
-    index_file = pub_dir / "index.md"
-
-    if not index_file.exists():
-        return None
-
-    # Read file
-    try:
-        content = index_file.read_text(encoding="utf-8")
-    except Exception as e:
-        print(f"Error reading {index_file}: {e}")
-        return None
-
-    # Parse frontmatter
-    try:
-        metadata, frontmatter_text, body = parse_frontmatter(content)
-    except Exception as e:
-        print(f"Error parsing frontmatter in {index_file}: {e}")
-        return None
-
-    # Check if should process
-    if not should_process_publication(metadata):
-        return None
-
-    # Extract conference info
-    pub_short = metadata.get("publication_short", "")
-    date = metadata.get("date", "")
-    conference_name, year = extract_conference_info(pub_short, date)
-
-    if not conference_name or not year:
-        print(
-            f"Warning: Could not extract conference info from '{pub_short}' in {pub_dir.name}"
-        )
-        return None
-
-    # Determine tags to add
-    existing_tags = metadata.get("tags", [])
-    if existing_tags is None:
-        existing_tags = []
-
-    tags_to_add = get_tags_to_add(conference_name, year, existing_tags)
-
-    if not tags_to_add:
-        return None
-
-    # Modify frontmatter
-    new_frontmatter = modify_tags_in_frontmatter(frontmatter_text, tags_to_add)
-    new_content = f"---\n{new_frontmatter}---\n{body}"
-
-    result = {
-        "file": str(index_file.relative_to(PUB_DIR.parent)),
-        "dir": pub_dir.name,
-        "publication_short": pub_short,
-        "conference": conference_name,
-        "year": year,
-        "tags_before": existing_tags,
-        "tags_to_add": tags_to_add,
+    # Conference name mapping
+    CONF_NAME_MAP = {
+        "NLP": "ANLP",  # Special case: NLP → ANLP
     }
 
-    if not dry_run:
-        try:
-            index_file.write_text(new_content, encoding="utf-8")
-            result["status"] = "modified"
-        except Exception as e:
-            print(f"Error writing {index_file}: {e}")
-            result["status"] = "error"
-            result["error"] = str(e)
-    else:
-        result["status"] = "dry-run"
+    # Publication types to process
+    CONFERENCE_TYPES = {"paper-conference", "presentation", "article"}
+    SKIP_TYPES = {"article-journal", "thesis"}
 
-    return result
+    # Journal patterns to skip even if publication_type is "article"
+    JOURNAL_PATTERNS = {
+        "IEEE Access",
+        "APIN",
+        "Appl. Sci.",
+        "Applied Sciences",
+    }
+
+    def __init__(self, content_dir: Path):
+        self.content_dir = content_dir
+        self.stats = {
+            "processed": 0,
+            "modified": 0,
+            "unchanged": 0,
+            "skipped": 0,
+            "errors": 0,
+        }
+        # Initialize ruamel.yaml with format preservation
+        self.yaml = YAML()
+        self.yaml.preserve_quotes = True
+        self.yaml.default_flow_style = None
+        self.yaml.width = 4096  # Prevent line wrapping
+        self.yaml.allow_duplicate_keys = True  # Handle files with duplicate keys
+
+    def parse_publication_short(self, pub_short: str) -> Tuple[str, str]:
+        """Extract conference name and year from publication_short."""
+        if not pub_short:
+            return "", ""
+
+        # Strip award information
+        pub_short = re.sub(r"\s*\*（[^）]*）\*", "", pub_short).strip()
+
+        # Remove SRW suffix
+        pub_short = re.sub(r"\s+SRW$", "", pub_short)
+
+        # Pattern 1: Space-separated "NAME YEAR"
+        match = re.match(r"^([A-Z]+)\s+(\d{4})$", pub_short)
+        if match:
+            return match.group(1), match.group(2)
+
+        # Pattern 2: Concatenated "NAMEYEAR"
+        match = re.match(r"^([A-Z]+[A-Z-]*)(\d{4})$", pub_short)
+        if match:
+            return match.group(1), match.group(2)
+
+        # Pattern 3: Hyphenated conference "NAME1-NAME2YEAR"
+        match = re.match(r"^([A-Z]+-[A-Z]+)(\d{4})$", pub_short)
+        if match:
+            return match.group(1), match.group(2)
+
+        # Pattern 4: Just conference name (no year)
+        match = re.match(r"^([A-Z]+)$", pub_short)
+        if match:
+            return match.group(1), ""
+
+        # Unable to parse
+        return "", ""
+
+    def should_process(self, frontmatter: Dict[str, Any]) -> bool:
+        """Determine if publication should get conference tags."""
+        pub_types = frontmatter.get("publication_types", [])
+
+        # Skip if thesis
+        if "thesis" in pub_types:
+            return False
+
+        # Skip if journal
+        if "article-journal" in pub_types:
+            return False
+
+        # For "article" type, check if it's actually a journal
+        pub_short = frontmatter.get("publication_short", "")
+        if "article" in pub_types and pub_short in self.JOURNAL_PATTERNS:
+            return False
+
+        # Process if conference type or article (non-journal)
+        return any(t in pub_types for t in self.CONFERENCE_TYPES)
+
+    def add_conference_tags(
+        self, existing_tags: List[str], conf_name: str, year: str
+    ) -> List[str]:
+        """Add conference tags while preserving existing tags and avoiding duplicates."""
+        new_tags = existing_tags.copy() if existing_tags else []
+
+        # Add conference name tag if not present
+        if conf_name and conf_name not in new_tags:
+            new_tags.append(conf_name)
+
+        # Add conference+year tag if year exists and not present
+        if year:
+            conf_year_tag = f"{conf_name}{year}"
+            if conf_year_tag not in new_tags:
+                new_tags.append(conf_year_tag)
+
+        return new_tags
+
+    def split_frontmatter(self, content: str) -> Tuple[Any, str]:
+        """Split content into frontmatter dict and body."""
+        parts = content.split("---", 2)
+        if len(parts) < 3:
+            raise ValueError("Invalid frontmatter format")
+
+        # Use ruamel.yaml to load with comment preservation
+        stream = StringIO(parts[1])
+        frontmatter = self.yaml.load(stream)
+        body = parts[2]
+        return frontmatter, body
+
+    def merge_frontmatter(self, frontmatter: Any, body: str) -> str:
+        """Merge frontmatter and body back."""
+        stream = StringIO()
+        self.yaml.dump(frontmatter, stream)
+        fm_str = stream.getvalue()
+        # Remove trailing newline if present
+        if fm_str.endswith("\n"):
+            fm_str = fm_str[:-1]
+        return f"---\n{fm_str}\n---{body}"
+
+    def process_publication(
+        self, pub_dir: Path, dry_run: bool = False
+    ) -> Dict[str, Any]:
+        """Process a single publication directory."""
+        index_path = pub_dir / "index.md"
+
+        if not index_path.exists():
+            return {"status": "skip", "reason": "no index.md"}
+
+        try:
+            # Read file
+            content = index_path.read_text(encoding="utf-8")
+
+            # Extract frontmatter
+            frontmatter, body = self.split_frontmatter(content)
+
+            # Check if should process
+            if not self.should_process(frontmatter):
+                pub_types = frontmatter.get("publication_types", [])
+                return {
+                    "status": "skip",
+                    "reason": f"not a conference (types: {pub_types})",
+                }
+
+            # Extract conference info
+            pub_short = frontmatter.get("publication_short", "")
+            if not pub_short:
+                return {"status": "skip", "reason": "empty publication_short"}
+
+            conf_name, year = self.parse_publication_short(pub_short)
+            if not conf_name:
+                return {
+                    "status": "skip",
+                    "reason": f"cannot parse: '{pub_short}'",
+                }
+
+            # Map conference name
+            conf_name = self.CONF_NAME_MAP.get(conf_name, conf_name)
+
+            # Add tags
+            existing_tags = frontmatter.get("tags", [])
+            new_tags = self.add_conference_tags(existing_tags, conf_name, year)
+
+            # Check if modified
+            if new_tags == existing_tags:
+                return {"status": "unchanged", "reason": "tags already present"}
+
+            # Update frontmatter
+            frontmatter["tags"] = new_tags
+
+            # Write back if not dry run
+            if not dry_run:
+                new_content = self.merge_frontmatter(frontmatter, body)
+                index_path.write_text(new_content, encoding="utf-8")
+
+            return {
+                "status": "modified",
+                "conf_name": conf_name,
+                "year": year,
+                "added_tags": [t for t in new_tags if t not in existing_tags],
+            }
+
+        except Exception as e:
+            return {"status": "error", "reason": str(e)}
+
+    def process_all(self, dry_run: bool = False) -> None:
+        """Process all publications."""
+        pub_dirs = [
+            d for d in self.content_dir.iterdir() if d.is_dir() and d.name != ".git"
+        ]
+
+        # Filter out _index.md
+        pub_dirs = [d for d in pub_dirs if not d.name.startswith("_")]
+
+        print(f"Processing {len(pub_dirs)} publication directories...")
+        if dry_run:
+            print("[DRY RUN MODE - No changes will be made]\n")
+
+        for pub_dir in sorted(pub_dirs):
+            result = self.process_publication(pub_dir, dry_run)
+
+            # Update stats and print
+            if result["status"] == "modified":
+                self.stats["modified"] += 1
+                added = ", ".join(result["added_tags"])
+                print(f"✓ {pub_dir.name}: Added [{added}]")
+            elif result["status"] == "unchanged":
+                self.stats["unchanged"] += 1
+                print(f"○ {pub_dir.name}: {result['reason']}")
+            elif result["status"] == "skip":
+                self.stats["skipped"] += 1
+                # Don't print skip messages by default (too verbose)
+                # Uncomment if you want to see them:
+                # print(f"- {pub_dir.name}: {result['reason']}")
+            elif result["status"] == "error":
+                self.stats["errors"] += 1
+                print(f"✗ {pub_dir.name}: Error - {result['reason']}")
+
+            self.stats["processed"] += 1
+
+        # Print summary
+        print("\n" + "=" * 60)
+        print("Summary:")
+        print(f"  Total processed: {self.stats['processed']}")
+        print(f"  Modified:        {self.stats['modified']}")
+        print(f"  Unchanged:       {self.stats['unchanged']}")
+        print(f"  Skipped:         {self.stats['skipped']}")
+        print(f"  Errors:          {self.stats['errors']}")
+        print("=" * 60)
+
+        if dry_run:
+            print("\nThis was a dry run. Run without --dry-run to apply changes.")
 
 
 def main():
-    parser = argparse.ArgumentParser(
-        description="Add conference tags and year-tagged versions to publications"
+    parser = argparse.ArgumentParser(description="Add conference tags to publications")
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Preview changes without modifying files",
     )
     parser.add_argument(
-        "--dry-run", action="store_true", help="Preview changes without modifying files"
+        "--content-dir",
+        type=Path,
+        default=Path("content/publication"),
+        help="Path to publication directory",
     )
+
     args = parser.parse_args()
 
-    if not PUB_DIR.exists():
-        print(f"Error: Publication directory not found: {PUB_DIR}")
-        return 1
-
-    results = []
-    skipped = []
-
-    for pub_dir in sorted(PUB_DIR.iterdir()):
-        if not pub_dir.is_dir():
-            continue
-
-        # Skip special directories
-        if pub_dir.name.startswith("_") or pub_dir.name == "CLAUDE.md":
-            continue
-
-        result = process_publication(pub_dir, dry_run=args.dry_run)
-        if result:
-            results.append(result)
-        else:
-            skipped.append(pub_dir.name)
-
-    # Print summary
-    print("=" * 80)
-    if args.dry_run:
-        print("DRY RUN MODE - No files will be modified")
-    else:
-        print("EXECUTION MODE - Files have been modified")
-    print("=" * 80)
-    print()
-
-    print(f"Processed {len(results)} publications")
-    print(f"Skipped {len(skipped)} publications")
-    print()
-
-    if results:
-        print("=" * 80)
-        print(
-            "Publications to be modified:" if args.dry_run else "Modified publications:"
-        )
-        print("=" * 80)
-        print()
-
-        for r in results:
-            print(f"Directory: {r['dir']}")
-            print(f"  File: {r['file']}")
-            print(f"  Publication: {r['publication_short']}")
-            print(f"  Conference: {r['conference']} {r['year']}")
-            print(f"  Tags to add: {', '.join(r['tags_to_add'])}")
-            print()
-
-    if skipped and args.dry_run:
-        print("=" * 80)
-        print("Skipped publications (not conference/workshop or missing info):")
-        print("=" * 80)
-        print()
-        for s in skipped:
-            print(f"  - {s}")
-        print()
-
-    return 0
+    adder = ConferenceTagAdder(args.content_dir)
+    adder.process_all(dry_run=args.dry_run)
 
 
 if __name__ == "__main__":
-    exit(main())
+    main()
