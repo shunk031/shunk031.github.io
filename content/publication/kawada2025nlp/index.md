@@ -31,7 +31,7 @@ abstract: "Graphical Abstract (GA) は論文の要点を視覚的に伝える重
 # Summary. An optional shortened abstract.
 summary: "言語処理学会第 31 回年次大会，2025."
 
-tags: ["Domestic Conference", "Non-refereed", "AI for Science", "Natural Language Processing", "Computer Vision", "Vision & Language", "ANLP"]
+tags: ["Domestic Conference", "Non-refereed", "AI for Science", "Natural Language Processing", "Computer Vision", "Vision & Language", "ANLP", "NLP2025"]
 categories: ["Natural Language Processing", "Vision & Language", "AI for Science"]
 featured: false
 

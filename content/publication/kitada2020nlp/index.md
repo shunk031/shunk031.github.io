@@ -29,7 +29,7 @@ abstract: " 注意機構や損失勾配は入力に対する予測の説明に�
 # Summary. An optional shortened abstract.
 summary: "言語処理学会第 26 回年次大会，2020."
 
-tags: ["Domestic Conference", "Non-refereed", "Natural Language Processing", "ANLP"]
+tags: ["Domestic Conference", "Non-refereed", "Natural Language Processing", "ANLP", "NLP2020"]
 categories: ["Natural Language Processing", "Interpretability", "Adversarial Training"]
 featured: false
 

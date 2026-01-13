@@ -24,7 +24,7 @@ abstract: ""
 # Summary. An optional shortened abstract.
 summary: "NLP 若手の会 (YANS) 第 16 回シンポジウム，2021."
 
-tags: ["Domestic Conference", "Non-refereed", "YANS"]
+tags: ["Domestic Conference", "Non-refereed", "YANS", "YANS2021"]
 categories: ["Natural Language Processing", "Sentiment Analysis"]
 featured: false
 

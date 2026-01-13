@@ -31,7 +31,7 @@ LAP は広く公開されている GPT に対して、テキストのレイア�
 # Summary. An optional shortened abstract.
 summary: "NLP 若手の会 (YANS) 第 17 回シンポジウム，2022."
 
-tags: ["Vision & Language", "Domestic Conference", "Non-refereed", "CyberAgent", "YANS"]
+tags: ["Vision & Language", "Domestic Conference", "Non-refereed", "CyberAgent", "YANS", "YANS2022"]
 categories: ["Vision & Language", "Multi-modal Model", "Document AI"]
 featured: false
 

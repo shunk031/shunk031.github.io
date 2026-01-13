@@ -24,7 +24,7 @@ abstract: "注意機構は自然言語処理における深層学習モデルに
 # Summary. An optional shortened abstract.
 summary: "NLP 若手の会 (YANS) 第 14 回シンポジウム，2019. ** 奨励賞 ** 受賞"
 
-tags: ["Domestic Conference", "Non-refereed", "Award"]
+tags: ["Domestic Conference", "Non-refereed", "Award", "YANS", "YANS2019"]
 categories: ["Natural Language Processing", "Interpretability", "Text Classification", "YANS"]
 featured: false
 

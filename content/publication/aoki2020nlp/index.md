@@ -28,7 +28,7 @@ IWT は $\\beta$-VAE により得られた文字の低次元表現に対して�
 # Summary. An optional shortened abstract.
 summary: "言語処理学会第 26 回年次大会，2020."
 
-tags: ["Domestic Conference", "Non-refereed", "ANLP"]
+tags: ["Domestic Conference", "Non-refereed", "ANLP", "NLP2020"]
 categories: ["Natural Language Processing", "Glyph-aware NLP", "NLP for Asian Languages"]
 featured: false
 

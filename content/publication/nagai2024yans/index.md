@@ -24,7 +24,7 @@ abstract: "潜在拡散モデル（LDM）はユーザーが指定したプロン
 # Summary. An optional shortened abstract.
 summary: "NLP 若手の会 (YANS) 第 19 回シンポジウム，2024."
 
-tags: ["Image Generation", "Diffusion Model", "Domestic Conference", "Non-refereed", "YANS"]
+tags: ["Image Generation", "Diffusion Model", "Domestic Conference", "Non-refereed", "YANS", "YANS2024"]
 categories: ["Computer Vision", "Image Generation"]
 featured: false
 

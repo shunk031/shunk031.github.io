@@ -27,7 +27,7 @@ abstract: '
 # Summary. An optional shortened abstract.
 summary: "人工知能学会第 34 回年次大会，2020."
 
-tags: ["Domestic Conference", "Non-refereed", "Computational Advertising", "Gunosy"]
+tags: ["Domestic Conference", "Non-refereed", "Computational Advertising", "Gunosy", "JSAI", "JSAI2020"]
 categories: ["Computational Advertising", "Survival Analysis"]
 featured: false
 

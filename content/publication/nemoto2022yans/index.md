@@ -25,7 +25,7 @@ abstract: "固有表現認識（Named Entity Recognition; NER）は自然言語�
 # Summary. An optional shortened abstract.
 summary: "NLP 若手の会 (YANS) 第 17 回シンポジウム，2022."
 
-tags: ["Named Entity Recognition", "Domestic Conference", "Non-refereed", "YANS"]
+tags: ["Named Entity Recognition", "Domestic Conference", "Non-refereed", "YANS", "YANS2022"]
 categories: ["Natural Language Processing", "Imbalanced Dataset", "Named Entity Recognition"]
 featured: false
 

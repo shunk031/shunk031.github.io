@@ -26,7 +26,7 @@ abstract: "デジタル広告におけるクリエイティブ （広告素材�
 # Summary. An optional shortened abstract.
 summary: "NLP 若手の会 (YANS) 第 13 回シンポジウム，2018."
 
-tags: ["Domestic Conference", "Non-refereed", "Natural Language Processing", "Computational Advertising", "Gunosy", "YANS"]
+tags: ["Domestic Conference", "Non-refereed", "Natural Language Processing", "Computational Advertising", "Gunosy", "YANS", "YANS2018"]
 categories: ["Computational Advertising", "Natural Language Processing"]
 featured: false
 

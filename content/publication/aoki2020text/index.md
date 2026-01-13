@@ -26,7 +26,7 @@ We propose a new character-based text classification framework for non-alphabeti
 # Summary. An optional shortened abstract.
 summary: "Proc. of the 1st Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics and the 10th International Joint Conference on Natural Language Processing: Student Research Workshop (AACL-IJCNLP SRW 2020)"
 
-tags: ["International Conference", "Refereed", "Natural Language Processing", International Publication]
+tags: ["International Conference", "Refereed", "Natural Language Processing", International Publication, "AACL-IJCNLP", "AACL-IJCNLP2020"]
 categories: ["Natural Language Processing", "Glyph-aware NLP", "NLP for Asian Languages"]
 featured: false
 
