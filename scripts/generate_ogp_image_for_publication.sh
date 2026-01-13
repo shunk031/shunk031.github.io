@@ -15,7 +15,7 @@ function generate_ogp_image() {
     local fond_dir="assets/fonts/"
     local output_dir="content/publication/$publication/featured.png"
     local template_path="assets/ogp/tcardgen-template.png"
-    local config_path="config/tcardgen/template.config.yaml"
+    local config_path="scripts/tcardgen/template.config.yaml"
     local index_file_path="content/publication/$publication/index.md"
 
     tcardgen --fontDir "$fond_dir" \

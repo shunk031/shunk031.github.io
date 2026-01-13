@@ -1,4 +1,4 @@
-# ref. Configuration File | Docs https://lychee.cli.rs/usage/config/ 
+# ref. Configuration File | Docs https://lychee.cli.rs/guides/config/
 
 # Exclude URLs and mail addresses from checking (supports regex).
 exclude = [
@@ -25,6 +25,15 @@ exclude = [
     "www.ieice.org/~nlc",
     "ken.ieice.org",
     "iyatomi-lab.info",
+    "creativecommons.org",
+    "eccv.ecva.net",
+    "iwa-shi.github.io",
+    "www.cikm2022.org",
+    "coloso.jp",
+    "hatenablog-parts.com/embed",
+    "bit.ly/KitadaXColosoJP1",
+    "www.youtube.com/embed",
+    "www.scimagojr.com",
 ]
 
 # Website timeout from connect to response finished.
@@ -32,3 +41,6 @@ timeout = 30
 
 # Minimum wait time in seconds between retries of failed requests.
 retry_wait_time = 10
+
+# Comma-separated list of accepted status codes for valid links.
+accept = ["100..=103", "200..=299", "302"]

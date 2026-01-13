@@ -5,8 +5,8 @@ title: "Got JASSO Scholarship for Top 10% Excellent Graduate School Students"
 subtitle: ""
 summary: ""
 authors: ["Shunsuke Kitada"]
-tags: ["News", "Awards & Grants"]
-categories: ["News", "Awards & Grants"]
+tags: ["News", "Awards and Grants"]
+categories: ["News", "Awards and Grants"]
 date: 2020-07-01T00:00:00+09:00
 lastmod: 2023-01-28T22:02:18+09:00
 featured: false

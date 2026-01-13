@@ -1,65 +1,81 @@
-# My website
+<div align="center">
+
+[![Website Thumbnail](.github/README/banner-image.png)](https://shunk031.me)
+
+# [`shunk031.me`](https://shunk031.me/)
 
 [![Actions Status](https://github.com/shunk031/shunk031.github.io/workflows/Page%20Build/badge.svg)](https://github.com/shunk031/shunk031.github.io/actions?query=workflow%3A%22Page+Build%22)
+[![gohugoio/hugo](https://img.shields.io/github/v/tag/gohugoio/hugo?color=FF4088&display_name=release&label=HugoBlox&logo=hugo&logoColor=FF4088&sort=semver)](https://github.com/gohugoio/hugo)
+[![HugoBlox/hugo-blox-builder](https://img.shields.io/github/v/tag/HugoBlox/hugo-blox-builder?color=0694cb&display_name=release&label=HugoBlox&logo=hugo&logoColor=0694cb&sort=semver)](https://github.com/HugoBlox/hugo-blox-builder)
 
 [Hugo Academic](https://github.com/gcushen/hugo-academic) + GitHub Pages based on [Starter Hugo Academic](https://github.com/wowchemy/starter-hugo-academic).
 
-[![Website Thumbnail](.github/README/thumbnail.png)](https://www.shunk031.me)
+</div>
 
-## Running locally
+> [!TIP]
+> VSCode's devcontainer is recommended for writing contents.
 
-- Install `hugo` to build page
+## 🏃 Running locally
 
-### MacOS
+### Install `hugo` to build page
+
+- For MacOS
 
 ```sh
 brew install hugo
 ```
 
-## Check contents
+- For Ubuntu
+
+```sh
+sudo apt install hugo
+```
+
+## 🔍️ Check contents
 
 ```sh
 make run
 ```
 
-## Update hugo modules
+## 🛠️ Update hugo modules
 
 ```sh
 make update
 ```
 
-## Create a content
-### Create a post
+## 🚀 Create a content
+
+- Create a post
 
 ```sh
 make post name="my-post-article"
 ```
 
-### Create a post for some news
+- Create a post for some news
 
 ```sh
 make news name="my-news"
 ```
 
-### Creat a talk/event page
+- Creat a talk/event page
 
 ```sh
 make event name="my-talk"
 ```
 
-### Create a publication page
+- Create a publication page
 
 ```sh
 make publication name="author20xxconf"
 ```
 
-- Create for thumbnail image.
+- Create for thumbnail image
 
 ```sh
-$ convert 'paper.pdf[0]' -resize '640x640^' -crop '640x480+0+0' -alpha remove featured.png
+make publication-thumbnail pdf=/path/to/paper.pdf name='author20xxconf'
 ```
 
-### Generate OGP image for the publication
+- Generate OGP image for the publication
 
 ```sh
 make ogp-image name="kitada20XXconf"
@@ -69,13 +85,13 @@ make ogp-image name="kitada20XXconf"
 # Success to generate twitter card into content/publication/kitada20XXconf/featured.png
 ```
 
-### Available Icons/Emojis
+### 😀 Available Icons/Emojis
 
 - See the following for more details:
   - Icons: https://docs.hugoblox.com/reference/markdown/#inline-image
   - Emojis: https://docs.hugoblox.com/reference/markdown/#emojis
 
-## License
+## 📝 License
 
 The code and styles are licensed under the MIT license. [See project license.](LICENSE) Obviously you should not use the content of this demo repo in your own resume. :wink:
 

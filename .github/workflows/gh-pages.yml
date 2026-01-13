@@ -8,17 +8,17 @@ jobs:
     env:
       CNAME: shunk031.me
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           fetch-depth: 0 # Fetch all history for .GitInfo and .
 
       - name: Typo check
-        uses: crate-ci/typos@v1.32.0
+        uses: crate-ci/typos@v1.42.0
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: "0.119.0"
+          hugo-version: "0.136.5" # Make sure the version matches the one in https://github.com/shunk031/shunk031.github.io/blob/main/Makefile#L1
           extended: true
 
       - name: Build
@@ -33,7 +33,7 @@ jobs:
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
-        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ./public

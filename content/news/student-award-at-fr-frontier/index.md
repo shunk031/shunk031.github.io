@@ -5,8 +5,8 @@ title: "Got Student Award at FR FRONTIER"
 subtitle: ""
 summary: "ファッション画像における洋服の「色」分類"
 authors: ["Shunsuke Kitada"]
-tags: ["News", "Awards & Grants"]
-categories: ["News", "Awards & Grants"]
+tags: ["News", "Awards and Grants"]
+categories: ["News", "Awards and Grants"]
 date: 2017-08-01T00:00:00+09:00
 lastmod: 2023-01-28T15:34:34+09:00
 featured: false

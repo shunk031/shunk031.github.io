@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Human Attention Map for Text Classification"
-summary: "Reimplementation of the paper [Human Attention Maps for Text Classification: Do Humans and Neural Networks Focus on the Same Words? (ACL2020)](https://www.aclweb.org/anthology/2020.acl-main.419/) in PyTorch"
+summary: "Reimplementation of the paper [Human Attention Maps for Text Classification: Do Humans and Neural Networks Focus on the Same Words? (ACL2020)](https://aclanthology.org/2020.acl-main.419) in PyTorch"
 authors: ["Shunsuke Kitada"]
 tags: ["PyTorch", "AllenNLP"]
 categories: ["Implementation"]

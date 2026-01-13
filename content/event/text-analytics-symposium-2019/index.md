@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Text Analytics Symposium 2019"
+title: "[Invited Talk] ウェブサービス事業者における研究開発インターン ～Gunosy株式会社～"
 event: "第 15 回テキストアナリティクス・シンポジウム"
 event_url: http://www.ieice.org/~nlc/tm15a.html
 location: Future Corporation

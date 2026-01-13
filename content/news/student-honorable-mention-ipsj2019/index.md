@@ -5,8 +5,8 @@ title: "Student Honorable Mention IPSJ 2019"
 subtitle: ""
 summary: "頑健な皮膚腫瘍診断支援のための body hair augmentation"
 authors: ["Shunsuke Kitada"]
-tags: ["News", "Awards & Grants"]
-categories: ["News", "Awards & Grants"]
+tags: ["News", "Awards and Grants"]
+categories: ["News", "Awards and Grants"]
 date: 2019-03-14T00:00:00+09:00
 lastmod: 2023-01-28T15:47:13+09:00
 featured: false

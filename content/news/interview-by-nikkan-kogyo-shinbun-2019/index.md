@@ -5,8 +5,8 @@ title: "Interviewed by Nikkan Kogyo Shimbun, Ltd."
 subtitle: ""
 summary: ""
 authors: ["Shunsuke Kitada"]
-tags: ["News", "Awards & Grants"]
-categories: ["News", "Awards & Grants"]
+tags: ["News", "Awards and Grants"]
+categories: ["News", "Awards and Grants"]
 date: 2020-01-30T00:00:00+09:00
 lastmod: 2023-01-28T16:18:01+09:00
 featured: false
