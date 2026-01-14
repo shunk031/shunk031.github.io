@@ -34,6 +34,7 @@ exclude = [
     "bit.ly/KitadaXColosoJP1",
     "www.youtube.com/embed",
     "www.scimagojr.com",
+    "confit.atlas.jp",
 ]
 
 # Website timeout from connect to response finished.
