@@ -2,23 +2,17 @@ name: Page Build
 
 on: [push]
 
+env:
+  CNAME: shunk031.me
+  ARTIFACT_NAME: hugo-public
+  ARTIFACT_PATH: public
+
 jobs:
-  check-typo:
+  build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v6
-
-      - name: Typo check
-        uses: crate-ci/typos@v1.42.0
-
-  build-deploy:
-    runs-on: ubuntu-latest
-    env:
-      CNAME: shunk031.me
-    steps:
-      - uses: actions/checkout@v6
-        with:
-          fetch-depth: 0 # Fetch all history for .GitInfo and .
 
       - name: Setup Build Environment
         uses: jdx/mise-action@v2
@@ -26,18 +20,57 @@ jobs:
       - name: Build
         run: hugo
 
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v6
+        with:
+          name: ${{ env.ARTIFACT_NAME }}
+          path: ${{ env.ARTIFACT_PATH }}
+
+  check-typo:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/download-artifact@v6
+        with:
+          name: ${{ env.ARTIFACT_NAME }}
+          path: ${{ env.ARTIFACT_PATH }}
+
+      - name: Typo check
+        uses: crate-ci/typos@v1.42.0
+
+  check-broken-links:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/download-artifact@v6
+        with:
+          name: ${{ env.ARTIFACT_NAME }}
+          path: ${{ env.ARTIFACT_PATH }}
+
       - name: Link Checker
         id: lychee
         uses: lycheeverse/lychee-action@v2
         with:
           fail: true
-          args: "./public --config .lychee/config.toml"
+          args: "${{ env.ARTIFACT_PATH }} --config .lychee/config.toml"
+
+  build-deploy:
+    needs: [build, check-typo, check-broken-links]
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/download-artifact@v6
+        with:
+          name: ${{ env.ARTIFACT_NAME }}
+          path: ${{ env.ARTIFACT_PATH }}
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          publish_dir: ./public
+          publish_dir: ${{ env.ARTIFACT_PATH }}
           publish_branch: gh-pages # deploying branch
           cname: ${{ env.CNAME }}
