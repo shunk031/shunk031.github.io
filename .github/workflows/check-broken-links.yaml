@@ -18,11 +18,11 @@ jobs:
       - name: Download Build Artifact
         uses: actions/download-artifact@v6
         with:
-          name: ${{ var.ARTIFACT_NAME }}
-          path: ${{ var.ARTIFACT_PATH }}
+          name: ${{ vars.ARTIFACT_NAME }}
+          path: ${{ vars.ARTIFACT_PATH }}
 
       - name: Link Checker
         uses: lycheeverse/lychee-action@v2
         with:
           fail: true
-          args: "${{ var.ARTIFACT_PATH }} --config .lychee/config.toml"
+          args: "${{ vars.ARTIFACT_PATH }} --config .lychee/config.toml"

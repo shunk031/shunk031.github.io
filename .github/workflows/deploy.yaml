@@ -16,13 +16,13 @@ jobs:
       - name: Download Build Artifact
         uses: actions/download-artifact@v6
         with:
-          name: ${{ var.ARTIFACT_NAME }}
-          path: ${{ var.ARTIFACT_PATH }}
+          name: ${{ vars.ARTIFACT_NAME }}
+          path: ${{ vars.ARTIFACT_PATH }}
 
       - name: Deploy to GH-Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          publish_dir: ${{ var.ARTIFACT_PATH }}
+          publish_dir: ${{ vars.ARTIFACT_PATH }}
           publish_branch: gh-pages
-          cname: ${{ var.CNAME }}
+          cname: ${{ vars.CNAME }}
