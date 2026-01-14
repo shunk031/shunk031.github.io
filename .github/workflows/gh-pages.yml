@@ -1,0 +1,73 @@
+name: Page Build
+
+on: [push]
+
+jobs:
+  check-typo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Typo check
+        uses: crate-ci/typos@v1.42.0
+
+  build:
+    needs: check-typo
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Setup Build Environment
+        uses: jdx/mise-action@v2
+
+      - name: Build
+        run: hugo
+
+      - name: Upload Build Artifact
+        uses: actions/upload-artifact@v6
+        with:
+          name: ${{ vars.ARTIFACT_NAME }}
+          path: ${{ vars.ARTIFACT_PATH }}
+
+  check-broken-links:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout the repository to access the lychee config file
+      - uses: actions/checkout@v6
+
+      - name: Download Build Artifact
+        uses: actions/download-artifact@v6
+        with:
+          name: ${{ vars.ARTIFACT_NAME }}
+          path: ${{ vars.ARTIFACT_PATH }}
+
+      - name: Link Checker
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          fail: true
+          args: "${{ vars.ARTIFACT_PATH }} --config .lychee/config.toml"
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download Build Artifact
+        uses: actions/download-artifact@v6
+        with:
+          name: ${{ vars.ARTIFACT_NAME }}
+          path: ${{ vars.ARTIFACT_PATH }}
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          publish_dir: ${{ vars.ARTIFACT_PATH }}
+          publish_branch: gh-pages # deploying branch
+          cname: ${{ vars.CNAME }}
