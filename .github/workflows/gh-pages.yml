@@ -3,6 +3,14 @@ name: Page Build
 on: [push]
 
 jobs:
+  check-typo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Typo check
+        uses: crate-ci/typos@v1.42.0
+
   build-deploy:
     runs-on: ubuntu-latest
     env:
@@ -12,14 +20,8 @@ jobs:
         with:
           fetch-depth: 0 # Fetch all history for .GitInfo and .
 
-      - name: Typo check
-        uses: crate-ci/typos@v1.42.0
-
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
-        with:
-          hugo-version: "0.136.5" # Make sure the version matches the one in https://github.com/shunk031/shunk031.github.io/blob/main/Makefile#L1
-          extended: true
+      - name: Setup Build Environment
+        uses: jdx/mise-action@v2
 
       - name: Build
         run: hugo
