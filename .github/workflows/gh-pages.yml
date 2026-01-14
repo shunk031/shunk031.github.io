@@ -8,7 +8,17 @@ env:
   ARTIFACT_PATH: public
 
 jobs:
+  check-typo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Typo check
+        uses: crate-ci/typos@v1.42.0
+
   build:
+    needs: check-typo
     runs-on: ubuntu-latest
 
     steps:
@@ -20,24 +30,11 @@ jobs:
       - name: Build
         run: hugo
 
-      - name: Upload Artifact
+      - name: Upload Build Artifact
         uses: actions/upload-artifact@v6
         with:
           name: ${{ env.ARTIFACT_NAME }}
           path: ${{ env.ARTIFACT_PATH }}
-
-  check-typo:
-    needs: build
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/download-artifact@v6
-        with:
-          name: ${{ env.ARTIFACT_NAME }}
-          path: ${{ env.ARTIFACT_PATH }}
-
-      - name: Typo check
-        uses: crate-ci/typos@v1.42.0
 
   check-broken-links:
     needs: build
@@ -47,7 +44,8 @@ jobs:
       # Checkout the repository to access the lychee config file
       - uses: actions/checkout@v6
 
-      - uses: actions/download-artifact@v6
+      - name: Download Build Artifact
+        uses: actions/download-artifact@v6
         with:
           name: ${{ env.ARTIFACT_NAME }}
           path: ${{ env.ARTIFACT_PATH }}
@@ -60,11 +58,12 @@ jobs:
           args: "${{ env.ARTIFACT_PATH }} --config .lychee/config.toml"
 
   build-deploy:
-    needs: [build, check-typo]
+    needs: build
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/download-artifact@v6
+      - name: Download Build Artifact
+        uses: actions/download-artifact@v6
         with:
           name: ${{ env.ARTIFACT_NAME }}
           path: ${{ env.ARTIFACT_PATH }}
