@@ -25,7 +25,7 @@ abstract: "SNS 等，オンライン上でやりとりされる文章から相�
 # Summary. An optional shortened abstract.
 summary: "言語処理学会第 28 回年次大会，2022."
 
-tags: ["Domestic Conference", "Non-refereed", "Natural Language Processing", "ANLP"]
+tags: ["Domestic Conference", "Non-refereed", "Natural Language Processing", "ANLP", "NLP2022"]
 categories: ["Natural Language Processing", "Sentiment Analysis"]
 featured: false
 

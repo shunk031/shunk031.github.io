@@ -25,7 +25,7 @@ abstract: "レイアウト生成は，カテゴリ・位置・サイズで記述
 # Summary. An optional shortened abstract.
 summary: "第 27 回 画像の認識・理解シンポジウム，2024."
 
-tags: ["Domestic Conference", "Non-refereed", "MIRU"]
+tags: ["Domestic Conference", "Non-refereed", "MIRU", "MIRU2024"]
 categories: ["Computer Vision", "Layout Generation"]
 featured: false
 

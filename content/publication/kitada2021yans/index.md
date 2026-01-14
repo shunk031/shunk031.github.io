@@ -25,7 +25,7 @@ abstract: "検索連動型広告等の運用型広告は、広告効果を維持
 # Summary. An optional shortened abstract.
 summary: "NLP 若手の会 (YANS) 第 16 回シンポジウム，2021."
 
-tags: ["Computational Advertising", "Domestic Conference", "Non-refereed", "CyberAgent", "YANS"]
+tags: ["Computational Advertising", "Domestic Conference", "Non-refereed", "CyberAgent", "YANS", "YANS2021"]
 categories: ["Multi-modal Model", "Computational Advertising"]
 featured: false
 

@@ -24,7 +24,7 @@ abstract: "We propose a simple yet effective image captioning framework that can
 # Summary. An optional shortened abstract.
 summary: "Proc. IEEE 19th International Conference on Smart Communities: Improving Quality of Life Using ICT, IoT and AI (HONET)."
 
-tags: ["International Conference", "Refereed", "Natural Language Processing", "Image Captioning", "International Publication"]
+tags: ["International Conference", "Refereed", "Natural Language Processing", "Image Captioning", "International Publication", "HONET", "HONET2022"]
 categories: ["Natural Language Processing", "Image Captioning"]
 featured: false
 

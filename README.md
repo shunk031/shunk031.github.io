@@ -85,6 +85,30 @@ make ogp-image name="kitada20XXconf"
 # Success to generate twitter card into content/publication/kitada20XXconf/featured.png
 ```
 
+## 🏷️ Manage publication tags
+
+Add conference name and year tags to publications automatically:
+
+- Preview changes (dry-run mode)
+
+```sh
+make add-conference-tags-dry-run
+```
+
+- Apply tag additions
+
+```sh
+make add-conference-tags
+```
+
+This script will:
+
+- Add conference name tags (e.g., `YANS`, `ANLP`, `MIRU`) to all conference publications
+- Add conference+year tags (e.g., `YANS2019`, `ANLP2025`) for easier filtering
+- Automatically map `NLP` → `ANLP` for 言語処理学会年次大会
+- Preserve formatting and comments in YAML frontmatter
+- Skip journal articles and dissertations
+
 ### 😀 Available Icons/Emojis
 
 - See the following for more details:

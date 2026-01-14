@@ -28,7 +28,7 @@ abstract: " 日本語の漢字や中国語などはそれぞれの文字が表�
 # Summary. An optional shortened abstract.
 summary: "言語処理学会第 26 回年次大会，2020."
 
-tags: ["Domestic Conference", "Non-refereed", "Natural Language Processing", "ANLP"]
+tags: ["Domestic Conference", "Non-refereed", "Natural Language Processing", "ANLP", "NLP2020"]
 categories: ["Natural Language Processing", "Glyph-aware NLP", "NLP for Asian Languages"]
 featured: false
 

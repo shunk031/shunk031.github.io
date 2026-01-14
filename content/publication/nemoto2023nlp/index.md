@@ -26,7 +26,7 @@ abstract: "
 # Summary. An optional shortened abstract.
 summary: "言語処理学会第 29 回年次大会，2023."
 
-tags: ["Domestic Conference", "Non-refereed", "Natural Language Processing", "ANLP"]
+tags: ["Domestic Conference", "Non-refereed", "Natural Language Processing", "ANLP", "NLP2023"]
 categories: ["Natural Language Processing", "Named Entity Recognition"]
 featured: false
 

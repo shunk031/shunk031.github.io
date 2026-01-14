@@ -24,7 +24,7 @@ abstract: "日本語などの単語ごとに明確な区切りがない言語の
 # Summary. An optional shortened abstract.
 summary: "言語処理学会第 24 回年次大会，2018."
 
-tags: ["Domestic Conference", "Non-refereed", "Natural Language Processing", "ANLP"]
+tags: ["Domestic Conference", "Non-refereed", "Natural Language Processing", "ANLP", "NLP2018"]
 categories: ["Natural Language Processing", "Glyph-aware NLP", "NLP for Asian Languages"]
 featured: false
 

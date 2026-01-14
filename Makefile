@@ -69,3 +69,11 @@ publication-thumbnail:
 	$(eval EXPANDED_PDF := $(shell echo $(pdf)))
 	magick "$(EXPANDED_PDF)[0]" -resize '640x640^' -crop '640x480+0+0' -alpha remove $(PWD)/content/publication/$(name)/featured.png
 
+.PHONY : add-conference-tags-dry-run
+add-conference-tags-dry-run:
+	uv run --with ruamel.yaml python scripts/add_conference_tags.py --dry-run
+
+.PHONY : add-conference-tags
+add-conference-tags:
+	uv run --with ruamel.yaml python scripts/add_conference_tags.py
+

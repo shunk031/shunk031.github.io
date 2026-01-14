@@ -31,7 +31,7 @@ abstract: "
 # Summary. An optional shortened abstract.
 summary: "言語処理学会第 27 回年次大会，2021."
 
-tags: ["Domestic Conference", "Non-refereed", "Natural Language Processing", "ANLP"]
+tags: ["Domestic Conference", "Non-refereed", "Natural Language Processing", "ANLP", "NLP2021"]
 categories: ["Natural Language Processing", "Image Caption"]
 featured: false
 

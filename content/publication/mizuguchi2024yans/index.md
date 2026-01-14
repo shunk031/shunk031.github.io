@@ -25,7 +25,7 @@ abstract: "拡散モデルによる画像生成技術であるLatent diffusion m
 # Summary. An optional shortened abstract.
 summary: "NLP 若手の会 (YANS) 第 19 回シンポジウム，2024."
 
-tags: ["Image Generation", "Domestic Conference", "Non-refereed", "YANS"]
+tags: ["Image Generation", "Domestic Conference", "Non-refereed", "YANS", "YANS2024"]
 categories: ["Computer Vision", "Vision & Language", "Image Generation"]
 featured: false
 

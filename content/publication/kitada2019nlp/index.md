@@ -25,7 +25,7 @@ abstract: ""
 # Summary. An optional shortened abstract.
 summary: "言語処理学会第 25 回年次大会，2019."
 
-tags: ["Domestic Conference", "Non-refereed", "Natural Language Processing", "Computational Advertising", "ANLP", "Gunosy"]
+tags: ["Domestic Conference", "Non-refereed", "Natural Language Processing", "Computational Advertising", "ANLP", "Gunosy", "NLP2019"]
 categories: ["Computational Advertising", "Natural Language Processing"]
 featured: false
 

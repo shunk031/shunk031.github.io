@@ -25,7 +25,7 @@ abstract: "日本語や中国語における自然言語処理では，漢字の
 # Summary. An optional shortened abstract.
 summary: "言語処理学会第 28 回年次大会，2022."
 
-tags: ["Domestic Conference", "Non-refereed", "Natural Language Processing", "ANLP"]
+tags: ["Domestic Conference", "Non-refereed", "Natural Language Processing", "ANLP", "NLP2022"]
 categories: ["Natural Language Processing", "Glyph-aware NLP", "NLP for Asian Languages"]
 featured: false
 

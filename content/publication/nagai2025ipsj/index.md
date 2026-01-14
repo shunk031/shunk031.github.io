@@ -24,7 +24,7 @@ abstract: "潜在拡散モデル（LDM）は、プロンプトから高品質な
 # Summary. An optional shortened abstract.
 summary: "情報処理学第 87 回全国大会，2025."
 
-tags: ["Domestic Conference", "Non-refereed", "Image Generation", "Diffusion Model", "IPSJ"]
+tags: ["Domestic Conference", "Non-refereed", "Image Generation", "Diffusion Model", "IPSJ", "IPSJ2025"]
 categories: ["Computer Vision", "Image Generation"]
 featured: false
 
