@@ -6,6 +6,10 @@ HUGO_CMD := hugo
 help :
 	$(HUGO_CMD) help
 
+.PHONY: setup
+setup:
+	mise install
+
 .PHONY : update
 update :
 	$(HUGO_CMD) mod get -u
@@ -54,7 +58,7 @@ endif
 	$(HUGO_CMD) new --kind event event/$(name)
 
 .PHONY : ogp-image
-ogp-image:
+ogp-image: setup
 ifeq ($(name),)
 	$(error name for the OGP image is not set: make ogp-image name=PUBLICATION-NAME)
 endif
