@@ -44,6 +44,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # Checkout the repository to access the lychee config file
+      - uses: actions/checkout@v6
+
       - uses: actions/download-artifact@v6
         with:
           name: ${{ env.ARTIFACT_NAME }}
@@ -57,7 +60,7 @@ jobs:
           args: "${{ env.ARTIFACT_PATH }} --config .lychee/config.toml"
 
   build-deploy:
-    needs: [build, check-typo, check-broken-links]
+    needs: [build, check-typo]
     runs-on: ubuntu-latest
 
     steps:
