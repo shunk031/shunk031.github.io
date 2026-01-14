@@ -57,7 +57,7 @@ jobs:
           fail: true
           args: "${{ env.ARTIFACT_PATH }} --config .lychee/config.toml"
 
-  build-deploy:
+  deploy:
     needs: build
     runs-on: ubuntu-latest
 
