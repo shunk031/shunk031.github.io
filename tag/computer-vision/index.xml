@@ -5,12 +5,20 @@
     <link>https://shunk031.me/tag/computer-vision/</link>
       <atom:link href="https://shunk031.me/tag/computer-vision/index.xml" rel="self" type="application/rss+xml" />
     <description>Computer Vision</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 25 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 09 Mar 2026 00:00:00 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.me/media/sharing.png</url>
       <title>Computer Vision</title>
       <link>https://shunk031.me/tag/computer-vision/</link>
     </image>
+    
+    <item>
+      <title>SciGA-Vec: 学術論文におけるベクタ画像形式の Graphical Abstract データセット</title>
+      <link>https://shunk031.me/publication/kawada2026nlp/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/kawada2026nlp/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>ICCV2025 Conference Participation Report</title>

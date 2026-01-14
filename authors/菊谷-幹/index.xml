@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>菊谷 幹 | shunk031.me</title>
+    <link>https://shunk031.me/authors/%E8%8F%8A%E8%B0%B7-%E5%B9%B9/</link>
+      <atom:link href="https://shunk031.me/authors/%E8%8F%8A%E8%B0%B7-%E5%B9%B9/index.xml" rel="self" type="application/rss+xml" />
+    <description>菊谷 幹</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 09 Mar 2026 00:00:00 +0900</lastBuildDate>
+    <image>
+      <url>https://shunk031.me/media/sharing.png</url>
+      <title>菊谷 幹</title>
+      <link>https://shunk031.me/authors/%E8%8F%8A%E8%B0%B7-%E5%B9%B9/</link>
+    </image>
+    
+    <item>
+      <title>MLP の重みを反映した Sparse Autoencoder の初期化手法の提案</title>
+      <link>https://shunk031.me/publication/kikuya2026nlp/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/kikuya2026nlp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
