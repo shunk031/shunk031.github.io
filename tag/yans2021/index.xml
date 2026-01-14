@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>YANS2021 | shunk031.me</title>
+    <link>https://shunk031.me/tag/yans2021/</link>
+      <atom:link href="https://shunk031.me/tag/yans2021/index.xml" rel="self" type="application/rss+xml" />
+    <description>YANS2021</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 02 Sep 2021 20:02:35 +0900</lastBuildDate>
+    <image>
+      <url>https://shunk031.me/media/sharing.png</url>
+      <title>YANS2021</title>
+      <link>https://shunk031.me/tag/yans2021/</link>
+    </image>
+    
+    <item>
+      <title>文章の書き手が持つ感情と読み手が受ける感情の差に関する初期調査および考察</title>
+      <link>https://shunk031.me/publication/nakagawa2021yans/</link>
+      <pubDate>Thu, 02 Sep 2021 20:02:35 +0900</pubDate>
+      <guid>https://shunk031.me/publication/nakagawa2021yans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>効果の高いランディングページ作成支援に向けた広告テキストからの効果予測および推薦モデルの構築</title>
+      <link>https://shunk031.me/publication/kitada2021yans/</link>
+      <pubDate>Thu, 02 Sep 2021 19:56:57 +0900</pubDate>
+      <guid>https://shunk031.me/publication/kitada2021yans/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

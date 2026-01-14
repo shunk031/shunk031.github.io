@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>YANS2017 | shunk031.me</title>
+    <link>https://shunk031.me/tag/yans2017/</link>
+      <atom:link href="https://shunk031.me/tag/yans2017/index.xml" rel="self" type="application/rss+xml" />
+    <description>YANS2017</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 05 Sep 2017 00:00:00 +0900</lastBuildDate>
+    <image>
+      <url>https://shunk031.me/media/sharing.png</url>
+      <title>YANS2017</title>
+      <link>https://shunk031.me/tag/yans2017/</link>
+    </image>
+    
+    <item>
+      <title>Character-level Convolutional Neural Networks における Wildcard Training の基礎検討</title>
+      <link>https://shunk031.me/publication/kitada2017yans/</link>
+      <pubDate>Tue, 05 Sep 2017 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/kitada2017yans/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

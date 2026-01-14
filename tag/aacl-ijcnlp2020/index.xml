@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AACL-IJCNLP2020 | shunk031.me</title>
+    <link>https://shunk031.me/tag/aacl-ijcnlp2020/</link>
+      <atom:link href="https://shunk031.me/tag/aacl-ijcnlp2020/index.xml" rel="self" type="application/rss+xml" />
+    <description>AACL-IJCNLP2020</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 25 Oct 2020 15:15:41 +0900</lastBuildDate>
+    <image>
+      <url>https://shunk031.me/media/sharing.png</url>
+      <title>AACL-IJCNLP2020</title>
+      <link>https://shunk031.me/tag/aacl-ijcnlp2020/</link>
+    </image>
+    
+    <item>
+      <title>Text Classification through Glyph-aware Disentangled Character Embedding and Semantic Sub-character Augmentation</title>
+      <link>https://shunk031.me/publication/aoki2020text/</link>
+      <pubDate>Sun, 25 Oct 2020 15:15:41 +0900</pubDate>
+      <guid>https://shunk031.me/publication/aoki2020text/</guid>
+      <description>&lt;div class=&#34;blogcard&#34;&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2faclanthology.org%2f2020.aacl-srw.1%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
+        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

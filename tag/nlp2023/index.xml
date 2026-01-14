@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NLP2023 | shunk031.me</title>
+    <link>https://shunk031.me/tag/nlp2023/</link>
+      <atom:link href="https://shunk031.me/tag/nlp2023/index.xml" rel="self" type="application/rss+xml" />
+    <description>NLP2023</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 15 Mar 2023 09:40:00 +0900</lastBuildDate>
+    <image>
+      <url>https://shunk031.me/media/sharing.png</url>
+      <title>NLP2023</title>
+      <link>https://shunk031.me/tag/nlp2023/</link>
+    </image>
+    
+    <item>
+      <title>Majority or Minority: 固有表現抽出におけるデータの不均衡性に着目した損失関数の提案</title>
+      <link>https://shunk031.me/publication/nemoto2023nlp/</link>
+      <pubDate>Wed, 15 Mar 2023 09:40:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/nemoto2023nlp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

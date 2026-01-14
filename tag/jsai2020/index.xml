@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JSAI2020 | shunk031.me</title>
+    <link>https://shunk031.me/tag/jsai2020/</link>
+      <atom:link href="https://shunk031.me/tag/jsai2020/index.xml" rel="self" type="application/rss+xml" />
+    <description>JSAI2020</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 17 Jun 2020 14:06:57 +0900</lastBuildDate>
+    <image>
+      <url>https://shunk031.me/media/sharing.png</url>
+      <title>JSAI2020</title>
+      <link>https://shunk031.me/tag/jsai2020/</link>
+    </image>
+    
+    <item>
+      <title>生存時間分析を用いた広告クリエイティブの停止予測</title>
+      <link>https://shunk031.me/publication/kitada2020jsai/</link>
+      <pubDate>Wed, 17 Jun 2020 14:06:57 +0900</pubDate>
+      <guid>https://shunk031.me/publication/kitada2020jsai/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

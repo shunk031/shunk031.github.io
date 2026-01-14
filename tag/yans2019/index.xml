@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>YANS2019 | shunk031.me</title>
+    <link>https://shunk031.me/tag/yans2019/</link>
+      <atom:link href="https://shunk031.me/tag/yans2019/index.xml" rel="self" type="application/rss+xml" />
+    <description>YANS2019</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 27 Aug 2019 00:00:00 +0900</lastBuildDate>
+    <image>
+      <url>https://shunk031.me/media/sharing.png</url>
+      <title>YANS2019</title>
+      <link>https://shunk031.me/tag/yans2019/</link>
+    </image>
+    
+    <item>
+      <title>解釈性向上のための注意機構と損失勾配に対する関連損失の導入</title>
+      <link>https://shunk031.me/publication/kitada2019yans/</link>
+      <pubDate>Tue, 27 Aug 2019 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/kitada2019yans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Image Based Character Embeddings for Arabic Document Classification</title>
+      <link>https://shunk031.me/publication/daif2019yans/</link>
+      <pubDate>Mon, 26 Aug 2019 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/daif2019yans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>日本語の文字体系を考慮した文書分類モデルの提案</title>
+      <link>https://shunk031.me/publication/nagasawa2019yans/</link>
+      <pubDate>Mon, 26 Aug 2019 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/nagasawa2019yans/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HONET2022 | shunk031.me</title>
+    <link>https://shunk031.me/tag/honet2022/</link>
+      <atom:link href="https://shunk031.me/tag/honet2022/index.xml" rel="self" type="application/rss+xml" />
+    <description>HONET2022</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 18 Oct 2022 14:09:09 -0400</lastBuildDate>
+    <image>
+      <url>https://shunk031.me/media/sharing.png</url>
+      <title>HONET2022</title>
+      <link>https://shunk031.me/tag/honet2022/</link>
+    </image>
+    
+    <item>
+      <title>Feedback is Needed for Retakes: An Explainable Poor Image Notification Framework for the Visually Impaired</title>
+      <link>https://shunk031.me/publication/ohata2022feedback/</link>
+      <pubDate>Tue, 18 Oct 2022 14:09:09 -0400</pubDate>
+      <guid>https://shunk031.me/publication/ohata2022feedback/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

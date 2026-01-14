@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>YANS2024 | shunk031.me</title>
+    <link>https://shunk031.me/tag/yans2024/</link>
+      <atom:link href="https://shunk031.me/tag/yans2024/index.xml" rel="self" type="application/rss+xml" />
+    <description>YANS2024</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 05 Sep 2024 17:50:00 +0900</lastBuildDate>
+    <image>
+      <url>https://shunk031.me/media/sharing.png</url>
+      <title>YANS2024</title>
+      <link>https://shunk031.me/tag/yans2024/</link>
+    </image>
+    
+    <item>
+      <title>text-to-image 拡散モデルにおける誘導 attention map を用いた画像生成手法の提案</title>
+      <link>https://shunk031.me/publication/mizuguchi2024yans/</link>
+      <pubDate>Thu, 05 Sep 2024 17:50:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/mizuguchi2024yans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>大規模言語モデルを用いたオノマトペ付与による日本語音声データセットの拡張</title>
+      <link>https://shunk031.me/publication/ogawa2024yans/</link>
+      <pubDate>Thu, 05 Sep 2024 17:50:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/ogawa2024yans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>学術論文における Graphical Abstract 自動生成の初期検討</title>
+      <link>https://shunk031.me/publication/kawada2024yans/</link>
+      <pubDate>Thu, 05 Sep 2024 17:50:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/kawada2024yans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>潜在拡散モデルにおけるプロンプトを用いた配色制御の試み</title>
+      <link>https://shunk031.me/publication/nagai2024yans/</link>
+      <pubDate>Thu, 05 Sep 2024 17:50:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/nagai2024yans/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

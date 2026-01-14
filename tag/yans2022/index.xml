@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>YANS2022 | shunk031.me</title>
+    <link>https://shunk031.me/tag/yans2022/</link>
+      <atom:link href="https://shunk031.me/tag/yans2022/index.xml" rel="self" type="application/rss+xml" />
+    <description>YANS2022</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 30 Aug 2022 00:00:00 +0900</lastBuildDate>
+    <image>
+      <url>https://shunk031.me/media/sharing.png</url>
+      <title>YANS2022</title>
+      <link>https://shunk031.me/tag/yans2022/</link>
+    </image>
+    
+    <item>
+      <title>固有表現認識タスクにおけるデータセットの偏りに着目した動的重み付け損失関数の提案</title>
+      <link>https://shunk031.me/publication/nemoto2022yans/</link>
+      <pubDate>Tue, 30 Aug 2022 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/nemoto2022yans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Document AI タスクに向けた大規模事前学習済みモデルを活用した Layout-aware Prompting</title>
+      <link>https://shunk031.me/publication/kitada2022yans/</link>
+      <pubDate>Mon, 29 Aug 2022 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/kitada2022yans/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NLP2025 | shunk031.me</title>
+    <link>https://shunk031.me/tag/nlp2025/</link>
+      <atom:link href="https://shunk031.me/tag/nlp2025/index.xml" rel="self" type="application/rss+xml" />
+    <description>NLP2025</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 11 Mar 2025 08:30:00 +0900</lastBuildDate>
+    <image>
+      <url>https://shunk031.me/media/sharing.png</url>
+      <title>NLP2025</title>
+      <link>https://shunk031.me/tag/nlp2025/</link>
+    </image>
+    
+    <item>
+      <title>SciGA: 学術論文における Graphical Abstract 設計支援のための統合データセット</title>
+      <link>https://shunk031.me/publication/kawada2025nlp/</link>
+      <pubDate>Tue, 11 Mar 2025 08:30:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/kawada2025nlp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

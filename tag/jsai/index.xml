@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JSAI | shunk031.me</title>
+    <link>https://shunk031.me/tag/jsai/</link>
+      <atom:link href="https://shunk031.me/tag/jsai/index.xml" rel="self" type="application/rss+xml" />
+    <description>JSAI</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 09 Jun 2021 16:47:22 +0900</lastBuildDate>
+    <image>
+      <url>https://shunk031.me/media/sharing.png</url>
+      <title>JSAI</title>
+      <link>https://shunk031.me/tag/jsai/</link>
+    </image>
+    
+    <item>
+      <title>広告クリエイティブ評価のための深層確率埋め込みの学習</title>
+      <link>https://shunk031.me/publication/kitada2021jsai/</link>
+      <pubDate>Wed, 09 Jun 2021 16:47:22 +0900</pubDate>
+      <guid>https://shunk031.me/publication/kitada2021jsai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>生存時間分析を用いた広告クリエイティブの停止予測</title>
+      <link>https://shunk031.me/publication/kitada2020jsai/</link>
+      <pubDate>Wed, 17 Jun 2020 14:06:57 +0900</pubDate>
+      <guid>https://shunk031.me/publication/kitada2020jsai/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

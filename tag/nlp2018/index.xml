@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NLP2018 | shunk031.me</title>
+    <link>https://shunk031.me/tag/nlp2018/</link>
+      <atom:link href="https://shunk031.me/tag/nlp2018/index.xml" rel="self" type="application/rss+xml" />
+    <description>NLP2018</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 15 Mar 2018 00:00:00 +0900</lastBuildDate>
+    <image>
+      <url>https://shunk031.me/media/sharing.png</url>
+      <title>NLP2018</title>
+      <link>https://shunk031.me/tag/nlp2018/</link>
+    </image>
+    
+    <item>
+      <title>CE-CLCNN: Character Encoder を用いた Character-level Convolutional Neural Networks によるテキスト分類</title>
+      <link>https://shunk031.me/publication/kitada2018nlp/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/kitada2018nlp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

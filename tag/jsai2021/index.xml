@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JSAI2021 | shunk031.me</title>
+    <link>https://shunk031.me/tag/jsai2021/</link>
+      <atom:link href="https://shunk031.me/tag/jsai2021/index.xml" rel="self" type="application/rss+xml" />
+    <description>JSAI2021</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 09 Jun 2021 16:47:22 +0900</lastBuildDate>
+    <image>
+      <url>https://shunk031.me/media/sharing.png</url>
+      <title>JSAI2021</title>
+      <link>https://shunk031.me/tag/jsai2021/</link>
+    </image>
+    
+    <item>
+      <title>広告クリエイティブ評価のための深層確率埋め込みの学習</title>
+      <link>https://shunk031.me/publication/kitada2021jsai/</link>
+      <pubDate>Wed, 09 Jun 2021 16:47:22 +0900</pubDate>
+      <guid>https://shunk031.me/publication/kitada2021jsai/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
