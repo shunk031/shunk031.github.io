@@ -13,6 +13,208 @@
     </image>
     
     <item>
+      <title>A Coding-Agent-Friendly Environment Is Friendly to Humans Too: ghq × gwq × fzf</title>
+      <link>https://shunk031.me/post/ghq-gwq-fzf-worktree/</link>
+      <pubDate>Fri, 16 Jan 2026 23:45:26 +0900</pubDate>
+      <guid>https://shunk031.me/post/ghq-gwq-fzf-worktree/</guid>
+      <description>&lt;p&gt;As your number of repositories grows through &lt;code&gt;git clone&lt;/code&gt;, for both work and personal projects, it becomes harder to remember &lt;strong&gt;where&lt;/strong&gt; you cloned things and &lt;strong&gt;which directory&lt;/strong&gt; you’re currently working in. You end up wasting time on &lt;code&gt;cd&lt;/code&gt; and shell completion. On top of that, once you start creating branches for development or checking out other branches to review Pull Requests, the overhead of switching branches and managing stashes just keeps increasing. I often mess up branch switches, run into conflicts, or almost lose my changes.&lt;/p&gt;
+&lt;p&gt;These problems become even more visible once you start using coding agents like &lt;strong&gt;Claude Code&lt;/strong&gt; or &lt;strong&gt;Codex&lt;/strong&gt;. The more tasks you run in parallel, the more likely things are to collide if you only have a single working directory. And of course, you want to unleash your coding agents as much as possible 😄.&lt;/p&gt;
+&lt;p&gt;In this article, I’ll show how combining the following three tools can significantly improve your daily development workflow. And yes—please do use coding agents.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Use &lt;a href=&#34;https://github.com/x-motemen/ghq&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;ghq&lt;/code&gt;&lt;/a&gt; to standardize where repositories are cloned (so things don’t fall apart as they grow)&lt;/li&gt;
+&lt;li&gt;Use &lt;a href=&#34;https://github.com/d-kuro/gwq&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;gwq&lt;/code&gt;&lt;/a&gt; to make git worktree operations painless (parallel work becomes the default)&lt;/li&gt;
+&lt;li&gt;Use &lt;a href=&#34;https://github.com/junegunn/fzf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;fzf&lt;/code&gt;&lt;/a&gt; to minimize directory hopping (list → fuzzy search → instant jump)&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;details class=&#34;toc-inpage d-print-none  &#34; open&gt;
+  &lt;summary class=&#34;font-weight-bold&#34;&gt;Table of Contents&lt;/summary&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#why-git-worktree-works-so-well-with-coding-agents&#34;&gt;Why git worktree Works So Well with Coding Agents&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#the-tooling-stack-used-in-this-article&#34;&gt;The Tooling Stack Used in This Article&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#ghq-standardize-where-you-clone-repositories&#34;&gt;&lt;code&gt;ghq&lt;/code&gt;: Standardize Where You Clone Repositories&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#fzf-turn-any-list-into-a-selectable-ui&#34;&gt;&lt;code&gt;fzf&lt;/code&gt;: Turn Any List into a “Selectable UI”&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#gwq-manage-worktrees-the-ghq-way&#34;&gt;&lt;code&gt;gwq&lt;/code&gt;: Manage Worktrees “the ghq Way”&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#unifying-clone-and-worktree-under-the-same-root&#34;&gt;Unifying &lt;code&gt;clone&lt;/code&gt; and &lt;code&gt;worktree&lt;/code&gt; Under the Same Root&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#setup-point-both-ghq-and-gwq-to-ghq&#34;&gt;Setup: Point Both &lt;code&gt;ghq&lt;/code&gt; and &lt;code&gt;gwq&lt;/code&gt; to &lt;code&gt;~/ghq&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#creating-a-jump-command-ghq--fzf&#34;&gt;Creating a “Jump” Command: ghq + fzf&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#summary-centralize-select-and-run-in-parallel&#34;&gt;Summary: Centralize, Select, and Run in Parallel&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&#34;why-git-worktree-works-so-well-with-coding-agents&#34;&gt;Why git worktree Works So Well with Coding Agents&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://git-scm.com/docs/git-worktree&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;git worktree&lt;/a&gt; allows you to have multiple working directories (worktrees) for a single repository. The official Git documentation clearly explains the distinction between the &lt;em&gt;main worktree&lt;/em&gt; and &lt;em&gt;linked worktrees&lt;/em&gt;, and recommends cleaning up unused linked worktrees with &lt;code&gt;git worktree remove&lt;/code&gt;. &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;The reason this works so well with coding agents is simple: &lt;strong&gt;your workspaces are isolated&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Task A progresses in worktree A&lt;/li&gt;
+&lt;li&gt;Task B progresses in worktree B&lt;/li&gt;
+&lt;li&gt;Even if you run agents for both, they’re not fighting over the same repository&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Anthropic’s best practices also introduce workflows where multiple Claude sessions are run simultaneously using worktrees. &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h2 id=&#34;the-tooling-stack-used-in-this-article&#34;&gt;The Tooling Stack Used in This Article&lt;/h2&gt;
+&lt;h3 id=&#34;ghq-standardize-where-you-clone-repositories&#34;&gt;&lt;code&gt;ghq&lt;/code&gt;: Standardize Where You Clone Repositories&lt;/h3&gt;
+&lt;div class=&#34;blogcard&#34;&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fgithub.com%2fx-motemen%2fghq&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
+        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;code&gt;ghq&lt;/code&gt; is a CLI tool for organizing cloned repositories. Its philosophy is to place them under a common root using a structure like &lt;code&gt;host/owner/repo&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;With the &lt;code&gt;ghq list&lt;/code&gt; command, you can see all repositories you’ve cloned locally. When combined with &lt;code&gt;fzf&lt;/code&gt; (covered later), this becomes a powerful UI for jumping between repositories. The &lt;code&gt;ghq list --full-path&lt;/code&gt; command outputs full paths and is also featured in the official ghq handbook as a common pattern to pair with &lt;code&gt;fzf&lt;/code&gt;. &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h3 id=&#34;fzf-turn-any-list-into-a-selectable-ui&#34;&gt;&lt;code&gt;fzf&lt;/code&gt;: Turn Any List into a “Selectable UI”&lt;/h3&gt;
+&lt;div class=&#34;blogcard&#34;&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fjunegunn.github.io%2ffzf%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
+        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;code&gt;fzf&lt;/code&gt; is a fast, interactive fuzzy finder that runs in the terminal. It takes input from stdin, filters it in real time, and lets you select items interactively.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://junegunn.github.io/fzf/images/fzf.gif&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;gwq-manage-worktrees-the-ghq-way&#34;&gt;&lt;code&gt;gwq&lt;/code&gt;: Manage Worktrees “the ghq Way”&lt;/h3&gt;
+&lt;div class=&#34;blogcard&#34;&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fgithub.com%2fd-kuro%2fgwq&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
+        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;code&gt;gwq&lt;/code&gt; is a CLI tool for efficiently managing git worktrees. Its README describes it as:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Just like ghq manages clones, gwq manages worktrees.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It’s designed around fuzzy-finder-driven workflows, making it easy to create, switch, and delete worktrees.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/d-kuro/gwq/refs/heads/main/docs/assets/usage.gif&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;unifying-clone-and-worktree-under-the-same-root&#34;&gt;Unifying &lt;code&gt;clone&lt;/code&gt; and &lt;code&gt;worktree&lt;/code&gt; Under the Same Root&lt;/h2&gt;
+&lt;p&gt;The key idea of this article is:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;By placing both original repositories and git worktree directories under the same root (e.g. &lt;code&gt;~/ghq&lt;/code&gt;), you can target a single location with &lt;code&gt;fzf&lt;/code&gt;, making navigation lightning-fast.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Below is a concrete setup.&lt;/p&gt;
+&lt;h3 id=&#34;setup-point-both-ghq-and-gwq-to-ghq&#34;&gt;Setup: Point Both &lt;code&gt;ghq&lt;/code&gt; and &lt;code&gt;gwq&lt;/code&gt; to &lt;code&gt;~/ghq&lt;/code&gt;&lt;/h3&gt;
+&lt;h4 id=&#34;ghq-fix-the-root-to-ghq&#34;&gt;&lt;code&gt;ghq&lt;/code&gt;: Fix the Root to &lt;code&gt;~/ghq&lt;/code&gt;&lt;/h4&gt;
+&lt;p&gt;Configure ghq to use &lt;code&gt;~/ghq&lt;/code&gt; as its root. ghq reads this from git config.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[ghq]
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  root = ~/ghq
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;With this setup, running &lt;code&gt;ghq get github.com/owner/repo&lt;/code&gt; results in the following structure:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;~/ghq/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  github.com/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    owner/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      repo/
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;gwq-place-worktrees-under-ghq&#34;&gt;&lt;code&gt;gwq&lt;/code&gt;: Place Worktrees Under &lt;code&gt;~/ghq&lt;/code&gt;&lt;/h4&gt;
+&lt;p&gt;gwq is configured via &lt;code&gt;~/.config/gwq/config.toml&lt;/code&gt;, where you can set &lt;code&gt;worktree.basedir&lt;/code&gt; and &lt;code&gt;naming.template&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell:~/.config/gwq/config.toml&#34; data-lang=&#34;shell:~/.config/gwq/config.toml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;naming&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;template&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;{{.Host}}/{{.Owner}}/{{.Repository}}={{.Branch}}&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;worktree&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;basedir&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;~/ghq&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;gwq supports template variables such as &lt;code&gt;Host&lt;/code&gt;, &lt;code&gt;Owner&lt;/code&gt;, &lt;code&gt;Repository&lt;/code&gt;, and &lt;code&gt;Branch&lt;/code&gt;, and even allows branch name sanitization. This is clearly documented in its README.&lt;/p&gt;
+&lt;p&gt;I personally use the format:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;#39;{{.Host}}/{{.Owner}}/{{.Repository}}={{.Branch}}&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If you instead follow the gwq default and separate directories by &lt;code&gt;{{.Branch}}&lt;/code&gt;, worktrees end up nested &lt;em&gt;inside&lt;/em&gt; the ghq-cloned repository. That makes them harder to find via &lt;code&gt;fzf&lt;/code&gt;, so be careful.&lt;/p&gt;
+&lt;p&gt;With the configuration above, running &lt;code&gt;gwq add feature-branch&lt;/code&gt; produces something like:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;~/ghq/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  github.com/shunk031/app                # original repo (ghq)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  github.com/shunk031/app=feature-auth   # worktree (gwq)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  github.com/shunk031/app=bugfix-login   # worktree (gwq)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  ...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  github.com/shunk031/infra              # another repo (ghq)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  github.com/shunk031/infra=refactor-tf  # worktree (gwq)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;creating-a-jump-command-ghq--fzf&#34;&gt;Creating a “Jump” Command: ghq + fzf&lt;/h3&gt;
+&lt;p&gt;Since &lt;code&gt;ghq list&lt;/code&gt; outputs all repositories, piping it into &lt;code&gt;fzf&lt;/code&gt; instantly gives you a navigation UI. With &lt;code&gt;ghq list --full-path&lt;/code&gt;, you can jump directly to any directory—almost instantly 🥰.&lt;/p&gt;
+&lt;p&gt;Here’s the command I personally use:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#!/usr/bin/env bash
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;function&lt;/span&gt; ghq-path&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    ghq list --full-path &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; fzf
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;function&lt;/span&gt; dev&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nb&#34;&gt;local&lt;/span&gt; moveto
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nv&#34;&gt;moveto&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;ghq-path&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;moveto&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;||&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;exit&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;# rename session if in tmux&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;[[&lt;/span&gt; -n &lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;TMUX&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;]]&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;then&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nb&#34;&gt;local&lt;/span&gt; repo_name
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nv&#34;&gt;repo_name&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;moveto&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;##*/&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        tmux rename-session &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;repo_name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;//./-&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;fi&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Running &lt;code&gt;dev&lt;/code&gt; shows all repositories under &lt;code&gt;ghq&lt;/code&gt; in &lt;code&gt;fzf&lt;/code&gt;. Selecting one immediately &lt;code&gt;cd&lt;/code&gt;s into it. If you’re inside a tmux session, the session name is also updated to match the repository, making terminal navigation even smoother.&lt;/p&gt;
+&lt;h2 id=&#34;summary-centralize-select-and-run-in-parallel&#34;&gt;Summary: Centralize, Select, and Run in Parallel&lt;/h2&gt;
+&lt;p&gt;In this article, we explored how combining &lt;strong&gt;ghq + gwq + fzf&lt;/strong&gt; helps you organize cloned repositories, move between them instantly, and comfortably run coding agents in parallel.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ghq&lt;/code&gt; centralizes your working directories&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;gwq&lt;/code&gt; simplifies worktree management&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;fzf&lt;/code&gt; enables fast, intuitive navigation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Together, these tools reduce confusion when juggling multiple tasks or coding agents at the same time—and significantly boost productivity. Give it a try!&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;Git - git-worktree Documentation &lt;a href=&#34;https://git-scm.com/docs/git-worktree&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://git-scm.com/docs/git-worktree&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;Claude Code Best Practices \ Anthropic &lt;a href=&#34;https://www.anthropic.com/engineering/claude-code-best-practices#:~:text=c.%20Use%20git%20worktrees&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.anthropic.com/engineering/claude-code-best-practices#:~:text=c.%20Use%20git%20worktrees&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
+&lt;p&gt;ghq-handbook/ja/05-command-list.md at master · Songmu/ghq-handbook &lt;a href=&#34;https://github.com/Songmu/ghq-handbook/blob/master/ja/05-command-list.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/Songmu/ghq-handbook/blob/master/ja/05-command-list.md&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>ICCV2025 Conference Participation Report</title>
       <link>https://shunk031.me/post/iccv2025-report/</link>
       <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>

@@ -1,0 +1,1717 @@
+<!DOCTYPE html>
+<!-- This site was created with Hugo Blox. https://hugoblox.com -->
+<!-- Last Published: January 16, 2026 --><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Hugo Blox Builder 5.9.7" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;800&family=Merriweather:wght@400;900&family=Permanent+Marker:wght@400&display=swap&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;800&family=Merriweather:wght@400;900&family=Permanent+Marker:wght@400&display=swap&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.26c458e6907dc03073573976b7f4044e.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.4/css/academicons.min.css" integrity="sha512-IW0nhlW5MgNydsXJO40En2EoCkTTjZhI3yuODrZIc8cQ4h1XcF53PsqDHa09NqnkXuIe0Oiyyj171BqZFwISBw==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css" integrity="" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.db92ece0de614f1190233c6bd60e89d2.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" disabled>
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" >
+  
+
+  
+  
+
+  <meta name="google-site-verification" content="mlfhgZD5ToIaXCc4qjAka3OdD1xq0PguCaXpTv0VUYM" />
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114287158-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-114287158-2', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="北田 俊輔" />
+
+
+
+
+
+  
+
+<meta name="description" content="Coding agents thrive on parallelism, and by unifying repository clones and git worktrees under a single `ghq` root and navigating them with `fzf`, you can create a workflow that’s faster, cleaner, and friendlier for both humans and AI." />
+
+
+
+<link rel="alternate" hreflang="en-us" href="https://shunk031.me/post/ghq-gwq-fzf-worktree/" />
+<link rel="canonical" href="https://shunk031.me/post/ghq-gwq-fzf-worktree/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hu10051210922980447289.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu9607046383224317331.png" />
+
+<meta name="theme-color" content="#1565c0" />
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary_large_image" />
+
+  <meta property="twitter:site" content="@shunk031" />
+  <meta property="twitter:creator" content="@shunk031" />
+<meta property="twitter:image" content="https://shunk031.me/post/ghq-gwq-fzf-worktree/featured.png" />
+
+
+
+  
+
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="shunk031.me" />
+<meta property="og:url" content="https://shunk031.me/post/ghq-gwq-fzf-worktree/" />
+<meta property="og:title" content="A Coding-Agent-Friendly Environment Is Friendly to Humans Too: ghq × gwq × fzf | shunk031.me" />
+<meta property="og:description" content="Coding agents thrive on parallelism, and by unifying repository clones and git worktrees under a single `ghq` root and navigating them with `fzf`, you can create a workflow that’s faster, cleaner, and friendlier for both humans and AI." /><meta property="og:image" content="https://shunk031.me/post/ghq-gwq-fzf-worktree/featured.png" /><meta property="og:locale" content="en-us" />
+
+  
+    <meta
+      property="article:published_time"
+      content="2026-01-16T23:45:26&#43;09:00"
+    />
+  
+  
+    <meta property="article:modified_time" content="2026-01-17T00:17:32&#43;09:00">
+  
+
+
+
+
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://shunk031.me/post/ghq-gwq-fzf-worktree/"
+  },
+  "headline": "A Coding-Agent-Friendly Environment Is Friendly to Humans Too: ghq × gwq × fzf",
+  
+  "image": [
+    "https://shunk031.me/post/ghq-gwq-fzf-worktree/featured.png"
+  ],
+  
+  "datePublished": "2026-01-16T23:45:26+09:00",
+  "dateModified": "2026-01-17T00:17:32+09:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "北田 俊輔"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "shunk031.me",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://shunk031.me/media/icon_hu8917630770089639356.png"
+    }
+  },
+  "description": "Coding agents thrive on parallelism, and by unifying repository clones and git worktrees under a single `ghq` root and navigating them with `fzf`, you can create a workflow that’s faster, cleaner, and friendlier for both humans and AI."
+}
+</script>
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+
+
+  
+  <title>A Coding-Agent-Friendly Environment Is Friendly to Humans Too: ghq × gwq × fzf | shunk031.me</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  dark " data-wc-page-id="a658c219c8b0837c33702e8b97df8d2f" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.db21e13b9b5c4f4b947717750ec8b3cc.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">shunk031.me</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">shunk031.me</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>🏠 Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#recent-news"><span>🗞️ News</span></a>
+          </li>
+
+          
+          
+
+          
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>📝 Publications</span><span class="caret"></span>
+            </a>
+            <div class="dropdown-menu">
+              
+                <a class="dropdown-item" href="/#journal-articles"><span>Journal Article</span></a>
+              
+                <a class="dropdown-item" href="/#conference-papers"><span>Conference Paper</span></a>
+              
+                <a class="dropdown-item" href="/#preprints"><span>Preprint</span></a>
+              
+                <a class="dropdown-item" href="/#dissertation"><span>Thesis</span></a>
+              
+                <a class="dropdown-item" href="/#domestic-conferences"><span>Domestic Conference Paper / Presentation</span></a>
+              
+            </div>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#talks"><span>🎙️ Talks</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#awards-and-grants"><span>🏆 Awards & Grants</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#featured-posts"><span>📝 Posts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#experience"><span>💻 Experience</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+          
+            
+            <li class="nav-item d-none d-lg-inline-flex">
+              <a class="nav-link" href="https://twitter.com/shunk031" data-toggle="tooltip" data-placement="bottom" title="Follow me on Twitter" target="_blank" rel="noopener" aria-label="Follow me on Twitter">
+                <i class="fab fa-twitter" aria-hidden="true"></i>
+              </a>
+            </li>
+          
+        
+
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+<div class="article-container pt-3">
+  <h1>A Coding-Agent-Friendly Environment Is Friendly to Humans Too: ghq × gwq × fzf</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Jan 17, 2026
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    5 min read
+  </span>
+  
+
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/tech/">Tech</a></span>
+  
+
+</div>
+
+  
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 393px;">
+  <div style="position: relative">
+    <img src="/post/ghq-gwq-fzf-worktree/featured_hu14787421293056383618.webp" width="720" height="393" alt="" class="featured-image">
+    
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>As your number of repositories grows through <code>git clone</code>, for both work and personal projects, it becomes harder to remember <strong>where</strong> you cloned things and <strong>which directory</strong> you’re currently working in. You end up wasting time on <code>cd</code> and shell completion. On top of that, once you start creating branches for development or checking out other branches to review Pull Requests, the overhead of switching branches and managing stashes just keeps increasing. I often mess up branch switches, run into conflicts, or almost lose my changes.</p>
+<p>These problems become even more visible once you start using coding agents like <strong>Claude Code</strong> or <strong>Codex</strong>. The more tasks you run in parallel, the more likely things are to collide if you only have a single working directory. And of course, you want to unleash your coding agents as much as possible 😄.</p>
+<p>In this article, I’ll show how combining the following three tools can significantly improve your daily development workflow. And yes—please do use coding agents.</p>
+<ul>
+<li>Use <a href="https://github.com/x-motemen/ghq" target="_blank" rel="noopener"><code>ghq</code></a> to standardize where repositories are cloned (so things don’t fall apart as they grow)</li>
+<li>Use <a href="https://github.com/d-kuro/gwq" target="_blank" rel="noopener"><code>gwq</code></a> to make git worktree operations painless (parallel work becomes the default)</li>
+<li>Use <a href="https://github.com/junegunn/fzf" target="_blank" rel="noopener"><code>fzf</code></a> to minimize directory hopping (list → fuzzy search → instant jump)</li>
+</ul>
+
+
+<details class="toc-inpage d-print-none  " open>
+  <summary class="font-weight-bold">Table of Contents</summary>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#why-git-worktree-works-so-well-with-coding-agents">Why git worktree Works So Well with Coding Agents</a></li>
+    <li><a href="#the-tooling-stack-used-in-this-article">The Tooling Stack Used in This Article</a>
+      <ul>
+        <li><a href="#ghq-standardize-where-you-clone-repositories"><code>ghq</code>: Standardize Where You Clone Repositories</a></li>
+        <li><a href="#fzf-turn-any-list-into-a-selectable-ui"><code>fzf</code>: Turn Any List into a “Selectable UI”</a></li>
+        <li><a href="#gwq-manage-worktrees-the-ghq-way"><code>gwq</code>: Manage Worktrees “the ghq Way”</a></li>
+      </ul>
+    </li>
+    <li><a href="#unifying-clone-and-worktree-under-the-same-root">Unifying <code>clone</code> and <code>worktree</code> Under the Same Root</a>
+      <ul>
+        <li><a href="#setup-point-both-ghq-and-gwq-to-ghq">Setup: Point Both <code>ghq</code> and <code>gwq</code> to <code>~/ghq</code></a></li>
+        <li><a href="#creating-a-jump-command-ghq--fzf">Creating a “Jump” Command: ghq + fzf</a></li>
+      </ul>
+    </li>
+    <li><a href="#summary-centralize-select-and-run-in-parallel">Summary: Centralize, Select, and Run in Parallel</a></li>
+  </ul>
+</nav>
+</details>
+
+<h2 id="why-git-worktree-works-so-well-with-coding-agents">Why git worktree Works So Well with Coding Agents</h2>
+<p><a href="https://git-scm.com/docs/git-worktree" target="_blank" rel="noopener">git worktree</a> allows you to have multiple working directories (worktrees) for a single repository. The official Git documentation clearly explains the distinction between the <em>main worktree</em> and <em>linked worktrees</em>, and recommends cleaning up unused linked worktrees with <code>git worktree remove</code>. <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p>The reason this works so well with coding agents is simple: <strong>your workspaces are isolated</strong>.</p>
+<ul>
+<li>Task A progresses in worktree A</li>
+<li>Task B progresses in worktree B</li>
+<li>Even if you run agents for both, they’re not fighting over the same repository</li>
+</ul>
+<p>Anthropic’s best practices also introduce workflows where multiple Claude sessions are run simultaneously using worktrees. <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<h2 id="the-tooling-stack-used-in-this-article">The Tooling Stack Used in This Article</h2>
+<h3 id="ghq-standardize-where-you-clone-repositories"><code>ghq</code>: Standardize Where You Clone Repositories</h3>
+<div class="blogcard">
+    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;"
+        src="https://hatenablog-parts.com/embed?url=https%3a%2f%2fgithub.com%2fx-motemen%2fghq" width="300" height="150" frameborder="0"
+        scrolling="no"></iframe>
+</div>
+
+<p><code>ghq</code> is a CLI tool for organizing cloned repositories. Its philosophy is to place them under a common root using a structure like <code>host/owner/repo</code>.</p>
+<p>With the <code>ghq list</code> command, you can see all repositories you’ve cloned locally. When combined with <code>fzf</code> (covered later), this becomes a powerful UI for jumping between repositories. The <code>ghq list --full-path</code> command outputs full paths and is also featured in the official ghq handbook as a common pattern to pair with <code>fzf</code>. <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
+<h3 id="fzf-turn-any-list-into-a-selectable-ui"><code>fzf</code>: Turn Any List into a “Selectable UI”</h3>
+<div class="blogcard">
+    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;"
+        src="https://hatenablog-parts.com/embed?url=https%3a%2f%2fjunegunn.github.io%2ffzf%2f" width="300" height="150" frameborder="0"
+        scrolling="no"></iframe>
+</div>
+
+<p><code>fzf</code> is a fast, interactive fuzzy finder that runs in the terminal. It takes input from stdin, filters it in real time, and lets you select items interactively.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://junegunn.github.io/fzf/images/fzf.gif" alt="" loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<h3 id="gwq-manage-worktrees-the-ghq-way"><code>gwq</code>: Manage Worktrees “the ghq Way”</h3>
+<div class="blogcard">
+    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;"
+        src="https://hatenablog-parts.com/embed?url=https%3a%2f%2fgithub.com%2fd-kuro%2fgwq" width="300" height="150" frameborder="0"
+        scrolling="no"></iframe>
+</div>
+
+<p><code>gwq</code> is a CLI tool for efficiently managing git worktrees. Its README describes it as:</p>
+<blockquote>
+<p>“Just like ghq manages clones, gwq manages worktrees.”</p>
+</blockquote>
+<p>It’s designed around fuzzy-finder-driven workflows, making it easy to create, switch, and delete worktrees.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://raw.githubusercontent.com/d-kuro/gwq/refs/heads/main/docs/assets/usage.gif" alt="" loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<h2 id="unifying-clone-and-worktree-under-the-same-root">Unifying <code>clone</code> and <code>worktree</code> Under the Same Root</h2>
+<p>The key idea of this article is:</p>
+<blockquote>
+<p><strong>By placing both original repositories and git worktree directories under the same root (e.g. <code>~/ghq</code>), you can target a single location with <code>fzf</code>, making navigation lightning-fast.</strong></p>
+</blockquote>
+<p>Below is a concrete setup.</p>
+<h3 id="setup-point-both-ghq-and-gwq-to-ghq">Setup: Point Both <code>ghq</code> and <code>gwq</code> to <code>~/ghq</code></h3>
+<h4 id="ghq-fix-the-root-to-ghq"><code>ghq</code>: Fix the Root to <code>~/ghq</code></h4>
+<p>Configure ghq to use <code>~/ghq</code> as its root. ghq reads this from git config.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">[ghq]
+</span></span><span class="line"><span class="cl">  root = ~/ghq
+</span></span></code></pre></div><p>With this setup, running <code>ghq get github.com/owner/repo</code> results in the following structure:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">~/ghq/
+</span></span><span class="line"><span class="cl">  github.com/
+</span></span><span class="line"><span class="cl">    owner/
+</span></span><span class="line"><span class="cl">      repo/
+</span></span></code></pre></div><h4 id="gwq-place-worktrees-under-ghq"><code>gwq</code>: Place Worktrees Under <code>~/ghq</code></h4>
+<p>gwq is configured via <code>~/.config/gwq/config.toml</code>, where you can set <code>worktree.basedir</code> and <code>naming.template</code>.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell:~/.config/gwq/config.toml" data-lang="shell:~/.config/gwq/config.toml"><span class="line"><span class="cl"><span class="p">[</span><span class="nx">naming</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="nx">template</span> <span class="p">=</span> <span class="s1">&#39;{{.Host}}/{{.Owner}}/{{.Repository}}={{.Branch}}&#39;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">worktree</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="nx">basedir</span> <span class="p">=</span> <span class="s1">&#39;~/ghq&#39;</span>
+</span></span></code></pre></div><p>gwq supports template variables such as <code>Host</code>, <code>Owner</code>, <code>Repository</code>, and <code>Branch</code>, and even allows branch name sanitization. This is clearly documented in its README.</p>
+<p>I personally use the format:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&#39;{{.Host}}/{{.Owner}}/{{.Repository}}={{.Branch}}&#39;
+</span></span></code></pre></div><p>If you instead follow the gwq default and separate directories by <code>{{.Branch}}</code>, worktrees end up nested <em>inside</em> the ghq-cloned repository. That makes them harder to find via <code>fzf</code>, so be careful.</p>
+<p>With the configuration above, running <code>gwq add feature-branch</code> produces something like:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">~/ghq/
+</span></span><span class="line"><span class="cl">  github.com/shunk031/app                # original repo (ghq)
+</span></span><span class="line"><span class="cl">  github.com/shunk031/app=feature-auth   # worktree (gwq)
+</span></span><span class="line"><span class="cl">  github.com/shunk031/app=bugfix-login   # worktree (gwq)
+</span></span><span class="line"><span class="cl">  ...
+</span></span><span class="line"><span class="cl">  github.com/shunk031/infra              # another repo (ghq)
+</span></span><span class="line"><span class="cl">  github.com/shunk031/infra=refactor-tf  # worktree (gwq)
+</span></span></code></pre></div><h3 id="creating-a-jump-command-ghq--fzf">Creating a “Jump” Command: ghq + fzf</h3>
+<p>Since <code>ghq list</code> outputs all repositories, piping it into <code>fzf</code> instantly gives you a navigation UI. With <code>ghq list --full-path</code>, you can jump directly to any directory—almost instantly 🥰.</p>
+<p>Here’s the command I personally use:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="cp">#!/usr/bin/env bash
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
+</span></span><span class="line"><span class="cl"><span class="k">function</span> ghq-path<span class="o">()</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">    ghq list --full-path <span class="p">|</span> fzf
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">function</span> dev<span class="o">()</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">local</span> moveto
+</span></span><span class="line"><span class="cl">    <span class="nv">moveto</span><span class="o">=</span><span class="k">$(</span>ghq-path<span class="k">)</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">cd</span> <span class="s2">&#34;</span><span class="si">${</span><span class="nv">moveto</span><span class="si">}</span><span class="s2">&#34;</span> <span class="o">||</span> <span class="nb">exit</span> <span class="m">1</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1"># rename session if in tmux</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="o">[[</span> -n <span class="si">${</span><span class="nv">TMUX</span><span class="si">}</span> <span class="o">]]</span><span class="p">;</span> <span class="k">then</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">local</span> repo_name
+</span></span><span class="line"><span class="cl">        <span class="nv">repo_name</span><span class="o">=</span><span class="s2">&#34;</span><span class="si">${</span><span class="nv">moveto</span><span class="p">##*/</span><span class="si">}</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        tmux rename-session <span class="s2">&#34;</span><span class="si">${</span><span class="nv">repo_name</span><span class="p">//./-</span><span class="si">}</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">fi</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span></code></pre></div><p>Running <code>dev</code> shows all repositories under <code>ghq</code> in <code>fzf</code>. Selecting one immediately <code>cd</code>s into it. If you’re inside a tmux session, the session name is also updated to match the repository, making terminal navigation even smoother.</p>
+<h2 id="summary-centralize-select-and-run-in-parallel">Summary: Centralize, Select, and Run in Parallel</h2>
+<p>In this article, we explored how combining <strong>ghq + gwq + fzf</strong> helps you organize cloned repositories, move between them instantly, and comfortably run coding agents in parallel.</p>
+<ul>
+<li><code>ghq</code> centralizes your working directories</li>
+<li><code>gwq</code> simplifies worktree management</li>
+<li><code>fzf</code> enables fast, intuitive navigation</li>
+</ul>
+<p>Together, these tools reduce confusion when juggling multiple tasks or coding agents at the same time—and significantly boost productivity. Give it a try!</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Git - git-worktree Documentation <a href="https://git-scm.com/docs/git-worktree" target="_blank" rel="noopener">https://git-scm.com/docs/git-worktree</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Claude Code Best Practices \ Anthropic <a href="https://www.anthropic.com/engineering/claude-code-best-practices#:~:text=c.%20Use%20git%20worktrees" target="_blank" rel="noopener">https://www.anthropic.com/engineering/claude-code-best-practices#:~:text=c.%20Use%20git%20worktrees</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>ghq-handbook/ja/05-command-list.md at master · Songmu/ghq-handbook <a href="https://github.com/Songmu/ghq-handbook/blob/master/ja/05-command-list.md" target="_blank" rel="noopener">https://github.com/Songmu/ghq-handbook/blob/master/ja/05-command-list.md</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/git/">Git</a>
+  
+  <a class="badge badge-light" href="/tag/ghq/">Ghq</a>
+  
+  <a class="badge badge-light" href="/tag/gwq/">Gwq</a>
+  
+  <a class="badge badge-light" href="/tag/fzf/">Fzf</a>
+  
+  <a class="badge badge-light" href="/tag/claudecode/">Claudecode</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fshunk031.me%2Fpost%2Fghq-gwq-fzf-worktree%2F&amp;text=A&#43;Coding-Agent-Friendly&#43;Environment&#43;Is&#43;Friendly&#43;to&#43;Humans&#43;Too%3A&#43;ghq&#43;%C3%97&#43;gwq&#43;%C3%97&#43;fzf" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fshunk031.me%2Fpost%2Fghq-gwq-fzf-worktree%2F&amp;t=A&#43;Coding-Agent-Friendly&#43;Environment&#43;Is&#43;Friendly&#43;to&#43;Humans&#43;Too%3A&#43;ghq&#43;%C3%97&#43;gwq&#43;%C3%97&#43;fzf" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="mailto:?subject=A%20Coding-Agent-Friendly%20Environment%20Is%20Friendly%20to%20Humans%20Too%3A%20ghq%20%C3%97%20gwq%20%C3%97%20fzf&amp;body=https%3A%2F%2Fshunk031.me%2Fpost%2Fghq-gwq-fzf-worktree%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fshunk031.me%2Fpost%2Fghq-gwq-fzf-worktree%2F&amp;title=A&#43;Coding-Agent-Friendly&#43;Environment&#43;Is&#43;Friendly&#43;to&#43;Humans&#43;Too%3A&#43;ghq&#43;%C3%97&#43;gwq&#43;%C3%97&#43;fzf" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=A&#43;Coding-Agent-Friendly&#43;Environment&#43;Is&#43;Friendly&#43;to&#43;Humans&#43;Too%3A&#43;ghq&#43;%C3%97&#43;gwq&#43;%C3%97&#43;fzf%20https%3A%2F%2Fshunk031.me%2Fpost%2Fghq-gwq-fzf-worktree%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      <a href="https://shunk031.me/"><img class="avatar mr-3 avatar-circle" src="https://s.gravatar.com/avatar/5bea5748e87ba7a12c2f4a8595672366?s=200" alt="北田 俊輔"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://shunk031.me/">北田 俊輔</a></h5>
+      <h6 class="card-subtitle">Research Scientist working on Vision &amp; Language with Deep Learning</h6>
+      <p class="card-text">My research interests include deep learning-based natural language processing, computer vision, medical image processing, and computational advertising.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/shunk031" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.facebook.com/shunk031" target="_blank" rel="noopener">
+        <i class="fab fa-facebook"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=GUzGhQIAAAAJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/shunk031" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/shunk031/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://shunk031.hatenablog.com/" target="_blank" rel="noopener">
+        <i class="fas fa-pen-nib"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://speakerdeck.com/shunk031" target="_blank" rel="noopener">
+        <i class="fab fa-speaker-deck"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.researchgate.net/profile/Shunsuke_Kitada" target="_blank" rel="noopener">
+        <i class="ai ai-researchgate"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/shunk031/cv/releases/latest/download/cv.pdf" target="_blank" rel="noopener">
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+    
+
+    <p class="powered-by">
+        
+        Hosted on <a href="https://github.com/shunk031/shunk031.github.io">GitHub</a> <i class="fab fa-github"></i>
+    </p>
+
+    
+    
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    Copyright © 2026 Shunsuke Kitada. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+    <p class="powered-by">
+        
+        
+        
+        Published with
+        <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> —
+        the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">
+            open source</a> website builder that empowers creators.
+        
+    </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.50933d940896e49f984a778650d5f7f5.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js" integrity="" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/en/js/wowchemy.min.7f5ebaff62ae468cff8bb3dd1337bb9b.js"></script>
+
+
+
+  <script src="/js/wowchemy-map.a26e9d2f7238ba5b868384f1c5bc6477.js" type="module"></script>
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.9c0e895144aef5a693008b5c5d450147.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
