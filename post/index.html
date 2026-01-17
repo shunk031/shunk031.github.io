@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: January 16, 2026 --><html lang="en-us" >
+<!-- Last Published: January 17, 2026 --><html lang="en-us" >
 
 
 <head>
@@ -1083,6 +1083,145 @@
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/post/saving-everything-python-typehint/" >On Python Type Hints that Save Everything!</a>
+    </div>
+
+    
+    <a href="/post/saving-everything-python-typehint/"  class="summary-link">
+      <div class="article-style">
+        <details class="toc-inpage d-print-none  " open>
+  <summary class="font-weight-bold">Table of Contents</summary>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#the-difficulty-of-a-dynamically-typed-language">The difficulty of a dynamically typed language</a></li>
+    <li><a href="#what-are-type-hints">What are type hints?</a>
+      <ul>
+        <li><a href="#example-1-basic-type-hints-for-function-arguments-and-return-values">Example 1: Basic type hints for function arguments and return values</a></li>
+        <li><a href="#example-2-when-the-return-value-may-be-one-of-several-types">Example 2: When the return value may be one of several types</a></li>
+        <li><a href="#example-3-type-hints-for-collection-types">Example 3: Type hints for collection types</a></li>
+        <li><a href="#example-4-optional-type">Example 4: <code>Optional</code> type</a></li>
+        <li><a href="#example-5-callable-any-and-other-type-hints">Example 5: <code>Callable</code>, <code>Any</code>, and other type hints</a></li>
+      </ul>
+    </li>
+    <li><a href="#benefits-of-using-type-hints">Benefits of using type hints</a>
+      <ul>
+        <li><a href="#1-improved-readability--maintainability">1) Improved readability &amp; maintainability</a></li>
+        <li><a href="#2-early-detection-of-errors-via-static-type-checkers--ides">2) Early detection of errors via static type checkers &amp; IDEs</a></li>
+        <li><a href="#3-improved-code-completion">3) Improved code completion</a></li>
+        <li><a href="#4-benefits-apply-from-largescale-development-to-small-scripts--experimental-code">4) Benefits apply from large‐scale development to small scripts &amp; experimental code</a></li>
+        <li><a href="#5-synergy-with-major-libraries--frameworks">5) Synergy with major libraries &amp; frameworks</a></li>
+      </ul>
+    </li>
+    <li><a href="#practical-steps-points-to-introduce-type-hints">Practical steps: Points to introduce type hints</a>
+      <ul>
+        <li><a href="#1-dont-try-to-annotate-everything-at-once">1) Don’t try to annotate everything at once</a></li>
+        <li><a href="#2-start-with-the-highestpriority-areas">2) Start with the highest‐priority areas</a></li>
+        <li><a href="#3-use-ides-and-static-type-checkers">3) Use IDEs and static type checkers</a></li>
+        <li><a href="#4-apply-even-in-experimental-code-or-prototype">4) Apply even in experimental code or prototype</a></li>
+        <li><a href="#5-allow-partial-annotation">5) Allow partial annotation</a></li>
+        <li><a href="#6-decide-on-style-guides--rules">6) Decide on style guides &amp; rules</a></li>
+      </ul>
+    </li>
+    <li><a href="#summary-and-the-next-step">Summary and the next step</a></li>
+  </ul>
+</nav>
+</details>
+
+<p>This article is a supplementary piece for the column “On Python type hints that save everything” in <em>Pythonで学ぶ画像生成</em>.
+In this column, we compactly introduce the background of why Python type hints were born, their advantages, and how to use them. If you’ve postponed it thinking “it looks a bit bothersome…”, once you actually use it you’ll realise it’s a reliable element that can significantly raise development efficiency for both teams and individuals. First, let’s start with understanding the meaning of using type hints, and introduce them in a relaxed way.</p>
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      <a href="/authors/shunsuke-kitada/">Shunsuke Kitada, Ph.D.</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Jan 17, 2026
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    7 min read
+  </span>
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
       <a href="/post/testable-dotfiles-management-with-chezmoi/" >Testable Dotfiles Management With Chezmoi</a>
     </div>
 
@@ -1164,7 +1303,7 @@
       
       
       <a href="/post/testable-dotfiles-management-with-chezmoi/" >
-        <img src="/post/testable-dotfiles-management-with-chezmoi/featured_hu11299860592801092480.webp" height="84" width="150"
+        <img src="/post/testable-dotfiles-management-with-chezmoi/featured_hu3642437138576396949.webp" height="84" width="150"
             alt="Testable Dotfiles Management With Chezmoi" loading="lazy">
       </a>
     
@@ -1842,116 +1981,6 @@
       <a href="/post/cyberagent-ai-lab-research-internship-turning-point/" >
         <img src="/post/cyberagent-ai-lab-research-internship-turning-point/featured_hu533439765715579647.webp" height="84" width="150"
             alt="人生が変わる研究インターンシップ 社会実装に触れて広がる研究キャリアとは" loading="lazy">
-      </a>
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/post/jsps-dc2-applied-informatics/" >北田俊輔さん (D2), 日本学術振興会特別研究員に</a>
-    </div>
-
-    
-    <a href="/post/jsps-dc2-applied-informatics/"  class="summary-link">
-      <div class="article-style">
-        <a href="https://ai.ws.hosei.ac.jp/wp/news/news20210408/" target="_blank" rel="noopener">https://ai.ws.hosei.ac.jp/wp/news/news20210408/</a>
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
-    
-
-  <span class="author-highlighted">
-      <a href="/authors/shunsuke-kitada/">Shunsuke Kitada, Ph.D.</a></span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-          Last updated on
-      
-    
-    Jan 17, 2026
-  </span>
-  
-
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    0 min read
-  </span>
-  
-
-  
-  
-  
-  
-
-  
-  
-  <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/interview/">Interview</a></span>
-  
-
-</div>
-
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-      
-      
-      <a href="/post/jsps-dc2-applied-informatics/" >
-        <img src="/post/jsps-dc2-applied-informatics/featured_hu12041085918948461352.webp" height="75" width="150"
-            alt="北田俊輔さん (D2), 日本学術振興会特別研究員に" loading="lazy">
       </a>
     
   </div>
