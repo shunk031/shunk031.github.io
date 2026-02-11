@@ -5,6 +5,7 @@ import argparse
 import json
 import pathlib
 from typing import Any, Iterable
+import re
 
 
 def parse_args() -> argparse.Namespace:
@@ -28,6 +29,11 @@ def parse_args() -> argparse.Namespace:
         default=repo_root / ".lychee" / "exclude-temporary.txt",
         help="Path to temporary exclude file (default: .lychee/exclude-temporary.txt)",
     )
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Show removals without updating the exclude file",
+    )
     return parser.parse_args()
 
 
@@ -43,6 +49,8 @@ def iter_entries(node: Any) -> Iterable[dict[str, Any]]:
 
 
 def status_to_int(value: Any) -> int | None:
+    if isinstance(value, dict):
+        return status_to_int(value.get("code"))
     if isinstance(value, int):
         return value
     if isinstance(value, str):
@@ -93,9 +101,21 @@ def is_comment_or_blank(line: str) -> bool:
 def should_remove(line: str, revived_urls: set[str]) -> bool:
     if is_comment_or_blank(line):
         return False
+    token = line.strip()
+    if not token:
+        return False
+    is_regex = bool(re.search(r"[\\.^$*+?{}\\[\\]|()]", token))
     for url in revived_urls:
-        if url in line:
-            return True
+        if is_regex:
+            try:
+                if re.search(token, url):
+                    return True
+            except re.error:
+                if token in url:
+                    return True
+        else:
+            if token in url or url in token:
+                return True
     return False
 
 
@@ -134,6 +154,11 @@ def main():
 
     if not removed:
         print("no change")
+        return
+
+    if args.dry_run:
+        for line in removed:
+            print(line)
         return
 
     write_lines(args.exclude_path, kept)
