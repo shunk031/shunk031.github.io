@@ -18,18 +18,8 @@
 
 This repository uses `mise` for tool management (see `mise.toml`).
 
-### Install `hugo` to build page
-
-- For MacOS
-
-```sh
-brew install hugo
-```
-
-- For Ubuntu
-
-```sh
-sudo apt install hugo
+```shell
+make setup
 ```
 
 ## 🔍️ Check contents
