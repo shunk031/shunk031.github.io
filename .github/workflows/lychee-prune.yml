@@ -1,4 +1,4 @@
-name: Lychee Prune Excludes
+name: Check Broken Links
 
 on:
   schedule:
@@ -83,6 +83,6 @@ jobs:
 
           gh pr create \
             --title "chore: prune revived lychee excludes" \
-            --body "定期チェックで 2xx/302 になっていたため temporary exclude から削除しました" \
+            --body "Removed from the temporary excludes because the scheduled check returned 2xx/302." \
             --base main \
             --head "$branch"
