@@ -1,0 +1,2 @@
+# Permanent excludes (leave empty for now).
+# Move entries back here if they should never be re-checked.

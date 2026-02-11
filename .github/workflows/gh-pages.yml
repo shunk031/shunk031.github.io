@@ -50,7 +50,7 @@ jobs:
         uses: lycheeverse/lychee-action@v2
         with:
           fail: true
-          args: "${{ vars.ARTIFACT_PATH }} --config .lychee/config.toml"
+          args: "${{ vars.ARTIFACT_PATH }} --config .lychee/config.toml --exclude-file .lychee/exclude-temporary.txt --exclude-file .lychee/exclude-permanent.txt"
 
   deploy:
     needs: build

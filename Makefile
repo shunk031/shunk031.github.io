@@ -27,7 +27,26 @@ run : update server
 
 .PHONY: check-broken-links
 check-broken-links: build
-	lychee public --config .lychee/config.toml
+	lychee public --mode emoji \
+		--config .lychee/config.toml \
+		--exclude-file .lychee/exclude-temporary.txt \
+		--exclude-file .lychee/exclude-permanent.txt
+
+.PHONY: prune-lychee-excludes
+prune-lychee-excludes:
+	@if grep -qE '^[^#[:space:]]' .lychee/exclude-temporary.txt; then \
+		lychee --mode emoji \
+			--config .lychee/config.toml \
+			--files-from .lychee/exclude-temporary.txt \
+			--format json \
+			--output lychee-excludes.json; \
+		uv run scripts/prune_lychee_excludes.py \
+			--dry-run \
+			--json lychee-excludes.json \
+			--exclude-file .lychee/exclude-temporary.txt; \
+	else \
+		echo "no temporary excludes"; \
+	fi
 
 .PHONY : post
 post:
@@ -76,4 +95,3 @@ add-conference-tags-dry-run:
 .PHONY : add-conference-tags
 add-conference-tags:
 	uv run --with ruamel.yaml python scripts/add_conference_tags.py
-
