@@ -70,9 +70,9 @@ jobs:
           branch="chore/prune-lychee-excludes"
           if git ls-remote --exit-code --heads origin "$branch" > /dev/null; then
             git fetch origin "$branch":"refs/remotes/origin/$branch"
-            git checkout -B "$branch" "origin/$branch"
+            git checkout -f -B "$branch" "origin/$branch"
           else
-            git checkout -b "$branch"
+            git checkout -f -b "$branch"
           fi
 
       - name: Run lychee on temporary excludes
