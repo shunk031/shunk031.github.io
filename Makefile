@@ -27,18 +27,21 @@ run : update server
 
 .PHONY: check-broken-links
 check-broken-links: build
-	lychee public --config .lychee/config.toml \
+	lychee public --mode emoji \
+		--config .lychee/config.toml \
 		--exclude-file .lychee/exclude-temporary.txt \
 		--exclude-file .lychee/exclude-permanent.txt
 
 .PHONY: prune-lychee-excludes
 prune-lychee-excludes:
 	@if grep -qE '^[^#[:space:]]' .lychee/exclude-temporary.txt; then \
-		lychee --config .lychee/config.toml \
+		lychee --mode emoji \
+			--config .lychee/config.toml \
 			--files-from .lychee/exclude-temporary.txt \
 			--format json \
 			--output lychee-excludes.json; \
-		python scripts/prune_lychee_excludes.py \
+		uv run scripts/prune_lychee_excludes.py \
+			--dry-run \
 			--json lychee-excludes.json \
 			--exclude-file .lychee/exclude-temporary.txt; \
 	else \
