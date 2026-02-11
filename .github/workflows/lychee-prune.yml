@@ -1,4 +1,4 @@
-name: Lychee Prune Excludes
+name: Check Broken Links
 
 on:
   schedule:
