@@ -5,17 +5,18 @@
 # [`shunk031.me`](https://shunk031.me/)
 
 [![Actions Status](https://github.com/shunk031/shunk031.github.io/workflows/Page%20Build/badge.svg)](https://github.com/shunk031/shunk031.github.io/actions?query=workflow%3A%22Page+Build%22)
-[![gohugoio/hugo](https://img.shields.io/github/v/tag/gohugoio/hugo?color=FF4088&display_name=release&label=HugoBlox&logo=hugo&logoColor=FF4088&sort=semver)](https://github.com/gohugoio/hugo)
+[![Check Broken Links](https://github.com/shunk031/shunk031.github.io/actions/workflows/lychee-prune.yml/badge.svg)](https://github.com/shunk031/shunk031.github.io/actions/workflows/lychee-prune.yml)
+
+[![gohugoio/hugo](https://img.shields.io/github/v/tag/gohugoio/hugo?color=FF4088&display_name=release&label=gohugoio/hugo&logo=hugo&logoColor=FF4088&sort=semver)](https://github.com/gohugoio/hugo)
 [![HugoBlox/hugo-blox-builder](https://img.shields.io/github/v/tag/HugoBlox/hugo-blox-builder?color=0694cb&display_name=release&label=HugoBlox&logo=hugo&logoColor=0694cb&sort=semver)](https://github.com/HugoBlox/hugo-blox-builder)
 
 [Hugo Academic](https://github.com/gcushen/hugo-academic) + GitHub Pages based on [Starter Hugo Academic](https://github.com/wowchemy/starter-hugo-academic).
 
 </div>
 
-> [!TIP]
-> VSCode's devcontainer is recommended for writing contents.
-
 ## 🏃 Running locally
+
+This repository uses `mise` for tool management (see `mise.toml`).
 
 ### Install `hugo` to build page
 
