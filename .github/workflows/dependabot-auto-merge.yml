@@ -13,7 +13,7 @@ jobs:
   dependabot:
     runs-on: ubuntu-latest
 
-    if: ${{ github.actor == 'dependabot[bot]' }}
+    if: github.event.pull_request.user.login == 'dependabot[bot]'
     steps:
       - name: Dependabot metadata
         id: metadata
@@ -22,7 +22,8 @@ jobs:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
 
       - name: Enable auto-merge for Dependabot PRs
-        if: ${{ steps.metadata.outputs.update-type == 'version-update:semver-patch' }}
+        # Auto-merge for all non-major version updates
+        if: ${{ startsWith(steps.metadata.outputs.update-type, 'version-update:') && steps.metadata.outputs.update-type != 'version-update:semver-major' }}
         env:
           PR_URL: ${{ github.event.pull_request.html_url }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
