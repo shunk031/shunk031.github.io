@@ -53,7 +53,7 @@ prune-lychee-excludes: build
 		fi; \
 		lychee --mode emoji \
 			--config .lychee/config.toml \
-			--files-from lychee-input.txt \
+			lychee-input.txt \
 			--format json \
 			--output lychee-excludes.json; \
 		uv run scripts/prune_lychee_excludes.py \

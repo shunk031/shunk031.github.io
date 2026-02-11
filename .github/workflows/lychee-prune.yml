@@ -71,7 +71,7 @@ jobs:
           fail: false
           format: json
           output: lychee-excludes.json
-          args: "--config .lychee/config.toml --files-from lychee-input.txt"
+          args: "--config .lychee/config.toml lychee-input.txt"
 
       - name: Prune revived excludes
         if: steps.temp.outputs.has_items == 'true' && steps.prepare.outputs.has_links == 'true'
