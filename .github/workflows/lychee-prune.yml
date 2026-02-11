@@ -32,7 +32,16 @@ jobs:
       pull-requests: write
 
     steps:
+      - name: Create GitHub App token
+        id: app-token
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ vars.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+
       - uses: actions/checkout@v6
+        with:
+          token: ${{ steps.app-token.outputs.token }}
 
       - name: Download Build Artifact
         uses: actions/download-artifact@v7
@@ -91,15 +100,15 @@ jobs:
       - name: Create pull request
         if: steps.temp.outputs.has_items == 'true' && steps.prepare.outputs.has_links == 'true'
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
         run: |
           if git diff --quiet -- .lychee/exclude-temporary.txt; then
             echo "no changes"
             exit 0
           fi
 
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "${{ steps.app-token.outputs.app-slug }}[bot]"
+          git config user.email "${{ steps.app-token.outputs.app-slug }}[bot]@users.noreply.github.com"
 
           branch="chore/prune-lychee-excludes"
           git add .lychee/exclude-temporary.txt
