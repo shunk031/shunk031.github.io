@@ -115,3 +115,6 @@ jobs:
               --base main \
               --head "$branch"
           fi
+
+          pr_url="$(gh pr view --head "$branch" --json url -q .url)"
+          gh pr merge "$pr_url" --auto --squash
