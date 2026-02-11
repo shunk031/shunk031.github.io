@@ -14,6 +14,7 @@ openai.com/index/chatgpt
 scholar.google.com/citations
 www.ieice.org/~nlc
 ken.ieice.org
+iyatomi-lab.info
 www.cikm2022.org
 coloso.jp
 hatenablog-parts.com/embed
