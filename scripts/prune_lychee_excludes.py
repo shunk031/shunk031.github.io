@@ -262,7 +262,9 @@ def main() -> int:
         all_revived = True
         for url in matched:
             statuses = status_map.get(url)
-            if not statuses or not is_success(statuses):
+            if statuses is None:
+                continue
+            if not is_success(statuses):
                 all_revived = False
                 break
         if all_revived:
