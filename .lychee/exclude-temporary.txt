@@ -1,9 +1,6 @@
 # Temporary excludes to re-check regularly.
 # Add URLs (or narrow regex) one per line.
 
-# Exclude the target site itself because an error will occur
-# if there is content that has not yet been deployed.
-
 # Exclude the following sites
 gstatic.com
 researchgate.net

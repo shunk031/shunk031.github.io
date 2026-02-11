@@ -1,2 +1,6 @@
 # Permanent excludes (leave empty for now).
 # Move entries back here if they should never be re-checked.
+
+# Exclude the target site itself because an error will occur
+# if there is content that has not yet been deployed.
+shunk031.me
