@@ -54,7 +54,7 @@ jobs:
         uses: lycheeverse/lychee-action@v2
         with:
           fail: false
-          args: "--format json --output lychee-excludes.json --config .lychee/config.toml --input .lychee/exclude-temporary.txt"
+          args: "--format json --output lychee-excludes.json --config .lychee/config.toml --files-from .lychee/exclude-temporary.txt"
 
       - name: Prune revived excludes
         if: steps.temp.outputs.has_items == 'true'
