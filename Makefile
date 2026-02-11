@@ -1,6 +1,13 @@
 HUGO_VERSION := 0.136.5
 # HUGO_CMD := container run --rm -v $(PWD):/project -v $(HOME)/Library/Caches/hugo_cache:/cache -p 1313:1313 ghcr.io/gohugoio/hugo:v$(HUGO_VERSION)
 HUGO_CMD := hugo
+PRUNE_DRY_RUN ?= 1
+
+ifeq ($(PRUNE_DRY_RUN),1)
+PRUNE_DRY_RUN_FLAG := --dry-run
+else
+PRUNE_DRY_RUN_FLAG :=
+endif
 
 .PHONY : help
 help :
@@ -33,15 +40,25 @@ check-broken-links: build
 		--exclude-file .lychee/exclude-permanent.txt
 
 .PHONY: prune-lychee-excludes
-prune-lychee-excludes:
+prune-lychee-excludes: build
 	@if grep -qE '^[^#[:space:]]' .lychee/exclude-temporary.txt; then \
+		uv run scripts/prune_lychee_excludes.py \
+			--prepare \
+			--public-dir public \
+			--exclude-file .lychee/exclude-temporary.txt \
+			--links-output lychee-input.txt; \
+		if [ ! -s lychee-input.txt ]; then \
+			echo "no matching links"; \
+			exit 0; \
+		fi; \
 		lychee --mode emoji \
 			--config .lychee/config.toml \
-			--files-from .lychee/exclude-temporary.txt \
+			--files-from lychee-input.txt \
 			--format json \
 			--output lychee-excludes.json; \
 		uv run scripts/prune_lychee_excludes.py \
-			--dry-run \
+			--public-dir public \
+			$(PRUNE_DRY_RUN_FLAG) \
 			--json lychee-excludes.json \
 			--exclude-file .lychee/exclude-temporary.txt; \
 	else \
