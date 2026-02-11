@@ -64,6 +64,17 @@ jobs:
             echo "has_links=false" >> "$GITHUB_OUTPUT"
           fi
 
+      - name: Prepare prune branch
+        if: steps.temp.outputs.has_items == 'true' && steps.prepare.outputs.has_links == 'true'
+        run: |
+          branch="chore/prune-lychee-excludes"
+          if git ls-remote --exit-code --heads origin "$branch" > /dev/null; then
+            git fetch origin "$branch":"refs/remotes/origin/$branch"
+            git checkout -B "$branch" "origin/$branch"
+          else
+            git checkout -b "$branch"
+          fi
+
       - name: Run lychee on temporary excludes
         if: steps.temp.outputs.has_items == 'true' && steps.prepare.outputs.has_links == 'true'
         uses: lycheeverse/lychee-action@v2
@@ -91,12 +102,6 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           branch="chore/prune-lychee-excludes"
-          if git ls-remote --exit-code --heads origin "$branch" > /dev/null; then
-            git fetch origin "$branch":"refs/remotes/origin/$branch"
-            git checkout -B "$branch" "origin/$branch"
-          else
-            git checkout -b "$branch"
-          fi
           git add .lychee/exclude-temporary.txt
           git commit -m "chore: prune revived lychee excludes"
           git push --force-with-lease -u origin "$branch"
