@@ -17,7 +17,6 @@ scholar.google.com/citations
 www.ieice.org/~nlc
 ken.ieice.org
 iyatomi-lab.info
-creativecommons.org
 eccv.ecva.net
 iwa-shi.github.io
 www.cikm2022.org
