@@ -91,13 +91,22 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           branch="chore/prune-lychee-excludes"
-          git checkout -b "$branch"
+          if git ls-remote --exit-code --heads origin "$branch" > /dev/null; then
+            git fetch origin "$branch":"refs/remotes/origin/$branch"
+            git checkout -B "$branch" "origin/$branch"
+          else
+            git checkout -b "$branch"
+          fi
           git add .lychee/exclude-temporary.txt
           git commit -m "chore: prune revived lychee excludes"
-          git push -u origin "$branch"
+          git push --force-with-lease -u origin "$branch"
 
-          gh pr create \
-            --title "chore: prune revived lychee excludes" \
-            --body "Removed from the temporary excludes because the scheduled check returned 2xx/302." \
-            --base main \
-            --head "$branch"
+          if gh pr view --head "$branch" > /dev/null 2>&1; then
+            echo "PR already exists for $branch"
+          else
+            gh pr create \
+              --title "chore: prune revived lychee excludes" \
+              --body "Removed from the temporary excludes because the scheduled check returned 2xx/302." \
+              --base main \
+              --head "$branch"
+          fi
