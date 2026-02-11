@@ -1,0 +1,2 @@
+# Temporary excludes to re-check regularly.
+# Add URLs (or narrow regex) one per line.

@@ -1,11 +1,5 @@
 # ref. Configuration File | Docs https://lychee.cli.rs/guides/config/
 
-# Exclude URLs and mail addresses from checking (supports regex).
-exclude_file = [
-    ".lychee/exclude-temporary.txt",
-    ".lychee/exclude-permanent.txt",
-]
-
 # Website timeout from connect to response finished.
 timeout = 30
 
