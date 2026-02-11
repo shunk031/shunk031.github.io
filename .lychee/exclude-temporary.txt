@@ -1,2 +1,33 @@
 # Temporary excludes to re-check regularly.
 # Add URLs (or narrow regex) one per line.
+
+# Exclude the target site itself because an error will occur
+# if there is content that has not yet been deployed.
+shunk031.me
+
+# Exclude the following sites
+gstatic.com
+newswitch.jp
+researchgate.net
+doi.org
+dl.acm.org
+www.mdpi.com
+linkedin.com
+drive.google.com/file/d/0B3O7bgd3mym6N214SWw3eVJCS3M/view
+t.co
+openai.com/index/chatgpt
+cl.sd.tmu.ac.jp
+scholar.google.com/citations
+www.ieice.org/~nlc
+ken.ieice.org
+iyatomi-lab.info
+creativecommons.org
+eccv.ecva.net
+iwa-shi.github.io
+www.cikm2022.org
+coloso.jp
+hatenablog-parts.com/embed
+bit.ly/KitadaXColosoJP1
+www.youtube.com/embed
+www.scimagojr.com
+confit.atlas.jp
