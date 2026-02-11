@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   enable-auto-merge:
-    if: github.event.pull_request.base.ref == 'main' && github.event.pull_request.head.ref == 'chore/prune-lychee-excludes'
+    if: github.event.pull_request.base.ref == 'main' && github.event.pull_request.head.ref == 'chore/prune-lychee-excludes' && github.event.pull_request.user.login == 'shunk031-me-bot[bot]'
     runs-on: ubuntu-latest
 
     steps:
