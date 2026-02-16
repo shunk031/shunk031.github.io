@@ -58,23 +58,8 @@ jobs:
             echo "has_items=false" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Prepare lychee input
-        if: steps.temp.outputs.has_items == 'true'
-        id: prepare
-        run: |
-          python scripts/prune_lychee_excludes.py \
-            --prepare \
-            --public-dir "${{ vars.ARTIFACT_PATH }}" \
-            --exclude-file .lychee/exclude-temporary.txt \
-            --links-output lychee-input.txt
-          if [ -s lychee-input.txt ]; then
-            echo "has_links=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "has_links=false" >> "$GITHUB_OUTPUT"
-          fi
-
       - name: Prepare prune branch
-        if: steps.temp.outputs.has_items == 'true' && steps.prepare.outputs.has_links == 'true'
+        if: steps.temp.outputs.has_items == 'true'
         run: |
           branch="chore/prune-lychee-excludes"
           if git ls-remote --exit-code --heads origin "$branch" > /dev/null; then
@@ -84,21 +69,21 @@ jobs:
             git checkout -f -b "$branch"
           fi
 
-      - name: Run lychee on temporary excludes
-        if: steps.temp.outputs.has_items == 'true' && steps.prepare.outputs.has_links == 'true'
+      - name: Run lychee on full site
+        if: steps.temp.outputs.has_items == 'true'
         uses: lycheeverse/lychee-action@v2
         with:
           fail: false
           format: json
           output: lychee-excludes.json
-          args: "--config .lychee/config.toml lychee-input.txt"
+          args: "${{ vars.ARTIFACT_PATH }} --config .lychee/config.toml --exclude-file .lychee/exclude-permanent.txt"
 
       - name: Prune revived excludes
-        if: steps.temp.outputs.has_items == 'true' && steps.prepare.outputs.has_links == 'true'
+        if: steps.temp.outputs.has_items == 'true'
         run: python scripts/prune_lychee_excludes.py --public-dir "${{ vars.ARTIFACT_PATH }}" --json lychee-excludes.json --exclude-file .lychee/exclude-temporary.txt
 
       - name: Create pull request
-        if: steps.temp.outputs.has_items == 'true' && steps.prepare.outputs.has_links == 'true'
+        if: steps.temp.outputs.has_items == 'true'
         env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
         run: |

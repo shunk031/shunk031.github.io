@@ -42,18 +42,10 @@ check-broken-links: build
 .PHONY: prune-lychee-excludes
 prune-lychee-excludes: build
 	@if grep -qE '^[^#[:space:]]' .lychee/exclude-temporary.txt; then \
-		uv run scripts/prune_lychee_excludes.py \
-			--prepare \
-			--public-dir public \
-			--exclude-file .lychee/exclude-temporary.txt \
-			--links-output lychee-input.txt; \
-		if [ ! -s lychee-input.txt ]; then \
-			echo "no matching links"; \
-			exit 0; \
-		fi; \
 		lychee --mode emoji \
 			--config .lychee/config.toml \
-			lychee-input.txt \
+			--exclude-file .lychee/exclude-permanent.txt \
+			public \
 			--format json \
 			--output lychee-excludes.json; \
 		uv run scripts/prune_lychee_excludes.py \
