@@ -322,47 +322,7 @@
 
   
 
-<meta name="description" content="
-  Table of Contents
-  
-  
-    Introduction
-    The difficulty of a dynamically typed language
-    What are type hints?
-      
-        Example 1: Basic type hints for function arguments and return values
-        Example 2: When the return value may be one of several types
-        Example 3: Type hints for collection types
-        Example 4: Optional type
-        Example 5: Callable, Any, and other type hints
-      
-    
-    Benefits of using type hints
-      
-        1) Improved readability &amp; maintainability
-        2) Early detection of errors via static type checkers &amp; IDEs
-        3) Improved code completion
-        4) Benefits apply from large‐scale development to small scripts &amp; experimental code
-        5) Synergy with major libraries &amp; frameworks
-      
-    
-    Practical steps: Points to introduce type hints
-      
-        1) Don’t try to annotate everything at once
-        2) Start with the highest‐priority areas
-        3) Use IDEs and static type checkers
-        4) Apply even in experimental code or prototype
-        5) Allow partial annotation
-        6) Decide on style guides &amp; rules
-      
-    
-    Summary and the next step
-  
-
-
-
-This article is a supplementary piece for the column “On Python type hints that save everything” in Pythonで学ぶ画像生成.
-In this column, we compactly introduce the background of why Python type hints were born, their advantages, and how to use them. If you’ve postponed it thinking “it looks a bit bothersome…”, once you actually use it you’ll realise it’s a reliable element that can significantly raise development efficiency for both teams and individuals. First, let’s start with understanding the meaning of using type hints, and introduce them in a relaxed way." />
+<meta name="description" content="This article introduces the background, concepts, practical usage, and benefits of Python type hints, explaining how they enhance readability, maintainability, and development efficiency while preserving the flexibility of dynamic typing." />
 
 
 
@@ -410,47 +370,7 @@ In this column, we compactly introduce the background of why Python type hints w
 <meta property="og:site_name" content="shunk031.me" />
 <meta property="og:url" content="https://shunk031.me/post/saving-everything-python-typehint/" />
 <meta property="og:title" content="On Python Type Hints that Save Everything! | shunk031.me" />
-<meta property="og:description" content="
-  Table of Contents
-  
-  
-    Introduction
-    The difficulty of a dynamically typed language
-    What are type hints?
-      
-        Example 1: Basic type hints for function arguments and return values
-        Example 2: When the return value may be one of several types
-        Example 3: Type hints for collection types
-        Example 4: Optional type
-        Example 5: Callable, Any, and other type hints
-      
-    
-    Benefits of using type hints
-      
-        1) Improved readability &amp; maintainability
-        2) Early detection of errors via static type checkers &amp; IDEs
-        3) Improved code completion
-        4) Benefits apply from large‐scale development to small scripts &amp; experimental code
-        5) Synergy with major libraries &amp; frameworks
-      
-    
-    Practical steps: Points to introduce type hints
-      
-        1) Don’t try to annotate everything at once
-        2) Start with the highest‐priority areas
-        3) Use IDEs and static type checkers
-        4) Apply even in experimental code or prototype
-        5) Allow partial annotation
-        6) Decide on style guides &amp; rules
-      
-    
-    Summary and the next step
-  
-
-
-
-This article is a supplementary piece for the column “On Python type hints that save everything” in Pythonで学ぶ画像生成.
-In this column, we compactly introduce the background of why Python type hints were born, their advantages, and how to use them. If you’ve postponed it thinking “it looks a bit bothersome…”, once you actually use it you’ll realise it’s a reliable element that can significantly raise development efficiency for both teams and individuals. First, let’s start with understanding the meaning of using type hints, and introduce them in a relaxed way." /><meta property="og:image" content="https://shunk031.me/media/sharing.png" /><meta property="og:locale" content="en-us" />
+<meta property="og:description" content="This article introduces the background, concepts, practical usage, and benefits of Python type hints, explaining how they enhance readability, maintainability, and development efficiency while preserving the flexibility of dynamic typing." /><meta property="og:image" content="https://shunk031.me/media/sharing.png" /><meta property="og:locale" content="en-us" />
 
   
     <meta
@@ -459,7 +379,7 @@ In this column, we compactly introduce the background of why Python type hints w
     />
   
   
-    <meta property="article:modified_time" content="2026-03-04T20:12:32&#43;09:00">
+    <meta property="article:modified_time" content="2026-03-04T20:29:13&#43;09:00">
   
 
 
@@ -490,7 +410,7 @@ In this column, we compactly introduce the background of why Python type hints w
   "headline": "On Python Type Hints that Save Everything!",
   
   "datePublished": "2025-10-21T19:42:37Z",
-  "dateModified": "2026-03-04T20:12:32+09:00",
+  "dateModified": "2026-03-04T20:29:13+09:00",
   
   "author": {
     "@type": "Person",
@@ -505,7 +425,7 @@ In this column, we compactly introduce the background of why Python type hints w
       "url": "https://shunk031.me/media/icon_hu8917630770089639356.png"
     }
   },
-  "description": "\u003cdetails class=\"toc-inpage d-print-none  \" open\u003e\n  \u003csummary class=\"font-weight-bold\"\u003eTable of Contents\u003c/summary\u003e\n  \u003cnav id=\"TableOfContents\"\u003e\n  \u003cul\u003e\n    \u003cli\u003e\u003ca href=\"#introduction\"\u003eIntroduction\u003c/a\u003e\u003c/li\u003e\n    \u003cli\u003e\u003ca href=\"#the-difficulty-of-a-dynamically-typed-language\"\u003eThe difficulty of a dynamically typed language\u003c/a\u003e\u003c/li\u003e\n    \u003cli\u003e\u003ca href=\"#what-are-type-hints\"\u003eWhat are type hints?\u003c/a\u003e\n      \u003cul\u003e\n        \u003cli\u003e\u003ca href=\"#example-1-basic-type-hints-for-function-arguments-and-return-values\"\u003eExample 1: Basic type hints for function arguments and return values\u003c/a\u003e\u003c/li\u003e\n        \u003cli\u003e\u003ca href=\"#example-2-when-the-return-value-may-be-one-of-several-types\"\u003eExample 2: When the return value may be one of several types\u003c/a\u003e\u003c/li\u003e\n        \u003cli\u003e\u003ca href=\"#example-3-type-hints-for-collection-types\"\u003eExample 3: Type hints for collection types\u003c/a\u003e\u003c/li\u003e\n        \u003cli\u003e\u003ca href=\"#example-4-optional-type\"\u003eExample 4: \u003ccode\u003eOptional\u003c/code\u003e type\u003c/a\u003e\u003c/li\u003e\n        \u003cli\u003e\u003ca href=\"#example-5-callable-any-and-other-type-hints\"\u003eExample 5: \u003ccode\u003eCallable\u003c/code\u003e, \u003ccode\u003eAny\u003c/code\u003e, and other type hints\u003c/a\u003e\u003c/li\u003e\n      \u003c/ul\u003e\n    \u003c/li\u003e\n    \u003cli\u003e\u003ca href=\"#benefits-of-using-type-hints\"\u003eBenefits of using type hints\u003c/a\u003e\n      \u003cul\u003e\n        \u003cli\u003e\u003ca href=\"#1-improved-readability--maintainability\"\u003e1) Improved readability \u0026amp; maintainability\u003c/a\u003e\u003c/li\u003e\n        \u003cli\u003e\u003ca href=\"#2-early-detection-of-errors-via-static-type-checkers--ides\"\u003e2) Early detection of errors via static type checkers \u0026amp; IDEs\u003c/a\u003e\u003c/li\u003e\n        \u003cli\u003e\u003ca href=\"#3-improved-code-completion\"\u003e3) Improved code completion\u003c/a\u003e\u003c/li\u003e\n        \u003cli\u003e\u003ca href=\"#4-benefits-apply-from-largescale-development-to-small-scripts--experimental-code\"\u003e4) Benefits apply from large‐scale development to small scripts \u0026amp; experimental code\u003c/a\u003e\u003c/li\u003e\n        \u003cli\u003e\u003ca href=\"#5-synergy-with-major-libraries--frameworks\"\u003e5) Synergy with major libraries \u0026amp; frameworks\u003c/a\u003e\u003c/li\u003e\n      \u003c/ul\u003e\n    \u003c/li\u003e\n    \u003cli\u003e\u003ca href=\"#practical-steps-points-to-introduce-type-hints\"\u003ePractical steps: Points to introduce type hints\u003c/a\u003e\n      \u003cul\u003e\n        \u003cli\u003e\u003ca href=\"#1-dont-try-to-annotate-everything-at-once\"\u003e1) Don’t try to annotate everything at once\u003c/a\u003e\u003c/li\u003e\n        \u003cli\u003e\u003ca href=\"#2-start-with-the-highestpriority-areas\"\u003e2) Start with the highest‐priority areas\u003c/a\u003e\u003c/li\u003e\n        \u003cli\u003e\u003ca href=\"#3-use-ides-and-static-type-checkers\"\u003e3) Use IDEs and static type checkers\u003c/a\u003e\u003c/li\u003e\n        \u003cli\u003e\u003ca href=\"#4-apply-even-in-experimental-code-or-prototype\"\u003e4) Apply even in experimental code or prototype\u003c/a\u003e\u003c/li\u003e\n        \u003cli\u003e\u003ca href=\"#5-allow-partial-annotation\"\u003e5) Allow partial annotation\u003c/a\u003e\u003c/li\u003e\n        \u003cli\u003e\u003ca href=\"#6-decide-on-style-guides--rules\"\u003e6) Decide on style guides \u0026amp; rules\u003c/a\u003e\u003c/li\u003e\n      \u003c/ul\u003e\n    \u003c/li\u003e\n    \u003cli\u003e\u003ca href=\"#summary-and-the-next-step\"\u003eSummary and the next step\u003c/a\u003e\u003c/li\u003e\n  \u003c/ul\u003e\n\u003c/nav\u003e\n\u003c/details\u003e\n\n\u003cp\u003eThis article is a supplementary piece for the column “On Python type hints that save everything” in \u003cem\u003ePythonで学ぶ画像生成\u003c/em\u003e.\nIn this column, we compactly introduce the background of why Python type hints were born, their advantages, and how to use them. If you’ve postponed it thinking “it looks a bit bothersome…”, once you actually use it you’ll realise it’s a reliable element that can significantly raise development efficiency for both teams and individuals. First, let’s start with understanding the meaning of using type hints, and introduce them in a relaxed way.\u003c/p\u003e"
+  "description": "This article introduces the background, concepts, practical usage, and benefits of Python type hints, explaining how they enhance readability, maintainability, and development efficiency while preserving the flexibility of dynamic typing."
 }
 </script>
 
