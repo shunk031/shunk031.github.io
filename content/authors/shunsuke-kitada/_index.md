@@ -20,12 +20,12 @@ role: Research Scientist working on Vision & Language with Deep Learning
 organizations:
   - name: Research Scientist @ Image and Video AI Dept., LY Corp.
     url: "https://www.lycorp.co.jp/en/company/overview/"
-  - name: Kioi Tower 1-3 Kioicho, Chiyoda-ku, Tokyo, 102-8282, Japan    
+  - name: Kioi Tower 1-3 Kioicho, Chiyoda-ku, Tokyo, 102-8282, Japan
 
   - name: Project Researcher @ Hosei University
-    url: "https://ai.ws.hosei.ac.jp/wp/"    
-  - name: S603, 3-7-2, Kajino-cho, Koganei-shi, Tokyo 184-8584, Japan    
-  
+    url: "https://ai.ws.hosei.ac.jp/wp/"
+  - name: S603, 3-7-2, Kajino-cho, Koganei-shi, Tokyo 184-8584, Japan
+
   - name: Intelligent information processing laboratory
     url: "https://iyatomi-lab.info/english-top"
 
@@ -49,15 +49,15 @@ interests:
 # Education to show in About widget
 education:
   courses:
-  - course: PhD in Engineering
-    institution: Graduate School of Science and Engineering, Hosei University
-    year: 2023
-  - course: MSc in Engineering
-    institution: Graduate School of Science and Engineering, Hosei University
-    year: 2020
-  - course: BSc in Engineering
-    institution: Hosei University
-    year: 2018
+    - course: PhD in Engineering
+      institution: Graduate School of Science and Engineering, Hosei University
+      year: 2023
+    - course: MSc in Engineering
+      institution: Graduate School of Science and Engineering, Hosei University
+      year: 2020
+    - course: BSc in Engineering
+      institution: Hosei University
+      year: 2018
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -146,29 +146,30 @@ social:
     link: https://github.com/shunk031/cv/releases/latest/download/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "shunsuke.kitada.0831@gmail.com"
+email: "info@shunk031.me"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Researchers
-- Visitors
+  - Researchers
+  - Visitors
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-Shunsuke Kitada （北田 俊輔 in Japanese) is a Research Scientist at Image and Video AI Dept., LY Corp. 
+Shunsuke Kitada （北田 俊輔 in Japanese) is a Research Scientist at Image and Video AI Dept., LY Corp.
 His research interest is now on computational advertising with a focus on automatic geneartion/evaluation and assistive technology for multi-modal ad creatives.
 
-Previously, he got his Ph.D. in 2023 at major in applied informatics, graduate school of science and engineering, Hosei University under the supervision of Prof. [Hitoshi Iyatomi](https://iyatomi-lab.info/english-top). 
+Previously, he got his Ph.D. in 2023 at major in applied informatics, graduate school of science and engineering, Hosei University under the supervision of Prof. [Hitoshi Iyatomi](https://iyatomi-lab.info/english-top).
 His project was to improve prediction performance and model interpretability through attention mechanisms from basic and applied research perspectives.
 
 His personality traits can be summarized as follows:
+
 - ❤️ **Love research and development.** He is enjoying research life, and he is currently focusing on three research topics simultaneously, e.g., natural language processing, medical image-based computer vision, computational advertising.
 - 📝 **Every day read and implement the SoTA models.** He has released many re-implementations of models using mainly Chainer and PyTorch. Therefore, based on state-of-the-art cases, he can advise on deep learning-based product design.
 - 😄 **High technical communicativity.** Summarize what he made and what he studied, and spread such information. This shows that he can input and output regularly.
 
-The resume is available in [PDF {{< icon name="download" pack="fas" >}}](https://github.com/shunk031/cv/releases/latest/download/cv.pdf). 
+The resume is available in [PDF {{< icon name="download" pack="fas" >}}](https://github.com/shunk031/cv/releases/latest/download/cv.pdf).
 
-*Background image borrowed from [OpenAI ChatGPT](https://openai.com/index/chatgpt/) illustration by [Ruby Chen](https://www.linkedin.com/in/rubyweijuchen/).*
+_Background image borrowed from [OpenAI ChatGPT](https://openai.com/index/chatgpt/) illustration by [Ruby Chen](https://www.linkedin.com/in/rubyweijuchen/)._

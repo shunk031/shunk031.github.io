@@ -97,7 +97,7 @@ social:
     link: https://github.com/shunk031/cv/releases/latest/download/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "shunsuke.kitada.0831@gmail.com"
+email: "info@shunk031.me"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
