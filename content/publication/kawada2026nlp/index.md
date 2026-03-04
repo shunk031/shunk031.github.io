@@ -48,7 +48,7 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf:
+url_pdf: https://www.anlp.jp/proceedings/annual_meeting/2026/pdf_dir/Q3-3.pdf
 url_code:
 url_dataset:
 url_poster:
@@ -63,7 +63,7 @@ url_video:
 image:
   caption: ""
   focal_point: ""
-  preview_only: false
+  preview_only: true
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
