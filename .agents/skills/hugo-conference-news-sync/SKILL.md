@@ -31,6 +31,7 @@ uv run --with ruamel.yaml python scripts/sync_conference_news.py --repo-root <re
 - Default behavior:
 - Add missing conference tags and conference-year tags to publication entries.
 - Create news files with `draft: false` by default under `content/news/<conference>-<year>-presentations/index.md`.
+- Initialize each new news file with `make news name="<conference>-<year>-presentations"` before writing final content.
 - Set news tags to `["News", "<CONF>", "<CONF><YEAR>"]`.
 - Use `--draft` only when intentionally creating unpublished drafts.
 - Set `date` and `lastmod` to the earliest publication `date` in the conference-year group.
@@ -62,6 +63,10 @@ uv run --with ruamel.yaml python scripts/sync_conference_news.py --repo-root <re
 - Duplicate prevention:
 - Parse existing `content/news/*/index.md` and collect `/publication/<slug>` links.
 - If any slug in a conference-year group is already linked, skip creating that group by default.
+
+- File bootstrap:
+- Prefer `make news` when generating into the repository default `content/news`.
+- Fall back to direct file creation if `make news` is unavailable or fails.
 
 - News body format:
 - Emit one line per publication in this format:

@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import re
+import subprocess
 from collections import defaultdict
 from dataclasses import dataclass
 from datetime import datetime
@@ -30,21 +31,29 @@ JOURNAL_LIKE_SHORTS = {
 
 @dataclass(frozen=True)
 class ConferenceKey:
+    """Conference identifier used for grouping and news slug generation."""
+
     name: str
     year: str
 
     @property
     def label(self) -> str:
+        """Return display label such as `ANLP 2026`."""
+
         return f"{self.name} {self.year}"
 
     @property
     def slug(self) -> str:
+        """Return news slug such as `anlp-2026-presentations`."""
+
         base = re.sub(r"[^a-z0-9]+", "-", self.name.lower()).strip("-")
         return f"{base}-{self.year}-presentations"
 
 
 @dataclass
 class Publication:
+    """Publication metadata required for tag sync and news rendering."""
+
     path: Path
     slug: str
     title: str
@@ -54,7 +63,11 @@ class Publication:
 
 
 class FrontmatterIO:
+    """Read and write Hugo front matter while preserving formatting."""
+
     def __init__(self) -> None:
+        """Configure `ruamel.yaml` for stable front matter round-trip edits."""
+
         self.yaml = YAML()
         self.yaml.preserve_quotes = True
         self.yaml.default_flow_style = None
@@ -62,6 +75,8 @@ class FrontmatterIO:
         self.yaml.allow_duplicate_keys = True
 
     def read(self, path: Path) -> tuple[dict, str]:
+        """Return parsed front matter and markdown body from a content file."""
+
         text = path.read_text(encoding="utf-8")
         parts = text.split("---", 2)
         if len(parts) < 3:
@@ -71,6 +86,8 @@ class FrontmatterIO:
         return frontmatter, body
 
     def write(self, path: Path, frontmatter: dict, body: str) -> None:
+        """Write front matter and body back to disk."""
+
         from io import StringIO
 
         stream = StringIO()
@@ -80,6 +97,8 @@ class FrontmatterIO:
 
 
 def normalize_publication_short(value: str) -> str:
+    """Normalize `publication_short` by stripping decorations and SRW suffix."""
+
     normalized = value.strip()
     normalized = re.sub(r"\s*\*（[^）]*）\*", "", normalized)
     normalized = re.sub(r"\s+SRW$", "", normalized)
@@ -87,6 +106,8 @@ def normalize_publication_short(value: str) -> str:
 
 
 def parse_conf_key(publication_short: str, date_value: object) -> ConferenceKey | None:
+    """Parse conference name/year from `publication_short` and fallback date."""
+
     short = normalize_publication_short(publication_short)
     if not short or short in JOURNAL_LIKE_SHORTS:
         return None
@@ -114,6 +135,8 @@ def parse_conf_key(publication_short: str, date_value: object) -> ConferenceKey 
 
 
 def find_linked_publication_slugs(news_dir: Path) -> set[str]:
+    """Collect publication slugs already linked from existing news posts."""
+
     linked: set[str] = set()
     if not news_dir.exists():
         return linked
@@ -124,6 +147,8 @@ def find_linked_publication_slugs(news_dir: Path) -> set[str]:
 
 
 def parse_publications(publication_dir: Path, io: FrontmatterIO) -> list[Publication]:
+    """Load conference-related publications from `content/publication`."""
+
     publications: list[Publication] = []
 
     for index_md in sorted(publication_dir.glob("*/index.md")):
@@ -157,6 +182,8 @@ def parse_publications(publication_dir: Path, io: FrontmatterIO) -> list[Publica
 def sync_tags(
     publications: Iterable[Publication], io: FrontmatterIO, dry_run: bool
 ) -> tuple[int, list[str]]:
+    """Backfill conference tags for publication pages and report changes."""
+
     modified = 0
     details: list[str] = []
 
@@ -190,6 +217,8 @@ def render_news_markdown(
     conference_date: str,
     draft: bool,
 ) -> str:
+    """Render a complete `content/news/<slug>/index.md` markdown string."""
+
     paper_word = "paper" if len(publications) == 1 else "papers"
     conf_year_tag = f"{conf.name}{conf.year}"
     lines: list[str] = [
@@ -237,6 +266,8 @@ def render_news_markdown(
 
 
 def parse_targets(values: list[str]) -> set[str]:
+    """Normalize repeated `--target` values for exact label matching."""
+
     normalized: set[str] = set()
     for value in values:
         normalized.add(" ".join(value.strip().split()))
@@ -244,6 +275,8 @@ def parse_targets(values: list[str]) -> set[str]:
 
 
 def resolve_conference_date(publications: list[Publication], fallback: str) -> str:
+    """Return earliest publication date in a group, or fallback when missing."""
+
     parsed: list[tuple[datetime, str]] = []
     for publication in publications:
         try:
@@ -256,7 +289,35 @@ def resolve_conference_date(publications: list[Publication], fallback: str) -> s
     return parsed[0][1]
 
 
+def initialize_news_file(repo_root: Path, news_dir: Path, out_file: Path, slug: str) -> str:
+    """Initialize a new news file via `make news`, with direct-write fallback."""
+
+    default_news_dir = (repo_root / "content/news").resolve()
+    use_make = news_dir.resolve() == default_news_dir
+
+    if use_make:
+        try:
+            subprocess.run(
+                ["make", "news", f"name={slug}"],
+                cwd=repo_root,
+                check=True,
+                capture_output=True,
+                text=True,
+            )
+            if out_file.exists():
+                return "make news"
+        except (FileNotFoundError, subprocess.CalledProcessError) as error:
+            print(f"[news] warning {slug}: make news failed, fallback to direct write ({error})")
+
+    out_file.parent.mkdir(parents=True, exist_ok=True)
+    if not out_file.exists():
+        out_file.touch()
+    return "direct write"
+
+
 def main() -> None:
+    """Run conference tag sync and conference-year news generation."""
+
     parser = argparse.ArgumentParser(
         description=(
             "Backfill conference tags in publications and create conference-year "
@@ -387,9 +448,9 @@ def main() -> None:
             print(f"[news] create {conf.label}: {out_file}")
             continue
 
-        out_dir.mkdir(parents=True, exist_ok=True)
+        method = initialize_news_file(repo_root, news_dir, out_file, conf.slug)
         out_file.write_text(content, encoding="utf-8")
-        print(f"[news] created {conf.label}: {out_file}")
+        print(f"[news] created {conf.label}: {out_file} ({method})")
 
     print(
         f"[summary] groups={len(grouped)} created={created} skipped={skipped} dry_run={args.dry_run}"
