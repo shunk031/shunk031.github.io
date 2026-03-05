@@ -24,7 +24,13 @@ abstract: ""
 # Summary. An optional shortened abstract.
 summary: "第 28 回 情報論的学習理論ワークショップ，2025."
 
-tags: ["Domestic Conference", "Non-refereed", "Image Generation", "Diffusion Model", "IBIS"]
+tags:
+- "Domestic Conference"
+- "Non-refereed"
+- "Image Generation"
+- "Diffusion Model"
+- "IBIS"
+- IBIS2025
 categories: ["Computer Vision", "Image Generation", "Layout-to-Image Generation", "Noise Optimization"]
 featured: false
 

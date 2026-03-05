@@ -24,7 +24,13 @@ abstract: "本研究では、日本語のバナー広告画像におけるタイ
 # Summary. An optional shortened abstract.
 summary: "NLP 若手の会 (YANS) 第 20 回シンポジウム，2025."
 
-tags: ["Computational Advertising", "Typography Analysis", "Domestic Conference", "Non-refereed", "YANS"]
+tags:
+- "Computational Advertising"
+- "Typography Analysis"
+- "Domestic Conference"
+- "Non-refereed"
+- "YANS"
+- YANS2025
 categories: ["Vision & Language", "Computational Advertising"]
 featured: false
 

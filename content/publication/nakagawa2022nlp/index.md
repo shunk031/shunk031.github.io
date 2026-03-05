@@ -19,13 +19,18 @@ publication_types: ["article"]
 publication: "言語処理学会第 28 回年次大会，2022."
 publication_short: "NLP 2022"
 
-abstract: "SNS 等，オンライン上でやりとりされる文章から相手の感情を正しく推定するのは時に難しく，書き手と読み手の間での認識・解釈の違いはトラブルにつながる可能性がある．本研究では，書き手と読み手の感情認識の差に着目した上で，感情認識の差が特に大きい「怒り」の感情に焦点を当て，その差が大きい文章を予測する識別器を構築するとともに，感情認識の差を生み出している表現を明らかにするための分析を行った．検出された表現は，それ自体に怒りの感情を表す意味は持たないため，読み手が読み取るのは難しいが，書いた本人は確かに怒りの感情を持つ傾向にあった．
-"
+abstract: "SNS 等，オンライン上でやりとりされる文章から相手の感情を正しく推定するのは時に難しく，書き手と読み手の間での認識・解釈の違いはトラブルにつながる可能性がある．本研究では，書き手と読み手の感情認識の差に着目した上で，感情認識の差が特に大きい「怒り」の感情に焦点を当て，その差が大きい文章を予測する識別器を構築するとともに，感情認識の差を生み出している表現を明らかにするための分析を行った．検出された表現は，それ自体に怒りの感情を表す意味は持たないため，読み手が読み取るのは難しいが，書いた本人は確かに怒りの感情を持つ傾向にあった． "
 
 # Summary. An optional shortened abstract.
 summary: "言語処理学会第 28 回年次大会，2022."
 
-tags: ["Domestic Conference", "Non-refereed", "Natural Language Processing", "ANLP", "NLP2022"]
+tags:
+- "Domestic Conference"
+- "Non-refereed"
+- "Natural Language Processing"
+- "ANLP"
+- "NLP2022"
+- ANLP2022
 categories: ["Natural Language Processing", "Sentiment Analysis"]
 featured: false
 

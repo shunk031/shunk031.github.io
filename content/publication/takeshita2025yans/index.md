@@ -24,7 +24,13 @@ abstract: "近年、大規模言語モデル（LLM）をバックボーンとす
 # Summary. An optional shortened abstract.
 summary: "NLP 若手の会 (YANS) 第 20 回シンポジウム，2025."
 
-tags: ["AI Agent", "Computer Use", "Domestic Conference", "Non-refereed", "YANS"]
+tags:
+- "AI Agent"
+- "Computer Use"
+- "Domestic Conference"
+- "Non-refereed"
+- "YANS"
+- YANS2025
 categories: ["Natural Language Processing", "Vision & Language", "AI Agent"]
 featured: false
 

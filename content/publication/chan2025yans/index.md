@@ -24,7 +24,13 @@ abstract: "本報告では、書き手と読み手の感情ラベルを含む日
 # Summary. An optional shortened abstract.
 summary: "NLP 若手の会 (YANS) 第 20 回シンポジウム，2025."
 
-tags: ["Natural Language Processing", "Sentiment Analysis", "Domestic Conference", "Non-refereed", "YANS"]
+tags:
+- "Natural Language Processing"
+- "Sentiment Analysis"
+- "Domestic Conference"
+- "Non-refereed"
+- "YANS"
+- YANS2025
 categories: ["Natural Language Processing", "Sentiment Analysis"]
 featured: false
 

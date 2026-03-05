@@ -5,9 +5,6 @@ title: "Expressions Causing Differences in Emotion Recognition in Social Network
 authors: ["Tsubasa Nakagawa", "Shunsuke Kitada", "Hitoshi Iyatomi"]
 date: 2022-08-02T14:18:12+09:00
 doi: ""
-doi: "10.1145/3511808.3557599"
-
-# Schedule page publish date (NOT publication's date).
 publishDate: 2022-08-02T14:18:12+09:00
 
 # Publication type.
@@ -20,19 +17,18 @@ publication_types: ["paper-conference"]
 publication: "Proc. of the 31st ACM International Conference on Information & Knowledge Management"
 publication_short: "CIKM2022"
 
-abstract: 
-  It is often difficult to correctly infer a writer's emotion from text exchanged online, and differences in recognition between writers and readers can be problematic.
-  In this paper, we propose a new framework for detecting sentences that create differences in emotion recognition between the writer and the reader and for detecting the kinds of expressions that cause such differences.
-  The proposed framework consists of a bidirectional encoder representations from transformers (BERT)-based detector that detects sentences causing differences in emotion recognition and an analysis that acquires expressions that characteristically appear in such sentences.
-  The detector, based on a Japanese SNS-document dataset with emotion labels annotated by both the writer and three readers of the social networking service (SNS) documents, detected "hidden-anger sentences" with AUC = 0.772; these sentences gave rise to differences in the recognition of anger.
-  Because SNS documents contain many sentences whose meaning is extremely difficult to interpret, by analyzing the sentences detected by this detector, we obtained several expressions that appear characteristically in hidden-anger sentences.
-  The detected sentences and expressions do not convey anger explicitly, and it is difficult to infer the writer's anger, but if the implicit anger is pointed out, it becomes possible to guess why the writer is angry.
-  Put into practical use, this framework would likely have the ability to mitigate problems based on misunderstandings.
+abstract: It is often difficult to correctly infer a writer's emotion from text exchanged online, and differences in recognition between writers and readers can be problematic. In this paper, we propose a new framework for detecting sentences that create differences in emotion recognition between the writer and the reader and for detecting the kinds of expressions that cause such differences. The proposed framework consists of a bidirectional encoder representations from transformers (BERT)-based detector that detects sentences causing differences in emotion recognition and an analysis that acquires expressions that characteristically appear in such sentences. The detector, based on a Japanese SNS-document dataset with emotion labels annotated by both the writer and three readers of the social networking service (SNS) documents, detected "hidden-anger sentences" with AUC = 0.772; these sentences gave rise to differences in the recognition of anger. Because SNS documents contain many sentences whose meaning is extremely difficult to interpret, by analyzing the sentences detected by this detector, we obtained several expressions that appear characteristically in hidden-anger sentences. The detected sentences and expressions do not convey anger explicitly, and it is difficult to infer the writer's anger, but if the implicit anger is pointed out, it becomes possible to guess why the writer is angry. Put into practical use, this framework would likely have the ability to mitigate problems based on misunderstandings.
 
 # Summary. An optional shortened abstract.
 summary: "Proc. of the 31st ACM International Conference on Information & Knowledge Management (CIKM2022). (**Acceptance rate = 29.04%**)"
 
-tags: ["International Conference", "Refereed", "Natural Language Processing", "International Publication"]
+tags:
+- "International Conference"
+- "Refereed"
+- "Natural Language Processing"
+- "International Publication"
+- CIKM
+- CIKM2022
 categories: ["Natural Language Processing", "Sentiment Analysis"]
 featured: false
 
@@ -54,7 +50,7 @@ url_poster: publication/nakagawa2022expressions/poster.pdf
 url_project:
 url_slides:
 url_source:
-url_video: 
+url_video:
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
