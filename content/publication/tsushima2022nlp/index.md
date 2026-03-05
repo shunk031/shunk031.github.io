@@ -19,13 +19,18 @@ publication_types: ["article"]
 publication: "言語処理学会第 28 回年次大会，2022."
 publication_short: "NLP 2022"
 
-abstract: "日本語や中国語における自然言語処理では，漢字の部首を考慮した文字単位による自然言語処理が文書解析能力の向上に寄与している．文字形状を考慮するために，従来は convolutional neural network (CNN) を元にした文字符号化器および文書分類器の end-to-end モデルが多く提案されている．本研究では，漢字の偏や旁といった構成要素の関係性を考慮した高性能な文書分類を実現するために，文字符号化器に Vision Transformer (ViT)，文書分類器に character-level Transformer (CLT) で構成された ViT-CLT を提案する．我々の ViT-CLT は漢字の構成要素とその関係性を捉えるために ViT を用いて文字画像から文字の埋め込みを獲得し，文書分類器ではその文字埋め込みを使用して文書分類タスクを解けるよう学習を行う．評価実験では日本語のニュース記事を用いたカテゴリ分類タスクにおいて，CNN を用いた従来の文字符号化器・文書分類器モデルと比較し，ViT-CLT が 18% の予測性能の向上を確認した．更に ViT-CLT の文字符号化器における attention の可視化結果から，従来モデルよりも漢字の構成要素を十分に考慮できていることを確認した．
-"
+abstract: "日本語や中国語における自然言語処理では，漢字の部首を考慮した文字単位による自然言語処理が文書解析能力の向上に寄与している．文字形状を考慮するために，従来は convolutional neural network (CNN) を元にした文字符号化器および文書分類器の end-to-end モデルが多く提案されている．本研究では，漢字の偏や旁といった構成要素の関係性を考慮した高性能な文書分類を実現するために，文字符号化器に Vision Transformer (ViT)，文書分類器に character-level Transformer (CLT) で構成された ViT-CLT を提案する．我々の ViT-CLT は漢字の構成要素とその関係性を捉えるために ViT を用いて文字画像から文字の埋め込みを獲得し，文書分類器ではその文字埋め込みを使用して文書分類タスクを解けるよう学習を行う．評価実験では日本語のニュース記事を用いたカテゴリ分類タスクにおいて，CNN を用いた従来の文字符号化器・文書分類器モデルと比較し，ViT-CLT が 18% の予測性能の向上を確認した．更に ViT-CLT の文字符号化器における attention の可視化結果から，従来モデルよりも漢字の構成要素を十分に考慮できていることを確認した． "
 
 # Summary. An optional shortened abstract.
 summary: "言語処理学会第 28 回年次大会，2022."
 
-tags: ["Domestic Conference", "Non-refereed", "Natural Language Processing", "ANLP", "NLP2022"]
+tags:
+- "Domestic Conference"
+- "Non-refereed"
+- "Natural Language Processing"
+- "ANLP"
+- "NLP2022"
+- ANLP2022
 categories: ["Natural Language Processing", "Glyph-aware NLP", "NLP for Asian Languages"]
 featured: false
 

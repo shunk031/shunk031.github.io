@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hugo Conference News Sync"
+  short_description: "Generate conference-year news from publications and sync tags."
+  default_prompt: "Create or update conference-year news posts from publication_short, add conference tags to news, and backfill conference tags in publications."

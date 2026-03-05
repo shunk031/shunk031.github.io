@@ -2,7 +2,7 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "Majority or Minority: 固有表現抽出におけるデータの不均衡性に着目した損失関数の提案"
-authors: ["根本 颯汰","北田 俊輔", "彌冨 仁"]
+authors: ["根本 颯汰", "北田 俊輔", "彌冨 仁"]
 date: 2023-03-15T09:40:00+09:00
 doi: ""
 
@@ -19,14 +19,18 @@ publication_types: ["article"]
 publication: "言語処理学会第 29 回年次大会，2023."
 publication_short: "NLP 2023"
 
-abstract: "
-多くの自然言語処理タスクはデータの不均衡の問題に直面しており、実用的な応用がなされている固有表現抽出もその一つである。固有表現抽出は抽出対象の固有表現以外のトークンすべてが O クラスとなるため、O クラスが大多数を占める不均衡なデータとなっている。本論文では、固有表現抽出における不均衡性に着目した新たな損失関数 majorityor minority loss (MoM loss) を提案する。提案手法の核となるアイディアは多数派のクラスである O クラスのトークンのみを計算対象した loss を従来のモデルの損失関数に追加するものである。実験を通じて MoM loss がマルチクラス、2 クラス分類問わず、言語非依存で性能向上に寄与することを確認した。
-"
+abstract: " 多くの自然言語処理タスクはデータの不均衡の問題に直面しており、実用的な応用がなされている固有表現抽出もその一つである。固有表現抽出は抽出対象の固有表現以外のトークンすべてが O クラスとなるため、O クラスが大多数を占める不均衡なデータとなっている。本論文では、固有表現抽出における不均衡性に着目した新たな損失関数 majorityor minority loss (MoM loss) を提案する。提案手法の核となるアイディアは多数派のクラスである O クラスのトークンのみを計算対象した loss を従来のモデルの損失関数に追加するものである。実験を通じて MoM loss がマルチクラス、2 クラス分類問わず、言語非依存で性能向上に寄与することを確認した。 "
 
 # Summary. An optional shortened abstract.
 summary: "言語処理学会第 29 回年次大会，2023."
 
-tags: ["Domestic Conference", "Non-refereed", "Natural Language Processing", "ANLP", "NLP2023"]
+tags:
+- "Domestic Conference"
+- "Non-refereed"
+- "Natural Language Processing"
+- "ANLP"
+- "NLP2023"
+- ANLP2023
 categories: ["Natural Language Processing", "Named Entity Recognition"]
 featured: false
 

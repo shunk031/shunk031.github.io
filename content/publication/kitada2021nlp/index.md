@@ -19,16 +19,18 @@ publication_types: ["article"]
 publication: "言語処理学会第 27 回年次大会，2021."
 publication_short: "NLP 2021"
 
-abstract: "
-本研究では、仮想敵対的学習 (virtual adversarial training: VAT) に基づいた中期項に対する新しい学習手法を提案する。
-これまでの研究で摂動に対して脆弱であると報告されている注意機構に対して、VAT は半教師ありの設定で、教師なしデータから敵対的摂動を計算することが可能である。
-提案法に対する実証実験の結果、 (1) 従来の敵対的摂動に基づく手法だけでなく、最新の VAT に基づく手法と比較して、半教師あり設定で有意に優れた予測性能が得られること、(2) 学習された注意の重みが購買を元にした単語の重要度との相関がより強く、人手による予測根拠とより良い一致を示すこと、さらに (3) 教師なしデータの増加に伴って性能が向上することを示した。
-"
+abstract: " 本研究では、仮想敵対的学習 (virtual adversarial training: VAT) に基づいた中期項に対する新しい学習手法を提案する。 これまでの研究で摂動に対して脆弱であると報告されている注意機構に対して、VAT は半教師ありの設定で、教師なしデータから敵対的摂動を計算することが可能である。 提案法に対する実証実験の結果、 (1) 従来の敵対的摂動に基づく手法だけでなく、最新の VAT に基づく手法と比較して、半教師あり設定で有意に優れた予測性能が得られること、(2) 学習された注意の重みが購買を元にした単語の重要度との相関がより強く、人手による予測根拠とより良い一致を示すこと、さらに (3) 教師なしデータの増加に伴って性能が向上することを示した。 "
 
 # Summary. An optional shortened abstract.
 summary: "言語処理学会第 27 回年次大会，2021."
 
-tags: ["Domestic Conference", "Non-refereed", "Natural Language Processing", "ANLP", "NLP2021"]
+tags:
+- "Domestic Conference"
+- "Non-refereed"
+- "Natural Language Processing"
+- "ANLP"
+- "NLP2021"
+- ANLP2021
 categories: ["Natural Language Processing", "Virtual Adversarial Training"]
 featured: false
 

@@ -24,7 +24,11 @@ abstract: "In this report, we introduce the outline of our system in Task 3: Dis
 # Summary. An optional shortened abstract.
 summary: "Manuscript for [the International Skin Imaging Collaboration 2018](https://challenge2018.isic-archive.com/)."
 
-tags: ["Preprint", "Medical Image Processing"]
+tags:
+- "Preprint"
+- "Medical Image Processing"
+- ISIC
+- ISIC2018
 categories: ["Medical Image Processing", "Skin Lesion Diagnosis"]
 featured: false
 
