@@ -28,5 +28,18 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Our Presentations at YANS 2022</title>
+      <link>https://shunk031.me/news/yans-2022-presentations/</link>
+      <pubDate>Mon, 29 Aug 2022 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/news/yans-2022-presentations/</guid>
+      <description>&lt;p&gt;We will present the following papers at YANS 2022:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;北田 俊輔, 井上 直人, 大谷 まゆ, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/kitada2022yans&#34;&gt;&amp;ldquo;Document AI タスクに向けた大規模事前学習済みモデルを活用した Layout-aware Prompting&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;根本 颯汰, 北田 俊輔, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/nemoto2022yans&#34;&gt;&amp;ldquo;固有表現認識タスクにおけるデータセットの偏りに着目した動的重み付け損失関数の提案&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

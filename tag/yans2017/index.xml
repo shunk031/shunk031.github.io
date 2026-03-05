@@ -20,5 +20,17 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Our Presentations at YANS 2017</title>
+      <link>https://shunk031.me/news/yans-2017-presentations/</link>
+      <pubDate>Tue, 05 Sep 2017 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/news/yans-2017-presentations/</guid>
+      <description>&lt;p&gt;We will present the following paper at YANS 2017:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;北田 俊輔, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/kitada2017yans&#34;&gt;&amp;ldquo;Character-level Convolutional Neural Networks における Wildcard Training の基礎検討&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

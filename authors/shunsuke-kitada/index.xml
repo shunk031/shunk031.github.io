@@ -13,6 +13,21 @@
     </image>
     
     <item>
+      <title>Our Presentations at ANLP 2026</title>
+      <link>https://shunk031.me/news/anlp-2026-presentations/</link>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/news/anlp-2026-presentations/</guid>
+      <description>&lt;p&gt;We will present the following papers at ANLP 2026:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;川田 拓朗, 北田 俊輔, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/kawada2026nlp&#34;&gt;&amp;ldquo;SciGA-Vec: 学術論文におけるベクタ画像形式の Graphical Abstract データセット&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;菊谷 幹, 北田 俊輔, 原 聡. &lt;a href=&#34;https://shunk031.me/publication/kikuya2026nlp&#34;&gt;&amp;ldquo;MLP の重みを反映した Sparse Autoencoder の初期化手法の提案&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;北田 俊輔, 原 聡. &lt;a href=&#34;https://shunk031.me/publication/kitada2026nlp&#34;&gt;&amp;ldquo;ステアリングベクトルは日本語LLMを堅牢に制御できるか？&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;竹下 理斗, 川田 拓朗, 大橋 巧, 北田 俊輔, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/takeshita2026nlp&#34;&gt;&amp;ldquo;Compressed-a11y: 視覚的文脈の再構成と冗長性削減による GUI エージェント観測の効率化&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>ICCV2025 Conference Participation Report</title>
       <link>https://shunk031.me/post/iccv2025-report/</link>
       <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
@@ -769,6 +784,18 @@ This research is the result of our summer internship program, led primarily by &
     </item>
     
     <item>
+      <title>Our Presentations at IBIS 2025</title>
+      <link>https://shunk031.me/news/ibis-2025-presentations/</link>
+      <pubDate>Thu, 13 Nov 2025 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/news/ibis-2025-presentations/</guid>
+      <description>&lt;p&gt;We will present the following paper at IBIS 2025:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;永井 大地, 守田 竜梧, 北田 俊輔, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/nagai2025ibis&#34;&gt;&amp;ldquo;潜在拡散モデルでのレイアウト指定生成に向けたアテンションに基づく初期ノイズ最適化&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>TAUE: Training-free Noise Transplant and Cultivation Diffusion Model</title>
       <link>https://shunk031.me/publication/nagai2025taue/</link>
       <pubDate>Tue, 04 Nov 2025 17:50:00 +0900</pubDate>
@@ -1395,6 +1422,34 @@ In this article we compactly introduce how Python type hints came about, their b
     </item>
     
     <item>
+      <title>Our Presentations at YANS 2025</title>
+      <link>https://shunk031.me/news/yans-2025-presentations/</link>
+      <pubDate>Thu, 18 Sep 2025 14:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/news/yans-2025-presentations/</guid>
+      <description>&lt;p&gt;We will present the following papers at YANS 2025:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;陳 冠帆, 田中 優太朗, 中川 翼, 北田 俊輔, 川田 拓朗, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/chan2025yans&#34;&gt;&amp;ldquo;WRIME-TC：時間的文脈による書き手と読み手の感情分析の強化&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;川田 拓朗, 北田 俊輔, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/kawada2025yans&#34;&gt;&amp;ldquo;GenGA：学術論文における編集可能な Graphical Abstract の自動生成に関する初期検討&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;中町 礼文, 浦宗 龍生, 吉橋 亮太, 和田 有輝也, 北田 俊輔, 牧田 光晴. &lt;a href=&#34;https://shunk031.me/publication/nakamachi2025yans&#34;&gt;&amp;ldquo;日本語の広告画像向けタイポグラフィ属性の生成型解析：小規模 VLM の LoRA 微調整による検証&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;竹下 理斗, 川田 拓朗, 大橋 巧, 北田 俊輔, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/takeshita2025yans&#34;&gt;&amp;ldquo;ローカル LLM を用いた AI エージェントの現状と課題&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Our Presentations at MIRU 2025</title>
+      <link>https://shunk031.me/news/miru-2025-presentations/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/news/miru-2025-presentations/</guid>
+      <description>&lt;p&gt;We will present the following papers at MIRU 2025:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;川田 拓朗, 北田 俊輔, 根本 颯汰, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/kawada2025miru&#34;&gt;&amp;ldquo;グラフィカルアブストラクト推薦と評価の統合ベンチマーク&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Jiahao Zhang, Ryota Yoshihashi, Shunsuke Kitada, Atsuki Osanai, Yuta Nakashima. &lt;a href=&#34;https://shunk031.me/publication/zhang2025miru&#34;&gt;&amp;ldquo;VASCAR: Content-Aware Layout Generation via Visual-Aware Self-Correction&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>VASCAR: Content-Aware Layout Generation via Visual-Aware Self-Correction</title>
       <link>https://shunk031.me/publication/zhang2025miru/</link>
       <pubDate>Fri, 01 Aug 2025 00:00:00 +0900</pubDate>
@@ -1477,6 +1532,30 @@ Looking forward to making an impact in both industry and academia!&lt;/p&gt;
     </item>
     
     <item>
+      <title>Our Presentations at ANLP 2025</title>
+      <link>https://shunk031.me/news/anlp-2025-presentations/</link>
+      <pubDate>Tue, 11 Mar 2025 08:30:00 +0900</pubDate>
+      <guid>https://shunk031.me/news/anlp-2025-presentations/</guid>
+      <description>&lt;p&gt;We will present the following paper at ANLP 2025:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;川田 拓朗, 根本 颯汰, 北田 俊輔, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/kawada2025nlp&#34;&gt;&amp;ldquo;SciGA: 学術論文における Graphical Abstract 設計支援のための統合データセット&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Our Presentations at IPSJ 2025</title>
+      <link>https://shunk031.me/news/ipsj-2025-presentations/</link>
+      <pubDate>Sun, 09 Mar 2025 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/news/ipsj-2025-presentations/</guid>
+      <description>&lt;p&gt;We will present the following paper at IPSJ 2025:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;永井 大地, 守田 竜梧, 北田 俊輔, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/nagai2025ipsj&#34;&gt;&amp;ldquo;潜在拡散モデルにおける生成対象の個別配置と生成による画質改善の試み&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>SciGA: A Comprehensive Dataset for Designing Graphical Abstracts in Academic Papers</title>
       <link>https://shunk031.me/publication/kawada2025sciga/</link>
       <pubDate>Sat, 04 Jan 2025 00:00:00 +0000</pubDate>
@@ -1537,6 +1616,33 @@ We are honored to receive a rating of 9, which is in the top 15% of accepted pap
       <pubDate>Thu, 05 Dec 2024 00:00:00 +0900</pubDate>
       <guid>https://shunk031.me/publication/zhang2024vascar/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Our Presentations at YANS 2024</title>
+      <link>https://shunk031.me/news/yans-2024-presentations/</link>
+      <pubDate>Thu, 05 Sep 2024 17:50:00 +0900</pubDate>
+      <guid>https://shunk031.me/news/yans-2024-presentations/</guid>
+      <description>&lt;p&gt;We will present the following papers at YANS 2024:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;川田 拓朗, 根本 颯汰, 北田 俊輔, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/kawada2024yans&#34;&gt;&amp;ldquo;学術論文における Graphical Abstract 自動生成の初期検討&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;水口 徳人, 北田 俊輔, 守田 竜梧, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/mizuguchi2024yans&#34;&gt;&amp;ldquo;text-to-image 拡散モデルにおける誘導 attention map を用いた画像生成手法の提案&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;永井 大地, 根本 颯汰, 北田 俊輔, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/nagai2024yans&#34;&gt;&amp;ldquo;潜在拡散モデルにおけるプロンプトを用いた配色制御の試み&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;小川 剛毅, 根本 颯汰, 北田 俊輔, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/ogawa2024yans&#34;&gt;&amp;ldquo;大規模言語モデルを用いたオノマトペ付与による日本語音声データセットの拡張&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Our Presentations at MIRU 2024</title>
+      <link>https://shunk031.me/news/miru-2024-presentations/</link>
+      <pubDate>Wed, 07 Aug 2024 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/news/miru-2024-presentations/</guid>
+      <description>&lt;p&gt;We will present the following paper at MIRU 2024:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;岩井 翔真, 長内 淳樹, 北田 俊輔, 大町 真一郎. &lt;a href=&#34;https://shunk031.me/publication/iwai2024miru&#34;&gt;&amp;ldquo;離散拡散モデルにおけるレイアウトの“固着”を緩和する Layout-Corrector の提案&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -1790,6 +1896,18 @@ During my doctoral program, I was particularly supported by various people, and 
     </item>
     
     <item>
+      <title>Our Presentations at ANLP 2023</title>
+      <link>https://shunk031.me/news/anlp-2023-presentations/</link>
+      <pubDate>Wed, 15 Mar 2023 09:40:00 +0900</pubDate>
+      <guid>https://shunk031.me/news/anlp-2023-presentations/</guid>
+      <description>&lt;p&gt;We will present the following paper at ANLP 2023:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;根本 颯汰, 北田 俊輔, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/nemoto2023nlp&#34;&gt;&amp;ldquo;Majority or Minority: 固有表現抽出におけるデータの不均衡性に着目した損失関数の提案&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Got Hosei University Research Grant 2022</title>
       <link>https://shunk031.me/news/hosei-university-research-grant-2022/</link>
       <pubDate>Sun, 15 Jan 2023 00:00:00 +0900</pubDate>
@@ -1896,6 +2014,19 @@ During my doctoral program, I was particularly supported by various people, and 
       <description>&lt;p&gt;The following paper has been accepted to the &lt;a href=&#34;https://honet-ict.org/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IEEE HONET2022&lt;/a&gt;.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Ohata Kazuya, Shunsuke Kitada and Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.me/publication/ohata2022feedback&#34;&gt;&amp;ldquo;Feedback is Needed for Retakes: An Explainable Poor Image Notification Framework for the Visually Impaired&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Our Presentations at YANS 2022</title>
+      <link>https://shunk031.me/news/yans-2022-presentations/</link>
+      <pubDate>Mon, 29 Aug 2022 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/news/yans-2022-presentations/</guid>
+      <description>&lt;p&gt;We will present the following papers at YANS 2022:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;北田 俊輔, 井上 直人, 大谷 まゆ, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/kitada2022yans&#34;&gt;&amp;ldquo;Document AI タスクに向けた大規模事前学習済みモデルを活用した Layout-aware Prompting&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;根本 颯汰, 北田 俊輔, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/nemoto2022yans&#34;&gt;&amp;ldquo;固有表現認識タスクにおけるデータセットの偏りに着目した動的重み付け損失関数の提案&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -2044,6 +2175,19 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
     </item>
     
     <item>
+      <title>Our Presentations at ANLP 2022</title>
+      <link>https://shunk031.me/news/anlp-2022-presentations/</link>
+      <pubDate>Thu, 17 Mar 2022 10:40:00 +0900</pubDate>
+      <guid>https://shunk031.me/news/anlp-2022-presentations/</guid>
+      <description>&lt;p&gt;We will present the following papers at ANLP 2022:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;中川 翼, 北田 俊輔, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/nakagawa2022nlp&#34;&gt;&amp;ldquo;書き手と読み手の怒りの感情認識の差の原因となる表現の獲得&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;津嶋 祐介, 青木 匠, 北田 俊輔, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/tsushima2022nlp&#34;&gt;&amp;ldquo;ViT-CLT: パッチ分割した文字画像から偏旁冠脚を考慮した文書分類&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Got Hosei University Research Grant 2021</title>
       <link>https://shunk031.me/news/hosei-university-research-grant-2021/</link>
       <pubDate>Wed, 01 Dec 2021 00:00:00 +0900</pubDate>
@@ -2075,6 +2219,19 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
     </item>
     
     <item>
+      <title>Our Presentations at YANS 2021</title>
+      <link>https://shunk031.me/news/yans-2021-presentations/</link>
+      <pubDate>Thu, 02 Sep 2021 19:56:57 +0900</pubDate>
+      <guid>https://shunk031.me/news/yans-2021-presentations/</guid>
+      <description>&lt;p&gt;We will present the following papers at YANS 2021:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;北田 俊輔, 岩崎 祐貴, 富樫 陸, 山口 光太, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/kitada2021yans&#34;&gt;&amp;ldquo;効果の高いランディングページ作成支援に向けた広告テキストからの効果予測および推薦モデルの構築&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;中川 翼, 北田 俊輔, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/nakagawa2021yans&#34;&gt;&amp;ldquo;文章の書き手が持つ感情と読み手が受ける感情の差に関する初期調査および考察&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Attention Meets Perturbations: Robust and Interpretable Attention with Adversarial Training</title>
       <link>https://shunk031.me/publication/kitada2021attention/</link>
       <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
@@ -2091,6 +2248,18 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
       <description>&lt;p&gt;The following paper has been accepted to the &lt;a href=&#34;https://ieeeaccess.ieee.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IEEE Access&lt;/a&gt;.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Shunsuke Kitada and Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.me/publication/kitada2021attention&#34;&gt;&amp;ldquo;Attention Meets Perturbations: Robust and Interpretable Attention with Adversarial Training&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Our Presentations at JSAI 2021</title>
+      <link>https://shunk031.me/news/jsai-2021-presentations/</link>
+      <pubDate>Wed, 09 Jun 2021 16:47:22 +0900</pubDate>
+      <guid>https://shunk031.me/news/jsai-2021-presentations/</guid>
+      <description>&lt;p&gt;We will present the following paper at JSAI 2021:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;北田 俊輔, 彌冨 仁, 関 喜史. &lt;a href=&#34;https://shunk031.me/publication/kitada2021jsai&#34;&gt;&amp;ldquo;広告クリエイティブ評価のための深層確率埋め込みの学習&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -2267,6 +2436,19 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
     </item>
     
     <item>
+      <title>Our Presentations at ANLP 2021</title>
+      <link>https://shunk031.me/news/anlp-2021-presentations/</link>
+      <pubDate>Fri, 15 Jan 2021 17:28:40 +0900</pubDate>
+      <guid>https://shunk031.me/news/anlp-2021-presentations/</guid>
+      <description>&lt;p&gt;We will present the following papers at ANLP 2021:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;北田 俊輔, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/kitada2021nlp&#34;&gt;&amp;ldquo;半教師あり文書分類のための仮想敵対的学習による注意機構の頑健性および解釈性の向上&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;大畑 和也, 長澤 駿太, 北田 俊輔, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/ohata2021nlp&#34;&gt;&amp;ldquo;キャプション生成時低品質データ事前検知の試み&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Got Hosei University Research Grant 2020</title>
       <link>https://shunk031.me/news/hosei-university-research-grant-2020/</link>
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0900</pubDate>
@@ -2369,6 +2551,18 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
         scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
+</description>
+    </item>
+    
+    <item>
+      <title>Our Presentations at JSAI 2020</title>
+      <link>https://shunk031.me/news/jsai-2020-presentations/</link>
+      <pubDate>Wed, 17 Jun 2020 14:06:57 +0900</pubDate>
+      <guid>https://shunk031.me/news/jsai-2020-presentations/</guid>
+      <description>&lt;p&gt;We will present the following paper at JSAI 2020:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;北田 俊輔, 彌冨 仁, 関 喜史. &lt;a href=&#34;https://shunk031.me/publication/kitada2020jsai&#34;&gt;&amp;ldquo;生存時間分析を用いた広告クリエイティブの停止予測&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -2517,6 +2711,21 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
     </item>
     
     <item>
+      <title>Our Presentations at ANLP 2020</title>
+      <link>https://shunk031.me/news/anlp-2020-presentations/</link>
+      <pubDate>Tue, 17 Mar 2020 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/news/anlp-2020-presentations/</guid>
+      <description>&lt;p&gt;We will present the following papers at ANLP 2020:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;青木 匠, 北田 俊輔, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/aoki2020nlp&#34;&gt;&amp;ldquo;文字単位の解釈可能な潜在表現の data augmentation&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Mahmoud Daif, Shunsuke Kitada, Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.me/publication/daif2020nlp&#34;&gt;&amp;ldquo;Image-based Character Embedding for Arabic Document Classification&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;北田 俊輔, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/kitada2020nlp&#34;&gt;&amp;ldquo;解釈可能な敵対的摂動を用いた頑健な注意機構の学習&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;長澤 駿太, 北田 俊輔, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/nagasawa2020nlp&#34;&gt;&amp;ldquo;Script-aware embedding を用いた文字表現の獲得&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>データマイニング研究、グノシーがインターン院生主力に</title>
       <link>https://shunk031.me/post/gunosy-intern-kdd-2019/</link>
       <pubDate>Thu, 30 Jan 2020 05:00:00 +0900</pubDate>
@@ -2600,6 +2809,20 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0900</pubDate>
       <guid>https://shunk031.me/publication/daif2019yans/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Our Presentations at YANS 2019</title>
+      <link>https://shunk031.me/news/yans-2019-presentations/</link>
+      <pubDate>Mon, 26 Aug 2019 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/news/yans-2019-presentations/</guid>
+      <description>&lt;p&gt;We will present the following papers at YANS 2019:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mahmoud Daif, Shunsuke Kitada, Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.me/publication/daif2019yans&#34;&gt;&amp;ldquo;Image Based Character Embeddings for Arabic Document Classification&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;北田 俊輔, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/kitada2019yans&#34;&gt;&amp;ldquo;解釈性向上のための注意機構と損失勾配に対する関連損失の導入&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;長澤 駿太, 北田 俊輔, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/nagasawa2019yans&#34;&gt;&amp;ldquo;日本語の文字体系を考慮した文書分類モデルの提案&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -2815,6 +3038,18 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
     </item>
     
     <item>
+      <title>Our Presentations at IPSJ 2019</title>
+      <link>https://shunk031.me/news/ipsj-2019-presentations/</link>
+      <pubDate>Thu, 14 Mar 2019 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/news/ipsj-2019-presentations/</guid>
+      <description>&lt;p&gt;We will present the following paper at IPSJ 2019:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;北田 俊輔, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/kitada2019ipsj&#34;&gt;&amp;ldquo;頑健な皮膚腫瘍診断支援のための body hair augmentation&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Student Honorable Mention IPSJ 2019</title>
       <link>https://shunk031.me/news/student-honorable-mention-ipsj2019/</link>
       <pubDate>Thu, 14 Mar 2019 00:00:00 +0900</pubDate>
@@ -2829,6 +3064,18 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
 &lt;h2 id=&#34;see-also&#34;&gt;See also&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://shunk031.me/post/award-ipsj-2019/&#34;&gt;理工学研究科在学生の北田俊輔氏が「学生奨励賞」を受賞&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Our Presentations at ANLP 2019</title>
+      <link>https://shunk031.me/news/anlp-2019-presentations/</link>
+      <pubDate>Wed, 13 Mar 2019 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/news/anlp-2019-presentations/</guid>
+      <description>&lt;p&gt;We will present the following paper at ANLP 2019:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;北田 俊輔, 彌冨 仁, 関 喜史. &lt;a href=&#34;https://shunk031.me/publication/kitada2019nlp&#34;&gt;&amp;ldquo;広告クリエイティブ自動生成にむけたマルチタスク学習と Conditional Attention による CVR 予測&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -2863,6 +3110,18 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
     </item>
     
     <item>
+      <title>Our Presentations at ISIC 2018</title>
+      <link>https://shunk031.me/news/isic-2018-presentations/</link>
+      <pubDate>Fri, 07 Sep 2018 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/news/isic-2018-presentations/</guid>
+      <description>&lt;p&gt;We will present the following paper at ISIC 2018:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Shunsuke Kitada, Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.me/publication/kitada2018skin&#34;&gt;&amp;ldquo;Skin lesion classification with ensemble of squeeze-and-excitation networks and semi-supervised learning&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Skin lesion classification with ensemble of squeeze-and-excitation networks and semi-supervised learning</title>
       <link>https://shunk031.me/publication/kitada2018skin/</link>
       <pubDate>Fri, 07 Sep 2018 00:00:00 +0900</pubDate>
@@ -2884,6 +3143,18 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
       <description>&lt;p&gt;The following paper has been accepted to the &lt;a href=&#34;https://sites.google.com/aipr-workshop.org/aipr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AIPR2018 Workshop&lt;/a&gt;.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Shunsuke Kitada, Ryunosuke Kotani, and Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.me/publication/kitada2018end&#34;&gt;&amp;ldquo;End-to-End Text Classification via Image-based Embedding using Character-level Networks&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Our Presentations at YANS 2018</title>
+      <link>https://shunk031.me/news/yans-2018-presentations/</link>
+      <pubDate>Tue, 28 Aug 2018 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/news/yans-2018-presentations/</guid>
+      <description>&lt;p&gt;We will present the following paper at YANS 2018:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;北田 俊輔, 関 喜史, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/kitada2018yans&#34;&gt;&amp;ldquo;広告クリエイティブ自動生成に向けた単語レベルでの評価手法の検討&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -2950,6 +3221,30 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 
+</description>
+    </item>
+    
+    <item>
+      <title>Our Presentations at ANLP 2018</title>
+      <link>https://shunk031.me/news/anlp-2018-presentations/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/news/anlp-2018-presentations/</guid>
+      <description>&lt;p&gt;We will present the following paper at ANLP 2018:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;北田 俊輔, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/kitada2018nlp&#34;&gt;&amp;ldquo;CE-CLCNN: Character Encoder を用いた Character-level Convolutional Neural Networks によるテキスト分類&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Our Presentations at YANS 2017</title>
+      <link>https://shunk031.me/news/yans-2017-presentations/</link>
+      <pubDate>Tue, 05 Sep 2017 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/news/yans-2017-presentations/</guid>
+      <description>&lt;p&gt;We will present the following paper at YANS 2017:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;北田 俊輔, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/kitada2017yans&#34;&gt;&amp;ldquo;Character-level Convolutional Neural Networks における Wildcard Training の基礎検討&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

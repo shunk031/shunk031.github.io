@@ -44,5 +44,20 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Our Presentations at ANLP 2026</title>
+      <link>https://shunk031.me/news/anlp-2026-presentations/</link>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/news/anlp-2026-presentations/</guid>
+      <description>&lt;p&gt;We will present the following papers at ANLP 2026:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;川田 拓朗, 北田 俊輔, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/kawada2026nlp&#34;&gt;&amp;ldquo;SciGA-Vec: 学術論文におけるベクタ画像形式の Graphical Abstract データセット&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;菊谷 幹, 北田 俊輔, 原 聡. &lt;a href=&#34;https://shunk031.me/publication/kikuya2026nlp&#34;&gt;&amp;ldquo;MLP の重みを反映した Sparse Autoencoder の初期化手法の提案&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;北田 俊輔, 原 聡. &lt;a href=&#34;https://shunk031.me/publication/kitada2026nlp&#34;&gt;&amp;ldquo;ステアリングベクトルは日本語LLMを堅牢に制御できるか？&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;竹下 理斗, 川田 拓朗, 大橋 巧, 北田 俊輔, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/takeshita2026nlp&#34;&gt;&amp;ldquo;Compressed-a11y: 視覚的文脈の再構成と冗長性削減による GUI エージェント観測の効率化&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

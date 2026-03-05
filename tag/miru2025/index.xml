@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MIRU2025 | shunk031.me</title>
+    <link>https://shunk031.me/tag/miru2025/</link>
+      <atom:link href="https://shunk031.me/tag/miru2025/index.xml" rel="self" type="application/rss+xml" />
+    <description>MIRU2025</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Aug 2025 00:00:00 +0900</lastBuildDate>
+    <image>
+      <url>https://shunk031.me/media/sharing.png</url>
+      <title>MIRU2025</title>
+      <link>https://shunk031.me/tag/miru2025/</link>
+    </image>
+    
+    <item>
+      <title>Our Presentations at MIRU 2025</title>
+      <link>https://shunk031.me/news/miru-2025-presentations/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/news/miru-2025-presentations/</guid>
+      <description>&lt;p&gt;We will present the following papers at MIRU 2025:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;川田 拓朗, 北田 俊輔, 根本 颯汰, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/kawada2025miru&#34;&gt;&amp;ldquo;グラフィカルアブストラクト推薦と評価の統合ベンチマーク&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Jiahao Zhang, Ryota Yoshihashi, Shunsuke Kitada, Atsuki Osanai, Yuta Nakashima. &lt;a href=&#34;https://shunk031.me/publication/zhang2025miru&#34;&gt;&amp;ldquo;VASCAR: Content-Aware Layout Generation via Visual-Aware Self-Correction&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>VASCAR: Content-Aware Layout Generation via Visual-Aware Self-Correction</title>
+      <link>https://shunk031.me/publication/zhang2025miru/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/zhang2025miru/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>グラフィカルアブストラクト推薦と評価の統合ベンチマーク</title>
+      <link>https://shunk031.me/publication/kawada2025miru/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/kawada2025miru/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

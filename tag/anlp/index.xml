@@ -45,6 +45,33 @@
     </item>
     
     <item>
+      <title>Our Presentations at ANLP 2026</title>
+      <link>https://shunk031.me/news/anlp-2026-presentations/</link>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/news/anlp-2026-presentations/</guid>
+      <description>&lt;p&gt;We will present the following papers at ANLP 2026:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;川田 拓朗, 北田 俊輔, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/kawada2026nlp&#34;&gt;&amp;ldquo;SciGA-Vec: 学術論文におけるベクタ画像形式の Graphical Abstract データセット&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;菊谷 幹, 北田 俊輔, 原 聡. &lt;a href=&#34;https://shunk031.me/publication/kikuya2026nlp&#34;&gt;&amp;ldquo;MLP の重みを反映した Sparse Autoencoder の初期化手法の提案&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;北田 俊輔, 原 聡. &lt;a href=&#34;https://shunk031.me/publication/kitada2026nlp&#34;&gt;&amp;ldquo;ステアリングベクトルは日本語LLMを堅牢に制御できるか？&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;竹下 理斗, 川田 拓朗, 大橋 巧, 北田 俊輔, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/takeshita2026nlp&#34;&gt;&amp;ldquo;Compressed-a11y: 視覚的文脈の再構成と冗長性削減による GUI エージェント観測の効率化&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Our Presentations at ANLP 2025</title>
+      <link>https://shunk031.me/news/anlp-2025-presentations/</link>
+      <pubDate>Tue, 11 Mar 2025 08:30:00 +0900</pubDate>
+      <guid>https://shunk031.me/news/anlp-2025-presentations/</guid>
+      <description>&lt;p&gt;We will present the following paper at ANLP 2025:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;川田 拓朗, 根本 颯汰, 北田 俊輔, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/kawada2025nlp&#34;&gt;&amp;ldquo;SciGA: 学術論文における Graphical Abstract 設計支援のための統合データセット&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>SciGA: 学術論文における Graphical Abstract 設計支援のための統合データセット</title>
       <link>https://shunk031.me/publication/kawada2025nlp/</link>
       <pubDate>Tue, 11 Mar 2025 08:30:00 +0900</pubDate>
@@ -58,6 +85,31 @@
       <pubDate>Wed, 15 Mar 2023 09:40:00 +0900</pubDate>
       <guid>https://shunk031.me/publication/nemoto2023nlp/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Our Presentations at ANLP 2023</title>
+      <link>https://shunk031.me/news/anlp-2023-presentations/</link>
+      <pubDate>Wed, 15 Mar 2023 09:40:00 +0900</pubDate>
+      <guid>https://shunk031.me/news/anlp-2023-presentations/</guid>
+      <description>&lt;p&gt;We will present the following paper at ANLP 2023:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;根本 颯汰, 北田 俊輔, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/nemoto2023nlp&#34;&gt;&amp;ldquo;Majority or Minority: 固有表現抽出におけるデータの不均衡性に着目した損失関数の提案&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Our Presentations at ANLP 2022</title>
+      <link>https://shunk031.me/news/anlp-2022-presentations/</link>
+      <pubDate>Thu, 17 Mar 2022 10:40:00 +0900</pubDate>
+      <guid>https://shunk031.me/news/anlp-2022-presentations/</guid>
+      <description>&lt;p&gt;We will present the following papers at ANLP 2022:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;中川 翼, 北田 俊輔, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/nakagawa2022nlp&#34;&gt;&amp;ldquo;書き手と読み手の怒りの感情認識の差の原因となる表現の獲得&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;津嶋 祐介, 青木 匠, 北田 俊輔, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/tsushima2022nlp&#34;&gt;&amp;ldquo;ViT-CLT: パッチ分割した文字画像から偏旁冠脚を考慮した文書分類&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -82,6 +134,19 @@
       <pubDate>Fri, 15 Jan 2021 17:29:07 +0900</pubDate>
       <guid>https://shunk031.me/publication/ohata2021nlp/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Our Presentations at ANLP 2021</title>
+      <link>https://shunk031.me/news/anlp-2021-presentations/</link>
+      <pubDate>Fri, 15 Jan 2021 17:28:40 +0900</pubDate>
+      <guid>https://shunk031.me/news/anlp-2021-presentations/</guid>
+      <description>&lt;p&gt;We will present the following papers at ANLP 2021:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;北田 俊輔, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/kitada2021nlp&#34;&gt;&amp;ldquo;半教師あり文書分類のための仮想敵対的学習による注意機構の頑健性および解釈性の向上&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;大畑 和也, 長澤 駿太, 北田 俊輔, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/ohata2021nlp&#34;&gt;&amp;ldquo;キャプション生成時低品質データ事前検知の試み&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -117,11 +182,38 @@
     </item>
     
     <item>
+      <title>Our Presentations at ANLP 2020</title>
+      <link>https://shunk031.me/news/anlp-2020-presentations/</link>
+      <pubDate>Tue, 17 Mar 2020 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/news/anlp-2020-presentations/</guid>
+      <description>&lt;p&gt;We will present the following papers at ANLP 2020:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;青木 匠, 北田 俊輔, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/aoki2020nlp&#34;&gt;&amp;ldquo;文字単位の解釈可能な潜在表現の data augmentation&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Mahmoud Daif, Shunsuke Kitada, Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.me/publication/daif2020nlp&#34;&gt;&amp;ldquo;Image-based Character Embedding for Arabic Document Classification&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;北田 俊輔, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/kitada2020nlp&#34;&gt;&amp;ldquo;解釈可能な敵対的摂動を用いた頑健な注意機構の学習&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;長澤 駿太, 北田 俊輔, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/nagasawa2020nlp&#34;&gt;&amp;ldquo;Script-aware embedding を用いた文字表現の獲得&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Script-aware embedding を用いた文字表現の獲得</title>
       <link>https://shunk031.me/publication/nagasawa2020nlp/</link>
       <pubDate>Tue, 17 Mar 2020 00:00:00 +0900</pubDate>
       <guid>https://shunk031.me/publication/nagasawa2020nlp/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Our Presentations at ANLP 2019</title>
+      <link>https://shunk031.me/news/anlp-2019-presentations/</link>
+      <pubDate>Wed, 13 Mar 2019 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/news/anlp-2019-presentations/</guid>
+      <description>&lt;p&gt;We will present the following paper at ANLP 2019:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;北田 俊輔, 彌冨 仁, 関 喜史. &lt;a href=&#34;https://shunk031.me/publication/kitada2019nlp&#34;&gt;&amp;ldquo;広告クリエイティブ自動生成にむけたマルチタスク学習と Conditional Attention による CVR 予測&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -138,6 +230,18 @@
       <pubDate>Thu, 15 Mar 2018 00:00:00 +0900</pubDate>
       <guid>https://shunk031.me/publication/kitada2018nlp/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Our Presentations at ANLP 2018</title>
+      <link>https://shunk031.me/news/anlp-2018-presentations/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/news/anlp-2018-presentations/</guid>
+      <description>&lt;p&gt;We will present the following paper at ANLP 2018:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;北田 俊輔, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/kitada2018nlp&#34;&gt;&amp;ldquo;CE-CLCNN: Character Encoder を用いた Character-level Convolutional Neural Networks によるテキスト分類&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
   </channel>

@@ -13,6 +13,21 @@
     </image>
     
     <item>
+      <title>Our Presentations at YANS 2024</title>
+      <link>https://shunk031.me/news/yans-2024-presentations/</link>
+      <pubDate>Thu, 05 Sep 2024 17:50:00 +0900</pubDate>
+      <guid>https://shunk031.me/news/yans-2024-presentations/</guid>
+      <description>&lt;p&gt;We will present the following papers at YANS 2024:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;川田 拓朗, 根本 颯汰, 北田 俊輔, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/kawada2024yans&#34;&gt;&amp;ldquo;学術論文における Graphical Abstract 自動生成の初期検討&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;水口 徳人, 北田 俊輔, 守田 竜梧, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/mizuguchi2024yans&#34;&gt;&amp;ldquo;text-to-image 拡散モデルにおける誘導 attention map を用いた画像生成手法の提案&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;永井 大地, 根本 颯汰, 北田 俊輔, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/nagai2024yans&#34;&gt;&amp;ldquo;潜在拡散モデルにおけるプロンプトを用いた配色制御の試み&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;小川 剛毅, 根本 颯汰, 北田 俊輔, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/ogawa2024yans&#34;&gt;&amp;ldquo;大規模言語モデルを用いたオノマトペ付与による日本語音声データセットの拡張&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>text-to-image 拡散モデルにおける誘導 attention map を用いた画像生成手法の提案</title>
       <link>https://shunk031.me/publication/mizuguchi2024yans/</link>
       <pubDate>Thu, 05 Sep 2024 17:50:00 +0900</pubDate>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ANLP2021 | shunk031.me</title>
+    <link>https://shunk031.me/tag/anlp2021/</link>
+      <atom:link href="https://shunk031.me/tag/anlp2021/index.xml" rel="self" type="application/rss+xml" />
+    <description>ANLP2021</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 15 Jan 2021 17:29:07 +0900</lastBuildDate>
+    <image>
+      <url>https://shunk031.me/media/sharing.png</url>
+      <title>ANLP2021</title>
+      <link>https://shunk031.me/tag/anlp2021/</link>
+    </image>
+    
+    <item>
+      <title>キャプション生成時低品質データ事前検知の試み</title>
+      <link>https://shunk031.me/publication/ohata2021nlp/</link>
+      <pubDate>Fri, 15 Jan 2021 17:29:07 +0900</pubDate>
+      <guid>https://shunk031.me/publication/ohata2021nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Our Presentations at ANLP 2021</title>
+      <link>https://shunk031.me/news/anlp-2021-presentations/</link>
+      <pubDate>Fri, 15 Jan 2021 17:28:40 +0900</pubDate>
+      <guid>https://shunk031.me/news/anlp-2021-presentations/</guid>
+      <description>&lt;p&gt;We will present the following papers at ANLP 2021:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;北田 俊輔, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/kitada2021nlp&#34;&gt;&amp;ldquo;半教師あり文書分類のための仮想敵対的学習による注意機構の頑健性および解釈性の向上&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;大畑 和也, 長澤 駿太, 北田 俊輔, 彌冨 仁. &lt;a href=&#34;https://shunk031.me/publication/ohata2021nlp&#34;&gt;&amp;ldquo;キャプション生成時低品質データ事前検知の試み&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>半教師あり文書分類のための仮想敵対的学習による注意機構の頑健性および解釈性の向上</title>
+      <link>https://shunk031.me/publication/kitada2021nlp/</link>
+      <pubDate>Fri, 15 Jan 2021 17:28:40 +0900</pubDate>
+      <guid>https://shunk031.me/publication/kitada2021nlp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
