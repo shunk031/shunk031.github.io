@@ -56,6 +56,7 @@ jobs:
         uses: lycheeverse/lychee-action@v2
         with:
           fail: true
+          lycheeVersion: v0.21.0
           args: "${{ vars.ARTIFACT_PATH }} --config .lychee/config.toml --exclude-file .lychee/exclude-temporary.txt --exclude-file .lychee/exclude-permanent.txt"
 
   deploy:
