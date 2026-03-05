@@ -89,6 +89,7 @@ jobs:
         uses: lycheeverse/lychee-action@v2
         with:
           fail: false
+          lycheeVersion: v0.21.0
           format: json
           output: lychee-excludes.json
           args: "--config .lychee/config.toml lychee-input.txt"
