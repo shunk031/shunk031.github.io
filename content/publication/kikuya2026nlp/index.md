@@ -48,7 +48,7 @@ featured: false
 url_pdf: https://www.anlp.jp/proceedings/annual_meeting/2026/pdf_dir/B5-10.pdf
 url_code:
 url_dataset:
-url_poster:
+url_poster: publication/kikuya2026nlp/poster.pdf
 url_project:
 url_slides:
 url_source:
