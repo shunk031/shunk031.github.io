@@ -13,18 +13,25 @@ publishDate: 2025-11-04T17:50:00+09:00
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["article"]
+publication_types: ["paper-conference"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
-publication_short: ""
+publication: "Findings Workshop of the Computer Vision and Pattern Recognition Conference. 2026."
+publication_short: "Findings of CVPR 2026"
 
 abstract: "Despite the remarkable success of text-to-image diffusion models, their output of a single, flattened image remains a critical bottleneck for professional applications requiring layer-wise control. Existing solutions either rely on fine-tuning with large, inaccessible datasets or are training-free yet limited to generating isolated foreground elements, failing to produce a complete and coherent scene. To address this, we introduce the Training-free Noise Transplantation and Cultivation Diffusion Model (TAUE), a novel framework for zero-shot, layer-wise image generation. Our core technique, Noise Transplantation and Cultivation (NTC), extracts intermediate latent representations from both foreground and composite generation processes, transplanting them into the initial noise for subsequent layers. This ensures semantic and structural coherence across foreground, background, and composite layers, enabling consistent, multi-layered outputs without requiring fine-tuning or auxiliary datasets. Extensive experiments show that our training-free method achieves performance comparable to fine-tuned methods, enhancing layer-wise consistency while maintaining high image quality and fidelity. TAUE not only eliminates costly training and dataset requirements but also unlocks novel downstream applications, such as complex compositional editing, paving the way for more accessible and controllable generative workflows."
 
 # Summary. An optional shortened abstract.
-summary: ""
+summary: "Findings of CVPR2026 (**Acceptance rate = 36.09%**)"
 
-tags: ["Preprint", "Non-Refereed", "Layer-wise Image Generation", "Diffusion Model", "International Publication"]
+tags:
+- "International Conference"
+- "Refereed"
+- "Layer-wise Image Generation"
+- "Diffusion Model"
+- "International Publication"
+- CVPR
+- CVPR2026
 categories: []
 featured: false
 
