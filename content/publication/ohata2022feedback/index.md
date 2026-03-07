@@ -22,7 +22,7 @@ publication_short: "HONET2022"
 abstract: "We propose a simple yet effective image captioning framework that can determine the quality of an image and notify the user of the reasons for any flaws in the image. Our framework first determines the quality of images and then generates captions using only those images that are determined to be of high quality. The user is notified by the flaws feature to retake if image quality is low, and this cycle is repeated until the input image is deemed to be of high quality. As a component of the framework, we trained and evaluated a low-quality image detection model that simultaneously learns difficulty in recognizing images and individual flaws, and we demonstrated that our proposal can explain the reasons for flaws with a sufficient score. We also evaluated a dataset with low-quality images removed by our framework and found improved values for all four common metrics (e.g., BLEU-4, METEOR, ROUGE-L, CIDEr), confirming an improvement in general-purpose image captioning capability. Our framework would assist the visually impaired, who have difficulty judging image quality."
 
 # Summary. An optional shortened abstract.
-summary: "Proc. IEEE 19th International Conference on Smart Communities: Improving Quality of Life Using ICT, IoT and AI (HONET)."
+summary: "Proc. of HONET 2022"
 
 tags: ["International Conference", "Refereed", "Natural Language Processing", "Image Captioning", "International Publication", "HONET", "HONET2022"]
 categories: ["Natural Language Processing", "Image Captioning"]

@@ -32,7 +32,7 @@ AraDIC shows performance improvement over classical and deep learning baselines 
 "
 
 # Summary. An optional shortened abstract.
-summary: "Proc. of the 58th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop (ACL SRW 2020)"
+summary: "Proc. ACL SRW 2020"
 
 tags: ["International Publication", "Refereed", "Natural Language Processing", "ACL", "ACL2020"]
 categories: ["Natural Language Processing", "NLP for Arabic", "Image-based Character Embedding"]
