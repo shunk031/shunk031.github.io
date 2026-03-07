@@ -1,6 +1,8 @@
 # Created by https://www.toptal.com/developers/gitignore/api/macos,hugo
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,hugo
 
+docs/
+
 ### Hugo ###
 # Generated files by hugo
 /public/
