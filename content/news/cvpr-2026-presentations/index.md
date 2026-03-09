@@ -7,8 +7,8 @@ summary: ""
 authors: ["Shunsuke Kitada"]
 tags: ["News", "CVPR", "CVPR2026"]
 categories: ["News"]
-date: 2025-01-04T00:00:00+00:00
-lastmod: 2025-01-04T00:00:00+00:00
+date: 2026-02-21T00:00:00+00:00
+lastmod: 2026-02-21T00:00:00+00:00
 featured: false
 draft: false
 
