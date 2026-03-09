@@ -60,6 +60,19 @@
     </item>
     
     <item>
+      <title>Our Presentations at Findings of CVPR 2026</title>
+      <link>https://shunk031.me/news/cvpr-2026-presentations/</link>
+      <pubDate>Sat, 21 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://shunk031.me/news/cvpr-2026-presentations/</guid>
+      <description>&lt;p&gt;We will present the following papers at the CVPR 2026 Findings track:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Takuro Kawada, Shunsuke Kitada, Sota Nemoto, Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.me/publication/kawada2025sciga&#34;&gt;&amp;ldquo;SciGA: A Comprehensive Dataset for Designing Graphical Abstracts in Academic Papers&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Daichi Nagai, Ryugo Morita, Shunsuke Kitada, Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.me/publication/nagai2025taue&#34;&gt;&amp;ldquo;TAUE: Training-free Noise Transplant and Cultivation Diffusion Model&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>A Coding-Agent-Friendly Environment Is Friendly to Humans Too: ghq × gwq × fzf</title>
       <link>https://shunk031.me/post/ghq-gwq-fzf-worktree/</link>
       <pubDate>Fri, 16 Jan 2026 23:45:26 +0900</pubDate>
@@ -1851,19 +1864,6 @@ Looking forward to making an impact in both industry and academia!&lt;/p&gt;
       <pubDate>Sun, 09 Mar 2025 00:00:00 +0900</pubDate>
       <guid>https://shunk031.me/publication/nagai2025ipsj/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Our Presentations at Findings of CVPR 2026</title>
-      <link>https://shunk031.me/news/cvpr-2026-presentations/</link>
-      <pubDate>Sat, 04 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://shunk031.me/news/cvpr-2026-presentations/</guid>
-      <description>&lt;p&gt;We will present the following papers at the CVPR 2026 Findings track:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Takuro Kawada, Shunsuke Kitada, Sota Nemoto, Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.me/publication/kawada2025sciga&#34;&gt;&amp;ldquo;SciGA: A Comprehensive Dataset for Designing Graphical Abstracts in Academic Papers&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Daichi Nagai, Ryugo Morita, Shunsuke Kitada, Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.me/publication/nagai2025taue&#34;&gt;&amp;ldquo;TAUE: Training-free Noise Transplant and Cultivation Diffusion Model&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
     </item>
     
     <item>

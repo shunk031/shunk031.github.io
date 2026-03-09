@@ -5,7 +5,7 @@
     <link>https://shunk031.me/tag/cvpr/</link>
       <atom:link href="https://shunk031.me/tag/cvpr/index.xml" rel="self" type="application/rss+xml" />
     <description>CVPR</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 04 Nov 2025 17:50:00 +0900</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 21 Feb 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://shunk031.me/media/sharing.png</url>
       <title>CVPR</title>
@@ -13,17 +13,9 @@
     </image>
     
     <item>
-      <title>TAUE: Training-free Noise Transplant and Cultivation Diffusion Model</title>
-      <link>https://shunk031.me/publication/nagai2025taue/</link>
-      <pubDate>Tue, 04 Nov 2025 17:50:00 +0900</pubDate>
-      <guid>https://shunk031.me/publication/nagai2025taue/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Our Presentations at Findings of CVPR 2026</title>
       <link>https://shunk031.me/news/cvpr-2026-presentations/</link>
-      <pubDate>Sat, 04 Jan 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 21 Feb 2026 00:00:00 +0000</pubDate>
       <guid>https://shunk031.me/news/cvpr-2026-presentations/</guid>
       <description>&lt;p&gt;We will present the following papers at the CVPR 2026 Findings track:&lt;/p&gt;
 &lt;ul&gt;
@@ -31,6 +23,14 @@
 &lt;li&gt;Daichi Nagai, Ryugo Morita, Shunsuke Kitada, Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.me/publication/nagai2025taue&#34;&gt;&amp;ldquo;TAUE: Training-free Noise Transplant and Cultivation Diffusion Model&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>TAUE: Training-free Noise Transplant and Cultivation Diffusion Model</title>
+      <link>https://shunk031.me/publication/nagai2025taue/</link>
+      <pubDate>Tue, 04 Nov 2025 17:50:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/nagai2025taue/</guid>
+      <description></description>
     </item>
     
     <item>
