@@ -31,7 +31,8 @@ permalinks:
   tags: "/tag/:slug/"
   categories: "/category/:slug/"
   publication_types: "/publication-type/:slug/"
-disableAliases: true
+# Keep Hugo alias pages enabled because GitHub Pages does not apply Netlify _redirects.
+disableAliases: false
 outputs:
   home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
   section: [HTML, RSS]
