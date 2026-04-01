@@ -1604,22 +1604,28 @@ In this article we compactly introduce how Python type hints came about, their b
     
     <item>
       <title>画像生成 AI 入門：Python による拡散モデルの理論と実践</title>
-      <link>https://shunk031.me/post/coloso-introduction-to-image-generation-ai/</link>
+      <link>https://shunk031.me/post/fastcampus-introduction-to-image-generation-ai/</link>
       <pubDate>Sun, 25 Jun 2023 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.me/post/coloso-introduction-to-image-generation-ai/</guid>
+      <guid>https://shunk031.me/post/fastcampus-introduction-to-image-generation-ai/</guid>
       <description>
 
     
     &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/-IPEUOcPTas?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/ySlAZO7uKH8?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
       &gt;&lt;/iframe&gt;
     &lt;/div&gt;
 
 &lt;h2 id=&#34;講義について&#34;&gt;講義について&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;注記
+&lt;ul&gt;
+&lt;li&gt;本講座は FastCampus 側で公開されています。&lt;/li&gt;
+&lt;li&gt;旧 Coloso 側の講義 URL は現在利用できないため、FastCampus の講義ページをご参照ください。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;講義ページ
 &lt;ul&gt;
-&lt;li&gt;リサーチサイエンティスト 北田俊輔 | Coloso. &lt;a href=&#34;https://coloso.jp/products/researchscientist-kitada-jp&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://coloso.jp/products/researchscientist-kitada-jp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;リサーチサイエンティスト 北田俊輔 | Fast campus｜キャリアにつながるAI学習 &lt;a href=&#34;https://fastcampus.jp/products/researchscientist-kitada-jp&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://fastcampus.jp/products/researchscientist-kitada-jp&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;講義資料ページ
