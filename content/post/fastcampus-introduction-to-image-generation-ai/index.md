@@ -2,7 +2,7 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "画像生成 AI 入門：Python による拡散モデルの理論と実践"
-subtitle: "リサーチサイエンティスト 北田俊輔 - Coloso"
+subtitle: "リサーチサイエンティスト 北田俊輔 - FastCampus（旧 Coloso 掲載）"
 summary: "https://fastcampus.jp/products/researchscientist-kitada-jp"
 authors: ["Shunsuke Kitada"]
 tags: ["Side job"]
@@ -35,6 +35,9 @@ aliases:
 
 ## 講義について
 
+- 注記
+  - 本講座は FastCampus 側で公開されています。
+  - 旧 Coloso 側の講義 URL は現在利用できないため、FastCampus の講義ページをご参照ください。
 - 講義ページ
   - リサーチサイエンティスト 北田俊輔 | Fast campus｜キャリアにつながるAI学習 https://fastcampus.jp/products/researchscientist-kitada-jp 
 - 講義資料ページ
