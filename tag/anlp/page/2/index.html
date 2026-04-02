@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: April 1, 2026 --><html lang="en-us" >
+<!-- Last Published: April 2, 2026 --><html lang="en-us" >
 
 
 <head>
@@ -411,6 +411,379 @@
 
 
 
+
+  
+    
+      
+      <style>
+  .scroll-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    width: 100%;
+    height: 3px;
+    background: transparent;
+    pointer-events: none;
+  }
+
+  .scroll-progress__bar {
+    width: 100%;
+    height: 100%;
+    transform-origin: 0 50%;
+    transform: scaleX(0);
+    background: linear-gradient(90deg, #0f766e 0%, #06b6d4 50%, #60a5fa 100%);
+    box-shadow: 0 0 12px rgba(6, 182, 212, 0.38);
+  }
+
+  .home-section {
+    position: relative;
+  }
+
+  .js-reveal-item {
+    opacity: 0;
+    transform: translateY(18px);
+    transition: opacity 520ms ease, transform 520ms ease;
+    will-change: opacity, transform;
+  }
+
+  .js-reveal-item.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .js-hero-item {
+    opacity: 0;
+    transform: translateY(14px);
+    transition: opacity 560ms ease, transform 560ms ease;
+    will-change: opacity, transform;
+  }
+
+  .js-hero-item.is-ready {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .js-hero-layer {
+    opacity: 0;
+    transform: translateY(26px) scale(0.97);
+    transition: opacity 720ms ease, transform 720ms cubic-bezier(0.2, 0.8, 0.2, 1);
+    will-change: opacity, transform;
+  }
+
+  .js-hero-layer.is-ready {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+
+  .js-hero-heading {
+    opacity: 0;
+    transform: translateY(20px);
+    letter-spacing: 0.04em;
+    transition: opacity 640ms ease, transform 640ms cubic-bezier(0.2, 0.8, 0.2, 1), letter-spacing 640ms ease;
+    will-change: opacity, transform;
+  }
+
+  .js-hero-heading.is-ready {
+    opacity: 1;
+    transform: translateY(0);
+    letter-spacing: 0;
+  }
+
+  .js-hero-body {
+    opacity: 0;
+    transform: translateY(16px);
+    filter: blur(3px);
+    transition: opacity 620ms ease, transform 620ms cubic-bezier(0.2, 0.8, 0.2, 1), filter 620ms ease;
+    will-change: opacity, transform, filter;
+  }
+
+  .js-hero-body.is-ready {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+
+  .js-magnetic-btn {
+    transition: transform 110ms ease, box-shadow 110ms ease;
+    will-change: transform;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .scroll-progress__bar,
+    .js-reveal-item,
+    .js-hero-item,
+    .js-hero-layer,
+    .js-hero-heading,
+    .js-hero-body,
+    .js-magnetic-btn {
+      transition: none !important;
+      animation: none !important;
+    }
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    initScrollProgress();
+    initHeroEntrance();
+    initScrollReveal(reducedMotion);
+    initMagneticButtons(reducedMotion);
+
+    function getAboutSection() {
+      return document.getElementById('about') || document.querySelector('.wg-about-biography');
+    }
+
+    function initScrollProgress() {
+      if (document.querySelector('.scroll-progress')) return;
+
+      var progress = document.createElement('div');
+      progress.className = 'scroll-progress';
+
+      var bar = document.createElement('div');
+      bar.className = 'scroll-progress__bar';
+      progress.appendChild(bar);
+      document.body.appendChild(progress);
+
+      var ticking = false;
+
+      function update() {
+        var doc = document.documentElement;
+        var max = doc.scrollHeight - window.innerHeight;
+        var ratio = max > 0 ? window.scrollY / max : 0;
+        var clamped = Math.min(Math.max(ratio, 0), 1);
+        bar.style.transform = 'scaleX(' + clamped + ')';
+        ticking = false;
+      }
+
+      function requestTick() {
+        if (ticking) return;
+        ticking = true;
+        window.requestAnimationFrame(update);
+      }
+
+      update();
+      window.addEventListener('scroll', requestTick, { passive: true });
+      window.addEventListener('resize', requestTick);
+    }
+
+    function initHeroEntrance() {
+      var about = getAboutSection();
+      if (!about) return;
+      if (reducedMotion) return;
+      if (typeof Element === 'undefined' || !Element.prototype.animate) return;
+
+      var profile = about.querySelector('#profile');
+      var avatar = about.querySelector('#profile .avatar');
+      var title = about.querySelector('#profile .portrait-title');
+      var heading = about.querySelector('h1');
+      var article = about.querySelector('.article-style');
+      var interestsHeading = about.querySelector('.col-md-5 .section-subheading');
+      var educationHeading = about.querySelector('.col-md-7 .section-subheading');
+      var interests = about.querySelector('.ul-interests');
+      var education = about.querySelector('.ul-edu');
+      var iconItems = about.querySelectorAll('#profile .network-icon li');
+      var interestItems = about.querySelectorAll('.ul-interests li');
+      var educationItems = about.querySelectorAll('.ul-edu li');
+
+      function run(el, keyframes, options) {
+        if (!el) return;
+        el.animate(keyframes, options);
+      }
+
+      run(profile, [
+        { opacity: 0, transform: 'translateY(26px) scale(0.97)' },
+        { opacity: 1, transform: 'translateY(0) scale(1)' }
+      ], {
+        duration: 760,
+        delay: 120,
+        easing: 'cubic-bezier(0.2, 0.8, 0.2, 1)',
+        fill: 'both'
+      });
+
+      run(avatar, [
+        { opacity: 0, transform: 'translateY(22px) scale(0.96)' },
+        { opacity: 1, transform: 'translateY(0) scale(1)' }
+      ], {
+        duration: 720,
+        delay: 210,
+        easing: 'cubic-bezier(0.2, 0.8, 0.2, 1)',
+        fill: 'both'
+      });
+
+      run(title, [
+        { opacity: 0, transform: 'translateY(20px)' },
+        { opacity: 1, transform: 'translateY(0)' }
+      ], {
+        duration: 680,
+        delay: 300,
+        easing: 'cubic-bezier(0.2, 0.8, 0.2, 1)',
+        fill: 'both'
+      });
+
+      run(heading, [
+        { opacity: 0, transform: 'translateY(20px)', letterSpacing: '0.04em' },
+        { opacity: 1, transform: 'translateY(0)', letterSpacing: '0' }
+      ], {
+        duration: 700,
+        delay: 390,
+        easing: 'cubic-bezier(0.2, 0.8, 0.2, 1)',
+        fill: 'both'
+      });
+
+      [article, interests, education].forEach(function (el, idx) {
+        run(el, [
+          { opacity: 0, transform: 'translateY(16px)' },
+          { opacity: 1, transform: 'translateY(0)' }
+        ], {
+          duration: 700,
+          delay: 500 + idx * 110,
+          easing: 'cubic-bezier(0.2, 0.8, 0.2, 1)',
+          fill: 'both'
+        });
+      });
+
+      [interestsHeading, educationHeading].forEach(function (el, idx) {
+        run(el, [
+          { opacity: 0, transform: 'translateY(14px)' },
+          { opacity: 1, transform: 'translateY(0)' }
+        ], {
+          duration: 580,
+          delay: 570 + idx * 90,
+          easing: 'cubic-bezier(0.2, 0.8, 0.2, 1)',
+          fill: 'both'
+        });
+      });
+
+      Array.prototype.forEach.call(iconItems, function (el, idx) {
+        run(el, [
+          { opacity: 0, transform: 'translateY(14px)' },
+          { opacity: 1, transform: 'translateY(0)' }
+        ], {
+          duration: 500,
+          delay: 350 + idx * 55,
+          easing: 'cubic-bezier(0.2, 0.8, 0.2, 1)',
+          fill: 'both'
+        });
+      });
+
+      Array.prototype.forEach.call(interestItems, function (el, idx) {
+        run(el, [
+          { opacity: 0, transform: 'translateY(14px)' },
+          { opacity: 1, transform: 'translateY(0)' }
+        ], {
+          duration: 520,
+          delay: 650 + idx * 70,
+          easing: 'cubic-bezier(0.2, 0.8, 0.2, 1)',
+          fill: 'both'
+        });
+      });
+
+      Array.prototype.forEach.call(educationItems, function (el, idx) {
+        run(el, [
+          { opacity: 0, transform: 'translateY(14px)' },
+          { opacity: 1, transform: 'translateY(0)' }
+        ], {
+          duration: 520,
+          delay: 730 + idx * 80,
+          easing: 'cubic-bezier(0.2, 0.8, 0.2, 1)',
+          fill: 'both'
+        });
+      });
+    }
+
+    function initScrollReveal(isReduced) {
+      if (isReduced || !('IntersectionObserver' in window)) return;
+
+      var sections = document.querySelectorAll('.page-body .home-section, main .home-section');
+      if (!sections.length) return;
+
+      var itemObserver = new IntersectionObserver(function (entries, observer) {
+        entries.forEach(function (entry) {
+          if (!entry.isIntersecting) return;
+          entry.target.classList.add('is-visible');
+          entry.target.style.transitionDelay = '0ms';
+          observer.unobserve(entry.target);
+        });
+      }, { threshold: 0.1, rootMargin: '0px 0px -6% 0px' });
+
+      var itemSelector = [
+        '.card',
+        '.card-simple.view-card',
+        '.media.stream-item',
+        '.project-card',
+        '.pub-list-item.view-citation',
+        '#recent-news li',
+        '#awards-and-grants li',
+        '#profile',
+        '.ul-edu li',
+        '.ul-interests li',
+        '.experience .card',
+        '.section-heading',
+        '.tag-cloud a',
+        '.taxonomy-terms-cloud a'
+      ].join(',');
+
+      sections.forEach(function (section) {
+        if (section.id === 'about') return;
+
+        var items = section.querySelectorAll(itemSelector);
+        Array.prototype.forEach.call(items, function (item, idx) {
+          if (item.classList.contains('js-hero-item')) return;
+          if (item.classList.contains('js-hero-layer')) return;
+          if (item.classList.contains('js-hero-body')) return;
+          if (item.classList.contains('js-hero-heading')) return;
+
+          item.classList.add('js-reveal-item');
+          item.style.transitionDelay = Math.min(idx * 65, 420) + 'ms';
+          itemObserver.observe(item);
+        });
+      });
+    }
+
+    function initMagneticButtons(isReduced) {
+      if (isReduced) return;
+
+      var buttons = document.querySelectorAll(
+        '.btn.btn-primary, .btn.btn-outline-primary, a.nav-link[href*="cv/releases/latest/download/cv.pdf"]'
+      );
+
+      Array.prototype.forEach.call(buttons, function (button) {
+        if (button.classList.contains('js-magnetic-btn')) return;
+        button.classList.add('js-magnetic-btn');
+
+        button.addEventListener('mouseenter', function () {
+          button.style.transitionDuration = '0ms';
+        });
+
+        button.addEventListener('mousemove', function (event) {
+          var rect = button.getBoundingClientRect();
+          var relX = (event.clientX - rect.left) / rect.width - 0.5;
+          var relY = (event.clientY - rect.top) / rect.height - 0.5;
+          var moveX = relX * 6;
+          var moveY = relY * 6;
+          button.style.transform = 'translate(' + moveX.toFixed(2) + 'px, ' + moveY.toFixed(2) + 'px)';
+        });
+
+        button.addEventListener('mouseleave', function () {
+          button.style.transitionDuration = '';
+          button.style.transform = '';
+        });
+
+        button.addEventListener('blur', function () {
+          button.style.transitionDuration = '';
+          button.style.transform = '';
+        });
+      });
+    }
+  });
+</script>
+
+      
+    
+  
 
 
 
@@ -1240,7 +1613,7 @@
           Last updated on
       
     
-    Apr 1, 2026
+    Apr 2, 2026
   </span>
   
 
@@ -1762,7 +2135,7 @@
           Last updated on
       
     
-    Apr 1, 2026
+    Apr 2, 2026
   </span>
   
 
