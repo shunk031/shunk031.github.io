@@ -197,7 +197,7 @@ def build_pattern_map(patterns: list[PatternEntry], urls: set[str]) -> dict[int,
 
 
 def is_success(statuses: set[int]) -> bool:
-    return any(200 <= status <= 299 or status == 302 for status in statuses)
+    return bool(statuses) and all(200 <= status <= 299 or status == 302 for status in statuses)
 
 
 def write_lines(path: pathlib.Path, lines: list[str]) -> None:
@@ -262,9 +262,8 @@ def main() -> int:
         all_revived = True
         for url in matched:
             statuses = status_map.get(url)
-            if statuses is None:
-                continue
-            if not is_success(statuses):
+            # Require complete successful evidence for every matched URL.
+            if not is_success(statuses or set()):
                 all_revived = False
                 break
         if all_revived:
