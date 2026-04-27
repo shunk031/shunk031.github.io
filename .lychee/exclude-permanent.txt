@@ -4,3 +4,6 @@
 # Exclude the target site itself because an error will occur
 # if there is content that has not yet been deployed.
 shunk031.me
+
+# Google Scholar often returns 403 to automated CI checks even when the page is live.
+scholar.google.com/citations

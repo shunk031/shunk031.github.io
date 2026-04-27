@@ -12,6 +12,7 @@ drive.google.com/file/d/0B3O7bgd3mym6N214SWw3eVJCS3M/view
 t.co
 openai.com/index/chatgpt
 www.ieice.org/~nlc
+www.nikkan.co.jp/articles
 hatenablog-parts.com/embed
 bit.ly/KitadaXColosoJP1
 confit.atlas.jp
