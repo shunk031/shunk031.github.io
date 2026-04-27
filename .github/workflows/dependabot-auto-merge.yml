@@ -22,7 +22,9 @@ jobs:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
 
       - name: Enable auto-merge for Dependabot PRs
-        # Auto-merge for all non-major version updates
+        # Auto-merge only non-major Dependabot updates.
+        # Major updates are intentionally left for manual review because they may
+        # introduce breaking changes even when the current checks are green.
         if: ${{ startsWith(steps.metadata.outputs.update-type, 'version-update:') && steps.metadata.outputs.update-type != 'version-update:semver-major' }}
         env:
           PR_URL: ${{ github.event.pull_request.html_url }}
