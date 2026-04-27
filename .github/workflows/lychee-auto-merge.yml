@@ -1,21 +1,58 @@
 name: Lychee Prune Auto-Merge
 
 on:
-  pull_request_target:
-    types: [opened, reopened, synchronize, ready_for_review]
+  workflow_run:
+    workflows:
+      - Page Build
+    types:
+      - completed
 
 permissions:
   pull-requests: write
   contents: write
 
 jobs:
-  enable-auto-merge:
-    if: github.event.pull_request.base.ref == 'main' && github.event.pull_request.head.ref == 'chore/prune-lychee-excludes' && github.event.pull_request.user.login == 'shunk031-me-bot[bot]'
+  merge-lychee-prune-pr:
+    if: github.event.workflow_run.event == 'pull_request' && github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.head_branch == 'chore/prune-lychee-excludes'
     runs-on: ubuntu-latest
 
     steps:
-      - name: Enable auto-merge for lychee prune PR
+      # Wait for the full Page Build workflow to finish before merging.
+      # `gh pr merge --auto` can merge too early when downstream checks have not started yet.
+      - name: Merge lychee prune PR after successful checks
         env:
-          PR_URL: ${{ github.event.pull_request.html_url }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh pr merge --auto --squash "$PR_URL"
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.workflow_run.pull_requests[0].number }}
+          HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+        run: |
+          if [ -z "${PR_NUMBER}" ]; then
+            echo "No pull request is attached to this workflow run"
+            exit 0
+          fi
+
+          author="$(gh pr view "${PR_NUMBER}" --json author --jq '.author.login')"
+          base="$(gh pr view "${PR_NUMBER}" --json baseRefName --jq '.baseRefName')"
+          head="$(gh pr view "${PR_NUMBER}" --json headRefName --jq '.headRefName')"
+          state="$(gh pr view "${PR_NUMBER}" --json state --jq '.state')"
+          draft="$(gh pr view "${PR_NUMBER}" --json isDraft --jq '.isDraft')"
+
+          case "${author}" in
+            app/shunk031-me-bot|shunk031-me-bot[bot])
+              ;;
+            *)
+              echo "Skip non-bot PR: ${author}"
+              exit 0
+              ;;
+          esac
+
+          if [ "${base}" != "main" ] || [ "${head}" != "chore/prune-lychee-excludes" ]; then
+            echo "Skip unrelated PR: base=${base} head=${head}"
+            exit 0
+          fi
+
+          if [ "${state}" != "OPEN" ] || [ "${draft}" != "false" ]; then
+            echo "Skip non-open PR: state=${state} draft=${draft}"
+            exit 0
+          fi
+
+          gh pr merge "${PR_NUMBER}" --squash --delete-branch --match-head-commit "${HEAD_SHA}"
