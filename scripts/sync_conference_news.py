@@ -18,6 +18,10 @@ from ruamel.yaml import YAML
 CONF_NAME_MAP = {
     "NLP": "ANLP",
 }
+NEWS_KIND_PRESENTATIONS = "presentations"
+NEWS_KIND_ACCEPTANCE = "acceptance"
+DOMESTIC_CONFERENCE_TAG = "Domestic Conference"
+INTERNATIONAL_NEWS_TAGS = {"International Conference", "International Publication"}
 
 SKIP_PUBLICATION_TYPES = {"thesis", "article-journal"}
 JOURNAL_LIKE_SHORTS = {
@@ -35,19 +39,23 @@ class ConferenceKey:
 
     name: str
     year: str
+    display_label: str
+    news_kind: str
 
     @property
     def label(self) -> str:
-        """Return display label such as `ANLP 2026`."""
+        """Return display label such as `ANLP 2026` or `ACL2026 SRW`."""
 
-        return f"{self.name} {self.year}"
+        return self.display_label
 
     @property
     def slug(self) -> str:
-        """Return news slug such as `anlp-2026-presentations`."""
+        """Return news slug based on the domestic/international convention."""
 
-        base = re.sub(r"[^a-z0-9]+", "-", self.name.lower()).strip("-")
-        return f"{base}-{self.year}-presentations"
+        base = slugify_label(self.display_label)
+        if self.news_kind == NEWS_KIND_ACCEPTANCE:
+            return f"acceptance-to-{base}"
+        return f"{base}-presentations"
 
 
 @dataclass
@@ -60,6 +68,12 @@ class Publication:
     authors: list[str]
     date: str
     conf: ConferenceKey
+
+
+def slugify_label(value: str) -> str:
+    """Convert a human-readable label into a stable slug fragment."""
+
+    return re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")
 
 
 class FrontmatterIO:
@@ -96,23 +110,54 @@ class FrontmatterIO:
         path.write_text(f"---\n{fm}\n---{body}", encoding="utf-8")
 
 
-def normalize_publication_short(value: str) -> str:
-    """Normalize `publication_short` by stripping decorations and SRW suffix."""
+def strip_publication_short_decorations(value: str) -> str:
+    """Remove award-like decorations while keeping the visible venue label."""
 
     normalized = value.strip()
-    normalized = re.sub(r"^(?i:findings of)\s+", "", normalized)
     normalized = re.sub(r"\s*\*（[^）]*）\*", "", normalized)
+    normalized = re.sub(r"\s+", " ", normalized)
+    return normalized.strip()
+
+
+def build_display_label(publication_short: str) -> str:
+    """Build the visible news label while preserving venue modifiers like `SRW`."""
+
+    display = strip_publication_short_decorations(publication_short)
+    display = re.sub(r"^NLP(?=(?:\s|\d))", "ANLP", display)
+    return display
+
+
+def normalize_publication_short(value: str) -> str:
+    """Normalize `publication_short` for base conference/year parsing."""
+
+    normalized = strip_publication_short_decorations(value)
+    normalized = re.sub(r"^(?i:findings of)\s+", "", normalized)
     normalized = re.sub(r"\s+SRW$", "", normalized)
     return normalized.strip()
 
 
-def parse_conf_key(publication_short: str, date_value: object) -> ConferenceKey | None:
-    """Parse conference name/year from `publication_short` and fallback date."""
+def infer_news_kind(tags: object) -> str:
+    """Decide whether a news post should use acceptance or presentation wording."""
+
+    normalized_tags = {str(tag) for tag in (tags or [])}
+    if DOMESTIC_CONFERENCE_TAG in normalized_tags:
+        return NEWS_KIND_PRESENTATIONS
+    if normalized_tags & INTERNATIONAL_NEWS_TAGS:
+        return NEWS_KIND_ACCEPTANCE
+    return NEWS_KIND_PRESENTATIONS
+
+
+def parse_conf_key(
+    publication_short: str, date_value: object, tags: object
+) -> ConferenceKey | None:
+    """Parse conference metadata from `publication_short`, tags, and fallback date."""
 
     short = normalize_publication_short(publication_short)
     if not short or short in JOURNAL_LIKE_SHORTS:
         return None
 
+    display_label = build_display_label(publication_short)
+    news_kind = infer_news_kind(tags)
     patterns = (
         r"^([A-Z]+)\s+(\d{4})$",
         r"^([A-Z]+[A-Z-]*)(\d{4})$",
@@ -122,7 +167,7 @@ def parse_conf_key(publication_short: str, date_value: object) -> ConferenceKey 
         match = re.match(pattern, short)
         if match:
             conf = CONF_NAME_MAP.get(match.group(1), match.group(1))
-            return ConferenceKey(conf, match.group(2))
+            return ConferenceKey(conf, match.group(2), display_label, news_kind)
 
     only_name = re.match(r"^([A-Z]+)$", short)
     if only_name:
@@ -130,7 +175,7 @@ def parse_conf_key(publication_short: str, date_value: object) -> ConferenceKey 
         if not year_match:
             return None
         conf = CONF_NAME_MAP.get(only_name.group(1), only_name.group(1))
-        return ConferenceKey(conf, year_match.group(1))
+        return ConferenceKey(conf, year_match.group(1), display_label, news_kind)
 
     return None
 
@@ -162,7 +207,11 @@ def parse_publications(publication_dir: Path, io: FrontmatterIO) -> list[Publica
         if not publication_short:
             continue
 
-        conf = parse_conf_key(str(publication_short), frontmatter.get("date"))
+        conf = parse_conf_key(
+            str(publication_short),
+            frontmatter.get("date"),
+            frontmatter.get("tags") or [],
+        )
         if not conf:
             continue
 
@@ -222,15 +271,28 @@ def render_news_markdown(
 
     paper_word = "paper" if len(publications) == 1 else "papers"
     conf_year_tag = f"{conf.name}{conf.year}"
+    if conf.news_kind == NEWS_KIND_ACCEPTANCE:
+        title = f"Accepted our {paper_word} to {conf.label}"
+        body = (
+            f"The following {paper_word} has been accepted to {conf.label}:"
+            if len(publications) == 1
+            else f"The following {paper_word} have been accepted to {conf.label}:"
+        )
+        news_tags = 'tags: ["News"]'
+    else:
+        title = f"Our Presentations at {conf.label}"
+        body = f"We will present the following {paper_word} at {conf.label}:"
+        news_tags = f'tags: ["News", "{conf.name}", "{conf_year_tag}"]'
+
     lines: list[str] = [
         "---",
         "# Documentation: https://docs.hugoblox.com/managing-content/",
         "",
-        f'title: "Our Presentations at {conf.label}"',
+        f'title: "{title}"',
         'subtitle: ""',
         'summary: ""',
         f'authors: ["{author}"]',
-        f'tags: ["News", "{conf.name}", "{conf_year_tag}"]',
+        news_tags,
         'categories: ["News"]',
         f"date: {conference_date}",
         f"lastmod: {conference_date}",
@@ -253,7 +315,7 @@ def render_news_markdown(
         "projects: []",
         "---",
         "",
-        f"We will present the following {paper_word} at {conf.label}:",
+        body,
         "",
     ]
     for publication in publications:
