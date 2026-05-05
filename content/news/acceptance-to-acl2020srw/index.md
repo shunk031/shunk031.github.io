@@ -5,7 +5,7 @@ title: "Accepted our paper to ACL2020 SRW"
 subtitle: ""
 summary: ""
 authors: ["Mahmoud Daif", "Shunsuke Kitada", "Hitoshi Iyatomi"]
-tags: ["News"]
+tags: ["News", ACL, ACL2020]
 categories: ["News"]
 date: 2020-04-18T00:00:00+09:00
 lastmod: 2022-12-27T22:13:04+09:00

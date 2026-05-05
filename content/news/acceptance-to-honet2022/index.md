@@ -5,7 +5,7 @@ title: "Accepted our paper to IEEE HONET2022"
 subtitle: ""
 summary: ""
 authors: ["Ohata Kazuya", "Shunsuke Kitada", "Hitoshi Iyatomi"]
-tags: ["News"]
+tags: ["News", HONET, HONET2022]
 categories: ["News"]
 date: 2022-10-17T00:00:00+09:00
 lastmod: 2022-10-17T00:00:00+09:00

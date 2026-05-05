@@ -5,7 +5,7 @@ title: "Accepted our paper to IEEE AIPR2018 Workshop"
 subtitle: ""
 summary: ""
 authors: ["Shunsuke Kitada", "Ryunosuke Kotani", "Hitoshi Iyatomi"]
-tags: ["News"]
+tags: ["News", AIPR, AIPR2018]
 categories: ["News"]
 date: 2018-09-05T00:00:00+09:00
 lastmod: 2022-12-27T23:05:22+09:00

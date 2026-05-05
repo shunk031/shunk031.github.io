@@ -5,7 +5,7 @@ title: "Accepted our paper to PM4LRS workshop at ICLR2024"
 subtitle: ""
 summary: ""
 authors: ["Sota Nemoto", "Shunsuke Kitada", "Hitoshi Iyatomi"]
-tags: ["News"]
+tags: ["News", ICLR, ICLR2024]
 categories: ["News"]
 date: 2024-03-06T00:00:00+09:00
 lastmod: 2024-03-06T00:00:00+09:00

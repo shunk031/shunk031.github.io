@@ -5,7 +5,7 @@ title: "Accepted our Workshop Proposal on Foundation Data to ICCV 2025"
 subtitle: ""
 summary: ""
 authors: ["Yoshihiro Fukuhara", "Hirokatsu Kataoka", "Püren Güler", "Shunsuke Kitada", "Xavier Boix", "Dan Hendrycks", "Keisuke Tateno", "Shinichi Mae", "Tatsuya Komatsu", "Nishant Rai", "Ryo Nakamura", "Risa Shinoda", "Takahiro Itazuri", "Yoshiki Kubotani", "Guarin Flück", "Wadim Kehl", "Kazuki Kozuka"]
-tags: ["News"]
+tags: ["News", ICCV, ICCV2025]
 categories: ["News"]
 date: 2025-04-18T00:00:00+00:00
 lastmod: 2025-04-18T00:00:00+00:00

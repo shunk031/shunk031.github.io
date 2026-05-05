@@ -13,6 +13,7 @@ from pathlib import Path
 from typing import Iterable
 
 from ruamel.yaml import YAML
+from ruamel.yaml.comments import CommentedSeq
 
 
 CONF_NAME_MAP = {
@@ -70,10 +71,44 @@ class Publication:
     conf: ConferenceKey
 
 
+@dataclass(frozen=True)
+class ConferenceTagKey:
+    """Conference tag identifier used for existing news tag backfill."""
+
+    name: str
+    year: str
+
+
 def slugify_label(value: str) -> str:
     """Convert a human-readable label into a stable slug fragment."""
 
     return re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")
+
+
+def conference_year_tag(name: str, year: str) -> str:
+    """Return the conference-year tag value such as `CVPR2026`."""
+
+    return f"{name}{year}"
+
+
+def conference_news_tags(name: str, year: str) -> list[str]:
+    """Return the standard news tags for conference news."""
+
+    return ["News", name, conference_year_tag(name, year)]
+
+
+def flow_style_sequence(items: list[str]) -> CommentedSeq:
+    """Return a flow-style YAML sequence for compact front matter lists."""
+
+    sequence = CommentedSeq(items)
+    sequence.fa.set_flow_style()
+    return sequence
+
+
+def conference_news_tags_line(name: str, year: str) -> str:
+    """Return the YAML line for standard conference news tags."""
+
+    return f'tags: ["News", "{name}", "{conference_year_tag(name, year)}"]'
 
 
 class FrontmatterIO:
@@ -145,6 +180,29 @@ def infer_news_kind(tags: object) -> str:
     if normalized_tags & INTERNATIONAL_NEWS_TAGS:
         return NEWS_KIND_ACCEPTANCE
     return NEWS_KIND_PRESENTATIONS
+
+
+def infer_tag_key_from_title(title: str) -> ConferenceTagKey | None:
+    """Infer conference/year tags from a news title when linked publications are insufficient."""
+
+    normalized_title = " ".join(str(title).strip().split())
+    if not normalized_title or "journal" in normalized_title.lower():
+        return None
+
+    matches: list[ConferenceTagKey] = []
+    patterns = (
+        r"([A-Z]+-[A-Z]+)\s*(\d{4})",
+        r"([A-Z]+[A-Z-]*)\s*(\d{4})",
+        r"([A-Z]+)\s+(\d{4})",
+    )
+    for pattern in patterns:
+        for match in re.finditer(pattern, normalized_title):
+            conf = CONF_NAME_MAP.get(match.group(1), match.group(1))
+            matches.append(ConferenceTagKey(conf, match.group(2)))
+
+    if not matches:
+        return None
+    return matches[-1]
 
 
 def parse_conf_key(
@@ -259,6 +317,58 @@ def sync_tags(
     return modified, details
 
 
+def infer_existing_news_tag_key(
+    frontmatter: dict, body: str, publications_by_slug: dict[str, Publication]
+) -> ConferenceTagKey | None:
+    """Infer conference/year tags for an existing acceptance-style news file."""
+
+    linked_slugs = re.findall(r"/publication/([a-zA-Z0-9-]+)", body)
+    linked_keys = {
+        ConferenceTagKey(publication.conf.name, publication.conf.year)
+        for slug in linked_slugs
+        if (publication := publications_by_slug.get(slug)) is not None
+    }
+    if len(linked_keys) == 1:
+        return next(iter(linked_keys))
+
+    return infer_tag_key_from_title(str(frontmatter.get("title") or ""))
+
+
+def sync_existing_news_tags(
+    news_dir: Path,
+    publications_by_slug: dict[str, Publication],
+    io: FrontmatterIO,
+    dry_run: bool,
+) -> tuple[int, list[str]]:
+    """Backfill conference tags for existing acceptance-style conference news."""
+
+    modified = 0
+    details: list[str] = []
+
+    for index_md in sorted(news_dir.glob("acceptance-to-*/index.md")):
+        frontmatter, body = io.read(index_md)
+        tag_key = infer_existing_news_tag_key(frontmatter, body, publications_by_slug)
+        if tag_key is None:
+            continue
+
+        tags = list(frontmatter.get("tags") or [])
+        missing = [
+            tag
+            for tag in conference_news_tags(tag_key.name, tag_key.year)
+            if tag not in tags
+        ]
+        if not missing:
+            continue
+
+        frontmatter["tags"] = flow_style_sequence(tags + missing)
+        modified += 1
+        details.append(f"{index_md.parent.name}: +{', '.join(missing)}")
+        if not dry_run:
+            io.write(index_md, frontmatter, body)
+
+    return modified, details
+
+
 def render_news_markdown(
     conf: ConferenceKey,
     publications: list[Publication],
@@ -270,8 +380,7 @@ def render_news_markdown(
     """Render a complete `content/news/<slug>/index.md` markdown string."""
 
     paper_word = "paper" if len(publications) == 1 else "papers"
-    conf_year_tag = f"{conf.name}{conf.year}"
-    news_tags = f'tags: ["News", "{conf.name}", "{conf_year_tag}"]'
+    news_tags = conference_news_tags_line(conf.name, conf.year)
     if conf.news_kind == NEWS_KIND_ACCEPTANCE:
         title = f"Accepted our {paper_word} to {conf.label}"
         body = (
@@ -455,6 +564,7 @@ def main() -> None:
 
     io = FrontmatterIO()
     publications = parse_publications(publication_dir, io)
+    publications_by_slug = {publication.slug: publication for publication in publications}
     grouped: dict[ConferenceKey, list[Publication]] = defaultdict(list)
     for publication in publications:
         grouped[publication.conf].append(publication)
@@ -477,6 +587,16 @@ def main() -> None:
             print(f"  - {item}")
     else:
         print("[tags] skipped")
+
+    existing_news_modified, existing_news_details = sync_existing_news_tags(
+        news_dir,
+        publications_by_slug,
+        io,
+        args.dry_run,
+    )
+    print(f"[news-tags] modified existing news files: {existing_news_modified}")
+    for item in existing_news_details:
+        print(f"  - {item}")
 
     created = 0
     skipped = 0
