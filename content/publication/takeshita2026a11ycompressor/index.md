@@ -22,19 +22,18 @@ publication_short: "ACL2026 SRW"
 abstract: "AI agents that interact with graphical user interfaces (GUIs) require effective observation representations for reliable grounding. The accessibility tree is a commonly used text-based format that encodes UI element attributes, but it suffers from redundancy and lacks structural information such as spatial relationships among elements. We propose A11y-Compressor, a framework that transforms linearized accessibility trees into compact and structured representations. Our implementation, Compressed-a11y, applies a lightweight and structured transformation pipeline with modal detection, redundancy reduction, and semantic structuring. Experiments on the OSWorld benchmark show that Compressed-a11y reduces input tokens to 22% of the original while improving task success rates by 5.1 percentage points on average."
 
 # Summary. An optional shortened abstract.
-summary: "Accepted to ACL SRW 2026"
+summary: "Proc. ACL SRW 2026"
 
 tags:
-- "International Conference"
-- "Refereed"
 - "International Publication"
+- "Refereed"
 - "Natural Language Processing"
+- ACL
+- ACL2026
 - "AI Agent"
 - "Computer Use"
 - "GUI Agent"
 - "Accessibility Tree"
-- ACL
-- ACL2026
 categories:
 - "Natural Language Processing"
 - "Vision & Language"
@@ -80,3 +79,5 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
+
+{{< blogcard url="https://arxiv.org/abs/2605.00551" >}}

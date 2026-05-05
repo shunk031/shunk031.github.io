@@ -22,17 +22,16 @@ publication_short: "ACL2026 SRW"
 abstract: "Vision-Language Models (VLMs) excel at multimodal tasks, but they remain vulnerable to hallucinations that are factually incorrect or ungrounded in the input image. Recent work suggests that hallucination detection using internal representations is more efficient and accurate than approaches that rely solely on model outputs. However, existing internal-representation-based methods typically rely on a single representation or detector, limiting their ability to capture diverse hallucination signals. In this paper, we propose EnsemHalDet, an ensemble-based hallucination detection framework that leverages multiple internal representations of VLMs, including attention outputs and hidden states. EnsemHalDet trains independent detectors for each representation and combines them through ensemble learning. Experimental results across multiple VQA datasets and VLMs show that EnsemHalDet consistently outperforms prior methods and single-detector models in terms of AUC. These results demonstrate that ensembling diverse internal signals significantly improves robustness in multimodal hallucination detection."
 
 # Summary. An optional shortened abstract.
-summary: "Accepted to ACL SRW 2026"
+summary: "Proc. ACL SRW 2026"
 
 tags:
-- "International Conference"
-- "Refereed"
 - "International Publication"
+- "Refereed"
 - "Natural Language Processing"
-- "Vision & Language"
-- "Hallucination Detection"
 - ACL
 - ACL2026
+- "Vision & Language"
+- "Hallucination Detection"
 categories:
 - "Vision & Language"
 - "Hallucination Detection"
@@ -78,3 +77,5 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
+
+{{< blogcard url="https://arxiv.org/abs/2604.02784" >}}
