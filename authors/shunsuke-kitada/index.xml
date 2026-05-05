@@ -13,6 +13,47 @@
     </image>
     
     <item>
+      <title>Accepted our papers to ACL2026 SRW</title>
+      <link>https://shunk031.me/news/acceptance-to-acl2026srw/</link>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/news/acceptance-to-acl2026srw/</guid>
+      <description>&lt;p&gt;The following papers have been accepted to the &lt;a href=&#34;https://acl2026-srw.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ACL 2026 Student Research Workshop (SRW)&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ryuhei Miyazato, Shunsuke Kitada, and Kei Harada. &lt;a href=&#34;https://shunk031.me/publication/miyazato2026ensemhaldet&#34;&gt;&amp;ldquo;EnsemHalDet: Robust VLM Hallucination Detection via Ensemble of Internal State Detectors&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Michito Takeshita, Takuro Kawada, Takumi Ohashi, Shunsuke Kitada, and Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.me/publication/takeshita2026a11ycompressor&#34;&gt;&amp;ldquo;A11y-Compressor: A Framework for Enhancing the Efficiency of GUI Agent Observations through Visual Context Reconstruction and Redundancy Reduction&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A11y-Compressor: A Framework for Enhancing the Efficiency of GUI Agent Observations through Visual Context Reconstruction and Redundancy Reduction</title>
+      <link>https://shunk031.me/publication/takeshita2026a11ycompressor/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/takeshita2026a11ycompressor/</guid>
+      <description>&lt;div class=&#34;blogcard&#34;&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2farxiv.org%2fabs%2f2605.00551&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
+        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>EnsemHalDet: Robust VLM Hallucination Detection via Ensemble of Internal State Detectors</title>
+      <link>https://shunk031.me/publication/miyazato2026ensemhaldet/</link>
+      <pubDate>Fri, 03 Apr 2026 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/miyazato2026ensemhaldet/</guid>
+      <description>&lt;div class=&#34;blogcard&#34;&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2farxiv.org%2fabs%2f2604.02784&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
+        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
       <title>Our Presentations at ANLP 2026</title>
       <link>https://shunk031.me/news/anlp-2026-presentations/</link>
       <pubDate>Thu, 05 Mar 2026 00:00:00 +0900</pubDate>
@@ -28,11 +69,11 @@
     </item>
     
     <item>
-      <title>Our Presentations at Findings of CVPR 2026</title>
-      <link>https://shunk031.me/news/cvpr-2026-presentations/</link>
+      <title>Accepted our papers to Findings of CVPR 2026</title>
+      <link>https://shunk031.me/news/acceptance-to-findings-of-cvpr-2026/</link>
       <pubDate>Sat, 21 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://shunk031.me/news/cvpr-2026-presentations/</guid>
-      <description>&lt;p&gt;We will present the following papers at the CVPR 2026 Findings track:&lt;/p&gt;
+      <guid>https://shunk031.me/news/acceptance-to-findings-of-cvpr-2026/</guid>
+      <description>&lt;p&gt;The following papers have been accepted to the Findings of CVPR 2026:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Takuro Kawada, Shunsuke Kitada, Sota Nemoto, Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.me/publication/kawada2025sciga&#34;&gt;&amp;ldquo;SciGA: A Comprehensive Dataset for Designing Graphical Abstracts in Academic Papers&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Daichi Nagai, Ryugo Morita, Shunsuke Kitada, Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.me/publication/nagai2025taue&#34;&gt;&amp;ldquo;TAUE: Training-free Noise Transplant and Cultivation Diffusion Model&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;

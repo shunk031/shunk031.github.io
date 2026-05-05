@@ -5,12 +5,25 @@
     <link>https://shunk031.me/category/news/</link>
       <atom:link href="https://shunk031.me/category/news/index.xml" rel="self" type="application/rss+xml" />
     <description>News</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 05 Mar 2026 00:00:00 +0900</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 05 May 2026 00:00:00 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.me/media/sharing.png</url>
       <title>News</title>
       <link>https://shunk031.me/category/news/</link>
     </image>
+    
+    <item>
+      <title>Accepted our papers to ACL2026 SRW</title>
+      <link>https://shunk031.me/news/acceptance-to-acl2026srw/</link>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/news/acceptance-to-acl2026srw/</guid>
+      <description>&lt;p&gt;The following papers have been accepted to the &lt;a href=&#34;https://acl2026-srw.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ACL 2026 Student Research Workshop (SRW)&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ryuhei Miyazato, Shunsuke Kitada, and Kei Harada. &lt;a href=&#34;https://shunk031.me/publication/miyazato2026ensemhaldet&#34;&gt;&amp;ldquo;EnsemHalDet: Robust VLM Hallucination Detection via Ensemble of Internal State Detectors&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Michito Takeshita, Takuro Kawada, Takumi Ohashi, Shunsuke Kitada, and Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.me/publication/takeshita2026a11ycompressor&#34;&gt;&amp;ldquo;A11y-Compressor: A Framework for Enhancing the Efficiency of GUI Agent Observations through Visual Context Reconstruction and Redundancy Reduction&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Our Presentations at ANLP 2026</title>
@@ -28,11 +41,11 @@
     </item>
     
     <item>
-      <title>Our Presentations at Findings of CVPR 2026</title>
-      <link>https://shunk031.me/news/cvpr-2026-presentations/</link>
+      <title>Accepted our papers to Findings of CVPR 2026</title>
+      <link>https://shunk031.me/news/acceptance-to-findings-of-cvpr-2026/</link>
       <pubDate>Sat, 21 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://shunk031.me/news/cvpr-2026-presentations/</guid>
-      <description>&lt;p&gt;We will present the following papers at the CVPR 2026 Findings track:&lt;/p&gt;
+      <guid>https://shunk031.me/news/acceptance-to-findings-of-cvpr-2026/</guid>
+      <description>&lt;p&gt;The following papers have been accepted to the Findings of CVPR 2026:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Takuro Kawada, Shunsuke Kitada, Sota Nemoto, Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.me/publication/kawada2025sciga&#34;&gt;&amp;ldquo;SciGA: A Comprehensive Dataset for Designing Graphical Abstracts in Academic Papers&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Daichi Nagai, Ryugo Morita, Shunsuke Kitada, Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.me/publication/nagai2025taue&#34;&gt;&amp;ldquo;TAUE: Training-free Noise Transplant and Cultivation Diffusion Model&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;

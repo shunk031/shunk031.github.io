@@ -1,4 +1,5 @@
 # Netlify redirects
 # Automatically generated
 # Documentation: https://docs.netlify.com/routing/redirects/
+/news/cvpr-2026-presentations/ /news/acceptance-to-findings-of-cvpr-2026/
 /post/coloso-introduction-to-image-generation-ai/ /post/fastcampus-introduction-to-image-generation-ai/
