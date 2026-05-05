@@ -1,11 +1,11 @@
 ---
 # Documentation: https://docs.hugoblox.com/managing-content/
 
-title: "Our Presentations at ACL 2026 SRW"
+title: "Accepted our papers to ACL2026 SRW"
 subtitle: ""
 summary: ""
 authors: ["Shunsuke Kitada"]
-tags: ["News", "ACL", "ACL2026"]
+tags: ["News"]
 categories: ["News"]
 date: 2026-05-05T00:00:00+09:00
 lastmod: 2026-05-05T00:00:00+09:00
@@ -28,7 +28,7 @@ image:
 projects: []
 ---
 
-We will present the following papers at the [ACL 2026 Student Research Workshop (SRW)](https://acl2026-srw.github.io/):
+The following papers have been accepted to the [ACL 2026 Student Research Workshop (SRW)](https://acl2026-srw.github.io/).
 
 - Ryuhei Miyazato, Shunsuke Kitada, and Kei Harada. ["EnsemHalDet: Robust VLM Hallucination Detection via Ensemble of Internal State Detectors"](/publication/miyazato2026ensemhaldet).
 - Michito Takeshita, Takuro Kawada, Takumi Ohashi, Shunsuke Kitada, and Hitoshi Iyatomi. ["A11y-Compressor: A Framework for Enhancing the Efficiency of GUI Agent Observations through Visual Context Reconstruction and Redundancy Reduction"](/publication/takeshita2026a11ycompressor).
