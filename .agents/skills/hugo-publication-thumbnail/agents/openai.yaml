@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hugo Publication Thumbnail"
+  short_description: "Create publication thumbnails from PDFs or arXiv URLs."
+  default_prompt: "Use $hugo-publication-thumbnail to create or regenerate content/publication/<slug>/featured.png from a local PDF, an arXiv URL, or publication frontmatter."
