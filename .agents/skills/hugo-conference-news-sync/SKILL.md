@@ -30,9 +30,11 @@ uv run --with ruamel.yaml python scripts/sync_conference_news.py --repo-root <re
 ```
 - Default behavior:
 - Add missing conference tags and conference-year tags to publication entries.
-- Create news files with `draft: false` by default under `content/news/<conference>-<year>-presentations/index.md`.
-- Initialize each new news file with `make news name="<conference>-<year>-presentations"` before writing final content.
-- Set news tags to `["News", "<CONF>", "<CONF><YEAR>"]`.
+- Classify each publication group from publication `tags`:
+- `Domestic Conference` -> presentation-style news under `content/news/<conference>-<year>-presentations/index.md`
+- `International Conference` or `International Publication` -> acceptance-style news under `content/news/acceptance-to-<conference-label>/index.md`
+- Initialize each new news file with `make news name="<generated-slug>"` before writing final content.
+- For both presentation-style and acceptance-style conference news, set tags to `["News", "<CONF>", "<CONF><YEAR>"]`.
 - Use `--draft` only when intentionally creating unpublished drafts.
 - Set `date` and `lastmod` to the earliest publication `date` in the conference-year group.
 - Skip groups already referenced by existing news publication links.
@@ -46,8 +48,9 @@ uv run --with ruamel.yaml python scripts/sync_conference_news.py --repo-root <re
 - Conference/year extraction from `publication_short`:
 - Handles `CONF 2026`, `CONF2026`, `CONF-CONF2026`, and `CONF` + year from `date`.
 - Removes award annotations like `*（...）*`.
-- Removes trailing `SRW`.
+- Uses stripped base venue names for conference tag backfill.
 - Maps `NLP` to `ANLP`.
+- Keeps venue modifiers such as `SRW` and `Findings of` in generated international news labels/slugs.
 
 - Publication filtering:
 - Skip `publication_types` containing `thesis` or `article-journal`.
@@ -57,8 +60,9 @@ uv run --with ruamel.yaml python scripts/sync_conference_news.py --repo-root <re
 - Ensure `<CONF>` and `<CONF><YEAR>` are present in `tags`.
 - Append only missing values.
 
-- News tags:
-- Emit `tags` as `News` + conference name + conference-year tag.
+- News style:
+- Domestic conference groups generate `Our Presentations at ...` / `We will present ...`.
+- International conference groups generate `Accepted our paper(s) to ...` / `The following paper(s) have/has been accepted ...`.
 
 - Duplicate prevention:
 - Parse existing `content/news/*/index.md` and collect `/publication/<slug>` links.
@@ -89,11 +93,12 @@ uv run --with ruamel.yaml python scripts/sync_conference_news.py --repo-root <re
 ## Expected Outputs
 
 - Updated publication files with missing conference tags.
-- New news files grouped by conference-year, with conference-date-aligned `date`/`lastmod` and conference tags.
+- New news files grouped by venue/year, with domestic groups using `*-presentations` and international groups using `acceptance-to-*`.
 - Summary logs for modified files, created groups, and skipped groups.
 
 ## Post-Processing Checklist
 
 - Confirm `hugo build` passes.
 - Confirm generated bullets are link-only.
+- Confirm the generated slug/title/body follow the domestic/international convention.
 - When needed, regenerate with `--draft` for unpublished staging.

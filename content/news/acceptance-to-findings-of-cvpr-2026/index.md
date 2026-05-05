@@ -1,7 +1,7 @@
 ---
 # Documentation: https://docs.hugoblox.com/managing-content/
 
-title: "Our Presentations at Findings of CVPR 2026"
+title: "Accepted our papers to Findings of CVPR 2026"
 subtitle: ""
 summary: ""
 authors: ["Shunsuke Kitada"]
@@ -26,9 +26,12 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
+
+aliases:
+  - /news/cvpr-2026-presentations/
 ---
 
-We will present the following papers at the CVPR 2026 Findings track:
+The following papers have been accepted to the Findings of CVPR 2026:
 
 - Takuro Kawada, Shunsuke Kitada, Sota Nemoto, Hitoshi Iyatomi. ["SciGA: A Comprehensive Dataset for Designing Graphical Abstracts in Academic Papers"](/publication/kawada2025sciga).
 - Daichi Nagai, Ryugo Morita, Shunsuke Kitada, Hitoshi Iyatomi. ["TAUE: Training-free Noise Transplant and Cultivation Diffusion Model"](/publication/nagai2025taue).
