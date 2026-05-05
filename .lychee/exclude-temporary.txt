@@ -13,6 +13,10 @@ t.co
 openai.com/index/chatgpt
 www.ieice.org/~nlc
 www.nikkan.co.jp/articles
+www.cikm2022.org
+www.kdd.org/kdd2019
+kdd.org/kdd2023
+gatheluck.net/home
 hatenablog-parts.com/embed
 bit.ly/KitadaXColosoJP1
 confit.atlas.jp
