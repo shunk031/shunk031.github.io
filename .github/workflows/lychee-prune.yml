@@ -113,15 +113,15 @@ jobs:
 
           branch="chore/prune-lychee-excludes"
           git add .lychee/exclude-temporary.txt
-          git commit -m "chore: prune revived lychee excludes"
+          git commit -m "chore(links): remove recovered URLs from temporary broken-link excludes"
           git push --force-with-lease -u origin "$branch"
 
           if gh pr view --head "$branch" > /dev/null 2>&1; then
             echo "PR already exists for $branch"
           else
             gh pr create \
-              --title "chore: prune revived lychee excludes" \
-              --body "Removed from the temporary excludes because the scheduled check returned 2xx/302." \
+              --title "chore(links): remove recovered URLs from temporary broken-link excludes" \
+              --body "Removed recovered URLs from temporary broken-link excludes because the scheduled check returned 2xx/302." \
               --base main \
               --head "$branch"
           fi
