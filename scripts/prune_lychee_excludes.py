@@ -58,6 +58,12 @@ def parse_args() -> argparse.Namespace:
         help="Write matched URLs for lychee input",
     )
     parser.add_argument(
+        "--pr-body-output",
+        dest="pr_body_output",
+        type=pathlib.Path,
+        help="Write a markdown PR body describing removed patterns and recovered URLs",
+    )
+    parser.add_argument(
         "--prepare",
         action="store_true",
         help="Only generate the links output and exit",
@@ -217,6 +223,21 @@ def write_links(path: pathlib.Path, urls: set[str]) -> None:
         handle.write(content)
 
 
+def format_pr_body(removed_patterns: list[tuple[str, list[str]]]) -> str:
+    lines = [
+        "Removed recovered URLs from temporary broken-link excludes because the scheduled check returned 2xx/302.",
+        "",
+        "## Recovered URLs",
+        "",
+    ]
+    for pattern, urls in removed_patterns:
+        lines.append(f"### `{pattern}`")
+        for url in urls:
+            lines.append(f"- `{url}`")
+        lines.append("")
+    return "\n".join(lines).rstrip() + "\n"
+
+
 def main() -> int:
     args = parse_args()
 
@@ -254,6 +275,7 @@ def main() -> int:
     status_map = collect_status_map(data)
     removed_indices: set[int] = set()
     removed_lines: list[str] = []
+    removed_patterns: list[tuple[str, list[str]]] = []
 
     for pattern in patterns:
         matched = pattern_map.get(pattern.index, set())
@@ -269,10 +291,14 @@ def main() -> int:
         if all_revived:
             removed_indices.add(pattern.index)
             removed_lines.append(pattern.raw_line)
+            removed_patterns.append((pattern.raw_line, sorted(matched)))
 
     if not removed_lines:
         print("no change")
         return 0
+
+    if args.pr_body_output is not None:
+        args.pr_body_output.write_text(format_pr_body(removed_patterns), encoding="utf-8")
 
     if args.dry_run:
         for line in removed_lines:
