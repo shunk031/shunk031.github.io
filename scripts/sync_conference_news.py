@@ -271,6 +271,7 @@ def render_news_markdown(
 
     paper_word = "paper" if len(publications) == 1 else "papers"
     conf_year_tag = f"{conf.name}{conf.year}"
+    news_tags = f'tags: ["News", "{conf.name}", "{conf_year_tag}"]'
     if conf.news_kind == NEWS_KIND_ACCEPTANCE:
         title = f"Accepted our {paper_word} to {conf.label}"
         body = (
@@ -278,11 +279,9 @@ def render_news_markdown(
             if len(publications) == 1
             else f"The following {paper_word} have been accepted to {conf.label}:"
         )
-        news_tags = 'tags: ["News"]'
     else:
         title = f"Our Presentations at {conf.label}"
         body = f"We will present the following {paper_word} at {conf.label}:"
-        news_tags = f'tags: ["News", "{conf.name}", "{conf_year_tag}"]'
 
     lines: list[str] = [
         "---",

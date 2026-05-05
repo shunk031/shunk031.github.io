@@ -5,7 +5,7 @@ title: "Accepted our papers to ACL2026 SRW"
 subtitle: ""
 summary: ""
 authors: ["Shunsuke Kitada"]
-tags: ["News"]
+tags: ["News", "ACL", "ACL2026"]
 categories: ["News"]
 date: 2026-05-05T00:00:00+09:00
 lastmod: 2026-05-05T00:00:00+09:00

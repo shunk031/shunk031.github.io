@@ -5,7 +5,7 @@ title: "Accepted our papers to Findings of CVPR 2026"
 subtitle: ""
 summary: ""
 authors: ["Shunsuke Kitada"]
-tags: ["News"]
+tags: ["News", "CVPR", "CVPR2026"]
 categories: ["News"]
 date: 2026-02-21T00:00:00+00:00
 lastmod: 2026-02-21T00:00:00+00:00

@@ -34,8 +34,7 @@ uv run --with ruamel.yaml python scripts/sync_conference_news.py --repo-root <re
 - `Domestic Conference` -> presentation-style news under `content/news/<conference>-<year>-presentations/index.md`
 - `International Conference` or `International Publication` -> acceptance-style news under `content/news/acceptance-to-<conference-label>/index.md`
 - Initialize each new news file with `make news name="<generated-slug>"` before writing final content.
-- For presentation-style news, set tags to `["News", "<CONF>", "<CONF><YEAR>"]`.
-- For acceptance-style news, set tags to `["News"]`.
+- For both presentation-style and acceptance-style conference news, set tags to `["News", "<CONF>", "<CONF><YEAR>"]`.
 - Use `--draft` only when intentionally creating unpublished drafts.
 - Set `date` and `lastmod` to the earliest publication `date` in the conference-year group.
 - Skip groups already referenced by existing news publication links.
