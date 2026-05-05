@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ICLR | shunk031.me</title>
+    <link>https://shunk031.me/tag/iclr/</link>
+      <atom:link href="https://shunk031.me/tag/iclr/index.xml" rel="self" type="application/rss+xml" />
+    <description>ICLR</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 06 Mar 2024 00:00:00 +0900</lastBuildDate>
+    <image>
+      <url>https://shunk031.me/media/sharing.png</url>
+      <title>ICLR</title>
+      <link>https://shunk031.me/tag/iclr/</link>
+    </image>
+    
+    <item>
+      <title>Accepted our paper to PM4LRS workshop at ICLR2024</title>
+      <link>https://shunk031.me/news/acceptance-to-iclr2024-pm4lrs/</link>
+      <pubDate>Wed, 06 Mar 2024 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/news/acceptance-to-iclr2024-pm4lrs/</guid>
+      <description>&lt;p&gt;The following paper has been accepted at &lt;a href=&#34;https://pml4dc.github.io/iclr2024/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Practical ML for Low Resource Settings Workshop (PM4LRS) @ ICLR 2024&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sota Nemoto, Shunsuke Kitada, and Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.me/publication/nemoto2024majority&#34;&gt;&amp;ldquo;Majority or Minority: Data Imbalance Learning Method for Named Entity Recognition&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
