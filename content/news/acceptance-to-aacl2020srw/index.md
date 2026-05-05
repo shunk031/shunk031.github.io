@@ -5,7 +5,7 @@ title: "Accepted our paper to AACL-IJCNLP2020 SRW"
 subtitle: ""
 summary: ""
 authors: ["Takumi Aoki", "Shunsuke Kitada", "Hitoshi Iyatomi"]
-tags: ["News"]
+tags: ["News", AACL-IJCNLP, AACL-IJCNLP2020]
 categories: ["News"]
 date: 2020-10-24T00:00:00+09:00
 lastmod: 2022-12-27T22:08:15+09:00

@@ -5,7 +5,7 @@ title: "Accepted our paper to ACM KDD2019 Applied Data Science Track"
 subtitle: ""
 summary: ""
 authors: ["Shunsuke Kitada", "Hitoshi Iyatomi", "Yoshifumi Seki"]
-tags: ["News"]
+tags: ["News", KDD, KDD2019]
 categories: ["News"]
 date: 2019-04-29T00:00:00+09:00
 lastmod: 2022-12-27T22:53:34+09:00

@@ -30,6 +30,7 @@ uv run --with ruamel.yaml python scripts/sync_conference_news.py --repo-root <re
 ```
 - Default behavior:
 - Add missing conference tags and conference-year tags to publication entries.
+- Backfill missing conference tags on existing acceptance-style conference news when the venue/year can be inferred from linked publications or the news title.
 - Classify each publication group from publication `tags`:
 - `Domestic Conference` -> presentation-style news under `content/news/<conference>-<year>-presentations/index.md`
 - `International Conference` or `International Publication` -> acceptance-style news under `content/news/acceptance-to-<conference-label>/index.md`
@@ -59,6 +60,12 @@ uv run --with ruamel.yaml python scripts/sync_conference_news.py --repo-root <re
 - Tag backfill:
 - Ensure `<CONF>` and `<CONF><YEAR>` are present in `tags`.
 - Append only missing values.
+
+- Existing news tag backfill:
+- Scan existing `content/news/acceptance-to-*/index.md`.
+- Prefer linked publication metadata to infer `<CONF>` / `<CONF><YEAR>`.
+- Fall back to the news title when linked publications are insufficient.
+- Skip journal-style news where no conference-year can be inferred.
 
 - News style:
 - Domestic conference groups generate `Our Presentations at ...` / `We will present ...`.

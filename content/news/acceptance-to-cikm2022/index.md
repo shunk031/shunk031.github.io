@@ -5,7 +5,7 @@ title: "Accepted our paper to ACM CIKM2022"
 subtitle: ""
 summary: ""
 authors: ["Tsubasa Nakagawa", "Shunsuke Kitada", "Hitoshi Iyatomi"]
-tags: ["News"]
+tags: ["News", CIKM, CIKM2022]
 categories: ["News"]
 date: 2022-08-01T00:00:00+09:00
 lastmod: 2022-08-01T00:00:00+09:00

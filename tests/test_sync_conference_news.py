@@ -66,3 +66,116 @@ def test_render_news_markdown_keeps_conference_tags_for_acceptance_news() -> Non
     assert 'title: "Accepted our paper to Findings of CVPR 2026"' in markdown
     assert 'tags: ["News", "CVPR", "CVPR2026"]' in markdown
     assert "The following paper has been accepted to Findings of CVPR 2026:" in markdown
+
+
+def test_sync_existing_news_tags_backfills_from_linked_publications(tmp_path: Path) -> None:
+    module = load_sync_conference_news_module()
+
+    news_dir = tmp_path / "content/news"
+    news_file = news_dir / "acceptance-to-eccv2024/index.md"
+    news_file.parent.mkdir(parents=True)
+    news_file.write_text(
+        """---
+title: "Accepted our paper to ECCV2024"
+tags: ["News"]
+categories: ["News"]
+---
+
+- Paper: [Layout-Corrector](/publication/iwai2024layout)
+""",
+        encoding="utf-8",
+    )
+
+    io = module.FrontmatterIO()
+    conf = module.ConferenceKey(
+        name="ECCV",
+        year="2024",
+        display_label="ECCV2024",
+        news_kind=module.NEWS_KIND_ACCEPTANCE,
+    )
+    publications_by_slug = {
+        "iwai2024layout": module.Publication(
+            path=Path("content/publication/iwai2024layout/index.md"),
+            slug="iwai2024layout",
+            title="Layout-Corrector",
+            authors=["Shoma Iwai"],
+            date="2024-07-01T00:00:00+09:00",
+            conf=conf,
+        )
+    }
+
+    modified, details = module.sync_existing_news_tags(
+        news_dir,
+        publications_by_slug,
+        io,
+        dry_run=False,
+    )
+
+    frontmatter, _ = io.read(news_file)
+    assert modified == 1
+    assert details == ["acceptance-to-eccv2024: +ECCV, ECCV2024"]
+    assert list(frontmatter["tags"]) == ["News", "ECCV", "ECCV2024"]
+
+
+def test_sync_existing_news_tags_falls_back_to_title_for_workshop_news(tmp_path: Path) -> None:
+    module = load_sync_conference_news_module()
+
+    news_dir = tmp_path / "content/news"
+    news_file = news_dir / "acceptance-to-iccv2025-found-workshop/index.md"
+    news_file.parent.mkdir(parents=True)
+    news_file.write_text(
+        """---
+title: "Accepted our Workshop Proposal on Foundation Data to ICCV 2025"
+tags: ["News"]
+categories: ["News"]
+---
+
+No publication links yet.
+""",
+        encoding="utf-8",
+    )
+
+    io = module.FrontmatterIO()
+    modified, details = module.sync_existing_news_tags(
+        news_dir,
+        {},
+        io,
+        dry_run=False,
+    )
+
+    frontmatter, _ = io.read(news_file)
+    assert modified == 1
+    assert details == ["acceptance-to-iccv2025-found-workshop: +ICCV, ICCV2025"]
+    assert list(frontmatter["tags"]) == ["News", "ICCV", "ICCV2025"]
+
+
+def test_sync_existing_news_tags_skips_journal_news_without_conference_year(tmp_path: Path) -> None:
+    module = load_sync_conference_news_module()
+
+    news_dir = tmp_path / "content/news"
+    news_file = news_dir / "acceptance-to-ieee-access/index.md"
+    news_file.parent.mkdir(parents=True)
+    news_file.write_text(
+        """---
+title: "Accepted our journal paper to IEEE Access"
+tags: ["News"]
+categories: ["News"]
+---
+
+No conference information.
+""",
+        encoding="utf-8",
+    )
+
+    io = module.FrontmatterIO()
+    modified, details = module.sync_existing_news_tags(
+        news_dir,
+        {},
+        io,
+        dry_run=False,
+    )
+
+    frontmatter, _ = io.read(news_file)
+    assert modified == 0
+    assert details == []
+    assert list(frontmatter["tags"]) == ["News"]

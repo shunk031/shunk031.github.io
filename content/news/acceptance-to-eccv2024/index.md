@@ -5,7 +5,7 @@ title: "Accepted our paper to ECCV2024"
 subtitle: ""
 summary: ""
 authors: ["Shoma Iwai", "Atsuki Osanai", "Shunsuke Kitada", "Shinichiro Omachi"]
-tags: ["News"]
+tags: ["News", ECCV, ECCV2024]
 categories: ["News"]
 date: 2024-07-01T00:00:00+09:00
 lastmod: 2024-07-01T08:00:00+00:00
