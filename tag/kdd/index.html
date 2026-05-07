@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: May 5, 2026 --><html lang="en-us" >
+<!-- Last Published: May 7, 2026 --><html lang="en-us" >
 
 
 <head>
@@ -509,6 +509,43 @@
     will-change: transform;
   }
 
+  html.js-about-hero-pending #about #profile {
+    opacity: 0;
+    transform: translateY(26px) scale(0.97);
+  }
+
+  html.js-about-hero-pending #about #profile .avatar {
+    opacity: 0;
+    transform: translateY(22px) scale(0.96);
+  }
+
+  html.js-about-hero-pending #about #profile .portrait-title {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  html.js-about-hero-pending #about h1 {
+    opacity: 0;
+    transform: translateY(20px);
+    letter-spacing: 0.04em;
+  }
+
+  html.js-about-hero-pending #about .article-style,
+  html.js-about-hero-pending #about .ul-interests,
+  html.js-about-hero-pending #about .ul-edu {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+
+  html.js-about-hero-pending #about .col-md-5 .section-subheading,
+  html.js-about-hero-pending #about .col-md-7 .section-subheading,
+  html.js-about-hero-pending #about #profile .network-icon li,
+  html.js-about-hero-pending #about .ul-interests li,
+  html.js-about-hero-pending #about .ul-edu li {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+
   @media (prefers-reduced-motion: reduce) {
     .scroll-progress__bar,
     .js-reveal-item,
@@ -524,8 +561,15 @@
 </style>
 
 <script>
+  (function () {
+    if (typeof window === 'undefined' || typeof document === 'undefined') return;
+    if (typeof window.matchMedia === 'function' && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    document.documentElement.classList.add('js-about-hero-pending');
+  })();
+
   document.addEventListener('DOMContentLoaded', function () {
     var reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var root = document.documentElement;
 
     initScrollProgress();
     initHeroEntrance();
@@ -571,9 +615,14 @@
 
     function initHeroEntrance() {
       var about = getAboutSection();
-      if (!about) return;
-      if (reducedMotion) return;
-      if (typeof Element === 'undefined' || !Element.prototype.animate) return;
+      if (!about || reducedMotion) {
+        root.classList.remove('js-about-hero-pending');
+        return;
+      }
+      if (typeof Element === 'undefined' || !Element.prototype.animate) {
+        root.classList.remove('js-about-hero-pending');
+        return;
+      }
 
       var profile = about.querySelector('#profile');
       var avatar = about.querySelector('#profile .avatar');
@@ -692,6 +741,8 @@
           fill: 'both'
         });
       });
+
+      root.classList.remove('js-about-hero-pending');
     }
 
     function initScrollReveal(isReduced) {
@@ -1471,7 +1522,7 @@
           Last updated on
       
     
-    May 6, 2026
+    May 7, 2026
   </span>
   
 
