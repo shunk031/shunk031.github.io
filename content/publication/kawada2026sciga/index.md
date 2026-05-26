@@ -42,7 +42,7 @@ links:
 url_pdf: 
 url_code: https://github.com/IyatomiLab/SciGA
 url_dataset: https://huggingface.co/datasets/iyatomilab/SciGA
-url_poster:
+url_poster: publication/kawada2026sciga/poster.pdf
 url_project: https://iyatomilab.github.io/SciGA/
 url_slides:
 url_source: 
