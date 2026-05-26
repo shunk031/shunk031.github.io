@@ -2,4 +2,6 @@
 # Automatically generated
 # Documentation: https://docs.netlify.com/routing/redirects/
 /news/cvpr-2026-presentations/ /news/acceptance-to-findings-of-cvpr-2026/
+/publication/nagai2025taue/ /publication/nagai2026taue/
+/publication/kawada2025sciga/ /publication/kawada2026sciga/
 /post/coloso-introduction-to-image-generation-ai/ /post/fastcampus-introduction-to-image-generation-ai/
