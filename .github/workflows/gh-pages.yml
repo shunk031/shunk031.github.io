@@ -1,6 +1,7 @@
 name: Page Build
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -72,7 +73,7 @@ jobs:
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        if: (github.event_name == 'push' || github.event_name == 'workflow_dispatch') && github.ref == 'refs/heads/main'
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ${{ vars.ARTIFACT_PATH }}
