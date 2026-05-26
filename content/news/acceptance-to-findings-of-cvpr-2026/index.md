@@ -33,5 +33,5 @@ aliases:
 
 The following papers have been accepted to the Findings of CVPR 2026:
 
-- Takuro Kawada, Shunsuke Kitada, Sota Nemoto, Hitoshi Iyatomi. ["SciGA: A Comprehensive Dataset for Designing Graphical Abstracts in Academic Papers"](/publication/kawada2025sciga).
-- Daichi Nagai, Ryugo Morita, Shunsuke Kitada, Hitoshi Iyatomi. ["TAUE: Training-free Noise Transplant and Cultivation Diffusion Model"](/publication/nagai2025taue).
+- Takuro Kawada, Shunsuke Kitada, Sota Nemoto, Hitoshi Iyatomi. ["SciGA: A Comprehensive Dataset for Designing Graphical Abstracts in Academic Papers"](/publication/kawada2026sciga).
+- Daichi Nagai, Ryugo Morita, Shunsuke Kitada, Hitoshi Iyatomi. ["TAUE: Training-free Noise Transplant and Cultivation Diffusion Model"](/publication/nagai2026taue).

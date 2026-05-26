@@ -24,6 +24,9 @@ abstract: "Graphical Abstracts (GAs) play a crucial role in visually conveying t
 # Summary. An optional shortened abstract.
 summary: "Findings of CVPR2026 (**Acceptance rate = 36.09%**)"
 
+aliases:
+  - /publication/kawada2025sciga/
+
 tags: ["International Conference", "Refereed", "AI for Science", "Natural Language Processing", "Computer Vision", "Vision & Language", "Dataset", "CVPR", "CVPR2026"]
 categories: ["Natural Language Processing", "Vision & Language", "AI for Science"]
 featured: false

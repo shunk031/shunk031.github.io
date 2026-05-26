@@ -24,6 +24,9 @@ abstract: "Despite the remarkable success of text-to-image diffusion models, the
 # Summary. An optional shortened abstract.
 summary: "Findings of CVPR2026 (**Acceptance rate = 36.09%**)"
 
+aliases:
+  - /publication/nagai2025taue/
+
 tags:
 - "International Conference"
 - "Refereed"
