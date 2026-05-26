@@ -7,3 +7,6 @@ shunk031.me
 
 # Google Scholar often returns 403 to automated CI checks even when the page is live.
 scholar.google.com/citations
+
+# cl.sd.tmu.ac.jp has timed out in CI for the DC2 post.
+cl.sd.tmu.ac.jp
