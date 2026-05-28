@@ -49,7 +49,7 @@ links:
 url_pdf:
 url_code:
 url_dataset:
-url_poster:
+url_poster: publication/nagai2026taue/poster.pdf
 url_project: https://iyatomilab.github.io/TAUE
 url_slides:
 url_source:
