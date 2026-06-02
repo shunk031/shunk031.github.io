@@ -38,6 +38,8 @@ links:
   url: https://arxiv.org/abs/2507.02212
   icon_pack: ai
   icon: arxiv
+- name: CVF
+  url: https://openaccess.thecvf.com/content/CVPR2026F/html/Kawada_SciGA_A_Comprehensive_Dataset_for_Designing_Graphical_Abstracts_in_Academic_CVPRF_2026_paper.html
 
 url_pdf: 
 url_code: https://github.com/IyatomiLab/SciGA
