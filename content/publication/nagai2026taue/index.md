@@ -45,11 +45,13 @@ links:
   url: https://arxiv.org/abs/2511.02580
   icon_pack: ai
   icon: arxiv
+- name: CVF
+  url: https://openaccess.thecvf.com/content/CVPR2026F/html/Nagai_TAUE_Training-free_Noise_Transplant_and_Cultivation_Diffusion_Model_CVPRF_2026_paper.html
 
 url_pdf:
 url_code:
 url_dataset:
-url_poster:
+url_poster: publication/nagai2026taue/poster.pdf
 url_project: https://iyatomilab.github.io/TAUE
 url_slides:
 url_source:
