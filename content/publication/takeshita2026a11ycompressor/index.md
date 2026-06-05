@@ -51,7 +51,7 @@ links:
 url_pdf:
 url_code:
 url_dataset:
-url_poster:
+url_poster: publication/takeshita2026a11ycompressor/poster.pdf
 url_project: https://iyatomilab.github.io/a11y-compressor/
 url_slides:
 url_source:
