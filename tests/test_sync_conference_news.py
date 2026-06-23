@@ -68,6 +68,56 @@ def test_render_news_markdown_keeps_conference_tags_for_acceptance_news() -> Non
     assert "The following paper has been accepted to Findings of CVPR 2026:" in markdown
 
 
+def test_render_news_markdown_prioritizes_site_owner_first_author_papers() -> None:
+    module = load_sync_conference_news_module()
+
+    conf = module.ConferenceKey(
+        name="MIRU",
+        year="2026",
+        display_label="MIRU 2026",
+        news_kind=module.NEWS_KIND_PRESENTATIONS,
+    )
+    publications = [
+        module.Publication(
+            path=Path("content/publication/kawada2026miru/index.md"),
+            slug="kawada2026miru",
+            title="Generation and Evaluation of Editable Graphical Abstracts",
+            authors=["Takuro Kawada", "Shunsuke Kitada", "Hitoshi Iyatomi"],
+            date="2026-08-03T00:00:00+09:00",
+            conf=conf,
+        ),
+        module.Publication(
+            path=Path("content/publication/example2026miru/index.md"),
+            slug="example2026miru",
+            title="Japanese Author Example",
+            authors=["北田 俊輔", "川田 拓朗", "彌冨 仁"],
+            date="2026-08-03T00:00:00+09:00",
+            conf=conf,
+        ),
+    ]
+
+    markdown = module.render_news_markdown(
+        conf,
+        publications,
+        author="Shunsuke Kitada",
+        conference_date="2026-08-03T00:00:00+09:00",
+        draft=False,
+    )
+
+    first_owner_author = (
+        '- 北田 俊輔, 川田 拓朗, 彌冨 仁. '
+        '["Japanese Author Example"](/publication/example2026miru).'
+    )
+    non_owner_first_author = (
+        '- Takuro Kawada, Shunsuke Kitada, Hitoshi Iyatomi. '
+        '["Generation and Evaluation of Editable Graphical Abstracts"]'
+        "(/publication/kawada2026miru)."
+    )
+    assert first_owner_author in markdown
+    assert non_owner_first_author in markdown
+    assert markdown.index(first_owner_author) < markdown.index(non_owner_first_author)
+
+
 def test_sync_existing_news_tags_backfills_from_linked_publications(tmp_path: Path) -> None:
     module = load_sync_conference_news_module()
 
