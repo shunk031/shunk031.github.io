@@ -32,6 +32,7 @@ JOURNAL_LIKE_SHORTS = {
     "Applied Sciences",
     "Ph.D. dissertation",
 }
+NEWS_LEAD_AUTHOR_NAMES = ("Shunsuke Kitada", "北田 俊輔")
 
 
 @dataclass(frozen=True)
@@ -369,6 +370,19 @@ def sync_existing_news_tags(
     return modified, details
 
 
+def lead_author_sort_key(publication: Publication) -> tuple[int, str]:
+    """Return a key that lists site-owner first-author papers first in news."""
+
+    first_author = publication.authors[0] if publication.authors else ""
+    return (0 if first_author in NEWS_LEAD_AUTHOR_NAMES else 1, publication.slug)
+
+
+def format_news_authors(authors: list[str]) -> str:
+    """Return author text for news without changing publication author order."""
+
+    return ", ".join(authors) if authors else "Unknown Author"
+
+
 def render_news_markdown(
     conf: ConferenceKey,
     publications: list[Publication],
@@ -426,8 +440,8 @@ def render_news_markdown(
         body,
         "",
     ]
-    for publication in publications:
-        author_text = ", ".join(publication.authors) if publication.authors else "Unknown Author"
+    for publication in sorted(publications, key=lead_author_sort_key):
+        author_text = format_news_authors(publication.authors)
         title_text = publication.title.replace('"', '\\"')
         lines.append(
             f'- {author_text}. ["{title_text}"](/publication/{publication.slug}).'
