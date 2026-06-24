@@ -5,12 +5,25 @@
     <link>https://shunk031.me/tag/news/</link>
       <atom:link href="https://shunk031.me/tag/news/index.xml" rel="self" type="application/rss+xml" />
     <description>News</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 05 May 2026 00:00:00 +0900</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 03 Aug 2026 00:00:00 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.me/media/sharing.png</url>
       <title>News</title>
       <link>https://shunk031.me/tag/news/</link>
     </image>
+    
+    <item>
+      <title>Our Presentations at MIRU 2026</title>
+      <link>https://shunk031.me/news/miru-2026-presentations/</link>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/news/miru-2026-presentations/</guid>
+      <description>&lt;p&gt;We will present the following papers at MIRU 2026:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Shunsuke Kitada, Shoma Iwai, Ryota Yoshihashi, Atsuki Osanai. &lt;a href=&#34;https://shunk031.me/publication/kitada2026miru&#34;&gt;&amp;ldquo;DesignCorrection-R1: Learning to Reason for Graphic Design Correction&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Takuro Kawada, Shunsuke Kitada, Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.me/publication/kawada2026miru&#34;&gt;&amp;ldquo;Generation and Evaluation of Editable Graphical Abstracts for Academic Papers&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Accepted our papers to ACL2026 SRW</title>

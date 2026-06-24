@@ -5,12 +5,28 @@
     <link>https://shunk031.me/tag/non-refereed/</link>
       <atom:link href="https://shunk031.me/tag/non-refereed/index.xml" rel="self" type="application/rss+xml" />
     <description>Non-Refereed</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 09 Mar 2026 00:00:00 +0900</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 03 Aug 2026 00:00:00 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.me/media/sharing.png</url>
       <title>Non-Refereed</title>
       <link>https://shunk031.me/tag/non-refereed/</link>
     </image>
+    
+    <item>
+      <title>DesignCorrection-R1: Learning to Reason for Graphic Design Correction</title>
+      <link>https://shunk031.me/publication/kitada2026miru/</link>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/kitada2026miru/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generation and Evaluation of Editable Graphical Abstracts for Academic Papers</title>
+      <link>https://shunk031.me/publication/kawada2026miru/</link>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/kawada2026miru/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Compressed-a11y: 視覚的文脈の再構成と冗長性削減による GUI エージェント観測の効率化</title>

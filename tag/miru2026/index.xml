@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MIRU2026 | shunk031.me</title>
+    <link>https://shunk031.me/tag/miru2026/</link>
+      <atom:link href="https://shunk031.me/tag/miru2026/index.xml" rel="self" type="application/rss+xml" />
+    <description>MIRU2026</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 03 Aug 2026 00:00:00 +0900</lastBuildDate>
+    <image>
+      <url>https://shunk031.me/media/sharing.png</url>
+      <title>MIRU2026</title>
+      <link>https://shunk031.me/tag/miru2026/</link>
+    </image>
+    
+    <item>
+      <title>DesignCorrection-R1: Learning to Reason for Graphic Design Correction</title>
+      <link>https://shunk031.me/publication/kitada2026miru/</link>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/kitada2026miru/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generation and Evaluation of Editable Graphical Abstracts for Academic Papers</title>
+      <link>https://shunk031.me/publication/kawada2026miru/</link>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/kawada2026miru/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Our Presentations at MIRU 2026</title>
+      <link>https://shunk031.me/news/miru-2026-presentations/</link>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/news/miru-2026-presentations/</guid>
+      <description>&lt;p&gt;We will present the following papers at MIRU 2026:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Shunsuke Kitada, Shoma Iwai, Ryota Yoshihashi, Atsuki Osanai. &lt;a href=&#34;https://shunk031.me/publication/kitada2026miru&#34;&gt;&amp;ldquo;DesignCorrection-R1: Learning to Reason for Graphic Design Correction&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Takuro Kawada, Shunsuke Kitada, Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.me/publication/kawada2026miru&#34;&gt;&amp;ldquo;Generation and Evaluation of Editable Graphical Abstracts for Academic Papers&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
