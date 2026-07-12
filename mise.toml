@@ -1,5 +1,5 @@
 [tools]
-hugo-extended = "0.136.5"
+hugo-extended = "0.155.3"
 lychee = "0.24.2"
 
 "go:github.com/shunk031/tcardgen" = "latest"
