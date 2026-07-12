@@ -4,7 +4,7 @@ shunk031.me (Hugo 製個人サイト) のエージェント向け作業ガイド
 
 ## セットアップ
 
-- ツール管理: 作業開始時に `mise install` を実行してください。hugo-extended / lychee のバージョンは `mise.toml` が single source of truth で、CI も `mise.toml` から読み取ります。バージョンを変えるときは `mise.toml` だけを変更してください。
+- ツール管理: 作業開始時に `make setup` (= `mise install`) を実行してください。hugo-extended / lychee のバージョンは `mise.toml` が single source of truth で、CI も `mise.toml` から読み取ります。バージョンを変えるときは `mise.toml` だけを変更してください。
 - ローカルサーバ: `make run` で起動します。その他の定型操作 (`make post` / `make news` / `make event` / `make publication` など) は `Makefile` と `README.md` を参照してください。
 - ビルド検証: `mise exec -- hugo --gc --minify --printUnusedTemplates` を CI と同条件として使ってください。`layouts/` 配下に未使用テンプレートの警告が出ると CI が fail します。
 

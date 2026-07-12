@@ -106,6 +106,10 @@ This script will:
   - Icons: https://docs.hugoblox.com/reference/markdown/#inline-image
   - Emojis: https://docs.hugoblox.com/reference/markdown/#emojis
 
+## 🤖 For coding agents
+
+Claude Code や Codex などのエージェントで作業する場合は、リポジトリ固有の作業規約をまとめた [AGENTS.md](AGENTS.md) を参照してください (`CLAUDE.md` は AGENTS.md への symlink です)。
+
 ## 📝 License
 
 The code and styles are licensed under the MIT license. [See project license.](LICENSE) Obviously you should not use the content of this demo repo in your own resume. :wink:
