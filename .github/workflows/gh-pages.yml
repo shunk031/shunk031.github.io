@@ -30,7 +30,18 @@ jobs:
         uses: jdx/mise-action@v4
 
       - name: Build
-        run: hugo
+        shell: bash
+        run: hugo --printUnusedTemplates 2>&1 | tee /tmp/hugo-build.log
+
+      # Fail if Hugo reports templates under this repository's layouts/ as
+      # unused (dead code). Templates provided by theme modules are ignored
+      # since their source files live outside the workspace.
+      - name: Check for unused local templates
+        run: |
+          if grep "is unused, source file ${GITHUB_WORKSPACE}/layouts/" /tmp/hugo-build.log; then
+            echo "::error::Unused template(s) detected under layouts/. Remove the dead template(s) listed above or reference them."
+            exit 1
+          fi
 
       - name: Upload Build Artifact
         uses: actions/upload-artifact@v7
