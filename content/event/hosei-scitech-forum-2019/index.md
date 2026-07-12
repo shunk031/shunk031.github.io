@@ -44,7 +44,7 @@ image:
 #   Uncomment and edit lines below to show custom links.
 links:
 - name: Poster
-  url: talk/hosei-scitech-forum-2019/poster.pdf
+  url: event/hosei-scitech-forum-2019/poster.pdf
   # icon_pack: fab
   # icon: twitter
 
