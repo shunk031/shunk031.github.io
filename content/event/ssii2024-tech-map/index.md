@@ -25,7 +25,7 @@ all_day: false
 publishDate: 2024-06-12T00:00:00+09:00
 
 authors: ["Shunsuke Kitada", "Atsuki Osanai", "Kenji Doi", "Ryota Yoshihashi", "Nghia Truong"]
-tags: ["Invited Talk", "Invited Predentation"]
+tags: ["Invited Talk", "Invited Presentation"]
 
 # Is this a featured event? (true/false)
 featured: false

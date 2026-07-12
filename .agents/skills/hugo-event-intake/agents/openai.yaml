@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hugo Event Intake"
+  short_description: "Create Hugo event entries from URLs or sparse notes."
+  default_prompt: "Use $hugo-event-intake to gather event details from URLs or short notes, confirm the result with me, and create a new content/event entry for this repo."
