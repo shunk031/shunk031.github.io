@@ -25,7 +25,7 @@ abstract: "Large language models (LLMs) have proven effective for layout generat
 # Summary. An optional shortened abstract.
 summary: ""
 
-tags: ["Preprint", "Non-Refereed", "Layout Generation", "Large Vision-Language Models", "LYCorp", "International Publication"]
+tags: ["Preprint", "Non-refereed", "Layout Generation", "Large Vision-Language Models", "LYCorp", "International Publication"]
 categories: ["Layout Generation", "Creative Graphic Design"]
 featured: false
 

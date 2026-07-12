@@ -1,0 +1,7 @@
+# Config for crate-ci/typos (run in CI via .github/workflows/gh-pages.yml).
+# The built-in dictionary misses these site-specific typos, so register them
+# explicitly. See https://github.com/crate-ci/typos/blob/master/docs/reference.md
+[default.extend-words]
+geneartion = "generation"
+predentation = "presentation"
+powerd = "powered"

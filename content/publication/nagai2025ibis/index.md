@@ -30,7 +30,7 @@ tags:
 - "Image Generation"
 - "Diffusion Model"
 - "IBIS"
-- IBIS2025
+- "IBIS2025"
 categories: ["Computer Vision", "Image Generation", "Layout-to-Image Generation", "Noise Optimization"]
 featured: false
 
