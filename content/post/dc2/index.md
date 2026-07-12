@@ -71,7 +71,7 @@ image:
 
 ## 学振 DC2 採用の体験談について（2022/04/01 更新）
 
-学内で開催された [2023（令和 5）年度 日本学術振興会特別研究員（ＤＣ１・ＤＣ２）申請に関する セミナー](https://www.hosei.ac.jp/kenkyu/info/article-20220228215045/) にて、[私の学振 DC2 体験談（発表資料{{< icon name="speaker-deck" pack="fab" >}})](/talk/my-experience-about-jsps-research-fellowship) という講演をしました。学振特別研究員になってよかったこと、採用までの（長かった）道のり、申請作作成の注意点などをまとめています。
+学内で開催された [2023（令和 5）年度 日本学術振興会特別研究員（ＤＣ１・ＤＣ２）申請に関する セミナー](https://www.hosei.ac.jp/kenkyu/info/article-20220228215045/) にて、[私の学振 DC2 体験談（発表資料{{< icon name="speaker-deck" pack="fab" >}})](/event/jsps-dc-hosei-seminar-2023/) という講演をしました。学振特別研究員になってよかったこと、採用までの（長かった）道のり、申請書作成の注意点などをまとめています。
 
 [^1]: 学内で [申請セミナーの開催](https://www.hosei.ac.jp/gs/info/article-20200305102401) や [DC2 申請支援制度](https://www.hosei.ac.jp/kenkyu/info/article-20200525125134) があり、それぞれ活用させていただきました。
 

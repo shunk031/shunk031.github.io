@@ -2,6 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "[Invited Talk] CCSE 2019"
+aliases: ["/talk/ccse-2019/"]
 event: "CCSE2019: conference, on computer science for enterprise"
 event_url: https://ccse.jp/2019/
 location: Ito Hall, The University of Tokyo

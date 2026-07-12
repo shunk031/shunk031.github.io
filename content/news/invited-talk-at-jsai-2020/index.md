@@ -34,4 +34,4 @@ projects: []
 
 ## See also
 
-- [The Present and Future of Machine Learning for Ad Creatives](/talk/the-present-and-future-of-machine-learning-for-ad-creatives/)
+- [The Present and Future of Machine Learning for Ad Creatives](/event/jsai2020-os-invited-talk/)

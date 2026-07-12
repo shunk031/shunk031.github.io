@@ -2,6 +2,7 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "[Invited Talk] My experience about JSPS Research Fellowship"
+aliases: ["/talk/my-experience-about-jsps-research-fellowship/"]
 event: Seminar on applying for JSPS Research Fellowship (DC1 and DC2)
 event_url: https://www.hosei.ac.jp/kenkyu/info/article-20220228215045/
 location: Online

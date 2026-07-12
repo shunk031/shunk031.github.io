@@ -2,6 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "[Invited Talk] The Present and Future of Machine Learning for Ad Creatives"
+aliases: ["/talk/the-present-and-future-of-machine-learning-for-ad-creatives/"]
 event: The 34th Annual Conference of the Japanese Society for Artificial Intelligence, 2020
 event_url: https://confit.atlas.jp/guide/event/jsai2020/subject/1H3-OS-12a-05/tables?cryptoId=
 location: Kumamoto-Jo Hall
