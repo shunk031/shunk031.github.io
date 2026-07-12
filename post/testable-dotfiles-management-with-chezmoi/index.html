@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: June 24, 2026 --><html lang="en-us" >
+<!-- Last Published: July 12, 2026 --><html lang="en-us" >
 
 
 <head>
@@ -379,7 +379,7 @@
     />
   
   
-    <meta property="article:modified_time" content="2026-06-24T18:57:23&#43;09:00">
+    <meta property="article:modified_time" content="2026-07-12T13:13:44&#43;09:00">
   
 
 
@@ -414,7 +414,7 @@
   ],
   
   "datePublished": "2025-10-06T20:00:00+09:00",
-  "dateModified": "2026-06-24T18:57:23+09:00",
+  "dateModified": "2026-07-12T13:13:44+09:00",
   
   "author": {
     "@type": "Person",
@@ -1355,7 +1355,7 @@
           Last updated on
       
     
-    Jun 24, 2026
+    Jul 12, 2026
   </span>
   
 
@@ -1467,7 +1467,7 @@
 <p>This lack of quality assurance results in what should be automated environment construction consuming a lot of time on manual problem-solving and debugging.</p>
 <h3 id="my-repositorys-approach-testable-configuration">My Repository&rsquo;s Approach: Testable Configuration</h3>
 <p>To solve the above problems, my dotfiles repository builds an architecture that emphasizes testability. Setup scripts are managed as independent files to enable individual testing, quality is ensured through automated testing with <a href="https://github.com/bats-core/bats-core" target="_blank" rel="noopener">Bats</a>, and continuous testing and code coverage measurement are performed in macOS and Ubuntu environments using GitHub Actions.</p>
-<p>For managing dotfiles, I&rsquo;ve adopted <a href="https://www.chezmoi.io/" target="_blank" rel="noopener">chezmoi</a>. chezmoi is a modern dotfiles management tool with high popularity on GitHub (<a href="https://github.com/twpayne/chezmoi/stargazers" target="_blank" rel="noopener">10,000+⭐️</a>). Written in Go as a single, dependency-free binary, chezmoi is easy to install even on a brand-new, clean environment.</p>
+<p>For managing dotfiles, I&rsquo;ve adopted <a href="https://www.chezmoi.io/" target="_blank" rel="noopener">chezmoi</a>. chezmoi is a modern dotfiles management tool with high popularity on GitHub (<a href="https://github.com/twpayne/chezmoi" target="_blank" rel="noopener">10,000+⭐️</a>). Written in Go as a single, dependency-free binary, chezmoi is easy to install even on a brand-new, clean environment.</p>
 <p><div class="blogcard">
     <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;"
         src="https://hatenablog-parts.com/embed?url=https%3a%2f%2fgithub.com%2ftwpayne%2fchezmoi" width="300" height="150" frameborder="0"
@@ -1524,17 +1524,17 @@
 <h4 id="the-install-directory-easy-unit-testing-through-script-separation">The <code>install/</code> directory: Easy Unit Testing Through Script Separation</h4>
 <p>By making setup scripts independent from chezmoi, individual testing becomes possible.</p>
 <ul>
-<li><a href="https://github.com/shunk031/dotfiles/blob/master/install/common/rust.sh" target="_blank" rel="noopener"><code>install/common/rust.sh</code></a>: Installation of tools used commonly across machines (e.g., Rust)</li>
-<li><a href="https://github.com/shunk031/dotfiles/blob/master/install/macos/common/brew.sh" target="_blank" rel="noopener"><code>install/macos/common/brew.sh</code></a>: Installation of Homebrew used commonly on macOS</li>
-<li><a href="https://github.com/shunk031/dotfiles/blob/master/install/ubuntu/common/misc.sh" target="_blank" rel="noopener"><code>install/ubuntu/common/misc.sh</code></a>: Installation of tools used commonly on Ubuntu (e.g., curl, jq)</li>
+<li><a href="https://github.com/shunk031/dotfiles/blob/main/install/common/mise.sh" target="_blank" rel="noopener"><code>install/common/mise.sh</code></a>: Installation of tools used commonly across machines via mise</li>
+<li><a href="https://github.com/shunk031/dotfiles/blob/main/install/macos/common/brew.sh" target="_blank" rel="noopener"><code>install/macos/common/brew.sh</code></a>: Installation of Homebrew used commonly on macOS</li>
+<li><a href="https://github.com/shunk031/dotfiles/blob/main/install/ubuntu/common/dependencies.sh" target="_blank" rel="noopener"><code>install/ubuntu/common/dependencies.sh</code></a>: Installation of tools used commonly on Ubuntu (e.g., curl, jq)</li>
 </ul>
 <p>Platform-specific configuration separates OS-specific logic, allowing each to be tested independently. Each script follows the single responsibility principle, handling only the installation of specific tools or packages.</p>
 <h4 id="the-home-directory-chezmoi-templates-and-dotfiles">The <code>home/</code> directory: chezmoi Templates and dotfiles</h4>
 <p>These are the actual dotfiles under chezmoi management. They follow chezmoi&rsquo;s unique file naming conventions <a href="https://www.chezmoi.io/user-guide/frequently-asked-questions/design/#why-does-chezmoi-use-weird-filenames" target="_blank" rel="noopener">(<code>dot_</code> prefix etc.)</a> and utilize template functionality. This repository specifies <code>home</code> as the source directory using the <a href="https://www.chezmoi.io/user-guide/advanced/customize-your-source-directory/" target="_blank" rel="noopener">.chezmoiroot</a> file<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</p>
 <ul>
-<li><a href="https://github.com/shunk031/dotfiles/blob/master/home/dot_zshrc" target="_blank" rel="noopener"><code>home/dot_zshrc</code></a>: deployed as <code>~/.zshrc</code></li>
-<li><a href="https://github.com/shunk031/dotfiles/blob/master/home/dot_config/git/config.tmpl" target="_blank" rel="noopener"><code>home/dot_config/git/config.tmpl</code></a>: chezmoi template deployed as <code>~/.config/git/config</code></li>
-<li><a href="https://github.com/shunk031/dotfiles/blob/master/home/.chezmoi.yaml.tmpl" target="_blank" rel="noopener"><code>home/.chezmoi.yaml.tmpl</code></a>: chezmoi configuration file</li>
+<li><a href="https://github.com/shunk031/dotfiles/blob/main/home/dot_zshrc" target="_blank" rel="noopener"><code>home/dot_zshrc</code></a>: deployed as <code>~/.zshrc</code></li>
+<li><a href="https://github.com/shunk031/dotfiles/blob/main/home/dot_config/git/config.tmpl" target="_blank" rel="noopener"><code>home/dot_config/git/config.tmpl</code></a>: chezmoi template deployed as <code>~/.config/git/config</code></li>
+<li><a href="https://github.com/shunk031/dotfiles/blob/main/home/.chezmoi.yaml.tmpl" target="_blank" rel="noopener"><code>home/.chezmoi.yaml.tmpl</code></a>: chezmoi configuration file</li>
 </ul>
 <p>It&rsquo;s independent from the scripts in the <code>install/</code> directory, separating configuration file placement and environment construction.</p>
 <h4 id="the-tests-directory-automated-testing-with-bats">The <code>tests/</code> directory: Automated Testing with Bats</h4>
@@ -1546,9 +1546,9 @@
 </div>
 
 <ul>
-<li><a href="https://github.com/shunk031/dotfiles/blob/master/tests/install/common/rust.bats" target="_blank" rel="noopener"><code>tests/install/common/rust.bats</code></a>: Tests for Rust installation script</li>
-<li><a href="https://github.com/shunk031/dotfiles/blob/master/tests/install/macos/common/brew.bats" target="_blank" rel="noopener"><code>tests/install/macos/common/brew.bats</code></a>: Tests for Homebrew installation script</li>
-<li><a href="https://github.com/shunk031/dotfiles/blob/master/tests/files/common.bats" target="_blank" rel="noopener"><code>tests/files/common.bats</code></a>: Verification of file existence after chezmoi deployment</li>
+<li><a href="https://github.com/shunk031/dotfiles/blob/main/tests/install/common/mise.bats" target="_blank" rel="noopener"><code>tests/install/common/mise.bats</code></a>: Tests for mise installation script</li>
+<li><a href="https://github.com/shunk031/dotfiles/blob/main/tests/install/macos/common/brew.bats" target="_blank" rel="noopener"><code>tests/install/macos/common/brew.bats</code></a>: Tests for Homebrew installation script</li>
+<li><a href="https://github.com/shunk031/dotfiles/blob/main/tests/files/common.bats" target="_blank" rel="noopener"><code>tests/files/common.bats</code></a>: Verification of file existence after chezmoi deployment</li>
 </ul>
 <p>Each test file verifies the script&rsquo;s behavior and confirms that expected results (package installation, configuration file generation, etc.) are obtained.</p>
 <h2 id="test--cicd-strategy">Test &amp; CI/CD Strategy</h2>
@@ -1605,7 +1605,7 @@
 </span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Upload coverage reports</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">codecov/codecov-action@v3</span><span class="w">
 </span></span></span></code></pre></div><h4 id="regular-execution-of-actual-setup">Regular Execution of Actual Setup</h4>
-<p>More importantly, we should verify in environments identical to the actual user experience. This repository&rsquo;s workflow automatically executes the setup process using <a href="https://github.com/shunk031/dotfiles/blob/master/setup.sh" target="_blank" rel="noopener"><code>setup.sh</code></a> on macOS and Ubuntu runners every Friday. This script wraps the chezmoi environment construction one-liner mentioned earlier.</p>
+<p>More importantly, we should verify in environments identical to the actual user experience. This repository&rsquo;s workflow automatically executes the setup process using <a href="https://github.com/shunk031/dotfiles/blob/main/setup.sh" target="_blank" rel="noopener"><code>setup.sh</code></a> on macOS and Ubuntu runners every Friday. This script wraps the chezmoi environment construction one-liner mentioned earlier.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml:.github/workflows/remote.yaml" data-lang="yaml:.github/workflows/remote.yaml"><span class="line"><span class="cl"><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Snippet install</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">on</span><span class="p">:</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">schedule</span><span class="p">:</span><span class="w">
@@ -1632,7 +1632,7 @@
 </span></span></span><span class="line"><span class="cl"><span class="sd">          fi</span><span class="w">          
 </span></span></span></code></pre></div><p>This regular execution continuously monitors the impact of external dependency changes, OS updates, and package manager changes on environment construction, ensuring reliability when actual users execute the setup.</p>
 <h4 id="code-coverage-measurement-and-codecov-integration">Code Coverage Measurement and Codecov Integration</h4>
-<p>My repository measures shell script code coverage using <a href="https://github.com/SimonKagstrom/kcov" target="_blank" rel="noopener">kcov</a> and visualizes it with <a href="https://codecov.io/" target="_blank" rel="noopener">Codecov</a>. This helps identify untested code paths and improve testing. Actual measurement uses <a href="https://github.com/shunk031/dotfiles/blob/master/scripts/run_unit_test.sh" target="_blank" rel="noopener"><code>scripts/run_unit_test.sh</code></a>.</p>
+<p>My repository measures shell script code coverage using <a href="https://github.com/SimonKagstrom/kcov" target="_blank" rel="noopener">kcov</a> and visualizes it with <a href="https://codecov.io/" target="_blank" rel="noopener">Codecov</a>. This helps identify untested code paths and improve testing. Actual measurement uses <a href="https://github.com/shunk031/dotfiles/blob/main/scripts/run_unit_test.sh" target="_blank" rel="noopener"><code>scripts/run_unit_test.sh</code></a>.</p>
 <p><div class="blogcard">
     <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;"
         src="https://hatenablog-parts.com/embed?url=https%3a%2f%2fgithub.com%2fSimonKagstrom%2fkcov" width="300" height="150" frameborder="0"
