@@ -9,6 +9,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: read
+
 jobs:
   check-typo:
     runs-on: ubuntu-latest
@@ -68,13 +71,14 @@ jobs:
         uses: lycheeverse/lychee-action@v2
         with:
           fail: true
-          lycheeVersion: v0.21.0
+          lycheeVersion: v0.24.2
           # --root-dir is required to resolve root-relative links (e.g. /talk/...)
           # in the built HTML; without it lychee silently skips them.
           args: "${{ vars.ARTIFACT_PATH }} --root-dir ${{ github.workspace }}/${{ vars.ARTIFACT_PATH }} --config .lychee/config.toml --exclude-file .lychee/exclude-temporary.txt --exclude-file .lychee/exclude-permanent.txt"
 
   deploy:
-    needs: build
+    needs: [build, check-broken-links]
+    if: (github.event_name == 'push' || github.event_name == 'workflow_dispatch') && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
 
     steps:
@@ -86,7 +90,6 @@ jobs:
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
-        if: (github.event_name == 'push' || github.event_name == 'workflow_dispatch') && github.ref == 'refs/heads/main'
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ${{ vars.ARTIFACT_PATH }}
