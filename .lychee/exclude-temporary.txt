@@ -23,3 +23,8 @@ confit.atlas.jp
 www.scimagojr.com
 clustrmaps.com
 www.meethawaii.com/convention-center/
+
+# The page is alive (curl returns 200) but lychee >= v0.24 (rustls) cannot
+# complete a TLS handshake because the server only offers legacy TLS cipher
+# suites. Re-check regularly in case the server's TLS config is upgraded.
+book.impress.co.jp
