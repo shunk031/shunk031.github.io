@@ -2,6 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "[Invited Talk] ウェブサービス事業者における研究開発インターン ～Gunosy株式会社～"
+aliases: ["/talk/text-analytics-symposium-2019/"]
 event: "第 15 回テキストアナリティクス・シンポジウム"
 event_url: http://www.ieice.org/~nlc/tm15a.html
 location: Future Corporation

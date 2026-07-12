@@ -2,6 +2,7 @@
 # Documentation: https://docs.hugoblox.com/managing-content/
 
 title: "[Invited Presentation] SSII2024 Technical map: Creative Design Generation (SSII'24)"
+aliases: ["/talk/ssii2024-technical-map-creative-design-generation-ssii24/"]
 event: SSII2024 30周年記念特別企画 技術マップ
 event_url: https://confit.atlas.jp/guide/event/ssii2024/static/special_project_tech_map
 location: Annex Hall, Pacific Convention Plaza Yokohama

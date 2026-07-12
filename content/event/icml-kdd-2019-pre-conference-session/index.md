@@ -2,6 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "[Invited Talk] ICML/KDD 2019 Pre-conference session"
+aliases: ["/talk/icml/kdd-2019-pre-conference-session/"]
 event: "ICML/KDD 2019 Pre-conference session"
 event_url: https://lapras.connpass.com/event/130914/
 location: LAPRAS Inc.

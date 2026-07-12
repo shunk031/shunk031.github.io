@@ -2,6 +2,7 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "[Invited Poster] Hosei Scitech Forum 2019"
+aliases: ["/talk/hosei-scitech-forum-2019/"]
 event: "法政科学技術フォーラム 2019"
 event_url: https://www.hosei.ac.jp/riko/NEWS/topics/20190612/
 location: Hosei University, Fujimi gate (G201, Student hall, Tsudoi)
@@ -43,7 +44,7 @@ image:
 #   Uncomment and edit lines below to show custom links.
 links:
 - name: Poster
-  url: talk/hosei-scitech-forum-2019/poster.pdf
+  url: event/hosei-scitech-forum-2019/poster.pdf
   # icon_pack: fab
   # icon: twitter
 

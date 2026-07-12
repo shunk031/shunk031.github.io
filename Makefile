@@ -35,6 +35,7 @@ run : update server
 .PHONY: check-broken-links
 check-broken-links: build
 	lychee public --mode emoji \
+		--root-dir $(CURDIR)/public \
 		--config .lychee/config.toml \
 		--exclude-file .lychee/exclude-temporary.txt \
 		--exclude-file .lychee/exclude-permanent.txt

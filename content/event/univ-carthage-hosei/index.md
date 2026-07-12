@@ -2,6 +2,7 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "[Invited Talk] Recent Issues in Intelligent Robotics, Machine Learning, and Distributed System"
+aliases: ["/talk/recent-issues-in-intelligent-robotics-machine-learning-and-distributed-system/"]
 event: "The 1st Univ. Carthage – Hosei International Joint Webinar with honorable support by the Embassy of the Republic of Tunisia in Japan"
 event_url:
 location: Online

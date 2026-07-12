@@ -2,6 +2,7 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "[Journal Club] Expressions Causing Differences in Emotion Recognition in Social Networking Service Documents (CIKM'22)"
+aliases: ["/talk/expressions-causing-differences-in-emotion-recognition-in-social-networking-service-documents-cikm22/"]
 event: IR Reading 2022 Autumn (Online)
 event_url: https://sigirtokyo.github.io/post/2022-11-12-irreading_2022fall/
 location: Online

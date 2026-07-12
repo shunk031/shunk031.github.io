@@ -2,6 +2,7 @@
 # Documentation: https://docs.hugoblox.com/managing-content/
 
 title: "ECCV 2024 速報"
+aliases: ["/talk/eccv-2024-速報/"]
 event: ECCV 2024 速報
 event_url: https://hirokatsukataoka.net/temp/presen/241004ECCV2024Report_finalized.pdf
 location:
