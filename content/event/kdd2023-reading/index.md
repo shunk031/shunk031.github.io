@@ -2,6 +2,7 @@
 # Documentation: https://hugoblox.com/docs/managing-content/
 
 title: "[Journal Club] BERT4CTR: An Efficient Framework to Combine Pre-trained Language Model with Non-textual Features for CTR Prediction (KDD'23)"
+aliases: ["/talk/bert4ctr-an-efficient-framework-to-combine-pre-trained-language-model-with-non-textual-features-for-ctr-prediction-kdd23/"]
 event: KDD2023 Reading (Online)
 event_url: https://lycorptech-jp.connpass.com/event/302509/
 location: Online

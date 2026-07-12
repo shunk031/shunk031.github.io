@@ -1,0 +1,33 @@
+name: Test
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "tests/**"
+      - "scripts/**"
+      - ".agents/skills/**"
+      - ".github/workflows/test.yml"
+  pull_request:
+    paths:
+      - "tests/**"
+      - "scripts/**"
+      - ".agents/skills/**"
+      - ".github/workflows/test.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v8.3.2
+
+      - name: Run tests
+        run: uv run --with pytest --with ruamel.yaml pytest tests/ -q

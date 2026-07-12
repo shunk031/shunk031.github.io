@@ -2,6 +2,7 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "[Invited Talk] Introduction to AllenNLP to accelerate NLP research"
+aliases: ["/talk/introduction-to-allennlp-to-accelerate-nlp-research/"]
 event: 【NLP Hacks vol.6】『実装』に特化した、NLP 勉強会コミュニティ開催！
 event_url: https://nlp-hacks.connpass.com/event/250755/
 location: Online

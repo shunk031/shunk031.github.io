@@ -2,6 +2,7 @@
 # Documentation: https://docs.hugoblox.com/managing-content/
 
 title: "[Journal Club] Visual Layout Composer: Image-Vector Dual Diffusion Model for Design Layout Generation (CVPR'24)"
+aliases: ["/talk/visual-layout-composer-image-vector-dual-diffusion-model-for-design-layout-generation-cvpr24/"]
 event: The 61st Computer Vision Study Group at Kanto (Part 2)
 event_url: https://kantocv.connpass.com/event/321175/
 location: LYCorp. Kioi-cho Office

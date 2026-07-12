@@ -9,6 +9,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: read
+
 jobs:
   check-typo:
     runs-on: ubuntu-latest
@@ -57,6 +60,13 @@ jobs:
       # Checkout the repository to access the lychee config file
       - uses: actions/checkout@v7
 
+      # Keep mise.toml as the single source of truth for the lychee version
+      - name: Read lychee version from mise.toml
+        id: lychee-version
+        run: |
+          version="$(python3 -c 'import tomllib; print(tomllib.load(open("mise.toml", "rb"))["tools"]["lychee"])')"
+          echo "version=v${version}" >> "$GITHUB_OUTPUT"
+
       - name: Download Build Artifact
         uses: actions/download-artifact@v8
         with:
@@ -68,11 +78,15 @@ jobs:
         uses: lycheeverse/lychee-action@v2
         with:
           fail: true
-          lycheeVersion: v0.21.0
-          args: "${{ vars.ARTIFACT_PATH }} --config .lychee/config.toml --exclude-file .lychee/exclude-temporary.txt --exclude-file .lychee/exclude-permanent.txt"
+          lycheeVersion: ${{ steps.lychee-version.outputs.version }}
+          # --root-dir is required since lychee v0.24 to resolve root-relative
+          # links (e.g. /talk/...) in the built HTML; without it lychee errors
+          # out instead of silently skipping them like v0.21 did.
+          args: "${{ vars.ARTIFACT_PATH }} --root-dir ${{ github.workspace }}/${{ vars.ARTIFACT_PATH }} --config .lychee/config.toml --exclude-file .lychee/exclude-temporary.txt --exclude-file .lychee/exclude-permanent.txt"
 
   deploy:
-    needs: build
+    needs: [build, check-broken-links]
+    if: (github.event_name == 'push' || github.event_name == 'workflow_dispatch') && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
 
     steps:
@@ -84,7 +98,6 @@ jobs:
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
-        if: (github.event_name == 'push' || github.event_name == 'workflow_dispatch') && github.ref == 'refs/heads/main'
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ${{ vars.ARTIFACT_PATH }}
