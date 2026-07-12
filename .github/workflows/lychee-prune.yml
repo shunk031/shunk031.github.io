@@ -43,6 +43,14 @@ jobs:
         with:
           token: ${{ steps.app-token.outputs.token }}
 
+      # Keep mise.toml as the single source of truth for the lychee version.
+      # Read it here, before "Prepare prune branch" switches branches.
+      - name: Read lychee version from mise.toml
+        id: lychee-version
+        run: |
+          version="$(python3 -c 'import tomllib; print(tomllib.load(open("mise.toml", "rb"))["tools"]["lychee"])')"
+          echo "version=v${version}" >> "$GITHUB_OUTPUT"
+
       - name: Download Build Artifact
         uses: actions/download-artifact@v8
         with:
@@ -89,7 +97,7 @@ jobs:
         uses: lycheeverse/lychee-action@v2
         with:
           fail: false
-          lycheeVersion: v0.24.2
+          lycheeVersion: ${{ steps.lychee-version.outputs.version }}
           format: json
           output: lychee-excludes.json
           args: "--config .lychee/config.toml lychee-input.txt"

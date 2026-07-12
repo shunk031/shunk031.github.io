@@ -1,4 +1,4 @@
-name: Pytest
+name: Test
 
 on:
   push:
@@ -8,19 +8,19 @@ on:
       - "tests/**"
       - "scripts/**"
       - ".agents/skills/**"
-      - ".github/workflows/pytest.yml"
+      - ".github/workflows/test.yml"
   pull_request:
     paths:
       - "tests/**"
       - "scripts/**"
       - ".agents/skills/**"
-      - ".github/workflows/pytest.yml"
+      - ".github/workflows/test.yml"
 
 permissions:
   contents: read
 
 jobs:
-  pytest:
+  test:
     runs-on: ubuntu-latest
 
     steps:
