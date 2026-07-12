@@ -25,7 +25,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-１projects: []
+projects: []
 ---
 
 2021 年 4 月より日本学術振興会の特別研究員 DC2 に採用していただきました（補欠繰り上げ採用）。

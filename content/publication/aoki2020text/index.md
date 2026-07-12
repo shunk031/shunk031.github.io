@@ -26,7 +26,7 @@ We propose a new character-based text classification framework for non-alphabeti
 # Summary. An optional shortened abstract.
 summary: "Proc. AACL-IJCNLP SRW 2020"
 
-tags: ["International Conference", "Refereed", "Natural Language Processing", International Publication, "AACL-IJCNLP", "AACL-IJCNLP2020"]
+tags: ["International Conference", "Refereed", "Natural Language Processing", "International Publication", "AACL-IJCNLP", "AACL-IJCNLP2020"]
 categories: ["Natural Language Processing", "Glyph-aware NLP", "NLP for Asian Languages"]
 featured: false
 

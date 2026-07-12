@@ -159,7 +159,7 @@ highlight_name: true
 ---
 
 Shunsuke Kitada （北田 俊輔 in Japanese) is a Research Scientist at Image and Video AI Dept., LY Corp.
-His research interest is now on computational advertising with a focus on automatic geneartion/evaluation and assistive technology for multi-modal ad creatives.
+His research interest is now on computational advertising with a focus on automatic generation/evaluation and assistive technology for multi-modal ad creatives.
 
 Previously, he got his Ph.D. in 2023 at major in applied informatics, graduate school of science and engineering, Hosei University under the supervision of Prof. [Hitoshi Iyatomi](https://iyatomi-lab.info/english-top).
 His project was to improve prediction performance and model interpretability through attention mechanisms from basic and applied research perspectives.
