@@ -60,9 +60,8 @@
       <pubDate>Fri, 01 May 2026 00:00:00 +0900</pubDate>
       <guid>https://shunk031.me/publication/takeshita2026a11ycompressor/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2farxiv.org%2fabs%2f2605.00551&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Farxiv.org%2Fabs%2F2605.00551&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 </description>
@@ -74,9 +73,8 @@
       <pubDate>Fri, 03 Apr 2026 00:00:00 +0900</pubDate>
       <guid>https://shunk031.me/publication/miyazato2026ensemhaldet/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2farxiv.org%2fabs%2f2604.02784&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Farxiv.org%2Fabs%2F2604.02784&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 </description>
@@ -192,18 +190,16 @@
 &lt;h2 id=&#34;the-tooling-stack-used-in-this-article&#34;&gt;The Tooling Stack Used in This Article&lt;/h2&gt;
 &lt;h3 id=&#34;ghq-standardize-where-you-clone-repositories&#34;&gt;&lt;code&gt;ghq&lt;/code&gt;: Standardize Where You Clone Repositories&lt;/h3&gt;
 &lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fgithub.com%2fx-motemen%2fghq&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fgithub.com%2Fx-motemen%2Fghq&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 &lt;p&gt;&lt;code&gt;ghq&lt;/code&gt; is a CLI tool for organizing cloned repositories. Its philosophy is to place them under a common root using a structure like &lt;code&gt;host/owner/repo&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;With the &lt;code&gt;ghq list&lt;/code&gt; command, you can see all repositories you’ve cloned locally. When combined with &lt;code&gt;fzf&lt;/code&gt; (covered later), this becomes a powerful UI for jumping between repositories. The &lt;code&gt;ghq list --full-path&lt;/code&gt; command outputs full paths and is also featured in the official ghq handbook as a common pattern to pair with &lt;code&gt;fzf&lt;/code&gt;. &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;h3 id=&#34;fzf-turn-any-list-into-a-selectable-ui&#34;&gt;&lt;code&gt;fzf&lt;/code&gt;: Turn Any List into a “Selectable UI”&lt;/h3&gt;
 &lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fjunegunn.github.io%2ffzf%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fjunegunn.github.io%2Ffzf%2F&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 &lt;p&gt;&lt;code&gt;fzf&lt;/code&gt; is a fast, interactive fuzzy finder that runs in the terminal. It takes input from stdin, filters it in real time, and lets you select items interactively.&lt;/p&gt;
@@ -230,9 +226,8 @@
 &lt;/p&gt;
 &lt;h3 id=&#34;gwq-manage-worktrees-the-ghq-way&#34;&gt;&lt;code&gt;gwq&lt;/code&gt;: Manage Worktrees “the ghq Way”&lt;/h3&gt;
 &lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fgithub.com%2fd-kuro%2fgwq&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fgithub.com%2Fd-kuro%2Fgwq&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 &lt;p&gt;&lt;code&gt;gwq&lt;/code&gt; is a CLI tool for efficiently managing git worktrees. Its README describes it as:&lt;/p&gt;
@@ -387,9 +382,8 @@ From October 19 to 23, 2025, I attended and presented at the &lt;a href=&#34;htt
 
 &lt;p&gt;This article is an English translation of the following Japanese article:
 &lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2ftechblog.lycorp.co.jp%2fja%2f20251125b&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Ftechblog.lycorp.co.jp%2Fja%2F20251125b&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;h2 id=&#34;report-on-the-found-workshop&#34;&gt;Report on the FOUND Workshop&lt;/h2&gt;
@@ -1340,9 +1334,8 @@ In this article we compactly introduce how Python type hints came about, their b
       <guid>https://shunk031.me/post/testable-dotfiles-management-with-chezmoi/</guid>
       <description>&lt;p&gt;This article explains an approach to dotfiles management that emphasizes testability, using the author&amp;rsquo;s dotfiles repository &lt;a href=&#34;https://github.com/shunk031/dotfiles&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shunk031/dotfiles&lt;/a&gt; as a case study.&lt;/p&gt;
 &lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fgithub.com%2fshunk031%2fdotfiles&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fgithub.com%2Fshunk031%2Fdotfiles&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 
@@ -1385,15 +1378,13 @@ In this article we compactly introduce how Python type hints came about, their b
 &lt;h3 id=&#34;dotfiles-and-dotfiles-repositories&#34;&gt;Dotfiles and Dotfiles Repositories&lt;/h3&gt;
 &lt;p&gt;The &lt;em&gt;&lt;code&gt;dotfiles&lt;/code&gt;&lt;/em&gt; refer to configuration files that start with a &amp;ldquo;&lt;code&gt;.&lt;/code&gt;&amp;rdquo; (dot) such as &lt;code&gt;.bashrc&lt;/code&gt;, &lt;code&gt;.vimrc&lt;/code&gt;, and &lt;code&gt;.gitconfig&lt;/code&gt;. In recent years, &lt;a href=&#34;https://awesomeopensource.com/projects/dotfiles&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;dotfiles repositories&lt;/a&gt; that manage these files using Git repositories have become widely popular among developers.&lt;/p&gt;
 &lt;p&gt;&lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fawesomeopensource.com%2fprojects%2fdotfiles&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fawesomeopensource.com%2Fprojects%2Fdotfiles&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fgithub.com%2fwebpro%2fawesome-dotfiles&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fgithub.com%2Fwebpro%2Fawesome-dotfiles&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;p&gt;The &lt;em&gt;&lt;code&gt;dotfiles repositories&lt;/code&gt;&lt;/em&gt; often function not just as configuration file management tools, but as automated development environment setup tools that include configuration files, installation scripts, and setup scripts. This enables quick and consistent setup on new machines and environments.&lt;/p&gt;
@@ -1404,15 +1395,13 @@ In this article we compactly introduce how Python type hints came about, their b
 &lt;p&gt;To solve the above problems, my dotfiles repository builds an architecture that emphasizes testability. Setup scripts are managed as independent files to enable individual testing, quality is ensured through automated testing with &lt;a href=&#34;https://github.com/bats-core/bats-core&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bats&lt;/a&gt;, and continuous testing and code coverage measurement are performed in macOS and Ubuntu environments using GitHub Actions.&lt;/p&gt;
 &lt;p&gt;For managing dotfiles, I&amp;rsquo;ve adopted &lt;a href=&#34;https://www.chezmoi.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;chezmoi&lt;/a&gt;. chezmoi is a modern dotfiles management tool with high popularity on GitHub (&lt;a href=&#34;https://github.com/twpayne/chezmoi&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;10,000+⭐️&lt;/a&gt;). Written in Go as a single, dependency-free binary, chezmoi is easy to install even on a brand-new, clean environment.&lt;/p&gt;
 &lt;p&gt;&lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fgithub.com%2ftwpayne%2fchezmoi&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fgithub.com%2Ftwpayne%2Fchezmoi&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fwww.chezmoi.io%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fwww.chezmoi.io%2F&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;p&gt;Environment setup on a new machine can be executed with the following very simple one-liner using chezmoi&amp;rsquo;s official installer&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
@@ -1426,9 +1415,8 @@ In this article we compactly introduce how Python type hints came about, their b
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;x&#34;&gt;    helper = osxkeychain
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;x&#34;&gt;{{- end}}
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fwww.chezmoi.io%2fuser-guide%2ftemplating%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fwww.chezmoi.io%2Fuser-guide%2Ftemplating%2F&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 &lt;p&gt;In this way, we aim to achieve reliable dotfiles management by ensuring script quality through testable configuration and flexibly managing environment-specific settings through chezmoi&amp;rsquo;s template functionality.&lt;/p&gt;
@@ -1475,9 +1463,8 @@ In this article we compactly introduce how Python type hints came about, their b
 &lt;h4 id=&#34;the-tests-directory-automated-testing-with-bats&#34;&gt;The &lt;code&gt;tests/&lt;/code&gt; directory: Automated Testing with Bats&lt;/h4&gt;
 &lt;p&gt;I use Bash Automated Testing System (Bats) to test scripts in the &lt;code&gt;install/&lt;/code&gt; directory. The test directories and files are configured to be consistent with the script.&lt;/p&gt;
 &lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fgithub.com%2fbats-core%2fbats-core&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fgithub.com%2Fbats-core%2Fbats-core&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 &lt;ul&gt;
@@ -1569,15 +1556,13 @@ In this article we compactly introduce how Python type hints came about, their b
 &lt;h4 id=&#34;code-coverage-measurement-and-codecov-integration&#34;&gt;Code Coverage Measurement and Codecov Integration&lt;/h4&gt;
 &lt;p&gt;My repository measures shell script code coverage using &lt;a href=&#34;https://github.com/SimonKagstrom/kcov&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;kcov&lt;/a&gt; and visualizes it with &lt;a href=&#34;https://codecov.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Codecov&lt;/a&gt;. This helps identify untested code paths and improve testing. Actual measurement uses &lt;a href=&#34;https://github.com/shunk031/dotfiles/blob/main/scripts/run_unit_test.sh&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;scripts/run_unit_test.sh&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fgithub.com%2fSimonKagstrom%2fkcov&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fgithub.com%2FSimonKagstrom%2Fkcov&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fabout.codecov.io%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fabout.codecov.io%2F&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Example of coverage measurement&lt;/span&gt;
@@ -1586,31 +1571,27 @@ In this article we compactly introduce how Python type hints came about, their b
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;  bats tests/install/macos/common/brew.bats
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Coverage reports are automatically commented on Pull Requests using &lt;a href=&#34;https://github.com/codecov/codecov-action&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;codecov/codecov-action&lt;/a&gt;, allowing immediate understanding of the impact of changes.&lt;/p&gt;
 &lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fgithub.com%2fcodecov%2fcodecov-action&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fgithub.com%2Fcodecov%2Fcodecov-action&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 &lt;h4 id=&#34;performance-measurement-and-benchmark-automation&#34;&gt;Performance Measurement and Benchmark Automation&lt;/h4&gt;
 &lt;p&gt;To continuously monitor shell startup performance after dotfiles application and detect the impact of configuration changes early, I&amp;rsquo;ve automated benchmark measurement in the workflow of GitHub Actions.&lt;/p&gt;
 &lt;p&gt;This implementation references the following article using &lt;a href=&#34;https://github.com/benchmark-action/github-action-benchmark&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;benchmark-action/github-action-benchmark&lt;/a&gt;. The GitHub Actions workflow measures both initial shell startup time and average startup time (measured 10 times) to quantify the impact of dotfiles configuration on shell startup.&lt;/p&gt;
 &lt;p&gt;&lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fgithub.com%2fbenchmark-action%2fgithub-action-benchmark&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fgithub.com%2Fbenchmark-action%2Fgithub-action-benchmark&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fzenn.dev%2fodan%2farticles%2f17a86574b724c9&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fzenn.dev%2Fodan%2Farticles%2F17a86574b724c9&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;p&gt;Measurement results are published on &lt;a href=&#34;https://shunk031.me/my-dotfiles-benchmarks/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub Pages&lt;/a&gt;, achieving continuous performance monitoring. We can numerically confirm the impact of adding new plugins or configurations on shell startup time, preventing performance degradation before it occurs.&lt;/p&gt;
 &lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fshunk031.me%2fmy-dotfiles-benchmarks%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fshunk031.me%2Fmy-dotfiles-benchmarks%2F&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 &lt;h2 id=&#34;implementation-details-and-operational-flow&#34;&gt;Implementation Details and Operational Flow&lt;/h2&gt;
@@ -1618,9 +1599,8 @@ In this article we compactly introduce how Python type hints came about, their b
 &lt;p&gt;Scripts in the &lt;code&gt;install/&lt;/code&gt; directory are designed following the single responsibility principle. Each script handles only the installation and configuration of specific tools, creating an independently testable structure.&lt;/p&gt;
 &lt;p&gt;As a basic script structure, OS-specific processing is separated into different files and implemented as platform-specific scripts. All installation scripts follow the following common pattern. For shell script writing practices, &lt;a href=&#34;https://betterdev.blog/minimal-safe-bash-script-template/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Minimal safe Bash script template&lt;/a&gt; is helpful.&lt;/p&gt;
 &lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fbetterdev.blog%2fminimal-safe-bash-script-template%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fbetterdev.blog%2Fminimal-safe-bash-script-template%2F&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#!/usr/bin/env bash
@@ -1690,9 +1670,8 @@ In this article we compactly introduce how Python type hints came about, their b
 &lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;This article explained the approach of &amp;ldquo;testable dotfiles management&amp;rdquo; combining chezmoi and test-driven development. We presented a comprehensive solution to the fundamental problem that traditional dotfiles repositories face: &amp;ldquo;not knowing if setup scripts work correctly until execution&amp;rdquo;. Specifically, this was an approach combining unit testing with Bats, continuous verification with GitHub Actions, and regular execution of actual end-to-end setup. Please consider incorporating testability into your own dotfiles management to achieve reliable development environment construction.&lt;/p&gt;
 &lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fgithub.com%2fshunk031%2fdotfiles&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fgithub.com%2Fshunk031%2Fdotfiles&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
@@ -1831,15 +1810,13 @@ In this article we compactly introduce how Python type hints came about, their b
 Under the guidance of Prof. &lt;a href=&#34;https://sites.google.com/site/sato9hara/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Satoshi Hara&lt;/a&gt;, I’ll be working on the K Program &lt;a href=&#34;https://projectdb.jst.go.jp/grant/JST-PROJECT-24017354/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;“Red Teaming Framework for Misalignment in Large Language Models.”&lt;/a&gt;
 Looking forward to making an impact in both industry and academia!&lt;/p&gt;
 &lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fwww.jst.go.jp%2fk-program%2fprogram%2fcyber2.html&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fwww.jst.go.jp%2Fk-program%2Fprogram%2Fcyber2.html&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fprojectdb.jst.go.jp%2fgrant%2fJST-PROJECT-24017354%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fprojectdb.jst.go.jp%2Fgrant%2FJST-PROJECT-24017354%2F&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 </description>
@@ -1856,9 +1833,8 @@ Looking forward to making an impact in both industry and academia!&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;It is a great honor to serve as an organizer of this workshop. Notably, it is quite rare for a workshop led by researchers from Japan to be accepted at such a premier international venue, making this achievement especially meaningful.&lt;/p&gt;
 &lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2ficcv2025-found-workshop.limitlab.xyz%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Ficcv2025-found-workshop.limitlab.xyz%2F&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 </description>
@@ -1874,9 +1850,8 @@ Looking forward to making an impact in both industry and academia!&lt;/p&gt;
 &lt;p&gt;Please note: This book is available in Japanese only.&lt;/p&gt;
 &lt;p&gt;Discover more about the book by checking out the link below!&lt;/p&gt;
 &lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fbook.impress.co.jp%2fbooks%2f1123101104&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fbook.impress.co.jp%2Fbooks%2F1123101104&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 </description>
@@ -1888,9 +1863,8 @@ Looking forward to making an impact in both industry and academia!&lt;/p&gt;
       <pubDate>Tue, 25 Mar 2025 10:00:00 +0900</pubDate>
       <guid>https://shunk031.me/post/image-generation-with-python/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fbook.impress.co.jp%2fbooks%2f1123101104&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fbook.impress.co.jp%2Fbooks%2F1123101104&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 </description>
@@ -1973,15 +1947,13 @@ We are honored to receive a rating of 9, which is in the top 15% of accepted pap
   &lt;tbody&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2farxiv.org%2fabs%2f2401.11431&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Farxiv.org%2Fabs%2F2401.11431&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;/td&gt;
           &lt;td&gt;&lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fdoi.org%2f10.1109%2fACCESS.2024.3522972&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fdoi.org%2F10.1109%2FACCESS.2024.3522972&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.scimagojr.com/journalsearch.php?q=21100374601&amp;amp;tip=sid&amp;amp;exact=no&#34; title=&#34;SCImago Journal &amp;amp; Country Rank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;https://www.scimagojr.com/journal_img.php?id=21100374601&#34; alt=&#34;SCImago Journal &amp;amp; Country Rank&#34;  /&gt;&lt;/a&gt;&lt;/td&gt;
@@ -2104,9 +2076,8 @@ You can find my summary on pages 75 to 81 below:&lt;/p&gt;
       <pubDate>Tue, 23 Jul 2024 10:10:00 +0900</pubDate>
       <guid>https://shunk031.me/post/ly-new-grad-job-introduction/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fnote.com%2flycorp_recruit%2fn%2fn9d83d9ef243e&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fnote.com%2Flycorp_recruit%2Fn%2Fn9d83d9ef243e&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 </description>
@@ -2130,9 +2101,8 @@ You can find my summary on pages 75 to 81 below:&lt;/p&gt;
 &lt;li&gt;Shoma Iwai, Atsuki Osanai, Shunsuke Kitada, and Shinichiro Omachi. &lt;a href=&#34;https://shunk031.me/publication/iwai2024layout&#34;&gt;&amp;ldquo;Layout-Corrector: Alleviating Layout Sticking Phenomenon in Discrete Diffusion Model&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fresearch.lycorp.co.jp%2fen%2fnews%2f250&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fresearch.lycorp.co.jp%2Fen%2Fnews%2F250&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 </description>
@@ -2267,9 +2237,8 @@ You can find my summary on pages 75 to 81 below:&lt;/p&gt;
 &lt;p&gt;人工知能学会誌では，過去1年間に人工知能に関連する研究で博士の学位を授与された研究者の方々の博士論文の概要を，その方々のプロフィールとともにまとめて掲載することにより，世代の異なる研究者間の交流や，その分野の研究動向の把握の一助とすることを狙いとして，博士論文概要の特集を，毎年1月号に掲載致しております．&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fwww.ai-gakkai.or.jp%2fpublished_books%2fpse%2fpse_20230522%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fwww.ai-gakkai.or.jp%2Fpublished_books%2Fpse%2Fpse_20230522%2F&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 </description>
@@ -2418,15 +2387,13 @@ During my doctoral program, I was particularly supported by various people, and 
   &lt;tbody&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2farxiv.org%2fabs%2f2104.08763&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Farxiv.org%2Fabs%2F2104.08763&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;/td&gt;
           &lt;td&gt;&lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2flink.springer.com%2farticle%2f10.1007%2fs10489-022-04301-w&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%2Fs10489-022-04301-w&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.scimagojr.com/journalsearch.php?q=23674&amp;amp;tip=sid&amp;amp;exact=no&#34; title=&#34;SCImago Journal &amp;amp; Country Rank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;https://www.scimagojr.com/journal_img.php?id=23674&#34; alt=&#34;SCImago Journal &amp;amp; Country Rank&#34;  /&gt;&lt;/a&gt;&lt;/td&gt;
@@ -2503,9 +2470,8 @@ During my doctoral program, I was particularly supported by various people, and 
       <pubDate>Tue, 02 Aug 2022 14:18:12 +0900</pubDate>
       <guid>https://shunk031.me/publication/nakagawa2022expressions/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2farxiv.org%2fabs%2f2208.14244&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Farxiv.org%2Fabs%2F2208.14244&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 </description>
@@ -2601,15 +2567,13 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
   &lt;tbody&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2farxiv.org%2fabs%2f2204.11588&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Farxiv.org%2Fabs%2F2204.11588&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;/td&gt;
           &lt;td&gt;&lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fwww.mdpi.com%2f2076-3417%2f12%2f7%2f3594&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fwww.mdpi.com%2F2076-3417%2F12%2F7%2F3594&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.scimagojr.com/journalsearch.php?q=21100829268&amp;amp;tip=sid&amp;amp;exact=no&#34; title=&#34;SCImago Journal &amp;amp; Country Rank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;https://www.scimagojr.com/journal_img.php?id=21100829268&#34; alt=&#34;SCImago Journal &amp;amp; Country Rank&#34;  /&gt;&lt;/a&gt;&lt;/td&gt;
@@ -2692,9 +2656,8 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
       <pubDate>Thu, 16 Sep 2021 18:51:58 +0900</pubDate>
       <guid>https://shunk031.me/post/cyberagent-ai-lab-research-internship-turning-point/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fwww.cyberagent.co.jp%2fway%2ffeatures%2flist%2fdetail%2fid%3d26663&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fwww.cyberagent.co.jp%2Fway%2Ffeatures%2Flist%2Fdetail%2Fid%3D26663&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 </description>
@@ -2786,9 +2749,8 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
       <guid>https://shunk031.me/publication/kitada2021making/</guid>
       <description>&lt;p&gt;The manuscript accepted for publication in the Applied Intelligence journal can be found &lt;a href=&#34;https://shunk031.me/publication/kitada2022making&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2farxiv.org%2fabs%2f2104.08763v1&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Farxiv.org%2Fabs%2F2104.08763v1&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 </description>
@@ -2800,9 +2762,8 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
       <pubDate>Thu, 08 Apr 2021 00:00:00 +0900</pubDate>
       <guid>https://shunk031.me/post/jsps-dc2-applied-informatics/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fai.ws.hosei.ac.jp%2fwp%2fnews%2fnews20210408%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fai.ws.hosei.ac.jp%2Fwp%2Fnews%2Fnews20210408%2F&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 </description>
@@ -2845,9 +2806,8 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
       <pubDate>Fri, 05 Mar 2021 00:00:00 +0900</pubDate>
       <guid>https://shunk031.me/post/jsps-dc2-koganei/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fwww.hosei.ac.jp%2fkoganei%2fpickup%2farticle-20210305121330%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fwww.hosei.ac.jp%2Fkoganei%2Fpickup%2Farticle-20210305121330%2F&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 </description>
@@ -2985,9 +2945,8 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
       <pubDate>Sun, 25 Oct 2020 15:15:41 +0900</pubDate>
       <guid>https://shunk031.me/publication/aoki2020text/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2faclanthology.org%2f2020.aacl-srw.1%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Faclanthology.org%2F2020.aacl-srw.1%2F&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 </description>
@@ -3037,9 +2996,8 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
     &lt;/div&gt;
 
 &lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fnyushi.hosei.ac.jp%2fkoganei-oc&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fnyushi.hosei.ac.jp%2Fkoganei-oc&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 </description>
@@ -3068,9 +3026,8 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
       <pubDate>Sun, 21 Jun 2020 21:38:33 +0900</pubDate>
       <guid>https://shunk031.me/publication/daif2020aradic/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2faclanthology.org%2f2020.acl-srw.29%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Faclanthology.org%2F2020.acl-srw.29%2F&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 </description>
@@ -3112,9 +3069,8 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
       <guid>https://shunk031.me/news/invited-talk-at-jsai-2020/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://confit.atlas.jp/guide/event/jsai2020/subject/1H3-OS-12a-05/tables&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Invited talk&lt;/a&gt; on Organized Session in The 34th Annual Conference of the Japanese Society for Artificial Intelligence.&lt;/p&gt;
 &lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fconfit.atlas.jp%2fguide%2fevent%2fjsai2020%2fsubject%2f1H3-OS-12a-05%2ftables&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fconfit.atlas.jp%2Fguide%2Fevent%2Fjsai2020%2Fsubject%2F1H3-OS-12a-05%2Ftables&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 &lt;h2 id=&#34;see-also&#34;&gt;See also&lt;/h2&gt;
@@ -3287,17 +3243,15 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
       <description>&lt;h2 id=&#34;日刊工業新聞-電子版&#34;&gt;日刊工業新聞 電子版&lt;/h2&gt;
 &lt;p&gt;データマイニング研究、グノシーがインターン院生主力に | 日刊工業新聞 電子版 &lt;a href=&#34;https://www.nikkan.co.jp/articles/view/00546182&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.nikkan.co.jp/articles/view/00546182&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fwww.nikkan.co.jp%2farticles%2fview%2f00546182&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fwww.nikkan.co.jp%2Farticles%2Fview%2F00546182&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 &lt;h2 id=&#34;ニュースイッチ-by-日刊工業新聞&#34;&gt;ニュースイッチ by 日刊工業新聞&lt;/h2&gt;
 &lt;p&gt;グノシー、「研究開発担当の主力に大学院生」で得た効果｜ニュースイッチ by 日刊工業新聞社 &lt;a href=&#34;https://newswitch.jp/p/20932&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://newswitch.jp/p/20932&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fnewswitch.jp%2fp%2f20932&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fnewswitch.jp%2Fp%2F20932&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 </description>
@@ -3328,9 +3282,8 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
       <pubDate>Fri, 20 Sep 2019 00:00:00 +0900</pubDate>
       <guid>https://shunk031.me/post/award-yans-2019/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fwww.hosei.ac.jp%2fgs%2fNEWS%2fzaigaku%2fkoganei%2f20190920&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fwww.hosei.ac.jp%2Fgs%2FNEWS%2Fzaigaku%2Fkoganei%2F20190920&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 </description>
@@ -3401,9 +3354,8 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
       <pubDate>Fri, 09 Aug 2019 00:00:00 +0900</pubDate>
       <guid>https://shunk031.me/post/gunosy-intern-kdd-2019-owned-media/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fwww.wantedly.com%2fcompanies%2fgunosy%2fpost_articles%2f181818&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fwww.wantedly.com%2Fcompanies%2Fgunosy%2Fpost_articles%2F181818&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 </description>
@@ -3421,9 +3373,8 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
 &lt;p&gt;今回は、研究を進めた Gunosy 共同創業者とインターン生にお話を伺ってきました。インターンでも研究に携われた指導方法とは？業務と並行して論文を書ける職場環境とは？「KDD2019」への登壇を直前に控えた 2 人の対談をお送りします。ぜひ、ご覧ください。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fgunosiru.gunosy.co.jp%2fentry%2fkdd2019_gtl%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fgunosiru.gunosy.co.jp%2Fentry%2Fkdd2019_gtl%2F&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 &lt;p&gt;
@@ -3518,9 +3469,8 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
       <pubDate>Sat, 13 Jul 2019 16:05:00 +0900</pubDate>
       <guid>https://shunk031.me/event/ccse-2019/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fccse.jp%2f2019%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fccse.jp%2F2019%2F&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 </description>
@@ -3532,9 +3482,8 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
       <pubDate>Mon, 03 Jun 2019 19:00:00 +0900</pubDate>
       <guid>https://shunk031.me/event/icml-kdd-2019-pre-conference-session/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2flapras.connpass.com%2fevent%2f130914%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Flapras.connpass.com%2Fevent%2F130914%2F&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 </description>
@@ -3559,9 +3508,8 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
 &lt;p&gt;本研究は当社の学生インターンである北田 俊輔 氏と研究開発チームの関 喜史によって行われ、論文は北田氏の指導教員である法政大学 彌冨 仁 教授と共に執筆されました。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fgunosy.co.jp%2fnews%2f172&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fgunosy.co.jp%2Fnews%2F172&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 </description>
@@ -3573,9 +3521,8 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
       <pubDate>Mon, 27 May 2019 00:00:00 +0900</pubDate>
       <guid>https://shunk031.me/publication/kitada2019conversion/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2farxiv.org%2fabs%2f1905.07289&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Farxiv.org%2Fabs%2F1905.07289&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 </description>
@@ -3599,9 +3546,8 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
       <pubDate>Thu, 11 Apr 2019 00:00:00 +0900</pubDate>
       <guid>https://shunk031.me/post/award-ipsj-2019/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fwww.hosei.ac.jp%2fgs%2fNEWS%2ftopics%2fjusho%2f190411_4&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fwww.hosei.ac.jp%2Fgs%2FNEWS%2Ftopics%2Fjusho%2F190411_4&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 </description>
@@ -3626,9 +3572,8 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
       <guid>https://shunk031.me/news/student-honorable-mention-ipsj2019/</guid>
       <description>&lt;p&gt;Got Student Honorable Mention in &lt;a href=&#34;https://www.hosei.ac.jp/gs/NEWS/topics/jusho/190411_4/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IPSJ 2019&lt;/a&gt;.&lt;/p&gt;
 &lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fwww.hosei.ac.jp%2fgs%2fNEWS%2ftopics%2fjusho%2f190411_4%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fwww.hosei.ac.jp%2Fgs%2FNEWS%2Ftopics%2Fjusho%2F190411_4%2F&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 &lt;h2 id=&#34;see-also&#34;&gt;See also&lt;/h2&gt;
@@ -3673,9 +3618,8 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
       <guid>https://shunk031.me/news/first-prize-of-dena-data-analysis-competition-event-2019/</guid>
       <description>&lt;p&gt;Got overall 1st prize and medium 2nd prize in DeNA Data Analysis Competition Event.&lt;/p&gt;
 &lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fdena-ai.connpass.com%2fevent%2f114168%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fdena-ai.connpass.com%2Fevent%2F114168%2F&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 </description>
@@ -3687,9 +3631,8 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
       <pubDate>Mon, 08 Oct 2018 00:00:00 +0900</pubDate>
       <guid>https://shunk031.me/publication/kitada2018end/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2farxiv.org%2fabs%2f1810.03595&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Farxiv.org%2Fabs%2F1810.03595&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 </description>
@@ -3713,9 +3656,8 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
       <pubDate>Fri, 07 Sep 2018 00:00:00 +0900</pubDate>
       <guid>https://shunk031.me/publication/kitada2018skin/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2farxiv.org%2fabs%2f1809.02568&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Farxiv.org%2Fabs%2F1809.02568&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 </description>
@@ -3759,9 +3701,8 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
       <pubDate>Sun, 05 Aug 2018 15:00:00 +0900</pubDate>
       <guid>https://shunk031.me/post/hacku-hosei-2018/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fhacku.yahoo.co.jp%2fhosei2018%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fhacku.yahoo.co.jp%2Fhosei2018%2F&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 &lt;ul&gt;
@@ -3825,9 +3766,8 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
       <guid>https://shunk031.me/news/first-prize-of-hacku-hosei-2018/</guid>
       <description>&lt;p&gt;Got 1st prize of &lt;a href=&#34;https://hacku.yahoo.co.jp/hosei2018/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;hackU Hosei 2018&lt;/a&gt;.&lt;/p&gt;
 &lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fhacku.yahoo.co.jp%2fhosei2018%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fhacku.yahoo.co.jp%2Fhosei2018%2F&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 &lt;h2 id=&#34;see-also&#34;&gt;See also&lt;/h2&gt;
@@ -3884,9 +3824,8 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
       <guid>https://shunk031.me/news/student-award-at-fr-frontier/</guid>
       <description>&lt;p&gt;Got student award at &lt;a href=&#34;https://deepanalytics.connpass.com/event/56007/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FR FRONTIER&lt;/a&gt;.&lt;/p&gt;
 &lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fdeepanalytics.connpass.com%2fevent%2f56007%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fdeepanalytics.connpass.com%2Fevent%2F56007%2F&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 </description>

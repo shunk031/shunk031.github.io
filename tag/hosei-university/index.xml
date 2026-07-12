@@ -41,9 +41,8 @@
       <pubDate>Thu, 08 Apr 2021 00:00:00 +0900</pubDate>
       <guid>https://shunk031.me/post/jsps-dc2-applied-informatics/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fai.ws.hosei.ac.jp%2fwp%2fnews%2fnews20210408%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fai.ws.hosei.ac.jp%2Fwp%2Fnews%2Fnews20210408%2F&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 </description>
@@ -55,9 +54,8 @@
       <pubDate>Fri, 05 Mar 2021 00:00:00 +0900</pubDate>
       <guid>https://shunk031.me/post/jsps-dc2-koganei/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fwww.hosei.ac.jp%2fkoganei%2fpickup%2farticle-20210305121330%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fwww.hosei.ac.jp%2Fkoganei%2Fpickup%2Farticle-20210305121330%2F&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 </description>
@@ -154,9 +152,8 @@
     &lt;/div&gt;
 
 &lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fnyushi.hosei.ac.jp%2fkoganei-oc&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fnyushi.hosei.ac.jp%2Fkoganei-oc&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 </description>
@@ -170,17 +167,15 @@
       <description>&lt;h2 id=&#34;日刊工業新聞-電子版&#34;&gt;日刊工業新聞 電子版&lt;/h2&gt;
 &lt;p&gt;データマイニング研究、グノシーがインターン院生主力に | 日刊工業新聞 電子版 &lt;a href=&#34;https://www.nikkan.co.jp/articles/view/00546182&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.nikkan.co.jp/articles/view/00546182&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fwww.nikkan.co.jp%2farticles%2fview%2f00546182&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fwww.nikkan.co.jp%2Farticles%2Fview%2F00546182&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 &lt;h2 id=&#34;ニュースイッチ-by-日刊工業新聞&#34;&gt;ニュースイッチ by 日刊工業新聞&lt;/h2&gt;
 &lt;p&gt;グノシー、「研究開発担当の主力に大学院生」で得た効果｜ニュースイッチ by 日刊工業新聞社 &lt;a href=&#34;https://newswitch.jp/p/20932&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://newswitch.jp/p/20932&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fnewswitch.jp%2fp%2f20932&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fnewswitch.jp%2Fp%2F20932&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 </description>
@@ -192,9 +187,8 @@
       <pubDate>Fri, 20 Sep 2019 00:00:00 +0900</pubDate>
       <guid>https://shunk031.me/post/award-yans-2019/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fwww.hosei.ac.jp%2fgs%2fNEWS%2fzaigaku%2fkoganei%2f20190920&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fwww.hosei.ac.jp%2Fgs%2FNEWS%2Fzaigaku%2Fkoganei%2F20190920&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 </description>
@@ -206,9 +200,8 @@
       <pubDate>Fri, 09 Aug 2019 00:00:00 +0900</pubDate>
       <guid>https://shunk031.me/post/gunosy-intern-kdd-2019-owned-media/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fwww.wantedly.com%2fcompanies%2fgunosy%2fpost_articles%2f181818&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fwww.wantedly.com%2Fcompanies%2Fgunosy%2Fpost_articles%2F181818&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 </description>
@@ -220,9 +213,8 @@
       <pubDate>Thu, 11 Apr 2019 00:00:00 +0900</pubDate>
       <guid>https://shunk031.me/post/award-ipsj-2019/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fwww.hosei.ac.jp%2fgs%2fNEWS%2ftopics%2fjusho%2f190411_4&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fwww.hosei.ac.jp%2Fgs%2FNEWS%2Ftopics%2Fjusho%2F190411_4&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 </description>

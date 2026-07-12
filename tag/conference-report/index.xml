@@ -55,9 +55,8 @@ From October 19 to 23, 2025, I attended and presented at the &lt;a href=&#34;htt
 
 &lt;p&gt;This article is an English translation of the following Japanese article:
 &lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2ftechblog.lycorp.co.jp%2fja%2f20251125b&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Ftechblog.lycorp.co.jp%2Fja%2F20251125b&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;h2 id=&#34;report-on-the-found-workshop&#34;&gt;Report on the FOUND Workshop&lt;/h2&gt;

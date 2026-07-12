@@ -28,15 +28,13 @@
   &lt;tbody&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2farxiv.org%2fabs%2f2204.11588&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Farxiv.org%2Fabs%2F2204.11588&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;/td&gt;
           &lt;td&gt;&lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fwww.mdpi.com%2f2076-3417%2f12%2f7%2f3594&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fwww.mdpi.com%2F2076-3417%2F12%2F7%2F3594&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;/td&gt;
           &lt;td&gt;&lt;a href=&#34;https://www.scimagojr.com/journalsearch.php?q=21100829268&amp;amp;tip=sid&amp;amp;exact=no&#34; title=&#34;SCImago Journal &amp;amp; Country Rank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;https://www.scimagojr.com/journal_img.php?id=21100829268&#34; alt=&#34;SCImago Journal &amp;amp; Country Rank&#34;  /&gt;&lt;/a&gt;&lt;/td&gt;
@@ -70,17 +68,15 @@
       <description>&lt;h2 id=&#34;日刊工業新聞-電子版&#34;&gt;日刊工業新聞 電子版&lt;/h2&gt;
 &lt;p&gt;データマイニング研究、グノシーがインターン院生主力に | 日刊工業新聞 電子版 &lt;a href=&#34;https://www.nikkan.co.jp/articles/view/00546182&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.nikkan.co.jp/articles/view/00546182&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fwww.nikkan.co.jp%2farticles%2fview%2f00546182&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fwww.nikkan.co.jp%2Farticles%2Fview%2F00546182&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 &lt;h2 id=&#34;ニュースイッチ-by-日刊工業新聞&#34;&gt;ニュースイッチ by 日刊工業新聞&lt;/h2&gt;
 &lt;p&gt;グノシー、「研究開発担当の主力に大学院生」で得た効果｜ニュースイッチ by 日刊工業新聞社 &lt;a href=&#34;https://newswitch.jp/p/20932&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://newswitch.jp/p/20932&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fnewswitch.jp%2fp%2f20932&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fnewswitch.jp%2Fp%2F20932&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 </description>
@@ -92,9 +88,8 @@
       <pubDate>Fri, 09 Aug 2019 00:00:00 +0900</pubDate>
       <guid>https://shunk031.me/post/gunosy-intern-kdd-2019-owned-media/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fwww.wantedly.com%2fcompanies%2fgunosy%2fpost_articles%2f181818&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fwww.wantedly.com%2Fcompanies%2Fgunosy%2Fpost_articles%2F181818&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 </description>
@@ -109,9 +104,8 @@
 &lt;p&gt;本研究は当社の学生インターンである北田 俊輔 氏と研究開発チームの関 喜史によって行われ、論文は北田氏の指導教員である法政大学 彌冨 仁 教授と共に執筆されました。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fgunosy.co.jp%2fnews%2f172&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fgunosy.co.jp%2Fnews%2F172&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 </description>
@@ -123,9 +117,8 @@
       <pubDate>Mon, 27 May 2019 00:00:00 +0900</pubDate>
       <guid>https://shunk031.me/publication/kitada2019conversion/</guid>
       <description>&lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2farxiv.org%2fabs%2f1905.07289&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Farxiv.org%2Fabs%2F1905.07289&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 </description>

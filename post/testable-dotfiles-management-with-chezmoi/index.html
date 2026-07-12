@@ -379,7 +379,7 @@
     />
   
   
-    <meta property="article:modified_time" content="2026-07-12T14:22:08&#43;09:00">
+    <meta property="article:modified_time" content="2026-07-12T14:24:40&#43;09:00">
   
 
 
@@ -414,7 +414,7 @@
   ],
   
   "datePublished": "2025-10-06T20:00:00+09:00",
-  "dateModified": "2026-07-12T14:22:08+09:00",
+  "dateModified": "2026-07-12T14:24:40+09:00",
   
   "author": {
     "@type": "Person",
@@ -1405,9 +1405,8 @@
     <div class="article-style">
       <p>This article explains an approach to dotfiles management that emphasizes testability, using the author&rsquo;s dotfiles repository <a href="https://github.com/shunk031/dotfiles" target="_blank" rel="noopener">shunk031/dotfiles</a> as a case study.</p>
 <div class="blogcard">
-    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;"
-        src="https://hatenablog-parts.com/embed?url=https%3a%2f%2fgithub.com%2fshunk031%2fdotfiles" width="300" height="150" frameborder="0"
-        scrolling="no"></iframe>
+    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;border:0;" title="Blog card"
+        src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fgithub.com%2Fshunk031%2Fdotfiles" width="300" height="150"></iframe>
 </div>
 
 
@@ -1450,15 +1449,13 @@
 <h3 id="dotfiles-and-dotfiles-repositories">Dotfiles and Dotfiles Repositories</h3>
 <p>The <em><code>dotfiles</code></em> refer to configuration files that start with a &ldquo;<code>.</code>&rdquo; (dot) such as <code>.bashrc</code>, <code>.vimrc</code>, and <code>.gitconfig</code>. In recent years, <a href="https://awesomeopensource.com/projects/dotfiles" target="_blank" rel="noopener">dotfiles repositories</a> that manage these files using Git repositories have become widely popular among developers.</p>
 <p><div class="blogcard">
-    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;"
-        src="https://hatenablog-parts.com/embed?url=https%3a%2f%2fawesomeopensource.com%2fprojects%2fdotfiles" width="300" height="150" frameborder="0"
-        scrolling="no"></iframe>
+    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;border:0;" title="Blog card"
+        src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fawesomeopensource.com%2Fprojects%2Fdotfiles" width="300" height="150"></iframe>
 </div>
 
 <div class="blogcard">
-    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;"
-        src="https://hatenablog-parts.com/embed?url=https%3a%2f%2fgithub.com%2fwebpro%2fawesome-dotfiles" width="300" height="150" frameborder="0"
-        scrolling="no"></iframe>
+    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;border:0;" title="Blog card"
+        src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fgithub.com%2Fwebpro%2Fawesome-dotfiles" width="300" height="150"></iframe>
 </div>
 </p>
 <p>The <em><code>dotfiles repositories</code></em> often function not just as configuration file management tools, but as automated development environment setup tools that include configuration files, installation scripts, and setup scripts. This enables quick and consistent setup on new machines and environments.</p>
@@ -1469,15 +1466,13 @@
 <p>To solve the above problems, my dotfiles repository builds an architecture that emphasizes testability. Setup scripts are managed as independent files to enable individual testing, quality is ensured through automated testing with <a href="https://github.com/bats-core/bats-core" target="_blank" rel="noopener">Bats</a>, and continuous testing and code coverage measurement are performed in macOS and Ubuntu environments using GitHub Actions.</p>
 <p>For managing dotfiles, I&rsquo;ve adopted <a href="https://www.chezmoi.io/" target="_blank" rel="noopener">chezmoi</a>. chezmoi is a modern dotfiles management tool with high popularity on GitHub (<a href="https://github.com/twpayne/chezmoi" target="_blank" rel="noopener">10,000+⭐️</a>). Written in Go as a single, dependency-free binary, chezmoi is easy to install even on a brand-new, clean environment.</p>
 <p><div class="blogcard">
-    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;"
-        src="https://hatenablog-parts.com/embed?url=https%3a%2f%2fgithub.com%2ftwpayne%2fchezmoi" width="300" height="150" frameborder="0"
-        scrolling="no"></iframe>
+    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;border:0;" title="Blog card"
+        src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fgithub.com%2Ftwpayne%2Fchezmoi" width="300" height="150"></iframe>
 </div>
 
 <div class="blogcard">
-    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;"
-        src="https://hatenablog-parts.com/embed?url=https%3a%2f%2fwww.chezmoi.io%2f" width="300" height="150" frameborder="0"
-        scrolling="no"></iframe>
+    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;border:0;" title="Blog card"
+        src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fwww.chezmoi.io%2F" width="300" height="150"></iframe>
 </div>
 </p>
 <p>Environment setup on a new machine can be executed with the following very simple one-liner using chezmoi&rsquo;s official installer<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
@@ -1491,9 +1486,8 @@
 </span></span></span><span class="line"><span class="cl"><span class="x">    helper = osxkeychain
 </span></span></span><span class="line"><span class="cl"><span class="x">{{- end}}
 </span></span></span></code></pre></div><div class="blogcard">
-    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;"
-        src="https://hatenablog-parts.com/embed?url=https%3a%2f%2fwww.chezmoi.io%2fuser-guide%2ftemplating%2f" width="300" height="150" frameborder="0"
-        scrolling="no"></iframe>
+    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;border:0;" title="Blog card"
+        src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fwww.chezmoi.io%2Fuser-guide%2Ftemplating%2F" width="300" height="150"></iframe>
 </div>
 
 <p>In this way, we aim to achieve reliable dotfiles management by ensuring script quality through testable configuration and flexibly managing environment-specific settings through chezmoi&rsquo;s template functionality.</p>
@@ -1540,9 +1534,8 @@
 <h4 id="the-tests-directory-automated-testing-with-bats">The <code>tests/</code> directory: Automated Testing with Bats</h4>
 <p>I use Bash Automated Testing System (Bats) to test scripts in the <code>install/</code> directory. The test directories and files are configured to be consistent with the script.</p>
 <div class="blogcard">
-    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;"
-        src="https://hatenablog-parts.com/embed?url=https%3a%2f%2fgithub.com%2fbats-core%2fbats-core" width="300" height="150" frameborder="0"
-        scrolling="no"></iframe>
+    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;border:0;" title="Blog card"
+        src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fgithub.com%2Fbats-core%2Fbats-core" width="300" height="150"></iframe>
 </div>
 
 <ul>
@@ -1634,15 +1627,13 @@
 <h4 id="code-coverage-measurement-and-codecov-integration">Code Coverage Measurement and Codecov Integration</h4>
 <p>My repository measures shell script code coverage using <a href="https://github.com/SimonKagstrom/kcov" target="_blank" rel="noopener">kcov</a> and visualizes it with <a href="https://codecov.io/" target="_blank" rel="noopener">Codecov</a>. This helps identify untested code paths and improve testing. Actual measurement uses <a href="https://github.com/shunk031/dotfiles/blob/main/scripts/run_unit_test.sh" target="_blank" rel="noopener"><code>scripts/run_unit_test.sh</code></a>.</p>
 <p><div class="blogcard">
-    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;"
-        src="https://hatenablog-parts.com/embed?url=https%3a%2f%2fgithub.com%2fSimonKagstrom%2fkcov" width="300" height="150" frameborder="0"
-        scrolling="no"></iframe>
+    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;border:0;" title="Blog card"
+        src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fgithub.com%2FSimonKagstrom%2Fkcov" width="300" height="150"></iframe>
 </div>
 
 <div class="blogcard">
-    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;"
-        src="https://hatenablog-parts.com/embed?url=https%3a%2f%2fabout.codecov.io%2f" width="300" height="150" frameborder="0"
-        scrolling="no"></iframe>
+    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;border:0;" title="Blog card"
+        src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fabout.codecov.io%2F" width="300" height="150"></iframe>
 </div>
 </p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Example of coverage measurement</span>
@@ -1651,31 +1642,27 @@
 </span></span></span><span class="line"><span class="cl"><span class="se"></span>  bats tests/install/macos/common/brew.bats
 </span></span></code></pre></div><p>Coverage reports are automatically commented on Pull Requests using <a href="https://github.com/codecov/codecov-action" target="_blank" rel="noopener">codecov/codecov-action</a>, allowing immediate understanding of the impact of changes.</p>
 <div class="blogcard">
-    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;"
-        src="https://hatenablog-parts.com/embed?url=https%3a%2f%2fgithub.com%2fcodecov%2fcodecov-action" width="300" height="150" frameborder="0"
-        scrolling="no"></iframe>
+    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;border:0;" title="Blog card"
+        src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fgithub.com%2Fcodecov%2Fcodecov-action" width="300" height="150"></iframe>
 </div>
 
 <h4 id="performance-measurement-and-benchmark-automation">Performance Measurement and Benchmark Automation</h4>
 <p>To continuously monitor shell startup performance after dotfiles application and detect the impact of configuration changes early, I&rsquo;ve automated benchmark measurement in the workflow of GitHub Actions.</p>
 <p>This implementation references the following article using <a href="https://github.com/benchmark-action/github-action-benchmark" target="_blank" rel="noopener">benchmark-action/github-action-benchmark</a>. The GitHub Actions workflow measures both initial shell startup time and average startup time (measured 10 times) to quantify the impact of dotfiles configuration on shell startup.</p>
 <p><div class="blogcard">
-    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;"
-        src="https://hatenablog-parts.com/embed?url=https%3a%2f%2fgithub.com%2fbenchmark-action%2fgithub-action-benchmark" width="300" height="150" frameborder="0"
-        scrolling="no"></iframe>
+    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;border:0;" title="Blog card"
+        src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fgithub.com%2Fbenchmark-action%2Fgithub-action-benchmark" width="300" height="150"></iframe>
 </div>
 
 <div class="blogcard">
-    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;"
-        src="https://hatenablog-parts.com/embed?url=https%3a%2f%2fzenn.dev%2fodan%2farticles%2f17a86574b724c9" width="300" height="150" frameborder="0"
-        scrolling="no"></iframe>
+    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;border:0;" title="Blog card"
+        src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fzenn.dev%2Fodan%2Farticles%2F17a86574b724c9" width="300" height="150"></iframe>
 </div>
 </p>
 <p>Measurement results are published on <a href="https://shunk031.me/my-dotfiles-benchmarks/" target="_blank" rel="noopener">GitHub Pages</a>, achieving continuous performance monitoring. We can numerically confirm the impact of adding new plugins or configurations on shell startup time, preventing performance degradation before it occurs.</p>
 <div class="blogcard">
-    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;"
-        src="https://hatenablog-parts.com/embed?url=https%3a%2f%2fshunk031.me%2fmy-dotfiles-benchmarks%2f" width="300" height="150" frameborder="0"
-        scrolling="no"></iframe>
+    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;border:0;" title="Blog card"
+        src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fshunk031.me%2Fmy-dotfiles-benchmarks%2F" width="300" height="150"></iframe>
 </div>
 
 <h2 id="implementation-details-and-operational-flow">Implementation Details and Operational Flow</h2>
@@ -1683,9 +1670,8 @@
 <p>Scripts in the <code>install/</code> directory are designed following the single responsibility principle. Each script handles only the installation and configuration of specific tools, creating an independently testable structure.</p>
 <p>As a basic script structure, OS-specific processing is separated into different files and implemented as platform-specific scripts. All installation scripts follow the following common pattern. For shell script writing practices, <a href="https://betterdev.blog/minimal-safe-bash-script-template/" target="_blank" rel="noopener">Minimal safe Bash script template</a> is helpful.</p>
 <div class="blogcard">
-    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;"
-        src="https://hatenablog-parts.com/embed?url=https%3a%2f%2fbetterdev.blog%2fminimal-safe-bash-script-template%2f" width="300" height="150" frameborder="0"
-        scrolling="no"></iframe>
+    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;border:0;" title="Blog card"
+        src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fbetterdev.blog%2Fminimal-safe-bash-script-template%2F" width="300" height="150"></iframe>
 </div>
 
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="cp">#!/usr/bin/env bash
@@ -1755,9 +1741,8 @@
 <h2 id="conclusion">Conclusion</h2>
 <p>This article explained the approach of &ldquo;testable dotfiles management&rdquo; combining chezmoi and test-driven development. We presented a comprehensive solution to the fundamental problem that traditional dotfiles repositories face: &ldquo;not knowing if setup scripts work correctly until execution&rdquo;. Specifically, this was an approach combining unit testing with Bats, continuous verification with GitHub Actions, and regular execution of actual end-to-end setup. Please consider incorporating testability into your own dotfiles management to achieve reliable development environment construction.</p>
 <div class="blogcard">
-    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;"
-        src="https://hatenablog-parts.com/embed?url=https%3a%2f%2fgithub.com%2fshunk031%2fdotfiles" width="300" height="150" frameborder="0"
-        scrolling="no"></iframe>
+    <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;border:0;" title="Blog card"
+        src="https://hatenablog-parts.com/embed?url=https%3A%2F%2Fgithub.com%2Fshunk031%2Fdotfiles" width="300" height="150"></iframe>
 </div>
 
 <div class="footnotes" role="doc-endnotes">

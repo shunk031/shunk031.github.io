@@ -62,18 +62,16 @@
 &lt;h2 id=&#34;the-tooling-stack-used-in-this-article&#34;&gt;The Tooling Stack Used in This Article&lt;/h2&gt;
 &lt;h3 id=&#34;ghq-standardize-where-you-clone-repositories&#34;&gt;&lt;code&gt;ghq&lt;/code&gt;: Standardize Where You Clone Repositories&lt;/h3&gt;
 &lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fgithub.com%2fx-motemen%2fghq&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fgithub.com%2Fx-motemen%2Fghq&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 &lt;p&gt;&lt;code&gt;ghq&lt;/code&gt; is a CLI tool for organizing cloned repositories. Its philosophy is to place them under a common root using a structure like &lt;code&gt;host/owner/repo&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;With the &lt;code&gt;ghq list&lt;/code&gt; command, you can see all repositories you’ve cloned locally. When combined with &lt;code&gt;fzf&lt;/code&gt; (covered later), this becomes a powerful UI for jumping between repositories. The &lt;code&gt;ghq list --full-path&lt;/code&gt; command outputs full paths and is also featured in the official ghq handbook as a common pattern to pair with &lt;code&gt;fzf&lt;/code&gt;. &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;h3 id=&#34;fzf-turn-any-list-into-a-selectable-ui&#34;&gt;&lt;code&gt;fzf&lt;/code&gt;: Turn Any List into a “Selectable UI”&lt;/h3&gt;
 &lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fjunegunn.github.io%2ffzf%2f&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fjunegunn.github.io%2Ffzf%2F&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 &lt;p&gt;&lt;code&gt;fzf&lt;/code&gt; is a fast, interactive fuzzy finder that runs in the terminal. It takes input from stdin, filters it in real time, and lets you select items interactively.&lt;/p&gt;
@@ -100,9 +98,8 @@
 &lt;/p&gt;
 &lt;h3 id=&#34;gwq-manage-worktrees-the-ghq-way&#34;&gt;&lt;code&gt;gwq&lt;/code&gt;: Manage Worktrees “the ghq Way”&lt;/h3&gt;
 &lt;div class=&#34;blogcard&#34;&gt;
-    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;&#34;
-        src=&#34;https://hatenablog-parts.com/embed?url=https%3a%2f%2fgithub.com%2fd-kuro%2fgwq&#34; width=&#34;300&#34; height=&#34;150&#34; frameborder=&#34;0&#34;
-        scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fgithub.com%2Fd-kuro%2Fgwq&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 &lt;p&gt;&lt;code&gt;gwq&lt;/code&gt; is a CLI tool for efficiently managing git worktrees. Its README describes it as:&lt;/p&gt;
