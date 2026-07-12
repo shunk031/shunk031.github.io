@@ -55,7 +55,7 @@ This lack of quality assurance results in what should be automated environment c
 
 To solve the above problems, my dotfiles repository builds an architecture that emphasizes testability. Setup scripts are managed as independent files to enable individual testing, quality is ensured through automated testing with [Bats](https://github.com/bats-core/bats-core), and continuous testing and code coverage measurement are performed in macOS and Ubuntu environments using GitHub Actions.
 
-For managing dotfiles, I've adopted [chezmoi](https://www.chezmoi.io/). chezmoi is a modern dotfiles management tool with high popularity on GitHub ([10,000+⭐️](https://github.com/twpayne/chezmoi/stargazers)). Written in Go as a single, dependency-free binary, chezmoi is easy to install even on a brand-new, clean environment.
+For managing dotfiles, I've adopted [chezmoi](https://www.chezmoi.io/). chezmoi is a modern dotfiles management tool with high popularity on GitHub ([10,000+⭐️](https://github.com/twpayne/chezmoi)). Written in Go as a single, dependency-free binary, chezmoi is easy to install even on a brand-new, clean environment.
 
 {{< blogcard url="https://github.com/twpayne/chezmoi" >}}
 {{< blogcard url="https://www.chezmoi.io/" >}}
@@ -118,9 +118,9 @@ The core of this architecture lies in "separation of concerns" and "maximizing t
 
 By making setup scripts independent from chezmoi, individual testing becomes possible.
 
-- [`install/common/rust.sh`](https://github.com/shunk031/dotfiles/blob/master/install/common/rust.sh): Installation of tools used commonly across machines (e.g., Rust)
-- [`install/macos/common/brew.sh`](https://github.com/shunk031/dotfiles/blob/master/install/macos/common/brew.sh): Installation of Homebrew used commonly on macOS
-- [`install/ubuntu/common/misc.sh`](https://github.com/shunk031/dotfiles/blob/master/install/ubuntu/common/misc.sh): Installation of tools used commonly on Ubuntu (e.g., curl, jq)
+- [`install/common/mise.sh`](https://github.com/shunk031/dotfiles/blob/main/install/common/mise.sh): Installation of tools used commonly across machines via mise
+- [`install/macos/common/brew.sh`](https://github.com/shunk031/dotfiles/blob/main/install/macos/common/brew.sh): Installation of Homebrew used commonly on macOS
+- [`install/ubuntu/common/dependencies.sh`](https://github.com/shunk031/dotfiles/blob/main/install/ubuntu/common/dependencies.sh): Installation of tools used commonly on Ubuntu (e.g., curl, jq)
 
 Platform-specific configuration separates OS-specific logic, allowing each to be tested independently. Each script follows the single responsibility principle, handling only the installation of specific tools or packages.
 
@@ -128,9 +128,9 @@ Platform-specific configuration separates OS-specific logic, allowing each to be
 
 These are the actual dotfiles under chezmoi management. They follow chezmoi's unique file naming conventions [(`dot_` prefix etc.)](https://www.chezmoi.io/user-guide/frequently-asked-questions/design/#why-does-chezmoi-use-weird-filenames) and utilize template functionality. This repository specifies `home` as the source directory using the [.chezmoiroot](https://www.chezmoi.io/user-guide/advanced/customize-your-source-directory/) file[^2].
 
-- [`home/dot_zshrc`](https://github.com/shunk031/dotfiles/blob/master/home/dot_zshrc): deployed as `~/.zshrc`
-- [`home/dot_config/git/config.tmpl`](https://github.com/shunk031/dotfiles/blob/master/home/dot_config/git/config.tmpl): chezmoi template deployed as `~/.config/git/config`
-- [`home/.chezmoi.yaml.tmpl`](https://github.com/shunk031/dotfiles/blob/master/home/.chezmoi.yaml.tmpl): chezmoi configuration file
+- [`home/dot_zshrc`](https://github.com/shunk031/dotfiles/blob/main/home/dot_zshrc): deployed as `~/.zshrc`
+- [`home/dot_config/git/config.tmpl`](https://github.com/shunk031/dotfiles/blob/main/home/dot_config/git/config.tmpl): chezmoi template deployed as `~/.config/git/config`
+- [`home/.chezmoi.yaml.tmpl`](https://github.com/shunk031/dotfiles/blob/main/home/.chezmoi.yaml.tmpl): chezmoi configuration file
 
 It's independent from the scripts in the `install/` directory, separating configuration file placement and environment construction.
 
@@ -140,9 +140,9 @@ I use Bash Automated Testing System (Bats) to test scripts in the `install/` dir
 
 {{< blogcard url="https://github.com/bats-core/bats-core" >}}
 
-- [`tests/install/common/rust.bats`](https://github.com/shunk031/dotfiles/blob/master/tests/install/common/rust.bats): Tests for Rust installation script
-- [`tests/install/macos/common/brew.bats`](https://github.com/shunk031/dotfiles/blob/master/tests/install/macos/common/brew.bats): Tests for Homebrew installation script
-- [`tests/files/common.bats`](https://github.com/shunk031/dotfiles/blob/master/tests/files/common.bats): Verification of file existence after chezmoi deployment
+- [`tests/install/common/mise.bats`](https://github.com/shunk031/dotfiles/blob/main/tests/install/common/mise.bats): Tests for mise installation script
+- [`tests/install/macos/common/brew.bats`](https://github.com/shunk031/dotfiles/blob/main/tests/install/macos/common/brew.bats): Tests for Homebrew installation script
+- [`tests/files/common.bats`](https://github.com/shunk031/dotfiles/blob/main/tests/files/common.bats): Verification of file existence after chezmoi deployment
 
 Each test file verifies the script's behavior and confirms that expected results (package installation, configuration file generation, etc.) are obtained.
 
@@ -216,7 +216,7 @@ jobs:
 
 #### Regular Execution of Actual Setup
 
-More importantly, we should verify in environments identical to the actual user experience. This repository's workflow automatically executes the setup process using [`setup.sh`](https://github.com/shunk031/dotfiles/blob/master/setup.sh) on macOS and Ubuntu runners every Friday. This script wraps the chezmoi environment construction one-liner mentioned earlier.
+More importantly, we should verify in environments identical to the actual user experience. This repository's workflow automatically executes the setup process using [`setup.sh`](https://github.com/shunk031/dotfiles/blob/main/setup.sh) on macOS and Ubuntu runners every Friday. This script wraps the chezmoi environment construction one-liner mentioned earlier.
 
 ```yaml:.github/workflows/remote.yaml
 name: Snippet install
@@ -249,7 +249,7 @@ This regular execution continuously monitors the impact of external dependency c
 
 #### Code Coverage Measurement and Codecov Integration
 
-My repository measures shell script code coverage using [kcov](https://github.com/SimonKagstrom/kcov) and visualizes it with [Codecov](https://codecov.io/). This helps identify untested code paths and improve testing. Actual measurement uses [`scripts/run_unit_test.sh`](https://github.com/shunk031/dotfiles/blob/master/scripts/run_unit_test.sh).
+My repository measures shell script code coverage using [kcov](https://github.com/SimonKagstrom/kcov) and visualizes it with [Codecov](https://codecov.io/). This helps identify untested code paths and improve testing. Actual measurement uses [`scripts/run_unit_test.sh`](https://github.com/shunk031/dotfiles/blob/main/scripts/run_unit_test.sh).
 
 {{< blogcard url="https://github.com/SimonKagstrom/kcov" >}}
 {{< blogcard url="https://about.codecov.io/" >}}
