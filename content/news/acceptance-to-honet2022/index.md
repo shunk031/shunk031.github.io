@@ -4,7 +4,7 @@
 title: "Accepted our paper to IEEE HONET2022"
 subtitle: ""
 summary: ""
-authors: ["Ohata Kazuya", "Shunsuke Kitada", "Hitoshi Iyatomi"]
+authors: ["Kazuya Ohata", "Shunsuke Kitada", "Hitoshi Iyatomi"]
 tags: ["News", HONET, HONET2022]
 categories: ["News"]
 date: 2022-10-17T00:00:00+09:00
@@ -29,4 +29,4 @@ projects: []
 ---
 
 The following paper has been accepted to the [IEEE HONET2022](https://honet-ict.org/index.html).
-- Ohata Kazuya, Shunsuke Kitada and Hitoshi Iyatomi. ["Feedback is Needed for Retakes: An Explainable Poor Image Notification Framework for the Visually Impaired"](/publication/ohata2022feedback)
+- Kazuya Ohata, Shunsuke Kitada and Hitoshi Iyatomi. ["Feedback is Needed for Retakes: An Explainable Poor Image Notification Framework for the Visually Impaired"](/publication/ohata2022feedback)

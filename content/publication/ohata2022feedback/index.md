@@ -2,7 +2,7 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "Feedback is Needed for Retakes: An Explainable Poor Image Notification Framework for the Visually Impaired"
-authors: ["Ohata Kazuya", "Shunsuke Kitada", "Hitoshi Iyatomi"]
+authors: ["Kazuya Ohata", "Shunsuke Kitada", "Hitoshi Iyatomi"]
 date: 2022-10-18T14:09:09-04:00
 doi: "10.1109/HONET56683.2022.10019010"
 
