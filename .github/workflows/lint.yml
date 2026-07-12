@@ -1,0 +1,31 @@
+name: Frontmatter Lint
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "content/**"
+      - "scripts/lint_frontmatter.py"
+      - ".github/workflows/lint.yml"
+  pull_request:
+    paths:
+      - "content/**"
+      - "scripts/lint_frontmatter.py"
+      - ".github/workflows/lint.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  lint-frontmatter:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v8.3.2
+
+      - name: Lint frontmatter
+        run: uv run --with ruamel.yaml python scripts/lint_frontmatter.py
