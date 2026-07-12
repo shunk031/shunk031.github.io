@@ -79,8 +79,9 @@ jobs:
         with:
           fail: true
           lycheeVersion: ${{ steps.lychee-version.outputs.version }}
-          # --root-dir is required to resolve root-relative links (e.g. /talk/...)
-          # in the built HTML; without it lychee silently skips them.
+          # --root-dir is required since lychee v0.24 to resolve root-relative
+          # links (e.g. /talk/...) in the built HTML; without it lychee errors
+          # out instead of silently skipping them like v0.21 did.
           args: "${{ vars.ARTIFACT_PATH }} --root-dir ${{ github.workspace }}/${{ vars.ARTIFACT_PATH }} --config .lychee/config.toml --exclude-file .lychee/exclude-temporary.txt --exclude-file .lychee/exclude-permanent.txt"
 
   deploy:
