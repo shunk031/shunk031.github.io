@@ -68,6 +68,8 @@ make publication-thumbnail pdf=/path/to/paper.pdf name='author20xxconf'
 
 - Generate OGP image for the publication
 
+(On first run, the required KintoSans fonts are downloaded automatically into `assets/fonts/` from [ookamiinc/kinto](https://github.com/ookamiinc/kinto) (SIL OFL-1.1); the directory is gitignored.)
+
 ```sh
 make ogp-image name="kitada20XXconf"
 
