@@ -50,4 +50,4 @@ shunk031.me (Hugo 製個人サイト) のエージェント向け作業ガイド
 ## アセット
 
 - 画像/PDF: 大きいファイルは追加前に圧縮してください (PNG は可逆圧縮、PDF は Ghostscript `/ebook` 相当で品質確認の上)。content 配下の `featured.*` はテーマがファイル名で参照するためリネームしないでください。
-- フォント: `assets/fonts/KintoSans-*.ttf` は OGP 画像生成 (`make ogp-image` / tcardgen) 専用です。サイト配信では未使用ですが、削除・サブセット化はしないでください (経緯は issue #381)。
+- フォント: OGP 画像生成 (`make ogp-image` / tcardgen) 用の KintoSans は git 管理しません。`scripts/generate_ogp_image_for_publication.sh` が初回実行時に ookamiinc/kinto のリリースから `assets/fonts/` (gitignore 済み) へ自動ダウンロードします。フォントの TTF をコミットしないでください (経緯は issue #381 / PR #388)。

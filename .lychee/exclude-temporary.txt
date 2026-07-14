@@ -28,3 +28,8 @@ www.meethawaii.com/convention-center/
 # complete a TLS handshake because the server only offers legacy TLS cipher
 # suites. Re-check regularly in case the server's TLS config is upgraded.
 book.impress.co.jp
+
+# Alive (HTTP 200) but responds in >15s; times out under CI concurrency.
+# Weekly prune will drop once fast again.
+https://openaccess.thecvf.com/content/CVPR2026F/html/Kawada_SciGA_A_Comprehensive_Dataset_for_Designing_Graphical_Abstracts_in_Academic_CVPRF_2026_paper.html
+https://openaccess.thecvf.com/content/CVPR2026F/html/Nagai_TAUE_Training-free_Noise_Transplant_and_Cultivation_Diffusion_Model_CVPRF_2026_paper.html
