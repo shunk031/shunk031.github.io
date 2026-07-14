@@ -22,7 +22,12 @@ marketing:
     description: ""
     twitter: "shunk031"
   analytics:
-    google_analytics: "UA-114287158-2"
+    # Universal Analytics (UA-*) stopped collecting data in July 2023.
+    # The theme (blox-seo) renders this ID via gtag.js, so it already
+    # supports GA4 measurement IDs (G-XXXXXXXXXX) as-is.
+    # Set a GA4 measurement ID here once one has been issued in the
+    # Google Analytics admin console (Admin > Data Streams).
+    google_analytics: ""
     baidu_tongji: ""
     google_tag_manager: ""
     microsoft_clarity: ""
