@@ -45,7 +45,7 @@ links:
 url_pdf: publication/kawada2026miru/kawada2026miru.pdf
 url_code:
 url_dataset:
-url_poster:
+url_poster: publication/kawada2026miru/poster.pdf
 url_project:
 url_slides:
 url_source:
