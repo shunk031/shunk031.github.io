@@ -25,22 +25,20 @@ abstract: "文書を分かち書きせず文字単位で扱う Character-level C
 # Summary. An optional shortened abstract.
 summary: "NLP 若手の会 (YANS) 第 12 回シンポジウム，2017."
 
-tags: ["Domestic Conference", "Non-refereed", "Natural Language Processing", "YANS", "YANS2017"]
+tags: ["Domestic Conference", "Non-refereed", "Natural Language Processing", "YANS", "YANS2017", "Posters"]
 categories: ["Natural Language Processing", "Glyph-aware NLP", "NLP for Asian Languages"]
 featured: false
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
-# links:
-# - name: Follow
-#   url: https://twitter.com
-#   icon_pack: fab
-#   icon: twitter
+links:
+- name: YANS2017
+  url: https://yans.anlp.jp/entry/yans2017program
 
 url_pdf:
 url_code:
 url_dataset:
-url_poster: https://yans.anlp.jp/entry/yans2017program
+url_poster: publication/kitada2017yans/poster.pdf
 url_project:
 url_slides:
 url_source:

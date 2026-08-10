@@ -10,8 +10,8 @@ Checks:
       case (e.g. "Non-refereed" vs "Non-Refereed"). Both are valid English,
       so a spell checker won't flag them, but Hugo treats each spelling as a
       distinct taxonomy term and generates a separate (wrong) term page.
-  (c) Publication poster bundles that are not registered for the Projects
-      gallery with the canonical tag, URL, and dedicated thumbnail.
+  (c) Partial publication poster registrations. The local PDF, canonical tag,
+      URL, and dedicated thumbnail form one atomic Projects gallery contract.
 
 Usage:
     python scripts/lint_frontmatter.py [--content-dir content]
@@ -125,11 +125,18 @@ def find_poster_registration_violations(content_dir: pathlib.Path) -> list[str]:
         thumbnail_path = bundle_dir / POSTER_THUMBNAIL
         tags = frontmatter.get("tags")
         has_poster_tag = isinstance(tags, list) and POSTER_TAG in tags
+        has_poster_url = bool(frontmatter.get("url_poster"))
 
         if not poster_path.is_file():
             if has_poster_tag:
                 violations.append(
                     f"{index_path}: tag {POSTER_TAG!r} requires {POSTER_PDF}"
+                )
+            if has_poster_url:
+                violations.append(f"{index_path}: url_poster requires {POSTER_PDF}")
+            if thumbnail_path.is_file():
+                violations.append(
+                    f"{thumbnail_path}: {POSTER_THUMBNAIL} requires {POSTER_PDF}"
                 )
             continue
 

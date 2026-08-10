@@ -24,7 +24,7 @@ abstract: ""
 # Summary. An optional shortened abstract.
 summary: "NLP 若手の会 (YANS) 第 14 回シンポジウム，2019."
 
-tags: ["Domestic Conference", "Non-refereed", "Natural Language Processing", "YANS", "YANS2019"]
+tags: ["Domestic Conference", "Non-refereed", "Natural Language Processing", "YANS", "YANS2019", "Posters"]
 categories: ["Natural Language Processing", "Image-based Character Embedding"]
 featured: false
 
@@ -39,7 +39,7 @@ featured: false
 url_pdf:
 url_code:
 url_dataset:
-url_poster: https://drive.google.com/open?id=1jwEr2ptnJiqe9LJwSc_5BLrMYjZ-rxRH
+url_poster: publication/nagasawa2019yans/poster.pdf
 url_project:
 url_slides: https://drive.google.com/file/d/1oSUSPERHt4KHl0o2Pg4ZF_6Bu6jreCaI/view
 url_source:
