@@ -66,6 +66,16 @@ make publication name="author20xxconf"
 make publication-thumbnail pdf=/path/to/paper.pdf name='author20xxconf'
 ```
 
+- Register a publication poster in Projects
+
+Place `poster.pdf` in the publication bundle, add the exact `Posters` tag, and set
+`url_poster` to `publication/<name>/poster.pdf`. Then generate the dedicated
+Projects thumbnail without overwriting `featured.png`:
+
+```sh
+make poster-thumbnail name='author20xxconf'
+```
+
 - Generate OGP image for the publication
 
 (On first run, the required KintoSans fonts are downloaded automatically into `assets/fonts/` from [ookamiinc/kinto](https://github.com/ookamiinc/kinto) (SIL OFL-1.1); the directory is gitignored.)

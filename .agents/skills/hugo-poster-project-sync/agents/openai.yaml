@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hugo Poster Project Sync"
+  short_description: "Sync poster assets into the Projects gallery"
+  default_prompt: "Use $hugo-poster-project-sync to register a publication poster in Projects and generate its thumbnail."

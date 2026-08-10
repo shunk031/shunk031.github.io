@@ -25,6 +25,7 @@ abstract: "ローカル環境での GUI エージェント実用化には，限�
 summary: "言語処理学会第 32 回年次大会，2026."
 
 tags:
+  - "Posters"
   - "Domestic Conference"
   - "Non-refereed"
   - "AI Agent"

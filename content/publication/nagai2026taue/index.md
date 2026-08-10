@@ -28,6 +28,7 @@ aliases:
   - /publication/nagai2025taue/
 
 tags:
+- "Posters"
 - "International Conference"
 - "Refereed"
 - "Layer-wise Image Generation"
