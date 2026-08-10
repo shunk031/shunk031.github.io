@@ -25,6 +25,7 @@ abstract: "本報告では、書き手と読み手の感情ラベルを含む日
 summary: "NLP 若手の会 (YANS) 第 20 回シンポジウム，2025."
 
 tags:
+- "Posters"
 - "Natural Language Processing"
 - "Sentiment Analysis"
 - "Domestic Conference"

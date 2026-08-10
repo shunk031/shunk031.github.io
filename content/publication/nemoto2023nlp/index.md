@@ -25,6 +25,7 @@ abstract: " 多くの自然言語処理タスクはデータの不均衡の問�
 summary: "言語処理学会第 29 回年次大会，2023."
 
 tags:
+- "Posters"
 - "Domestic Conference"
 - "Non-refereed"
 - "Natural Language Processing"

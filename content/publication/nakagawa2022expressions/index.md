@@ -23,6 +23,7 @@ abstract: It is often difficult to correctly infer a writer's emotion from text 
 summary: "Proc. CIKM2022 (**Acceptance rate = 29.04%**)"
 
 tags:
+- "Posters"
 - "International Conference"
 - "Refereed"
 - "Natural Language Processing"
