@@ -4,7 +4,6 @@ import subprocess
 import sys
 from pathlib import Path
 
-
 REPO_ROOT = Path(__file__).resolve().parents[1]
 SCRIPT_PATH = REPO_ROOT / "scripts" / "lint_frontmatter.py"
 
@@ -14,6 +13,7 @@ def run_lint(content_dir: Path) -> subprocess.CompletedProcess[str]:
         [sys.executable, str(SCRIPT_PATH), "--content-dir", str(content_dir)],
         capture_output=True,
         text=True,
+        check=False,
     )
 
 
@@ -86,3 +86,63 @@ def test_known_casing_exception_is_reported_as_warning_not_failure(
     assert result.returncode == 0, result.stdout
     assert "Known pre-existing casing issues" in result.stdout
     assert "Invited talk" in result.stdout
+
+
+def test_poster_registration_passes_when_all_assets_and_frontmatter_exist(
+    tmp_path: Path,
+) -> None:
+    publication_dir = tmp_path / "publication" / "sample2026conf"
+    write_post(
+        publication_dir / "index.md",
+        'title: "Sample Poster"\n'
+        'tags: ["Posters"]\n'
+        "url_poster: publication/sample2026conf/poster.pdf",
+    )
+    (publication_dir / "poster.pdf").write_bytes(b"%PDF-1.7\n")
+    (publication_dir / "poster-thumbnail.webp").write_bytes(b"WEBP")
+
+    result = run_lint(tmp_path)
+
+    assert result.returncode == 0, result.stdout
+
+
+def test_poster_pdf_requires_projects_registration(tmp_path: Path) -> None:
+    publication_dir = tmp_path / "publication" / "sample2026conf"
+    write_post(
+        publication_dir / "index.md",
+        'title: "Sample Poster"\ntags: []\nurl_poster: ""',
+    )
+    (publication_dir / "poster.pdf").write_bytes(b"%PDF-1.7\n")
+
+    result = run_lint(tmp_path)
+
+    assert result.returncode == 1
+    assert "requires the exact tag 'Posters'" in result.stdout
+    assert (
+        "requires url_poster 'publication/sample2026conf/poster.pdf'" in result.stdout
+    )
+    assert "requires poster-thumbnail.webp" in result.stdout
+
+
+def test_posters_tag_requires_poster_pdf(tmp_path: Path) -> None:
+    publication_dir = tmp_path / "publication" / "sample2026conf"
+    write_post(
+        publication_dir / "index.md",
+        'title: "Sample Poster"\ntags: ["Posters"]\nurl_poster: ""',
+    )
+
+    result = run_lint(tmp_path)
+
+    assert result.returncode == 1
+    assert "tag 'Posters' requires poster.pdf" in result.stdout
+
+
+def test_poster_pdf_requires_publication_frontmatter(tmp_path: Path) -> None:
+    publication_dir = tmp_path / "publication" / "sample2026conf"
+    publication_dir.mkdir(parents=True)
+    (publication_dir / "poster.pdf").write_bytes(b"%PDF-1.7\n")
+
+    result = run_lint(tmp_path)
+
+    assert result.returncode == 1
+    assert "poster.pdf requires publication index.md" in result.stdout

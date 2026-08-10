@@ -25,6 +25,7 @@ abstract: "Graphical Abstract (GA) は論文の要点を視覚的に伝える重
 summary: "言語処理学会第 31 回年次大会，2025."
 
 tags:
+- "Posters"
 - "Domestic Conference"
 - "Non-refereed"
 - "AI for Science"

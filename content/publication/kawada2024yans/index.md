@@ -24,7 +24,7 @@ abstract: "Graphical Abstract(GA) とは，論文の核心的な内容を伝え�
 # Summary. An optional shortened abstract.
 summary: "NLP 若手の会 (YANS) 第 19 回シンポジウム，2024."
 
-tags: ["AI for Science", "Contrastive Learning", "Domestic Conference", "Non-refereed", "YANS", "YANS2024"]
+tags: ["AI for Science", "Contrastive Learning", "Domestic Conference", "Non-refereed", "YANS", "YANS2024", "Posters"]
 categories: ["Natural Language Processing", "Vision & Language", "AI for Science"]
 featured: false
 
