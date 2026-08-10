@@ -137,6 +137,33 @@ def test_posters_tag_requires_poster_pdf(tmp_path: Path) -> None:
     assert "tag 'Posters' requires poster.pdf" in result.stdout
 
 
+def test_poster_url_requires_projects_registration(tmp_path: Path) -> None:
+    publication_dir = tmp_path / "publication" / "sample2026conf"
+    write_post(
+        publication_dir / "index.md",
+        'title: "Sample Poster"\ntags: []\nurl_poster: https://example.com/poster.pdf',
+    )
+
+    result = run_lint(tmp_path)
+
+    assert result.returncode == 1
+    assert "url_poster requires poster.pdf" in result.stdout
+
+
+def test_poster_thumbnail_requires_projects_registration(tmp_path: Path) -> None:
+    publication_dir = tmp_path / "publication" / "sample2026conf"
+    write_post(
+        publication_dir / "index.md",
+        'title: "Sample Poster"\ntags: []\nurl_poster: ""',
+    )
+    (publication_dir / "poster-thumbnail.webp").write_bytes(b"WEBP")
+
+    result = run_lint(tmp_path)
+
+    assert result.returncode == 1
+    assert "poster-thumbnail.webp requires poster.pdf" in result.stdout
+
+
 def test_poster_pdf_requires_publication_frontmatter(tmp_path: Path) -> None:
     publication_dir = tmp_path / "publication" / "sample2026conf"
     publication_dir.mkdir(parents=True)
