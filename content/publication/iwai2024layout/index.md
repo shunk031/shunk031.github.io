@@ -25,7 +25,7 @@ abstract: "Layout generation is a task to synthesize a harmonious layout with el
 # Summary. An optional shortened abstract.
 summary: "Proc. of ECCV2024 (**Acceptance rate = 27.9%**)"
 
-tags: ["International Conference", "Refereed", "Layout Generation", "Discrete Diffusion Model", "LYCorp", "International Publication", "Springer", "ECCV", "ECCV2024"]
+tags: ["International Conference", "Refereed", "Layout Generation", "Discrete Diffusion Model", "LYCorp", "International Publication", "Springer", "ECCV", "ECCV2024", "Official Implementation"]
 categories: ["Layout Generation", "Creative Graphic Design"]
 featured: true
 

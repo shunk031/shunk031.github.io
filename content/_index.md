@@ -236,14 +236,8 @@ sections:
           filter: '.js-id-posters:not(.js-id-domestic-conference)'
         - name: 'Posters 🇯🇵'
           filter: '.js-id-posters.js-id-domestic-conference'
-        - name: 'Official Implementation'
+        - name: 'Official Implementation 💻'
           tag:  'Official Implementation'
-        - name: 'PyTorch'
-          tag:  'PyTorch'
-        - name: 'Chainer'
-          tag:  'Chainer'
-        - name: 'Tool'
-          tag:  'Tool'
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
