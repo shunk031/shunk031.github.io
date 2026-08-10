@@ -7,6 +7,7 @@ import sys
 from pathlib import Path
 
 import pytest
+from ruamel.yaml import YAML
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 SCRIPT_PATH = (
@@ -17,6 +18,25 @@ SCRIPT_PATH = (
     / "scripts"
     / "create_poster_thumbnail.py"
 )
+OFFICIAL_IMPLEMENTATION_PUBLICATIONS = (
+    "aoki2020text",
+    "daif2020aradic",
+    "iwai2024layout",
+    "kawada2026sciga",
+)
+
+
+def test_public_official_implementations_are_in_projects() -> None:
+    yaml = YAML(typ="safe")
+    for slug in OFFICIAL_IMPLEMENTATION_PUBLICATIONS:
+        index_path = REPO_ROOT / "content" / "publication" / slug / "index.md"
+        frontmatter = yaml.load(index_path.read_text().split("---", 2)[1])
+        assert "Official Implementation" in frontmatter["tags"], slug
+
+    portfolio_template = (
+        REPO_ROOT / "layouts" / "partials" / "blocks" / "portfolio.html"
+    ).read_text()
+    assert "$is_official_implementation" in portfolio_template
 
 
 def load_thumbnail_module():

@@ -93,10 +93,12 @@
     {{ $query = sort $query $sort_by $sort_order }}
 
     {{ range $index, $item := $query }}
+      {{/* Reuse registered publication bundles without exposing every publication in Projects. */}}
       {{ $tags := $item.Params.tags | default (slice) }}
       {{ $is_project := eq $item.Section "project" }}
       {{ $is_poster := and (eq $item.Section "publication") (in $tags "Posters") }}
-      {{ if or $is_project $is_poster }}
+      {{ $is_official_implementation := and (eq $item.Section "publication") (in $tags "Official Implementation") }}
+      {{ if or $is_project $is_poster $is_official_implementation }}
       {{ $js_tag_classes := delimit (apply (apply (apply $item.Params.tags "replace" "." " " "-") "printf" "js-id-%s" ".") "lower" ".") " " }}
         {{ if in (slice "masonry" 3) $view }}
           <div class="project-card project-item isotope-item {{ $js_tag_classes | safeHTMLAttr }}">
