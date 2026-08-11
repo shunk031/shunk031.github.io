@@ -25,7 +25,7 @@ abstract: "Layout generation is a task to synthesize a harmonious layout with el
 # Summary. An optional shortened abstract.
 summary: "Proc. of ECCV2024 (**Acceptance rate = 27.9%**)"
 
-tags: ["International Conference", "Refereed", "Layout Generation", "Discrete Diffusion Model", "LYCorp", "International Publication", "Springer", "ECCV", "ECCV2024"]
+tags: ["International Conference", "Refereed", "Layout Generation", "Discrete Diffusion Model", "LYCorp", "International Publication", "Springer", "ECCV", "ECCV2024", "Official Implementation", "Posters"]
 categories: ["Layout Generation", "Creative Graphic Design"]
 featured: true
 
@@ -44,7 +44,7 @@ links:
 url_pdf:
 url_code: https://github.com/line/Layout-Corrector
 url_dataset:
-url_poster: https://iwa-shi.github.io/Layout-Corrector-Project-Page/static/pdfs/layout_corrector_eccv2024_poster.pdf
+url_poster: publication/iwai2024layout/poster.pdf
 url_project: https://iwa-shi.github.io/Layout-Corrector-Project-Page/
 url_slides:
 url_source:

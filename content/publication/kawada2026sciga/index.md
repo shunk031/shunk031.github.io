@@ -27,7 +27,7 @@ summary: "Findings of CVPR2026 (**Acceptance rate = 36.09%**)"
 aliases:
   - /publication/kawada2025sciga/
 
-tags: ["International Conference", "Refereed", "AI for Science", "Natural Language Processing", "Computer Vision", "Vision & Language", "Dataset", "CVPR", "CVPR2026"]
+tags: ["International Conference", "Refereed", "AI for Science", "Natural Language Processing", "Computer Vision", "Vision & Language", "Dataset", "CVPR", "CVPR2026", "Posters", "Official Implementation"]
 categories: ["Natural Language Processing", "Vision & Language", "AI for Science"]
 featured: false
 

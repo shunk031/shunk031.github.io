@@ -25,6 +25,7 @@ abstract: "Vision-Language Models (VLMs) excel at multimodal tasks, but they rem
 summary: "Proc. ACL SRW 2026 (**Acceptance rate = 32.41%**; non-archival publication)"
 
 tags:
+- "Posters"
 - "International Publication"
 - "Refereed"
 - "Natural Language Processing"

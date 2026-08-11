@@ -25,6 +25,7 @@ abstract: "Creative graphic design involves iterative refinement over structured
 summary: "第 29 回 画像の認識・理解シンポジウム，2026."
 
 tags:
+- "Posters"
 - "Domestic Conference"
 - "Non-refereed"
 - "Creative Graphic Design"
@@ -44,7 +45,7 @@ links:
 url_pdf: publication/kitada2026miru/kitada2026miru.pdf
 url_code:
 url_dataset:
-url_poster:
+url_poster: publication/kitada2026miru/poster.pdf
 url_project:
 url_slides:
 url_source:

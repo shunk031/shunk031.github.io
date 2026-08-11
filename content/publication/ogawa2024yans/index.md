@@ -24,7 +24,7 @@ abstract: "現在、大規模言語モデル(LLM)を活用した音声認識合�
 # Summary. An optional shortened abstract.
 summary: "NLP 若手の会 (YANS) 第 19 回シンポジウム，2024."
 
-tags: ["Text-to-Audio Retrieval", "LLM", "ChatGPT", "Domestic Conference", "Non-refereed", "YANS", "YANS2024"]
+tags: ["Text-to-Audio Retrieval", "LLM", "ChatGPT", "Domestic Conference", "Non-refereed", "YANS", "YANS2024", "Posters"]
 categories: ["Natural Language Processing", "Audio Processing"]
 featured: false
 
