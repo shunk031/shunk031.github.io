@@ -9,7 +9,7 @@ address:
   region: ""
   postcode: ""
   country: ""
-summary: "“Attention is not Explanation” と “Attention is not not Explanation” の著者らによる夢のコラボレーション。本文から根拠を抽出してその根拠を元にタスクを解く新たな枠組みの提案。\n\n■ イベント：ACL2020オンライン読み会\nhttps://exawizards.connpass.com/event/184582/\n\n■ 登壇概要\nタイトル：Learning to Faithfully Rationalize  by Construction"
+summary: "ACL2020 オンライン読み会で、Learning to Faithfully Rationalize by Construction を紹介しました。"
 abstract: "“Attention is not Explanation” と “Attention is not not Explanation” の著者らによる夢のコラボレーション。本文から根拠を抽出してその根拠を元にタスクを解く新たな枠組みの提案。\n\n■ イベント：ACL2020オンライン読み会\nhttps://exawizards.connpass.com/event/184582/\n\n■ 登壇概要\nタイトル：Learning to Faithfully Rationalize  by Construction"
 date: "2020-09-06T14:30:00+09:00"
 date_end: "2020-09-06T14:50:00+09:00"

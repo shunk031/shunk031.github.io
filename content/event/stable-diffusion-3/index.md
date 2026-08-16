@@ -9,7 +9,7 @@ address:
   region: ""
   postcode: ""
   country: ""
-summary: "Stability.AI からこれまでの拡散モデルとは少し異なるパラダイムの新たな Text-to-Image モデル Stable Diffusion 3 (SD3) の提案について紹介します。\n\n一部 GIF アニメーションを用いた図があるため、オリジナルの Google Slide を参照していただくのをおすすめします: https://bit.ly/stable-diffusion-3-explained"
+summary: "Stable Diffusion 3 の Rectified Flow Transformer による画像生成手法を紹介しました。"
 abstract: "Stability.AI からこれまでの拡散モデルとは少し異なるパラダイムの新たな Text-to-Image モデル Stable Diffusion 3 (SD3) の提案について紹介します。\n\n一部 GIF アニメーションを用いた図があるため、オリジナルの Google Slide を参照していただくのをおすすめします: https://bit.ly/stable-diffusion-3-explained"
 date: "2024-03-27T12:00:00+09:00"
 date_end: "2024-03-27T12:00:00+09:00"

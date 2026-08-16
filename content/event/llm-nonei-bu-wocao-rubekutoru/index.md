@@ -9,7 +9,7 @@ address:
   region: ""
   postcode: ""
   country: ""
-summary: "A Speaker Deck presentation about steering vectors for LLM internal representations."
+summary: "LLM の内部表現を操作する steering vector について紹介しました。"
 abstract: "A Speaker Deck presentation about steering vectors for LLM internal representations."
 date: "2026-02-17T12:00:00+09:00"
 date_end: "2026-02-17T12:00:00+09:00"
