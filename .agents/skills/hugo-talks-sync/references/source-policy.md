@@ -6,15 +6,16 @@ Use this reference when `hugo-talks-sync` finds candidate talks.
 
 1. Existing `content/event` entries decide whether a source is already registered.
 2. Official organizer pages decide event name, exact date/time, location, and session context.
-3. Speaker Deck feed and oEmbed decide slide title, slide URL, cover image, and description.
+3. Source feeds and source-specific metadata decide item title, source URL, cover image, and description.
 4. Secondary sources may confirm facts, but should not be the only source for event metadata.
 
-## Speaker Deck Handling
+## Source Handling
 
-- Prefer `<profile>.rss` or `<profile>.atom` for listing decks.
-- Prefer Speaker Deck oEmbed for embed metadata after a candidate is selected.
-- Treat `pubDate` as upload/publication date until an organizer page confirms the actual event time.
-- Treat URLs inside the feed description as discovery hints. Inspect them before writing.
+- Prefer explicit source adapters over one-off scraping.
+- Use `speakerdeck-profile` for Speaker Deck profiles, `feed` for auto-detected RSS/Atom sources, and explicit `rss` or `atom` adapters when the expected feed format is known.
+- Treat feed `pubDate`, `published`, or `updated` as source publication dates until an organizer page confirms the actual event time.
+- Treat URLs inside descriptions or summaries as discovery hints. Inspect them before writing.
+- Add a new adapter when a source needs platform-specific semantics, such as user profile pagination, API authentication, HTML selectors, video metadata, or source-specific URL roles. Put adapter-specific settings in `options`.
 
 ## Candidate Classification
 

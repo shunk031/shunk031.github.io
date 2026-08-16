@@ -1,6 +1,6 @@
 ---
 name: hugo-talks-sync
-description: Discover missing Recent & Upcoming Talks for this Hugo/HugoBlox repository by comparing shunk031's external talk sources, especially Speaker Deck profile feeds, with existing content/event entries. Use when asked to update, audit, backfill, or synchronize talks from Speaker Deck, slide lists, connpass-like organizer pages, or other external talk indexes before creating event pages with hugo-event-intake.
+description: Discover missing Recent & Upcoming Talks for this Hugo/HugoBlox repository by comparing shunk031's external talk sources with existing content/event entries. Use when asked to update, audit, backfill, or synchronize talks from Speaker Deck profiles, generic RSS/Atom feeds, slide lists, organizer pages, or other external talk indexes before creating event pages with hugo-event-intake.
 ---
 
 # Hugo Talks Sync
@@ -23,19 +23,50 @@ uv run python .agents/skills/hugo-talks-sync/scripts/hugo_talks_sync.py audit --
 
 Defaults:
 
-- Speaker Deck profile: `https://speakerdeck.com/shunk031`
-- Feed endpoint: `https://speakerdeck.com/shunk031.rss`
+- Source adapter: `speakerdeck-profile`
+- Speaker Deck profile URL: `https://speakerdeck.com/shunk031`
 - Existing event root: `content/event`
 - Duplicate check fields: `event_url`, `url_slides`, `url_pdf`, `url_video`, `url_code`, and Markdown body URLs
 
-Use `--profile-url`, `--feed-url`, or repeated `--feed-url` when the user names a
-different source.
+Use source options when the user names different sources:
+
+- `--profile-url <speakerdeck-profile-url>` changes the default Speaker Deck profile.
+- `--feed-url <rss-or-atom-url>` adds a generic auto-detected RSS/Atom `feed` source. Repeat it for multiple feeds.
+- `--source-config <json-file>` loads explicit source definitions.
+
+Source config shape:
+
+```json
+{
+  "sources": [
+    {
+      "name": "speakerdeck-shunk031",
+      "adapter": "speakerdeck-profile",
+      "profile_url": "https://speakerdeck.com/shunk031",
+      "options": {}
+    },
+    {
+      "name": "personal-talk-feed",
+      "adapter": "atom",
+      "url": "https://example.com/talks.atom",
+      "options": {}
+    }
+  ]
+}
+```
+
+First-class adapters are currently `speakerdeck-profile`, auto-detected `feed`,
+explicit `rss`, and explicit `atom`. For HTML index pages, APIs, or
+platform-specific sources such as connpass users or YouTube channels, add a
+source adapter to the registry in
+`scripts/hugo_talks_sync.py` instead of scraping ad hoc in the workflow.
 
 2. Review `/tmp/hugo-talks-sync.json`.
 
 For each candidate, inspect:
 
 - `source_url`: the Speaker Deck page or external source
+- `source_name`, `adapter`, and `source_type` (a compatibility alias of `adapter`)
 - `title`
 - `published_at`
 - `image_url`
@@ -48,9 +79,9 @@ Skip candidates marked `existing_path`. They already match an event entry.
 3. Cross-check uncertain candidates.
 
 Read [references/source-policy.md](references/source-policy.md) when deciding which
-external facts are sufficient. In short: the feed is enough to identify the slide
-deck, but not always enough to determine event name, exact talk time, location, or
-talk kind. Prefer organizer pages discovered in `extracted_urls`.
+external facts are sufficient. In short: feeds are enough to identify source
+items, but not always enough to determine event name, exact talk time, location,
+or talk kind. Prefer organizer pages discovered in `extracted_urls`.
 
 4. Present a proposal before writing.
 
@@ -81,11 +112,14 @@ Then follow the `hugo-event-intake` confirm-then-write workflow. Keep one
 - Treat exact normalized URLs as duplicates.
 - Also inspect Markdown body URLs because older event pages may include source links
   outside top-level frontmatter.
-- Keep Speaker Deck as `url_slides`.
+- Keep slide-deck sources such as Speaker Deck as `url_slides`.
 - Pass organizer URLs such as connpass or official conference pages as additional
   `hugo-event-intake` inputs.
-- Use RSS/Atom/oEmbed first. Avoid scraping Speaker Deck HTML unless feeds and
-  oEmbed fail.
+- Use RSS/Atom and source-specific public metadata first. Avoid scraping HTML
+  unless a source adapter owns that parsing.
+- Keep adapter-specific settings in each source's `options` object so future
+  HTML/API adapters can own selectors, pagination, API parameters, or URL-role
+  rules without changing the audit workflow.
 
 ## When To Stop
 
