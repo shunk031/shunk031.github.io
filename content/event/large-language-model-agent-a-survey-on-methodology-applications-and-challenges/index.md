@@ -1,6 +1,6 @@
 ---
-title: "Large Language Model Agent: A Survey on Methodology, Applications and Challenges"
-event: "Speaker Deck"
+title: "[Journal Club] Large Language Model Agent: A Survey on Methodology, Applications and Challenges"
+event: "Journal Club"
 event_url: ""
 location: "Online"
 address:
@@ -16,7 +16,7 @@ date_end: "2025-05-28T12:00:00+09:00"
 all_day: false
 publishDate: "2025-05-28T12:00:00+09:00"
 authors: ["Shunsuke Kitada"]
-tags: ["Report", "LLM", "Agent"]
+tags: ["Journal Club", "Paper Reading", "LLM", "Agent"]
 featured: false
 image:
   caption: ""
@@ -30,7 +30,7 @@ url_video: ""
 slides: ""
 projects: []
 ---
-# Speaker Deck
+# Journal Club
 
 > 大規模言語モデル（LLM）を搭載した「LLMエージェント」は、自律的な目標達成や動的な環境適応能力により、人工知能の新たなフロンティアを切り開いています 。本資料では、この急速に進化するLLMエージェントの全貌を、最新の包括的サーベイ論文「Large Language Model Agent: A Survey on Methodology, Applications and Challenges (Luo et al. - 2025)」  に基づき詳細に解説します。
 >

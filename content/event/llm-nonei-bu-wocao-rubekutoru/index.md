@@ -1,6 +1,6 @@
 ---
-title: "LLM の内部を操るベクトル？"
-event: "Speaker Deck"
+title: "[Journal Club] LLM の内部を操るベクトル？"
+event: "Journal Club"
 event_url: ""
 location: "Online"
 address:
@@ -16,7 +16,7 @@ date_end: "2026-02-17T12:00:00+09:00"
 all_day: false
 publishDate: "2026-02-17T12:00:00+09:00"
 authors: ["Shunsuke Kitada"]
-tags: ["Report", "LLM"]
+tags: ["Journal Club", "Paper Reading", "LLM"]
 featured: false
 image:
   caption: ""
@@ -30,7 +30,7 @@ url_video: ""
 slides: ""
 projects: []
 ---
-# Speaker Deck
+# Journal Club
 
 > A Speaker Deck presentation about steering vectors for LLM internal representations.
 

@@ -1,6 +1,6 @@
 ---
-title: "Scaling Rectified Flow Transformers for High-Resolution Image Synthesis / Stable Diffusion 3"
-event: "Speaker Deck"
+title: "[Journal Club] Scaling Rectified Flow Transformers for High-Resolution Image Synthesis / Stable Diffusion 3"
+event: "Journal Club"
 event_url: ""
 location: "Online"
 address:
@@ -16,7 +16,7 @@ date_end: "2024-03-27T12:00:00+09:00"
 all_day: false
 publishDate: "2024-03-27T12:00:00+09:00"
 authors: ["Shunsuke Kitada"]
-tags: ["Report", "Image Generation", "Diffusion Model"]
+tags: ["Journal Club", "Paper Reading", "Image Generation", "Diffusion Model"]
 featured: false
 image:
   caption: ""
@@ -30,7 +30,7 @@ url_video: ""
 slides: ""
 projects: []
 ---
-# Speaker Deck
+# Journal Club
 
 > Stability.AI からこれまでの拡散モデルとは少し異なるパラダイムの新たな Text-to-Image モデル Stable Diffusion 3 (SD3) の提案について紹介します。
 >

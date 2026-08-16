@@ -72,6 +72,9 @@ For each candidate, inspect:
 - `image_url`
 - `description`
 - `extracted_urls`: organizer, paper, code, video, or PDF URLs found in the feed description
+- `likely_kind` and `suggested_tags`: tentative classification to carry into
+  `hugo-event-intake` review. Empty `likely_kind` means the source did not
+  provide enough evidence; resolve it before writing.
 - `suggested_intake_inputs`: URLs to pass to `hugo-event-intake`
 
 Skip candidates marked `existing_path`. They already match an event entry.
@@ -95,6 +98,9 @@ Show the user a compact table of missing candidates with:
 
 Ask which candidates to create. Do not assume that every Speaker Deck upload should
 be a site event; some decks are notes, paper readings, or drafts.
+Do not keep `Speaker Deck` as the event name or `Report` as the kind when the
+description or discovered URLs show that the deck is a paper reading or journal
+club entry.
 
 5. Create accepted events through `hugo-event-intake`.
 

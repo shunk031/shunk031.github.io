@@ -172,7 +172,17 @@ def test_probe_infers_journal_club_and_report_tags() -> None:
         sources=[],
         explicit_kind="",
     ) == "Journal Club"
+    assert module.infer_kind(
+        notes=["Large Language Model Agent: A Survey on Methodology, Applications and Challenges"],
+        sources=[],
+        explicit_kind="",
+    ) == "Journal Club"
     assert module.default_tags_for_kind("Journal Club") == ["Journal Club", "Paper Reading"]
+    assert module.infer_kind(
+        notes=["ECCV 2026 参加報告会"],
+        sources=[],
+        explicit_kind="",
+    ) == "Report"
     assert module.render_title("Report", "ECCV 2026 速報") == "ECCV 2026 速報"
     assert module.render_title("Invited Talk", "Practical ML") == "[Invited Talk] Practical ML"
 

@@ -253,14 +253,25 @@ def infer_kind(
             "論文読み会",
             "読み会",
             "輪読",
+            "論文",
+            "paper",
+            "arxiv.org",
+            "transformer-circuits.pub",
+            "survey on",
+            "a survey",
+            "サーベイ論文",
+            "提案について紹介",
         )
     ):
         return "Journal Club"
     if "poster" in haystack:
         return "Invited Poster"
-    if "presentation" in haystack:
+    if any(
+        keyword in haystack
+        for keyword in ("invited presentation", "doctoral dissertation presentation")
+    ):
         return "Invited Presentation"
-    if any(keyword in haystack for keyword in ("report", "速報", "summary", "survey")):
+    if any(keyword in haystack for keyword in ("report", "速報", "summary", "参加報告")):
         return "Report"
     return "Invited Talk"
 

@@ -1,6 +1,6 @@
 ---
-title: "AIグラフィックデザインの進化：断片から統合（One Piece）へ / From Fragment to One Piece: A Survey on AI-Driven Graphic Design"
-event: "Speaker Deck"
+title: "[Journal Club] AIグラフィックデザインの進化：断片から統合（One Piece）へ / From Fragment to One Piece: A Survey on AI-Driven Graphic Design"
+event: "Journal Club"
 event_url: ""
 location: "Online"
 address:
@@ -16,7 +16,7 @@ date_end: "2025-08-31T12:00:00+09:00"
 all_day: false
 publishDate: "2025-08-31T12:00:00+09:00"
 authors: ["Shunsuke Kitada"]
-tags: ["Report", "Graphic Design", "Survey"]
+tags: ["Journal Club", "Paper Reading", "Graphic Design", "Survey"]
 featured: false
 image:
   caption: ""
@@ -30,7 +30,7 @@ url_video: ""
 slides: ""
 projects: []
 ---
-# Speaker Deck
+# Journal Club
 
 > AI技術はグラフィックデザインの領域に革命をもたらし、クリエイティブなプロセスを根本から変えようとしています。かつてはタイポグラフィやレイアウトなど個々の要素を扱う断片的な研究が主流でしたが、近年の大規模言語モデル（LLM）やマルチモーダル技術の進化は、デザイン全体を統合的に扱う新たな潮流を生み出しています。
 >

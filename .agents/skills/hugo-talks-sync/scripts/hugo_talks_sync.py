@@ -23,6 +23,35 @@ RSS_NAMESPACES = {
     "media": "http://search.yahoo.com/mrss/",
 }
 URL_RE = re.compile(r"https?://[^\s<>()\"']+")
+KIND_TAGS = {
+    "Invited Talk": ["Invited Talk"],
+    "Journal Club": ["Journal Club", "Paper Reading"],
+    "Invited Presentation": ["Invited Talk", "Invited Presentation"],
+    "Invited Poster": ["Presentation"],
+    "Report": ["Report"],
+}
+REPORT_KEYWORDS = (
+    "report",
+    "速報",
+    "参加報告",
+    "参加報告会",
+)
+JOURNAL_CLUB_KEYWORDS = (
+    "journal club",
+    "reading",
+    "paper reading",
+    "論文読み会",
+    "読み会",
+    "輪読",
+    "論文",
+    "paper",
+    "arxiv.org",
+    "transformer-circuits.pub",
+    "survey on",
+    "a survey",
+    "サーベイ論文",
+    "提案について紹介",
+)
 
 
 @dataclass(frozen=True)
@@ -63,8 +92,37 @@ class FeedEntry:
     def to_dict(self) -> dict[str, Any]:
         payload = asdict(self)
         payload["source_type"] = self.adapter
+        payload["likely_kind"] = infer_candidate_kind(self)
+        payload["suggested_tags"] = suggested_tags_for_kind(payload["likely_kind"])
         payload["suggested_intake_inputs"] = self.suggested_intake_inputs
         return payload
+
+
+def suggested_tags_for_kind(kind: str) -> list[str]:
+    return list(KIND_TAGS.get(kind, [kind] if kind else []))
+
+
+def infer_candidate_kind(entry: FeedEntry) -> str:
+    haystack = " ".join(
+        [
+            entry.title,
+            entry.description,
+            entry.source_url,
+            *entry.extracted_urls,
+        ]
+    ).lower()
+    if "poster" in haystack:
+        return "Invited Poster"
+    if any(
+        keyword in haystack
+        for keyword in ("invited presentation", "doctoral dissertation presentation")
+    ):
+        return "Invited Presentation"
+    if any(keyword in haystack for keyword in REPORT_KEYWORDS):
+        return "Report"
+    if any(keyword in haystack for keyword in JOURNAL_CLUB_KEYWORDS):
+        return "Journal Club"
+    return ""
 
 
 def normalize_url(url: str) -> str:

@@ -20,7 +20,10 @@ Use this reference when `hugo-talks-sync` finds candidate talks.
 ## Candidate Classification
 
 - Paper-reading titles or descriptions usually become `Journal Club`.
+- Speaker Deck-only items that cite a paper URL such as arXiv or describe a
+  survey/paper explanation usually become `Journal Club`, not `Report`.
 - Invited event pages, seminars, and conference talks usually become `Invited Talk`.
 - Conference recap decks usually become `Report`.
 - Poster sessions or explicitly poster-like pages usually become `Invited Poster`.
 - If classification is unclear, leave it for `hugo-event-intake` confirmation instead of guessing.
+  An empty `likely_kind` in audit output is preferable to a false `Invited Talk`.

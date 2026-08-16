@@ -114,6 +114,8 @@ body
     assert result["existing"][0]["existing_path"] == "content/event/existing-talk/index.md"
     assert result["candidates"][0]["source_name"] == "speakerdeck-shunk031"
     assert result["candidates"][0]["source_type"] == "speakerdeck-profile"
+    assert result["candidates"][0]["likely_kind"] == ""
+    assert result["candidates"][0]["suggested_tags"] == []
     assert result["candidates"][0]["source_url"] == "https://speakerdeck.com/shunk031/missing-talk"
     assert result["candidates"][0]["suggested_intake_inputs"] == [
         "https://speakerdeck.com/shunk031/missing-talk",
@@ -349,3 +351,42 @@ def test_audit_deduplicates_same_candidate_across_sources(
     assert result["duplicate_count"] == 1
     assert result["duplicates"][0]["source_name"] == "second"
     assert result["duplicates"][0]["duplicate_of"] == "https://slides.example.com/shared-talk"
+
+
+def test_audit_suggests_journal_club_for_paper_reading_candidate(
+    tmp_path: Path, monkeypatch
+) -> None:
+    module = load_module()
+    (tmp_path / "content" / "event").mkdir(parents=True)
+    feed = """<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <item>
+      <title>Large Language Model Agent: A Survey on Methodology, Applications and Challenges</title>
+      <description>Paper notes https://arxiv.org/abs/2503.21460</description>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 -0400</pubDate>
+      <link>https://speakerdeck.com/shunk031/llm-agent-survey</link>
+      <guid>https://speakerdeck.com/shunk031/llm-agent-survey</guid>
+    </item>
+  </channel>
+</rss>
+"""
+    monkeypatch.setattr(module, "read_text_url", lambda _url: feed)
+
+    result = module.audit(
+        tmp_path,
+        [
+            module.SourceConfig(
+                name="speakerdeck-shunk031",
+                adapter="speakerdeck-profile",
+                url="https://speakerdeck.com/shunk031.rss",
+            )
+        ],
+    )
+
+    assert result["candidate_count"] == 1
+    assert result["candidates"][0]["likely_kind"] == "Journal Club"
+    assert result["candidates"][0]["suggested_tags"] == [
+        "Journal Club",
+        "Paper Reading",
+    ]
