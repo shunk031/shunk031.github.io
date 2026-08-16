@@ -32,6 +32,7 @@ tags:
 - "Non-refereed"
 - "YANS"
 - YANS2026
+- "Posters"
 categories: ["Vision & Language", "Spatial Reasoning"]
 featured: false
 
@@ -46,7 +47,7 @@ featured: false
 url_pdf:
 url_code:
 url_dataset:
-url_poster:
+url_poster: publication/chan2026yans/poster.pdf
 url_project:
 url_slides:
 url_source:
