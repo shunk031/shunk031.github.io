@@ -59,13 +59,70 @@ def test_render_news_markdown_keeps_conference_tags_for_acceptance_news() -> Non
         conf,
         publications,
         author="Shunsuke Kitada",
-        conference_date="2026-02-21T00:00:00+00:00",
+        news_date="2026-02-21T00:00:00+00:00",
         draft=False,
     )
 
     assert 'title: "Accepted our paper to Findings of CVPR 2026"' in markdown
     assert 'tags: ["News", "CVPR", "CVPR2026"]' in markdown
     assert "The following paper has been accepted to Findings of CVPR 2026:" in markdown
+
+
+def test_resolve_news_date_uses_generation_time_for_presentations() -> None:
+    module = load_sync_conference_news_module()
+
+    conf = module.ConferenceKey(
+        name="YANS",
+        year="2026",
+        display_label="YANS 2026",
+        news_kind=module.NEWS_KIND_PRESENTATIONS,
+    )
+    publication = module.Publication(
+        path=Path("content/publication/example2026yans/index.md"),
+        slug="example2026yans",
+        title="Example presentation",
+        authors=["Shunsuke Kitada"],
+        date="2026-08-17T00:00:00+09:00",
+        conf=conf,
+    )
+    generated_at = "2026-08-16T12:01:13+09:00"
+
+    assert module.resolve_news_date(conf, [publication], generated_at) == generated_at
+
+
+def test_resolve_news_date_keeps_earliest_publication_date_for_acceptance() -> None:
+    module = load_sync_conference_news_module()
+
+    conf = module.ConferenceKey(
+        name="CVPR",
+        year="2026",
+        display_label="CVPR 2026",
+        news_kind=module.NEWS_KIND_ACCEPTANCE,
+    )
+    publications = [
+        module.Publication(
+            path=Path("content/publication/later2026cvpr/index.md"),
+            slug="later2026cvpr",
+            title="Later paper",
+            authors=["Shunsuke Kitada"],
+            date="2026-02-21T00:00:00+00:00",
+            conf=conf,
+        ),
+        module.Publication(
+            path=Path("content/publication/earlier2026cvpr/index.md"),
+            slug="earlier2026cvpr",
+            title="Earlier paper",
+            authors=["Shunsuke Kitada"],
+            date="2026-02-20T00:00:00+00:00",
+            conf=conf,
+        ),
+    ]
+    generated_at = "2026-03-01T00:00:00+00:00"
+
+    assert (
+        module.resolve_news_date(conf, publications, generated_at)
+        == "2026-02-20T00:00:00+00:00"
+    )
 
 
 def test_render_news_markdown_prioritizes_site_owner_first_author_papers() -> None:
@@ -100,7 +157,7 @@ def test_render_news_markdown_prioritizes_site_owner_first_author_papers() -> No
         conf,
         publications,
         author="Shunsuke Kitada",
-        conference_date="2026-08-03T00:00:00+09:00",
+        news_date="2026-08-03T00:00:00+09:00",
         draft=False,
     )
 
