@@ -12,6 +12,9 @@ drive.google.com/file/d/0B3O7bgd3mym6N214SWw3eVJCS3M/view
 t.co
 openai.com/index/chatgpt
 www.ieice.org/~nlc
+# IEICE KEN paper page returns HTTP 403 to automated checks even with a browser
+# user-agent. Re-check regularly in case the access policy changes.
+https://ken.ieice.org/ken/paper/20190927q1Qe/
 www.nikkan.co.jp/articles
 www.cikm2022.org
 www.kdd.org/kdd2019
