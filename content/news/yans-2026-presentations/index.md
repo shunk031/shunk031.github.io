@@ -7,8 +7,8 @@ summary: ""
 authors: ["Shunsuke Kitada"]
 tags: ["News", "YANS", "YANS2026"]
 categories: ["News"]
-date: 2026-08-17T00:00:00+09:00
-lastmod: 2026-08-17T00:00:00+09:00
+date: 2026-08-16T12:01:13+09:00
+lastmod: 2026-08-16T12:01:13+09:00
 featured: false
 draft: false
 
