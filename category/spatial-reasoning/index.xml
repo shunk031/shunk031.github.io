@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spatial Reasoning | shunk031.me</title>
+    <link>https://shunk031.me/category/spatial-reasoning/</link>
+      <atom:link href="https://shunk031.me/category/spatial-reasoning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Spatial Reasoning</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 17 Aug 2026 00:00:00 +0900</lastBuildDate>
+    <image>
+      <url>https://shunk031.me/media/sharing.png</url>
+      <title>Spatial Reasoning</title>
+      <link>https://shunk031.me/category/spatial-reasoning/</link>
+    </image>
+    
+    <item>
+      <title>Where Do Vision-Language Models Preserve and Use Depth Information?</title>
+      <link>https://shunk031.me/publication/chan2026yans/</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/chan2026yans/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

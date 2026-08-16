@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>西山 天 | shunk031.me</title>
+    <link>https://shunk031.me/authors/%E8%A5%BF%E5%B1%B1-%E5%A4%A9/</link>
+      <atom:link href="https://shunk031.me/authors/%E8%A5%BF%E5%B1%B1-%E5%A4%A9/index.xml" rel="self" type="application/rss+xml" />
+    <description>西山 天</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 17 Aug 2026 00:00:00 +0900</lastBuildDate>
+    <image>
+      <url>https://shunk031.me/media/sharing.png</url>
+      <title>西山 天</title>
+      <link>https://shunk031.me/authors/%E8%A5%BF%E5%B1%B1-%E5%A4%A9/</link>
+    </image>
+    
+    <item>
+      <title>Activation Steeringにおける文章崩壊の抑制に向けた初期検討</title>
+      <link>https://shunk031.me/publication/nishiyama2026yans/</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/nishiyama2026yans/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

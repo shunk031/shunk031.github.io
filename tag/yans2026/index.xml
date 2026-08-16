@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>YANS2026 | shunk031.me</title>
+    <link>https://shunk031.me/tag/yans2026/</link>
+      <atom:link href="https://shunk031.me/tag/yans2026/index.xml" rel="self" type="application/rss+xml" />
+    <description>YANS2026</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 17 Aug 2026 00:00:00 +0900</lastBuildDate>
+    <image>
+      <url>https://shunk031.me/media/sharing.png</url>
+      <title>YANS2026</title>
+      <link>https://shunk031.me/tag/yans2026/</link>
+    </image>
+    
+    <item>
+      <title>Activation Steeringにおける文章崩壊の抑制に向けた初期検討</title>
+      <link>https://shunk031.me/publication/nishiyama2026yans/</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/nishiyama2026yans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Where Do Vision-Language Models Preserve and Use Depth Information?</title>
+      <link>https://shunk031.me/publication/chan2026yans/</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/chan2026yans/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -5,12 +5,20 @@
     <link>https://shunk031.me/authors/%E5%AE%88%E7%94%B0-%E7%AB%9C%E6%A2%A7/</link>
       <atom:link href="https://shunk031.me/authors/%E5%AE%88%E7%94%B0-%E7%AB%9C%E6%A2%A7/index.xml" rel="self" type="application/rss+xml" />
     <description>守田 竜梧</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 13 Nov 2025 00:00:00 +0900</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 17 Aug 2026 00:00:00 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.me/media/sharing.png</url>
       <title>守田 竜梧</title>
       <link>https://shunk031.me/authors/%E5%AE%88%E7%94%B0-%E7%AB%9C%E6%A2%A7/</link>
     </image>
+    
+    <item>
+      <title>Where Do Vision-Language Models Preserve and Use Depth Information?</title>
+      <link>https://shunk031.me/publication/chan2026yans/</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/chan2026yans/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>潜在拡散モデルでのレイアウト指定生成に向けたアテンションに基づく初期ノイズ最適化</title>

@@ -5,12 +5,28 @@
     <link>https://shunk031.me/authors/%E5%8C%97%E7%94%B0-%E4%BF%8A%E8%BC%94/</link>
       <atom:link href="https://shunk031.me/authors/%E5%8C%97%E7%94%B0-%E4%BF%8A%E8%BC%94/index.xml" rel="self" type="application/rss+xml" />
     <description>北田 俊輔</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 09 Mar 2026 00:00:00 +0900</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 17 Aug 2026 00:00:00 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.me/media/sharing.png</url>
       <title>北田 俊輔</title>
       <link>https://shunk031.me/authors/%E5%8C%97%E7%94%B0-%E4%BF%8A%E8%BC%94/</link>
     </image>
+    
+    <item>
+      <title>Activation Steeringにおける文章崩壊の抑制に向けた初期検討</title>
+      <link>https://shunk031.me/publication/nishiyama2026yans/</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/nishiyama2026yans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Where Do Vision-Language Models Preserve and Use Depth Information?</title>
+      <link>https://shunk031.me/publication/chan2026yans/</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/publication/chan2026yans/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Compressed-a11y: 視覚的文脈の再構成と冗長性削減による GUI エージェント観測の効率化</title>
