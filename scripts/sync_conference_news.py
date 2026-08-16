@@ -388,7 +388,7 @@ def render_news_markdown(
     publications: list[Publication],
     *,
     author: str,
-    conference_date: str,
+    news_date: str,
     draft: bool,
 ) -> str:
     """Render a complete `content/news/<slug>/index.md` markdown string."""
@@ -416,8 +416,8 @@ def render_news_markdown(
         f'authors: ["{author}"]',
         news_tags,
         'categories: ["News"]',
-        f"date: {conference_date}",
-        f"lastmod: {conference_date}",
+        f"date: {news_date}",
+        f"lastmod: {news_date}",
         "featured: false",
         f"draft: {'true' if draft else 'false'}",
         "",
@@ -472,6 +472,18 @@ def resolve_conference_date(publications: list[Publication], fallback: str) -> s
         return fallback
     parsed.sort(key=lambda x: x[0])
     return parsed[0][1]
+
+
+def resolve_news_date(
+    conf: ConferenceKey,
+    publications: list[Publication],
+    generated_at: str,
+) -> str:
+    """Use creation time for presentation news and publication dates for acceptance news."""
+
+    if conf.news_kind == NEWS_KIND_PRESENTATIONS:
+        return generated_at
+    return resolve_conference_date(publications, generated_at)
 
 
 def initialize_news_file(repo_root: Path, news_dir: Path, out_file: Path, slug: str) -> str:
@@ -635,7 +647,7 @@ def main() -> None:
             conf,
             items,
             author=args.author,
-            conference_date=resolve_conference_date(items, now_iso),
+            news_date=resolve_news_date(conf, items, now_iso),
             draft=draft,
         )
 
