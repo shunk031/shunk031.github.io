@@ -540,6 +540,15 @@ def derive_slug(
     return "event-entry"
 
 
+def link_label_for_event_url(url: str) -> str:
+    host = urlsplit(url).netloc.lower()
+    if host.endswith("connpass.com"):
+        return "Connpass"
+    if host.endswith("confit.atlas.jp"):
+        return "Confit"
+    return "Event"
+
+
 def build_body_markdown(
     spec: EventSpec, *, description: str, speakerdeck_source: SourceInfo | None
 ) -> str:
@@ -562,19 +571,27 @@ def build_body_markdown(
         return "\n".join(part.rstrip() for part in parts if part.strip()) + "\n"
 
     links = []
+    seen_urls: set[str] = set()
+
+    def add_link(name: str, url: str) -> None:
+        if not url or url in seen_urls:
+            return
+        links.append((name, url))
+        seen_urls.add(url)
+
     if spec.event_url:
-        links.append(("Event", spec.event_url))
+        add_link(link_label_for_event_url(spec.event_url), spec.event_url)
     if spec.url_slides:
-        links.append(("Slides", spec.url_slides))
+        add_link("Slides", spec.url_slides)
     if spec.url_pdf:
-        links.append(("PDF", spec.url_pdf))
+        add_link("PDF", spec.url_pdf)
     if spec.url_video:
-        links.append(("Video", spec.url_video))
+        add_link("Video", spec.url_video)
     if spec.url_code:
-        links.append(("Code", spec.url_code))
+        add_link("Code", spec.url_code)
     if spec.links:
         for link in spec.links:
-            links.append((link["name"], link["url"]))
+            add_link(link["name"], link["url"])
     if links:
         parts.append(
             "## Links\n\n"

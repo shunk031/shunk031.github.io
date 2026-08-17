@@ -246,6 +246,32 @@ def test_write_event_downloads_featured_image_and_renders_body(tmp_path: Path) -
     assert (output_path.parent / "featured.jpg").read_bytes() == b"JPEGDATA"
 
 
+def test_build_body_labels_event_url_by_source_and_deduplicates_links() -> None:
+    module = load_module()
+    spec = module.EventSpec(
+        slug="pydata-tokyo",
+        event="PyData Tokyo #1",
+        event_url="https://pydata-tokyo.connpass.com/event/123456/",
+        url_slides="https://speakerdeck.com/shunk031/practical-ml",
+        links=[
+            {
+                "name": "Connpass",
+                "url": "https://pydata-tokyo.connpass.com/event/123456/",
+            }
+        ],
+    )
+
+    body = module.build_body_markdown(
+        spec,
+        description="Practical ML talk.",
+        speakerdeck_source=None,
+    )
+
+    assert "- [Connpass](https://pydata-tokyo.connpass.com/event/123456/)" in body
+    assert "- [Slides](https://speakerdeck.com/shunk031/practical-ml)" in body
+    assert body.count("https://pydata-tokyo.connpass.com/event/123456/") == 1
+
+
 def test_write_event_generates_thumbnail_from_pdf(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
     module = load_module()
     repo_root = tmp_path / "repo"
