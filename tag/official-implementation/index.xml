@@ -29,14 +29,6 @@
     </item>
     
     <item>
-      <title>End-to-End Text Classification via Image-based Embedding using Character-level Networks</title>
-      <link>https://shunk031.me/project/ceclcnn/</link>
-      <pubDate>Tue, 30 Nov 2021 11:22:13 +0900</pubDate>
-      <guid>https://shunk031.me/project/ceclcnn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Text Classification through Glyph-aware Disentangled Character Embedding and Semantic Sub-character Augmentation</title>
       <link>https://shunk031.me/publication/aoki2020text/</link>
       <pubDate>Sun, 25 Oct 2020 15:15:41 +0900</pubDate>
@@ -50,14 +42,6 @@
     </item>
     
     <item>
-      <title>Attention Meets Perturbation</title>
-      <link>https://shunk031.me/project/attention-meets-perturbation/</link>
-      <pubDate>Fri, 02 Oct 2020 00:01:07 +0900</pubDate>
-      <guid>https://shunk031.me/project/attention-meets-perturbation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>AraDIC: Arabic Document Classification using Image-Based Character Embeddings and Class-Balanced Loss</title>
       <link>https://shunk031.me/publication/daif2020aradic/</link>
       <pubDate>Sun, 21 Jun 2020 21:38:33 +0900</pubDate>
@@ -68,14 +52,6 @@
 &lt;/div&gt;
 
 </description>
-    </item>
-    
-    <item>
-      <title>Conversion Prediction Using Multi-task Conditional Attention Networks to Support the Creation of Effective Ad Creatives</title>
-      <link>https://shunk031.me/project/multi-task-conditional-attention-networks/</link>
-      <pubDate>Thu, 01 Aug 2019 00:00:00 +0900</pubDate>
-      <guid>https://shunk031.me/project/multi-task-conditional-attention-networks/</guid>
-      <description></description>
     </item>
     
   </channel>
