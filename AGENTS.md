@@ -34,7 +34,7 @@ shunk031.me (Hugo 製個人サイト) のエージェント向け作業ガイド
 ## スキル (定型作業)
 
 - 置き場所: `.agents/skills/` が source of truth です。`.claude/skills` はここへの symlink で、Claude Code からも同じスキルが見えます。ツール固有のスキルを重複して作らないでください。
-- 対応表: Recent & Upcoming Talks の更新・外部ソース差分確認・talks 同期は `hugo-talks-sync` を先に使い、候補の event ページ作成は `hugo-event-intake` に渡してください。
+- 対応表: Recent & Upcoming Talks の更新・外部ソース差分確認・talks 同期は `hugo-talks-sync` skill を先に使い、候補の event ページ作成は `hugo-event-intake` に渡してください。
 - 単発の event ページ追加は `hugo-event-intake`、publication のサムネイル生成は `hugo-publication-thumbnail`、ポスターの Projects 登録は `hugo-poster-project-sync`、採択・発表 news の同期は `hugo-conference-news-sync` を使ってください。呼び出しコマンドは各 `SKILL.md` を参照し、conference news 同期は top-level の `scripts/sync_conference_news.py` を使います (スキル配下に同名スクリプトがあっても top-level 版が正です)。
 
 ## リンク切れの運用
