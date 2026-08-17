@@ -9,7 +9,7 @@ address:
   region: ""
   postcode: ""
   country: ""
-summary: "大規模言語モデル内部の情報を調整して、応答の傾向を制御する手法を紹介。"
+summary: "大規模言語モデル内部の情報を調整して、応答の傾向を制御する手法を紹介"
 abstract: "A Speaker Deck presentation about steering vectors for LLM internal representations."
 date: "2026-02-17T12:00:00+09:00"
 date_end: "2026-02-17T12:00:00+09:00"

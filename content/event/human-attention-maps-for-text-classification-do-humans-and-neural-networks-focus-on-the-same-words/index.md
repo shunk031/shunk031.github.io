@@ -9,7 +9,7 @@ address:
   region: ""
   postcode: ""
   country: ""
-summary: "ACL 2020 オンラインLT会で、人間とモデルの注目箇所を比較する研究を紹介。"
+summary: "ACL 2020 オンラインLT会で、人間とモデルの注目箇所を比較する研究を紹介"
 abstract: "人手によってアノテーションしたattention mapを元に、深層学習モデルのattention mapと比較分析を行った。\n\n■ イベント：ACL 2020 オンラインLT会 \nhttps://nlpaper-challenge.connpass.com/event/185240/\n\n■ 登壇概要\nタイトル：Human Attention Maps for Text Classification: Do Humans and Neural Networks Focus on the Same Words?"
 date: "2020-08-17T20:10:00+09:00"
 date_end: "2020-08-17T20:30:00+09:00"

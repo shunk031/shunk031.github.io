@@ -9,7 +9,7 @@ address:
   region: ""
   postcode: ""
   country: ""
-summary: "博士論文発表で、モデルがどこを重視するかを使った予測と解釈の研究を発表。"
+summary: "博士論文発表で、モデルがどこを重視するかを使った予測と解釈の研究を発表"
 abstract: "Slides for the presentation of my doctoral dissertation (in Japanese).\nThe contents of the presentation are already published as the following papers:\n- Section 2: Kitada and Iyatomi IEEE Access'21. https://arxiv.org/abs/2009.12064\n- Section 3: Kitada and Iyatomi. Appl. Intell.'22. https://arxiv.org/abs/2104.08763\n- Section 4: Kitada et al. KDD'19. https://arxiv.org/abs/1905.07289\n- Section 5: Kitada et al. Appl. Sci.'22. https://arxiv.org/abs/2204.11588"
 date: "2023-03-24T12:00:00+09:00"
 date_end: "2023-03-24T12:00:00+09:00"
