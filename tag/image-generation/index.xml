@@ -44,5 +44,20 @@
       <description></description>
     </item>
     
+    <item>
+      <title>[Journal Club] Scaling Rectified Flow Transformers for High-Resolution Image Synthesis / Stable Diffusion 3</title>
+      <link>https://shunk031.me/event/stable-diffusion-3/</link>
+      <pubDate>Wed, 27 Mar 2024 12:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/event/stable-diffusion-3/</guid>
+      <description>&lt;h1 id=&#34;journal-club&#34;&gt;Journal Club&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Stability.AI からこれまでの拡散モデルとは少し異なるパラダイムの新たな Text-to-Image モデル Stable Diffusion 3 (SD3) の提案について紹介します。&lt;/p&gt;
+&lt;p&gt;一部 GIF アニメーションを用いた図があるため、オリジナルの Google Slide を参照していただくのをおすすめします: &lt;a href=&#34;https://bit.ly/stable-diffusion-3-explained&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bit.ly/stable-diffusion-3-explained&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;資料---slides&#34;&gt;資料 - Slides&lt;/h2&gt;
+&lt;script defer class=&#34;speakerdeck-embed&#34; data-id=&#34;ec8e2cda211847a6a1565d92b93c135f&#34; data-ratio=&#34;1.7772511848341233&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

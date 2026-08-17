@@ -55,6 +55,43 @@
     </item>
     
     <item>
+      <title>[Journal Club] PSDesigner: Automated Graphic Design with a Human-Like Creative Workflow (CVPR 2026)</title>
+      <link>https://shunk031.me/event/kantocv-67th-cvpr-2026/</link>
+      <pubDate>Sat, 18 Jul 2026 13:45:00 +0900</pubDate>
+      <guid>https://shunk031.me/event/kantocv-67th-cvpr-2026/</guid>
+      <description>&lt;h1 id=&#34;第67回-コンピュータビジョン勉強会関東前編&#34;&gt;第67回 コンピュータビジョン勉強会＠関東（前編）&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;デザイン素材収集と、Photoshopの操作履歴から学習した Vision and Language Model (VLM) によるツール呼び出しの計画・実行を組み合わせ、Agentic に複雑なレイヤー構造をもつ編集可能なデザインを生成する PSDesigner について紹介します。&lt;/p&gt;
+&lt;p&gt;■ 第67回 コンピュータビジョン勉強会＠関東（前編）
+&lt;a href=&#34;https://kantocv.connpass.com/event/397919/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://kantocv.connpass.com/event/397919/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;■ 登壇概要
+タイトル：PSDesigner: Automated Graphic Design with a Human-Like Creative Workflow&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;資料---slides&#34;&gt;資料 - Slides&lt;/h2&gt;
+&lt;script defer class=&#34;speakerdeck-embed&#34; data-id=&#34;4bc2b29c70a245559b27453ac4cdaf3f&#34; data-ratio=&#34;1.7777777777777777&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>[Journal Club] Natural Language Autoencoders Produce Unsupervised Explanations of LLM Activations</title>
+      <link>https://shunk031.me/event/natural-language-autoencoders-produce-unsupervised-explanations-of-llm-activations/</link>
+      <pubDate>Fri, 05 Jun 2026 12:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/event/natural-language-autoencoders-produce-unsupervised-explanations-of-llm-activations/</guid>
+      <description>&lt;h1 id=&#34;speaker-deck&#34;&gt;Speaker Deck&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;大規模言語モデル（LLM）の内部状態は、高次元の活性化ベクトルとして表現されており、モデルの推論・判断・潜在的な認識に関する豊かな情報を含んでいます。本資料では、この不透明な内部表現を自然言語で読み解く新たな解釈可能性手法 Natural Language Autoencoders（NLA）について、Anthropicの研究論文「Natural Language Autoencoders Produce Unsupervised Explanations of LLM Activations（Fraser-Taliente, Kantamneni, Ong et al. - 2026）」に基づき、手法・評価・監査応用・限界を体系的に解説します。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;📝：https://transformer-circuits.pub/2026/nla/&lt;/li&gt;
+&lt;li&gt;🐙：https://github.com/kitft/natural_language_autoencoders&lt;/li&gt;
+&lt;li&gt;🌐：https://www.neuronpedia.org/nla&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;資料---slides&#34;&gt;資料 - Slides&lt;/h2&gt;
+&lt;script defer class=&#34;speakerdeck-embed&#34; data-id=&#34;5b1e6ed39a4047f39ed94ddb6217c6ff&#34; data-ratio=&#34;1.7777777777777777&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Accepted our papers to ACL2026 SRW</title>
       <link>https://shunk031.me/news/acceptance-to-acl2026srw/</link>
       <pubDate>Tue, 05 May 2026 00:00:00 +0900</pubDate>
@@ -81,6 +118,28 @@
     </item>
     
     <item>
+      <title>その LLM 制御、本当に信頼できますか？ / Can We Reliably Control LLMs?</title>
+      <link>https://shunk031.me/event/can-we-reliably-control-llms/</link>
+      <pubDate>Tue, 21 Apr 2026 19:45:00 +0900</pubDate>
+      <guid>https://shunk031.me/event/can-we-reliably-control-llms/</guid>
+      <description>&lt;h1 id=&#34;sansan--ivrynlp2026-参加報告会&#34;&gt;【Sansan × IVRy】NLP2026 参加報告会&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;大規模言語モデル（LLM）に対する内部介入（steering / intervention）は、重み更新を伴わずに推論時の振る舞いを制御できる手法として、近年急速に注目を集めています。本発表では、この軽量かつ柔軟な制御パラダイムの可能性と限界について、言語処理学会 2026 における関連研究を体系的に整理しながら概観します。特に、北田+「ステアリングベクトルは日本語LLMを堅牢に制御できるか？」を中心に、評価・安全性・多言語制御・表現学習といった観点から、内部介入がどこまで信頼できる制御として機能するのかを議論します。&lt;/p&gt;
+&lt;p&gt;■【Sansan × IVRy】NLP2026 参加報告会
+&lt;a href=&#34;https://sansan.connpass.com/event/388590/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://sansan.connpass.com/event/388590/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;■ 登壇概要
+タイトル：その LLM 制御、本当に信頼できますか？&lt;/p&gt;
+&lt;p&gt;■ 言語処理学会第32回年次大会(NLP2026)
+&lt;a href=&#34;https://www.anlp.jp/nlp2026/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.anlp.jp/nlp2026/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;■ 北田+ &amp;ldquo;ステアリングベクトルは日本語 LLM を堅牢に制御できるか？&amp;rdquo;
+&lt;a href=&#34;https://www.anlp.jp/proceedings/annual_meeting/2026/pdf_dir/B1-13.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.anlp.jp/proceedings/annual_meeting/2026/pdf_dir/B1-13.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;資料---slides&#34;&gt;資料 - Slides&lt;/h2&gt;
+&lt;script defer class=&#34;speakerdeck-embed&#34; data-id=&#34;844c7498cae448b29cf2272408322fec&#34; data-ratio=&#34;1.7777777777777777&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
       <title>EnsemHalDet: Robust VLM Hallucination Detection via Ensemble of Internal State Detectors</title>
       <link>https://shunk031.me/publication/miyazato2026ensemhaldet/</link>
       <pubDate>Fri, 03 Apr 2026 00:00:00 +0900</pubDate>
@@ -90,6 +149,24 @@
         src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Farxiv.org%2Fabs%2F2604.02784&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
+</description>
+    </item>
+    
+    <item>
+      <title>[Journal Club] The Landscape of Agentic Reinforcement Learning for LLMs: A Survey</title>
+      <link>https://shunk031.me/event/the-landscape-of-agentic-reinforcement-learning-for-llms-a-survey/</link>
+      <pubDate>Wed, 01 Apr 2026 12:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/event/the-landscape-of-agentic-reinforcement-learning-for-llms-a-survey/</guid>
+      <description>&lt;h1 id=&#34;journal-club&#34;&gt;Journal Club&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;大規模言語モデル（LLM）に強化学習を組み合わせた「Agentic RL」は，自律的な意思決定や動的な環境適応能力により，人工知能の新たなフロンティアを切り開いています。本資料では，この急速に進化するAgentic RLの全体像を，最新の包括的サーベイ論文「Agentic Reinforcement Learning: A Survey（2025）」に基づき詳細に解説します。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;📝：https://arxiv.org/abs/2509.02547&lt;/li&gt;
+&lt;li&gt;🐙：https://github.com/xhyumiracle/Awesome-AgenticLLM-RL-Papers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;資料---slides&#34;&gt;資料 - Slides&lt;/h2&gt;
+&lt;script defer class=&#34;speakerdeck-embed&#34; data-id=&#34;538096fe8d70456a8b7164c40e4a4c90&#34; data-ratio=&#34;1.7777777777777777&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
 </description>
     </item>
     
@@ -118,6 +195,20 @@
 &lt;li&gt;Takuro Kawada, Shunsuke Kitada, Sota Nemoto, Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.me/publication/kawada2026sciga&#34;&gt;&amp;ldquo;SciGA: A Comprehensive Dataset for Designing Graphical Abstracts in Academic Papers&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Daichi Nagai, Ryugo Morita, Shunsuke Kitada, Hitoshi Iyatomi. &lt;a href=&#34;https://shunk031.me/publication/nagai2026taue&#34;&gt;&amp;ldquo;TAUE: Training-free Noise Transplant and Cultivation Diffusion Model&amp;rdquo;&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>[Journal Club] LLM の内部を操るベクトル？</title>
+      <link>https://shunk031.me/event/llm-nonei-bu-wocao-rubekutoru/</link>
+      <pubDate>Tue, 17 Feb 2026 12:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/event/llm-nonei-bu-wocao-rubekutoru/</guid>
+      <description>&lt;h1 id=&#34;journal-club&#34;&gt;Journal Club&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A Speaker Deck presentation about steering vectors for LLM internal representations.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;資料---slides&#34;&gt;資料 - Slides&lt;/h2&gt;
+&lt;script defer class=&#34;speakerdeck-embed&#34; data-id=&#34;3a1b1f099d044957aa0e767fedadb0ce&#34; data-ratio=&#34;1.7777777777777777&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
 </description>
     </item>
     
@@ -1515,6 +1606,24 @@ In this article we compactly introduce how Python type hints came about, their b
     </item>
     
     <item>
+      <title>[Journal Club] AIグラフィックデザインの進化：断片から統合（One Piece）へ / From Fragment to One Piece: A Survey on AI-Driven Graphic Design</title>
+      <link>https://shunk031.me/event/from-fragment-to-one-piece-a-survey-on-ai-driven-graphic-design/</link>
+      <pubDate>Sun, 31 Aug 2025 12:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/event/from-fragment-to-one-piece-a-survey-on-ai-driven-graphic-design/</guid>
+      <description>&lt;h1 id=&#34;journal-club&#34;&gt;Journal Club&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;AI技術はグラフィックデザインの領域に革命をもたらし、クリエイティブなプロセスを根本から変えようとしています。かつてはタイポグラフィやレイアウトなど個々の要素を扱う断片的な研究が主流でしたが、近年の大規模言語モデル（LLM）やマルチモーダル技術の進化は、デザイン全体を統合的に扱う新たな潮流を生み出しています。&lt;/p&gt;
+&lt;p&gt;本発表では、この急速に進化するAI駆動グラフィックデザイン（AIGD）の全貌を、最新の包括的サーベイ論文「From Fragment to One Piece: A Survey on AI-Driven Graphic Design (Zou et al. - 2025)」  に基づき詳細に解説します。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;📝：https://arxiv.org/abs/2507.17202&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;資料---slides&#34;&gt;資料 - Slides&lt;/h2&gt;
+&lt;script defer class=&#34;speakerdeck-embed&#34; data-id=&#34;e0fe9c3016454158ae61c6685671c64e&#34; data-ratio=&#34;1.7777777777777777&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Our Presentations at MIRU 2025</title>
       <link>https://shunk031.me/news/miru-2025-presentations/</link>
       <pubDate>Fri, 01 Aug 2025 00:00:00 +0900</pubDate>
@@ -1533,6 +1642,24 @@ In this article we compactly introduce how Python type hints came about, their b
       <pubDate>Fri, 01 Aug 2025 00:00:00 +0900</pubDate>
       <guid>https://shunk031.me/publication/zhang2025miru/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>[Journal Club] Large Language Model Agent: A Survey on Methodology, Applications and Challenges</title>
+      <link>https://shunk031.me/event/large-language-model-agent-a-survey-on-methodology-applications-and-challenges/</link>
+      <pubDate>Wed, 28 May 2025 12:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/event/large-language-model-agent-a-survey-on-methodology-applications-and-challenges/</guid>
+      <description>&lt;h1 id=&#34;journal-club&#34;&gt;Journal Club&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;大規模言語モデル（LLM）を搭載した「LLMエージェント」は、自律的な目標達成や動的な環境適応能力により、人工知能の新たなフロンティアを切り開いています 。本資料では、この急速に進化するLLMエージェントの全貌を、最新の包括的サーベイ論文「Large Language Model Agent: A Survey on Methodology, Applications and Challenges (Luo et al. - 2025)」  に基づき詳細に解説します。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;📝：https://arxiv.org/abs/2503.21460&lt;/li&gt;
+&lt;li&gt;🐙：https://github.com/luo-junyu/Awesome-Agent-Papers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;資料---slides&#34;&gt;資料 - Slides&lt;/h2&gt;
+&lt;script defer class=&#34;speakerdeck-embed&#34; data-id=&#34;977b8024b7304a218f02728ba3d792e1&#34; data-ratio=&#34;1.7777777777777777&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+</description>
     </item>
     
     <item>
@@ -1852,6 +1979,21 @@ We are honored to receive a rating of 9, which is in the top 15% of accepted pap
     </item>
     
     <item>
+      <title>[Journal Club] Scaling Rectified Flow Transformers for High-Resolution Image Synthesis / Stable Diffusion 3</title>
+      <link>https://shunk031.me/event/stable-diffusion-3/</link>
+      <pubDate>Wed, 27 Mar 2024 12:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/event/stable-diffusion-3/</guid>
+      <description>&lt;h1 id=&#34;journal-club&#34;&gt;Journal Club&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Stability.AI からこれまでの拡散モデルとは少し異なるパラダイムの新たな Text-to-Image モデル Stable Diffusion 3 (SD3) の提案について紹介します。&lt;/p&gt;
+&lt;p&gt;一部 GIF アニメーションを用いた図があるため、オリジナルの Google Slide を参照していただくのをおすすめします: &lt;a href=&#34;https://bit.ly/stable-diffusion-3-explained&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bit.ly/stable-diffusion-3-explained&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;資料---slides&#34;&gt;資料 - Slides&lt;/h2&gt;
+&lt;script defer class=&#34;speakerdeck-embed&#34; data-id=&#34;ec8e2cda211847a6a1565d92b93c135f&#34; data-ratio=&#34;1.7772511848341233&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Accepted our paper to PM4LRS workshop at ICLR2024</title>
       <link>https://shunk031.me/news/acceptance-to-iclr2024-pm4lrs/</link>
       <pubDate>Wed, 06 Mar 2024 00:00:00 +0900</pubDate>
@@ -1939,6 +2081,27 @@ We are honored to receive a rating of 9, which is in the top 15% of accepted pap
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>[Invited Presentation] Improving Prediction Performance and Model Interpretability through Attention Mechanisms from Basic and Applied Research Perspectives</title>
+      <link>https://shunk031.me/event/improving-prediction-performance-and-model-interpretability-through-attention-mechanisms-from-basic-and-applied-research-perspectives-presentation-for-doctoral-dissertation/</link>
+      <pubDate>Fri, 24 Mar 2023 12:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/event/improving-prediction-performance-and-model-interpretability-through-attention-mechanisms-from-basic-and-applied-research-perspectives-presentation-for-doctoral-dissertation/</guid>
+      <description>&lt;h1 id=&#34;doctoral-dissertation-presentation&#34;&gt;Doctoral Dissertation Presentation&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Slides for the presentation of my doctoral dissertation (in Japanese).
+The contents of the presentation are already published as the following papers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Section 2: Kitada and Iyatomi IEEE Access&#39;21. &lt;a href=&#34;https://arxiv.org/abs/2009.12064&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://arxiv.org/abs/2009.12064&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Section 3: Kitada and Iyatomi. Appl. Intell.&amp;lsquo;22. &lt;a href=&#34;https://arxiv.org/abs/2104.08763&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://arxiv.org/abs/2104.08763&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Section 4: Kitada et al. KDD&#39;19. &lt;a href=&#34;https://arxiv.org/abs/1905.07289&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://arxiv.org/abs/1905.07289&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Section 5: Kitada et al. Appl. Sci.&amp;lsquo;22. &lt;a href=&#34;https://arxiv.org/abs/2204.11588&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://arxiv.org/abs/2204.11588&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;資料---slides&#34;&gt;資料 - Slides&lt;/h2&gt;
+&lt;script defer class=&#34;speakerdeck-embed&#34; data-id=&#34;183e269409c34898ad946cabe099f2da&#34; data-ratio=&#34;1.3333333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
 </description>
     </item>
     
@@ -2564,6 +2727,24 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
     </item>
     
     <item>
+      <title>[Journal Club] Learning to Faithfully Rationalize by Construction</title>
+      <link>https://shunk031.me/event/learning-to-faithfully-rationalize-by-construction/</link>
+      <pubDate>Sun, 06 Sep 2020 14:30:00 +0900</pubDate>
+      <guid>https://shunk031.me/event/learning-to-faithfully-rationalize-by-construction/</guid>
+      <description>&lt;h1 id=&#34;acl2020オンライン読み会&#34;&gt;ACL2020オンライン読み会&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Attention is not Explanation” と “Attention is not not Explanation” の著者らによる夢のコラボレーション。本文から根拠を抽出してその根拠を元にタスクを解く新たな枠組みの提案。&lt;/p&gt;
+&lt;p&gt;■ イベント：ACL2020オンライン読み会
+&lt;a href=&#34;https://exawizards.connpass.com/event/184582/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://exawizards.connpass.com/event/184582/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;■ 登壇概要
+タイトル：Learning to Faithfully Rationalize  by Construction&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;資料---slides&#34;&gt;資料 - Slides&lt;/h2&gt;
+&lt;script defer class=&#34;speakerdeck-embed&#34; data-id=&#34;eb6440c276d448df877310eee93dbc94&#34; data-ratio=&#34;1.3333333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
       <title>理工学部応用情報工学科　彌冨仁先生「私たちの生活に貢献する新しい人工知能技術」</title>
       <link>https://shunk031.me/post/lab-introduction-video-for-open-campus-2020/</link>
       <pubDate>Mon, 24 Aug 2020 00:00:00 +0900</pubDate>
@@ -2592,6 +2773,24 @@ The comments can be found &lt;a href=&#34;https://shunk031.me/post/hosei-univers
       <pubDate>Mon, 17 Aug 2020 22:23:06 +0900</pubDate>
       <guid>https://shunk031.me/project/human-attention-map-for-text-classification/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>[Journal Club] Human Attention Maps for Text Classification: Do Humans and Neural Networks Focus on the Same Words?</title>
+      <link>https://shunk031.me/event/human-attention-maps-for-text-classification-do-humans-and-neural-networks-focus-on-the-same-words/</link>
+      <pubDate>Mon, 17 Aug 2020 20:10:00 +0900</pubDate>
+      <guid>https://shunk031.me/event/human-attention-maps-for-text-classification-do-humans-and-neural-networks-focus-on-the-same-words/</guid>
+      <description>&lt;h1 id=&#34;acl-2020-オンラインlt会&#34;&gt;ACL 2020 オンラインLT会&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;人手によってアノテーションしたattention mapを元に、深層学習モデルのattention mapと比較分析を行った。&lt;/p&gt;
+&lt;p&gt;■ イベント：ACL 2020 オンラインLT会
+&lt;a href=&#34;https://nlpaper-challenge.connpass.com/event/185240/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://nlpaper-challenge.connpass.com/event/185240/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;■ 登壇概要
+タイトル：Human Attention Maps for Text Classification: Do Humans and Neural Networks Focus on the Same Words?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;資料---slides&#34;&gt;資料 - Slides&lt;/h2&gt;
+&lt;script defer class=&#34;speakerdeck-embed&#34; data-id=&#34;895e72d65de84532bf2ad7aeb8a4f6aa&#34; data-ratio=&#34;1.3333333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+</description>
     </item>
     
     <item>

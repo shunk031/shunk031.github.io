@@ -5,12 +5,30 @@
     <link>https://shunk031.me/tag/cvpr/</link>
       <atom:link href="https://shunk031.me/tag/cvpr/index.xml" rel="self" type="application/rss+xml" />
     <description>CVPR</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 21 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 18 Jul 2026 13:45:00 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.me/media/sharing.png</url>
       <title>CVPR</title>
       <link>https://shunk031.me/tag/cvpr/</link>
     </image>
+    
+    <item>
+      <title>[Journal Club] PSDesigner: Automated Graphic Design with a Human-Like Creative Workflow (CVPR 2026)</title>
+      <link>https://shunk031.me/event/kantocv-67th-cvpr-2026/</link>
+      <pubDate>Sat, 18 Jul 2026 13:45:00 +0900</pubDate>
+      <guid>https://shunk031.me/event/kantocv-67th-cvpr-2026/</guid>
+      <description>&lt;h1 id=&#34;第67回-コンピュータビジョン勉強会関東前編&#34;&gt;第67回 コンピュータビジョン勉強会＠関東（前編）&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;デザイン素材収集と、Photoshopの操作履歴から学習した Vision and Language Model (VLM) によるツール呼び出しの計画・実行を組み合わせ、Agentic に複雑なレイヤー構造をもつ編集可能なデザインを生成する PSDesigner について紹介します。&lt;/p&gt;
+&lt;p&gt;■ 第67回 コンピュータビジョン勉強会＠関東（前編）
+&lt;a href=&#34;https://kantocv.connpass.com/event/397919/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://kantocv.connpass.com/event/397919/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;■ 登壇概要
+タイトル：PSDesigner: Automated Graphic Design with a Human-Like Creative Workflow&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;資料---slides&#34;&gt;資料 - Slides&lt;/h2&gt;
+&lt;script defer class=&#34;speakerdeck-embed&#34; data-id=&#34;4bc2b29c70a245559b27453ac4cdaf3f&#34; data-ratio=&#34;1.7777777777777777&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
     
     <item>
       <title>Accepted our papers to Findings of CVPR 2026</title>

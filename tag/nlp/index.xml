@@ -5,12 +5,34 @@
     <link>https://shunk031.me/tag/nlp/</link>
       <atom:link href="https://shunk031.me/tag/nlp/index.xml" rel="self" type="application/rss+xml" />
     <description>NLP</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 12 Nov 2022 14:45:00 +0900</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 21 Apr 2026 19:45:00 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.me/media/sharing.png</url>
       <title>NLP</title>
       <link>https://shunk031.me/tag/nlp/</link>
     </image>
+    
+    <item>
+      <title>その LLM 制御、本当に信頼できますか？ / Can We Reliably Control LLMs?</title>
+      <link>https://shunk031.me/event/can-we-reliably-control-llms/</link>
+      <pubDate>Tue, 21 Apr 2026 19:45:00 +0900</pubDate>
+      <guid>https://shunk031.me/event/can-we-reliably-control-llms/</guid>
+      <description>&lt;h1 id=&#34;sansan--ivrynlp2026-参加報告会&#34;&gt;【Sansan × IVRy】NLP2026 参加報告会&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;大規模言語モデル（LLM）に対する内部介入（steering / intervention）は、重み更新を伴わずに推論時の振る舞いを制御できる手法として、近年急速に注目を集めています。本発表では、この軽量かつ柔軟な制御パラダイムの可能性と限界について、言語処理学会 2026 における関連研究を体系的に整理しながら概観します。特に、北田+「ステアリングベクトルは日本語LLMを堅牢に制御できるか？」を中心に、評価・安全性・多言語制御・表現学習といった観点から、内部介入がどこまで信頼できる制御として機能するのかを議論します。&lt;/p&gt;
+&lt;p&gt;■【Sansan × IVRy】NLP2026 参加報告会
+&lt;a href=&#34;https://sansan.connpass.com/event/388590/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://sansan.connpass.com/event/388590/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;■ 登壇概要
+タイトル：その LLM 制御、本当に信頼できますか？&lt;/p&gt;
+&lt;p&gt;■ 言語処理学会第32回年次大会(NLP2026)
+&lt;a href=&#34;https://www.anlp.jp/nlp2026/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.anlp.jp/nlp2026/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;■ 北田+ &amp;ldquo;ステアリングベクトルは日本語 LLM を堅牢に制御できるか？&amp;rdquo;
+&lt;a href=&#34;https://www.anlp.jp/proceedings/annual_meeting/2026/pdf_dir/B1-13.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.anlp.jp/proceedings/annual_meeting/2026/pdf_dir/B1-13.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;資料---slides&#34;&gt;資料 - Slides&lt;/h2&gt;
+&lt;script defer class=&#34;speakerdeck-embed&#34; data-id=&#34;844c7498cae448b29cf2272408322fec&#34; data-ratio=&#34;1.7777777777777777&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
     
     <item>
       <title>[Journal Club] Expressions Causing Differences in Emotion Recognition in Social Networking Service Documents (CIKM&#39;22)</title>

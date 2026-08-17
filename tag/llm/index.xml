@@ -21,6 +21,56 @@
     </item>
     
     <item>
+      <title>[Journal Club] The Landscape of Agentic Reinforcement Learning for LLMs: A Survey</title>
+      <link>https://shunk031.me/event/the-landscape-of-agentic-reinforcement-learning-for-llms-a-survey/</link>
+      <pubDate>Wed, 01 Apr 2026 12:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/event/the-landscape-of-agentic-reinforcement-learning-for-llms-a-survey/</guid>
+      <description>&lt;h1 id=&#34;journal-club&#34;&gt;Journal Club&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;大規模言語モデル（LLM）に強化学習を組み合わせた「Agentic RL」は，自律的な意思決定や動的な環境適応能力により，人工知能の新たなフロンティアを切り開いています。本資料では，この急速に進化するAgentic RLの全体像を，最新の包括的サーベイ論文「Agentic Reinforcement Learning: A Survey（2025）」に基づき詳細に解説します。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;📝：https://arxiv.org/abs/2509.02547&lt;/li&gt;
+&lt;li&gt;🐙：https://github.com/xhyumiracle/Awesome-AgenticLLM-RL-Papers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;資料---slides&#34;&gt;資料 - Slides&lt;/h2&gt;
+&lt;script defer class=&#34;speakerdeck-embed&#34; data-id=&#34;538096fe8d70456a8b7164c40e4a4c90&#34; data-ratio=&#34;1.7777777777777777&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>[Journal Club] LLM の内部を操るベクトル？</title>
+      <link>https://shunk031.me/event/llm-nonei-bu-wocao-rubekutoru/</link>
+      <pubDate>Tue, 17 Feb 2026 12:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/event/llm-nonei-bu-wocao-rubekutoru/</guid>
+      <description>&lt;h1 id=&#34;journal-club&#34;&gt;Journal Club&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A Speaker Deck presentation about steering vectors for LLM internal representations.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;資料---slides&#34;&gt;資料 - Slides&lt;/h2&gt;
+&lt;script defer class=&#34;speakerdeck-embed&#34; data-id=&#34;3a1b1f099d044957aa0e767fedadb0ce&#34; data-ratio=&#34;1.7777777777777777&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>[Journal Club] Large Language Model Agent: A Survey on Methodology, Applications and Challenges</title>
+      <link>https://shunk031.me/event/large-language-model-agent-a-survey-on-methodology-applications-and-challenges/</link>
+      <pubDate>Wed, 28 May 2025 12:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/event/large-language-model-agent-a-survey-on-methodology-applications-and-challenges/</guid>
+      <description>&lt;h1 id=&#34;journal-club&#34;&gt;Journal Club&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;大規模言語モデル（LLM）を搭載した「LLMエージェント」は、自律的な目標達成や動的な環境適応能力により、人工知能の新たなフロンティアを切り開いています 。本資料では、この急速に進化するLLMエージェントの全貌を、最新の包括的サーベイ論文「Large Language Model Agent: A Survey on Methodology, Applications and Challenges (Luo et al. - 2025)」  に基づき詳細に解説します。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;📝：https://arxiv.org/abs/2503.21460&lt;/li&gt;
+&lt;li&gt;🐙：https://github.com/luo-junyu/Awesome-Agent-Papers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;資料---slides&#34;&gt;資料 - Slides&lt;/h2&gt;
+&lt;script defer class=&#34;speakerdeck-embed&#34; data-id=&#34;977b8024b7304a218f02728ba3d792e1&#34; data-ratio=&#34;1.7777777777777777&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
       <title>大規模言語モデルを用いたオノマトペ付与による日本語音声データセットの拡張</title>
       <link>https://shunk031.me/publication/ogawa2024yans/</link>
       <pubDate>Thu, 05 Sep 2024 17:50:00 +0900</pubDate>

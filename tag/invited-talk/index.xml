@@ -93,6 +93,27 @@
     </item>
     
     <item>
+      <title>[Invited Presentation] Improving Prediction Performance and Model Interpretability through Attention Mechanisms from Basic and Applied Research Perspectives</title>
+      <link>https://shunk031.me/event/improving-prediction-performance-and-model-interpretability-through-attention-mechanisms-from-basic-and-applied-research-perspectives-presentation-for-doctoral-dissertation/</link>
+      <pubDate>Fri, 24 Mar 2023 12:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/event/improving-prediction-performance-and-model-interpretability-through-attention-mechanisms-from-basic-and-applied-research-perspectives-presentation-for-doctoral-dissertation/</guid>
+      <description>&lt;h1 id=&#34;doctoral-dissertation-presentation&#34;&gt;Doctoral Dissertation Presentation&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Slides for the presentation of my doctoral dissertation (in Japanese).
+The contents of the presentation are already published as the following papers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Section 2: Kitada and Iyatomi IEEE Access&#39;21. &lt;a href=&#34;https://arxiv.org/abs/2009.12064&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://arxiv.org/abs/2009.12064&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Section 3: Kitada and Iyatomi. Appl. Intell.&amp;lsquo;22. &lt;a href=&#34;https://arxiv.org/abs/2104.08763&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://arxiv.org/abs/2104.08763&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Section 4: Kitada et al. KDD&#39;19. &lt;a href=&#34;https://arxiv.org/abs/1905.07289&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://arxiv.org/abs/1905.07289&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Section 5: Kitada et al. Appl. Sci.&amp;lsquo;22. &lt;a href=&#34;https://arxiv.org/abs/2204.11588&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://arxiv.org/abs/2204.11588&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;資料---slides&#34;&gt;資料 - Slides&lt;/h2&gt;
+&lt;script defer class=&#34;speakerdeck-embed&#34; data-id=&#34;183e269409c34898ad946cabe099f2da&#34; data-ratio=&#34;1.3333333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
       <title>[Invited Talk] Introduction to AllenNLP to accelerate NLP research</title>
       <link>https://shunk031.me/event/nlp-hacks-6th/</link>
       <pubDate>Fri, 22 Jul 2022 19:30:00 +0900</pubDate>

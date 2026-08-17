@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Agent | shunk031.me</title>
+    <link>https://shunk031.me/tag/agent/</link>
+      <atom:link href="https://shunk031.me/tag/agent/index.xml" rel="self" type="application/rss+xml" />
+    <description>Agent</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 28 May 2025 12:00:00 +0900</lastBuildDate>
+    <image>
+      <url>https://shunk031.me/media/sharing.png</url>
+      <title>Agent</title>
+      <link>https://shunk031.me/tag/agent/</link>
+    </image>
+    
+    <item>
+      <title>[Journal Club] Large Language Model Agent: A Survey on Methodology, Applications and Challenges</title>
+      <link>https://shunk031.me/event/large-language-model-agent-a-survey-on-methodology-applications-and-challenges/</link>
+      <pubDate>Wed, 28 May 2025 12:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/event/large-language-model-agent-a-survey-on-methodology-applications-and-challenges/</guid>
+      <description>&lt;h1 id=&#34;journal-club&#34;&gt;Journal Club&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;大規模言語モデル（LLM）を搭載した「LLMエージェント」は、自律的な目標達成や動的な環境適応能力により、人工知能の新たなフロンティアを切り開いています 。本資料では、この急速に進化するLLMエージェントの全貌を、最新の包括的サーベイ論文「Large Language Model Agent: A Survey on Methodology, Applications and Challenges (Luo et al. - 2025)」  に基づき詳細に解説します。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;📝：https://arxiv.org/abs/2503.21460&lt;/li&gt;
+&lt;li&gt;🐙：https://github.com/luo-junyu/Awesome-Agent-Papers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;資料---slides&#34;&gt;資料 - Slides&lt;/h2&gt;
+&lt;script defer class=&#34;speakerdeck-embed&#34; data-id=&#34;977b8024b7304a218f02728ba3d792e1&#34; data-ratio=&#34;1.7777777777777777&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

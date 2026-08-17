@@ -52,6 +52,42 @@
     </item>
     
     <item>
+      <title>[Journal Club] Learning to Faithfully Rationalize by Construction</title>
+      <link>https://shunk031.me/event/learning-to-faithfully-rationalize-by-construction/</link>
+      <pubDate>Sun, 06 Sep 2020 14:30:00 +0900</pubDate>
+      <guid>https://shunk031.me/event/learning-to-faithfully-rationalize-by-construction/</guid>
+      <description>&lt;h1 id=&#34;acl2020オンライン読み会&#34;&gt;ACL2020オンライン読み会&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Attention is not Explanation” と “Attention is not not Explanation” の著者らによる夢のコラボレーション。本文から根拠を抽出してその根拠を元にタスクを解く新たな枠組みの提案。&lt;/p&gt;
+&lt;p&gt;■ イベント：ACL2020オンライン読み会
+&lt;a href=&#34;https://exawizards.connpass.com/event/184582/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://exawizards.connpass.com/event/184582/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;■ 登壇概要
+タイトル：Learning to Faithfully Rationalize  by Construction&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;資料---slides&#34;&gt;資料 - Slides&lt;/h2&gt;
+&lt;script defer class=&#34;speakerdeck-embed&#34; data-id=&#34;eb6440c276d448df877310eee93dbc94&#34; data-ratio=&#34;1.3333333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>[Journal Club] Human Attention Maps for Text Classification: Do Humans and Neural Networks Focus on the Same Words?</title>
+      <link>https://shunk031.me/event/human-attention-maps-for-text-classification-do-humans-and-neural-networks-focus-on-the-same-words/</link>
+      <pubDate>Mon, 17 Aug 2020 20:10:00 +0900</pubDate>
+      <guid>https://shunk031.me/event/human-attention-maps-for-text-classification-do-humans-and-neural-networks-focus-on-the-same-words/</guid>
+      <description>&lt;h1 id=&#34;acl-2020-オンラインlt会&#34;&gt;ACL 2020 オンラインLT会&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;人手によってアノテーションしたattention mapを元に、深層学習モデルのattention mapと比較分析を行った。&lt;/p&gt;
+&lt;p&gt;■ イベント：ACL 2020 オンラインLT会
+&lt;a href=&#34;https://nlpaper-challenge.connpass.com/event/185240/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://nlpaper-challenge.connpass.com/event/185240/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;■ 登壇概要
+タイトル：Human Attention Maps for Text Classification: Do Humans and Neural Networks Focus on the Same Words?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;資料---slides&#34;&gt;資料 - Slides&lt;/h2&gt;
+&lt;script defer class=&#34;speakerdeck-embed&#34; data-id=&#34;895e72d65de84532bf2ad7aeb8a4f6aa&#34; data-ratio=&#34;1.3333333333333333&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
       <title>AraDIC: Arabic Document Classification using Image-Based Character Embeddings and Class-Balanced Loss</title>
       <link>https://shunk031.me/publication/daif2020aradic/</link>
       <pubDate>Sun, 21 Jun 2020 21:38:33 +0900</pubDate>

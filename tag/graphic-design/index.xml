@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Graphic Design | shunk031.me</title>
+    <link>https://shunk031.me/tag/graphic-design/</link>
+      <atom:link href="https://shunk031.me/tag/graphic-design/index.xml" rel="self" type="application/rss+xml" />
+    <description>Graphic Design</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 31 Aug 2025 12:00:00 +0900</lastBuildDate>
+    <image>
+      <url>https://shunk031.me/media/sharing.png</url>
+      <title>Graphic Design</title>
+      <link>https://shunk031.me/tag/graphic-design/</link>
+    </image>
+    
+    <item>
+      <title>[Journal Club] AIグラフィックデザインの進化：断片から統合（One Piece）へ / From Fragment to One Piece: A Survey on AI-Driven Graphic Design</title>
+      <link>https://shunk031.me/event/from-fragment-to-one-piece-a-survey-on-ai-driven-graphic-design/</link>
+      <pubDate>Sun, 31 Aug 2025 12:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/event/from-fragment-to-one-piece-a-survey-on-ai-driven-graphic-design/</guid>
+      <description>&lt;h1 id=&#34;journal-club&#34;&gt;Journal Club&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;AI技術はグラフィックデザインの領域に革命をもたらし、クリエイティブなプロセスを根本から変えようとしています。かつてはタイポグラフィやレイアウトなど個々の要素を扱う断片的な研究が主流でしたが、近年の大規模言語モデル（LLM）やマルチモーダル技術の進化は、デザイン全体を統合的に扱う新たな潮流を生み出しています。&lt;/p&gt;
+&lt;p&gt;本発表では、この急速に進化するAI駆動グラフィックデザイン（AIGD）の全貌を、最新の包括的サーベイ論文「From Fragment to One Piece: A Survey on AI-Driven Graphic Design (Zou et al. - 2025)」  に基づき詳細に解説します。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;📝：https://arxiv.org/abs/2507.17202&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;資料---slides&#34;&gt;資料 - Slides&lt;/h2&gt;
+&lt;script defer class=&#34;speakerdeck-embed&#34; data-id=&#34;e0fe9c3016454158ae61c6685671c64e&#34; data-ratio=&#34;1.7777777777777777&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

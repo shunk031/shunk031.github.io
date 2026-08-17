@@ -21,6 +21,25 @@
     </item>
     
     <item>
+      <title>[Journal Club] Natural Language Autoencoders Produce Unsupervised Explanations of LLM Activations</title>
+      <link>https://shunk031.me/event/natural-language-autoencoders-produce-unsupervised-explanations-of-llm-activations/</link>
+      <pubDate>Fri, 05 Jun 2026 12:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/event/natural-language-autoencoders-produce-unsupervised-explanations-of-llm-activations/</guid>
+      <description>&lt;h1 id=&#34;speaker-deck&#34;&gt;Speaker Deck&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;大規模言語モデル（LLM）の内部状態は、高次元の活性化ベクトルとして表現されており、モデルの推論・判断・潜在的な認識に関する豊かな情報を含んでいます。本資料では、この不透明な内部表現を自然言語で読み解く新たな解釈可能性手法 Natural Language Autoencoders（NLA）について、Anthropicの研究論文「Natural Language Autoencoders Produce Unsupervised Explanations of LLM Activations（Fraser-Taliente, Kantamneni, Ong et al. - 2026）」に基づき、手法・評価・監査応用・限界を体系的に解説します。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;📝：https://transformer-circuits.pub/2026/nla/&lt;/li&gt;
+&lt;li&gt;🐙：https://github.com/kitft/natural_language_autoencoders&lt;/li&gt;
+&lt;li&gt;🌐：https://www.neuronpedia.org/nla&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;資料---slides&#34;&gt;資料 - Slides&lt;/h2&gt;
+&lt;script defer class=&#34;speakerdeck-embed&#34; data-id=&#34;5b1e6ed39a4047f39ed94ddb6217c6ff&#34; data-ratio=&#34;1.7777777777777777&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
       <title>MLP の重みを反映した Sparse Autoencoder の初期化手法の提案</title>
       <link>https://shunk031.me/publication/kikuya2026nlp/</link>
       <pubDate>Mon, 09 Mar 2026 00:00:00 +0900</pubDate>
