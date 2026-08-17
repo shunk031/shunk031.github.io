@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hugo Talks Sync"
+  short_description: "Find missing talks and feed Hugo event intake."
+  default_prompt: "Use $hugo-talks-sync to compare shunk031's Speaker Deck profile with content/event, propose missing talks, and hand accepted URLs to $hugo-event-intake."
