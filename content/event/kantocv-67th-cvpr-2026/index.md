@@ -9,7 +9,7 @@ address:
   region: "Tokyo"
   postcode: "150-6140"
   country: "Japan"
-summary: "CVPR 2026 論文読み会で、編集可能なデザインを生成する PSDesigner を紹介しました。"
+summary: "CVPR 2026 論文読み会で、生成後も要素を編集できるデザイン生成手法を紹介。"
 abstract: "デザイン素材収集と、Photoshopの操作履歴から学習した Vision and Language Model (VLM) によるツール呼び出しの計画・実行を組み合わせ、Agentic に複雑なレイヤー構造をもつ編集可能なデザインを生成する PSDesigner について紹介します。\n\n■ 第67回 コンピュータビジョン勉強会＠関東（前編）\nhttps://kantocv.connpass.com/event/397919/\n\n■ 登壇概要\nタイトル：PSDesigner: Automated Graphic Design with a Human-Like Creative Workflow"
 date: "2026-07-18T13:45:00+09:00"
 date_end: "2026-07-18T14:10:00+09:00"
