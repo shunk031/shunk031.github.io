@@ -22,7 +22,9 @@ image:
   caption: ""
   focal_point: ""
   preview_only: false
-links: []
+links:
+- name: "Connpass"
+  url: "https://exawizards.connpass.com/event/184582/"
 url_slides: "https://speakerdeck.com/shunk031/learning-to-faithfully-rationalize-by-construction"
 url_code: ""
 url_pdf: ""

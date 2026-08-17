@@ -22,7 +22,9 @@ image:
   caption: ""
   focal_point: ""
   preview_only: false
-links: []
+links:
+- name: "Connpass"
+  url: "https://sansan.connpass.com/event/388590/"
 url_slides: "https://speakerdeck.com/shunk031/can-we-reliably-control-llms"
 url_code: ""
 url_pdf: ""

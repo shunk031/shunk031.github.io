@@ -22,7 +22,9 @@ image:
   caption: ""
   focal_point: ""
   preview_only: false
-links: []
+links:
+- name: "Connpass"
+  url: "https://nlpaper-challenge.connpass.com/event/185240/"
 url_slides: "https://speakerdeck.com/shunk031/human-attention-maps-for-text-classification-do-humans-and-neural-networks-focus-on-the-same-words"
 url_code: ""
 url_pdf: ""

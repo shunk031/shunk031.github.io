@@ -22,7 +22,9 @@ image:
   caption: ""
   focal_point: ""
   preview_only: false
-links: []
+links:
+- name: "Connpass"
+  url: "https://kantocv.connpass.com/event/397919/"
 url_slides: "https://speakerdeck.com/shunk031/kantocv-67th-cvpr-2026"
 url_code: ""
 url_pdf: ""

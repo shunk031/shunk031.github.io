@@ -130,7 +130,7 @@ def test_probe_follows_event_page_links_and_uses_jsonld_event_fields(tmp_path: P
     """
 
     def fake_fetch_text(url: str):
-        if url == "https://example.com/events/pydata-tokyo-1":
+        if url == "https://pydata-tokyo.connpass.com/event/123456/":
             return module.RemoteResponse(url=url, content_type="text/html", text=event_html, data=event_html.encode())
         if url == "https://speakerdeck.com/shunk031/deep-learning-for-the-impatient":
             return module.RemoteResponse(url=url, content_type="text/html", text=speakerdeck_html, data=speakerdeck_html.encode())
@@ -146,7 +146,7 @@ def test_probe_follows_event_page_links_and_uses_jsonld_event_fields(tmp_path: P
 
     result = module.probe_event(
         repo_root,
-        inputs=["https://example.com/events/pydata-tokyo-1"],
+        inputs=["https://pydata-tokyo.connpass.com/event/123456/"],
         fetch_text_response=fake_fetch_text,
         fetch_json=fake_fetch_json,
     )
@@ -159,7 +159,10 @@ def test_probe_follows_event_page_links_and_uses_jsonld_event_fields(tmp_path: P
     assert result.location == "Shibuya Stream"
     assert result.address["city"] == "Shibuya-ku"
     assert result.url_slides == "https://speakerdeck.com/shunk031/deep-learning-for-the-impatient"
-    assert result.event_url == "https://example.com/events/pydata-tokyo-1"
+    assert result.event_url == "https://pydata-tokyo.connpass.com/event/123456/"
+    assert result.links == [
+        {"name": "Connpass", "url": "https://pydata-tokyo.connpass.com/event/123456/"}
+    ]
     assert result.featured_source_url == "https://files.speakerdeck.com/presentations/abc123/slide_0.jpg"
     assert result.unresolved_fields == []
 

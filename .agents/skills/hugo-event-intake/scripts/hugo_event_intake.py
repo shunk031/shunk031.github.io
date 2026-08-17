@@ -549,6 +549,12 @@ def link_label_for_event_url(url: str) -> str:
     return "Event"
 
 
+def default_links_for_event_url(url: str) -> list[dict[str, str]]:
+    if not url:
+        return []
+    return [{"name": link_label_for_event_url(url), "url": url}]
+
+
 def build_body_markdown(
     spec: EventSpec, *, description: str, speakerdeck_source: SourceInfo | None
 ) -> str:
@@ -780,7 +786,7 @@ def probe_event(
         url_pdf=final_url_pdf,
         url_video=final_url_video,
         url_code=final_url_code,
-        links=[],
+        links=default_links_for_event_url(final_event_url),
         body_markdown="",
         featured_source_url=final_featured_source,
         evidence_urls=[source.url for source in sources],
