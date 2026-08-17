@@ -130,7 +130,7 @@ def test_probe_follows_event_page_links_and_uses_jsonld_event_fields(tmp_path: P
     """
 
     def fake_fetch_text(url: str):
-        if url == "https://example.com/events/pydata-tokyo-1":
+        if url == "https://pydata-tokyo.connpass.com/event/123456/":
             return module.RemoteResponse(url=url, content_type="text/html", text=event_html, data=event_html.encode())
         if url == "https://speakerdeck.com/shunk031/deep-learning-for-the-impatient":
             return module.RemoteResponse(url=url, content_type="text/html", text=speakerdeck_html, data=speakerdeck_html.encode())
@@ -146,7 +146,7 @@ def test_probe_follows_event_page_links_and_uses_jsonld_event_fields(tmp_path: P
 
     result = module.probe_event(
         repo_root,
-        inputs=["https://example.com/events/pydata-tokyo-1"],
+        inputs=["https://pydata-tokyo.connpass.com/event/123456/"],
         fetch_text_response=fake_fetch_text,
         fetch_json=fake_fetch_json,
     )
@@ -159,7 +159,10 @@ def test_probe_follows_event_page_links_and_uses_jsonld_event_fields(tmp_path: P
     assert result.location == "Shibuya Stream"
     assert result.address["city"] == "Shibuya-ku"
     assert result.url_slides == "https://speakerdeck.com/shunk031/deep-learning-for-the-impatient"
-    assert result.event_url == "https://example.com/events/pydata-tokyo-1"
+    assert result.event_url == "https://pydata-tokyo.connpass.com/event/123456/"
+    assert result.links == [
+        {"name": "Connpass", "url": "https://pydata-tokyo.connpass.com/event/123456/"}
+    ]
     assert result.featured_source_url == "https://files.speakerdeck.com/presentations/abc123/slide_0.jpg"
     assert result.unresolved_fields == []
 
@@ -172,7 +175,17 @@ def test_probe_infers_journal_club_and_report_tags() -> None:
         sources=[],
         explicit_kind="",
     ) == "Journal Club"
+    assert module.infer_kind(
+        notes=["Large Language Model Agent: A Survey on Methodology, Applications and Challenges"],
+        sources=[],
+        explicit_kind="",
+    ) == "Journal Club"
     assert module.default_tags_for_kind("Journal Club") == ["Journal Club", "Paper Reading"]
+    assert module.infer_kind(
+        notes=["ECCV 2026 参加報告会"],
+        sources=[],
+        explicit_kind="",
+    ) == "Report"
     assert module.render_title("Report", "ECCV 2026 速報") == "ECCV 2026 速報"
     assert module.render_title("Invited Talk", "Practical ML") == "[Invited Talk] Practical ML"
 
@@ -234,6 +247,32 @@ def test_write_event_downloads_featured_image_and_renders_body(tmp_path: Path) -
     assert 'url_slides: "https://speakerdeck.com/shunk031/deep-learning-for-the-impatient"' in markdown
     assert "<script defer class=\"speakerdeck-embed\"" in markdown
     assert (output_path.parent / "featured.jpg").read_bytes() == b"JPEGDATA"
+
+
+def test_build_body_labels_event_url_by_source_and_deduplicates_links() -> None:
+    module = load_module()
+    spec = module.EventSpec(
+        slug="pydata-tokyo",
+        event="PyData Tokyo #1",
+        event_url="https://pydata-tokyo.connpass.com/event/123456/",
+        url_slides="https://speakerdeck.com/shunk031/practical-ml",
+        links=[
+            {
+                "name": "Connpass",
+                "url": "https://pydata-tokyo.connpass.com/event/123456/",
+            }
+        ],
+    )
+
+    body = module.build_body_markdown(
+        spec,
+        description="Practical ML talk.",
+        speakerdeck_source=None,
+    )
+
+    assert "- [Connpass](https://pydata-tokyo.connpass.com/event/123456/)" in body
+    assert "- [Slides](https://speakerdeck.com/shunk031/practical-ml)" in body
+    assert body.count("https://pydata-tokyo.connpass.com/event/123456/") == 1
 
 
 def test_write_event_generates_thumbnail_from_pdf(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:

@@ -12,7 +12,7 @@ address:
   region:
   postcode:
   country:
-summary: ECCV（European Conference on Computer Vision）はコンピュータビジョン分野トップ国際会議のひとつです。今回は分野の動向・気付きをまとめることに注力し、132ページの資料として仕上げることができました。
+summary: ECCV 2024 速報に、creative graphic design 関連論文のまとめを寄稿
 abstract:
 
 # Talk start and end times.
