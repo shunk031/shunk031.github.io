@@ -8,7 +8,7 @@ authors: ["Shunsuke Kitada"]
 tags: ["News"]
 categories: ["News"]
 date: 2025-05-19T00:00:00+09:00
-lastmod: 2025-05-19T00:00:00+09:00
+lastmod: 2026-08-18T00:00:00+09:00
 featured: false
 draft: false
 
@@ -35,3 +35,5 @@ Looking forward to making an impact in both industry and academia!
 {{< blogcard url="https://www.jst.go.jp/k-program/program/cyber2.html" >}}
 
 {{< blogcard url="https://projectdb.jst.go.jp/grant/JST-PROJECT-24017354/" >}}
+
+{{< blogcard url="https://kpro.mdl.comp.isct.ac.jp/" >}}
