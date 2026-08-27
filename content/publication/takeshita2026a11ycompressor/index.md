@@ -25,6 +25,7 @@ abstract: "AI agents that interact with graphical user interfaces (GUIs) require
 summary: "Proc. ACL SRW 2026 (**Acceptance rate = 32.41%**)"
 
 tags:
+- "Posters"
 - "International Publication"
 - "Refereed"
 - "Natural Language Processing"

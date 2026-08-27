@@ -25,6 +25,7 @@ abstract: "Graphical Abstract（GA）は論文の要点を視覚的に伝える�
 summary: "NLP 若手の会 (YANS) 第 20 回シンポジウム，2025."
 
 tags:
+- "Posters"
 - "AI for Science"
 - "Contrastive Learning"
 - "Domestic Conference"

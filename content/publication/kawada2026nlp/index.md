@@ -25,6 +25,7 @@ abstract: "Graphical Abstract (GA) は，論文の主要な貢献を視覚的に
 summary: "言語処理学会第 32 回年次大会，2026."
 
 tags:
+  - "Posters"
   - "Domestic Conference"
   - "Non-refereed"
   - "AI for Science"

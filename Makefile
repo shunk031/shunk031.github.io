@@ -106,6 +106,13 @@ publication-thumbnail:
 	$(eval EXPANDED_PDF := $(shell echo $(pdf)))
 	magick "$(EXPANDED_PDF)[0]" -resize '640x640^' -crop '640x480+0+0' -alpha remove $(PWD)/content/publication/$(name)/featured.png
 
+.PHONY : poster-thumbnail
+poster-thumbnail:
+ifeq ($(name),)
+	$(error name for the poster thumbnail is not set: make poster-thumbnail name=PUBLICATION-NAME)
+endif
+	uv run python .agents/skills/hugo-poster-project-sync/scripts/create_poster_thumbnail.py --repo-root . --name $(name)
+
 .PHONY : add-conference-tags-dry-run
 add-conference-tags-dry-run:
 	uv run --with ruamel.yaml python scripts/add_conference_tags.py --dry-run

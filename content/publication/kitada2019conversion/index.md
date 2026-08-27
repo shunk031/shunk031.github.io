@@ -25,7 +25,7 @@ abstract: "Accurately predicting conversions in advertisements is generally a ch
 # Summary. An optional shortened abstract.
 summary: "KDD2019 (**Acceptance rate = 20%**; [1st place in Data Mining & Analysis at Google Scholar Metrics](https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_datamininganalysis))"
 
-tags: ["International Conference", "Refereed", "Computational Advertising", "Gunosy", "International Publication", "KDD", "KDD2019"]
+tags: ["International Conference", "Refereed", "Computational Advertising", "Gunosy", "International Publication", "KDD", "KDD2019", "Posters"]
 categories: ["Computational Advertising"]
 featured: true
 

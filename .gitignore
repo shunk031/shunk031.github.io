@@ -229,3 +229,8 @@ pyrightconfig.json
 /lychee-input.txt
 /lychee-excludes.json
 /lychee-pr-body.md
+
+# Fonts downloaded on demand by
+# scripts/generate_ogp_image_for_publication.sh (see `make ogp-image`)
+/assets/fonts/*.ttf
+/assets/fonts/LICENSE.txt

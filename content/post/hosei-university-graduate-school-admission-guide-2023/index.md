@@ -29,7 +29,7 @@ projects: []
 ---
 
 法政大学大学院入学案内 2023 {{% staticref "uploads/hosei_university_graduate_school_admission_guide_2023/ai.pdf" "newtab" %}}{{< icon name="download" pack="fas" >}} 該当ページのみ (PDF, 1.7MB）{{% /staticref %}}
-{{% staticref "uploads/hosei_university_graduate_school_admission_guide_2023/original.pdf#page=86" "newtab" %}}{{< icon name="download" pack="fas" >}} 全体 (PDF, 61.8MB）{{% /staticref %}}
+{{% staticref "uploads/hosei_university_graduate_school_admission_guide_2023/original.pdf#page=86" "newtab" %}}{{< icon name="download" pack="fas" >}} 全体 (PDF, 9.9MB）{{% /staticref %}}
 
 > # 人工知能と人がよりよく共存するため AI 技術の拡張に取り組んでいます 
 > 北田俊輔 博士後期課程在学中 / 日本学術振興会特別研究員

@@ -25,7 +25,7 @@ all_day: false
 publishDate: 2019-07-13T00:00:00+09:00
 
 authors: ["Shunsuke Kitada", "Mitsumasa Kubo"]
-tags: ["Invited talk"]
+tags: ["Invited Talk"]
 
 # Is this a featured talk? (true/false)
 featured: false

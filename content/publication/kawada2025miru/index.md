@@ -25,6 +25,7 @@ abstract: "Graphical Abstract (GA) は論文の要点を視覚的に伝える重
 summary: "第 28 回 画像の認識・理解シンポジウム，2025."
 
 tags:
+- "Posters"
 - "Domestic Conference"
 - "Non-refereed"
 - "MIRU"

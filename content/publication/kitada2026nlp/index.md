@@ -26,6 +26,7 @@ summary: "言語処理学会第 32 回年次大会，2026."
 
 tags:
   [
+    "Posters",
     "Domestic Conference",
     "Non-refereed",
     "Interpretability",

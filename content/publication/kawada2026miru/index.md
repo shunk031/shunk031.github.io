@@ -25,6 +25,7 @@ abstract: "Graphical abstracts (GAs) are visual summaries that convey the key id
 summary: "第 29 回 画像の認識・理解シンポジウム，2026."
 
 tags:
+- "Posters"
 - "Domestic Conference"
 - "Non-refereed"
 - "AI for Science"
@@ -45,7 +46,7 @@ links:
 url_pdf: publication/kawada2026miru/kawada2026miru.pdf
 url_code:
 url_dataset:
-url_poster:
+url_poster: publication/kawada2026miru/poster.pdf
 url_project:
 url_slides:
 url_source:

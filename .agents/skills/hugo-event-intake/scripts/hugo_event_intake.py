@@ -253,14 +253,25 @@ def infer_kind(
             "論文読み会",
             "読み会",
             "輪読",
+            "論文",
+            "paper",
+            "arxiv.org",
+            "transformer-circuits.pub",
+            "survey on",
+            "a survey",
+            "サーベイ論文",
+            "提案について紹介",
         )
     ):
         return "Journal Club"
     if "poster" in haystack:
         return "Invited Poster"
-    if "presentation" in haystack:
+    if any(
+        keyword in haystack
+        for keyword in ("invited presentation", "doctoral dissertation presentation")
+    ):
         return "Invited Presentation"
-    if any(keyword in haystack for keyword in ("report", "速報", "summary", "survey")):
+    if any(keyword in haystack for keyword in ("report", "速報", "summary", "参加報告")):
         return "Report"
     return "Invited Talk"
 
@@ -529,6 +540,21 @@ def derive_slug(
     return "event-entry"
 
 
+def link_label_for_event_url(url: str) -> str:
+    host = urlsplit(url).netloc.lower()
+    if host.endswith("connpass.com"):
+        return "Connpass"
+    if host.endswith("confit.atlas.jp"):
+        return "Confit"
+    return "Event"
+
+
+def default_links_for_event_url(url: str) -> list[dict[str, str]]:
+    if not url:
+        return []
+    return [{"name": link_label_for_event_url(url), "url": url}]
+
+
 def build_body_markdown(
     spec: EventSpec, *, description: str, speakerdeck_source: SourceInfo | None
 ) -> str:
@@ -551,19 +577,27 @@ def build_body_markdown(
         return "\n".join(part.rstrip() for part in parts if part.strip()) + "\n"
 
     links = []
+    seen_urls: set[str] = set()
+
+    def add_link(name: str, url: str) -> None:
+        if not url or url in seen_urls:
+            return
+        links.append((name, url))
+        seen_urls.add(url)
+
     if spec.event_url:
-        links.append(("Event", spec.event_url))
+        add_link(link_label_for_event_url(spec.event_url), spec.event_url)
     if spec.url_slides:
-        links.append(("Slides", spec.url_slides))
+        add_link("Slides", spec.url_slides)
     if spec.url_pdf:
-        links.append(("PDF", spec.url_pdf))
+        add_link("PDF", spec.url_pdf)
     if spec.url_video:
-        links.append(("Video", spec.url_video))
+        add_link("Video", spec.url_video)
     if spec.url_code:
-        links.append(("Code", spec.url_code))
+        add_link("Code", spec.url_code)
     if spec.links:
         for link in spec.links:
-            links.append((link["name"], link["url"]))
+            add_link(link["name"], link["url"])
     if links:
         parts.append(
             "## Links\n\n"
@@ -752,7 +786,7 @@ def probe_event(
         url_pdf=final_url_pdf,
         url_video=final_url_video,
         url_code=final_url_code,
-        links=[],
+        links=default_links_for_event_url(final_event_url),
         body_markdown="",
         featured_source_url=final_featured_source,
         evidence_urls=[source.url for source in sources],

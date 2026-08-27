@@ -25,6 +25,7 @@ abstract: "近年、大規模言語モデル（LLM）をバックボーンとす
 summary: "NLP 若手の会 (YANS) 第 20 回シンポジウム，2025."
 
 tags:
+- "Posters"
 - "AI Agent"
 - "Computer Use"
 - "Domestic Conference"

@@ -25,6 +25,7 @@ abstract: ""
 summary: "第 28 回 情報論的学習理論ワークショップ，2025."
 
 tags:
+- "Posters"
 - "Domestic Conference"
 - "Non-refereed"
 - "Image Generation"
