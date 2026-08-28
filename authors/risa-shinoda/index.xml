@@ -5,7 +5,7 @@
     <link>https://shunk031.me/authors/risa-shinoda/</link>
       <atom:link href="https://shunk031.me/authors/risa-shinoda/index.xml" rel="self" type="application/rss+xml" />
     <description>Risa Shinoda</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 27 Sep 2025 03:13:47 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 12 Jul 2026 00:00:00 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.me/media/sharing.png</url>
       <title>Risa Shinoda</title>
@@ -13,11 +13,108 @@
     </image>
     
     <item>
-      <title>Foundation Data for Industrial Tech Transfer</title>
+      <title>Accepted our Workshop Proposal on Foundation Data to ECCV 2026</title>
+      <link>https://shunk031.me/news/acceptance-to-eccv2026-found-workshop/</link>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/news/acceptance-to-eccv2026-found-workshop/</guid>
+      <description>&lt;p&gt;Our workshop proposal for the 2nd FOUND Workshop, &lt;a href=&#34;https://eccv2026-found-workshop.limitlab.xyz/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;FOUND: Foundation Data for Industrial Tech Transfer @ ECCV 2026&amp;rdquo;&lt;/a&gt;, has been accepted at ECCV 2026. The workshop will be held on the morning of September 9, 2026, in Malmö, Sweden, in conjunction with ECCV 2026.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://shunk031.me/post/eccv2026-found-workshop/&#34;&gt;More Information about the Workshop&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This workshop builds on the FOUND Workshop accepted at ICCV 2025 and continues the discussion on Foundation Data, domain-grounded datasets, and practical tech transfer for foundation models. The ECCV 2026 edition places a particular focus on Physical AI and World Models, along with robustness under domain shift, out-of-distribution conditions, and long-tail distributions.&lt;/p&gt;
+&lt;div class=&#34;blogcard&#34;&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Feccv2026-found-workshop.limitlab.xyz%2F&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>FOUND: Foundation Data for Industrial Tech Transfer @ ECCV 2026</title>
+      <link>https://shunk031.me/post/eccv2026-found-workshop/</link>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/post/eccv2026-found-workshop/</guid>
+      <description>&lt;p&gt;We are happy to announce that our workshop proposal for the 2nd FOUND Workshop, &lt;a href=&#34;https://eccv2026-found-workshop.limitlab.xyz/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;FOUND: Foundation Data for Industrial Tech Transfer @ ECCV 2026&amp;rdquo;&lt;/a&gt;, has been accepted! The workshop will be held on the morning of September 9, 2026, in Malmö, Sweden, in conjunction with ECCV 2026.&lt;/p&gt;
+&lt;p&gt;This workshop follows the &lt;a href=&#34;https://shunk031.me/post/iccv2025-found-workshop/&#34;&gt;FOUND Workshop accepted at ICCV 2025&lt;/a&gt; and continues the discussion on Foundation Data: domain-grounded data designed to bridge academic progress in foundation models and practical impact in real-world deployments.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-eccv-2026-found-workshop-flyer&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;a href=&#34;https://eccv2026-found-workshop.limitlab.xyz/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img alt=&#34;ECCV 2026 FOUND Workshop flyer&#34; srcset=&#34;
+               /post/eccv2026-found-workshop/eccv2026-found-workshop-flyer_hu13317155957323768107.webp 400w,
+               /post/eccv2026-found-workshop/eccv2026-found-workshop-flyer_hu13274283519486232324.webp 760w,
+               /post/eccv2026-found-workshop/eccv2026-found-workshop-flyer_hu12140208187280224660.webp 1200w&#34;
+               src=&#34;https://shunk031.me/post/eccv2026-found-workshop/eccv2026-found-workshop-flyer_hu13317155957323768107.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;428&#34;
+               loading=&#34;lazy&#34; /&gt;&lt;/a&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      ECCV 2026 FOUND Workshop flyer
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;blockquote&gt;
+&lt;h2 id=&#34;about-found-workshop&#34;&gt;About FOUND Workshop&lt;/h2&gt;
+&lt;p&gt;Foundation models have pushed computer vision forward, but their reliability often drops in real-world, domain-specific deployments due to long-tail distributions, domain shift, and operational constraints such as privacy, safety, and cost. Closing this gap requires not only better models, but also domain-tailored datasets that capture rare yet critical corner cases and realistic variability.&lt;/p&gt;
+&lt;p&gt;Building on the first FOUND workshop, we refer to this missing piece as Foundation Data: fine-grained, domain-grounded data designed to bridge academic progress and practical impact. FOUND is organized around two coupled pillars, Foundation Data creation and practical tech transfer, with a key focus on Physical AI and World Models.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;topics-of-interest&#34;&gt;Topics of Interest&lt;/h2&gt;
+&lt;p&gt;The workshop focuses on the following topics:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Foundation Data creation: collection, curation, and labeling for non-Internet and domain-specific settings&lt;/li&gt;
+&lt;li&gt;Self-supervised, semi-supervised, and weakly-supervised learning for domain-grounded data&lt;/li&gt;
+&lt;li&gt;Synthetic and simulation data for bridging domain gaps and covering rare corner cases&lt;/li&gt;
+&lt;li&gt;Robustness under domain shift, out-of-distribution conditions, and long-tail distributions in industrial deployments&lt;/li&gt;
+&lt;li&gt;Physical AI and World Models: data and transfer strategies for embodied and interactive systems&lt;/li&gt;
+&lt;li&gt;Deployment-aligned evaluation protocols and responsible data governance for real-world AI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;keynote-speakers&#34;&gt;Keynote Speakers&lt;/h2&gt;
+&lt;p&gt;The ECCV 2026 edition will feature the following keynote speakers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cee.stanford.edu/people/iro-armeni&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Iro Armeni&lt;/a&gt;, Stanford University&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://people.inf.ethz.ch/pomarc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mark Pollefeys&lt;/a&gt;, ETH Zurich / Microsoft Mixed Reality and AI Lab&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://amirbar.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Amir Bar&lt;/a&gt;, Imperial College London / AMI Labs&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sebgroup.com/career/working-at-seb/meet-our-employees/meet-employees-in-tech-and-data/anastasia-varavas&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Anastasia Varava&lt;/a&gt;, SEBx / Link&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;call-for-nominations&#34;&gt;Call for Nominations&lt;/h2&gt;
+&lt;p&gt;Unlike a standard peer-reviewed call for papers, this workshop uses a self-nomination and curatorial invitation format. Nominated work is reviewed openly by the organizing committee for topical fit, potential to spark discussion, and overall balance of the poster session.&lt;/p&gt;
+&lt;p&gt;Selected work will be presented at the workshop poster session, with at least one presenter attending ECCV 2026 in person. Invitations do not come with official publication or Springer proceedings. Only presentation titles and presenter names will appear on the workshop website; abstracts and posters stay within the workshop audience.&lt;/p&gt;
+&lt;p&gt;The nomination form is open until August 19, 2026, 23:59 AoE.&lt;/p&gt;
+&lt;div class=&#34;blogcard&#34;&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fforms.gle%2FRGLWnKD26vofxohN9&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;blogcard&#34;&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Feccv2026-found-workshop.limitlab.xyz%2F&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>FOUND: Foundation Data for Industrial Tech Transfer @ ICCV 2025</title>
       <link>https://shunk031.me/post/iccv2025-found-workshop/</link>
       <pubDate>Sat, 27 Sep 2025 03:13:47 +0000</pubDate>
       <guid>https://shunk031.me/post/iccv2025-found-workshop/</guid>
-      <description>&lt;p&gt;We are happy to announce the ICCV 2025 workshop “FOUND: Foundation Data for Industrial Tech Transfer” has been accepted! This workshop will be held in conjunction with ICCV 2025, one of the top conferences in computer vision. The workshop will highlight the critical role of data in building foundation models, with a particular focus on robust dataset construction and industry-driven applications.&lt;/p&gt;
+      <description>&lt;p&gt;We are happy to announce that our workshop proposal for the FOUND Workshop, &lt;a href=&#34;https://iccv2025-found-workshop.limitlab.xyz/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;FOUND: Foundation Data for Industrial Tech Transfer @ ICCV 2025&amp;rdquo;&lt;/a&gt;, has been accepted! This workshop will be held in conjunction with ICCV 2025, one of the top conferences in computer vision. The workshop will highlight the critical role of data in building foundation models, with a particular focus on robust dataset construction and industry-driven applications.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;h2 id=&#34;about-found-workshop&#34;&gt;About FOUND Workshop&lt;/h2&gt;
 &lt;p&gt;Recently, Transformer-based foundation models have achieved outstanding performance across a broad spectrum of benchmarks spanning recognition and generation tasks, and their versatility has fueled rapid advances in both AI research and industrial deployment. To seamlessly adapt these models to downstream tasks in diverse real-world domains-including medicine, manufacturing, robotics, and the creative industries-and thereby deliver tangible impact on human life, it is indispensable to develop Tech Transfer technologies that encompass domain-specific fine-tuning and robust MLOps pipelines, where the decisive factor is the breadth and quality of data available for those tasks. At the same time, model evaluation is approaching saturation on conventional IID benchmarks, prompting growing calls to redesign evaluation metrics and tasks that dispense with the IID assumption and explicitly capture out-of-distribution (OOD) and long-tail phenomena. Advancing both (i) Tech Transfer to heterogeneous downstream tasks and (ii) the definition of next-generation evaluation criteria therefore hinges on curating and exploiting broader and deeper data resources-Foundation Data, as we term them. Against this backdrop, the ICCV 2025 workshop “FOUND: Foundation Data for Industrial Tech Transfer” will convene researchers from industry and academia to share techniques for realizing Foundation Data and to engage in comprehensive discussions on model adaptation and the design of novel evaluation tasks grounded in such data, with the ultimate aim of opening new horizons for AI research and application.&lt;/p&gt;
