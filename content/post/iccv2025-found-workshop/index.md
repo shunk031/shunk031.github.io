@@ -1,12 +1,12 @@
 ---
 # Documentation: https://docs.hugoblox.com/managing-content/
 
-title: "Foundation Data for Industrial Tech Transfer"
+title: "FOUND: Foundation Data for Industrial Tech Transfer @ ICCV 2025"
 subtitle: "ICCV 2025 Workshop https://iccv2025-found-workshop.limitlab.xyz/"
-summary: "https://iccv2025-found-workshop.limitlab.xyz/"
+summary: "The FOUND Workshop at ICCV 2025 focused on Foundation Data for Industrial Tech Transfer, highlighting data-centric methods, robust dataset construction, and practical adaptation of foundation models to real-world domains."
 authors: ["Yoshihiro Fukuhara", "Hirokatsu Kataoka", "Püren Güler", "Shunsuke Kitada", "Xavier Boix", "Dan Hendrycks", "Keisuke Tateno", "Shinichi Mae", "Tatsuya Komatsu", "Nishant Rai", "Ryo Nakamura", "Risa Shinoda", "Takahiro Itazuri", "Yoshiki Kubotani", "Guarin Flück", "Wadim Kehl", "Kazuki Kozuka"]
-tags: ["Workshop", "ICCV2025"]
-categories: ["Workshop", "ICCV2025"]
+tags: ["Workshop", "ICCV", "ICCV2025", "Foundation Data", "Foundation Models", "Tech Transfer"]
+categories: ["Workshop", "ICCV", "ICCV2025"]
 date: 2025-09-27T03:13:47Z
 lastmod: 2025-09-27T03:13:47Z
 featured: false
@@ -28,7 +28,7 @@ image:
 projects: []
 ---
 
-We are happy to announce the ICCV 2025 workshop “FOUND: Foundation Data for Industrial Tech Transfer” has been accepted! This workshop will be held in conjunction with ICCV 2025, one of the top conferences in computer vision. The workshop will highlight the critical role of data in building foundation models, with a particular focus on robust dataset construction and industry-driven applications.
+We are happy to announce that our workshop proposal for the FOUND Workshop, ["FOUND: Foundation Data for Industrial Tech Transfer @ ICCV 2025"](https://iccv2025-found-workshop.limitlab.xyz/), has been accepted! This workshop will be held in conjunction with ICCV 2025, one of the top conferences in computer vision. The workshop will highlight the critical role of data in building foundation models, with a particular focus on robust dataset construction and industry-driven applications.
 
 > ## About FOUND Workshop
 > 

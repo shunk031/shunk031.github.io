@@ -27,6 +27,10 @@ www.scimagojr.com
 clustrmaps.com
 www.meethawaii.com/convention-center/
 
+# connpass event pages currently return 403 to GitHub Actions / lychee,
+# while the event pages remain useful as historical source links.
+^https://[^/]+\.connpass\.com/event/[0-9]+/?$
+
 # The page is alive (curl returns 200) but lychee >= v0.24 (rustls) cannot
 # complete a TLS handshake because the server only offers legacy TLS cipher
 # suites. Re-check regularly in case the server's TLS config is upgraded.
