@@ -5,12 +5,36 @@
     <link>https://shunk031.me/category/news/</link>
       <atom:link href="https://shunk031.me/category/news/index.xml" rel="self" type="application/rss+xml" />
     <description>News</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 16 Aug 2026 12:01:13 +0900</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 26 Aug 2026 09:00:00 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.me/media/sharing.png</url>
       <title>News</title>
       <link>https://shunk031.me/category/news/</link>
     </image>
+    
+    <item>
+      <title>Press Releases about Our FOUND Workshop at ECCV 2026</title>
+      <link>https://shunk031.me/news/eccv-2026-found-workshop-press-releases/</link>
+      <pubDate>Wed, 26 Aug 2026 09:00:00 +0900</pubDate>
+      <guid>https://shunk031.me/news/eccv-2026-found-workshop-press-releases/</guid>
+      <description>&lt;p&gt;Press releases about our workshop, &lt;a href=&#34;https://shunk031.me/post/eccv2026-found-workshop/&#34;&gt;&amp;ldquo;The 2nd Workshop on Foundation Data for Industrial Tech Transfer (FOUND)&amp;rdquo; at ECCV 2026&lt;/a&gt;, have been published by LY Corporation, CADDi, and SB Intuitions.&lt;/p&gt;
+&lt;div class=&#34;blogcard&#34;&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fprtimes.jp%2Fmain%2Fhtml%2Frd%2Fp%2F000001786.000129774.html&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;blogcard&#34;&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fcaddi.com%2Fja-jp%2Fnews%2Fpress%2F20260826%2F&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;blogcard&#34;&gt;
+    &lt;iframe class=&#34;hatenablogcard&#34; style=&#34;width:100%;height:155px;max-width:500px;border:0;&#34; title=&#34;Blog card&#34;
+        src=&#34;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fwww.sbintuitions.co.jp%2Fnews%2Finfo%2F20260826_01%2F&#34; width=&#34;300&#34; height=&#34;150&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
     
     <item>
       <title>Our Presentations at YANS 2026</title>
