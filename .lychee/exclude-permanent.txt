@@ -10,3 +10,6 @@ scholar.google.com/citations
 
 # cl.sd.tmu.ac.jp has timed out in CI for the DC2 post.
 cl.sd.tmu.ac.jp
+
+# The Gunosy Wantedly article has been removed and returns 404.
+www.wantedly.com/companies/gunosy/post_articles/181818
