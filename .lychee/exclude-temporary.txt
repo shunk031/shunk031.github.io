@@ -40,3 +40,8 @@ book.impress.co.jp
 # Weekly prune will drop once fast again.
 https://openaccess.thecvf.com/content/CVPR2026F/html/Kawada_SciGA_A_Comprehensive_Dataset_for_Designing_Graphical_Abstracts_in_Academic_CVPRF_2026_paper.html
 https://openaccess.thecvf.com/content/CVPR2026F/html/Nagai_TAUE_Training-free_Noise_Transplant_and_Cultivation_Diffusion_Model_CVPRF_2026_paper.html
+
+# X profile pages return 403 to GitHub Actions / lychee.
+# Re-check regularly in case the access policy changes.
+x.com/Aoi_Harada00
+x.com/shunk031
