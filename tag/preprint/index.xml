@@ -5,12 +5,20 @@
     <link>https://shunk031.me/tag/preprint/</link>
       <atom:link href="https://shunk031.me/tag/preprint/index.xml" rel="self" type="application/rss+xml" />
     <description>Preprint</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 05 Dec 2024 00:00:00 +0900</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 06 Aug 2026 08:53:02 +0900</lastBuildDate>
     <image>
       <url>https://shunk031.me/media/sharing.png</url>
       <title>Preprint</title>
       <link>https://shunk031.me/tag/preprint/</link>
     </image>
+    
+    <item>
+      <title>GenGA: Editable and Data-Grounded Graphical Abstract Generation for Academic Papers</title>
+      <link>https://shunk031.me/publication/kawada2026genga/</link>
+      <pubDate>Thu, 06 Aug 2026 08:53:02 +0900</pubDate>
+      <guid>https://shunk031.me/publication/kawada2026genga/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>VASCAR: Content-Aware Layout Generation via Visual-Aware Self-Correction</title>
