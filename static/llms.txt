@@ -1,0 +1,25 @@
+# Shunsuke Kitada — shunk031.me
+
+> Personal website of Shunsuke Kitada (北田 俊輔), Ph.D., a research scientist at LY Corporation. This site covers his research, publications, talks, projects, and technical writing.
+
+Research interests include natural language processing, computer vision, medical image processing, and computational advertising.
+
+## About
+
+- [Homepage](https://shunk031.me/): Biography, recent news, research highlights, experience, and projects.
+- [Researcher profile](https://shunk031.me/authors/shunsuke-kitada/): Affiliations, background, and research interests.
+
+## Research
+
+- [Publications](https://shunk031.me/publication/): Journal articles, conference papers, preprints, and theses, with links to papers and other materials where available.
+- [Projects](https://shunk031.me/#projects): Research projects, posters, and official implementations featured on the homepage.
+- [Talks](https://shunk031.me/event/): Research presentations and talks, including links to slides where available.
+
+## News and writing
+
+- [Recent news](https://shunk031.me/#recent-news): Research updates, awards, and other announcements.
+- [Posts](https://shunk031.me/post/): Technical articles, conference reports, and other writing.
+
+## Optional
+
+- [Sitemap](https://shunk031.me/sitemap.xml): Full index of site pages.
