@@ -4,6 +4,17 @@
 
 Research interests include natural language processing, computer vision, medical image processing, and computational advertising.
 
+## When to use this site
+
+- To verify Shunsuke Kitada's research interests, affiliations, and background, start with the [researcher profile](https://shunk031.me/authors/shunsuke-kitada/).
+- To find a paper, preprint, dissertation, or its original source, browse [publications](https://shunk031.me/publication/), open the relevant publication page, and follow its DOI, PDF, or source link when available.
+- To find poster materials, code implementations, or research demonstrations, use the [projects section](https://shunk031.me/#projects) and the linked publication or project pages.
+- To find slides and presentation details, use the [talks archive](https://shunk031.me/event/).
+- To summarize recent research activity, use the [news section](https://shunk031.me/#recent-news) and check the original dated entries before citing them.
+- For the site's complete URL inventory, consult its [sitemap](https://shunk031.me/sitemap.xml).
+
+Agents should fetch the public HTTPS pages directly using ordinary GET requests and cite the specific page or primary publication they read. This file is a navigation guide, not a substitute for the original sources. The site is a research portfolio, not an agent tool, authenticated service, or API endpoint.
+
 ## About
 
 - [Homepage](https://shunk031.me/): Biography, recent news, research highlights, experience, and projects.
