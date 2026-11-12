@@ -45,3 +45,13 @@ https://openaccess.thecvf.com/content/CVPR2026F/html/Nagai_TAUE_Training-free_No
 # Re-check regularly in case the access policy changes.
 x.com/Aoi_Harada00
 x.com/shunk031
+
+# Historical external URLs failing CI (2026-11-12); keep the original links
+# and let the weekly lychee prune check automatically restore them if recovered.
+# Hosei University pages return HTTP 503.
+^https://ai\.ws\.hosei\.ac\.jp/wp/$
+^https://ai\.ws\.hosei\.ac\.jp/wp/news/news20210408/$
+# CCSE 2019 landing page returns HTTP 404 (other archive paths still exist).
+^https://ccse\.jp/2019/$
+# Tsukuba DC1 reference currently refuses connections.
+^http://www\.mibel\.cs\.tsukuba\.ac\.jp/~ceekz/dc1/$
